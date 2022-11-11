@@ -1,16 +1,13 @@
-### Hi there 👋
+# SceneDroid
 
-<!--
-**SceneDroid/SceneDroid** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Automated Generation of GUI Scenes for Android Apps.
 
-Here are some ideas to get you started:
+## 0x1 Abstract
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Due to the competitive environment, mobile apps are usually produced under pressure with lots of complicated functionality and
+UI pages. Therefore, it is challenging for various roles to design, understand, test, and maintain these apps. The extracted transition graphs for apps such as ATG, WTG, and STG have a low transition coverage and coarse-grained granularity, which limits the existing methods of graphical user interface (GUI) modeling by UI exploration. In this paper, we propose SceneDroid, a dynamic exploration approach to extracting the GUI scenes dynamically by combining smart exploration, state fuzzing, and indirect launching strategies. We present the GUI scenes as a scene transitiongraph (SceneTG) to model the GUI of apps with high transition coverage and fine-grained granularity. Apart from the effectiveness evaluation of SceneDroid, we also illustrate the future potential of SceneDroid to support app development, reverse engineering, and GUI regression testing. 
+
+## 0x2 File Structure
+
+- sourcecode：Source code of the tool
+- experimentaldata：RQ1～3 Statistical data
