@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "org.smerty.zooborns.ZooBorns$1/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "org.smerty.zooborns.ZooBorns"
+            ],
+            "targets": [
+                "org.smerty.zooborns.FullscreenImage"
+            ]
+        },
+        {
+            "handler": "org.smerty.zooborns.FullscreenImage/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.smerty.zooborns.FullscreenImage"
+            ],
+            "targets": [
+                "org.smerty.zooborns.FullscreenImage"
+            ]
+        }
+    ]
+}

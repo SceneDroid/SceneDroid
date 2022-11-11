@@ -1,0 +1,100 @@
+public final class com.iccbot.R$layout extends java.lang.Object
+{
+    public static final int abc_action_bar_title_item;
+    public static final int abc_action_bar_up_container;
+    public static final int abc_action_bar_view_list_nav_layout;
+    public static final int abc_action_menu_item_layout;
+    public static final int abc_action_menu_layout;
+    public static final int abc_action_mode_bar;
+    public static final int abc_action_mode_close_item_material;
+    public static final int abc_activity_chooser_view;
+    public static final int abc_activity_chooser_view_include;
+    public static final int abc_activity_chooser_view_list_item;
+    public static final int abc_expanded_menu_layout;
+    public static final int abc_list_menu_item_checkbox;
+    public static final int abc_list_menu_item_icon;
+    public static final int abc_list_menu_item_layout;
+    public static final int abc_list_menu_item_radio;
+    public static final int abc_popup_menu_item_layout;
+    public static final int abc_screen_content_include;
+    public static final int abc_screen_simple;
+    public static final int abc_screen_simple_overlay_action_mode;
+    public static final int abc_screen_toolbar;
+    public static final int abc_search_dropdown_item_icons_2line;
+    public static final int abc_search_view;
+    public static final int abc_simple_dropdown_hint;
+    public static final int activity_main;
+    public static final int fragment1;
+    public static final int source2withfrag;
+    public static final int support_simple_spinner_dropdown_item;
+
+    public void <init>()
+    {
+        com.iccbot.R$layout r0;
+
+        r0 := @this: com.iccbot.R$layout;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void <clinit>()
+    {
+        <com.iccbot.R$layout: int support_simple_spinner_dropdown_item> = 2130903066;
+
+        <com.iccbot.R$layout: int source2withfrag> = 2130903065;
+
+        <com.iccbot.R$layout: int fragment1> = 2130903064;
+
+        <com.iccbot.R$layout: int activity_main> = 2130903063;
+
+        <com.iccbot.R$layout: int abc_simple_dropdown_hint> = 2130903062;
+
+        <com.iccbot.R$layout: int abc_search_view> = 2130903061;
+
+        <com.iccbot.R$layout: int abc_search_dropdown_item_icons_2line> = 2130903060;
+
+        <com.iccbot.R$layout: int abc_screen_toolbar> = 2130903059;
+
+        <com.iccbot.R$layout: int abc_screen_simple_overlay_action_mode> = 2130903058;
+
+        <com.iccbot.R$layout: int abc_screen_simple> = 2130903057;
+
+        <com.iccbot.R$layout: int abc_screen_content_include> = 2130903056;
+
+        <com.iccbot.R$layout: int abc_popup_menu_item_layout> = 2130903055;
+
+        <com.iccbot.R$layout: int abc_list_menu_item_radio> = 2130903054;
+
+        <com.iccbot.R$layout: int abc_list_menu_item_layout> = 2130903053;
+
+        <com.iccbot.R$layout: int abc_list_menu_item_icon> = 2130903052;
+
+        <com.iccbot.R$layout: int abc_list_menu_item_checkbox> = 2130903051;
+
+        <com.iccbot.R$layout: int abc_expanded_menu_layout> = 2130903050;
+
+        <com.iccbot.R$layout: int abc_activity_chooser_view_list_item> = 2130903049;
+
+        <com.iccbot.R$layout: int abc_activity_chooser_view_include> = 2130903048;
+
+        <com.iccbot.R$layout: int abc_activity_chooser_view> = 2130903047;
+
+        <com.iccbot.R$layout: int abc_action_mode_close_item_material> = 2130903046;
+
+        <com.iccbot.R$layout: int abc_action_mode_bar> = 2130903045;
+
+        <com.iccbot.R$layout: int abc_action_menu_layout> = 2130903044;
+
+        <com.iccbot.R$layout: int abc_action_menu_item_layout> = 2130903043;
+
+        <com.iccbot.R$layout: int abc_action_bar_view_list_nav_layout> = 2130903042;
+
+        <com.iccbot.R$layout: int abc_action_bar_up_container> = 2130903041;
+
+        <com.iccbot.R$layout: int abc_action_bar_title_item> = 2130903040;
+
+        return;
+    }
+}

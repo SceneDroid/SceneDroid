@@ -1,0 +1,589 @@
+{
+    "transitions": [
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.settings.activity.GenderSearchActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.settings.activity.ExitSurveyFeedbackActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.settings.activity.ExitSurveyFeedbackActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.profile.activities.ProfileSpotifyAuthActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.profile.activities.ProfileSpotifyAuthActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.tinder.profile.activities.ProfileSpotifyAuthActivity"
+            ],
+            "targets": [
+                "com.spotify.sdk.android.authentication.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.settings.activity.SettingsActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.settings.activity.SettingsActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.activities.ActivityEditProfile"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.activities.ActivityEditProfile"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.places.settings.activity.PlacesSurveyOtherActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.places.settings.activity.PlacesSurveyOtherActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.places.settings.activity.PlacesDisabledSurveyActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.places.settings.activity.PlacesDisabledSurveyActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.settings.activity.ShowMeActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.places.settings.activity.PlacesSettingsActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.places.settings.activity.PlacesSettingsActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.spotify.activity.SpotifyAuthActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.tinder.spotify.activity.SpotifyAuthActivity"
+            ],
+            "targets": [
+                "com.spotify.sdk.android.authentication.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.spotify.activity.SpotifyAuthActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.activities.ActivityJob"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.activities.ActivityJob"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.profile.activities.MatchProfileActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.profile.activities.MatchProfileActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.chat.activity.GrandGestureChatActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.chat.activity.GrandGestureChatActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.messageads.activity.MessageAdMatchProfileActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.messageads.activity.MessageAdMatchProfileActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.onboarding.activities.OnboardingActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.onboarding.activities.OnboardingActivity/void l()",
+            "sources": [
+                "com.tinder.onboarding.activities.OnboardingActivity"
+            ],
+            "targets": [
+                "com.tinder.settings.activity.GenderSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.activities.MainActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.activities.MainActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.ac/void a(java.lang.String,com.tinder.managers.ac$b)",
+            "sources": [
+                "com.tinder.activities.MainActivity"
+            ],
+            "targets": [
+                "com.tinder.webprofile.activity.WebProfileUsernameActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.settings.loops.activity.AutoPlayLoopsOptionsActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.settings.loops.activity.AutoPlayLoopsOptionsActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.activities.ActivityAddPhoto"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.activities.ActivityAddPhoto"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.common.activity.FullscreenImageActivity$a/void a(android.content.Context,int,java.lang.String,float,float,android.graphics.Point)",
+            "sources": [
+                "com.tinder.common.activity.FullscreenImageActivity"
+            ],
+            "targets": [
+                "com.tinder.common.activity.FullscreenImageActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.chat.activity.ChatActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.chat.activity.ChatActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.settings.activity.MoreGenderActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.passport.activities.ActivityPassport"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.passport.activities.ActivityPassport"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.spotify.activity.SpotifyPickTopArtistActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.profile.activities.ProfileInstagramAuthActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.profile.activities.ProfileInstagramAuthActivity/void b()",
+            "sources": [
+                "com.tinder.profile.activities.ProfileInstagramAuthActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.WebViewActivityInstagram"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.settings.feed.activity.FeedSettingsActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.settings.feed.activity.FeedSettingsActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.profile.activities.CurrentUserProfileActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.profile.activities.CurrentUserProfileActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.activities.SchoolActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.activities.SchoolActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.activities.LoginActivity$1/void onAnimationEnd(android.animation.Animator)",
+            "sources": [
+                "com.tinder.activities.LoginActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.activities.LoginActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.d/boolean b(com.facebook.login.g,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.tinder.activities.LoginActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.activities.ActivityVerification/void onEventMainThread(com.tinder.events.EventLoggedOut)",
+            "sources": [
+                "com.tinder.activities.ActivityVerification"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.activities.ActivityVerification"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.activities.ActivityVerification/void f()",
+            "sources": [
+                "com.tinder.activities.ActivityVerification"
+            ],
+            "targets": [
+                "com.tinder.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.activities.ActivityBanned/void onEventMainThread(com.tinder.events.EventLoggedOut)",
+            "sources": [
+                "com.tinder.activities.ActivityBanned"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.messageads.activity.AdMessageChatActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.messageads.activity.AdMessageChatActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.tinderplus.activities.ActivityTPlusControl"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.tinderplus.activities.ActivityTPlusControl"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.settings.activity.ExitSurveyActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.settings.activity.ExitSurveyActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.managers.bl/void a(android.app.Activity)",
+            "sources": [
+                "com.tinder.spotify.activity.SpotifyTrackSearchActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.ActivityBanned"
+            ]
+        },
+        {
+            "handler": "com.tinder.base.d/void J()",
+            "sources": [
+                "com.tinder.spotify.activity.SpotifyTrackSearchActivity"
+            ],
+            "targets": [
+                "com.tinder.activities.LoginActivity"
+            ]
+        }
+    ]
+}

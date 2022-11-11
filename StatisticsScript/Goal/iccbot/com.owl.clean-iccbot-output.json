@@ -1,0 +1,724 @@
+{
+    "transitions": [
+        {
+            "handler": "com.xyz.clean.master.b.e/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.PermissionUtils$PermissionActivity/void a(android.content.Context)",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.PermissionUtils$PermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.b.e/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.BoostActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.smartlocker.e.a/void a(android.content.Context,int)",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.smartlocker.activity.SmartLockerGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.MainActivity/void l()",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.SettingActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.RatingStarActivity/void a(android.content.Context,int,java.lang.String)",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.RatingStarActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.b.e/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CleanerActivity"
+            ]
+        },
+        {
+            "handler": "com.xinmei.space.ad.internal.ads.a.c/void a(android.content.Context,java.lang.String,java.lang.Object,com.xinmei.space.ad.c)",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xinmei.space.ad.internal.ads.admob.AdmobNativeInterstitialAdActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.MainActivity/void j()",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockUnlockActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.MainActivity/void m()",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.wifi.WifiOffActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.MainActivity/void h()",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.security.AntiVirusActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.MainActivity/void k()",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CoolerResultActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.MainActivity/void j()",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockSelectActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.b.e/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CoolerActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.MainActivity/void i()",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.BoostResultActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.MainActivity/void g()",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.ResultActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.MainActivity/void m()",
+            "sources": [
+                "com.xyz.clean.master.MainActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.wifi.WifiScanResultActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.applock.ui.AppLockSelectActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockSelectActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockPasscodeActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.applock.ui.AppLockSelectActivity/void h()",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockSelectActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockManagerActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.guide.e$5/void run()",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockSelectActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.guide.ui.PermissionGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.applock.ui.h/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockSelectActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockSelectActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.xyz.clean.master.BoostResultActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.BoostResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CoolerActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.BoostResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CleanerActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.RatingStarActivity/void a(android.content.Context,int,java.lang.String)",
+            "sources": [
+                "com.xyz.clean.master.BoostResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.RatingStarActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.smartlocker.e.a/void a(android.content.Context,int)",
+            "sources": [
+                "com.xyz.clean.master.BoostResultActivity"
+            ],
+            "targets": [
+                "com.xyz.smartlocker.activity.SmartLockerGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.BoostResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.BoostActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.BoostResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockSelectActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.WebViewActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.xyz.clean.master.PrivacyPolicyActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.CoolerActivity/void i()",
+            "sources": [
+                "com.xyz.clean.master.CoolerActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CoolerResultActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.xyz.clean.master.CoolerActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.BoostActivity/void a(long)",
+            "sources": [
+                "com.xyz.clean.master.BoostActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.BoostResultActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.xyz.clean.master.BoostActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.applock.ui.h/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockPasscodeActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockSelectActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.applock.ui.AppLockUnlockActivity$2/void b(java.util.List)",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockUnlockActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockManagerActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.applock.ui.AppLockUnlockActivity/void a(boolean)",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockUnlockActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockPasscodeActivity"
+            ]
+        },
+        {
+            "handler": "com.xinmei.space.ad.internal.ads.a.c/void a(android.content.Context,java.lang.String,java.lang.Object,com.xinmei.space.ad.c)",
+            "sources": [
+                "com.koala.autoboost.module.AutoBoostActivity"
+            ],
+            "targets": [
+                "com.xinmei.space.ad.internal.ads.admob.AdmobNativeInterstitialAdActivity"
+            ]
+        },
+        {
+            "handler": "com.xinmei.space.ad.internal.ads.a.c/void a(android.content.Context,java.lang.String,java.lang.Object,com.xinmei.space.ad.c)",
+            "sources": [
+                "com.xyz.clean.ui.OptimizeResultActivity"
+            ],
+            "targets": [
+                "com.xinmei.space.ad.internal.ads.admob.AdmobNativeInterstitialAdActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.WebViewActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.xyz.clean.master.FirstSplashActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.SplashActivity/void e()",
+            "sources": [
+                "com.xyz.clean.master.FirstSplashActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.CleanerActivity/void j()",
+            "sources": [
+                "com.xyz.clean.master.CleanerActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.ResultActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.xyz.clean.master.CleanerActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.CoolerResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockSelectActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.CoolerResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.BoostActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.CoolerResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CleanerActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.ads.b$1/boolean onTouch(android.view.View,android.view.MotionEvent)",
+            "sources": [
+                "com.xyz.clean.master.CoolerResultActivity"
+            ],
+            "targets": [
+                "com.facebook.ads.AudienceNetworkActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.smartlocker.e.a/void a(android.content.Context,int)",
+            "sources": [
+                "com.xyz.clean.master.CoolerResultActivity"
+            ],
+            "targets": [
+                "com.xyz.smartlocker.activity.SmartLockerGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.RatingStarActivity/void a(android.content.Context,int,java.lang.String)",
+            "sources": [
+                "com.xyz.clean.master.CoolerResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.RatingStarActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.xyz.clean.master.CoolerResultActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.CoolerResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CoolerActivity"
+            ]
+        },
+        {
+            "handler": "com.xinmei.battery.module.internal.activity.BatteryOptimizeActivity/void a(int)",
+            "sources": [
+                "com.xinmei.battery.module.internal.activity.BatteryOptimizeActivity"
+            ],
+            "targets": [
+                "com.xinmei.battery.module.internal.activity.BatteryOptimizeActivity"
+            ]
+        },
+        {
+            "handler": "com.xinmei.space.ad.internal.ads.a.c/void a(android.content.Context,java.lang.String,java.lang.Object,com.xinmei.space.ad.c)",
+            "sources": [
+                "com.xinmei.battery.module.internal.activity.BatteryOptimizeActivity"
+            ],
+            "targets": [
+                "com.xinmei.space.ad.internal.ads.admob.AdmobNativeInterstitialAdActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.RatingStarActivity/void a(android.content.Context,int,java.lang.String)",
+            "sources": [
+                "com.xyz.clean.master.RatingStarActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.RatingStarActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.RatingStarActivity$1/void run()",
+            "sources": [
+                "com.xyz.clean.master.RatingStarActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.RatingGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.wifi.WifiScanResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CoolerActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.wifi.WifiScanResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockSelectActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.wifi.WifiScanResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CleanerActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.wifi.WifiScanResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.BoostActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.xyz.clean.master.wifi.WifiScanResultActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.applock.ui.AppLockActivity/void a(boolean)",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockPasscodeActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.applock.ui.AppLockOptimizeActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockOptimizeActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.applock.ui.AppLockActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.guide.e$5/void run()",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockManagerActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.guide.ui.PermissionGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.AppInstallActivity/void d()",
+            "sources": [
+                "com.xyz.clean.master.AppInstallActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.ResultActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.SplashActivity/void e()",
+            "sources": [
+                "com.xyz.clean.master.SplashActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.WebViewActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.xyz.clean.master.SplashActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.ResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockSelectActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.ResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CoolerActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.smartlocker.e.a/void a(android.content.Context,int)",
+            "sources": [
+                "com.xyz.clean.master.ResultActivity"
+            ],
+            "targets": [
+                "com.xyz.smartlocker.activity.SmartLockerGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.ResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.BoostActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.RatingStarActivity/void a(android.content.Context,int,java.lang.String)",
+            "sources": [
+                "com.xyz.clean.master.ResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.RatingStarActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.xyz.clean.master.ResultActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.d.a/void onClick(android.view.View)",
+            "sources": [
+                "com.xyz.clean.master.ResultActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.CleanerActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.WebViewActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.xyz.clean.master.WebViewActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.PermissionUtils$PermissionActivity/void a(android.content.Context)",
+            "sources": [
+                "com.xyz.permission.PermissionUtils$PermissionActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.PermissionUtils$PermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.smartlocker.activity.SmartLockerActivity/void a(android.content.Context)",
+            "sources": [
+                "com.xyz.smartlocker.activity.SmartLockerActivity"
+            ],
+            "targets": [
+                "com.xyz.smartlocker.activity.SmartLockerActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.applock.ui.AppLockOptimizeActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.xyz.clean.master.applock.ui.AppLockOptimizeActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.applock.ui.AppLockOptimizeActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.clean.master.wifi.WifiOffActivity/void d()",
+            "sources": [
+                "com.xyz.clean.master.wifi.WifiOffActivity"
+            ],
+            "targets": [
+                "com.xyz.clean.master.wifi.WifiScanResultActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.guide.e$5/void run()",
+            "sources": [
+                "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.guide.ui.PermissionGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity"
+            ],
+            "targets": [
+                "com.xyz.permission.guide.ui.AppUsagePermissionInstructionActivity"
+            ]
+        }
+    ]
+}

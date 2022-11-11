@@ -1,0 +1,193 @@
+{
+    "transitions": [
+        {
+            "handler": "com.urbanairship.google.PlayServicesErrorActivity/void checkPlayServices()",
+            "sources": [
+                "com.urbanairship.google.PlayServicesErrorActivity"
+            ],
+            "targets": [
+                "com.urbanairship.google.PlayServicesErrorActivity$ErrorDialogFragment"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.activities.IntercomCarouselActivity/void openLink(java.lang.String)",
+            "sources": [
+                "io.intercom.android.sdk.activities.IntercomCarouselActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.helpcenter.utils.HelpCenterUrlUtilsKt/void openArticle(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "io.intercom.android.sdk.activities.IntercomCarouselActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.helpcenter.articles.ArticleActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.activities.IntercomCarouselActivity/void startChat()",
+            "sources": [
+                "io.intercom.android.sdk.activities.IntercomCarouselActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.activities.IntercomMessengerActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.activities.IntercomNoteActivity/void onClick(android.view.View)",
+            "sources": [
+                "io.intercom.android.sdk.activities.IntercomNoteActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.activities.IntercomMessengerActivity"
+            ]
+        },
+        {
+            "handler": "com.urbanairship.job.JobDispatcher/void dispatch(com.urbanairship.job.JobInfo)",
+            "sources": [
+                "com.urbanairship.cordova.CustomMessageCenterActivity"
+            ],
+            "targets": [
+                "com.urbanairship.job.AirshipService"
+            ]
+        },
+        {
+            "handler": "com.urbanairship.messagecenter.MessageCenterFragment/void showMessageExternally(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.urbanairship.cordova.CustomMessageCenterActivity"
+            ],
+            "targets": [
+                "com.urbanairship.messagecenter.MessageActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.helpcenter.component.'-$$Lambda$HelpCenterUiComponentsKt$hXWHPELJLXXphy_hSGJyp7mfwdU'/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.helpcenter.collections.CollectionContentFragment$onStart$2$invokeSuspend$$inlined$collect$1/java.lang.Object emit(java.lang.Object,kotlin.coroutines.Continuation)",
+            "sources": [
+                "io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.helpcenter.articles.ArticleActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.helpcenter.collections.CollectionsListFragment$onFullHelpCenterClick$1/void invoke()",
+            "sources": [
+                "io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity"
+            ]
+        },
+        {
+            "handler": "com.urbanairship.util.HelperActivity/com.urbanairship.util.HelperActivity$ActivityResult startActivityForResult(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.urbanairship.util.HelperActivity"
+            ],
+            "targets": [
+                "com.urbanairship.util.HelperActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.activities.IntercomPostActivity/void onClick(android.view.View)",
+            "sources": [
+                "io.intercom.android.sdk.activities.IntercomPostActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.activities.IntercomMessengerActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.conversation.ConversationFragment/void onPostCardClicked(io.intercom.android.sdk.models.Part)",
+            "sources": [
+                "io.intercom.android.sdk.activities.IntercomMessengerActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.activities.IntercomPostActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.activities.IntercomMessengerActivity/void onArticleSearchClicked()",
+            "sources": [
+                "io.intercom.android.sdk.activities.IntercomMessengerActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.helpcenter.collections.IntercomHelpCenterActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.helpcenter.utils.HelpCenterUrlUtilsKt/void openArticle(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "io.intercom.android.sdk.activities.IntercomMessengerActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.helpcenter.articles.ArticleActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.blocks.LightboxOpeningImageClickListener/void onImageClicked(java.lang.String,java.lang.String,android.widget.ImageView,int,int)",
+            "sources": [
+                "io.intercom.android.sdk.activities.IntercomMessengerActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.lightbox.LightBoxActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.helpcenter.component.TeammateHelpKt/void renderTeamPresence$lambda-2$lambda-1(io.intercom.android.sdk.helpcenter.articles.ArticleViewState$TeamPresenceState,com.google.android.material.button.MaterialButton,android.view.View)",
+            "sources": [
+                "io.intercom.android.sdk.helpcenter.articles.ArticleActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.activities.IntercomMessengerActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.actions.UriAction/void openUriWithWebViewActivityFromPush(android.content.Context,android.net.Uri,android.os.Bundle)",
+            "sources": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "io.intercom.android.sdk.helpcenter.component.TeammateHelpKt/void renderTeamPresence$lambda-2$lambda-1(io.intercom.android.sdk.helpcenter.articles.ArticleViewState$TeamPresenceState,com.google.android.material.button.MaterialButton,android.view.View)",
+            "sources": [
+                "io.intercom.android.sdk.helpcenter.search.IntercomArticleSearchActivity"
+            ],
+            "targets": [
+                "io.intercom.android.sdk.activities.IntercomMessengerActivity"
+            ]
+        },
+        {
+            "handler": "com.onfido.android.sdk.capture.ui.OnfidoActivity/void showLivenessCapture()",
+            "sources": [
+                "com.onfido.android.sdk.capture.ui.OnfidoActivity"
+            ],
+            "targets": [
+                "com.onfido.android.sdk.capture.ui.camera.CaptureActivity"
+            ]
+        },
+        {
+            "handler": "com.urbanairship.job.JobDispatcher/void dispatch(com.urbanairship.job.JobInfo)",
+            "sources": [
+                "com.urbanairship.messagecenter.MessageCenterActivity"
+            ],
+            "targets": [
+                "com.urbanairship.job.AirshipService"
+            ]
+        }
+    ]
+}

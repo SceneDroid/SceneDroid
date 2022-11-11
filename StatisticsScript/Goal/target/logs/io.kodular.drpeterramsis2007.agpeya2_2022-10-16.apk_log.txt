@@ -1,0 +1,88 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+io.kodular.drpeterramsis2007.agpeya2_2022-10-16: OutputDir not a directory: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/io.kodular.drpeterramsis2007.agpeya2_2022-10-16
+Found 4 entrypoint classes and 16 methods in overall
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: void onPostCreate(android.os.Bundle)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: void onPostCreate(android.os.Bundle)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: void onPostCreate(android.os.Bundle)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: boolean onPrepareOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: boolean onPrepareOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: boolean onPrepareOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: void onCreate(android.os.Bundle)>
+io.kodular.drpeterramsis2007.agpeya2.ScFav: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: void onPostCreate(android.os.Bundle)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: boolean onPrepareOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: void onCreate(android.os.Bundle)>
+io.kodular.drpeterramsis2007.agpeya2.Screen1: Finished processing of entrypoints after 0 seconds.
+io.kodular.drpeterramsis2007.agpeya2.master: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <com.google.appinventor.components.runtime.Form: void onCreate(android.os.Bundle)>
+io.kodular.drpeterramsis2007.agpeya2.main: Finished processing of entrypoints after 0 seconds.
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/io.kodular.drpeterramsis2007.agpeya2_2022-10-16/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 0.131372699 seconds
+Entry point creation has run for 0.005121662 seconds
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.022303303 seconds

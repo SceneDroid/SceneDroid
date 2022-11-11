@@ -1,0 +1,43 @@
+public class com.iccbot.withFrag.Source1WithFrag extends android.support.v7.app.ActionBarActivity
+{
+
+    public void <init>()
+    {
+        com.iccbot.withFrag.Source1WithFrag r0;
+
+        r0 := @this: com.iccbot.withFrag.Source1WithFrag;
+
+        specialinvoke r0.<android.support.v7.app.ActionBarActivity: void <init>()>();
+
+        return;
+    }
+
+    protected void onCreate(android.os.Bundle)
+    {
+        com.iccbot.withFrag.Source1WithFrag r0;
+        android.os.Bundle $r1;
+        android.view.View $r2;
+        android.widget.Button r3;
+        com.iccbot.withFrag.Source1WithFrag$1 $r4;
+
+        r0 := @this: com.iccbot.withFrag.Source1WithFrag;
+
+        $r1 := @parameter0: android.os.Bundle;
+
+        specialinvoke r0.<android.support.v7.app.ActionBarActivity: void onCreate(android.os.Bundle)>($r1);
+
+        virtualinvoke r0.<com.iccbot.withFrag.Source1WithFrag: void setContentView(int)>(2130903063);
+
+        $r2 = virtualinvoke r0.<com.iccbot.withFrag.Source1WithFrag: android.view.View findViewById(int)>(2131296320);
+
+        r3 = (android.widget.Button) $r2;
+
+        $r4 = new com.iccbot.withFrag.Source1WithFrag$1;
+
+        specialinvoke $r4.<com.iccbot.withFrag.Source1WithFrag$1: void <init>(com.iccbot.withFrag.Source1WithFrag)>(r0);
+
+        virtualinvoke r3.<android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)>($r4);
+
+        return;
+    }
+}

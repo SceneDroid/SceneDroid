@@ -1,0 +1,130 @@
+{
+    "transitions": [
+        {
+            "handler": "aarddict.android.BaseDictionaryActivity$3$1/void run()",
+            "sources": [
+                "aarddict.android.DictionaryInfoActivity"
+            ],
+            "targets": [
+                "aarddict.android.DictionariesActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.BaseDictionaryActivity$3$1/void run()",
+            "sources": [
+                "aarddict.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "aarddict.android.DictionariesActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.LookupActivity/void launchWord(aarddict.Entry)",
+            "sources": [
+                "aarddict.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "aarddict.android.ArticleViewActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.ArticleViewActivity/boolean onSearchRequested()",
+            "sources": [
+                "aarddict.android.ArticleViewActivity"
+            ],
+            "targets": [
+                "aarddict.android.LookupActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.BaseDictionaryActivity$3$1/void run()",
+            "sources": [
+                "aarddict.android.ArticleViewActivity"
+            ],
+            "targets": [
+                "aarddict.android.DictionariesActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.ArticleViewActivity/boolean onSearchRequested()",
+            "sources": [
+                "aarddict.android.Article"
+            ],
+            "targets": [
+                "aarddict.android.LookupActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.BaseDictionaryActivity$3$1/void run()",
+            "sources": [
+                "aarddict.android.Article"
+            ],
+            "targets": [
+                "aarddict.android.DictionariesActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.LookupActivity/void launchWord(aarddict.Entry)",
+            "sources": [
+                "aarddict.android.Lookup"
+            ],
+            "targets": [
+                "aarddict.android.ArticleViewActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.BaseDictionaryActivity$3$1/void run()",
+            "sources": [
+                "aarddict.android.Lookup"
+            ],
+            "targets": [
+                "aarddict.android.DictionariesActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.LookupActivity/void launchWord(aarddict.Entry)",
+            "sources": [
+                "aarddict.android.LookupActivity"
+            ],
+            "targets": [
+                "aarddict.android.ArticleViewActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.BaseDictionaryActivity$3$1/void run()",
+            "sources": [
+                "aarddict.android.LookupActivity"
+            ],
+            "targets": [
+                "aarddict.android.DictionariesActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.BaseDictionaryActivity$3$1/void run()",
+            "sources": [
+                "aarddict.android.DictionariesActivity"
+            ],
+            "targets": [
+                "aarddict.android.DictionariesActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.DictionariesActivity$DictListAdapter/void showDetail(int)",
+            "sources": [
+                "aarddict.android.DictionariesActivity"
+            ],
+            "targets": [
+                "aarddict.android.DictionaryInfoActivity"
+            ]
+        },
+        {
+            "handler": "aarddict.android.DictionariesActivity/void onDictionaryServiceReady()",
+            "sources": [
+                "aarddict.android.DictionariesActivity"
+            ],
+            "targets": [
+                "aarddict.android.LookupActivity"
+            ]
+        }
+    ]
+}

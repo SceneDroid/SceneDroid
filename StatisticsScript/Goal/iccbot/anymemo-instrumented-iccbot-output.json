@@ -1,0 +1,490 @@
+{
+    "transitions": [
+        {
+            "handler": "org.liberty.android.fantastischmemo.MainTabs/void restartActivity()",
+            "sources": [
+                "org.liberty.android.fantastischmemo.MainTabs"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.MainTabs"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.downloader.QuizletLauncher$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.downloader.QuizletLauncher"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.DownloaderQuizlet"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.downloader.FELauncher/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.downloader.FELauncher"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.FEUpload"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.downloader.FELauncher/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.downloader.FELauncher"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.FEDirectory"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.downloader.FELauncher$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.downloader.FELauncher"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.DownloaderFE"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.downloader.FELauncher/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.downloader.FELauncher"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.FEOauth"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.downloader.FEDirectory/void openCategory(org.liberty.android.fantastischmemo.downloader.DownloadItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.downloader.FEDirectory"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.DownloaderFE"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.EditScreenTab/void fileClickAction(java.lang.String,java.lang.String)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.EditScreenTab"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.downloader.FEUpload/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.downloader.FEUpload"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.FileBrowser"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.RecentList/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.RecentList"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.RecentList/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.RecentList"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.RecentList/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.RecentList"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.SettingsScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.RecentList/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.RecentList"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.CramMemoScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.downloader.DropboxLauncher/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.downloader.DropboxLauncher"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.DownloaderDropbox"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.downloader.DropboxLauncher/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.downloader.DropboxLauncher"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.DropboxUploader"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.MainTabs/void restartActivity()",
+            "sources": [
+                "org.liberty.android.fantastischmemo.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.MainTabs"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.downloader.DownloaderDropbox/void openCategory(org.liberty.android.fantastischmemo.downloader.DownloadItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.downloader.DownloaderDropbox"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.DownloaderDropbox"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.DownloaderTab/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.DownloaderTab"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.QuizletLauncher"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.DownloaderTab/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.DownloaderTab"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.DropboxLauncher"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.DownloaderTab/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.DownloaderTab"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.FELauncher"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.DownloaderTab/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.DownloaderTab"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.DownloaderSS"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.DownloaderTab/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.DownloaderTab"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.downloader.DownloaderAnyMemo"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.OpenScreenTab/void fileClickAction(java.lang.String,java.lang.String)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.OpenScreenTab"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/void restartActivity()",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.CramMemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen$9/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.CramMemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.CramMemoScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.CramMemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.Filter"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.CramMemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.CramMemoScreen"
+            ],
+            "targets": [
+                "com.example.android.apis.graphics.FingerPaint"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.CramMemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.DetailScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.CramMemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.SettingsScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.CramMemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.CardEditor"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.SettingsScreen/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.SettingsScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.FileBrowser"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ],
+            "targets": [
+                "com.example.android.apis.graphics.FingerPaint"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.SettingsScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.DetailScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.CardEditor"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen$9/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.CramMemoScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/void restartActivity()",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.MemoScreen/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.MemoScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.Filter"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.MiscTab/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.MiscTab"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.DatabaseMerger"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.MiscTab/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.MiscTab"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.OptionScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.MiscTab/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.MiscTab"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.converter.ConvertScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.CardEditor/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.CardEditor"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.FileBrowser"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.EditScreen/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.Filter"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.EditScreen$3/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.CardEditor"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.EditScreen/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.DetailScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.EditScreen/void restartActivity()",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.EditScreen/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.SettingsScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.EditScreen/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.ListEditScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.EditScreen/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.DatabaseMerger"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.ShareScreen/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.ShareScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.FileBrowser"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.ShareScreen/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.ShareScreen"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.cardscreen.EditScreen"
+            ]
+        },
+        {
+            "handler": "org.liberty.android.fantastischmemo.cardscreen.DatabaseMerger/void onClick(android.view.View)",
+            "sources": [
+                "org.liberty.android.fantastischmemo.cardscreen.DatabaseMerger"
+            ],
+            "targets": [
+                "org.liberty.android.fantastischmemo.FileBrowser"
+            ]
+        }
+    ]
+}

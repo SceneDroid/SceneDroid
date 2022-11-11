@@ -1,0 +1,31 @@
+{
+    "transitions": [
+        {
+            "handler": "com.braze.ui.BrazeWebViewActivity$2/java.lang.Boolean handleUrlOverride(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ],
+            "targets": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.plaid.internal.link.TransparentLinkActivity/void a(androidx.fragment.app.Fragment)",
+            "sources": [
+                "com.plaid.internal.link.TransparentLinkActivity"
+            ],
+            "targets": [
+                "com.plaid.internal.link.LinkActivity"
+            ]
+        },
+        {
+            "handler": "com.wealthsimple.trade.LaunchActivity/void onStart()",
+            "sources": [
+                "com.wealthsimple.trade.LaunchActivity"
+            ],
+            "targets": [
+                "com.wealthsimple.trade.MainActivity"
+            ]
+        }
+    ]
+}

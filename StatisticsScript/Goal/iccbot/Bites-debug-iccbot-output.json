@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "caldwell.ben.bites.RecipeList/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "caldwell.ben.bites.RecipeList"
+            ],
+            "targets": [
+                "caldwell.ben.bites.BitesPreferences"
+            ]
+        },
+        {
+            "handler": "caldwell.ben.bites.IngredientList/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "caldwell.ben.bites.IngredientList"
+            ],
+            "targets": [
+                "caldwell.ben.bites.BitesPreferences"
+            ]
+        }
+    ]
+}

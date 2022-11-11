@@ -1,0 +1,103 @@
+{
+    "transitions": [
+        {
+            "handler": "com.justplay.app.reward.RewardActivity$setupClicks$2/void invoke(com.justplay.app.model.RewardPayment)",
+            "sources": [
+                "com.justplay.app.reward.RewardActivity"
+            ],
+            "targets": [
+                "com.justplay.app.reward.RewardDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.justplay.app.reward.RewardActivity/void onBackPressed()",
+            "sources": [
+                "com.justplay.app.reward.RewardActivity"
+            ],
+            "targets": [
+                "com.justplay.app.offersList.OffersListActivity"
+            ]
+        },
+        {
+            "handler": "com.justplay.app.cashout.CashoutActivity$displayMyRewardsDialog$1/void invoke()",
+            "sources": [
+                "com.justplay.app.cashout.CashoutActivity"
+            ],
+            "targets": [
+                "com.justplay.app.reward.RewardActivity"
+            ]
+        },
+        {
+            "handler": "com.justplay.app.cashout.CashoutActivity/void onBackPressed()",
+            "sources": [
+                "com.justplay.app.cashout.CashoutActivity"
+            ],
+            "targets": [
+                "com.justplay.app.offersList.OffersListActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.justplay.app.youtubeFullscreen.YoutubeFullScreenActivity$Companion/void start(android.content.Context,java.lang.String,float)",
+            "sources": [
+                "com.justplay.app.youtubeFullscreen.YoutubeFullScreenActivity"
+            ],
+            "targets": [
+                "com.justplay.app.youtubeFullscreen.YoutubeFullScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.justplay.app.offersList.OffersListActivity$openMorePopUp$1/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.justplay.app.offersList.OffersListActivity"
+            ],
+            "targets": [
+                "com.justplay.app.reward.RewardActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.justplay.app.offersList.OffersListActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.facetec.sdk.FaceTecSessionActivity/void createAndLaunchSession(android.content.Context,com.facetec.sdk.FaceTecFaceScanProcessor,com.facetec.sdk.FaceTecIDScanProcessor,java.lang.String)",
+            "sources": [
+                "com.facetec.sdk.FaceTecSessionActivity"
+            ],
+            "targets": [
+                "com.facetec.sdk.FaceTecSessionActivity"
+            ]
+        },
+        {
+            "handler": "com.justplay.app.splash.SplashActivity$onCreate$$inlined$let$lambda$1/void onAnimationEnd(android.animation.Animator)",
+            "sources": [
+                "com.justplay.app.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.justplay.app.offersList.OffersListActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "transitions": [
+        {
+            "handler": "campyre.android.RoomView/void verifyLogin()",
+            "sources": [
+                "campyre.android.RoomView"
+            ],
+            "targets": [
+                "campyre.android.Login"
+            ]
+        },
+        {
+            "handler": "campyre.android.RoomView/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "campyre.android.RoomView"
+            ],
+            "targets": [
+                "campyre.android.RoomTabs"
+            ]
+        },
+        {
+            "handler": "campyre.android.RoomView/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "campyre.android.RoomView"
+            ],
+            "targets": [
+                "campyre.android.Settings"
+            ]
+        },
+        {
+            "handler": "campyre.android.ShareImage/void onLogin()",
+            "sources": [
+                "campyre.android.ShareImage"
+            ],
+            "targets": [
+                "campyre.android.RoomList"
+            ]
+        },
+        {
+            "handler": "campyre.android.ShareImage/void verifyLogin()",
+            "sources": [
+                "campyre.android.ShareImage"
+            ],
+            "targets": [
+                "campyre.android.Login"
+            ]
+        },
+        {
+            "handler": "campyre.android.RoomList/void selectRoom(campyre.java.Room)",
+            "sources": [
+                "campyre.android.RoomList"
+            ],
+            "targets": [
+                "campyre.android.RoomTabs"
+            ]
+        },
+        {
+            "handler": "campyre.android.RoomList/void verifyLogin()",
+            "sources": [
+                "campyre.android.RoomList"
+            ],
+            "targets": [
+                "campyre.android.Login"
+            ]
+        },
+        {
+            "handler": "campyre.android.RoomList/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "campyre.android.RoomList"
+            ],
+            "targets": [
+                "campyre.android.Settings"
+            ]
+        },
+        {
+            "handler": "campyre.android.RoomList/void verifyLogin()",
+            "sources": [
+                "campyre.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "campyre.android.Login"
+            ]
+        },
+        {
+            "handler": "campyre.android.RoomList/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "campyre.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "campyre.android.Settings"
+            ]
+        },
+        {
+            "handler": "campyre.android.RoomList/void selectRoom(campyre.java.Room)",
+            "sources": [
+                "campyre.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "campyre.android.RoomTabs"
+            ]
+        }
+    ]
+}

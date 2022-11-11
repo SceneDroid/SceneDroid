@@ -1,0 +1,103 @@
+{
+    "transitions": [
+        {
+            "handler": "com.kvance.Nectroid.NectroidActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.kvance.Nectroid.NectroidActivity"
+            ],
+            "targets": [
+                "com.kvance.Nectroid.PlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.kvance.Nectroid.NectroidActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.kvance.Nectroid.NectroidActivity"
+            ],
+            "targets": [
+                "com.kvance.Nectroid.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.kvance.Nectroid.NectroidActivity$4/void onClick(android.view.View)",
+            "sources": [
+                "com.kvance.Nectroid.NectroidActivity"
+            ],
+            "targets": [
+                "com.kvance.Nectroid.StreamsActivity"
+            ]
+        },
+        {
+            "handler": "com.kvance.Nectroid.NectroidActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.kvance.Nectroid.NectroidActivity"
+            ],
+            "targets": [
+                "com.kvance.Nectroid.AboutActivity"
+            ]
+        },
+        {
+            "handler": "com.kvance.Nectroid.PlaylistActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.kvance.Nectroid.PlaylistActivity"
+            ],
+            "targets": [
+                "com.kvance.Nectroid.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.kvance.Nectroid.SettingsActivity$1/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.kvance.Nectroid.SettingsActivity"
+            ],
+            "targets": [
+                "com.kvance.Nectroid.SiteActivity"
+            ]
+        },
+        {
+            "handler": "com.kvance.Nectroid.SettingsActivity$5/boolean onPreferenceClick(android.preference.Preference)",
+            "sources": [
+                "com.kvance.Nectroid.SettingsActivity"
+            ],
+            "targets": [
+                "com.kvance.Nectroid.StreamsActivity"
+            ]
+        },
+        {
+            "handler": "com.kvance.Nectroid.NectroidActivity$4/void onClick(android.view.View)",
+            "sources": [
+                "com.kvance.Nectroid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.kvance.Nectroid.StreamsActivity"
+            ]
+        },
+        {
+            "handler": "com.kvance.Nectroid.NectroidActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.kvance.Nectroid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.kvance.Nectroid.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.kvance.Nectroid.NectroidActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.kvance.Nectroid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.kvance.Nectroid.PlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.kvance.Nectroid.NectroidActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.kvance.Nectroid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.kvance.Nectroid.AboutActivity"
+            ]
+        }
+    ]
+}

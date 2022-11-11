@@ -1,0 +1,85 @@
+{
+    "transitions": [
+        {
+            "handler": "de.homac.Mirrored.ArticlesList/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.homac.Mirrored.ArticlesList"
+            ],
+            "targets": [
+                "de.homac.Mirrored.ArticlesList"
+            ]
+        },
+        {
+            "handler": "de.homac.Mirrored.ArticlesList/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "de.homac.Mirrored.ArticlesList"
+            ],
+            "targets": [
+                "de.homac.Mirrored.ArticleViewer"
+            ]
+        },
+        {
+            "handler": "de.homac.Mirrored.ArticlesList/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.homac.Mirrored.ArticlesList"
+            ],
+            "targets": [
+                "de.homac.Mirrored.Preferences"
+            ]
+        },
+        {
+            "handler": "de.homac.Mirrored.ArticlesList/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.homac.Mirrored.ArticlesList"
+            ],
+            "targets": [
+                "de.homac.Mirrored.CategoriesList"
+            ]
+        },
+        {
+            "handler": "de.homac.Mirrored.ArticlesList/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "de.homac.Mirrored.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "de.homac.Mirrored.ArticleViewer"
+            ]
+        },
+        {
+            "handler": "de.homac.Mirrored.ArticlesList/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.homac.Mirrored.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "de.homac.Mirrored.ArticlesList"
+            ]
+        },
+        {
+            "handler": "de.homac.Mirrored.ArticlesList/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.homac.Mirrored.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "de.homac.Mirrored.Preferences"
+            ]
+        },
+        {
+            "handler": "de.homac.Mirrored.ArticlesList/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.homac.Mirrored.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "de.homac.Mirrored.CategoriesList"
+            ]
+        },
+        {
+            "handler": "de.homac.Mirrored.CategoriesList/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "de.homac.Mirrored.CategoriesList"
+            ],
+            "targets": [
+                "de.homac.Mirrored.ArticlesList"
+            ]
+        }
+    ]
+}

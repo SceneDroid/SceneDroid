@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "fr.keuse.rightsalert.activity.ApplistActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "fr.keuse.rightsalert.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "fr.keuse.rightsalert.preference.RightsalertPreference"
+            ]
+        },
+        {
+            "handler": "fr.keuse.rightsalert.activity.ApplistActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "fr.keuse.rightsalert.activity.ApplistActivity"
+            ],
+            "targets": [
+                "fr.keuse.rightsalert.preference.RightsalertPreference"
+            ]
+        }
+    ]
+}

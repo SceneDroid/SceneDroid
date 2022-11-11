@@ -1,0 +1,31 @@
+{
+    "transitions": [
+        {
+            "handler": "com.bendandinkmachine.bend.ink.machine.game.agliftips.GalleryDashboard/void onClick(android.view.View)",
+            "sources": [
+                "com.bendandinkmachine.bend.ink.machine.game.agliftips.GalleryDashboard"
+            ],
+            "targets": [
+                "com.bendandinkmachine.bend.ink.machine.game.agliftips.ImagesActivity"
+            ]
+        },
+        {
+            "handler": "com.bendandinkmachine.bend.ink.machine.game.agliftips.GalleryDashboard/void aboutUs(android.view.View)",
+            "sources": [
+                "com.bendandinkmachine.bend.ink.machine.game.agliftips.GalleryDashboard"
+            ],
+            "targets": [
+                "com.bendandinkmachine.bend.ink.machine.game.agliftips.AboutActivity"
+            ]
+        },
+        {
+            "handler": "com.bendandinkmachine.bend.ink.machine.game.agliftips.SplashScreen$1/void run()",
+            "sources": [
+                "com.bendandinkmachine.bend.ink.machine.game.agliftips.SplashScreen"
+            ],
+            "targets": [
+                "com.bendandinkmachine.bend.ink.machine.game.agliftips.GalleryDashboard"
+            ]
+        }
+    ]
+}

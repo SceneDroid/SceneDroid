@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "io.card.payment.CardIOActivity$2/void run()",
+            "sources": [
+                "io.card.payment.CardIOActivity"
+            ],
+            "targets": [
+                "io.card.payment.DataEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.jakewharton.processphoenix.ProcessPhoenix/void triggerRebirth(android.content.Context,android.content.Intent[])",
+            "sources": [
+                "com.jakewharton.processphoenix.ProcessPhoenix"
+            ],
+            "targets": [
+                "com.jakewharton.processphoenix.ProcessPhoenix"
+            ]
+        }
+    ]
+}

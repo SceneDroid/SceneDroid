@@ -1,0 +1,319 @@
+{
+    "transitions": [
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.ReacceptLegalTermsActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.PolicyActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.StoreDetailActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.extrareality.SnapshotShareActivity/void startSave()",
+            "sources": [
+                "com.extrareality.SnapshotShareActivity"
+            ],
+            "targets": [
+                "com.extrareality.PermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.HowItWorksActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.DynamicOverlayActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.PreferencesActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.AccountSuspendedActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.StoreLocatorActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.CustomBarCodeScanActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.extrareality.AndroidSceneGraph.SceneGraph/void performSnapshotSave()",
+            "sources": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ],
+            "targets": [
+                "com.extrareality.SnapshotShareActivity"
+            ]
+        },
+        {
+            "handler": "com.extrareality.AndroidSceneGraph.SceneGraph/void doStartVideo(java.lang.String)",
+            "sources": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ],
+            "targets": [
+                "com.extrareality.VideoDisplay"
+            ]
+        },
+        {
+            "handler": "com.extrareality.AndroidSceneGraph.SceneGraph/void openHistory()",
+            "sources": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ],
+            "targets": [
+                "com.extrareality.history.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.extrareality.AndroidSceneGraph.SceneGraph/void saveGif(java.lang.String,int,int,int,int[],java.lang.String,java.lang.String,boolean,boolean,java.util.HashMap)",
+            "sources": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ],
+            "targets": [
+                "com.extrareality.GifShareActivity"
+            ]
+        },
+        {
+            "handler": "com.extrareality.AndroidSceneGraph.SceneGraph/void requestAudioPermission()",
+            "sources": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ],
+            "targets": [
+                "com.extrareality.PermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.extrareality.AndroidSceneGraph.SceneGraph$2/void run()",
+            "sources": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ],
+            "targets": [
+                "com.extrareality.SaveToDevice"
+            ]
+        },
+        {
+            "handler": "com.extrareality.AndroidSceneGraph.SceneGraph/void openInfo()",
+            "sources": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.HowToUseActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.StoreListActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.ForceUpgradeActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.extrareality.GifShareActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.extrareality.GifShareActivity"
+            ],
+            "targets": [
+                "com.extrareality.PermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.FeedbackActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.SignUpActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.PostFacebookLoginActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.SignInActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.WelcomeActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.FacebookMergeActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.DashboardActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.i.b$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.sei.android.controllers.activity.DashboardActivity"
+            ],
+            "targets": [
+                "com.sei.android.controllers.activity.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.SplashActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.ProfileActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.AddCardActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        },
+        {
+            "handler": "com.sei.android.utilities.an/void a()",
+            "sources": [
+                "com.sei.android.controllers.activity.AgeVerificationActivity"
+            ],
+            "targets": [
+                "com.extrareality.AndroidSceneGraph.SceneGraphActivity"
+            ]
+        }
+    ]
+}

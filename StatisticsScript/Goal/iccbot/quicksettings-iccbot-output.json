@@ -1,0 +1,76 @@
+{
+    "transitions": [
+        {
+            "handler": "com.bwx.bequick.MainSettingsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.bwx.bequick.MainSettingsActivity"
+            ],
+            "targets": [
+                "com.bwx.bequick.preferences.CommonPrefs"
+            ]
+        },
+        {
+            "handler": "com.bwx.bequick.MainSettingsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.bwx.bequick.MainSettingsActivity"
+            ],
+            "targets": [
+                "com.bwx.bequick.LayoutSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.bwx.bequick.MainSettingsActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.bwx.bequick.MainSettingsActivity"
+            ],
+            "targets": [
+                "com.bwx.bequick.flashlight.ScreenLightActivity"
+            ]
+        },
+        {
+            "handler": "com.bwx.bequick.ShowSettingsActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.bwx.bequick.ShowSettingsActivity"
+            ],
+            "targets": [
+                "com.bwx.bequick.DialogSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.bwx.bequick.ShowSettingsActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.bwx.bequick.ShowSettingsActivity"
+            ],
+            "targets": [
+                "com.bwx.bequick.MainSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.bwx.bequick.MainSettingsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.bwx.bequick.DialogSettingsActivity"
+            ],
+            "targets": [
+                "com.bwx.bequick.preferences.CommonPrefs"
+            ]
+        },
+        {
+            "handler": "com.bwx.bequick.MainSettingsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.bwx.bequick.DialogSettingsActivity"
+            ],
+            "targets": [
+                "com.bwx.bequick.LayoutSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.bwx.bequick.MainSettingsActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.bwx.bequick.DialogSettingsActivity"
+            ],
+            "targets": [
+                "com.bwx.bequick.flashlight.ScreenLightActivity"
+            ]
+        }
+    ]
+}

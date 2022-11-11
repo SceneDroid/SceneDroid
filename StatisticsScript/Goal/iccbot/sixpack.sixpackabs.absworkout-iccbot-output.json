@@ -1,0 +1,328 @@
+{
+    "transitions": [
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.LevelSelectActivity$2/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.LevelSelectActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.LWIndexActivity/boolean a(android.view.MenuItem)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.LWIndexActivity/boolean a(android.view.MenuItem)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ],
+            "targets": [
+                "com.zjlib.thirtydaylib.activity.ExerciseListActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.LWIndexActivity/boolean a(android.view.MenuItem)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.LevelSelectActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.LWIndexActivity$17/void onClick(android.view.View)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.AloneAdActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.LWIndexActivity$10/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.LWIndexActivity/boolean a(android.view.MenuItem)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.LWCalendarActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.LWIndexActivity/void e(int)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.LWActionIntroActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.LWIndexActivity/boolean a(android.view.MenuItem)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.SettingReminder"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.ExerciseResultActivity/void x()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.ExerciseResultActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.LWHistoryActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.ExerciseResultActivity/void w()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.ExerciseResultActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.SettingReminder"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.SettingReminder/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.SettingReminder"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.PrivacyPolicyActivity/void o()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.PrivacyPolicyActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.LWActionIntroActivity/void t()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.LWActionIntroActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.LWActionIntroActivity/void r()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.LWActionIntroActivity"
+            ],
+            "targets": [
+                "com.zjlib.thirtydaylib.activity.LWDoActionActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.SettingActivity/void u()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.SettingReminder"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.SettingActivity/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.UnitActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.SettingActivity/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.FitActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.SettingActivity/void w()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.SettingActivity$4/void onClick(android.view.View)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ],
+            "targets": [
+                "com.zjlib.thirtydaylib.activity.LWDoActionActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.SettingActivity/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.SettingActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.DebugAdActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.SettingActivity$18/void onClick(android.view.View)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ],
+            "targets": [
+                "com.zjlib.thirtydaylib.activity.AllExerciseActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.SettingActivity/void x()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.SettingActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.PrivacyPolicyActivity"
+            ]
+        },
+        {
+            "handler": "com.zjlib.thirtydaylib.activity.AllExerciseActivity$4/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.zjlib.thirtydaylib.activity.AllExerciseActivity"
+            ],
+            "targets": [
+                "com.zjlib.thirtydaylib.activity.ActionPreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.zjlib.thirtydaylib.activity.EmptyActivityForBannerAd/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.zjlib.thirtydaylib.activity.EmptyActivityForBannerAd"
+            ],
+            "targets": [
+                "com.zjlib.thirtydaylib.activity.EmptyActivityForCardAd"
+            ]
+        },
+        {
+            "handler": "com.my.target.core.utils.j/void a(java.lang.String)",
+            "sources": [
+                "com.my.target.ads.MyTargetActivity"
+            ],
+            "targets": [
+                "com.my.target.ads.MyTargetActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void startVast(android.content.Context,com.mopub.mobileads.VastVideoConfig,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.LWHistoryActivity/void p()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.LWHistoryActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.LWCalendarActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.StartActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.StartActivity"
+            ],
+            "targets": [
+                "com.zjlib.thirtydaylib.activity.EmptyActivityForBannerAd"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.StartActivity/void o()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.StartActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.StartActivity/void o()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.StartActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.LevelSelectActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.LWCalendarActivity/void B()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.LWCalendarActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.activity.LWHistoryActivity"
+            ]
+        },
+        {
+            "handler": "sixpack.sixpackabs.absworkout.activity.LWCalendarActivity/void u()",
+            "sources": [
+                "sixpack.sixpackabs.absworkout.activity.LWCalendarActivity"
+            ],
+            "targets": [
+                "sixpack.sixpackabs.absworkout.LWIndexActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "transitions": [
+        {
+            "handler": "com.example.anycut.FrontDoorActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.example.anycut.FrontDoorActivity"
+            ],
+            "targets": [
+                "com.example.anycut.CreateShortcutActivity"
+            ]
+        },
+        {
+            "handler": "com.example.anycut.CreateShortcutActivity/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "com.example.anycut.CreateShortcutActivity"
+            ],
+            "targets": [
+                "com.example.anycut.CustomShortcutCreatorActivity"
+            ]
+        },
+        {
+            "handler": "com.example.anycut.CreateShortcutActivity/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "com.example.anycut.CreateShortcutActivity"
+            ],
+            "targets": [
+                "com.example.anycut.ActivityPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.example.anycut.ActivityPickerActivity$LoadingTask/com.example.anycut.ActivityPickerActivity$ActivityAdapter doInBackground(java.lang.Object[])",
+            "sources": [
+                "com.example.anycut.ActivityPickerActivity"
+            ],
+            "targets": [
+                "com.example.anycut.FrontDoorActivity"
+            ]
+        },
+        {
+            "handler": "com.example.anycut.FrontDoorActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.example.anycut.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.example.anycut.CreateShortcutActivity"
+            ]
+        }
+    ]
+}

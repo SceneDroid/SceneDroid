@@ -1,0 +1,382 @@
+{
+    "transitions": [
+        {
+            "handler": "com.instabug.library.k/void onClick(android.view.View)",
+            "sources": [
+                "com.instabug.library.InstabugFeedbackActivity"
+            ],
+            "targets": [
+                "com.instabug.library.InstabugIssueUploaderService"
+            ]
+        },
+        {
+            "handler": "com.instabug.library.o/void a(com.instabug.library.o)",
+            "sources": [
+                "com.instabug.library.InstabugFeedbackActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.instabug.library.InstabugFeedbackActivity$1/void run()",
+            "sources": [
+                "com.instabug.library.InstabugFeedbackActivity"
+            ],
+            "targets": [
+                "com.instabug.library.InstabugFeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.instabug.library.o/void a(com.instabug.library.o)",
+            "sources": [
+                "com.instabug.library.InstabugFeedbackActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.instabug.library.d.b/void onClick(android.view.View)",
+            "sources": [
+                "com.instabug.library.InstabugFeedbackActivity"
+            ],
+            "targets": [
+                "com.instabug.library.InstabugMessageUploaderService"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.browser.ImojiBrowserActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.SettingsFragment"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.IntentCreatorService/void goToSupportPage(android.app.Activity)",
+            "sources": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.ImojiWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.IntentCreatorService/void goToGooglePlayStore(java.lang.String,android.content.Context)",
+            "sources": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.IntentCreatorService/void goToLinkBSAccountToSnapchat(android.app.Activity,android.net.Uri,com.bitstrips.imoji.analytics.BSAuthMetricsReporter$Source,java.lang.String)",
+            "sources": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.activities.LinkBSAccountToSnapchatActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.IntentCreatorService/void goToGooglePlayStore(java.lang.String,android.content.Context)",
+            "sources": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.activities.DeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.IntentCreatorService/void goToForcedConnectSnapchatActivity(android.app.Activity)",
+            "sources": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.activities.ConnectSnapchatActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.browser.ImojiBrowserActivity/void onUpgradeAvatarSelected()",
+            "sources": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.abv3.AvatarBuilderActivityV3"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.ui.ImojiWebViewActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.IntentCreatorService/void goToPrivacyPolicy(android.app.Activity)",
+            "sources": [
+                "com.bitstrips.imoji.ui.activities.ConnectSnapchatActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.ImojiWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.ui.activities.ConnectSnapchatActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.activities.ConnectSnapchatActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "com.bitstrips.imoji.ui.activities.ConnectSnapchatActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.ui.activities.LinkBSAccountToSnapchatActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.IntentCreatorService/void goToLinkBSAccountToSnapchat(android.app.Activity,android.net.Uri,com.bitstrips.imoji.analytics.BSAuthMetricsReporter$Source,java.lang.String)",
+            "sources": [
+                "com.bitstrips.imoji.ui.activities.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.activities.LinkBSAccountToSnapchatActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.ui.activities.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.ui.BSLoginActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BSLoginActivity/void onForgotPasswordClicked(android.view.View)",
+            "sources": [
+                "com.bitstrips.imoji.ui.BSLoginActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.BSPasswordRecoveryActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.ui.activities.PrivacyUpdateActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.ui.activities.SignUpActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.behaviour.SecretBehaviourActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.activities.TermsChangedActivity/void a(com.bitstrips.imoji.ui.activities.TermsChangedActivity,int)",
+            "sources": [
+                "com.bitstrips.imoji.ui.activities.TermsChangedActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.activities.PrivacyUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.ui.activities.TermsChangedActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.abv3.AvatarBuilderActivityV3"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.abv3.AvatarBuilderActivityV3/void b()",
+            "sources": [
+                "com.bitstrips.imoji.abv3.AvatarBuilderActivityV3"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.arellomobile.android.push.PushManager/boolean a(android.app.Activity)",
+            "sources": [
+                "com.arellomobile.android.push.PushHandlerActivity"
+            ],
+            "targets": [
+                "com.arellomobile.android.push.PushWebview"
+            ]
+        },
+        {
+            "handler": "com.arellomobile.android.push.PushEventsTransmitter/void a(android.content.Context,java.lang.String,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.arellomobile.android.push.PushHandlerActivity"
+            ],
+            "targets": [
+                "com.arellomobile.android.push.MessageActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.IntentCreatorService/void goToLinkBSAccountToSnapchat(android.app.Activity,android.net.Uri,com.bitstrips.imoji.analytics.BSAuthMetricsReporter$Source,java.lang.String)",
+            "sources": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.activities.LinkBSAccountToSnapchatActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.LoginActivity/void onLoginClicked(android.view.View)",
+            "sources": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.BSLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.IntentCreatorService/void goToImojiBrowser(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.browser.ImojiBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.LoginActivity/void f()",
+            "sources": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.abv3.AvatarBuilderActivityV3"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.LoginActivity/void onSignUpClicked(android.view.View)",
+            "sources": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.activities.SignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.arellomobile.android.push.PushEventsTransmitter/void a(android.content.Context,java.lang.String,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ],
+            "targets": [
+                "com.arellomobile.android.push.MessageActivity"
+            ]
+        },
+        {
+            "handler": "net.hockeyapp.android.FeedbackActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "net.hockeyapp.android.FeedbackActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.PaintActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.MyAccountFragment/void d(com.bitstrips.imoji.ui.MyAccountFragment)",
+            "sources": [
+                "com.bitstrips.imoji.ui.SettingsFragment"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.abv3.AvatarBuilderActivityV3"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.MyAccountFragment$11/boolean onPreferenceClick(android.preference.Preference)",
+            "sources": [
+                "com.bitstrips.imoji.ui.SettingsFragment"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.activities.DeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.bitstrips.imoji.ui.BitmojiBaseActivity/void returnToLogin()",
+            "sources": [
+                "com.bitstrips.imoji.ui.SettingsFragment"
+            ],
+            "targets": [
+                "com.bitstrips.imoji.ui.LoginActivity"
+            ]
+        }
+    ]
+}

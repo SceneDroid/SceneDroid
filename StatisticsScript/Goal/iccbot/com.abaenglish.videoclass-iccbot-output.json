@@ -1,0 +1,2533 @@
+{
+    "transitions": [
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.PlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.PlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.PlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.PlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.PlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.PlansActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.PlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity/void g(com.abaenglish.videoclass.presentation.section.e)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity/void g(com.abaenglish.videoclass.presentation.section.e)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity/void I()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.plan.InitialPlansActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity/void g(com.abaenglish.videoclass.presentation.section.e)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity/void g(com.abaenglish.videoclass.presentation.section.e)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity/void g(com.abaenglish.videoclass.presentation.section.e)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity/void g(com.abaenglish.videoclass.presentation.section.e)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity/void g(com.abaenglish.videoclass.presentation.section.e)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.DetailUnitActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ChangePasswordActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.PerfilChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.PerfilChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.PerfilChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.PerfilChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.PerfilChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.PerfilChangePasswordActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.PerfilChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.InitialPlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.InitialPlansActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.InitialPlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.InitialPlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.InitialPlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.InitialPlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.plan.InitialPlansActivity/void goToViewPrices()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.InitialPlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.plan.PlansActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.plan.InitialPlansActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.helpdesk.InbentaActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.helpdesk.InbentaActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.helpdesk.InbentaActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.helpdesk.InbentaActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.helpdesk.InbentaActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.helpdesk.InbentaActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.helpdesk.InbentaActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ProfileChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ProfileChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ProfileChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ProfileChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ProfileChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ProfileChangePasswordActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.profile.ProfileChangePasswordActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.requests.RequestListFragment$a$1/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.zendesk.sdk.requests.RequestActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.requests.ViewRequestActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.PlayerActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.PlayerActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.PlayerActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.PlayerActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.PlayerActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.PlayerActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.PlayerActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.register.RegisterActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.register.RegisterActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.register.RegisterActivity/void y()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.register.RegisterActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.register.RegisterActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.register.RegisterActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.register.RegisterActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.register.RegisterActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.register.RegisterActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.result.AssessmentResultActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.assessment.result.l/void a(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.result.AssessmentResultActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.CourseFinishedActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.result.AssessmentResultActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.result.AssessmentResultActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.result.AssessmentResultActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.result.AssessmentResultActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.assessment.result.l/void a(java.lang.String,com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity$a)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.result.AssessmentResultActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.result.AssessmentResultActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.domain.a.c/void a(android.app.Activity,java.lang.String,long,com.abaenglish.videoclass.presentation.section.e,java.lang.String)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.result.AssessmentResultActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.result.AssessmentResultActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.domain.a.c/void a(android.app.Activity,java.lang.String,long,com.abaenglish.videoclass.presentation.section.e,java.lang.String)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.support.ViewArticleActivity/void startActivity(android.content.Context,com.zendesk.sdk.model.helpcenter.Article)",
+            "sources": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.shepherd.activities.ShepherdActivity$ConfigurationOnClickListener/void onClick(android.view.View)",
+            "sources": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdConfigurationController"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.domain.a.c/void a(android.app.Activity,java.lang.String,long,com.abaenglish.videoclass.presentation.section.e,java.lang.String)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.support.SupportActivity/void showContactActivity()",
+            "sources": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.support.ViewArticleActivity/void startActivity(android.content.Context,com.zendesk.sdk.model.helpcenter.Article)",
+            "sources": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.support.SupportActivity$Builder/void show(android.content.Context)",
+            "sources": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.requests.RequestListFragment$a$1/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.requests.ViewRequestActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.profile.ProfileFragmentNew/void premiumButtonAction()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.plan.PlansActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.helpdesk.b/void onClick(android.view.View)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.helpdesk.InbentaActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.profile.ProfileFragmentNew/void changePassword()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.profile.ProfileChangePasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.profile.ProfileFragmentNew/void termOfUseAction()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.profile.LegalInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.abaMoment.d/void a(com.abaenglish.videoclass.data.b.c.a.a,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentStartActivity_"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.domain.a.c/void a(android.app.Activity,java.lang.String,long,com.abaenglish.videoclass.presentation.section.e,java.lang.String)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.level.a/void a(com.abaenglish.videoclass.data.persistence.ABALevel,com.abaenglish.videoclass.data.persistence.ABALevel,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentStartActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.abaMoment.c/void d()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentStartActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentActivity_"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentStartActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentStartActivity_"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentStartActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentStartActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentStartActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentStartActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentActivity_"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.abaMoment.ABAMomentActivity_"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.login.LoginActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.login.LoginActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.login.LoginActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.login.LoginActivity/void register()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.login.LoginActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.register.RegisterActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.login.LoginActivity/void changePassword()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.login.LoginActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.profile.ChangePasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.login.LoginActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.login.LoginActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.login.LoginActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.login.LoginActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity/void b()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.domain.a.c/void a(android.app.Activity,java.lang.String,long,com.abaenglish.videoclass.presentation.section.e,java.lang.String)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.domain.a.c/void a(android.app.Activity,java.lang.String,long,com.abaenglish.videoclass.presentation.section.e,java.lang.String)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.domain.a.c/void a(android.app.Activity,java.lang.String,long,com.abaenglish.videoclass.presentation.section.e,java.lang.String)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.PlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.domain.a.c/void a(android.app.Activity,java.lang.String,long,com.abaenglish.videoclass.presentation.section.e,java.lang.String)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation/void a(com.abaenglish.videoclass.presentation.unit.variation.a$a)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation/void a(com.abaenglish.videoclass.presentation.unit.variation.a$a)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation/void a(com.abaenglish.videoclass.presentation.unit.variation.a$a)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation/void a(com.abaenglish.videoclass.presentation.unit.variation.a$a)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation/void a(com.abaenglish.videoclass.presentation.unit.variation.a$a)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation/void I()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.plan.InitialPlansActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation/void a(com.abaenglish.videoclass.presentation.unit.variation.a$a)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation/void a(com.abaenglish.videoclass.presentation.unit.variation.a$a)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity/void a(com.abaenglish.videoclass.data.persistence.ABAEvaluation)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.result.AssessmentResultActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.domain.a.c/void a(android.app.Activity,java.lang.String,long,com.abaenglish.videoclass.presentation.section.e,java.lang.String)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.assessment.EvaluationExerciseActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.InterpretaDialogActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.InterpretaDialogActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.InterpretaDialogActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.InterpretaDialogActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.InterpretaDialogActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.InterpretaDialogActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.interpret.InterpretaDialogActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.feedback.ui.ContactZendeskActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.domain.a.c/void a(android.app.Activity,java.lang.String,long,com.abaenglish.videoclass.presentation.section.e,java.lang.String)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.unit.variation.DetailUnitActivityVariation"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.shell.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.write.ABAWriteActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$2$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.interpret.ABAInterpretationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.speak.ABASpeakActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void m()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.tutorial.TutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void n()",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a$1/void onShake(int)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.shepherd.activities.ShepherdActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.base.a/void a_(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.level.SelectLevelAcivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.exercise.ABAExercisesActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.assessment.ABAEvaluationActivity"
+            ]
+        },
+        {
+            "handler": "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity/void a(boolean)",
+            "sources": [
+                "com.abaenglish.videoclass.presentation.section.vocabulary.ABAVocabularyActivity"
+            ],
+            "targets": [
+                "com.abaenglish.videoclass.presentation.section.videoclass.ABAFilmActivity"
+            ]
+        }
+    ]
+}

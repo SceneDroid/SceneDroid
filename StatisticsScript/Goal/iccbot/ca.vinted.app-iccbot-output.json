@@ -1,0 +1,661 @@
+{
+    "transitions": [
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycpersonalinfo.KYCBasicInfoActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycpersonalinfo.KYCBasicInfoActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycpersonalinfo.KYCBasicInfoActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.filters.FiltersActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.filters.LocationAddressFilterFragment/void onViewCreated$lambda-8(com.unitedwardrobe.app.filters.LocationAddressFilterFragment,android.view.View)",
+            "sources": [
+                "com.unitedwardrobe.app.filters.FiltersActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.filters.FiltersActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.filters.FiltersActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycaccountlink.KYCAccountLinkActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycaccountlink.KYCAccountLinkActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycaccountlink.KYCAccountLinkActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity/void onCreate$lambda-2(com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity,android.view.View)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.activities.kycphotoid.KYCPhotoIDActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity/void onCreate$lambda-2(com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity,android.view.View)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.activities.kycaddressverification.KYCAddressVerificationActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity/void onCreate$lambda-2(com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity,android.view.View)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.activities.updatestripeaccount.UpdateStripeAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.verifystripeaccount.VerifyStripeAccountActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycaddressverification.KYCAddressVerificationActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycaddressverification.KYCAddressVerificationActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycaddressverification.KYCAddressVerificationActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.referrals.ReferralClient/boolean tryStartReferral()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.search.SearchActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.search.SearchActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.search.SearchActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.activities.checkoutpayment.CheckoutPaymentActivity/void paymentFail()",
+            "sources": [
+                "com.unitedwardrobe.app.activities.checkoutpayment.CheckoutPaymentActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.activities.paymentfailure.PaymentFailureActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.activities.checkoutpayment.CheckoutPaymentActivity/void paymentSuccess()",
+            "sources": [
+                "com.unitedwardrobe.app.activities.checkoutpayment.CheckoutPaymentActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.activities.paymentsuccess.PaymentSuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.checkoutpayment.CheckoutPaymentActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.checkoutpayment.CheckoutPaymentActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.checkoutpayment.CheckoutPaymentActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.feed.FeedActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.activities.feed.FeedActivity/void startSearching()",
+            "sources": [
+                "com.unitedwardrobe.app.activities.feed.FeedActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.activities.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.feed.FeedActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.activities.feed.FeedActivity/void openFilters(com.unitedwardrobe.app.activities.feed.Filters,com.unitedwardrobe.app.type.ProductsOrder)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.feed.FeedActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.filters.FiltersActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.feed.FeedActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.data.providers.UserProvider/void logout(android.app.Activity)",
+            "sources": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.updatestripeaccount.UpdateStripeAccountActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.updatestripeaccount.UpdateStripeAccountActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.updatestripeaccount.UpdateStripeAccountActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.OptimizeActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.Navigation/boolean recallDeeplink(android.app.Activity)",
+            "sources": [
+                "com.unitedwardrobe.app.OptimizeActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.data.providers.UserProvider/void logout(android.app.Activity)",
+            "sources": [
+                "com.unitedwardrobe.app.OptimizeActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycphotoid.KYCPhotoIDActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycphotoid.KYCPhotoIDActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.kycphotoid.KYCPhotoIDActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.HomeActivity/void launch(com.unitedwardrobe.app.RootActivity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.data.providers.UserProvider/void logout(android.app.Activity)",
+            "sources": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.data.providers.UserProvider/void logout(android.app.Activity)",
+            "sources": [
+                "com.unitedwardrobe.app.OnboardingActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.OnboardingActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.usabilla.sdk.ubform.screenshot.UbScreenshotActivity$Companion/void start(androidx.fragment.app.Fragment,com.usabilla.sdk.ubform.sdk.form.model.UbInternalTheme)",
+            "sources": [
+                "com.usabilla.sdk.ubform.screenshot.UbScreenshotActivity"
+            ],
+            "targets": [
+                "com.usabilla.sdk.ubform.screenshot.UbScreenshotActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.paymentsuccess.PaymentSuccessActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.paymentsuccess.PaymentSuccessActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.paymentsuccess.PaymentSuccessActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void setTokenExpirationBroadcastAlarm()",
+            "sources": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.blog.BlogActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.blog.BlogActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.blog.BlogActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.paymentfailure.PaymentFailureActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.paymentfailure.PaymentFailureActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.paymentfailure.PaymentFailureActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.data.providers.UserProvider/void logout(android.app.Activity)",
+            "sources": [
+                "com.unitedwardrobe.app.HomeActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.HomeActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.HomeActivity/void launch(com.unitedwardrobe.app.RootActivity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.HomeActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.helpers.DeeplinkHelper/boolean openDeeplink(com.unitedwardrobe.app.HomeActivity,android.util.Pair)",
+            "sources": [
+                "com.unitedwardrobe.app.HomeActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.product.ProductActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.product.ProductActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.product.ProductActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.fragment.statefragment.BaseActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.savedsearch.SavedSearchesActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.CallbackActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.LaunchActivity$Companion/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.savedsearch.SavedSearchesActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu/boolean _init_$lambda-0(com.unitedwardrobe.app.navigation.drawermenu.DrawerMenu,android.view.View,int,com.mikepenz.materialdrawer.model.interfaces.IDrawerItem)",
+            "sources": [
+                "com.unitedwardrobe.app.activities.savedsearch.SavedSearchesActivity"
+            ],
+            "targets": [
+                "com.unitedwardrobe.app.SupportActivity"
+            ]
+        }
+    ]
+}

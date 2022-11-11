@@ -1,0 +1,133 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+org.koitharu.kotatsu_429: OutputDir not a directory: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/org.koitharu.kotatsu_429
+Found 18 entrypoint classes and 26 methods in overall
+Found 1 reachable methods from <org.koitharu.kotatsu.main.ui.MainActivity: void onPostCreate(android.os.Bundle)>
+Found 1 reachable methods from <org.koitharu.kotatsu.details.ui.DetailsActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <org.koitharu.kotatsu.settings.SettingsActivity: void onStart()>
+Found 1 reachable methods from <org.koitharu.kotatsu.base.ui.BaseActivity: void onCreate(android.os.Bundle)>
+Found 2 reachable methods from <org.koitharu.kotatsu.base.ui.BaseFullscreenActivity: void onCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 1 reachable methods from <org.koitharu.kotatsu.settings.SettingsActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 6 reachable methods from <org.koitharu.kotatsu.main.ui.protect.ProtectActivity: void onStart()>
+org.koitharu.kotatsu.base.ui.BaseFullscreenActivity: Finished processing of entrypoints after 0 seconds.
+org.koitharu.kotatsu.base.ui.BaseActivity: Finished processing of entrypoints after 0 seconds.
+Found 21 reachable methods from <org.koitharu.kotatsu.search.ui.SearchActivity: void onCreate(android.os.Bundle)>
+Found 23 reachable methods from <org.koitharu.kotatsu.image.ui.ImageActivity: void onCreate(android.os.Bundle)>
+Found 28 reachable methods from <org.koitharu.kotatsu.download.ui.DownloadsActivity: void onCreate(android.os.Bundle)>
+Found 30 reachable methods from <org.koitharu.kotatsu.favourites.ui.categories.CategoriesActivity: void onCreate(android.os.Bundle)>
+Found 25 reachable methods from <org.koitharu.kotatsu.settings.protect.ProtectSetupActivity: void onCreate(android.os.Bundle)>
+Found 33 reachable methods from <org.koitharu.kotatsu.search.ui.MangaListActivity: void onCreate(android.os.Bundle)>
+Found 29 reachable methods from <org.koitharu.kotatsu.browser.BrowserActivity: void onCreate(android.os.Bundle)>
+Found 32 reachable methods from <org.koitharu.kotatsu.reader.ui.ReaderActivity: void onCreate(android.os.Bundle)>
+Found 32 reachable methods from <org.koitharu.kotatsu.details.ui.DetailsActivity: void onCreate(android.os.Bundle)>
+Found 30 reachable methods from <org.koitharu.kotatsu.favourites.ui.categories.edit.FavouritesCategoryEditActivity: void onCreate(android.os.Bundle)>
+Found 37 reachable methods from <org.koitharu.kotatsu.search.ui.multi.MultiSearchActivity: void onCreate(android.os.Bundle)>
+Found 37 reachable methods from <org.koitharu.kotatsu.widget.shelf.ShelfConfigActivity: void onCreate(android.os.Bundle)>
+org.koitharu.kotatsu.download.ui.DownloadsActivity: Finished processing of entrypoints after 1 seconds.
+org.koitharu.kotatsu.search.ui.SearchActivity: Finished processing of entrypoints after 1 seconds.
+org.koitharu.kotatsu.image.ui.ImageActivity: Finished processing of entrypoints after 1 seconds.
+org.koitharu.kotatsu.settings.protect.ProtectSetupActivity: Finished processing of entrypoints after 1 seconds.
+Found 36 reachable methods from <org.koitharu.kotatsu.settings.sources.auth.SourceAuthActivity: void onCreate(android.os.Bundle)>
+org.koitharu.kotatsu.search.ui.MangaListActivity: Finished processing of entrypoints after 1 seconds.
+Found 1 reachable methods from <org.koitharu.kotatsu.reader.ui.ReaderActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+org.koitharu.kotatsu.favourites.ui.categories.CategoriesActivity: Finished processing of entrypoints after 1 seconds.
+org.koitharu.kotatsu.reader.ui.ReaderActivity: Finished processing of entrypoints after 1 seconds.
+Found 1 reachable methods from <org.koitharu.kotatsu.browser.BrowserActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+org.koitharu.kotatsu.browser.BrowserActivity: Finished processing of entrypoints after 1 seconds.
+Found 54 reachable methods from <org.koitharu.kotatsu.main.ui.MainActivity: void onCreate(android.os.Bundle)>
+org.koitharu.kotatsu.favourites.ui.categories.edit.FavouritesCategoryEditActivity: Finished processing of entrypoints after 2 seconds.
+Found 42 reachable methods from <org.koitharu.kotatsu.settings.SettingsActivity: void onCreate(android.os.Bundle)>
+org.koitharu.kotatsu.search.ui.multi.MultiSearchActivity: Finished processing of entrypoints after 2 seconds.
+org.koitharu.kotatsu.widget.shelf.ShelfConfigActivity: Finished processing of entrypoints after 2 seconds.
+org.koitharu.kotatsu.settings.sources.auth.SourceAuthActivity: Finished processing of entrypoints after 2 seconds.
+org.koitharu.kotatsu.settings.SettingsActivity: Finished processing of entrypoints after 2 seconds.
+Found 5 reachable methods from <org.koitharu.kotatsu.details.ui.DetailsActivity: boolean onPrepareOptionsMenu(android.view.Menu)>
+org.koitharu.kotatsu.details.ui.DetailsActivity: Finished processing of entrypoints after 2 seconds.
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r33 = $r32.<com.google.android.material.internal.NavigationMenuPresenter: android.widget.LinearLayout headerLayout>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r3 = $r18.<org.koitharu.kotatsu.databinding.LayoutPageInfoBinding: android.view.View rootView>
+org.koitharu.kotatsu.main.ui.MainActivity: Finished processing of entrypoints after 15 seconds.
+Found 25 reachable methods from <org.koitharu.kotatsu.main.ui.protect.ProtectActivity: void onCreate(android.os.Bundle)>
+org.koitharu.kotatsu.main.ui.protect.ProtectActivity: Finished processing of entrypoints after 18 seconds.
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/org.koitharu.kotatsu_429/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 19.113139832 seconds
+Entry point creation has run for 0.004356841 seconds
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.03871456 seconds

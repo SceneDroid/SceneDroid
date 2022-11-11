@@ -1,0 +1,1804 @@
+{
+    "transitions": [
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.QRScannerActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.QRScannerActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.QRScannerActivity/void addToCart()",
+            "sources": [
+                "com.pizzapizza.activity.QRScannerActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.QRScannerActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyCardActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyCardActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyCardActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.ApplyCardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.ApplyCardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.ApplyCardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.ApplyCardInfoActivity/void onNewRegistration()",
+            "sources": [
+                "com.pizzapizza.activity.ApplyCardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyTermsActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyTermsActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyTermsActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.SavedRestActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.StoreListFragment/void launch(com.pizzapizza.model.Store)",
+            "sources": [
+                "com.pizzapizza.activity.SavedRestActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.StoreInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.SavedRestActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.SavedRestActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.TermsActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.TermsActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.TermsActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PPFullImageViewActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.PPFullImageViewActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PPFullImageViewActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.SignUpLoyaltyFragment$7/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoyaltyTermsActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.NewFinalizeOrderFragment/void handleRegisterLoyaltyRequest(com.pizzapizza.model.LoyaltyCard)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoyaltyPartialAmountActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.OrderCartActivity/void goBackToMenu()",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.FinalizeOrderFragment$5/void onQueryAddresses(java.lang.String,java.util.List)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.AddressAddActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.FinalizeOrderFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.AddressListActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.views.OrderHeaderView$1/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.OrderCartFragment/void checkPrizeConfigurable(java.lang.String)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.OrderCartActivity/boolean checkToReloadMenu(com.pizzapizza.PPPreference)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.FinalizeOrderFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.DigitalWalletActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.FinalizeOrderFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.PaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.FinalizeOrderFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.SavedRestActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.views.OrderHeaderView$2/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.views.ActionBar/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.FinalizeOrderFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.RestLocatorActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.FinalizeOrderFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.CardInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.CreateAccountActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.CreateAccountActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.CreateAccountActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.StoreInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.StoreInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.StoreInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.ProfileActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.ProfileActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.ProfileActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.VisaCheckoutInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.VisaCheckoutInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.VisaCheckoutInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.StoreListFragment/void launch(com.pizzapizza.model.Store)",
+            "sources": [
+                "com.pizzapizza.activity.RestLocatorActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.StoreInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.RestLocatorActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.RestLocatorActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.RestLocatorActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.OrderConfirmationActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderConfirmationActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.OrderConfirmationActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoginActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoginActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.LoginActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.LoginActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoginActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.NewCreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.ProductListActivity/void doCategoryDetails(com.pizzapizza.model.Category)",
+            "sources": [
+                "com.pizzapizza.activity.ProductListActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.ProductListActivity/void doProductListForCategory(com.pizzapizza.model.Category)",
+            "sources": [
+                "com.pizzapizza.activity.ProductListActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.ProductListActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.ProductListActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.ProductListActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.ProductListActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyPartialAmountActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.LoyaltyPartialAmountFragment$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyPartialAmountActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.NewCardInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyPartialAmountActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyPartialAmountActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.PromoActivity/void startLoginActivity()",
+            "sources": [
+                "com.pizzapizza.activity.PromoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.PromoActivity/void startRestLocatorActivity()",
+            "sources": [
+                "com.pizzapizza.activity.PromoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.RestLocatorActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PromoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.PromoActivity/void startCouponWalletActivity()",
+            "sources": [
+                "com.pizzapizza.activity.PromoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.CouponWalletActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PromoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.PromoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.AddressListActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.AddressListActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.AddressListActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.AddressListActivity/void onButtonClick(int)",
+            "sources": [
+                "com.pizzapizza.activity.AddressListActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.AddressAddActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.AddressListActivity/void launchDetail(int)",
+            "sources": [
+                "com.pizzapizza.activity.AddressListActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.AddressDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.PaymentActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PaymentActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.PaymentCardListFragment/void doCardEditor(int)",
+            "sources": [
+                "com.pizzapizza.activity.PaymentActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.CardInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PaymentActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.MenuActivity/void showMenuTips()",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.IntroPageActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.MenuFragment$4/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.NewDigitalWalletActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.MenuFragment/void doListOrDetail(java.lang.String,java.util.List)",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.MenuActivity/void startRestLocatorActivity()",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.RestLocatorActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.MenuActivity/void showMenuTips()",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.PPNewCreditCardNoticePopupActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.views.MenuHeader$2/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.views.ActionBar/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.LoginIntroFragment$1/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.MenuActivity/void startDigitalWallet()",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.QRCardActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.MenuFragment/void doListOrDetail(java.lang.String,java.util.List)",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.ProductListActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.MenuActivity/void startPromo(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.PromoActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.MenuFragment/void onItemClick(android.support.v4.view.PagerAdapter,android.view.View,int,long)",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.PPFullImageViewActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.MenuFragment$2/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.MenuActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.ProductDetailActivity/void launchDetailActivity(com.pizzapizza.model.Configurator,int)",
+            "sources": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.ProductDetailActivity/void goBackToMenu()",
+            "sources": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.MenuActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.ProductDetailActivity/void launchConfigActivity(com.pizzapizza.model.Configurator,int)",
+            "sources": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.ProductConfigActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.ProductDetailActivity/void openPersonalizedMessageActivity()",
+            "sources": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.MessageAddActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.ProductDetailActivity/void onOrderChanged(com.pizzapizza.model.Orders)",
+            "sources": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.NewOrderConfirmationActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.NewOrderConfirmationActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.NewOrderConfirmationActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.NewOrderConfirmationActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.NewOrderConfirmationActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.AddressAddActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.AddressAddActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.AddressAddActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.CardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.CardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.views.ActionBar/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.CardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.CardInfoActivity/void onCheckLoyaltyBalance(java.lang.String,com.pizzapizza.model.LoyaltyCard)",
+            "sources": [
+                "com.pizzapizza.activity.CardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PPMPWebBrowserActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.PPMPWebBrowserActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PPMPWebBrowserActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.FunzoneActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.FunzoneActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.FunzoneActivity/void checkPrizeConfigurable(java.lang.String)",
+            "sources": [
+                "com.pizzapizza.activity.FunzoneActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.FunzoneActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.MessageAddActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.MessageAddActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.MessageAddActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.QRCardActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.QRCardActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.QRCardActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.PPNewCreditCardNoticePopupActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PPNewCreditCardNoticePopupActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PPNewCreditCardNoticePopupActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.CouponWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.CouponWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.CouponWalletActivity/void addToCart(com.pizzapizza.model.Coupons)",
+            "sources": [
+                "com.pizzapizza.activity.CouponWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.ScanActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.ScanActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.ScanActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.SignUpLoyaltyFragment$7/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.NewCreateAccountActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoyaltyTermsActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.NewCreateAccountActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.NewCreateAccountActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.NewCreateAccountActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PPWebBrowserActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.PPWebBrowserActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.PPWebBrowserActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.ProductConfigActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.ProductConfigActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.ProductConfigActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.IntroPageActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.IntroPageActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.IntroPageActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyBalanceTransferActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyBalanceTransferActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyBalanceTransferActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.LoyaltyBalanceTransferActivity/void reloadAfterTransfer()",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyBalanceTransferActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.NewDigitalWalletActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.LoyaltyBalanceTransferActivity/void onCheckLoyaltyBalance(java.lang.String,com.pizzapizza.model.LoyaltyCard)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyBalanceTransferActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyHistoryActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyHistoryActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LoyaltyHistoryActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.EvoucherActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.EvoucherActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.EvoucherActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.NewDigitalWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.NewCouponListFragment/void addToCart(com.pizzapizza.model.Coupons)",
+            "sources": [
+                "com.pizzapizza.activity.NewDigitalWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.ProductDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.fragment.NewCouponListFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.NewDigitalWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.QRScannerActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.NewDigitalWalletActivity/void reloadWithPayment()",
+            "sources": [
+                "com.pizzapizza.activity.NewDigitalWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.NewDigitalWalletActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.NewDigitalWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.views.ActionBar/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.NewDigitalWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LocateByCityActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.LocateByCityActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.LocateByCityActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.AddressDetailActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.AddressDetailActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.AddressDetailActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.AddressDetailActivity/void onButtonClick(int)",
+            "sources": [
+                "com.pizzapizza.activity.AddressDetailActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.AddressAddActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.NewCardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.NewCardInfoActivity/void onNewRegistration()",
+            "sources": [
+                "com.pizzapizza.activity.NewCardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.NewCardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.NewCardInfoActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.DigitalWalletActivity/void onDialogPositiveClick(com.pizzapizza.views.PopupDialog)",
+            "sources": [
+                "com.pizzapizza.activity.DigitalWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.SignUpLoyaltyActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.DigitalWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.views.ActionBar/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.DigitalWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.DigitalWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.DigitalWalletActivity/void addQRCard(java.util.List,int)",
+            "sources": [
+                "com.pizzapizza.activity.DigitalWalletActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.QRCardActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.DigitalWalletActivity/void onSavedCardClick(android.view.View,com.pizzapizza.objects.SavedCard)",
+            "sources": [
+                "com.pizzapizza.activity.DigitalWalletActivity"
+            ],
+            "targets": [
+                "com.visa.checkout.VisaActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.EditProfileActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderCartActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.pizzapizza.activity.EditProfileActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.OrderHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.pizzapizza.activity.BaseActivity/void connectionError()",
+            "sources": [
+                "com.pizzapizza.activity.EditProfileActivity"
+            ],
+            "targets": [
+                "com.pizzapizza.activity.LoadingActivity"
+            ]
+        }
+    ]
+}

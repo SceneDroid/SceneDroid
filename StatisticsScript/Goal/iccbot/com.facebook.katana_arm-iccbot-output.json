@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "com.facebook.katana.app.mainactivity.FbMainActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.katana.app.mainactivity.FbMainActivity"
+            ],
+            "targets": [
+                "com.facebook.katana.app.mainactivity.FbSplashScreenActivity"
+            ]
+        }
+    ]
+}

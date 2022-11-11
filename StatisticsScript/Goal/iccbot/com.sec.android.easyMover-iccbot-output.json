@@ -1,0 +1,1669 @@
+{
+    "transitions": [
+        {
+            "handler": "c.h.a.c.x.y/void m0(android.app.Activity,int)",
+            "sources": [
+                "com.sec.android.easyMover.ui.QuickSetupActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ThreePConfirmActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.QuickSetupActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.OtgConnectHelpActivity/void D()",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgConnectHelpActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.OtgPreAttachedActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.OtgConnectHelpActivity$a/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgConnectHelpActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.OtgConnectHelpActivity$c/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgConnectHelpActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudLogInActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.FastTrackActivity/void x(java.lang.String,java.lang.String,int,boolean)",
+            "sources": [
+                "com.sec.android.easyMover.ui.FastTrackActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.D2DSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.FastTrackActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.sec.android.easyMover.ui.FastTrackActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.FastTrackActivity/void z(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.sec.android.easyMover.ui.FastTrackActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.SendOrReceiveActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.WearableRestoreOOBEActivity/void b()",
+            "sources": [
+                "com.sec.android.easyMover.ui.WearableRestoreOOBEActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.WearableRestoreActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.PickerApplicationActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AndroidAppListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.PasswordActivity/void L()",
+            "sources": [
+                "com.sec.android.easyMover.ui.PasswordActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.CloudSearchActivity/void P()",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudSearchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudSearchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void N0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudSearchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudLogInActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void r0(android.app.Activity,boolean)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudVerificationActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.OSSelectionActivity/void E(c.h.a.c.x.u$n)",
+            "sources": [
+                "com.sec.android.easyMover.ui.OSSelectionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ConnectionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.OSSelectionActivity/void B(c.h.a.c.x.u$n)",
+            "sources": [
+                "com.sec.android.easyMover.ui.OSSelectionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudLogInActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.OSSelectionActivity/void B(c.h.a.c.x.u$n)",
+            "sources": [
+                "com.sec.android.easyMover.ui.OSSelectionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.SendOrReceiveActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void P0(android.app.Activity,boolean)",
+            "sources": [
+                "com.sec.android.easyMover.ui.OSSelectionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.OtgConnectHelpActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void n0(android.content.Context)",
+            "sources": [
+                "com.sec.android.easyMover.ui.WelcomeActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AgreementActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void K0(android.content.Context)",
+            "sources": [
+                "com.sec.android.easyMover.ui.WelcomeActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.PrivacyNoticeActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void x0(android.content.Context,android.content.Intent,java.lang.String,int)",
+            "sources": [
+                "com.sec.android.easyMover.ui.WelcomeActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RuntimePermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.WelcomeActivity/void I()",
+            "sources": [
+                "com.sec.android.easyMover.ui.WelcomeActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.PickerHomeScreenActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.PickerHomeScreenActivity$a/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.PickerHomeScreenActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.PickerHomeScreenLayoutActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.SettingsActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.sec.android.easyMover.ui.SettingsActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.SettingsActivity/void L()",
+            "sources": [
+                "com.sec.android.easyMover.ui.SettingsActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.VersionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.SettingsActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.sec.android.easyMover.ui.SettingsActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RuntimePermissionActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IosOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.RecvTransPortActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.OOBEDummyActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void s0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.SendOrReceiveActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgSenderActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void d()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgSenderActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void h()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void i()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void p()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void n()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IosOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void o()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RuntimePermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startSendOrReceiveActivity(android.content.Context)",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.SendOrReceiveActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void i()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AccessorySenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.CompletedWatchActivity$a/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletedWatchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedAllSetActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.OtgPreAttachedActivity$a/void run()",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgPreAttachedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.OtgAttachedActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void x0(android.content.Context,android.content.Intent,java.lang.String,int)",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgPreAttachedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RuntimePermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.OtgPreAttachedActivity$a/void run()",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgPreAttachedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startTransActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.EnhanceSecurityActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.AuthenticationActivity/void V()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AuthenticationActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.PasswordActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void m0(android.app.Activity,int)",
+            "sources": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ThreePConfirmActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.w.o1/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IOSAppListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void showEnhanceSecurity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.EnhanceSecurityActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.PickerFileActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void K0(android.content.Context)",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.PrivacyNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.ExStorageContentsListActivity/void A1()",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.PasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.ExStorageContentsListActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IOSAppListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.w.t1.m$m/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startTransActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void showEnhanceSecurity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.EnhanceSecurityActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void m0(android.app.Activity,int)",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ThreePConfirmActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void A0(android.content.Context,c.h.a.d.i.b)",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.PickerApplicationActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void n0(android.content.Context)",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AgreementActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.MainActivity/void I()",
+            "sources": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ConnectionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.MainActivity/void S()",
+            "sources": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.MainActivity/void P()",
+            "sources": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudLogInActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.MainActivity/void U()",
+            "sources": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExStorageActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.r.s0/void r()",
+            "sources": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgSenderActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.MainActivity/void J()",
+            "sources": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.OtgConnectHelpActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.MainActivity/void R()",
+            "sources": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.SendOrReceiveActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.MainActivity/void T()",
+            "sources": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.z/java.lang.String q(android.content.Context)",
+            "sources": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.MainActivity/void G()",
+            "sources": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.OSSelectionActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void v0(android.app.Activity,boolean)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudLogInActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudVerificationActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void r0(android.app.Activity,boolean)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudLogInActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudSearchActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void P0(android.app.Activity,boolean)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudLogInActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.OtgConnectHelpActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.TransPortActivity$a/void cancel(c.h.a.c.w.t1.s)",
+            "sources": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExStorageActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgSenderActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void s0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IosOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void u0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.SendOrReceiveActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.PickerSettingActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.PickerAccountActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.PickerGalleryActivity/void N(java.lang.String,int,boolean,long,int)",
+            "sources": [
+                "com.sec.android.easyMover.ui.PickerGalleryActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.PickerGalleryDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.ExManageRestoreActivity/void t(int)",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExManageRestoreActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExManageDeleteActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void m0(android.app.Activity,int)",
+            "sources": [
+                "com.sec.android.easyMover.ui.IosOtgContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ThreePConfirmActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void showEnhanceSecurity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.IosOtgContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.EnhanceSecurityActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.IosOtgContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.IosOtgContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.IosOtgContentsListActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.sec.android.easyMover.ui.IosOtgContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IOSAppListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.w.o1/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IOSAppListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void m0(android.app.Activity,int)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ThreePConfirmActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void showEnhanceSecurity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.EnhanceSecurityActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void N0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudLogInActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.IosOtgSearchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.IosOtgSearchActivity/void P()",
+            "sources": [
+                "com.sec.android.easyMover.ui.IosOtgSearchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IosOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void n0(android.content.Context)",
+            "sources": [
+                "com.sec.android.easyMover.ui.VersionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AgreementActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.VersionActivity/void c0(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.VersionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RuntimePermissionActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void K0(android.content.Context)",
+            "sources": [
+                "com.sec.android.easyMover.ui.VersionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.PrivacyNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.VersionActivity/void W()",
+            "sources": [
+                "com.sec.android.easyMover.ui.VersionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.OpenSourceLicenseActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.ConnectionActivity/void H()",
+            "sources": [
+                "com.sec.android.easyMover.ui.ConnectionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.OtgConnectHelpActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.ConnectionActivity/void F()",
+            "sources": [
+                "com.sec.android.easyMover.ui.ConnectionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.SendOrReceiveActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageSearchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.ExStorageSearchActivity/void P()",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageSearchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.D2DSearchActivity/void P()",
+            "sources": [
+                "com.sec.android.easyMover.ui.D2DSearchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.D2DSearchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.PickerWearableActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.RuntimePermissionActivity/void D()",
+            "sources": [
+                "com.sec.android.easyMover.ui.RuntimePermissionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.RuntimePermissionActivity/void D()",
+            "sources": [
+                "com.sec.android.easyMover.ui.RuntimePermissionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.RuntimePermissionActivity/void D()",
+            "sources": [
+                "com.sec.android.easyMover.ui.RuntimePermissionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.OtgAttachedActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.RuntimePermissionActivity/void D()",
+            "sources": [
+                "com.sec.android.easyMover.ui.RuntimePermissionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.FastTrackActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.w.p1/void u()",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgAttachedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IosOtgSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.OtgAttachedActivity$e/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgAttachedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.w.p1/void F()",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgAttachedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.OtgConnectHelpActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.w.p1$b/void run()",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgAttachedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExStorageActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgAttachedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.w.p1/void u()",
+            "sources": [
+                "com.sec.android.easyMover.ui.OtgAttachedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.CompletedAllSetActivity$a/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletedAllSetActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AdAppsActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AndroidOtgSenderActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AndroidOtgContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void m0(android.app.Activity,int)",
+            "sources": [
+                "com.sec.android.easyMover.ui.AndroidOtgContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ThreePConfirmActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.f.f.d/java.util.Map a()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AndroidOtgContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void showEnhanceSecurity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AndroidOtgContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.EnhanceSecurityActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.w.o1/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.sec.android.easyMover.ui.AndroidOtgContentsListActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IOSAppListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void d()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgSenderActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void o()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RuntimePermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void h()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void p()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void n()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void i()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void i()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startSendOrReceiveActivity(android.content.Context)",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.SendOrReceiveActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IosOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.SendOrReceiveActivity/void b0()",
+            "sources": [
+                "com.sec.android.easyMover.ui.SendOrReceiveActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.SendOrReceiveActivity/void b0()",
+            "sources": [
+                "com.sec.android.easyMover.ui.SendOrReceiveActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.D2DSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.CompletediMessageActivity$b/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletediMessageActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletediCloudActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.CompletediMessageActivity$b/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletediMessageActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedAllSetActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void n()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void h()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startSendOrReceiveActivity(android.content.Context)",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.SendOrReceiveActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.D2DContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void p()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void i()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void i()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.TransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void o()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RuntimePermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IosOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExStorageContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void d()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgSenderActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.DistributionActivity/void e()",
+            "sources": [
+                "com.sec.android.easyMover.DistributionNoIconActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.ExStorageActivity/void A()",
+            "sources": [
+                "com.sec.android.easyMover.ui.ExStorageActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.ExManageRestoreActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.host.ActivityUtil/void startRecvTransportActivity()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AndroidOtgSearchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.RecvTransPortActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.AndroidOtgSearchActivity/void P()",
+            "sources": [
+                "com.sec.android.easyMover.ui.AndroidOtgSearchActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidOtgContentsListActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.CompletediCloudActivity$b/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletediCloudActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedAllSetActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void N0(android.app.Activity)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletediCloudActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CloudLogInActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.OOBEActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.sec.android.easyMover.ui.OOBEActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void n0(android.content.Context)",
+            "sources": [
+                "com.sec.android.easyMover.ui.OOBEActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AgreementActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.CompletedActivity$j/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletediMessageActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.CompletedActivity$j/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedAllSetActivity"
+            ]
+        },
+        {
+            "handler": "com.sec.android.easyMover.ui.CompletedActivity$j/void onClick(android.view.View)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedWatchActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void t0(android.app.Activity,c.h.a.d.i.b)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.CompletedFailActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void o0(android.app.Activity,boolean)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.AndroidAppListActivity"
+            ]
+        },
+        {
+            "handler": "c.h.a.c.x.y/void O0(android.app.Activity,boolean,boolean,boolean)",
+            "sources": [
+                "com.sec.android.easyMover.ui.CompletedActivity"
+            ],
+            "targets": [
+                "com.sec.android.easyMover.ui.IOSAppListActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,472 @@
+{
+    "transitions": [
+        {
+            "handler": "j.a.a.b.a.c/void r(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.settings.feature.v2.SettingsXV2Activity"
+            ],
+            "targets": [
+                "com.canva.crossplatform.feature.WebviewErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.settings.feature.v2.SettingsXV2Activity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.settings.feature.v2.SettingsXV2Activity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.billing.feature.PurchaseActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.billing.feature.PurchaseActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.canva.app.editor.deeplinking.LogoutAndDeepLinkActivity$a/void run()",
+            "sources": [
+                "com.canva.app.editor.deeplinking.LogoutAndDeepLinkActivity"
+            ],
+            "targets": [
+                "com.canva.app.editor.splash.SplashActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.app.editor.deeplinking.LogoutAndDeepLinkActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.app.editor.deeplinking.LogoutAndDeepLinkActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.home.feature.v2.HomeXV2Activity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.home.feature.v2.HomeXV2Activity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.a.b.a.c/void r(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.home.feature.v2.HomeXV2Activity"
+            ],
+            "targets": [
+                "com.canva.crossplatform.feature.WebviewErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.c4w.CanvaProTermsActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.c4w.CanvaProTermsActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.help.v2.HelpXV2Activity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.help.v2.HelpXV2Activity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.a.b.a.c/void r(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.help.v2.HelpXV2Activity"
+            ],
+            "targets": [
+                "com.canva.crossplatform.feature.WebviewErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "j.a.a.b.a.c/void r(android.os.Bundle)",
+            "sources": [
+                "com.canva.app.editor.single.SingleWebXActivity"
+            ],
+            "targets": [
+                "com.canva.crossplatform.feature.WebviewErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.app.editor.single.SingleWebXActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.app.editor.single.SingleWebXActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.push.AppboyNotificationActionUtils/void handleNotificationActionClicked(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.appboy.push.NotificationTrampolineActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "j.a.a.b.a.c/void r(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.designmaker.DesignMakerXActivity"
+            ],
+            "targets": [
+                "com.canva.crossplatform.feature.WebviewErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.designmaker.DesignMakerXActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.designmaker.DesignMakerXActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$c/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "j.a.a.b.a.c/void r(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.auth.feature.v2.LoginXActivity"
+            ],
+            "targets": [
+                "com.canva.crossplatform.feature.WebviewErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.auth.feature.v2.LoginXActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.auth.feature.v2.LoginXActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.actions.UriAction/void execute(android.content.Context)",
+            "sources": [
+                "com.appboy.ui.activities.AppboyContentCardsActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.inappmessage.listeners.AppboyInAppMessageViewLifecycleListener/void performClickAction(com.appboy.enums.inappmessage.ClickAction,com.appboy.models.IInAppMessage,com.appboy.ui.inappmessage.InAppMessageCloser,android.net.Uri,boolean)",
+            "sources": [
+                "com.appboy.ui.activities.AppboyContentCardsActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.activities.AppboyFeedActivity"
+            ]
+        },
+        {
+            "handler": "com.canva.createwizard.feature.CreateWizardActivity$c$b/void accept(java.lang.Object)",
+            "sources": [
+                "com.canva.createwizard.feature.CreateWizardActivity"
+            ],
+            "targets": [
+                "com.canva.createwizard.feature.CreateWizardCustomDimensionsActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.createwizard.feature.CreateWizardActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.canva.createwizard.feature.CreateWizardActivity$c$b/void accept(java.lang.Object)",
+            "sources": [
+                "com.canva.createwizard.feature.CreateWizardActivity"
+            ],
+            "targets": [
+                "com.canva.quickflow.feature.QuickFlowActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.createwizard.feature.CreateWizardActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.createwizard.feature.CreateWizardCustomDimensionsActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.createwizard.feature.CreateWizardCustomDimensionsActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.AppboyWebViewActivity$2/java.lang.Boolean handleUrlOverride(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.browserflow.feature.BrowserFlowActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.browserflow.feature.BrowserFlowActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.c4w.BindCellphoneActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.c4w.BindCellphoneActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.app.editor.login.SsoDeepLinkActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.app.editor.login.SsoDeepLinkActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.inappmessage.listeners.AppboyInAppMessageViewLifecycleListener/void performClickAction(com.appboy.enums.inappmessage.ClickAction,com.appboy.models.IInAppMessage,com.appboy.ui.inappmessage.InAppMessageCloser,android.net.Uri,boolean)",
+            "sources": [
+                "com.appboy.ui.activities.AppboyFeedActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.activities.AppboyFeedActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.actions.UriAction/void execute(android.content.Context)",
+            "sources": [
+                "com.appboy.ui.activities.AppboyFeedActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.quickflow.feature.QuickFlowActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.quickflow.feature.QuickFlowActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.app.editor.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.app.editor.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.editor.feature.v2.EditorXV2Activity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.HardUpdateActivity"
+            ]
+        },
+        {
+            "handler": "j.a.h.i.b.a/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.editor.feature.v2.EditorXV2Activity"
+            ],
+            "targets": [
+                "com.canva.common.feature.base.NotSupportedActivity"
+            ]
+        },
+        {
+            "handler": "j.a.a.b.a.c/void r(android.os.Bundle)",
+            "sources": [
+                "com.canva.crossplatform.editor.feature.v2.EditorXV2Activity"
+            ],
+            "targets": [
+                "com.canva.crossplatform.feature.WebviewErrorDialogActivity"
+            ]
+        }
+    ]
+}

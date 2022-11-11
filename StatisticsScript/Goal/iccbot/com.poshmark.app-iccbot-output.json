@@ -1,0 +1,94 @@
+{
+    "transitions": [
+        {
+            "handler": "com.affirm.android.PrequalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.affirm.android.PrequalActivity"
+            ],
+            "targets": [
+                "com.affirm.android.PrequalActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.CheckoutActivity/void startActivity(android.app.Activity,int,com.affirm.android.model.Checkout,java.lang.String,int)",
+            "sources": [
+                "com.affirm.android.CheckoutActivity"
+            ],
+            "targets": [
+                "com.affirm.android.CheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.VcnCheckoutActivity/void startActivity(android.app.Activity,int,com.affirm.android.model.Checkout,java.lang.String,int,java.lang.String)",
+            "sources": [
+                "com.affirm.android.VcnCheckoutActivity"
+            ],
+            "targets": [
+                "com.affirm.android.VcnCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.ModalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,com.affirm.android.ModalActivity$ModalType,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.affirm.android.ModalActivity"
+            ],
+            "targets": [
+                "com.affirm.android.ModalActivity"
+            ]
+        },
+        {
+            "handler": "com.poshmark.ui.PMContainerActivity/void launchFragmentInNewActivity(android.os.Bundle,java.lang.Class,java.lang.Object)",
+            "sources": [
+                "com.poshmark.ui.PMContainerActivity"
+            ],
+            "targets": [
+                "com.poshmark.ui.PMContainerActivity"
+            ]
+        },
+        {
+            "handler": "com.poshmark.ui.PMContainerActivity/void launchFragmentInNewActivity(android.os.Bundle,java.lang.Class,java.lang.Object)",
+            "sources": [
+                "com.poshmark.ui.MainActivity"
+            ],
+            "targets": [
+                "com.poshmark.ui.PMContainerActivity"
+            ]
+        },
+        {
+            "handler": "com.poshmark.ui.MainActivity/void handleDeeplinkLaunch(android.net.Uri,boolean,java.lang.String)",
+            "sources": [
+                "com.poshmark.ui.MainActivity"
+            ],
+            "targets": [
+                "com.poshmark.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.referrals.ReferralClient/boolean tryStartReferral()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$onCreate$redirectReceiver$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        }
+    ]
+}

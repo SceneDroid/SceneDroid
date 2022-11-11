@@ -1,0 +1,132 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+com.github.shadowsocks.plugin.v2ray_1030300: OutputDir not a directory: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.github.shadowsocks.plugin.v2ray_1030300
+Found 3 entrypoint classes and 4 methods in overall
+Found 8 reachable methods from <com.github.shadowsocks.plugin.OptionsCapableActivity: void onPostCreate(android.os.Bundle)>
+Found 8 reachable methods from <com.github.shadowsocks.plugin.OptionsCapableActivity: void onPostCreate(android.os.Bundle)>
+Found 8 reachable methods from <com.github.shadowsocks.plugin.OptionsCapableActivity: void onPostCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 4 reachable methods from <com.github.shadowsocks.plugin.v2ray.ConfigActivity: void onCreate(android.os.Bundle)>
+com.github.shadowsocks.plugin.v2ray.ConfigActivity: Finished processing of entrypoints after 0 seconds.
+com.github.shadowsocks.plugin.ConfigurationActivity: Finished processing of entrypoints after 0 seconds.
+com.github.shadowsocks.plugin.OptionsCapableActivity: Finished processing of entrypoints after 0 seconds.
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.github.shadowsocks.plugin.v2ray_1030300/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 0.85401358 seconds
+Entry point creation has run for 0.003854811 seconds
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.030844794 seconds

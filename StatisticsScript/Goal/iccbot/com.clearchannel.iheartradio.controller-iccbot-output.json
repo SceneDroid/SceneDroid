@@ -1,0 +1,94 @@
+{
+    "transitions": [
+        {
+            "handler": "com.clearchannel.iheartradio.navigation.IHRNavigationFacade/void goToHomeActivity(android.app.Activity,com.clearchannel.iheartradio.fragment.home.HomeTabType,android.os.Bundle)",
+            "sources": [
+                "com.clearchannel.iheartradio.controller.activities.SearchActivity"
+            ],
+            "targets": [
+                "com.clearchannel.iheartradio.controller.activities.NavDrawerActivity"
+            ]
+        },
+        {
+            "handler": "com.gigya.socialize.android.ui.HostActivity/java.lang.Integer create(android.content.Context,com.gigya.socialize.android.ui.HostActivity$HostActivityHandler)",
+            "sources": [
+                "com.gigya.socialize.android.ui.HostActivity"
+            ],
+            "targets": [
+                "com.gigya.socialize.android.ui.HostActivity"
+            ]
+        },
+        {
+            "handler": "com.clearchannel.iheartradio.navigation.IHRNavigationFacade/void goToHomeActivity(android.app.Activity,com.clearchannel.iheartradio.fragment.home.HomeTabType,android.os.Bundle)",
+            "sources": [
+                "com.clearchannel.iheartradio.controller.activities.NoNavigationActivity"
+            ],
+            "targets": [
+                "com.clearchannel.iheartradio.controller.activities.NavDrawerActivity"
+            ]
+        },
+        {
+            "handler": "com.clearchannel.iheartradio.navigation.IHRNavigationFacade/void goToHomeActivity(android.app.Activity,com.clearchannel.iheartradio.fragment.home.HomeTabType,android.os.Bundle)",
+            "sources": [
+                "com.clearchannel.iheartradio.controller.activities.BackNavigationActivity"
+            ],
+            "targets": [
+                "com.clearchannel.iheartradio.controller.activities.NavDrawerActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.clearchannel.iheartradio.navigation.IHRNavigationFacade/void goToHomeActivity(android.app.Activity,com.clearchannel.iheartradio.fragment.home.HomeTabType,android.os.Bundle)",
+            "sources": [
+                "com.clearchannel.iheartradio.controller.activities.NavDrawerActivity"
+            ],
+            "targets": [
+                "com.clearchannel.iheartradio.controller.activities.NavDrawerActivity"
+            ]
+        },
+        {
+            "handler": "com.clearchannel.iheartradio.controller.activities.NavDrawerActivity/void launchSplashScreen()",
+            "sources": [
+                "com.clearchannel.iheartradio.controller.activities.NavDrawerActivity"
+            ],
+            "targets": [
+                "com.clearchannel.iheartradio.splash.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.clearchannel.iheartradio.navigation.IHRNavigationFacade/void goToGateActivity(android.support.v4.app.FragmentActivity,boolean)",
+            "sources": [
+                "com.clearchannel.iheartradio.controller.activities.NavDrawerActivity"
+            ],
+            "targets": [
+                "com.clearchannel.iheartradio.controller.activities.NoNavigationActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.clearchannel.iheartradio.navigation.IHRNavigationFacade/void goToHomeActivity(android.app.Activity,com.clearchannel.iheartradio.fragment.home.HomeTabType,android.os.Bundle)",
+            "sources": [
+                "com.clearchannel.iheartradio.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.clearchannel.iheartradio.controller.activities.NavDrawerActivity"
+            ]
+        }
+    ]
+}

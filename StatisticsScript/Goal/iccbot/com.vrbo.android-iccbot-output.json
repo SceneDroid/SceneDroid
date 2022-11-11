@@ -1,0 +1,1894 @@
+{
+    "transitions": [
+        {
+            "handler": "com.affirm.android.CheckoutActivity/void startActivity(android.app.Activity,int,com.affirm.android.model.Checkout,java.lang.String,int)",
+            "sources": [
+                "com.affirm.android.CheckoutActivity"
+            ],
+            "targets": [
+                "com.affirm.android.CheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.destinationguide.ui.DestinationGuideActivity$callback$1/void onSubDestinationSelected(com.vrbo.android.destinationguide.model.models.SubDestinationDestinationGuideSection)",
+            "sources": [
+                "com.vrbo.android.destinationguide.ui.DestinationGuideActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.destinationguide.ui.DestinationGuideActivity$callback$1/void onSubDestinationSelected(com.vrbo.android.destinationguide.model.models.SubDestinationDestinationGuideSection)",
+            "sources": [
+                "com.vrbo.android.destinationguide.ui.DestinationGuideActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.destinationguide.ui.DestinationGuideActivity$callback$1/void onDescriptionSectionReadMoreClicked(java.lang.String)",
+            "sources": [
+                "com.vrbo.android.destinationguide.ui.DestinationGuideActivity"
+            ],
+            "targets": [
+                "com.vrbo.android.destinationguide.ui.DestinationGuideFullDescriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.VcnCheckoutActivity/void startActivity(android.app.Activity,int,com.affirm.android.model.Checkout,java.lang.String,org.joda.money.Money,int,java.lang.String,boolean)",
+            "sources": [
+                "com.affirm.android.VcnCheckoutActivity"
+            ],
+            "targets": [
+                "com.affirm.android.VcnCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.VcnCheckoutActivity/void onWebViewConfirmation(com.affirm.android.model.CardDetails)",
+            "sources": [
+                "com.affirm.android.VcnCheckoutActivity"
+            ],
+            "targets": [
+                "com.affirm.android.VcnDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.WelcomeActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.WelcomeActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.WelcomeActivity/void onCreate$lambda-2(com.vacationrentals.homeaway.activities.WelcomeActivity,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.WelcomeActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.WelcomeActivity/void onCreate$lambda-3(com.vacationrentals.homeaway.activities.WelcomeActivity,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.WelcomeActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.CreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.CancellationRefundInfoActivity/void onCreate$lambda-6(com.vacationrentals.homeaway.activities.CancellationRefundInfoActivity,java.lang.String,java.lang.String,java.lang.String,com.homeaway.android.travelerapi.dto.cancellation.CancellationSummary,com.homeaway.android.travelerapi.dto.hospitality.Reservation,com.homeaway.android.travelerapi.dto.hospitality.CancellationSource,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.CancellationRefundInfoActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.CancellationActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.PrequalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.PaymentDetailsActivity"
+            ],
+            "targets": [
+                "com.affirm.android.PrequalActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.ModalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,com.affirm.android.ModalActivity$ModalType,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.PaymentDetailsActivity"
+            ],
+            "targets": [
+                "com.affirm.android.ModalActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.ViewMoreHouseRulesActivity$Companion/void launch(android.content.Context,java.util.ArrayList)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.ViewMoreHouseRulesActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.ViewMoreHouseRulesActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.ModalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,com.affirm.android.ModalActivity$ModalType,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.affirm.android.ModalActivity"
+            ],
+            "targets": [
+                "com.affirm.android.ModalActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presenters.login.TravelerSignInPresenter/void bindView$lambda-12(com.vacationrentals.homeaway.presenters.login.TravelerSignInPresenter,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.CreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presenters.login.TravelerSignInPresenter/void onForgotPasswordClick()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.ForgotPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.CreatePollActivity/void updateEvent(com.homeaway.android.common.viewmodels.SingleEvent)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.CreatePollActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.PollAddCollaboratorsActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.CreatePollActivity/void updateEvent(com.homeaway.android.common.viewmodels.SingleEvent)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.CreatePollActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.PollAddPropertiesActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.CreatePollActivity/void updateEvent(com.homeaway.android.common.viewmodels.SingleEvent)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.CreatePollActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.PollQuestionActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.CreatePollActivity/void updateEvent(com.homeaway.android.common.viewmodels.SingleEvent)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.CreatePollActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.PollActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.groupchat.activities.GroupChatActivity/void subscribeToViewModel$lambda-13(com.homeaway.android.groupchat.activities.GroupChatActivity,com.homeaway.android.common.viewmodels.SingleEvent)",
+            "sources": [
+                "com.homeaway.android.groupchat.activities.GroupChatActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.NotificationPromptActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.referrals.ReferralClient/boolean tryStartReferral()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingConfirmationActivity$configureViews$4/void invoke(android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingConfirmationActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.TravelerConversationActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.profiles.EditProfilePictureActivity/void onExceptionEncountered(java.lang.Throwable)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.profiles.EditProfilePictureActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.popups.GenericPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.CopyTripBoardActivity/void copyTripBoardSuccess(com.homeaway.android.tripboards.data.CopyTripBoardEvent$Success)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.CopyTripBoardActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity/void processExtensions(com.homeaway.android.ApolloErrorException$Extensions)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.popups.GenericPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.error.CreatePaymentOlpDataError/void startErrorActivityForResult(java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.error.GenericErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presenters.checkout.CheckoutContactInformationPresenter/void setFreeCancellationTitle$lambda-28(com.vacationrentals.homeaway.presenters.checkout.CheckoutContactInformationPresenter,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.FreeCancellationActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity/void executeAffirmCheckout()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.affirm.android.VcnCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.Affirm/void startCheckout(android.app.Activity,com.affirm.android.model.Checkout,java.lang.String,int,boolean)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.affirm.android.CheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.ModalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,com.affirm.android.ModalActivity$ModalType,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.affirm.android.ModalActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity/void startSavedCardCheckoutActivity(com.homeaway.android.graphql.checkout.fragment.CheckoutModelFragment$PaymentMethod)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.SavedCardCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity/boolean menuClickListener$lambda-78(com.vacationrentals.homeaway.activities.checkout.CheckoutActivity,android.view.MenuItem)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.BookingAssistancePopupActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.PrequalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.affirm.android.PrequalActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity/void startWebViewActivity()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.olb.OLBPaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity/void startWebViewActivity()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.olb.OLBWebViewCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presenters.checkout.RulesAndPoliciesPresenter/void rentalAgreementClicked()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.SlidingHtmlInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presenters.checkout.PaymentInformationPresenter/void bindView$lambda-1(com.vacationrentals.homeaway.presenters.checkout.PaymentInformationPresenter,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.CheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.BwcMessageActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchFlowFiltersActivity/void buttonClick(com.vacationrentals.homeaway.dto.search.SearchTextAndFilters)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchFlowFiltersActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchFlowFiltersActivity/void buttonClick(com.vacationrentals.homeaway.dto.search.SearchTextAndFilters)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchFlowFiltersActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchFlowFiltersActivity/void onMapFilterClick()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchFlowFiltersActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.MapFilterActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchFlowFiltersActivity/void onCreate$lambda-6(com.vacationrentals.homeaway.activities.search.SearchFlowFiltersActivity,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchFlowFiltersActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.calendars.SearchFlowCalendarActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void launchInquiryChatbotIntent(com.vrbo.android.pdp.components.chatbot.InquiryChatbotComponentEvent$LaunchInquiryChatbot)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.ViewMoreHouseRulesActivity$Companion/void launch(android.content.Context,java.util.ArrayList)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.ViewMoreHouseRulesActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showQuote(com.vrbo.android.pdp.components.booking.BookingButtonsEvent$LaunchQuote)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.olb.OLBQuoteActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void openPhotoGallery(com.vrbo.android.pdp.components.photoheader.PhotoHeaderComponentEvent$OpenPhotoGallery)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.propertydetails.VirtualTourWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showInquiry(com.vrbo.android.pdp.components.contact.ContactOverviewEvent$LaunchInquiry)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.InquiryActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void viewMoreHouseRules(com.vrbo.android.pdp.components.policies.PoliciesComponentEvent$ViewMoreHouseRules)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.propertydetails.PropertyDetailsHouseRulesActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showSelectGuests(com.vrbo.android.pdp.components.availability.AvailabilityComponentEvent$SelectGuests)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.GuestPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showMoreReviews(com.vrbo.android.pdp.components.reviews.ReviewLinkComponentEvent$ShowMoreReviews)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.propertydetails.PropertyDetailsReviewsActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.PrequalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.affirm.android.PrequalActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showAllAmenitiesV2(com.vrbo.android.pdp.components.amenities.AmenitiesV2ComponentEvent$ShowAllAmenities)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.propertydetails.AmenitiesDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showAllAmenities(com.vrbo.android.pdp.components.amenities.AmenitiesComponentEvent$ShowAllAmenities)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.propertydetails.PropertyDetailsSubSectionActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showPaymentDetails(com.vrbo.android.pdp.components.availability.AvailabilityComponentEvent$ShowPaymentDetails)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.PdpPaymentDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showSpacesDetail(com.vrbo.android.pdp.components.spaces.SpacesComponentEvent$ShowSpacesDetail)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.propertydetails.SpacesDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showCancellationPolicies(com.homeaway.android.travelerapi.dto.graphql.houserules.LodgingCancellationPolicy)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.propertydetails.cancellationpolicy.LodgingCancellationPolicyActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showContactInfo(com.vrbo.android.pdp.components.contact.ContactOverviewEvent$LaunchContactInfo)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.propertydetails.PropertyDetailsContactOverviewActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void launchPdp(com.vrbo.android.pdp.components.recommendations.RecommendationsComponentEvents$LaunchPropertyDetails)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.ModalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,com.affirm.android.ModalActivity$ModalType,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.affirm.android.ModalActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showSummaryDescription(com.vrbo.android.pdp.components.summary.SummaryDescriptionComponentEvent$ShowSummaryDescription)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.propertydetails.SummaryDescriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void openLocation(com.vrbo.android.pdp.components.location.LocationComponentEvent$OpenLocation)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.propertydetails.PropertyDetailsMapActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showInquiryPrelogin(com.vrbo.android.pdp.components.contact.ContactOverviewEvent$LaunchInquiryPrelogin)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.InquiryPreloginActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void openPhotoGallery(com.vrbo.android.pdp.components.photoheader.PhotoHeaderComponentEvent$OpenPhotoGallery)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.propertydetails.PhotoListActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity/void showSelectDates(com.vrbo.android.pdp.components.availability.AvailabilityComponentEvent$SelectDates)",
+            "sources": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.calendars.UnitAvailabilitySelectionActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.PrequalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.PdpPaymentDetailsActivity"
+            ],
+            "targets": [
+                "com.affirm.android.PrequalActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.ModalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,com.affirm.android.ModalActivity$ModalType,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.PdpPaymentDetailsActivity"
+            ],
+            "targets": [
+                "com.affirm.android.ModalActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.olb.OLBPaymentActivity$OLBPaymentWebClientView/boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.olb.OLBPaymentActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.CheckoutConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.prelogin.InquiryChatbotPreloginPresenter$bindView$$inlined$apply$lambda$2/void onClick(android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.prelogin.InquiryChatbotPreloginActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.CreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.prelogin.InquiryChatbotPreloginPresenter$bindView$$inlined$apply$lambda$1/void onClick(android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.prelogin.InquiryChatbotPreloginActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.prelogin.InquiryChatbotPreloginActivity/void onLoginSuccess()",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.prelogin.InquiryChatbotPreloginActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3/void openSearchTypeAhead()",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3/void openCalendar(com.homeaway.android.tripboards.activities.TripBoardDetailsEvent$OpenCalendar)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.ChangeDatesCalendarActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3/void openTripBoardPolls(java.lang.String)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.PollsListActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3/void openSearchResults(com.homeaway.android.tripboards.data.ContinueSearchParams)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.dialogs.signup.prompt.SignUpPromptDialog$$ExternalSyntheticLambda2/void onClick(android.view.View)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.CreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3/void openCopyTripBoardScreen(java.lang.String,java.lang.String,com.homeaway.android.tripboards.analytics.TripBoardPreviewProperties)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.CopyTripBoardActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3/void openGuestsPicker(com.homeaway.android.tripboards.activities.TripBoardDetailsEvent$OpenGuestPicker)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.TripBoardGuestPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.dialogs.signup.prompt.SignUpPromptDialog/void _init_$lambda-1(com.homeaway.android.tripboards.dialogs.signup.prompt.SignUpPromptDialog,android.content.Context,android.view.View)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3/void startGroupChat(java.lang.String)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.homeaway.android.groupchat.activities.GroupChatActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3/void openPdp(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3/void openCommentsAndVotes(java.lang.String,java.lang.String,com.homeaway.android.intents.CommentsVotesTab)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.TripBoardCommentsAndVotesActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3/void openParticipatePollScreen(com.homeaway.android.tripboards.data.Poll)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.PollActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.login.VerifyEmailAddressActivity/void onLoginClick()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.login.VerifyEmailAddressActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.AppOnBoardingActivity/void onStartBrowsingClick()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.AppOnBoardingActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.AppOnBoardingActivity/void onLoginButtonClick()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.AppOnBoardingActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.AppOnBoardingActivity/void onSignUpButtonClick()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.AppOnBoardingActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.CreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.InviteToTripActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.InviteToTripActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.contacts.InviteFromContactsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingActivity/void onDateButtonClick()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingCalendarActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingActivity/void onGuestsButtonClick()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.modifybooking.StayGuestPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingActivity/void onSubmitRequestError(java.lang.Throwable)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.popups.GenericPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingActivity/void onRequestSubmitSuccess()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.VcnDisplayActivity/void startActivity(android.app.Activity,int,com.affirm.android.model.Checkout,java.lang.String)",
+            "sources": [
+                "com.affirm.android.VcnDisplayActivity"
+            ],
+            "targets": [
+                "com.affirm.android.VcnDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.Affirm/void startLoanAmount(android.app.Activity,com.affirm.android.model.Checkout,java.lang.String,int)",
+            "sources": [
+                "com.affirm.android.VcnDisplayActivity"
+            ],
+            "targets": [
+                "com.affirm.android.LoanAmountActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presenters.checkout.CancellationProtectionPresenter/void bindView$lambda-1(com.vacationrentals.homeaway.presenters.checkout.CancellationProtectionPresenter,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.VasInterstitialActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.PlansDisclosuresActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.checkout.VasInterstitialActivity/void launchConfirmationActivity()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.VasInterstitialActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.CheckoutConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.propertydetails.VirtualTourWebViewActivity/void openVTExitSurvey()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.propertydetails.VirtualTourWebViewActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.propertydetails.vttours.exitsurvey.VTExitSurveyActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.login.IdentityRoutingActivity/void loadSingIn()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.login.IdentityRoutingActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.ManageGuestsActivity/void deleteSuccessAction$lambda-0(com.vacationrentals.homeaway.activities.ManageGuestsActivity,java.util.List)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.ManageGuestsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.ManageGuestsActivity/void onCreate$lambda-9(com.vacationrentals.homeaway.activities.ManageGuestsActivity,java.util.ArrayList,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.ManageGuestsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.InviteToTripV2Activity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presenters.HospitalityEssentialPresenter/void onClick(android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.HospitalityEssentialActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.HospitalityPhotoGalleryActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.CancellationPolicyActivity$serverDrivenErrorListener$1/void accept(java.lang.Throwable)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.CancellationPolicyActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.popups.GenericPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.CancellationPolicyActivity/void onCancellationButtonClick(com.homeaway.android.travelerapi.dto.cancellation.CancellationSummary)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.CancellationPolicyActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.CancellationRefundInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.CancellationPolicyActivity/void onCancellationButtonClick(com.homeaway.android.travelerapi.dto.cancellation.CancellationSummary)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.CancellationPolicyActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.CancellationActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.CancellationPolicyActivity/void configureModifyBookingWidget$lambda-23(com.vacationrentals.homeaway.activities.CancellationPolicyActivity,java.lang.String,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.CancellationPolicyActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.modifybooking.ModifyBookingActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity/void launchChatbot(boolean)",
+            "sources": [
+                "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.chatbot.activities.staybot.StayChatbotActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity/void handleAccountConfirmationStateChanges(com.vacationrentals.homeaway.presentation.state.UiAccountConfirmationState)",
+            "sources": [
+                "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.popups.GenericPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity/void handleLoggedInStateChanges(com.vacationrentals.homeaway.presentation.state.UserState)",
+            "sources": [
+                "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity/void launchChatbot(boolean)",
+            "sources": [
+                "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.presentation.activities.VirtualAgentActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity/void setupHelpOption$lambda-16(com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity,com.vacationrentals.homeaway.presentation.dialogs.bottommenu.HelpMenuItem)",
+            "sources": [
+                "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.presentation.activities.TripDetailsHelpWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.LoanAmountActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.affirm.android.LoanAmountActivity"
+            ],
+            "targets": [
+                "com.affirm.android.VcnCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.LoanAmountActivity/void startActivity(android.app.Activity,int,com.affirm.android.model.Checkout,java.lang.String,int)",
+            "sources": [
+                "com.affirm.android.LoanAmountActivity"
+            ],
+            "targets": [
+                "com.affirm.android.LoanAmountActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.checkout.CheckoutActivityV2/void completeCheckout(com.vrbo.android.checkout.CheckoutContract$CompleteCheckout)",
+            "sources": [
+                "com.vrbo.android.checkout.CheckoutActivityV2"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.CheckoutConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.checkout.CheckoutActivityV2/void startWebViewActivity()",
+            "sources": [
+                "com.vrbo.android.checkout.CheckoutActivityV2"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.olb.OLBWebViewCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.Affirm/void startVcnCheckout(android.app.Activity,com.affirm.android.model.Checkout,java.lang.String,org.joda.money.Money,boolean,int)",
+            "sources": [
+                "com.vrbo.android.checkout.CheckoutActivityV2"
+            ],
+            "targets": [
+                "com.affirm.android.VcnCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.checkout.CheckoutActivityV2/void startWebViewActivity()",
+            "sources": [
+                "com.vrbo.android.checkout.CheckoutActivityV2"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.olb.OLBPaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.checkout.CheckoutActivityV2/void startBookingAssistance(com.vrbo.android.checkout.CheckoutContract$StartBookingAssistance)",
+            "sources": [
+                "com.vrbo.android.checkout.CheckoutActivityV2"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.BookingAssistancePopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.checkout.CheckoutActivityV2/void startFreeCancellation(com.vrbo.android.checkout.CheckoutContract$StartFreeCancellation)",
+            "sources": [
+                "com.vrbo.android.checkout.CheckoutActivityV2"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.FreeCancellationActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.checkout.CheckoutActivityV2/void startBrazilModal(com.vrbo.android.checkout.CheckoutContract$StartBrazilModal)",
+            "sources": [
+                "com.vrbo.android.checkout.CheckoutActivityV2"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.BrazilPaymentOptionModalActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.error.CreatePaymentOlpDataError/void startErrorActivityForResult(java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.vrbo.android.checkout.CheckoutActivityV2"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.error.GenericErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.checkout.CheckoutActivityV2/void completeCheckout(com.vrbo.android.checkout.CheckoutContract$CompleteCheckout)",
+            "sources": [
+                "com.vrbo.android.checkout.CheckoutActivityV2"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.VasInterstitialActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.checkout.CheckoutActivityV2/void showErrorPopUp(com.vrbo.android.checkout.CheckoutContract$ErrorEvent)",
+            "sources": [
+                "com.vrbo.android.checkout.CheckoutActivityV2"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.popups.GenericPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.checkout.CheckoutActivityV2/void submitBookingRequest(com.vrbo.android.checkout.CheckoutContract$SubmitBookingRequest)",
+            "sources": [
+                "com.vrbo.android.checkout.CheckoutActivityV2"
+            ],
+            "targets": [
+                "com.affirm.android.CheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.checkout.SavedCardCheckoutActivity/void handleCheckoutExtensionErrors(com.homeaway.android.ApolloErrorException$Extensions)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.SavedCardCheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.popups.GenericPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.checkout.SavedCardCheckoutActivity/void openBrazilPaymentOptionSelection()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.SavedCardCheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.BrazilPaymentOptionModalActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.checkout.SavedCardCheckoutActivity/boolean onCreate$lambda-3$lambda-2(com.vacationrentals.homeaway.activities.checkout.SavedCardCheckoutActivity,android.view.MenuItem)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.checkout.SavedCardCheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.checkout.BookingAssistancePopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity/void chatEnded(boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.chatbot.exitsurvey.ChatbotExitSurveyActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity/void initError(com.vrbo.android.chat.error.ChatError)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity/void handleClientAction(com.vacationrentals.homeaway.chatbot.cards.button.ClientAction)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.GuestPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity/void launchWebView(java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.chatbot.activities.ChatbotWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity/void handleClientAction(com.vacationrentals.homeaway.chatbot.cards.button.ClientAction)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.olb.OLBQuoteActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity/void initError(com.vrbo.android.chat.error.ChatError)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.InquiryActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity/void handleClientAction(com.vacationrentals.homeaway.chatbot.cards.button.ClientAction)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.chatbot.activities.ChatbotPoiMapActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity/void handleClientAction(com.vacationrentals.homeaway.chatbot.cards.button.ClientAction)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.calendars.UnitAvailabilitySelectionActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity/void initError(com.vrbo.android.chat.error.ChatError)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.inquirybot.InquiryChatbotActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.InquiryPreloginActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity/void editTripDates()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.edit.SearchEditLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity/void onBackPressed()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity/void setDestinationGuide(java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity"
+            ],
+            "targets": [
+                "com.vrbo.android.destinationguide.ui.DestinationGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity/void showPropertyDetails(android.view.View,com.vacationrentals.homeaway.views.models.SearchViewContent$ListingViewContent,int)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity/void getDatesFromCalendar()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.calendars.SearchFlowCalendarActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity/void editFilters(com.homeaway.android.analytics.filters.FilterLocation)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.filters.SearchFiltersActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.views.search.SerpResultsMapView/void itemChosen(com.vacationrentals.homeaway.views.models.SearchViewContent$ListingViewContent)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsActivity/void filterClickListener$lambda-28(com.vacationrentals.homeaway.activities.search.SearchResultsActivity,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.filters.SearchFiltersActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsActivity/void filterClickListener$lambda-28(com.vacationrentals.homeaway.activities.search.SearchResultsActivity,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchFlowFiltersActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsActivity/void setDestinationGuide(java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.vrbo.android.destinationguide.ui.DestinationGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsActivity/void goToSearch(android.view.View,boolean)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsActivity/void setViewEvent(com.vacationrentals.homeaway.presenters.search.ViewEvent)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.edit.SearchEditLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchResultsActivity/void getDatesFromCalendar()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.calendars.SearchFlowCalendarActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardCommentsAndVotesActivity/void observeViewModel$lambda-4(com.homeaway.android.tripboards.activities.TripBoardCommentsAndVotesActivity,com.homeaway.android.common.viewmodels.SingleEvent)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardCommentsAndVotesActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.NotificationPromptActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.calendars.SearchFlowCalendarActivity/void onCreate$lambda-6(com.vacationrentals.homeaway.activities.calendars.SearchFlowCalendarActivity,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.calendars.SearchFlowCalendarActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.guests.SearchGuestSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.calendars.SearchFlowCalendarActivity/void onCreate$lambda-6(com.vacationrentals.homeaway.activities.calendars.SearchFlowCalendarActivity,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.calendars.SearchFlowCalendarActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchFlowFiltersActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.SearchMultiUnitActivity/void showPropertyDetails(android.view.View,com.vacationrentals.homeaway.views.models.SearchViewContent$ListingViewContent,int)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.SearchMultiUnitActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.CancellationActivity/void goToEssentials()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.CancellationActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.CancellationActivity/void goToEssentials()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.CancellationActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.HospitalityActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.MultiSaveActivity/void openSignUpScreen()",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.MultiSaveActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.CreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.MultiSaveActivity/void openSignInScreen()",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.MultiSaveActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.staybot.StayChatbotActivity/void handleClientAction(com.vacationrentals.homeaway.chatbot.cards.button.ClientAction)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.staybot.StayChatbotActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.AddressAndDirectionsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.chatbot.activities.staybot.StayChatbotActivity/void launchWebView(java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.chatbot.activities.staybot.StayChatbotActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.chatbot.activities.ChatbotWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.MainActivity/void onNewIntent(android.content.Intent)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.MainActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.MainActivity/void errorAction$lambda-0(com.vacationrentals.homeaway.activities.MainActivity,java.lang.Throwable)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.MainActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.popups.GenericPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.propertydetails.PhotoGalleryActivity/void vtOnClickListenerListener$lambda-6(com.vacationrentals.homeaway.activities.propertydetails.PhotoGalleryActivity,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.propertydetails.PhotoGalleryActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.propertydetails.VirtualTourWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.profiles.ProfileActivity/void showLogoutDialog$lambda-2(com.vacationrentals.homeaway.activities.profiles.ProfileActivity,android.content.DialogInterface,int)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.profiles.ProfileActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.profiles.ProfileActivity/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.profiles.ProfileActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.profiles.EditProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.TravelerConversationActivity/void sendAndShowConfirmation()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.TravelerConversationActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.popups.GenericPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.TravelerConversationActivity/void refresh()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.TravelerConversationActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.views.TravelerConversationDetailsView/void setListing$lambda-6$lambda-0(com.vacationrentals.homeaway.views.TravelerConversationDetailsView,com.homeaway.android.travelerapi.dto.hospitality.StayListing,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.TravelerConversationActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presenters.InquiryPreloginPresenter/void bindView$lambda-3(com.vacationrentals.homeaway.presenters.InquiryPreloginPresenter,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.InquiryPreloginActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.InquiryPreloginActivity/void onLoginSuccess()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.InquiryPreloginActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.InquiryActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presenters.InquiryPreloginPresenter/void bindView$lambda-5(com.vacationrentals.homeaway.presenters.InquiryPreloginPresenter,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.InquiryPreloginActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.CreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.InviteGuestsPopupActivity/void getPopupView$lambda-5(com.vacationrentals.homeaway.activities.InviteGuestsPopupActivity,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.InviteGuestsPopupActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.InviteToTripV2Activity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.InviteGuestsPopupActivity/void getPopupView$lambda-5(com.vacationrentals.homeaway.activities.InviteGuestsPopupActivity,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.InviteGuestsPopupActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.InviteToTripActivity"
+            ]
+        },
+        {
+            "handler": "com.affirm.android.PrequalActivity/void startActivity(android.app.Activity,int,java.math.BigDecimal,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.affirm.android.PrequalActivity"
+            ],
+            "targets": [
+                "com.affirm.android.PrequalActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.help.HelpLandingScreen$bindView$3/void onClick(android.view.View)",
+            "sources": [
+                "com.vrbo.android.account.activity.LandingScreenWrapperActivity"
+            ],
+            "targets": [
+                "com.vrbo.android.help.activity.AppSupportActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.help.HelpLandingScreen$bindView$2/void onClick(android.view.View)",
+            "sources": [
+                "com.vrbo.android.account.activity.LandingScreenWrapperActivity"
+            ],
+            "targets": [
+                "com.vrbo.android.help.activity.BookingSupportActivity"
+            ]
+        },
+        {
+            "handler": "com.vrbo.android.help.HelpLandingScreen$bindView$1/void onClick(android.view.View)",
+            "sources": [
+                "com.vrbo.android.account.activity.LandingScreenWrapperActivity"
+            ],
+            "targets": [
+                "com.vrbo.android.help.activity.BookingAssistanceActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.PollsListActivity/void updateFromEvent(com.homeaway.android.common.viewmodels.SingleEvent)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.PollsListActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.CreatePollActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.PollsListActivity/void navigateToPollResults(com.homeaway.android.tripboards.data.Poll)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.PollsListActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.PollResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.PollsListActivity/void navigateToPoll(com.homeaway.android.tripboards.data.Poll)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.PollsListActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.PollActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.PollResultsActivity/void navigateToPdp(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.PollResultsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.PollActivity/void navigateToCollaborators(java.util.List,com.homeaway.android.tripboards.analytics.PollProperties)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.PollActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.PollDragAndDropCollaboratorsActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.PollActivity/void launchPollsListActivity(com.homeaway.android.tripboards.data.PollActionSnackbarType,java.lang.String)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.PollActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.PollsListActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.PollActivity/void launchPollResultsActivity(com.homeaway.android.tripboards.data.Poll)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.PollActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.PollResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.PollActivity/void navigateToPdp(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.PollActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.propertydetails.PropertyDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.olb.OLBWebViewCheckoutActivity$OLBWebViewCheckoutWebViewClient/boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.olb.OLBWebViewCheckoutActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.CheckoutConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.presenters.CheckoutConfirmationCreateAccountPresenter/void redirectToTrips()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.CheckoutConfirmationActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.HospitalityPaymentsActivity/void onDownloadClick(android.net.Uri)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.HospitalityPaymentsActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.popups.GenericPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.HospitalityActivity/void showInviteToTripModalIfAvailable$lambda-38$lambda-37(com.vacationrentals.homeaway.activities.HospitalityActivity,com.homeaway.android.travelerapi.dto.hospitality.MyTripsContent,java.lang.Boolean)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.HospitalityActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.InviteGuestsPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.HospitalityActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.HospitalityActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.presentation.activities.TripDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.views.dialogs.InviteGuestsBottomDialog/void lambda-4$lambda-3(com.homeaway.android.travelerapi.dto.hospitality.MyTripsContent,com.homeaway.android.intents.HospitalityIntentFactory,android.content.Context,com.homeaway.android.analytics.GuestEventsTracker$ActionLocation,com.vacationrentals.homeaway.views.dialogs.InviteGuestsBottomDialog,com.homeaway.android.analytics.GuestEventsTracker,android.view.View)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.HospitalityActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.InviteToTripV2Activity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.HospitalityActivity/void redirectToInbox()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.HospitalityActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.HospitalityActivity/void handleMessage(com.homeaway.android.travelerapi.dto.travelerhome.conversation.Message,com.homeaway.android.travelerapi.dto.travelerhome.conversation.MessageAction)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.HospitalityActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.HospitalityPaymentsActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.HospitalityActivity/void handleForbiddenUserError()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.HospitalityActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.popups.GenericPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.HospitalityActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.HospitalityActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.chatbot.activities.staybot.StayChatbotActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.HospitalityActivity/void redirectToSignIn()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.HospitalityActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.login.TravelerSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardInvitePreviewActivity$serverDrivenErrorListener$1/void accept$lambda-0(com.homeaway.android.tripboards.activities.TripBoardInvitePreviewActivity,android.view.View)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardInvitePreviewActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.homeaway.android.tripboards.activities.TripBoardInvitePreviewActivity/void acceptInviteAndRenderTBDetails$lambda-3(com.homeaway.android.tripboards.activities.TripBoardInvitePreviewActivity,java.lang.String,com.homeaway.android.tripboards.graphql.fragment.BaseTripBoardFragment,com.homeaway.android.tripboards.graphql.AcceptInvitationMutation$AcceptInvitation)",
+            "sources": [
+                "com.homeaway.android.tripboards.activities.TripBoardInvitePreviewActivity"
+            ],
+            "targets": [
+                "com.homeaway.android.tripboards.activities.TripBoardDetailsActivityV3"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.InquiryActivity/void onGuestsButtonClick()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.InquiryActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.GuestPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.InquiryActivity/void selectDates()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.InquiryActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.calendars.UnitAvailabilitySelectionActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.InquiryActivity/void startInquirySentActivity(com.homeaway.android.travelerapi.dto.travelerhome.inquiries.InquiryRequestResponse)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.InquiryActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.InquirySentActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.edit.SearchEditLandingActivity/void setViewEvent(com.vacationrentals.homeaway.activities.search.edit.ViewEvent)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.edit.SearchEditLandingActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.guests.SearchGuestSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.edit.SearchEditLandingActivity/void setViewEvent(com.vacationrentals.homeaway.activities.search.edit.ViewEvent)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.edit.SearchEditLandingActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.edit.SearchEditLandingActivity/void setViewEvent(com.vacationrentals.homeaway.activities.search.edit.ViewEvent)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.edit.SearchEditLandingActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.calendars.SearchFlowCalendarActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.olb.OLBQuoteActivity/void selectDates()",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.olb.OLBQuoteActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.calendars.UnitAvailabilitySelectionActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.deeplink.branchio.BranchDeepLinkHandler/void onInitFinished(org.json.JSONObject,io.branch.referral.BranchError)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.UriLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.SplashActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.SplashActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.SplashActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.AppOnBoardingActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.guests.SearchGuestSelectorActivity/void goToSearch(boolean)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.guests.SearchGuestSelectorActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsExpandedActivity"
+            ]
+        },
+        {
+            "handler": "com.vacationrentals.homeaway.activities.search.guests.SearchGuestSelectorActivity/void goToSearch(boolean)",
+            "sources": [
+                "com.vacationrentals.homeaway.activities.search.guests.SearchGuestSelectorActivity"
+            ],
+            "targets": [
+                "com.vacationrentals.homeaway.activities.search.SearchResultsActivity"
+            ]
+        }
+    ]
+}

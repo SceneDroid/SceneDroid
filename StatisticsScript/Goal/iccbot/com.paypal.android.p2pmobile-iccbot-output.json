@@ -1,0 +1,1993 @@
+{
+    "transitions": [
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalInfoListActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalInfoListActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalInfoListActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.LegalInfoListActivity$2/void onSuccess(com.ingomoney.ingosdk.android.http.json.response.base.MobileStatusResponse)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalInfoListActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalInfoActivity"
+            ]
+        },
+        {
+            "handler": "o.aewc/void e()",
+            "sources": [
+                "o.aewc"
+            ],
+            "targets": [
+                "com.paypal.android.paypalgrowth.userledgrowth.referraloffermgm.activities.ContactListActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeActivity/boolean b(android.os.Bundle)",
+            "sources": [
+                "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeActivity"
+            ],
+            "targets": [
+                "com.paypal.android.foundation.interapp.presentation.activity.FuturePaymentActivity"
+            ]
+        },
+        {
+            "handler": "o.psf/void j()",
+            "sources": [
+                "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeActivity"
+            ],
+            "targets": [
+                "o.psj"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "o.byc/void d(android.content.Context,o.bwz,o.bze)",
+            "sources": [
+                "o.bfu"
+            ],
+            "targets": [
+                "o.bxx"
+            ]
+        },
+        {
+            "handler": "o.byc/void d(android.content.Context,o.bwz,o.bze)",
+            "sources": [
+                "o.bfu"
+            ],
+            "targets": [
+                "o.bxw"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.TransactionActivity/void showSuccessScreen(com.ingomoney.ingosdk.android.http.json.response.ReviewStatusResponse,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CameraActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CameraActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CameraActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.CameraActivity$1$4$2/void onSuccess(com.ingomoney.ingosdk.android.http.json.response.base.MobileStatusResponse)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CameraActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CameraActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "o.pbm/void d(com.paypal.android.foundation.compliance.model.CipParams)",
+            "sources": [
+                "o.pbf"
+            ],
+            "targets": [
+                "o.pbe"
+            ]
+        },
+        {
+            "handler": "o.pbm/void c(java.io.File)",
+            "sources": [
+                "o.pbf"
+            ],
+            "targets": [
+                "o.pix"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.AutomaticCameraActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.AutomaticCameraActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.TransactionActivity/void showSuccessScreen(com.ingomoney.ingosdk.android.http.json.response.ReviewStatusResponse,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.AutomaticCameraActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.AboutActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.AboutActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.AboutActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.foundation.interapp.presentation.activity.FuturePaymentActivity$1/void e(com.paypal.android.foundation.auth.model.FuturePaymentResult)",
+            "sources": [
+                "com.paypal.android.foundation.interapp.presentation.activity.FuturePaymentActivity"
+            ],
+            "targets": [
+                "o.pkf"
+            ]
+        },
+        {
+            "handler": "o.psf/void j()",
+            "sources": [
+                "com.paypal.android.foundation.interapp.presentation.activity.FuturePaymentActivity"
+            ],
+            "targets": [
+                "o.psj"
+            ]
+        },
+        {
+            "handler": "o.sxd/void a(android.app.Activity,java.lang.String,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "o.zxv"
+            ],
+            "targets": [
+                "o.sxd"
+            ]
+        },
+        {
+            "handler": "o.ahbp$b/void d(android.app.Activity,int)",
+            "sources": [
+                "o.ahbp"
+            ],
+            "targets": [
+                "o.ahbp"
+            ]
+        },
+        {
+            "handler": "com.paypal.pyplcheckout.home.view.activities.PYPLInitiateCheckoutActivity/void startHomeActivity()",
+            "sources": [
+                "com.paypal.pyplcheckout.home.view.activities.PYPLInitiateCheckoutActivity"
+            ],
+            "targets": [
+                "com.paypal.pyplcheckout.home.view.activities.PYPLHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.TransactionActivity/void showSuccessScreen(com.ingomoney.ingosdk.android.http.json.response.ReviewStatusResponse,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.TransactionActivity/void showSuccessScreen(com.ingomoney.ingosdk.android.http.json.response.ReviewStatusResponse,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ApprovalReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.ApprovalReviewActivity/void launchCheckFrankingActivity(com.ingomoney.ingosdk.android.http.json.response.ReviewStatusResponse)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ApprovalReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingUploadActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ApprovalReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ApprovalReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.ApprovalReviewActivity/void onDismiss(int,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ApprovalReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ApprovalReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "o.zwv/void d()",
+            "sources": [
+                "o.zwv"
+            ],
+            "targets": [
+                "o.zwz"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.HistoryActivity$1$1/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryTransactionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "o.xrs/void a(android.app.Activity,java.lang.String,java.lang.String)",
+            "sources": [
+                "o.xry"
+            ],
+            "targets": [
+                "o.xrt"
+            ]
+        },
+        {
+            "handler": "o.xrs/void b(android.app.Activity,o.per)",
+            "sources": [
+                "o.xry"
+            ],
+            "targets": [
+                "o.xru"
+            ]
+        },
+        {
+            "handler": "o.xrs/void a(android.app.Activity,com.paypal.android.foundation.cause.model.DexterErrorDetail)",
+            "sources": [
+                "o.xry"
+            ],
+            "targets": [
+                "o.xtu"
+            ]
+        },
+        {
+            "handler": "o.xrs/void a(android.app.Activity,com.paypal.android.foundation.cause.model.DexterErrorDetail)",
+            "sources": [
+                "o.xsb"
+            ],
+            "targets": [
+                "o.xtu"
+            ]
+        },
+        {
+            "handler": "o.xrs/void a(android.app.Activity,java.lang.String,java.lang.String)",
+            "sources": [
+                "o.xsb"
+            ],
+            "targets": [
+                "o.xrt"
+            ]
+        },
+        {
+            "handler": "o.xrs/void b(android.app.Activity,o.per)",
+            "sources": [
+                "o.xsb"
+            ],
+            "targets": [
+                "o.xru"
+            ]
+        },
+        {
+            "handler": "o.xsg/void c(android.app.Activity,com.paypal.android.foundation.cause.model.DexterErrorDetail)",
+            "sources": [
+                "o.xsg"
+            ],
+            "targets": [
+                "o.xtu"
+            ]
+        },
+        {
+            "handler": "o.xsg/void c(android.app.Activity,java.lang.String,java.lang.String)",
+            "sources": [
+                "o.xsg"
+            ],
+            "targets": [
+                "o.xrt"
+            ]
+        },
+        {
+            "handler": "o.xsg/void a(android.app.Activity,o.per)",
+            "sources": [
+                "o.xsg"
+            ],
+            "targets": [
+                "o.xru"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.FundsTimingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.TransactionActivity/void showSuccessScreen(com.ingomoney.ingosdk.android.http.json.response.ReviewStatusResponse,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.FundsTimingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.FundsTimingActivity/void onDismiss(int,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.FundsTimingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.FundsTimingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.FundsTimingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.FundsTimingActivity/void showFeesActivity(android.view.View)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.FundsTimingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.FeesActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.KycHardFailActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.KycHardFailActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.KycQuestionActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.KycQuestionActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.TransactionActivity/void showSuccessScreen(com.ingomoney.ingosdk.android.http.json.response.ReviewStatusResponse,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.KycQuestionActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.KycQuestionActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.p2pmobile.savings.activities.WebViewActivity$c/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.paypal.android.p2pmobile.savings.activities.WebViewActivity"
+            ],
+            "targets": [
+                "com.paypal.android.p2pmobile.savings.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.p2pmobile.savings.activities.DeepLinkActivity/void g()",
+            "sources": [
+                "com.paypal.android.p2pmobile.savings.activities.DeepLinkActivity"
+            ],
+            "targets": [
+                "o.acsu"
+            ]
+        },
+        {
+            "handler": "o.mhm$d/void d(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.paypal.android.shopping.ui.activities.PayPalInAppBrowserActivity"
+            ],
+            "targets": [
+                "o.mhm"
+            ]
+        },
+        {
+            "handler": "o.agvq/void a(android.content.Context,o.agik,o.afyw,o.albg)",
+            "sources": [
+                "com.paypal.android.shopping.ui.activities.PayPalInAppBrowserActivity"
+            ],
+            "targets": [
+                "com.paypal.android.shopping.ui.activities.ShoppingActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.shopping.ui.activities.PayPalInAppBrowserActivity$d/void e(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,o.mkx)",
+            "sources": [
+                "com.paypal.android.shopping.ui.activities.PayPalInAppBrowserActivity"
+            ],
+            "targets": [
+                "com.paypal.android.shopping.ui.activities.PayPalInAppBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.HistoryTransactionDetailActivity$HistoryDetailsFrontImageCallback$1/void onClick(android.view.View)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryTransactionDetailActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ViewImageActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryTransactionDetailActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.HistoryTransactionDetailActivity/void showCheckFrankingActivity()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryTransactionDetailActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingUploadActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryTransactionDetailActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryTransactionDetailActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.TransactionActivity/void showSuccessScreen(com.ingomoney.ingosdk.android.http.json.response.ReviewStatusResponse,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryTransactionDetailActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ]
+        },
+        {
+            "handler": "o.pix/void l(com.paypal.android.foundation.idassurance.model.IdAssuranceWorkflowContext)",
+            "sources": [
+                "o.pix"
+            ],
+            "targets": [
+                "o.qdn"
+            ]
+        },
+        {
+            "handler": "o.pix/void k(com.paypal.android.foundation.idassurance.model.IdAssuranceWorkflowContext)",
+            "sources": [
+                "o.pix"
+            ],
+            "targets": [
+                "o.qdt"
+            ]
+        },
+        {
+            "handler": "o.wyl/void l()",
+            "sources": [
+                "o.wxa"
+            ],
+            "targets": [
+                "o.wwl"
+            ]
+        },
+        {
+            "handler": "o.xrs/void b(android.app.Activity,o.per)",
+            "sources": [
+                "com.paypal.android.p2pmobile.moneypools.activities.DWViewFundraiserActivity"
+            ],
+            "targets": [
+                "o.xru"
+            ]
+        },
+        {
+            "handler": "o.xrs/void a(android.app.Activity,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.paypal.android.p2pmobile.moneypools.activities.DWViewFundraiserActivity"
+            ],
+            "targets": [
+                "o.xrt"
+            ]
+        },
+        {
+            "handler": "o.xrs/void a(android.app.Activity,com.paypal.android.foundation.cause.model.DexterErrorDetail)",
+            "sources": [
+                "com.paypal.android.p2pmobile.moneypools.activities.DWViewFundraiserActivity"
+            ],
+            "targets": [
+                "o.xtu"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.p2pmobile.qrcode.QrcHostActivity$e/void c(o.ty,o.aboa)",
+            "sources": [
+                "com.paypal.android.p2pmobile.qrcode.QrcHostActivity"
+            ],
+            "targets": [
+                "com.paypal.android.p2pmobile.qrcode.QrcHostActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingUploadActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingUploadActivity$3$1/o.akwq invoke(com.karumi.dexter.listener.PermissionGrantedResponse)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingUploadActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.AutomaticCameraActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.TransactionActivity/void showSuccessScreen(com.ingomoney.ingosdk.android.http.json.response.ReviewStatusResponse,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingUploadActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingUploadActivity/void goToCheckFrankingReview()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingUploadActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingUploadActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingUploadActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "o.wyl/void l()",
+            "sources": [
+                "o.wxh"
+            ],
+            "targets": [
+                "o.wwl"
+            ]
+        },
+        {
+            "handler": "o.wyl/void l()",
+            "sources": [
+                "o.wxl"
+            ],
+            "targets": [
+                "o.wwl"
+            ]
+        },
+        {
+            "handler": "o.wyl/void l()",
+            "sources": [
+                "o.wwv"
+            ],
+            "targets": [
+                "o.wwl"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationSubmittedActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationSubmittedActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "o.wyl/void l()",
+            "sources": [
+                "o.wwa"
+            ],
+            "targets": [
+                "o.wwl"
+            ]
+        },
+        {
+            "handler": "o.wyl/void l()",
+            "sources": [
+                "o.wwl"
+            ],
+            "targets": [
+                "o.wwl"
+            ]
+        },
+        {
+            "handler": "o.affl$i/java.lang.Object invokeSuspend(java.lang.Object)",
+            "sources": [
+                "o.affl"
+            ],
+            "targets": [
+                "o.afgn"
+            ]
+        },
+        {
+            "handler": "o.pld/void e(android.os.Bundle,com.paypal.android.foundation.auth.model.PartnerWalletIssuanceData)",
+            "sources": [
+                "o.plf"
+            ],
+            "targets": [
+                "o.plc"
+            ]
+        },
+        {
+            "handler": "o.psf/void j()",
+            "sources": [
+                "o.plf"
+            ],
+            "targets": [
+                "o.psj"
+            ]
+        },
+        {
+            "handler": "o.pld/void e(android.os.Bundle,com.paypal.android.foundation.auth.model.PartnerWalletIssuanceData)",
+            "sources": [
+                "o.plf"
+            ],
+            "targets": [
+                "o.pkz"
+            ]
+        },
+        {
+            "handler": "com.paypal.invoicing.sdk.ui.features.InvoiceActivity$e/void b(o.aifd)",
+            "sources": [
+                "com.paypal.invoicing.sdk.ui.features.InvoiceActivity"
+            ],
+            "targets": [
+                "com.paypal.contacts.sdk.ui.features.ContactActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.invoicing.sdk.ui.features.InvoiceActivity$e/void b(o.aifd)",
+            "sources": [
+                "com.paypal.invoicing.sdk.ui.features.InvoiceActivity"
+            ],
+            "targets": [
+                "com.paypal.catalog.sdk.items.features.ItemsActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.PostUserRegistrationActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.PostUserRegistrationActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.PostUserRegistrationActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.PostUserRegistrationActivity$1/void onSuccess(com.ingomoney.ingosdk.android.http.json.response.base.MobileStatusResponse)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.PostUserRegistrationActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.CompletedRegistrationActivity"
+            ]
+        },
+        {
+            "handler": "o.psf/void j()",
+            "sources": [
+                "o.pkx"
+            ],
+            "targets": [
+                "o.psj"
+            ]
+        },
+        {
+            "handler": "o.pld/void e(android.os.Bundle,com.paypal.android.foundation.auth.model.PartnerWalletIssuanceData)",
+            "sources": [
+                "o.pkx"
+            ],
+            "targets": [
+                "o.pkz"
+            ]
+        },
+        {
+            "handler": "o.pld/void e(android.os.Bundle,com.paypal.android.foundation.auth.model.PartnerWalletIssuanceData)",
+            "sources": [
+                "o.pkx"
+            ],
+            "targets": [
+                "o.plc"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CompletedRegistrationActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CompletedRegistrationActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.listener.ConfigurablePermissionListener/void showPrivacyPolicy()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CompletedRegistrationActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.PrivacyPolicyActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.lib.authenticator.mini.PaypalLinkDialogFragment/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.paypal.android.lib.authenticator.mini.PaypalLinkDialogFragment"
+            ],
+            "targets": [
+                "com.paypal.android.foundation.presentation.activity.FingerprintActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity/boolean b(android.os.Bundle)",
+            "sources": [
+                "o.pki"
+            ],
+            "targets": [
+                "com.paypal.android.foundation.interapp.presentation.activity.FuturePaymentActivity"
+            ]
+        },
+        {
+            "handler": "o.psf/void j()",
+            "sources": [
+                "o.pki"
+            ],
+            "targets": [
+                "o.psj"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity/void c()",
+            "sources": [
+                "o.pki"
+            ],
+            "targets": [
+                "o.pkd"
+            ]
+        },
+        {
+            "handler": "o.mhm$d/void d(android.content.Context,java.lang.String)",
+            "sources": [
+                "o.mhm"
+            ],
+            "targets": [
+                "o.mhm"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CustomerServiceActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.CustomerServiceActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CustomerServiceActivity"
+            ],
+            "targets": [
+                "com.paypal.android.p2pmobile.common.activities.DeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CustomerServiceActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.shopping.ui.activities.ShoppingActivity/void c(android.net.Uri)",
+            "sources": [
+                "com.paypal.android.shopping.ui.activities.ShoppingActivity"
+            ],
+            "targets": [
+                "com.paypal.android.shopping.ui.activities.ShoppingNotTransparentActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.FeesActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.FeesActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "o.prq/void c()",
+            "sources": [
+                "o.prq"
+            ],
+            "targets": [
+                "o.prr"
+            ]
+        },
+        {
+            "handler": "o.prw/void h()",
+            "sources": [
+                "o.prw"
+            ],
+            "targets": [
+                "o.pro"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "com.paypal.android.lib.authenticator.mini.PaypalLinkDialogFragment"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeActivity"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "com.paypal.android.foundation.interapp.presentation.activity.FuturePaymentActivity"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "com.paypal.android.foundation.presentation.activity.DeviceNotificationsActivity"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "com.paypal.android.p2pmobile.startup.activities.StartupActivity"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "com.paypal.android.p2pmobile.settings.starpay.activities.AndroidPaySettingsActivityNew"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "o.tsa"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "o.adpo"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "o.pbc"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "o.xsb"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "o.adpk"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "com.paypal.android.p2pmobile.contacts.activities.MessagingContactActivity"
+            ]
+        },
+        {
+            "handler": "o.aeka$b/void onSafeClick(android.view.View)",
+            "sources": [
+                "o.aeka"
+            ],
+            "targets": [
+                "o.pbf"
+            ]
+        },
+        {
+            "handler": "o.pry/void h()",
+            "sources": [
+                "o.pry"
+            ],
+            "targets": [
+                "o.prx"
+            ]
+        },
+        {
+            "handler": "o.psf/void j()",
+            "sources": [
+                "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity"
+            ],
+            "targets": [
+                "o.psj"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity/void c()",
+            "sources": [
+                "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity"
+            ],
+            "targets": [
+                "o.pkd"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity/boolean b(android.os.Bundle)",
+            "sources": [
+                "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentNativeCheckoutActivity"
+            ],
+            "targets": [
+                "com.paypal.android.foundation.interapp.presentation.activity.FuturePaymentActivity"
+            ]
+        },
+        {
+            "handler": "o.prc/void a(o.per)",
+            "sources": [
+                "o.prc"
+            ],
+            "targets": [
+                "o.pss"
+            ]
+        },
+        {
+            "handler": "o.prc/void a(o.per)",
+            "sources": [
+                "o.prc"
+            ],
+            "targets": [
+                "o.psq"
+            ]
+        },
+        {
+            "handler": "o.prc/void d(java.lang.String,java.lang.String,android.os.Bundle,boolean)",
+            "sources": [
+                "o.prc"
+            ],
+            "targets": [
+                "o.pri"
+            ]
+        },
+        {
+            "handler": "o.sxd/void a(android.app.Activity,java.lang.String,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "o.sxd"
+            ],
+            "targets": [
+                "o.sxd"
+            ]
+        },
+        {
+            "handler": "o.sws/void d(android.app.Activity,o.sws$c,int)",
+            "sources": [
+                "o.sws"
+            ],
+            "targets": [
+                "o.sws"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingReviewActivity/void onDismiss(int,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingReviewActivity/void onDismiss(int,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingUploadActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.TransactionActivity/void showSuccessScreen(com.ingomoney.ingosdk.android.http.json.response.ReviewStatusResponse,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.CheckFrankingReviewActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "o.mhm$d/void d(android.content.Context,java.lang.String)",
+            "sources": [
+                "o.mkw"
+            ],
+            "targets": [
+                "o.mhm"
+            ]
+        },
+        {
+            "handler": "o.mkw$d/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,o.mkx)",
+            "sources": [
+                "o.mkw"
+            ],
+            "targets": [
+                "o.mkw"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.p2pmobile.common.activities.InternalDeepLinkHandlerActivity/void j()",
+            "sources": [
+                "com.paypal.android.p2pmobile.common.activities.InternalDeepLinkHandlerActivity"
+            ],
+            "targets": [
+                "com.paypal.mobile.digitalwallet.home.screen.home.HomeActivity"
+            ]
+        },
+        {
+            "handler": "o.tge/boolean d(o.yu,o.ty,android.net.Uri)",
+            "sources": [
+                "com.paypal.android.p2pmobile.common.activities.InternalDeepLinkHandlerActivity"
+            ],
+            "targets": [
+                "o.uli"
+            ]
+        },
+        {
+            "handler": "com.paypal.pyplcheckout.utils.PayPalCheckoutSdk/void startNativeCheckout(android.content.Context)",
+            "sources": [
+                "com.paypal.android.foundation.interapp.presentation.activity.SinglePaymentWebActivity"
+            ],
+            "targets": [
+                "com.paypal.pyplcheckout.home.view.activities.PYPLInitiateCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "o.sws/void d(android.app.Activity,o.sws$c,int)",
+            "sources": [
+                "o.aekq"
+            ],
+            "targets": [
+                "o.sws"
+            ]
+        },
+        {
+            "handler": "o.sws/void d(android.app.Activity,o.sws$c,int)",
+            "sources": [
+                "o.aekj"
+            ],
+            "targets": [
+                "o.sws"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ViewImageActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.ViewImageActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "o.sws/void d(android.app.Activity,o.sws$c,int)",
+            "sources": [
+                "o.aeln"
+            ],
+            "targets": [
+                "o.sws"
+            ]
+        },
+        {
+            "handler": "o.sws/void d(android.app.Activity,o.sws$c,int)",
+            "sources": [
+                "o.aell"
+            ],
+            "targets": [
+                "o.sws"
+            ]
+        },
+        {
+            "handler": "o.psu/void e(java.lang.String)",
+            "sources": [
+                "o.psu"
+            ],
+            "targets": [
+                "o.pbc"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.IngoSdkManager/void route()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.TermsAndConditionsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.TermsAndConditionsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.IngoSdkManager/void launchRegistration()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.TermsAndConditionsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.RegisterUserActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.IngoSdkManager/void route()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.TermsAndConditionsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationSubmittedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.IngoSdkManager/void route()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.TermsAndConditionsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "o.pry/void h()",
+            "sources": [
+                "o.psi"
+            ],
+            "targets": [
+                "o.prx"
+            ]
+        },
+        {
+            "handler": "o.psn/void j()",
+            "sources": [
+                "o.psn"
+            ],
+            "targets": [
+                "o.psx"
+            ]
+        },
+        {
+            "handler": "o.psn/void i()",
+            "sources": [
+                "o.psn"
+            ],
+            "targets": [
+                "o.psu"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.DepositFundsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.TransactionActivity/void showSuccessScreen(com.ingomoney.ingosdk.android.http.json.response.ReviewStatusResponse,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.DepositFundsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.DepositFundsActivity/void launchFundsTiming()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.DepositFundsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.FundsTimingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.DepositFundsActivity$BackPreviewClickListener$1$1/o.akwq invoke(com.karumi.dexter.listener.PermissionGrantedResponse)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.DepositFundsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.AutomaticCameraActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.DepositFundsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.DepositFundsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalInfoActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalInfoActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.catalog.sdk.items.features.ItemsActivity$c/void a(o.ahng)",
+            "sources": [
+                "com.paypal.catalog.sdk.items.features.ItemsActivity"
+            ],
+            "targets": [
+                "com.paypal.catalog.sdk.taxes.features.addtax.TaxesActivity"
+            ]
+        },
+        {
+            "handler": "o.msb/void e(o.nde)",
+            "sources": [
+                "o.msb"
+            ],
+            "targets": [
+                "o.msd"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.PrivacyPolicyActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.PrivacyPolicyActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.PrivacyPolicyActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.IngoSdkManager/void route()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.PrivacyPolicyActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationSubmittedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.IngoSdkManager/void launchRegistration()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.PrivacyPolicyActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.RegisterUserActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.pyplcheckout.threeds.ThreeDS20Activity$onCreate$1/java.lang.Object invokeSuspend(java.lang.Object)",
+            "sources": [
+                "com.paypal.pyplcheckout.threeds.ThreeDS20Activity"
+            ],
+            "targets": [
+                "com.paypal.pyplcheckout.home.view.activities.PYPLHomeActivity"
+            ]
+        },
+        {
+            "handler": "o.byc/void d(android.content.Context,o.bwz,o.bze)",
+            "sources": [
+                "com.paypal.pyplcheckout.threeds.ThreeDS20Activity"
+            ],
+            "targets": [
+                "o.bxw"
+            ]
+        },
+        {
+            "handler": "o.byc/void d(android.content.Context,o.bwz,o.bze)",
+            "sources": [
+                "com.paypal.pyplcheckout.threeds.ThreeDS20Activity"
+            ],
+            "targets": [
+                "o.bxx"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.p2pmobile.home2.activities.HomeActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.paypal.android.p2pmobile.home2.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.paypal.mobile.digitalwallet.home.screen.home.HomeActivity"
+            ]
+        },
+        {
+            "handler": "o.aerh/void g()",
+            "sources": [
+                "o.aerh"
+            ],
+            "targets": [
+                "o.std"
+            ]
+        },
+        {
+            "handler": "o.sxd/void a(android.app.Activity,java.lang.String,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "o.xfp"
+            ],
+            "targets": [
+                "o.sxd"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.RegisterUserActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.RegisterUserActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.RegisterUserActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.PostUserRegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.RegisterUserActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "o.xia$a/void c(o.ty,o.xib)",
+            "sources": [
+                "o.xia"
+            ],
+            "targets": [
+                "o.xia"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalDocumentsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.IngoSdkManager/void route()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalDocumentsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationSubmittedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalDocumentsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.IngoSdkManager/void route()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalDocumentsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.IngoSdkManager/void launchRegistration()",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalDocumentsActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.RegisterUserActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/void showManualVerificationRequiredDialog(int)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.ManualVerificationRequiredActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.http.asynctask.callback.BaseApiCallAsyncTaskCallback/void onComplete(java.lang.Object)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.IdentityVerificationFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity$4/void onClick(android.view.View)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.CustomerServiceActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.AboutActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.AbstractIngoActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity$DepositFundsClickListener$3/void onSuccess(com.ingomoney.ingosdk.android.http.json.response.base.MobileStatusResponse)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.DepositFundsActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity/void onDismiss(int,boolean)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.ingomoney.ingosdk.android.ui.activity.SdkLandingActivity"
+            ],
+            "targets": [
+                "com.ingomoney.ingosdk.android.ui.activity.LegalInfoListActivity"
+            ]
+        },
+        {
+            "handler": "o.sbf/void d(android.app.Activity,java.lang.String,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "o.sbf"
+            ],
+            "targets": [
+                "o.sbf"
+            ]
+        },
+        {
+            "handler": "o.cav$e/void c(android.content.Context,long)",
+            "sources": [
+                "o.cap"
+            ],
+            "targets": [
+                "o.cav"
+            ]
+        },
+        {
+            "handler": "o.cau$a/void b(android.content.Context,long)",
+            "sources": [
+                "o.cap"
+            ],
+            "targets": [
+                "o.cau"
+            ]
+        },
+        {
+            "handler": "o.cau$a/void b(android.content.Context,long)",
+            "sources": [
+                "o.cau"
+            ],
+            "targets": [
+                "o.cau"
+            ]
+        },
+        {
+            "handler": "o.cav$e/void c(android.content.Context,long)",
+            "sources": [
+                "o.cav"
+            ],
+            "targets": [
+                "o.cav"
+            ]
+        },
+        {
+            "handler": "o.sxd/void a(android.app.Activity,java.lang.String,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "o.acqx"
+            ],
+            "targets": [
+                "o.sxd"
+            ]
+        }
+    ]
+}

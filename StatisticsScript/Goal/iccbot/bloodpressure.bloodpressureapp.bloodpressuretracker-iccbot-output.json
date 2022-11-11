@@ -1,0 +1,40 @@
+{
+    "transitions": [
+        {
+            "handler": "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.KnowledgeDetailActivity$a/void a(android.content.Context,e.a.a.g.b,e.a.a.g.c)",
+            "sources": [
+                "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.EditRecordActivity"
+            ],
+            "targets": [
+                "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.KnowledgeDetailActivity"
+            ]
+        },
+        {
+            "handler": "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.EditRecordActivity$a/void a(android.app.Activity,e.a.a.e.a.g.c)",
+            "sources": [
+                "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.EditRecordActivity"
+            ],
+            "targets": [
+                "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.EditRecordActivity"
+            ]
+        },
+        {
+            "handler": "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.KnowledgeDetailActivity$a/void a(android.content.Context,e.a.a.g.b,e.a.a.g.c)",
+            "sources": [
+                "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.KnowledgeDetailActivity"
+            ],
+            "targets": [
+                "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.KnowledgeDetailActivity"
+            ]
+        },
+        {
+            "handler": "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.SplashActivity/void s()",
+            "sources": [
+                "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.SplashActivity"
+            ],
+            "targets": [
+                "bloodpressure.bloodpressureapp.bloodpressuretracker.activity.MainActivity"
+            ]
+        }
+    ]
+}

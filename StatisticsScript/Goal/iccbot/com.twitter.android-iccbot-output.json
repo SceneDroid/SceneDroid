@@ -1,0 +1,112 @@
+{
+    "transitions": [
+        {
+            "handler": "com.twitter.android.c/void onClickHandler(android.view.View)",
+            "sources": [
+                "com.twitter.android.EditProfileActivity"
+            ],
+            "targets": [
+                "com.twitter.android.EditProfileAvatarActivity"
+            ]
+        },
+        {
+            "handler": "com.twitter.android.EditProfileActivity/void U5()",
+            "sources": [
+                "com.twitter.android.EditProfileActivity"
+            ],
+            "targets": [
+                "com.twitter.android.EditBirthdateActivity"
+            ]
+        },
+        {
+            "handler": "com.twitter.app.profiles.ProfilePhotoImageActivity/void H4(android.view.View)",
+            "sources": [
+                "com.twitter.app.profiles.ProfilePhotoImageActivity"
+            ],
+            "targets": [
+                "com.twitter.android.EditProfileAvatarActivity"
+            ]
+        },
+        {
+            "handler": "com.twitter.notifications.timeline.GenericActivityWebViewActivity/boolean S4(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.twitter.notifications.timeline.GenericActivityWebViewActivity"
+            ],
+            "targets": [
+                "com.twitter.notifications.timeline.GenericActivityWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.twitter.android.settings.DeactivateAccountActivity/boolean onPreferenceClick(android.preference.Preference)",
+            "sources": [
+                "com.twitter.android.settings.DeactivateAccountActivity"
+            ],
+            "targets": [
+                "com.twitter.android.settings.ConfirmDeactivateAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.twitter.android.dialog.FollowingExceededDialogFragmentActivity/void z3(android.content.Context)",
+            "sources": [
+                "com.twitter.android.dialog.FollowingExceededDialogFragmentActivity"
+            ],
+            "targets": [
+                "com.twitter.android.dialog.FollowingExceededDialogFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.twitter.android.login.WebauthnChallengeActivity/void o4(int)",
+            "sources": [
+                "com.twitter.android.login.WebauthnChallengeActivity"
+            ],
+            "targets": [
+                "com.twitter.android.login.WebauthnChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.twitter.android.settings.ConfirmDeactivateAccountActivity/void B4(g670)",
+            "sources": [
+                "com.twitter.android.settings.ConfirmDeactivateAccountActivity"
+            ],
+            "targets": [
+                "com.twitter.android.settings.AccountDeactivatedActivity"
+            ]
+        },
+        {
+            "handler": "com.twitter.android.AuthorizeAppActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.twitter.android.SingleSignOnActivity"
+            ],
+            "targets": [
+                "com.twitter.app.authorizeapp.AppAuthorizationActivity"
+            ]
+        },
+        {
+            "handler": "com.twitter.android.settings.ContentPreferencesSettingsActivity/boolean onPreferenceClick(android.preference.Preference)",
+            "sources": [
+                "com.twitter.android.settings.ContentPreferencesSettingsActivity"
+            ],
+            "targets": [
+                "com.twitter.android.settings.TrendsPrefActivity"
+            ]
+        },
+        {
+            "handler": "com.twitter.android.AuthorizeAppActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.twitter.android.AuthorizeAppActivity"
+            ],
+            "targets": [
+                "com.twitter.app.authorizeapp.AppAuthorizationActivity"
+            ]
+        },
+        {
+            "handler": "com.twitter.tweetuploader.dialogs.ConversationControlReplyRestrictedDialogFragmentActivity/void z3(android.content.Context)",
+            "sources": [
+                "com.twitter.tweetuploader.dialogs.ConversationControlReplyRestrictedDialogFragmentActivity"
+            ],
+            "targets": [
+                "com.twitter.tweetuploader.dialogs.ConversationControlReplyRestrictedDialogFragmentActivity"
+            ]
+        }
+    ]
+}

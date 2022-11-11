@@ -1,0 +1,139 @@
+{
+    "transitions": [
+        {
+            "handler": "com.olg.utility.modules.home.views.HomeActivity$6/void onClick(android.view.View)",
+            "sources": [
+                "com.olg.utility.modules.home.views.HomeActivity"
+            ],
+            "targets": [
+                "com.olg.modules.settings.views.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.utility.modules.home.views.HomeActivity/void r()",
+            "sources": [
+                "com.olg.utility.modules.home.views.HomeActivity"
+            ],
+            "targets": [
+                "com.olg.modules.scanner.views.ScannerActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.utility.modules.home.views.HitMissDetailActivity/void m()",
+            "sources": [
+                "com.olg.utility.modules.home.views.HitMissDetailActivity"
+            ],
+            "targets": [
+                "com.olg.modules.scanner.views.ScannerActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.utility.modules.scanhistory.views.ScanHistoryActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.olg.utility.modules.scanhistory.views.ScanHistoryActivity"
+            ],
+            "targets": [
+                "com.olg.utility.modules.scanhistory.views.ScanHistoryFiltersActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.utility.modules.home.views.GameActivity$2/void onOpenAd()",
+            "sources": [
+                "com.olg.utility.modules.home.views.GameActivity"
+            ],
+            "targets": [
+                "com.olg.modules.playsmart.views.PlaySmartActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.modules.account.views.AccountActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "com.olg.modules.account.views.AccountActivity"
+            ],
+            "targets": [
+                "com.olg.modules.account.views.AccountSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.modules.account.views.LoginActivity$10/void onClick(android.view.View)",
+            "sources": [
+                "com.olg.modules.account.views.LoginActivity"
+            ],
+            "targets": [
+                "com.olg.modules.account.views.SignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.modules.settings.views.SettingsActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "com.olg.modules.settings.views.SettingsActivity"
+            ],
+            "targets": [
+                "com.olg.modules.common.views.GenericWebviewActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.modules.settings.views.SettingsActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.olg.modules.settings.views.SettingsActivity"
+            ],
+            "targets": [
+                "com.olg.modules.settings.views.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.utility.modules.coupons.views.CouponsActivity/void a(int)",
+            "sources": [
+                "com.olg.utility.modules.coupons.views.CouponsActivity"
+            ],
+            "targets": [
+                "com.olg.utility.modules.coupons.views.CouponUseActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.utility.modules.coupons.views.CouponsActivity/void b_(int)",
+            "sources": [
+                "com.olg.utility.modules.coupons.views.CouponsActivity"
+            ],
+            "targets": [
+                "com.olg.utility.modules.coupons.views.CouponDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.utility.modules.launch.views.LaunchActivity/void n()",
+            "sources": [
+                "com.olg.utility.modules.launch.views.LaunchActivity"
+            ],
+            "targets": [
+                "com.olg.utility.modules.home.views.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.olg.modules.location.views.LocationActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.olg.modules.location.views.LocationActivity"
+            ],
+            "targets": [
+                "com.olg.modules.location.views.LocationFilterActivity"
+            ]
+        },
+        {
+            "handler": "net.hockeyapp.android.FeedbackActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "net.hockeyapp.android.FeedbackActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.PaintActivity"
+            ]
+        }
+    ]
+}

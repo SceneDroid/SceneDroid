@@ -1,0 +1,40 @@
+{
+    "transitions": [
+        {
+            "handler": "marto.rtl_tcp_andro.DeviceOpenActivity/void startBinary(java.lang.String,int,java.lang.String)",
+            "sources": [
+                "marto.rtl_tcp_andro.DeviceOpenActivity"
+            ],
+            "targets": [
+                "marto.rtl_tcp_andro.tools.BinaryRunnerService"
+            ]
+        },
+        {
+            "handler": "marto.rtl_tcp_andro.tools.BinaryRunnerService/void makeForegroundNotification()",
+            "sources": [
+                "marto.rtl_tcp_andro.DeviceOpenActivity"
+            ],
+            "targets": [
+                "marto.rtl_tcp_andro.StreamActivity"
+            ]
+        },
+        {
+            "handler": "marto.rtl_tcp_andro.DeviceOpenActivity/void startBinary(java.lang.String,int,java.lang.String)",
+            "sources": [
+                "marto.rtl_tcp_andro.StreamActivity"
+            ],
+            "targets": [
+                "marto.rtl_tcp_andro.tools.BinaryRunnerService"
+            ]
+        },
+        {
+            "handler": "marto.rtl_tcp_andro.DeviceOpenActivity/void startBinary(java.lang.String,int,java.lang.String)",
+            "sources": [
+                "marto.rtl_tcp_andro.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "marto.rtl_tcp_andro.tools.BinaryRunnerService"
+            ]
+        }
+    ]
+}

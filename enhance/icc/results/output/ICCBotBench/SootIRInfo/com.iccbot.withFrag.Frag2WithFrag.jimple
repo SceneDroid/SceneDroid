@@ -1,0 +1,64 @@
+public class com.iccbot.withFrag.Frag2WithFrag extends android.support.v4.app.Fragment
+{
+
+    public void <init>()
+    {
+        com.iccbot.withFrag.Frag2WithFrag r0;
+
+        r0 := @this: com.iccbot.withFrag.Frag2WithFrag;
+
+        specialinvoke r0.<android.support.v4.app.Fragment: void <init>()>();
+
+        return;
+    }
+
+    public void onAttach(android.app.Activity)
+    {
+        com.iccbot.withFrag.Frag2WithFrag r0;
+        android.app.Activity $r1;
+        android.content.Intent r2;
+        android.support.v4.app.FragmentActivity $r3;
+        android.content.Context $r4;
+
+        r0 := @this: com.iccbot.withFrag.Frag2WithFrag;
+
+        $r1 := @parameter0: android.app.Activity;
+
+        specialinvoke r0.<android.support.v4.app.Fragment: void onAttach(android.app.Activity)>($r1);
+
+        r2 = new android.content.Intent;
+
+        $r3 = virtualinvoke r0.<com.iccbot.withFrag.Frag2WithFrag: android.support.v4.app.FragmentActivity getActivity()>();
+
+        $r4 = virtualinvoke $r3.<android.support.v4.app.FragmentActivity: android.content.Context getBaseContext()>();
+
+        specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "Lcom/iccbot/withFrag/Des2WithFrag;");
+
+        $r3 = virtualinvoke r0.<com.iccbot.withFrag.Frag2WithFrag: android.support.v4.app.FragmentActivity getActivity()>();
+
+        virtualinvoke $r3.<android.support.v4.app.FragmentActivity: void startActivity(android.content.Intent)>(r2);
+
+        return;
+    }
+
+    public android.view.View onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle)
+    {
+        com.iccbot.withFrag.Frag2WithFrag r0;
+        android.view.LayoutInflater $r1;
+        android.view.ViewGroup $r2;
+        android.os.Bundle $r3;
+        android.view.View $r4;
+
+        r0 := @this: com.iccbot.withFrag.Frag2WithFrag;
+
+        $r1 := @parameter0: android.view.LayoutInflater;
+
+        $r2 := @parameter1: android.view.ViewGroup;
+
+        $r3 := @parameter2: android.os.Bundle;
+
+        $r4 = virtualinvoke $r1.<android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)>(2130903064, $r2, 0);
+
+        return $r4;
+    }
+}

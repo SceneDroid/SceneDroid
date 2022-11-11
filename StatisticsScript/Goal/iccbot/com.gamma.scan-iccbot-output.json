@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "com.gamma.barcodeapp.ui.BarcodeCaptureActivity/void m(z.b,k.j)",
+            "sources": [
+                "com.gamma.barcodeapp.ui.BarcodeCaptureActivity"
+            ],
+            "targets": [
+                "com.example.mybrowser.BrowserActivity"
+            ]
+        }
+    ]
+}

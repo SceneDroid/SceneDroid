@@ -1,0 +1,373 @@
+{
+    "transitions": [
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.offers.ui.activity.OfferDetailsActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.offers.ui.activity.OfferDetailsActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.modules.welcome.ui.activity.MainLauncherActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.MainLauncherActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.home.ui.activity.NavigationActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.modules.welcome.ui.activity.MainLauncherActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.MainLauncherActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.SignInActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.modules.welcome.ui.activity.MainLauncherActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.MainLauncherActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.OnboardingNewActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.modules.welcome.ui.activity.MainLauncherActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.MainLauncherActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.OnBoardingProvinceActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.home.ui.activity.NavigationActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.home.ui.activity.NavigationActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.DigitalCardInfoActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.DigitalCardInfoActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.offers.ui.activity.BarcodeInfoDialogActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.offers.ui.activity.BarcodeInfoDialogActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.location.ui.activity.SelectProvinceActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.location.ui.activity.SelectProvinceActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.partners.ui.activity.PartnerDetailsActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.partners.ui.activity.PartnerDetailsActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.FaqActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.FaqActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.DigitalLoyaltyCardActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.DigitalLoyaltyCardActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.partners.ui.activity.PartnersActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.partners.ui.activity.PartnersActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.LocationFetchingActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.LocationFetchingActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.OnBoardingProvinceActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.OnBoardingProvinceActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.modules.welcome.ui.activity.SplashActivity/void b()",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.SplashActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.MainLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.messaging.ui.activity.InboxActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.messaging.ui.activity.InboxActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.LicenseAgreementsActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.LicenseAgreementsActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.partners.ui.activity.PartnerInfoCardActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.partners.ui.activity.PartnerInfoCardActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.SignInActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.account.ui.activity.SignInActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void onConfigurationChanged(android.content.res.Configuration)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.OnboardingNewActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.account.ui.activity.FlipScreenCardActivity"
+            ]
+        },
+        {
+            "handler": "com.airmiles.core.ui.a.a/void a(com.airmiles.core.forcedupdate.a.a)",
+            "sources": [
+                "com.airmiles.modules.welcome.ui.activity.OnboardingNewActivity"
+            ],
+            "targets": [
+                "com.airmiles.modules.welcome.ui.activity.ForceUpdateActivity"
+            ]
+        }
+    ]
+}

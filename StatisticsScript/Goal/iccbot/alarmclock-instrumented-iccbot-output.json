@@ -1,0 +1,76 @@
+{
+    "transitions": [
+        {
+            "handler": "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock$6/void run(com.angrydoughnuts.android.alarmclock.NotificationServiceInterface)",
+            "sources": [
+                "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock"
+            ],
+            "targets": [
+                "com.angrydoughnuts.android.alarmclock.ActivityAlarmNotification"
+            ]
+        },
+        {
+            "handler": "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock$2/void onClick(android.view.View)",
+            "sources": [
+                "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock"
+            ],
+            "targets": [
+                "com.angrydoughnuts.android.alarmclock.ActivityPendingAlarms"
+            ]
+        },
+        {
+            "handler": "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock"
+            ],
+            "targets": [
+                "com.angrydoughnuts.android.alarmclock.ActivityAlarmSettings"
+            ]
+        },
+        {
+            "handler": "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock"
+            ],
+            "targets": [
+                "com.angrydoughnuts.android.alarmclock.ActivityAppSettings"
+            ]
+        },
+        {
+            "handler": "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.angrydoughnuts.android.alarmclock.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.angrydoughnuts.android.alarmclock.ActivityAppSettings"
+            ]
+        },
+        {
+            "handler": "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock$6/void run(com.angrydoughnuts.android.alarmclock.NotificationServiceInterface)",
+            "sources": [
+                "com.angrydoughnuts.android.alarmclock.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.angrydoughnuts.android.alarmclock.ActivityAlarmNotification"
+            ]
+        },
+        {
+            "handler": "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.angrydoughnuts.android.alarmclock.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.angrydoughnuts.android.alarmclock.ActivityAlarmSettings"
+            ]
+        },
+        {
+            "handler": "com.angrydoughnuts.android.alarmclock.ActivityAlarmClock$2/void onClick(android.view.View)",
+            "sources": [
+                "com.angrydoughnuts.android.alarmclock.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.angrydoughnuts.android.alarmclock.ActivityPendingAlarms"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,300 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+com.appmaker.chris.concordian_2022-10-17: OutputDir not a directory: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.appmaker.chris.concordian_2022-10-17
+Found 39 entrypoint classes and 40 methods in overall
+com.appmaker.chris.concordian.MainActivity$LogoutDialogFragment: Finished processing of entrypoints after 0 seconds.
+com.appmaker.chris.concordian.MessageAdapter$DeleteDialogFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.appmaker.chris.concordian.view.PDFViewFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.appmaker.chris.concordian.MessageDetailActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+com.appmaker.chris.concordian.MessageDetailActivity$DeleteDialogFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.appmaker.chris.concordian.view.FullScreenDialog: void onStart()>
+Found 1 reachable methods from <com.appmaker.chris.concordian.NewMenuActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.appmaker.chris.concordian.DescActivity: void onCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 6 reachable methods from <com.appmaker.chris.concordian.ScanQRCodeActivity: void onCreate(android.os.Bundle)>
+Found 12 reachable methods from <com.appmaker.chris.concordian.LoginActivity: void onCreate(android.os.Bundle)>
+Found 14 reachable methods from <com.appmaker.chris.concordian.SettingActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.appmaker.chris.concordian.view.PDFViewFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+com.appmaker.chris.concordian.NewMenuActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.appmaker.chris.concordian.view.FullScreenDialog: void onCreate(android.os.Bundle)>
+Found 12 reachable methods from <com.appmaker.chris.concordian.WebActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.DescActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.appmaker.chris.concordian.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+com.appmaker.chris.concordian.view.PDFViewFragment: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <com.journeyapps.barcodescanner.CaptureActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.CaptureActivityPortrait: Finished processing of entrypoints after 0 seconds.
+com.appmaker.chris.concordian.SettingActivity$LogoutDialogFragment: Finished processing of entrypoints after 0 seconds.
+Found 15 reachable methods from <com.appmaker.chris.concordian.MenuManagement: void onCreate(android.os.Bundle)>
+Found 22 reachable methods from <com.appmaker.chris.concordian.ManageEmergencyActivity: void onCreate(android.os.Bundle)>
+Found 18 reachable methods from <com.appmaker.chris.concordian.TeacherPTCScheduleActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = r0.<com.appmaker.chris.concordian.LoginActivity: android.widget.AutoCompleteTextView mEmailView>
+Found 17 reachable methods from <com.appmaker.chris.concordian.ScheduleActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.view.FullScreenDialog: Finished processing of entrypoints after 0 seconds.
+Found 4 reachable methods from <com.appmaker.chris.concordian.SelectTeacherActivity: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <com.appmaker.chris.concordian.QRCodeActivity: void onCreate(android.os.Bundle)>
+Found 17 reachable methods from <com.appmaker.chris.concordian.FileListActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.LoginActivity: Finished processing of entrypoints after 0 seconds.
+Found 15 reachable methods from <com.appmaker.chris.concordian.ManageRegisterActivity: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <com.appmaker.chris.concordian.AboutActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.SelectTeacherActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.appmaker.chris.concordian.CustomWebViewFragment: void onCreate(android.os.Bundle)>
+Found 12 reachable methods from <com.appmaker.chris.concordian.MessageDetailActivity: void onCreate(android.os.Bundle)>
+Found 9 reachable methods from <com.appmaker.chris.concordian.MainActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.ScanQRCodeActivity: Finished processing of entrypoints after 1 seconds.
+Found 27 reachable methods from <com.appmaker.chris.concordian.SpendingMainActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.appmaker.chris.concordian.CustomWebViewFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 17 reachable methods from <com.appmaker.chris.concordian.CheckYourActivityActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.QRCodeActivity: Finished processing of entrypoints after 0 seconds.
+Found 24 reachable methods from <com.appmaker.chris.concordian.OTPActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.WebActivity: Finished processing of entrypoints after 1 seconds.
+com.appmaker.chris.concordian.ScheduleActivity: Finished processing of entrypoints after 1 seconds.
+com.appmaker.chris.concordian.CustomWebViewFragment: Finished processing of entrypoints after 0 seconds.
+Found 14 reachable methods from <com.appmaker.chris.concordian.MenuActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.SettingActivity: Finished processing of entrypoints after 1 seconds.
+Found 31 reachable methods from <com.appmaker.chris.concordian.MessageActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.AboutActivity: Finished processing of entrypoints after 0 seconds.
+com.appmaker.chris.concordian.TeacherPTCScheduleActivity: Finished processing of entrypoints after 1 seconds.
+com.appmaker.chris.concordian.ManageRegisterActivity: Finished processing of entrypoints after 1 seconds.
+com.appmaker.chris.concordian.FileListActivity: Finished processing of entrypoints after 1 seconds.
+Found 21 reachable methods from <com.appmaker.chris.concordian.ActivityRegisterActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.ManageEmergencyActivity: Finished processing of entrypoints after 1 seconds.
+com.appmaker.chris.concordian.MainActivity: Finished processing of entrypoints after 1 seconds.
+Found 45 reachable methods from <com.appmaker.chris.concordian.BillingActivity: void onCreate(android.os.Bundle)>
+Found 34 reachable methods from <com.appmaker.chris.concordian.OptionActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.MenuManagement: Finished processing of entrypoints after 1 seconds.
+com.appmaker.chris.concordian.MenuActivity: Finished processing of entrypoints after 1 seconds.
+Found 36 reachable methods from <com.appmaker.chris.concordian.MyQRCodeActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.OTPActivity: Finished processing of entrypoints after 2 seconds.
+com.appmaker.chris.concordian.SpendingMainActivity: Finished processing of entrypoints after 2 seconds.
+com.appmaker.chris.concordian.MessageActivity: Finished processing of entrypoints after 2 seconds.
+com.appmaker.chris.concordian.CheckYourActivityActivity: Finished processing of entrypoints after 2 seconds.
+Found 20 reachable methods from <com.appmaker.chris.concordian.StudentSelectActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.OptionActivity: Finished processing of entrypoints after 2 seconds.
+com.appmaker.chris.concordian.ActivityRegisterActivity: Finished processing of entrypoints after 2 seconds.
+Found 27 reachable methods from <com.appmaker.chris.concordian.EditNoteActivity: void onCreate(android.os.Bundle)>
+Found 41 reachable methods from <com.appmaker.chris.concordian.StudentActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.BillingActivity: Finished processing of entrypoints after 2 seconds.
+com.appmaker.chris.concordian.MyQRCodeActivity: Finished processing of entrypoints after 2 seconds.
+Found 35 reachable methods from <com.appmaker.chris.concordian.ManageAttandnaceActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.EditNoteActivity: Finished processing of entrypoints after 1 seconds.
+com.appmaker.chris.concordian.StudentSelectActivity: Finished processing of entrypoints after 1 seconds.
+Found 27 reachable methods from <com.appmaker.chris.concordian.EditProfileActivity: void onCreate(android.os.Bundle)>
+com.appmaker.chris.concordian.MessageDetailActivity: Finished processing of entrypoints after 2 seconds.
+com.appmaker.chris.concordian.ManageAttandnaceActivity: Finished processing of entrypoints after 1 seconds.
+com.appmaker.chris.concordian.StudentActivity: Finished processing of entrypoints after 2 seconds.
+com.appmaker.chris.concordian.EditProfileActivity: Finished processing of entrypoints after 1 seconds.
+AppsUIElement not found with id: 2131296432
+SpecXMLTag not found with id: 2131296432
+AppController:addText: elementID not found for adding text: elementID: 2131296404
+AppController:addText: elementID not found for adding text: elementID: 2131296940
+AppController:addText: elementID not found for adding text: elementID: 2131296954
+AppController:addText: elementID not found for adding text: elementID: 2131296404
+AppController:addText: elementID not found for adding text: elementID: 2131296805
+AppController:addText: elementID not found for adding text: elementID: 2131296947
+AppController:addText: elementID not found for adding text: elementID: 2131296691
+AppController:addText: elementID not found for adding text: elementID: 2131296404
+AppController:addText: elementID not found for adding text: elementID: 2131296690
+AppController:addText: elementID not found for adding text: elementID: 2131296906
+AppController:addText: elementID not found for adding text: elementID: 2131296404
+AppController:addText: elementID not found for adding text: elementID: 2131296694
+AppController:addText: elementID not found for adding text: elementID: 2131296918
+AppController:addText: elementID not found for adding text: elementID: 2131296964
+AppController:addText: elementID not found for adding text: elementID: 2131296690
+AppController:addText: elementID not found for adding text: elementID: 2131296951
+AppController:addText: elementID not found for adding text: elementID: 2131296690
+AppController:addText: elementID not found for adding text: elementID: 2131296960
+AppController:addText: elementID not found for adding text: elementID: 2131296966
+AppController:addText: elementID not found for adding text: elementID: 2131296539
+AppController:addText: elementID not found for adding text: elementID: 2131296930
+AppController:addText: elementID not found for adding text: elementID: 2131296694
+AppController:addText: elementID not found for adding text: elementID: 2131296935
+AppController:addText: elementID not found for adding text: elementID: 2131296964
+AppController:addText: elementID not found for adding text: elementID: 2131296947
+AppController:addText: elementID not found for adding text: elementID: 2131296537
+AppController:addText: elementID not found for adding text: elementID: 2131296947
+AppController:addText: elementID not found for adding text: elementID: 2131296906
+AppController:addText: elementID not found for adding text: elementID: 2131296589
+AppController:addText: elementID not found for adding text: elementID: 2131296964
+AppController:addText: elementID not found for adding text: elementID: 2131296906
+AppController:addText: elementID not found for adding text: elementID: 2131296966
+AppController:addText: elementID not found for adding text: elementID: 2131296585
+AppController:addText: elementID not found for adding text: elementID: 2131296906
+AppController:addText: elementID not found for adding text: elementID: 2131296943
+AppController:addText: elementID not found for adding text: elementID: 2131296938
+AppController:addText: elementID not found for adding text: elementID: 2131296404
+AppController:addText: elementID not found for adding text: elementID: 2131296709
+AppController:addText: elementID not found for adding text: elementID: 2131296422
+AppController:addText: elementID not found for adding text: elementID: 2131296404
+AppController:addText: elementID not found for adding text: elementID: 2131296459
+AppController:addText: elementID not found for adding text: elementID: 2131296709
+AppController:addText: elementID not found for adding text: elementID: 2131296693
+AppController:addText: elementID not found for adding text: elementID: 2131296937
+AppController:addText: elementID not found for adding text: elementID: 2131296694
+AppController:addText: elementID not found for adding text: elementID: 2131296404
+AppController:addText: elementID not found for adding text: elementID: 2131296952
+AppController:addText: elementID not found for adding text: elementID: 2131296404
+AppController:addText: elementID not found for adding text: elementID: 2131296906
+AppController:addText: elementID not found for adding text: elementID: 2131296538
+AppController:addText: elementID not found for adding text: elementID: 2131296404
+AppController:addText: elementID not found for adding text: elementID: 2131296935
+AppController:addText: elementID not found for adding text: elementID: 2131296966
+AppController:addText: elementID not found for adding text: elementID: 2131296460
+AppController:addText: elementID not found for adding text: elementID: 2131296404
+AppController:addText: elementID not found for adding text: elementID: 2131296929
+AppController:addText: elementID not found for adding text: elementID: 2131296417
+AppController:addText: elementID not found for adding text: elementID: 2131296951
+AppController:addText: elementID not found for adding text: elementID: 2131296944
+AppController:addText: elementID not found for adding text: elementID: 2131296906
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.appmaker.chris.concordian_2022-10-17/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 3.215385576 seconds
+Entry point creation has run for 0.009060149 seconds
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 3 callback methods from UI Analysis
+Found 3 callback methods in overall
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <com.appmaker.chris.concordian.ActivityRegisterActivity$5: void onClick(android.content.DialogInterface,int)>, ElementId: -3, GlobalId: 100035 -> 0 APIs
+Method: <com.appmaker.chris.concordian.StudentSelectActivity$3: void onClick(android.content.DialogInterface,int)>, ElementId: -3, GlobalId: 100036 -> 0 APIs
+Method: <com.appmaker.chris.concordian.StudentActivity$4: void onClick(android.content.DialogInterface,int)>, ElementId: -3, GlobalId: 100037 -> 0 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.182151161 seconds

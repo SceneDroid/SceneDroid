@@ -1,0 +1,54 @@
+class com.iccbot.withCtx.Source1WithCtx$1 extends java.lang.Object implements android.view.View$OnClickListener
+{
+    final com.iccbot.withCtx.Source1WithCtx this$0;
+
+    void <init>(com.iccbot.withCtx.Source1WithCtx)
+    {
+        com.iccbot.withCtx.Source1WithCtx$1 r0;
+        com.iccbot.withCtx.Source1WithCtx $r1;
+
+        r0 := @this: com.iccbot.withCtx.Source1WithCtx$1;
+
+        $r1 := @parameter0: com.iccbot.withCtx.Source1WithCtx;
+
+        r0.<com.iccbot.withCtx.Source1WithCtx$1: com.iccbot.withCtx.Source1WithCtx this$0> = $r1;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void onClick(android.view.View)
+    {
+        com.iccbot.withCtx.Source1WithCtx$1 r0;
+        android.view.View $r1;
+        com.iccbot.withCtx.Source1WithCtx $r2;
+        android.content.ComponentName $r3;
+        boolean $z0;
+
+        r0 := @this: com.iccbot.withCtx.Source1WithCtx$1;
+
+        $r1 := @parameter0: android.view.View;
+
+        $r2 = r0.<com.iccbot.withCtx.Source1WithCtx$1: com.iccbot.withCtx.Source1WithCtx this$0>;
+
+        $r3 = virtualinvoke $r2.<com.iccbot.withCtx.Source1WithCtx: android.content.ComponentName getComponentName()>();
+
+        $z0 = virtualinvoke $r3.<android.content.ComponentName: boolean equals(java.lang.Object)>("Main");
+
+        if $z0 == 0 goto label1;
+
+        $r2 = r0.<com.iccbot.withCtx.Source1WithCtx$1: com.iccbot.withCtx.Source1WithCtx this$0>;
+
+        staticinvoke <com.iccbot.withCtx.Source1WithCtx: void access$0(com.iccbot.withCtx.Source1WithCtx,java.lang.String)>($r2, "action.first.ctx");
+
+        return;
+
+     label1:
+        $r2 = r0.<com.iccbot.withCtx.Source1WithCtx$1: com.iccbot.withCtx.Source1WithCtx this$0>;
+
+        staticinvoke <com.iccbot.withCtx.Source1WithCtx: void access$0(com.iccbot.withCtx.Source1WithCtx,java.lang.String)>($r2, "action.second.ctx");
+
+        return;
+    }
+}

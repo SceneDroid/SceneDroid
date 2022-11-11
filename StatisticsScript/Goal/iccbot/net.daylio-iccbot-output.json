@@ -1,0 +1,544 @@
+{
+    "transitions": [
+        {
+            "handler": "net.daylio.activities.b/void a(net.daylio.c.e)",
+            "sources": [
+                "net.daylio.activities.SearchResultsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.EditDayEntryActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.SearchResultsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.AboutActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "net.daylio.activities.AboutActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.FaqActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.AboutActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.AboutActivity$11/void onClick(android.view.View)",
+            "sources": [
+                "net.daylio.activities.AboutActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.UsageAndDiagnosticsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.AboutActivity$7/void onClick(android.view.View)",
+            "sources": [
+                "net.daylio.activities.AboutActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.ContributorsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.EditMoodsActivity/void a(net.daylio.c.e.b)",
+            "sources": [
+                "net.daylio.activities.EditMoodsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.NewMoodActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.EditMoodsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.SearchActivity/void b()",
+            "sources": [
+                "net.daylio.activities.SearchActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.SearchActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.SelectMoodActivity/void k()",
+            "sources": [
+                "net.daylio.activities.SelectMoodActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.OverviewActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.SelectMoodActivity/void l()",
+            "sources": [
+                "net.daylio.activities.SelectMoodActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.SelectTagsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.SelectMoodActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "net.daylio.activities.SelectMoodActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.EditMoodsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.f.a$4/void onClick(android.view.View)",
+            "sources": [
+                "net.daylio.activities.AchievementsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.AchievementsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.AchievementsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.YearlyStatsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.NewMoodActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.e/void onResume()",
+            "sources": [
+                "net.daylio.activities.EditDayEntryActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.EditDayEntryActivity/void i()",
+            "sources": [
+                "net.daylio.activities.EditDayEntryActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.EditTagsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.reminder.ReminderDialog/void c()",
+            "sources": [
+                "net.daylio.reminder.ReminderDialog"
+            ],
+            "targets": [
+                "net.daylio.activities.OverviewActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.reminder.ReminderDialog/void c()",
+            "sources": [
+                "net.daylio.reminder.ReminderDialog"
+            ],
+            "targets": [
+                "net.daylio.activities.SelectTagsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.reminder.ReminderDialog/void c()",
+            "sources": [
+                "net.daylio.reminder.ReminderDialog"
+            ],
+            "targets": [
+                "net.daylio.activities.SelectMoodActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.offers.a/void onBackPressed()",
+            "sources": [
+                "net.daylio.activities.offers.InitialOfferSwipeActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.OverviewActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.premium.a/void e()",
+            "sources": [
+                "net.daylio.activities.offers.InitialOfferSwipeActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.premium.BuyPremiumNotAvailableActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.premium.a/void d()",
+            "sources": [
+                "net.daylio.activities.offers.InitialOfferSwipeActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.premium.BuyPremiumThankYouActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.b/void a(net.daylio.c.e)",
+            "sources": [
+                "net.daylio.activities.SingleDayEntriesActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.EditDayEntryActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.SingleDayEntriesActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.NewTagActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.e/void onResume()",
+            "sources": [
+                "net.daylio.activities.OverviewActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.views.c.b$1/void onClick(android.view.View)",
+            "sources": [
+                "net.daylio.activities.OverviewActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.DebugActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.f.a$4/void onClick(android.view.View)",
+            "sources": [
+                "net.daylio.activities.OverviewActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.AchievementsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.OverviewActivity/void a(long)",
+            "sources": [
+                "net.daylio.activities.OverviewActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.SelectMoodActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.OverviewActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "net.daylio.activities.OverviewActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.OverviewActivity/void k()",
+            "sources": [
+                "net.daylio.activities.OverviewActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.SearchActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.premium.a/void d()",
+            "sources": [
+                "net.daylio.activities.premium.BuyPremiumActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.premium.BuyPremiumThankYouActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.premium.a/void e()",
+            "sources": [
+                "net.daylio.activities.premium.BuyPremiumActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.premium.BuyPremiumNotAvailableActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.premium.a/void e()",
+            "sources": [
+                "net.daylio.activities.offers.InitialOfferWhiteActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.premium.BuyPremiumNotAvailableActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.premium.a/void d()",
+            "sources": [
+                "net.daylio.activities.offers.InitialOfferWhiteActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.premium.BuyPremiumThankYouActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.offers.a/void onBackPressed()",
+            "sources": [
+                "net.daylio.activities.offers.InitialOfferWhiteActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.OverviewActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.e/void onResume()",
+            "sources": [
+                "net.daylio.activities.ExportEntriesActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.e/void onResume()",
+            "sources": [
+                "net.daylio.activities.EditRemindersActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.UsageAndDiagnosticsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.WeeklyReportActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.WeeklyReportActivity/void onBackPressed()",
+            "sources": [
+                "net.daylio.activities.WeeklyReportActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.OverviewActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.reminder.a/void a(android.content.Context,net.daylio.c.e,java.lang.ClassLoader)",
+            "sources": [
+                "net.daylio.activities.DebugActivity"
+            ],
+            "targets": [
+                "net.daylio.reminder.ReminderDialog"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.DebugActivity/void n()",
+            "sources": [
+                "net.daylio.activities.DebugActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.premium.BuyPremiumThankYouActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.DebugActivity$17/void onClick(android.view.View)",
+            "sources": [
+                "net.daylio.activities.DebugActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.DebugAchievementsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.DebugActivity/void m()",
+            "sources": [
+                "net.daylio.activities.DebugActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.premium.BuyPremiumActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.DebugActivity/void k()",
+            "sources": [
+                "net.daylio.activities.DebugActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.DebugActivity/void o()",
+            "sources": [
+                "net.daylio.activities.DebugActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.premium.BuyPremiumNotAvailableActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.DebugActivity$12/void onClick(android.view.View)",
+            "sources": [
+                "net.daylio.activities.DebugActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.DebugSpecialOffersActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.EditTagsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.EditTagsActivity$4$1/void a(net.daylio.c.s)",
+            "sources": [
+                "net.daylio.activities.EditTagsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.NewTagActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.f.a$4/void onClick(android.view.View)",
+            "sources": [
+                "net.daylio.activities.DebugAchievementsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.AchievementsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.SelectTagsActivity/void k()",
+            "sources": [
+                "net.daylio.activities.SelectTagsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.SelectMoodActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.SelectTagsActivity/void m()",
+            "sources": [
+                "net.daylio.activities.SelectTagsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.OverviewActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.SelectTagsActivity/void i()",
+            "sources": [
+                "net.daylio.activities.SelectTagsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.EditTagsActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.a.d/void onResume()",
+            "sources": [
+                "net.daylio.activities.ContributorsActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.PinActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.WelcomeActivity/void u()",
+            "sources": [
+                "net.daylio.activities.WelcomeActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.SelectMoodActivity"
+            ]
+        },
+        {
+            "handler": "net.daylio.activities.BackupActivity$10/void onClick(android.view.View)",
+            "sources": [
+                "net.daylio.activities.BackupActivity"
+            ],
+            "targets": [
+                "net.daylio.activities.RestoreBackupActivity"
+            ]
+        }
+    ]
+}

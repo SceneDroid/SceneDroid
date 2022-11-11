@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "fr.kwiatkowski.ApkTrack.MainActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "fr.kwiatkowski.ApkTrack.MainActivity"
+            ],
+            "targets": [
+                "fr.kwiatkowski.ApkTrack.SettingsActivity"
+            ]
+        }
+    ]
+}

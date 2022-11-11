@@ -1,0 +1,364 @@
+{
+    "transitions": [
+        {
+            "handler": "com.vk.sdk.VKServiceActivity/void h(android.app.Activity,java.util.ArrayList)",
+            "sources": [
+                "com.vk.sdk.VKServiceActivity"
+            ],
+            "targets": [
+                "com.vk.sdk.VKServiceActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.widget.view.BaseWidgetConfigureActivity/void O()",
+            "sources": [
+                "com.pelmorex.android.features.widget.view.MediumWidgetConfigureActivity"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.brightcove.player.controller.BrightcoveClosedCaptioningController/void lambda$showCaptionsDialog$4(android.content.DialogInterface,int)",
+            "sources": [
+                "com.pelmorex.android.features.videoplayback.view.BrightcoveVideoPlaybackActivity"
+            ],
+            "targets": [
+                "com.brightcove.player.captioning.BrightcoveCaptionPropertiesActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.widget.view.BaseWidgetConfigureActivity/void O()",
+            "sources": [
+                "com.pelmorex.android.features.widget.view.SmallWidgetConfigureActivity"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.severeweather.view.SevereWeatherActivity/void K(com.pelmorex.android.common.webcontent.model.WebNavigationEvent)",
+            "sources": [
+                "com.pelmorex.android.features.severeweather.view.SevereWeatherActivity"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.newsdetail.view.NewsDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.severeweather.view.SevereWeatherActivity/void K(com.pelmorex.android.common.webcontent.model.WebNavigationEvent)",
+            "sources": [
+                "com.pelmorex.android.features.severeweather.view.SevereWeatherActivity"
+            ],
+            "targets": [
+                "com.pelmorex.weathereyeandroid.unified.activity.WarningDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.vk.sdk.VKServiceActivity/void h(android.app.Activity,java.util.ArrayList)",
+            "sources": [
+                "com.loginradius.androidsdk.activity.GoogleNativeActivity"
+            ],
+            "targets": [
+                "com.vk.sdk.VKServiceActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.loginradius.androidsdk.activity.GoogleNativeActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.loginradius.androidsdk.helper.LoginRadiusAuthManager/void performLogin(android.app.Activity,com.loginradius.androidsdk.response.socialinterface.Provider,com.loginradius.androidsdk.handler.AsyncHandler)",
+            "sources": [
+                "com.loginradius.androidsdk.activity.GoogleNativeActivity"
+            ],
+            "targets": [
+                "com.loginradius.androidsdk.helper.GoogleSSO"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.deeplinking.DeepLinkActivity/void T()",
+            "sources": [
+                "com.pelmorex.android.features.deeplinking.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.onboarding.view.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.onboarding.view.SplashScreenActivity/void w()",
+            "sources": [
+                "com.pelmorex.android.features.onboarding.view.SplashScreenActivity"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.onboarding.view.FollowMeOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.onboarding.view.SplashScreenActivity/void V()",
+            "sources": [
+                "com.pelmorex.android.features.onboarding.view.SplashScreenActivity"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.widget.view.BaseWidgetConfigureActivity/void O()",
+            "sources": [
+                "com.pelmorex.android.features.widget.view.LargeWidgetConfigureActivity"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$onCreate$redirectReceiver$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.loginradius.androidsdk.activity.FacebookNativeActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.vk.sdk.VKServiceActivity/void h(android.app.Activity,java.util.ArrayList)",
+            "sources": [
+                "com.loginradius.androidsdk.activity.FacebookNativeActivity"
+            ],
+            "targets": [
+                "com.vk.sdk.VKServiceActivity"
+            ]
+        },
+        {
+            "handler": "com.loginradius.androidsdk.helper.LoginRadiusAuthManager/void performLogin(android.app.Activity,com.loginradius.androidsdk.response.socialinterface.Provider,com.loginradius.androidsdk.handler.AsyncHandler)",
+            "sources": [
+                "com.loginradius.androidsdk.activity.FacebookNativeActivity"
+            ],
+            "targets": [
+                "com.loginradius.androidsdk.helper.GoogleSSO"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.weathereyeandroid.unified.swo.SwoActivity/void K()",
+            "sources": [
+                "com.pelmorex.weathereyeandroid.unified.swo.SwoActivity"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.vk.sdk.VKServiceActivity/void h(android.app.Activity,java.util.ArrayList)",
+            "sources": [
+                "com.loginradius.androidsdk.activity.VkontakteNativeActivity"
+            ],
+            "targets": [
+                "com.vk.sdk.VKServiceActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.loginradius.androidsdk.activity.VkontakteNativeActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.loginradius.androidsdk.helper.LoginRadiusAuthManager/void performLogin(android.app.Activity,com.loginradius.androidsdk.response.socialinterface.Provider,com.loginradius.androidsdk.handler.AsyncHandler)",
+            "sources": [
+                "com.loginradius.androidsdk.activity.VkontakteNativeActivity"
+            ],
+            "targets": [
+                "com.loginradius.androidsdk.helper.GoogleSSO"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void onResume()",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void onEvent(rg.u)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.videoplayback.view.BrightcoveVideoPlaybackActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void g1(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.android.common.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void onEvent(z8.a)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.climate.view.ClimateActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void onEvent(com.pelmorex.android.features.severeweather.model.SevereWeatherPageModel)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.severeweather.view.SevereWeatherActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void onEvent(com.pelmorex.android.features.highwayconditions.model.ShowHighwayConditions)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.highwayconditions.view.HighwayConditionsActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void r(com.pelmorex.android.common.model.ProductType,android.os.Bundle)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.weathereyeandroid.unified.activity.SignUpSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void onEvent(z8.a)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.newsdetail.view.NewsDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void onEvent(z8.b)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.weather.precipitation.view.PrecipitationDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void onEvent(rg.s)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.weathereyeandroid.unified.swo.SwoActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void r(com.pelmorex.android.common.model.ProductType,android.os.Bundle)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.android.common.premium.view.PremiumActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void onEvent(com.pelmorex.android.features.alerts.model.AlertModel)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.weathereyeandroid.unified.activity.WarningDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.home.view.HubActivityScreen/void r(com.pelmorex.android.common.model.ProductType,android.os.Bundle)",
+            "sources": [
+                "com.pelmorex.android.features.home.view.HubActivityScreen"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.cnp.view.CnpSetUpActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity/void e(java.lang.String)",
+            "sources": [
+                "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity"
+            ],
+            "targets": [
+                "com.pelmorex.weathereyeandroid.core.activity.HallOfFameActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity/void e(java.lang.String)",
+            "sources": [
+                "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.userinfo.view.UserInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity/void e(java.lang.String)",
+            "sources": [
+                "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity"
+            ],
+            "targets": [
+                "com.pelmorex.android.remoteconfig.view.RemoteConfigOverrideActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.weathereyeandroid.unified.activity.FullScreenPhotoActivity/void C(android.content.Context,java.lang.String,com.pelmorex.android.features.ugc.model.UgcImageModel)",
+            "sources": [
+                "com.pelmorex.weathereyeandroid.unified.activity.FullScreenPhotoActivity"
+            ],
+            "targets": [
+                "com.pelmorex.weathereyeandroid.unified.activity.FullScreenPhotoActivity"
+            ]
+        },
+        {
+            "handler": "com.pelmorex.android.features.widget.view.BaseWidgetConfigureActivity/void O()",
+            "sources": [
+                "com.pelmorex.android.features.widget.view.CondensedWidgetConfigureActivity"
+            ],
+            "targets": [
+                "com.pelmorex.android.features.locationsearch.view.LocationSearchActivity"
+            ]
+        }
+    ]
+}

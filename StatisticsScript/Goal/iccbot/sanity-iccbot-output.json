@@ -1,0 +1,94 @@
+{
+    "transitions": [
+        {
+            "handler": "cri.sanity.screen.BlockerActivity$6/boolean on()",
+            "sources": [
+                "cri.sanity.screen.BlockerActivity"
+            ],
+            "targets": [
+                "cri.sanity.screen.SmsHistoryActivity"
+            ]
+        },
+        {
+            "handler": "cri.sanity.screen.BlockerActivity$3/boolean on()",
+            "sources": [
+                "cri.sanity.screen.BlockerActivity"
+            ],
+            "targets": [
+                "cri.sanity.screen.CallHistoryActivity"
+            ]
+        },
+        {
+            "handler": "cri.sanity.screen.RecordActivity$1/boolean on()",
+            "sources": [
+                "cri.sanity.screen.RecordActivity"
+            ],
+            "targets": [
+                "cri.sanity.screen.BrowseActivity"
+            ]
+        },
+        {
+            "handler": "cri.sanity.ModeActivity/void start(java.lang.String,boolean)",
+            "sources": [
+                "cri.sanity.ModeActivity"
+            ],
+            "targets": [
+                "cri.sanity.ModeActivity"
+            ]
+        },
+        {
+            "handler": "cri.sanity.ModeActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "cri.sanity.ModeActivity"
+            ],
+            "targets": [
+                "cri.sanity.MainActivity"
+            ]
+        },
+        {
+            "handler": "cri.sanity.A/void notify(java.lang.String,java.lang.String,int,int,long)",
+            "sources": [
+                "cri.sanity.screen.TtsActivity"
+            ],
+            "targets": [
+                "cri.sanity.MainActivity"
+            ]
+        },
+        {
+            "handler": "cri.sanity.BlankActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "cri.sanity.BlankActivity"
+            ],
+            "targets": [
+                "cri.sanity.MainActivity"
+            ]
+        },
+        {
+            "handler": "cri.sanity.ShortcutActivity/boolean execFilter(java.lang.String)",
+            "sources": [
+                "cri.sanity.ShortcutActivity"
+            ],
+            "targets": [
+                "cri.sanity.screen.FilterActivity"
+            ]
+        },
+        {
+            "handler": "cri.sanity.ShortcutActivity/boolean execAlarmer(java.lang.String)",
+            "sources": [
+                "cri.sanity.ShortcutActivity"
+            ],
+            "targets": [
+                "cri.sanity.ModeActivity"
+            ]
+        },
+        {
+            "handler": "cri.sanity.screen.GeneralActivity$4/boolean on()",
+            "sources": [
+                "cri.sanity.screen.GeneralActivity"
+            ],
+            "targets": [
+                "cri.sanity.screen.ProfileActivity"
+            ]
+        }
+    ]
+}

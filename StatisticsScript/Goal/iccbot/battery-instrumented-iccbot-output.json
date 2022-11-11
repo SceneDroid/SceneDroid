@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "ch.blinkenlights.battery.BlinkenlightsBatteryService/void updateNotifyIcon()",
+            "sources": [
+                "ch.blinkenlights.battery.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "ch.blinkenlights.battery.BlinkenlightsBattery"
+            ]
+        },
+        {
+            "handler": "ch.blinkenlights.battery.BlinkenlightsBatteryService/void updateNotifyIcon()",
+            "sources": [
+                "ch.blinkenlights.battery.BlinkenlightsBattery"
+            ],
+            "targets": [
+                "ch.blinkenlights.battery.BlinkenlightsBattery"
+            ]
+        }
+    ]
+}

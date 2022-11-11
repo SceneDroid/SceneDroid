@@ -1,0 +1,31 @@
+{
+    "transitions": [
+        {
+            "handler": "com.ringdroid.RingdroidEditActivity/void chooseContactForRingtone(android.net.Uri)",
+            "sources": [
+                "com.ringdroid.RingdroidEditActivity"
+            ],
+            "targets": [
+                "com.ringdroid.ChooseContactActivity"
+            ]
+        },
+        {
+            "handler": "com.ringdroid.RingdroidSelectActivity/void onRecord()",
+            "sources": [
+                "com.ringdroid.RingdroidSelectActivity"
+            ],
+            "targets": [
+                "com.ringdroid.RingdroidEditActivity"
+            ]
+        },
+        {
+            "handler": "com.ringdroid.RingdroidSelectActivity/boolean chooseContactForRingtone(android.view.MenuItem)",
+            "sources": [
+                "com.ringdroid.RingdroidSelectActivity"
+            ],
+            "targets": [
+                "com.ringdroid.ChooseContactActivity"
+            ]
+        }
+    ]
+}

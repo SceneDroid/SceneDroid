@@ -1,0 +1,58 @@
+{
+    "transitions": [
+        {
+            "handler": "net.everythingandroid.timer.ManageNotification/void show(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "net.everythingandroid.timer.TimerActivity"
+            ],
+            "targets": [
+                "net.everythingandroid.timer.TimerActivity"
+            ]
+        },
+        {
+            "handler": "net.everythingandroid.timer.TimerActivity/boolean onMenuItemSelected(int,android.view.MenuItem)",
+            "sources": [
+                "net.everythingandroid.timer.TimerActivity"
+            ],
+            "targets": [
+                "net.everythingandroid.timer.Preferences"
+            ]
+        },
+        {
+            "handler": "net.everythingandroid.timer.TimerAlarmActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "net.everythingandroid.timer.TimerAlarmActivity"
+            ],
+            "targets": [
+                "net.everythingandroid.timer.TimerActivity"
+            ]
+        },
+        {
+            "handler": "net.everythingandroid.timer.TimerActivity/boolean onMenuItemSelected(int,android.view.MenuItem)",
+            "sources": [
+                "net.everythingandroid.timer.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "net.everythingandroid.timer.Preferences"
+            ]
+        },
+        {
+            "handler": "net.everythingandroid.timer.ManageNotification/void show(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "net.everythingandroid.timer.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "net.everythingandroid.timer.TimerActivity"
+            ]
+        },
+        {
+            "handler": "net.everythingandroid.timer.Preferences/void onResume()",
+            "sources": [
+                "net.everythingandroid.timer.Preferences"
+            ],
+            "targets": [
+                "net.everythingandroid.timer.TimerActivity"
+            ]
+        }
+    ]
+}

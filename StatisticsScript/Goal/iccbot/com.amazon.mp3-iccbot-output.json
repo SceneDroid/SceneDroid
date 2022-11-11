@@ -1,0 +1,4081 @@
+{
+    "transitions": [
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.activity.NumberOfPlaylistsLimitReachedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity/void onClickCancel()",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.podcast.nowplaying.NowPlayingActivity$19/void onClick(android.view.View)",
+            "sources": [
+                "com.amazon.podcast.nowplaying.NowPlayingActivity"
+            ],
+            "targets": [
+                "com.amazon.podcast.cast.CastingDeviceList"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.voice.onboarding.AlexaOnboardingUtil$Companion/void startOnboardingFlow(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.voice.onboarding.view.AlexaOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.card.prime.StationUtils/void startStationSequencerHelper(android.content.Context,com.amazon.music.station.StationItem,com.amazon.music.media.playback.ControlSource,boolean,boolean,com.amazon.music.metrics.mts.event.types.PlaybackPageType,com.amazon.music.media.playback.MediaCollectionId,long,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.MusicHomeActivity/void startLauncherActivityAndClose()",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.GrantStoragePermissionActivity/void requestIfNotGranted(android.content.Context,java.lang.String[],com.amazon.mp3.activity.GrantPermissionActivity$PermissionResultReceiver)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.GrantStoragePermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.harley.LibraryAccessProviderImpl/void addToLibrary(com.amazon.music.media.playback.MediaItem)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.NetworkErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.PlayerContextMenu/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.card.prime.StationUtils/void playStation(android.content.Context,com.amazon.music.station.StationItem,boolean,boolean,com.amazon.music.metrics.mts.event.types.PlaybackPageType,long)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.PlayerContextMenu/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.songcredits.SongCreditsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.fragment.AbstractListFragment/void showContentEnabilityDialog(com.amazon.mp3.prime.ContentUnavailableReason)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.util.AccountJobController/void checkImmediate(com.amazon.mp3.service.job.Session,com.amazon.mp3.activity.util.AccountJobController$JobFinishedCallback)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.PlayerContextMenu/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.MusicHomeActivity$6/void run()",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.bottomnavbar.BottomNavigationBarContainer/void navigateToStore()",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.bottomnavbar.BottomNavigationBarContainer/boolean onAlexaTabSelected()",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.casting.CastingAlertDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.ClearCacheService/void startClearCache(android.content.Context,int)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.service.ClearCacheService"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.dialog.NetworkFailureWithSettingsDialog"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.nightwing.AdsPreferenceSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.Session/void resume()",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.service.job.JobService"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.prime.upsell.PrimeSignupErrorDialogFragment$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.prime.upsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity/void onClickCancel()",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.util.AccountJobController/void checkImmediate(com.amazon.mp3.service.job.Session,com.amazon.mp3.activity.util.AccountJobController$JobFinishedCallback)",
+            "sources": [
+                "com.amazon.mp3.activity.AccountStateCheckActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.AccountStateCheckActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.util.AccountJobController/void checkImmediate(com.amazon.mp3.service.job.Session,com.amazon.mp3.activity.util.AccountJobController$JobFinishedCallback)",
+            "sources": [
+                "com.amazon.mp3.activity.AccountStateCheckActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.util.AccountJobController/void checkImmediate(com.amazon.mp3.service.job.Session,com.amazon.mp3.activity.util.AccountJobController$JobFinishedCallback)",
+            "sources": [
+                "com.amazon.mp3.activity.AccountStateCheckActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.util.AccountJobController/void onQueuedJobsFinished(boolean)",
+            "sources": [
+                "com.amazon.mp3.activity.AccountStateCheckActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.CantileverActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.dialog.NetworkFailureWithSettingsDialog"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.MusicLauncherActivity/void showNetworkFailureDialog()",
+            "sources": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.dialog.NetworkFailureWithSettingsDialog"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.MusicLauncherActivity/void handleLaunch(com.amazon.mp3.activity.MusicLauncherActivity$LaunchVector)",
+            "sources": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.client.activity.LauncherActivity/void start(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.MusicLauncherActivity/void navigateToLibraryDevice()",
+            "sources": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.MusicLauncherActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.SQLErrorDialog"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.account.activity.SignInFlowActivity/void showNetworkConnectionFailedDialog()",
+            "sources": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.dialog.NetworkFailureWithSettingsDialog"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.account.activity.SignInFlowLauncherActivity/void startProgressActivityWithNoTransitionAnimation()",
+            "sources": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.ProgressActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.account.activity.SignInFlowLauncherActivity$1/void call(com.amazon.music.signin.SignInTaskId)",
+            "sources": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.account.activity.SignInFlowActivity/void startAccountWebView()",
+            "sources": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.DialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.ExternalLauncherActivity/void handleNewIntent(android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.activity.ExternalLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.ExternalLauncherActivity/boolean checkShowItemDeletedDialog(android.net.Uri)",
+            "sources": [
+                "com.amazon.mp3.activity.ExternalLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.RecentItemDeletedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.ExternalLauncherActivity/void handleNewIntent(android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.activity.ExternalLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.ExternalLauncherActivity/void handleNewIntent(android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.activity.ExternalLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.ExternalLauncherActivity/void handleNewIntent(android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.activity.ExternalLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.NetworkErrorDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity/void startIfTriggered(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.account.activity.SignInFlowActivity/void showNetworkConnectionFailedDialog()",
+            "sources": [
+                "com.amazon.mp3.account.activity.ProgressActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.dialog.NetworkFailureWithSettingsDialog"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.account.activity.SignInFlowActivity/void startAccountWebView()",
+            "sources": [
+                "com.amazon.mp3.account.activity.ProgressActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity/void launch(android.content.Context,com.amazon.mp3.voice.nowplaying.NowPlayingModelProvider,boolean)",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.voice.nowplaying.UniversalNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.music.push.activity.NotificationOpenHandlerActivity/void openURL(java.lang.String)",
+            "sources": [
+                "com.amazon.music.push.activity.NotificationOpenHandlerActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.navigation.DeeplinkHandlerActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.WideDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.WideDialogActivity$Companion/void showActivity(android.content.Context,com.amazon.mp3.activity.WideDialogActivityPurpose,int,com.amazon.mp3.library.item.RedownloadableTrack)",
+            "sources": [
+                "com.amazon.mp3.activity.WideDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.WideDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.activity.CreateOrRenamePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.DownloadedFileNotFoundActivityDialog$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.dialog.DownloadedFileNotFoundActivityDialog"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.dialog.DownloadedFileNotFoundActivityDialog"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.settings.SettingsActivity/void start(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.settings.SettingsActivity/boolean handleClearCacheClick()",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.settings.SettingsActivity$22$1/void run()",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.voice.onboarding.AlexaOnboardingUtil$Companion/void startOnboardingFlow(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.voice.onboarding.view.AlexaOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.settings.SettingsActivity/boolean showWidgetViewer()",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.viewer.WidgetViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.settings.SettingsActivity/boolean handleSignOutClick()",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.account.activity.AccountDeregistrationDialogActivity/void start(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.AccountDeregistrationDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.settings.SettingsActivity/boolean onContactUs()",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.CantileverActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.settings.SettingsActivity/boolean handleStreamingNetworkClick(com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity$Type)",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.settings.SettingsActivity/boolean handleDownloadLocationClick()",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.settings.SettingsActivity/boolean handleEqualizerClick()",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.WideDialogActivity$Companion/void showActivity(android.content.Context,com.amazon.mp3.activity.WideDialogActivityPurpose,int,com.amazon.mp3.library.item.RedownloadableTrack)",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.WideDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.settings.SettingsActivity/void showLanguagePreference()",
+            "sources": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.GrantSDCardPermissionMainPageActivity/void lambda$showGrantSDCardPermissionDialog$4$GrantSDCardPermissionMainPageActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.GrantSDCardPermissionMainPageActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.GrantSDCardPermissionStepPageActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.dialog.PurchasedStorageLocationChangeDialog"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseIntentProxyActivity/void onStoreUnsupported()",
+            "sources": [
+                "com.amazon.mp3.activity.IntentProxyActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.StoreUnsupportedDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseIntentProxyActivity/void handleViewAction(android.content.Intent,boolean,boolean)",
+            "sources": [
+                "com.amazon.mp3.activity.IntentProxyActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseIntentProxyActivity/void onUnsupportedFileType(android.net.Uri)",
+            "sources": [
+                "com.amazon.mp3.activity.IntentProxyActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UnsupportedFileTypeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseIntentProxyActivity/boolean startLocalFilePlayback(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.amazon.mp3.activity.IntentProxyActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseIntentProxyActivity/boolean startLocalFilePlayback(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.amazon.mp3.activity.IntentProxyActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseIntentProxyActivity/boolean startLocalFilePlayback(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.amazon.mp3.activity.IntentProxyActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseIntentProxyActivity/boolean startLocalFilePlayback(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.amazon.mp3.activity.IntentProxyActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.GrantStoragePermissionActivity/void requestIfNotGranted(android.content.Context,java.lang.String[],com.amazon.mp3.activity.GrantPermissionActivity$PermissionResultReceiver)",
+            "sources": [
+                "com.amazon.mp3.activity.IntentProxyActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.GrantStoragePermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseIntentProxyActivity/void onShowSettings()",
+            "sources": [
+                "com.amazon.mp3.activity.IntentProxyActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.client.activity.LauncherActivity/void start(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.prime.activity.NonPrimeRedirectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.prime.activity.NonPrimeRedirectActivity$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.prime.activity.NonPrimeRedirectActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity$1/void onError(com.amazon.mp3.library.util.AddToPlaylistManager$ErrorReason)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.DialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity$6/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.NumberOfPlaylistsLimitReachedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity$6/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.CreateOrRenamePlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.NetworkErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.StoreUnsupportedDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.DownloadDialogActivity/void goToMusicSettings()",
+            "sources": [
+                "com.amazon.mp3.activity.DownloadDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.casting.CastingAlertDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountDeregistrationDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.account.activity.AccountDeregistrationDialogActivity/void start(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountDeregistrationDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.AccountDeregistrationDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.playback.activity.PlaybackErrorDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.activity.PlaybackErrorDialogActivity$6/void run()",
+            "sources": [
+                "com.amazon.mp3.playback.activity.PlaybackErrorDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.activity.PlaybackErrorDialogActivity$5/void run()",
+            "sources": [
+                "com.amazon.mp3.playback.activity.PlaybackErrorDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.service.sync.SyncService/void startSync(android.content.Context,int)",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.service.sync.SyncService"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.sports.SportsNowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.SQLErrorDialog"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.widget.AlexaWidgetContainerActivity/void launchAlexa()",
+            "sources": [
+                "com.amazon.mp3.widget.AlexaWidgetContainerActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.casting.CastingAlertDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.voice.onboarding.AlexaOnboardingUtil$Companion/void startOnboardingFlow(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.widget.AlexaWidgetContainerActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.voice.onboarding.view.AlexaOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.widget.AlexaWidgetContainerActivity/void launchAlexa()",
+            "sources": [
+                "com.amazon.mp3.widget.AlexaWidgetContainerActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.AccountStateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.hawkfire.upsell.HawkfireUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.client.activity.LauncherActivity/void start(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountMigratedDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.fragment.AbstractListFragment/void showContentEnabilityDialog(com.amazon.mp3.prime.ContentUnavailableReason)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.util.AccountJobController/void checkImmediate(com.amazon.mp3.service.job.Session,com.amazon.mp3.activity.util.AccountJobController$JobFinishedCallback)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.fragment.TrackListFragment/void startPlayback(int,android.net.Uri,boolean,com.amazon.mp3.library.item.MusicTrack,com.amazon.mp3.playback.service.metrics.PlaybackMetricInformation,boolean)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.util.AccountJobController/void checkImmediate(com.amazon.mp3.service.job.Session,com.amazon.mp3.activity.util.AccountJobController$JobFinishedCallback)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.service.sync.SyncService/void startSync(android.content.Context,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.service.sync.SyncService"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.cache.image.CacheManager/void broadcastLoaded(com.amazon.mp3.library.cache.image.ImageMetadata)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.recentlyplayed.ShovelerImageLoader$CacheManagerImageReceiver"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.fragment.TrackListFragment/void startPlayback(int,android.net.Uri,boolean,com.amazon.mp3.library.item.MusicTrack,com.amazon.mp3.playback.service.metrics.PlaybackMetricInformation,boolean)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.adapter.EmptyFilterAdapter$1/void onClick(android.view.View)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.fragment.PlaylistDetailEditFragment/boolean checkShowEmptySmartPlaylistActivity(boolean)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.util.PlaylistMgmt/boolean addTrack(android.net.Uri,boolean)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.DialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.GrantStoragePermissionActivity/void requestIfNotGranted(android.content.Context,java.lang.String[],com.amazon.mp3.activity.GrantPermissionActivity$PermissionResultReceiver)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.GrantStoragePermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.fragment.TrackListFragment/void startPlayback(int,android.net.Uri,boolean,com.amazon.mp3.library.item.MusicTrack,com.amazon.mp3.playback.service.metrics.PlaybackMetricInformation,boolean)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.fragment.PlaylistDetailEditFragment/void lambda$removeFromPlaylist$0$PlaylistDetailEditFragment(android.net.Uri)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.cache.image.CacheManager/void broadcastLoaded(com.amazon.mp3.library.cache.image.ImageMetadata)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.auto.AutoMediaBrowser$1"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.Session/long addJob(com.amazon.mp3.service.job.Job)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.service.job.JobService"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.util.AccountJobController/void checkImmediate(com.amazon.mp3.service.job.Session,com.amazon.mp3.activity.util.AccountJobController$JobFinishedCallback)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.fragment.AbstractListFragment/void deleteContent()",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.NetworkErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.WideDialogActivity$Companion/void showActivity(android.content.Context,com.amazon.mp3.activity.WideDialogActivityPurpose,int,com.amazon.mp3.library.item.RedownloadableTrack)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.WideDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.ClearCacheService/void startClearCache(android.content.Context,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.service.ClearCacheService"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.fragment.TrackListFragment/void handleDeluxeContent(com.amazon.mp3.library.item.MusicTrack,java.lang.String)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.DeluxeContentLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.account.activity.AccountDeregistrationDialogActivity/void start(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.AccountDeregistrationDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.account.activity.AccountWebViewActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.account.activity.AccountWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.GrantStoragePermissionActivity/void requestIfNotGranted(android.content.Context,java.lang.String[],com.amazon.mp3.activity.GrantPermissionActivity$PermissionResultReceiver)",
+            "sources": [
+                "com.amazon.mp3.activity.GrantStoragePermissionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.GrantStoragePermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.audioquality.nerdstats.AudioStatsFragmentActivity$setLoudnessNormalizationMessage$1/void onClick(android.view.View)",
+            "sources": [
+                "com.amazon.mp3.audioquality.nerdstats.AudioStatsFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.Session/void resume()",
+            "sources": [
+                "com.amazon.mp3.audioquality.nerdstats.AudioStatsFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.service.job.JobService"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.audioquality.nerdstats.AudioStatsFragmentActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.amazon.mp3.audioquality.nerdstats.AudioStatsFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.audioquality.nerdstats.AudioStatsFragmentActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.amazon.mp3.audioquality.nerdstats.AudioStatsFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.AudioEffectActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.WideDialogActivity$Companion/void showActivity(android.content.Context,com.amazon.mp3.activity.WideDialogActivityPurpose,int,com.amazon.mp3.library.item.RedownloadableTrack)",
+            "sources": [
+                "com.amazon.mp3.audioquality.nerdstats.AudioStatsFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.WideDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.RecentItemDeletedActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.activity.AddToPlaylistTabActivity/boolean savePlaylistIfChanged()",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.SavePlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.navigation.DeeplinkHandlerActivity/int handleAmznLegacyUri(android.net.Uri)",
+            "sources": [
+                "com.amazon.mp3.navigation.DeeplinkHandlerActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.navigation.DeeplinkHandlerActivity/int handleAmznLegacyUri(android.net.Uri)",
+            "sources": [
+                "com.amazon.mp3.navigation.DeeplinkHandlerActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.navigation.DeeplinkHandlerActivity/int handleAmznLegacyUri(android.net.Uri)",
+            "sources": [
+                "com.amazon.mp3.navigation.DeeplinkHandlerActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.navigation.DeeplinkHandlerActivity$6/void run()",
+            "sources": [
+                "com.amazon.mp3.navigation.DeeplinkHandlerActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.navigation.DeeplinkHandlerActivity/int handleAmznLegacyUri(android.net.Uri)",
+            "sources": [
+                "com.amazon.mp3.navigation.DeeplinkHandlerActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.navigation.DeeplinkHandlerActivity/void handleDeeplink(android.net.Uri)",
+            "sources": [
+                "com.amazon.mp3.navigation.DeeplinkHandlerActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.client.activity.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.account.activity.AccountDeregistrationDialogActivity/void start(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.activity.UnknownCountryActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.AccountDeregistrationDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.UnknownCountryActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UnknownCountryActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.activity.UnknownCountryActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.card.prime.StationUtils/void startStationSequencerHelper(android.content.Context,com.amazon.music.station.StationItem,com.amazon.music.media.playback.ControlSource,boolean,boolean,com.amazon.music.metrics.mts.event.types.PlaybackPageType,com.amazon.music.media.playback.MediaCollectionId,long,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.casting.CastingQueueHandler/void handleUnsupportedContent(boolean)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.casting.CastingAlertDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.card.prime.StationUtils/void playStation(android.content.Context,com.amazon.music.station.StationItem,boolean,boolean,com.amazon.music.metrics.mts.event.types.PlaybackPageType,long)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.PlayerContextMenu/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.PlayerContextMenu/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.songcredits.SongCreditsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.harley.LibraryAccessProviderImpl/void addToLibrary(com.amazon.music.media.playback.MediaItem)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.NetworkErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.playback.PlayerContextMenu/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.LanguagePreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.ATCWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.UnsupportedFileTypeActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.playback.activity.StreamingNetworkPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.voice.onboarding.view.AlexaOnboardingActivity$registerRequestMicPermissionObserver$1/void onChanged(kotlin.Unit)",
+            "sources": [
+                "com.amazon.mp3.voice.onboarding.view.AlexaOnboardingActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.voice.onboarding.view.AlexaOnboardingActivity$MicPermissionResultReceiver"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil/void startMusicHomeActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.activity.BlueMoonExceptionActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.ReportCrashDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.download.activity.PlaylistDownloadErrorDialogActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.download.activity.DownloadLocationPreferenceActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.GrantMicrophonePermissionsActivity/void requestIfNotGranted(android.content.Context,com.amazon.mp3.activity.GrantPermissionActivity$PermissionResultReceiver)",
+            "sources": [
+                "com.amazon.mp3.activity.GrantMicrophonePermissionsActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.GrantMicrophonePermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.external.api.uri.SyncAndPlayActivity/void onError()",
+            "sources": [
+                "com.amazon.mp3.external.api.uri.SyncAndPlayActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistTabActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.external.api.uri.SyncAndPlayActivity/void onError()",
+            "sources": [
+                "com.amazon.mp3.external.api.uri.SyncAndPlayActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.NowPlayingFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.external.api.uri.SyncAndPlayActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.external.api.uri.SyncAndPlayActivity/void onError()",
+            "sources": [
+                "com.amazon.mp3.external.api.uri.SyncAndPlayActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.AddToPlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.external.api.uri.SyncAndPlayActivity/void onError()",
+            "sources": [
+                "com.amazon.mp3.external.api.uri.SyncAndPlayActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.library.dialog.CirrusErrorDialogs/void onResume()",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.StreamingNotAuthorizedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.UpdateCheckActivity/void showIfUpdateIsAvailable(android.content.Context)",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.UpdateCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$5/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellOneClickActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SsoWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.net.cirrus.BlueMoonExceptionsUtil$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.BaseAccountValidationWebView"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void onPostCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.playback.activity.ConcurrencyErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.BaseActivity/void showConcurrencyErrorDialogOrUpsellDialog(com.amazon.music.media.playback.concurrency.ConcurrencyException)",
+            "sources": [
+                "com.amazon.mp3.library.activity.EmptySmartPlaylistActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.hawkfire.upsell.ConcurrentStreamingUnlimitedFamilyUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.DeluxeContentLauncherActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.DeluxeContentLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.NetworkErrorDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.DeluxeContentLauncherActivity/void launchBookletIntent(java.lang.String)",
+            "sources": [
+                "com.amazon.mp3.activity.DeluxeContentLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.DeluxeContentLauncherActivity$NoAppFoundDialogFragment"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.service.job.JobSessionActivity/void checkClearCache()",
+            "sources": [
+                "com.amazon.mp3.activity.DeluxeContentLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.settings.ClearCacheActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.MusicLauncherActivity/void navigateToLibraryDevice()",
+            "sources": [
+                "com.amazon.mp3.activity.MusicLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.MusicHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.MusicLauncherActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.activity.SQLErrorDialog"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.MusicLauncherActivity/void showNetworkFailureDialog()",
+            "sources": [
+                "com.amazon.mp3.activity.MusicLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.dialog.NetworkFailureWithSettingsDialog"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.MusicLauncherActivity/void handleLaunch(com.amazon.mp3.activity.MusicLauncherActivity$LaunchVector)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.account.activity.SignInFlowLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.ftu.FTUActivity/boolean start(android.app.Activity,com.amazon.mp3.web.webtarget.WebTarget)",
+            "sources": [
+                "com.amazon.mp3.activity.MusicLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.ftu.FTUActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mp3.activity.MusicLauncherActivity$11/void run()",
+            "sources": [
+                "com.amazon.mp3.activity.MusicLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mp3.library.activity.LibraryDeviceAuthorizationWebViewActivity"
+            ]
+        }
+    ]
+}

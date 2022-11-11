@@ -1,0 +1,31 @@
+{
+    "transitions": [
+        {
+            "handler": "eu.domob.angulo.AnguloBase/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "eu.domob.angulo.AnguloClassic"
+            ],
+            "targets": [
+                "eu.domob.angulo.Preferences"
+            ]
+        },
+        {
+            "handler": "eu.domob.angulo.AnguloBase/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "eu.domob.angulo.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "eu.domob.angulo.Preferences"
+            ]
+        },
+        {
+            "handler": "eu.domob.angulo.AnguloBase/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "eu.domob.angulo.TriAngulo"
+            ],
+            "targets": [
+                "eu.domob.angulo.Preferences"
+            ]
+        }
+    ]
+}

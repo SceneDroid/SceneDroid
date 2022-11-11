@@ -1,0 +1,49 @@
+{
+    "transitions": [
+        {
+            "handler": "com.shazam.android.wear.activity.RecordAudioPermissionGrantingActivity/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.shazam.android.wear.activity.RecordAudioPermissionGrantingActivity"
+            ],
+            "targets": [
+                "com.shazam.android.wear.activity.RecordAudioPermissionGrantingActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.wear.activity.TaggingActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.shazam.android.wear.activity.TaggingActivity"
+            ],
+            "targets": [
+                "com.shazam.android.wear.activity.TaggingActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.wear.activity.TaggingActivity/void b()",
+            "sources": [
+                "com.shazam.android.wear.activity.TaggingActivity"
+            ],
+            "targets": [
+                "com.shazam.android.wear.activity.ResultActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.wear.activity.TaggingActivity/void a(com.google.android.gms.wearable.k)",
+            "sources": [
+                "com.shazam.android.wear.activity.TaggingActivity"
+            ],
+            "targets": [
+                "com.shazam.android.wear.activity.NoConfigActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.wear.activity.RecordAudioPermissionGrantingActivity/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.shazam.android.wear.activity.TaggingActivity"
+            ],
+            "targets": [
+                "com.shazam.android.wear.activity.RecordAudioPermissionGrantingActivity"
+            ]
+        }
+    ]
+}

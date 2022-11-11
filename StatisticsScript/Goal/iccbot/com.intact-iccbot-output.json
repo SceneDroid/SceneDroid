@@ -1,0 +1,1264 @@
+{
+    "transitions": [
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.filo.photo.FiloPhotoTutorialActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.filo.photo.FiloPhotoTutorialActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.filo.photo.FiloPhotoTutorialActivity/void g(com.intact.filo.photo.FiloPhotoTutorialActivity,android.view.View)",
+            "sources": [
+                "com.intact.filo.photo.FiloPhotoTutorialActivity"
+            ],
+            "targets": [
+                "com.intact.filo.photo.FiloPhotoCameraActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.recall.CarCareRecallListActivity/void onRecallClicked(com.intact.core_car_care.model.recall.Recall)",
+            "sources": [
+                "com.intact.clientcenter.carcare.recall.CarCareRecallListActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.recall.CarCareRecallDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.BaseCarCareActivity/void showGeneralError(java.lang.Throwable)",
+            "sources": [
+                "com.intact.clientcenter.carcare.recall.CarCareRecallListActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.CarCareGeneralErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.clientcenter.policy_details.archives.PolicyArchivesActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.clientcenter.policy_details.archives.PolicyArchivesActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.policy_details.notices.PolicyNoticesActivity/void openContactPanel()",
+            "sources": [
+                "com.intact.clientcenter.policy_details.notices.PolicyNoticesActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.lock.LockScreenActivity/void l()",
+            "sources": [
+                "com.intact.lock.LockScreenActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.lock.LockScreenActivity/void goToLoginScreen()",
+            "sources": [
+                "com.intact.lock.LockScreenActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.BaseCarCareActivity/void showGeneralError(java.lang.Throwable)",
+            "sources": [
+                "com.intact.clientcenter.carcare.maintenance.EditMileageActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.CarCareGeneralErrorActivity"
+            ]
+        },
+        {
+            "handler": "net.openid.appauth.RedirectUriReceiverActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "net.openid.appauth.RedirectUriReceiverActivity"
+            ],
+            "targets": [
+                "net.openid.appauth.AuthorizationManagementActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity/void openContactPanel()",
+            "sources": [
+                "com.intact.clientcenter.main.assistance.RoadsideAssistanceBrowserActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.assistance.RoadsideAssistanceBrowserActivity$Companion/void startActivity(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.intact.clientcenter.main.assistance.RoadsideAssistanceBrowserActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.main.assistance.RoadsideAssistanceBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.filo.FiloIntroActivity/void d(com.intact.filo.FiloIntroActivity,android.view.View)",
+            "sources": [
+                "com.intact.filo.FiloIntroActivity"
+            ],
+            "targets": [
+                "com.intact.filo.FiloActivity"
+            ]
+        },
+        {
+            "handler": "net.glance.glancevideo.VideoDefaultUI/void start(net.glance.android.StartParams,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "net.glance.android.PresenceVisitorTermsActivity"
+            ],
+            "targets": [
+                "net.glance.glancevideo.LegacyVideoDefaultUIActivity"
+            ]
+        },
+        {
+            "handler": "net.glance.glancevideo.VideoDefaultUI/void start(net.glance.android.StartParams,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "net.glance.android.PresenceVisitorTermsActivity"
+            ],
+            "targets": [
+                "net.glance.glancevideo.LollipopVideoDefaultUIActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.clientcenter.claim_details.car.CarClaimDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.clientcenter.claim_details.car.CarClaimDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.policy_details.PolicyDetailsFragment/void L(com.intact.clientcenter.policy_details.PolicyDetailsFragment,com.intact.core_clientcenter.manager.policies.SingleRiskPolicyResult,android.view.View)",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.policy_details.wording.PolicyWordingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.common.utils.file.PDFUtils$Companion/void displayPDF(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "net.openid.appauth.RedirectUriReceiverActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.policy_details.PolicyDetailsFragment/void openPolicyChangeWebView(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.policy_change.PolicyChangeBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.policy_details.PolicyDetailsFragment/void openWebBrowser(java.lang.String)",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.billing.BillingBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.policy_details.PolicyDetailsFragment/void showPinkSlipDetails(java.lang.String,com.intact.api_common_model.enums.PolicyStatus,java.lang.String)",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.pinkslip.pinkslip.PinkSlipActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.policy_details.PolicyDetailsFragment/void showUpcomingPayments(java.lang.String,com.intact.api_common_model.enums.PolicyStatus)",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.billing.upcoming_payment.BillingUpcomingPaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.policy_details.PolicyDetailsFragment/void showPersonalizedPremium()",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.ui.screen.personalizedPremium.PersonalizedPremiumActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity/void openContactPanel()",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.policy_details.PolicyDetailsFragment/void showBillingDetails(com.intact.core_clientcenter.manager.policies.PolicyResult)",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.billing.PolicyBillingDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.policy_details.PolicyDetailsFragment/void B(com.intact.clientcenter.policy_details.PolicyDetailsFragment,com.intact.core_clientcenter.manager.policies.SingleRiskPolicyResult,android.view.View)",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.policy_details.notices.PolicyNoticesActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.policy_details.PolicyDetailsFragment/void showPolicyChangeScreen(com.intact.clientcenter.policy_change.PolicyChangeAction,java.lang.String)",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.policy_change.PolicyChangeActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.policy_details.PolicyDetailsFragment/void M(com.intact.core_clientcenter.manager.policies.SingleRiskPolicyResult)",
+            "sources": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.policy_details.archives.PolicyArchivesActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.filo.easyshare.FiloAddDocumentsActivity/void m0(int)",
+            "sources": [
+                "com.intact.filo.easyshare.FiloAddDocumentsActivity"
+            ],
+            "targets": [
+                "com.intact.filo.easyshare.camera.FiloAddDocumentsCameraActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.clientcenter.pinkslip.moreinfo.PinkSlipMoreInfoActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.clientcenter.pinkslip.moreinfo.PinkSlipMoreInfoActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.clientcenter.onboarding.OnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.clientcenter.onboarding.OnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.onboarding.OnboardingActivity/void showBrokerSelector()",
+            "sources": [
+                "com.intact.clientcenter.onboarding.OnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.broker.BrokerSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.onboarding.CarCareOnboardingActivity/void t(com.intact.clientcenter.carcare.onboarding.CarCareOnboardingActivity,java.lang.Boolean)",
+            "sources": [
+                "com.intact.clientcenter.carcare.onboarding.CarCareOnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.vehicle.CarCareLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.BaseCarCareActivity/void showGeneralError(java.lang.Throwable)",
+            "sources": [
+                "com.intact.clientcenter.carcare.onboarding.CarCareOnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.CarCareGeneralErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.common.utils.universal_link.router.DeepLinkFiloRouterViewDelegate/void showFiloVehicleSelector(boolean)",
+            "sources": [
+                "com.intact.common.utils.universal_link.DeepLinkForwardingActivity"
+            ],
+            "targets": [
+                "com.intact.filo.vehicle.FiloVehicleSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.claims.ClaimsActivity/void onAddFilesClicked(com.intact.core_clientcenter.manager.claim.ClaimResult)",
+            "sources": [
+                "com.intact.claims.ClaimsActivity"
+            ],
+            "targets": [
+                "com.intact.filo.easyshare.FiloAddDocumentsActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.claims.ClaimsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.claims.ClaimsActivity/void showStartNewClaim(com.intact.claims.StartClaimTileItem)",
+            "sources": [
+                "com.intact.claims.ClaimsActivity"
+            ],
+            "targets": [
+                "com.intact.claims.FiloHomeErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.filo.router.FiloRouterViewDelegate/void showStandalonePhotoModule(java.lang.String)",
+            "sources": [
+                "com.intact.claims.ClaimsActivity"
+            ],
+            "targets": [
+                "com.intact.filo.photo.FiloPhotoTutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.claims.ClaimsActivity/void onCarHomeClaimItemClicked(com.intact.core_clientcenter.manager.claim.ClaimResult)",
+            "sources": [
+                "com.intact.claims.ClaimsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.claim_details.car.CarClaimDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.claims.ClaimsActivity/void showRSAInfo()",
+            "sources": [
+                "com.intact.claims.ClaimsActivity"
+            ],
+            "targets": [
+                "com.intact.rsa.RSAReimbursementActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.filo.router.FiloRouterViewDelegate/void showFiloVehicleSelector(boolean)",
+            "sources": [
+                "com.intact.claims.ClaimsActivity"
+            ],
+            "targets": [
+                "com.intact.filo.vehicle.FiloVehicleSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.filo.router.FiloRouterViewDelegate/void showFiloForceUpdate()",
+            "sources": [
+                "com.intact.claims.ClaimsActivity"
+            ],
+            "targets": [
+                "com.intact.filo.error.FiloForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.claims.ClaimsActivity/void onCarHomeClaimItemClicked(com.intact.core_clientcenter.manager.claim.ClaimResult)",
+            "sources": [
+                "com.intact.claims.ClaimsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.claim_details.home.HomeClaimDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.claims.ClaimsActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.maintenance.MaintenanceDetailActivity/void B(com.intact.clientcenter.carcare.maintenance.MaintenanceDetailActivity,java.lang.Boolean)",
+            "sources": [
+                "com.intact.clientcenter.carcare.maintenance.MaintenanceDetailActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.CarCareGeneralErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.maintenance.MaintenanceDetailActivity$a/void a()",
+            "sources": [
+                "com.intact.clientcenter.carcare.maintenance.MaintenanceDetailActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.maintenance.MaintenanceTasksMarkAsDoneActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.maintenance.MaintenanceTasksMarkAsDoneActivity/void z(com.intact.clientcenter.carcare.maintenance.MaintenanceTasksMarkAsDoneActivity,java.lang.Boolean)",
+            "sources": [
+                "com.intact.clientcenter.carcare.maintenance.MaintenanceTasksMarkAsDoneActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.CarCareGeneralErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.ubi.activation.UbiActivationActivity/void d()",
+            "sources": [
+                "com.intact.ubi.activation.UbiActivationActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.ui.screen.activation.ActivationActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.filo.vehicle.FiloVehicleSelectorActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.filo.vehicle.FiloVehicleSelectorActivity/void showFiloForm(com.intact.api_lola.model.filo.OptionResult)",
+            "sources": [
+                "com.intact.filo.vehicle.FiloVehicleSelectorActivity"
+            ],
+            "targets": [
+                "com.intact.filo.FiloIntroActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.filo.vehicle.FiloVehicleSelectorActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.billing.MultiplePolicyBillingActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.billing.MultiplePolicyBillingActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.billing.MultiplePolicyBillingActivity/void showBillingDetails(com.intact.core_clientcenter.manager.policies.PolicyResult)",
+            "sources": [
+                "com.intact.billing.MultiplePolicyBillingActivity"
+            ],
+            "targets": [
+                "com.intact.billing.PolicyBillingDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.clientcenter.claim_details.home.HomeClaimDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.clientcenter.claim_details.home.HomeClaimDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity/void openContactPanel()",
+            "sources": [
+                "com.intact.billing.BillingBrowserActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.pinkslip.widget.WidgetSelectionActivity/void n()",
+            "sources": [
+                "com.intact.clientcenter.pinkslip.widget.WidgetSelectionActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.splash.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.pinkslip.widget.WidgetProvider$Companion/void createAppWidget(android.content.Context,int,com.intact.core_clientcenter.manager.pinkslip.PinkSlipModel)",
+            "sources": [
+                "com.intact.clientcenter.pinkslip.widget.WidgetSelectionActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.pinkslip.pinkslip.PinkSlipActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.clientcenter.policy_details.wording.PolicyWordingActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.clientcenter.policy_details.wording.PolicyWordingActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity/void openContactPanel()",
+            "sources": [
+                "com.intact.clientcenter.policy_change.PolicyChangeBrowserActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginActionNavigator/void h(android.app.Activity,boolean)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.ui.screen.activation.ActivationActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginFragment$e/void a(android.view.View)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.pinkslip.pinkslip.PinkSlipActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginActionNavigator/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.broker.BrokerSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginActionNavigator/void f(android.app.Activity,boolean)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.activation.UbiActivationActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginActionNavigator/void d(android.app.Activity,boolean)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.onboarding.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.common.utils.ActivityExtensionsKt/void showForceUpdateActivity(android.app.Activity)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.screen.forceUpdate.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.pinkslip.widget.WidgetProvider$Companion/void b(android.content.Context,int[],boolean)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.pinkslip.widget.WidgetProvider"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginActionNavigator/void g(android.app.Activity,boolean)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.ui.screen.activation.fasttrackOnboarding.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginFragment/void startLoginActivity(net.openid.appauth.AuthorizationRequest)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "net.openid.appauth.AuthorizationManagementActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginFragment/void startLoginActivity(net.openid.appauth.AuthorizationRequest)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginFragment/void showInAppCampaign()",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.campaign.CampaignPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.ubi.notification.UbiNotificationManager/void scheduleLogoutAlertIfNeeded(boolean)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.receiver.UbiNotificationReceiver"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginFragment/void showProvinceSelector()",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.login.provinceSelector.ProvinceSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginFragment/void showReliefProgram(java.lang.String)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.screen.relief.ReliefProgramBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginActionNavigator/void e(android.app.Activity,com.intact.common.enums.LoginAction,boolean)",
+            "sources": [
+                "com.intact.login.LoginActivity"
+            ],
+            "targets": [
+                "com.intact.screen.onboarding.NewLookOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.rsa.RSAReimbursementActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.rsa.RSAReimbursementActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.screen.onboarding.NewLookOnboardingActivity/void d()",
+            "sources": [
+                "com.intact.screen.onboarding.NewLookOnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.ui.screen.activation.fasttrackOnboarding.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginActionNavigator/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.intact.screen.onboarding.NewLookOnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.broker.BrokerSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginActionNavigator/void d(android.app.Activity,boolean)",
+            "sources": [
+                "com.intact.screen.onboarding.NewLookOnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.onboarding.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginActionNavigator/void e(android.app.Activity,com.intact.common.enums.LoginAction,boolean)",
+            "sources": [
+                "com.intact.screen.onboarding.NewLookOnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.screen.onboarding.NewLookOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginActionNavigator/void h(android.app.Activity,boolean)",
+            "sources": [
+                "com.intact.screen.onboarding.NewLookOnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.ui.screen.activation.ActivationActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.login.LoginActionNavigator/void f(android.app.Activity,boolean)",
+            "sources": [
+                "com.intact.screen.onboarding.NewLookOnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.activation.UbiActivationActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.common.utils.ActivityExtensionsKt/void showForceUpdateActivity(android.app.Activity)",
+            "sources": [
+                "com.intact.screen.onboarding.NewLookOnboardingActivity"
+            ],
+            "targets": [
+                "com.intact.screen.forceUpdate.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.profile.ProfileFragment/void showUbiOnePager()",
+            "sources": [
+                "com.intact.clientcenter.main.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.ui.screen.activation.ActivationActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.profile.ProfileFragment$g/void a(android.view.View)",
+            "sources": [
+                "com.intact.clientcenter.main.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.intact.filo.FiloRegulatoryInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.profile.ProfileFragment/void openPaperlessSettings()",
+            "sources": [
+                "com.intact.clientcenter.main.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.main.profile.paperless.PaperlessSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.profile.ProfileFragment/void showPolicyChangeScreen(com.intact.clientcenter.policy_change.PolicyChangeAction)",
+            "sources": [
+                "com.intact.clientcenter.main.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.policy_change.PolicyChangeActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.profile.ProfileFragment/void showLogin(boolean)",
+            "sources": [
+                "com.intact.clientcenter.main.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.profile.ProfileFragment/void openWeatherAlertSettingPage()",
+            "sources": [
+                "com.intact.clientcenter.main.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.intact.weather_alert.settings.WeatherAlertSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.ubi.notification.UbiNotificationManager/void scheduleLogoutAlertIfNeeded(boolean)",
+            "sources": [
+                "com.intact.clientcenter.main.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.receiver.UbiNotificationReceiver"
+            ]
+        },
+        {
+            "handler": "com.intact.billing.PolicyBillingDetailsActivity/void showPersonalizedPremium()",
+            "sources": [
+                "com.intact.billing.PolicyBillingDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.ui.screen.personalizedPremium.PersonalizedPremiumActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.billing.PolicyBillingDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.billing.PolicyBillingDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.billing.PolicyBillingDetailsActivity/void showUpcomingPayments(java.lang.String,com.intact.api_common_model.enums.PolicyStatus)",
+            "sources": [
+                "com.intact.billing.PolicyBillingDetailsActivity"
+            ],
+            "targets": [
+                "com.intact.billing.upcoming_payment.BillingUpcomingPaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.filo.FiloActivity/void z(com.intact.filo.FiloViewModel$SubmitConfirmation)",
+            "sources": [
+                "com.intact.filo.FiloActivity"
+            ],
+            "targets": [
+                "com.intact.filo.FiloConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.filo.FiloActivity/void y(java.lang.String,java.lang.String,java.util.Map,com.intact.api_lola.model.filo.WorkflowResult)",
+            "sources": [
+                "com.intact.filo.FiloActivity"
+            ],
+            "targets": [
+                "com.intact.filo.FiloActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.filo.FiloActivity/void onDocumentModuleClicked()",
+            "sources": [
+                "com.intact.filo.FiloActivity"
+            ],
+            "targets": [
+                "com.intact.filo.easyshare.FiloAddDocumentsActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.filo.FiloActivity$a/void a(kotlin.Unit)",
+            "sources": [
+                "com.intact.filo.FiloActivity"
+            ],
+            "targets": [
+                "com.intact.filo.photo.FiloPhotoTutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity/void openContactPanel()",
+            "sources": [
+                "com.intact.clientcenter.main.documents.DocumentsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.documents.DocumentsFragment/void onPinkSlipDocumentClick(com.intact.core_clientcenter.manager.policies.BaseRiskResult)",
+            "sources": [
+                "com.intact.clientcenter.main.documents.DocumentsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.pinkslip.pinkslip.PinkSlipActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.common.utils.file.PDFUtils$Companion/void displayPDF(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.intact.clientcenter.main.documents.DocumentsActivity"
+            ],
+            "targets": [
+                "net.openid.appauth.RedirectUriReceiverActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.documents.DocumentsFragment/void d()",
+            "sources": [
+                "com.intact.clientcenter.main.documents.DocumentsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.main.documents.vault.VaultCameraActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.documents.DocumentsFragment$e/void a(android.view.View)",
+            "sources": [
+                "com.intact.clientcenter.main.documents.DocumentsActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.onboarding.PinkSlipHowToOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity/void openContactPanel()",
+            "sources": [
+                "com.intact.login.LoginBrowserActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.vehicle.CarCareLandingActivity/void onVehicleClicked(java.lang.String)",
+            "sources": [
+                "com.intact.clientcenter.carcare.vehicle.CarCareLandingActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.BaseCarCareActivity/void showGeneralError(java.lang.Throwable)",
+            "sources": [
+                "com.intact.clientcenter.carcare.vehicle.CarCareLandingActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.CarCareGeneralErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.BaseCarCareActivity/void showGeneralError(java.lang.Throwable)",
+            "sources": [
+                "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.CarCareGeneralErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity/void A()",
+            "sources": [
+                "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.recall.CarCareRecallListActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity/void z(com.intact.core_car_care.model.recall.Recall)",
+            "sources": [
+                "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.recall.CarCareRecallDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity/void y(com.intact.core_car_care.model.maintenance.Service)",
+            "sources": [
+                "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.maintenance.MaintenanceDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity$d$a/void a(com.intact.clientcenter.carcare.recall.delegates.VehicleRecallsAnalyticsData)",
+            "sources": [
+                "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity"
+            ],
+            "targets": [
+                "com.intact.common.view.survey.satisfaction.SatisfactionSurveyActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity/void x(com.intact.core_car_care.model.profile.Vehicle)",
+            "sources": [
+                "com.intact.clientcenter.carcare.vehicle.RiskOverviewActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.maintenance.EditMileageActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.BaseCarCareActivity/void showGeneralError(java.lang.Throwable)",
+            "sources": [
+                "com.intact.clientcenter.carcare.recall.CarCareRecallDetailActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.CarCareGeneralErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.carcare.recall.CarCareRecallDetailActivity/void u(com.intact.core_car_care.model.recall.RecallStatus)",
+            "sources": [
+                "com.intact.clientcenter.carcare.recall.CarCareRecallDetailActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.carcare.recall.CarCareRecallActionStatusActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.ubi.ui.screen.permissions.PermissionsActivity/void g()",
+            "sources": [
+                "com.intact.ubi.ui.screen.permissions.PermissionsActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.ui.screen.activation.tmInitialization.TMInitializationActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.ubi.ui.screen.permissions.PermissionsActivity/void f()",
+            "sources": [
+                "com.intact.ubi.ui.screen.permissions.PermissionsActivity"
+            ],
+            "targets": [
+                "com.intact.ubi.ui.screen.activation.selfenrollment.SelfEnrollmentLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity/void openContactPanel()",
+            "sources": [
+                "com.intact.screen.relief.ReliefProgramBrowserActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.billing.upcoming_payment.BillingUpcomingPaymentActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.billing.upcoming_payment.BillingUpcomingPaymentActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.pinkslip.pinkslip.PinkSlipActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.intact.clientcenter.pinkslip.pinkslip.PinkSlipActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.splash.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.pinkslip.pinkslip.PinkSlipActivity$e/void a(android.view.View)",
+            "sources": [
+                "com.intact.clientcenter.pinkslip.pinkslip.PinkSlipActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.onboarding.PinkSlipHowToOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.clientcenter.pinkslip.pinkslip.PinkSlipActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.clientcenter.pinkslip.pinkslip.PinkSlipActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.notification.NotificationFragment/void onRiskItemClick(com.intact.core_clientcenter.manager.policies.SingleRiskPolicyResult)",
+            "sources": [
+                "com.intact.clientcenter.main.notification.NotificationActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.policy_details.PolicyDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.notification.NotificationFragment/void showMultipleRSARisksScreen(java.util.List)",
+            "sources": [
+                "com.intact.clientcenter.main.notification.NotificationActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.main.notification.rsaRisk.RSARisksActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity/void openContactPanel()",
+            "sources": [
+                "com.intact.clientcenter.main.notification.NotificationActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.notification.NotificationFragment/void showBillingDetails(com.intact.core_clientcenter.manager.policies.PolicyResult)",
+            "sources": [
+                "com.intact.clientcenter.main.notification.NotificationActivity"
+            ],
+            "targets": [
+                "com.intact.billing.PolicyBillingDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.notification.NotificationHelper/void openPolicyChangeWebView(java.lang.String,android.content.Context)",
+            "sources": [
+                "com.intact.clientcenter.main.notification.NotificationActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.policy_change.PolicyChangeBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.main.notification.NotificationHelper/void openPolicyChangeWebView(java.lang.String,android.content.Context)",
+            "sources": [
+                "com.intact.clientcenter.main.notification.rsaRisk.RSARisksActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.policy_change.PolicyChangeBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void d()",
+            "sources": [
+                "com.intact.filo.error.FiloForceUpdateActivity"
+            ],
+            "targets": [
+                "com.intact.clientcenter.faq.FaqActivity"
+            ]
+        },
+        {
+            "handler": "com.intact.clientcenter.general.BaseActivity2/void logout()",
+            "sources": [
+                "com.intact.filo.error.FiloForceUpdateActivity"
+            ],
+            "targets": [
+                "com.intact.login.LoginActivity"
+            ]
+        }
+    ]
+}

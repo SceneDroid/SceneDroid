@@ -1,0 +1,490 @@
+{
+    "transitions": [
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.main.SearchActivity"
+            ],
+            "targets": [
+                "com.peel.settings.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.main.SearchActivity"
+            ],
+            "targets": [
+                "com.peel.main.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.d.h/void b(boolean)",
+            "sources": [
+                "com.peel.main.SearchActivity"
+            ],
+            "targets": [
+                "com.peel.main.BaseActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.main.SearchActivity"
+            ],
+            "targets": [
+                "com.peel.setup.DeviceSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.main.SearchActivity"
+            ],
+            "targets": [
+                "com.peel.ui.ControlPadActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.d.h/void a(android.app.Activity,com.peel.data.ContentRoom,com.peel.content.library.LiveLibrary,boolean)",
+            "sources": [
+                "com.peel.splash.NoUiActivity"
+            ],
+            "targets": [
+                "com.peel.setup.EpgSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.splash.NoUiActivity/void a()",
+            "sources": [
+                "com.peel.splash.NoUiActivity"
+            ],
+            "targets": [
+                "com.peel.settings.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.setup.CountrySetupSplashActivity/void a(boolean)",
+            "sources": [
+                "com.peel.setup.CountrySetupSplashActivity"
+            ],
+            "targets": [
+                "com.peel.setup.EpgSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.main.BaseActivity"
+            ],
+            "targets": [
+                "com.peel.ui.ControlPadActivity"
+            ]
+        },
+        {
+            "handler": "com.d.a.b/void onClick(android.view.View)",
+            "sources": [
+                "com.peel.main.BaseActivity"
+            ],
+            "targets": [
+                "com.peel.main.PartnerActivity"
+            ]
+        },
+        {
+            "handler": "com.d.a.b/void onClick(android.view.View)",
+            "sources": [
+                "com.peel.main.BaseActivity"
+            ],
+            "targets": [
+                "com.peel.splash.LoadingSplash"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.main.BaseActivity"
+            ],
+            "targets": [
+                "com.peel.setup.DeviceSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.d.a.b/void onClick(android.view.View)",
+            "sources": [
+                "com.peel.main.BaseActivity"
+            ],
+            "targets": [
+                "com.peel.main.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.main.BaseActivity"
+            ],
+            "targets": [
+                "com.peel.settings.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.d.h/void b(boolean)",
+            "sources": [
+                "com.peel.main.BaseActivity"
+            ],
+            "targets": [
+                "com.peel.main.BaseActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.main.Home"
+            ],
+            "targets": [
+                "com.peel.settings.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.main.Home"
+            ],
+            "targets": [
+                "com.peel.main.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.Home/void a(java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.peel.main.Home"
+            ],
+            "targets": [
+                "com.peel.setup.EpgSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.main.Home"
+            ],
+            "targets": [
+                "com.peel.setup.DeviceSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.main.Home"
+            ],
+            "targets": [
+                "com.peel.ui.ControlPadActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.Home/void a(java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.peel.main.Home"
+            ],
+            "targets": [
+                "com.peel.main.BaseActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.ui.ControlPadActivity"
+            ],
+            "targets": [
+                "com.peel.settings.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.ui.ControlPadActivity"
+            ],
+            "targets": [
+                "com.peel.setup.DeviceSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.social.s/void a(android.content.Context)",
+            "sources": [
+                "com.peel.ui.ControlPadActivity"
+            ],
+            "targets": [
+                "com.peel.social.provider.google.GoogleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.ui.ControlPadActivity"
+            ],
+            "targets": [
+                "com.peel.ui.ControlPadActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.util.dl/void a(android.content.Context,boolean,java.lang.String)",
+            "sources": [
+                "com.peel.ui.ControlPadActivity"
+            ],
+            "targets": [
+                "com.peel.setup.CountrySetupSplashActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.ui.ControlPadActivity"
+            ],
+            "targets": [
+                "com.peel.main.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.util.dl/void a(android.content.Context,boolean,java.lang.String)",
+            "sources": [
+                "com.peel.ui.ControlPadActivity"
+            ],
+            "targets": [
+                "com.peel.setup.EpgSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.d.h/void b(boolean)",
+            "sources": [
+                "com.peel.ui.ControlPadActivity"
+            ],
+            "targets": [
+                "com.peel.main.BaseActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.setup.DeviceSetupActivity"
+            ],
+            "targets": [
+                "com.peel.main.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.setup.DeviceSetupActivity"
+            ],
+            "targets": [
+                "com.peel.settings.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.d.h/void b(boolean)",
+            "sources": [
+                "com.peel.setup.DeviceSetupActivity"
+            ],
+            "targets": [
+                "com.peel.main.BaseActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.setup.DeviceSetupActivity"
+            ],
+            "targets": [
+                "com.peel.ui.ControlPadActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.setup.DeviceSetupActivity"
+            ],
+            "targets": [
+                "com.peel.setup.DeviceSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.PartnerActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.peel.main.PartnerActivity"
+            ],
+            "targets": [
+                "com.peel.setup.DeviceSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.PartnerActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.peel.main.PartnerActivity"
+            ],
+            "targets": [
+                "com.peel.ui.ControlPadActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.setup.EpgSetupActivity"
+            ],
+            "targets": [
+                "com.peel.setup.DeviceSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.setup.EpgSetupActivity"
+            ],
+            "targets": [
+                "com.peel.settings.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.setup.EpgSetupActivity"
+            ],
+            "targets": [
+                "com.peel.ui.ControlPadActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.setup.EpgSetupActivity"
+            ],
+            "targets": [
+                "com.peel.main.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.d.h/void b(boolean)",
+            "sources": [
+                "com.peel.setup.EpgSetupActivity"
+            ],
+            "targets": [
+                "com.peel.main.BaseActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.settings.ui.SettingsActivity"
+            ],
+            "targets": [
+                "com.peel.setup.DeviceSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.settings.ui.SettingsActivity"
+            ],
+            "targets": [
+                "com.peel.settings.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.settings.ui.SettingsActivity"
+            ],
+            "targets": [
+                "com.peel.ui.ControlPadActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.d.h/void b(boolean)",
+            "sources": [
+                "com.peel.settings.ui.SettingsActivity"
+            ],
+            "targets": [
+                "com.peel.main.BaseActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.settings.ui.SettingsActivity"
+            ],
+            "targets": [
+                "com.peel.main.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.splash.LoadingSplash/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.peel.splash.LoadingSplash"
+            ],
+            "targets": [
+                "com.peel.main.Home"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.main.ContentWallActivity"
+            ],
+            "targets": [
+                "com.peel.main.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.main.ContentWallActivity"
+            ],
+            "targets": [
+                "com.peel.ui.ControlPadActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.peel.main.ContentWallActivity"
+            ],
+            "targets": [
+                "com.peel.settings.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.p/void j()",
+            "sources": [
+                "com.peel.main.ContentWallActivity"
+            ],
+            "targets": [
+                "com.peel.setup.DeviceSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.d.h/void b(boolean)",
+            "sources": [
+                "com.peel.main.ContentWallActivity"
+            ],
+            "targets": [
+                "com.peel.main.BaseActivity"
+            ]
+        },
+        {
+            "handler": "com.peel.main.Main/boolean a(android.content.Intent)",
+            "sources": [
+                "com.peel.main.Main"
+            ],
+            "targets": [
+                "com.peel.main.Home"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.r/boolean b(com.facebook.login.y,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.peel.social.provider.facebook.FacebookLoginActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,256 @@
+{
+    "transitions": [
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.VideoPreviewActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.ui.share.ShareActivity/void a(z0.v.b.l)",
+            "sources": [
+                "com.reddit.frontpage.ui.share.ShareActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.presentation.geopopular.GeopopularRegionSelectActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "e.n.a.h/void a()",
+            "sources": [
+                "com.instabug.bug.view.BugReportingActivity"
+            ],
+            "targets": [
+                "com.instabug.bug.view.BugReportingActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.ModMailActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "e.a.u.s.m5/void c()",
+            "sources": [
+                "com.reddit.screen.media.streaming.StreamActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.IntroductionActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.screen.media.streaming.StreamActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.ui.communities.CreateCommunityActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.presentation.carousel.previewmode.PreviewModeActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.WebBrowserActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.ui.preferences.PreferencesActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.notifications.NotificationActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.reddit.frontpage.notifications.NotificationActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.RedditDeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.notifications.NotificationActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.reddit.frontpage.notifications.NotificationActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.LightboxActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.SinglePostDetailActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.StartActivity/void c(boolean)",
+            "sources": [
+                "com.reddit.frontpage.StartActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.RedditDeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.StartActivity/z0.n I()",
+            "sources": [
+                "com.reddit.frontpage.StartActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.IntroductionActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.StartActivity/z0.n I()",
+            "sources": [
+                "com.reddit.frontpage.StartActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.AcknowledgementsActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.IntroductionActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.ui.preferences.SettingsScreenActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.LiveThreadActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BaseActivity/void a(e.a.a.d0)",
+            "sources": [
+                "com.reddit.frontpage.main.MainActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "e.a.u.s.m5/void c()",
+            "sources": [
+                "com.reddit.frontpage.main.MainActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.IntroductionActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.main.MainActivity/void j(java.lang.String)",
+            "sources": [
+                "com.reddit.frontpage.main.MainActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.RedditDeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.BranchLinkActivity$b/void a(org.json.JSONObject,b3.a.b.h)",
+            "sources": [
+                "com.reddit.frontpage.BranchLinkActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.RedditDeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.presentation.premiumsettings.PremiumSettingsActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.reddit.frontpage.presentation.premiumsettings.PremiumSettingsActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.WebBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.reddit.frontpage.ui.preferences.PushNotificationSettingsLauncherActivity/void a(com.reddit.frontpage.ui.preferences.PushNotificationSettingsLauncherActivity)",
+            "sources": [
+                "com.reddit.frontpage.ui.preferences.PushNotificationSettingsLauncherActivity"
+            ],
+            "targets": [
+                "com.reddit.frontpage.ui.preferences.SettingsScreenActivity"
+            ]
+        }
+    ]
+}

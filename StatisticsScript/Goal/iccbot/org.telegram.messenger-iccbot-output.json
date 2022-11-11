@@ -1,0 +1,94 @@
+{
+    "transitions": [
+        {
+            "handler": "org.telegram.messenger.browser.Browser/void openUrl(android.content.Context,android.net.Uri,boolean,boolean)",
+            "sources": [
+                "org.telegram.ui.ChatsWidgetConfigActivity"
+            ],
+            "targets": [
+                "org.telegram.ui.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "org.telegram.ui.Components.voip.VoIPPiPView/void lambda$new$2(android.content.Context,android.view.View)",
+            "sources": [
+                "org.telegram.ui.BubbleActivity"
+            ],
+            "targets": [
+                "org.telegram.ui.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "org.telegram.ui.VoIPPermissionActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "org.telegram.ui.VoIPPermissionActivity"
+            ],
+            "targets": [
+                "org.telegram.ui.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "org.telegram.messenger.browser.Browser/void openUrl(android.content.Context,android.net.Uri,boolean,boolean)",
+            "sources": [
+                "org.telegram.ui.LaunchActivity"
+            ],
+            "targets": [
+                "org.telegram.ui.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "org.telegram.ui.DialogsActivity/void lambda$didReceivedNotification$39(org.telegram.tgnet.TLRPC$Chat,long,boolean,org.telegram.tgnet.TLRPC$User)",
+            "sources": [
+                "org.telegram.ui.LaunchActivity"
+            ],
+            "targets": [
+                "org.telegram.messenger.OpenChatReceiver"
+            ]
+        },
+        {
+            "handler": "org.telegram.messenger.OpenChatReceiver/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.telegram.messenger.OpenChatReceiver"
+            ],
+            "targets": [
+                "org.telegram.ui.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "org.telegram.messenger.browser.Browser/void openUrl(android.content.Context,android.net.Uri,boolean,boolean)",
+            "sources": [
+                "org.telegram.ui.ExternalActionActivity"
+            ],
+            "targets": [
+                "org.telegram.ui.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "org.telegram.ui.Components.voip.VoIPHelper/void lambda$showRateAlert$13(android.content.Context,java.io.File,android.content.DialogInterface,int)",
+            "sources": [
+                "org.telegram.ui.VoIPFeedbackActivity"
+            ],
+            "targets": [
+                "org.telegram.ui.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "org.telegram.messenger.browser.Browser/void openUrl(android.content.Context,android.net.Uri,boolean,boolean)",
+            "sources": [
+                "org.telegram.ui.ContactsWidgetConfigActivity"
+            ],
+            "targets": [
+                "org.telegram.ui.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "org.telegram.ui.PopupNotificationActivity/void openCurrentMessage()",
+            "sources": [
+                "org.telegram.ui.PopupNotificationActivity"
+            ],
+            "targets": [
+                "org.telegram.ui.LaunchActivity"
+            ]
+        }
+    ]
+}

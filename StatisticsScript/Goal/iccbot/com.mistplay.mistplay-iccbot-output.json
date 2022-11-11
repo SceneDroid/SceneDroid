@@ -1,0 +1,823 @@
+{
+    "transitions": [
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.LoadActivity/void h()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.LoadActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.reward.RewardDetails/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.reward.RewardDetails"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.Profile$Companion/void startProfileActivity(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.Profile"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.Profile"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.views.user.ProfileView/void u(com.mistplay.mistplay.view.views.user.ProfileView,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.Profile"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.UserListActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.views.user.ProfileView/void onResume()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.Profile"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.SplashActivity/void z()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.SplashActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.signUp.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.SplashActivity/void K(com.mistplay.mistplay.view.activity.signUp.SplashActivity,java.lang.String,java.lang.String,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.SplashActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.signUp.LinkAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.SplashActivity/void y()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.SplashActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.badge.BadgeRedirectActivity/void goToGameDetailsPage(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.loyalty.LoyaltyGemsUnlockedActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.model.models.user.RequesterRoomUser/void onChatSpinnerOptionSelected(android.content.Context,com.mistplay.mistplay.model.models.chat.GameRoom,int,boolean)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.chat.JoinRequestActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.game.InstallActivity/void onResume()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.game.InstallActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.dialog.achievement.AchievementGameSuggestionDialog/void o(com.mistplay.mistplay.view.dialog.achievement.AchievementGameSuggestionDialog,com.mistplay.common.model.models.game.Game,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.game.GameDetails"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.MainActivity/void M()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.dialog.achievement.AchievementCompleteDialog"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.dialog.game.LevelUpInviteDialog/void p(android.content.Context,com.mistplay.mistplay.view.dialog.game.LevelUpInviteDialog,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.bonus.InviteActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.MainActivity/boolean t()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.contest.ContestCompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.MainActivity/boolean t()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.loyalty.LoyaltyStatusActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.MainActivity/void I(com.mistplay.mistplay.view.activity.user.MainActivity)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.signUp.WelcomeBonusActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.MainActivity/void M()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.dailyPlay.DailyPlayCompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.util.permission.PermissionNavigator/void goToOverlaySettings(android.content.Context,com.mistplay.common.model.models.game.Game)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.notification.singleton.chat.PrivateChatNotificationManager/void goToPrivateChat(android.content.Context,com.mistplay.mistplay.model.models.chat.Conversation)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.chat.PrivateChatActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.Profile$Companion/void startProfileActivity(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.Profile"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.MainActivity/boolean t()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.contest.ContestActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.MainActivity/void M()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.model.models.game.LevelUp"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.MainActivity/boolean t()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.MoreActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.util.dialog.DialogManager/void m(android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.purchase.PurchasesActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.fraud.PhoneInputActivity$a/java.lang.Object invokeSuspend(java.lang.Object)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.fraud.PhoneInputActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.fraud.PhoneVerificationActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.SettingsActivity/void onResume()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.SettingsActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.SettingsActivity/void T(com.mistplay.mistplay.view.activity.user.SettingsActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.SettingsActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.EditProfile"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.EditProfile/void onResume()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.EditProfile"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.EditProfile/void o()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.EditProfile"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.AvatarActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$onCreate$redirectReceiver$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.UserListActivity/void k(com.mistplay.mistplay.view.activity.user.UserListActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.UserListActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.UserSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.util.permission.PermissionNavigator/void b(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.OverlayActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.BirthdayGenderActivity/void y()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.BirthdayGenderActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.signUp.CreateProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void l()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.BirthdayGenderActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.BirthdayGenderActivity$updateProfile$1/void onFailure(java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.BirthdayGenderActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.common.scheduler.receiver.notification.AlarmReceiver/void setAlarmRepeating(android.content.Context,int,long)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.BirthdayGenderActivity"
+            ],
+            "targets": [
+                "com.mistplay.common.scheduler.receiver.notification.AlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.model.models.game.LevelUp/void z(com.mistplay.mistplay.model.models.game.LevelUp,com.mistplay.common.model.models.game.LevelUpBundle,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.model.models.game.LevelUp"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.AvatarActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.model.models.game.LevelUp/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.mistplay.mistplay.model.models.game.LevelUp"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.reward.ThankYouActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.loyalty.LoyaltyUnitsUnlockedActivity/void j(com.mistplay.mistplay.view.activity.loyalty.LoyaltyUnitsUnlockedActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.loyalty.LoyaltyUnitsUnlockedActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.WalkthroughActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.WalkthroughActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.WalkthroughActivity/void g()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.WalkthroughActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.signUp.WalkthroughActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.Profile$Companion/void startProfileActivity(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.AvatarActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.Profile"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.AvatarActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.AvatarActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.bonus.InviteActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.bonus.InviteActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.chat.PrivateChatActivity/void r(com.mistplay.mistplay.model.models.chat.Conversation,com.mistplay.mistplay.view.activity.chat.PrivateChatActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.chat.PrivateChatActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.LeaderboardProfile"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.chat.PrivateChatActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.chat.PrivateChatActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void l()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.ledger.UnitLedgerActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.mistplay.common.scheduler.receiver.notification.AlarmReceiver/void setAlarmRepeating(android.content.Context,int,long)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.ledger.UnitLedgerActivity"
+            ],
+            "targets": [
+                "com.mistplay.common.scheduler.receiver.notification.AlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.game.InstallActivityBlinker/void onResume()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.game.InstallActivityBlinker"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.CreateProfileActivity/void l()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.CreateProfileActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.chat.GameRoomEmojiActivity/void k(com.mistplay.mistplay.view.activity.chat.GameRoomEmojiActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomEmojiActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomColorActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.chat.GameRoomDescriptionActivity/void k(com.mistplay.mistplay.view.activity.chat.GameRoomDescriptionActivity,com.mistplay.common.component.text.editText.MistplayEditText,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomDescriptionActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomEmojiActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.badge.BadgeRedirectActivity/void goToGameDetailsPage(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.badge.BadgesUnlockedActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.badge.BadgesUnlockedActivity/void j(com.mistplay.mistplay.view.activity.badge.BadgesUnlockedActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.badge.BadgesUnlockedActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.loyalty.LoyaltyUnitsUnlockedActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.badge.BadgesUnlockedActivity/void j(com.mistplay.mistplay.view.activity.badge.BadgesUnlockedActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.badge.BadgesUnlockedActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.badge.BadgesUnlockedActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.FancyTermsActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.FancyTermsActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.game.GamePickerActivity/void k()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.game.GamePickerActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.LaunchActivity$getSignUpFeatures$1/void onSuccess(com.mistplay.mistplay.api.model.MistplayServerResponse)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.LaunchActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.LaunchActivity$getSignUpFeatures$1/void onSuccess(com.mistplay.mistplay.api.model.MistplayServerResponse)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.LaunchActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.signUp.WalkthroughActivity"
+            ]
+        },
+        {
+            "handler": "com.facetec.sdk.FaceTecSessionActivity/void createAndLaunchSession(android.content.Context,com.facetec.sdk.FaceTecFaceScanProcessor,com.facetec.sdk.FaceTecIDScanProcessor,java.lang.String)",
+            "sources": [
+                "com.facetec.sdk.FaceTecSessionActivity"
+            ],
+            "targets": [
+                "com.facetec.sdk.FaceTecSessionActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.chat.GameRoomAcceptActivity/void k(com.mistplay.mistplay.model.models.chat.GameRoom,com.mistplay.mistplay.view.activity.chat.GameRoomAcceptActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomAcceptActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomNameActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.LeaderboardProfile/void z(com.mistplay.mistplay.view.activity.user.LeaderboardProfile,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.LeaderboardProfile"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.chat.PrivateChatActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.LeaderboardProfile/void y(com.mistplay.mistplay.view.activity.user.LeaderboardProfile,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.LeaderboardProfile"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.UserListActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.chat.GameRoomDetailsActivity$h/void invoke()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomDetailsActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomChatActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.game.GameDetails$Companion/void startActivity(android.content.Context,com.mistplay.common.model.models.game.Game,int,java.lang.String,int,boolean,boolean,boolean)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.game.GameDetails"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.game.GameDetails"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.util.dialog.DialogManager/void m(android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.game.GameDetails"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.purchase.PurchasesActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.game.GameDetails$fetchGames$1/void onSuccess(java.util.ArrayList)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.game.GameDetails"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.game.GameDetails/void onBackPressed()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.game.GameDetails"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.game.GameDetails/void onResume()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.game.GameDetails"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomChatActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.LinkAccountsActivity/void p(com.mistplay.mistplay.view.activity.signUp.LinkAccountsActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.LinkAccountsActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.LinkAccountsActivity$onLinkAccounts$callback$1/void onSuccess(com.mistplay.common.model.interfaces.pagination.MistplayModel)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.LinkAccountsActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.LinkAccountsActivity$onCreate$5$1/void onClick(android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.LinkAccountsActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.signUp.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.chat.GameRoomColorActivity/void n(com.mistplay.mistplay.view.activity.chat.GameRoomColorActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomColorActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomPrivacyActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.views.user.MoreView/void p(com.mistplay.mistplay.view.views.user.MoreView,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MoreActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.views.user.MoreView/void w(com.mistplay.mistplay.view.views.user.MoreView,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MoreActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.views.user.MoreView/void o(com.mistplay.mistplay.view.views.user.MoreView,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MoreActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.MoreActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MoreActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.purchase.PurchasesActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.views.user.MoreView/void q(com.mistplay.mistplay.view.views.user.MoreView,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.MoreActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.GlobalLeaderboardActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.LoginActivity/void m(com.mistplay.mistplay.view.activity.signUp.LoginActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.LoginActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.LoginActivity$onLogin$callback$1/void onSuccess(com.mistplay.common.model.interfaces.pagination.MistplayModel)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.LoginActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.signUp.UserAgreementUpdateActivity$a/void invoke()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.signUp.UserAgreementUpdateActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.badge.BadgeCompletedActivity/void j(com.mistplay.mistplay.view.activity.badge.BadgeCompletedActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.badge.BadgeCompletedActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.badge.BadgeCompletedActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.badge.BadgeRedirectActivity/void goToGameDetailsPage(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.badge.BadgeCompletedActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.game.GameDetails$Companion/void startActivity(android.content.Context,com.mistplay.common.model.models.game.Game,int,java.lang.String,int,boolean,boolean,boolean)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomChatActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.game.GameDetails"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.chat.GameRoomChatActivity/void onResume()",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomChatActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.chat.JoinRequestActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.user.Profile$Companion/void startProfileActivity(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.GlobalLeaderboardActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.Profile"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.viewModel.viewModels.user.Leaderboard/void d(com.mistplay.mistplay.viewModel.viewModels.user.Leaderboard,com.mistplay.mistplay.model.models.user.LeaderboardItem,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.user.GlobalLeaderboardActivity"
+            ],
+            "targets": [
+                "com.mistplay.onboarding.view.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.loyalty.LoyaltyStatusLevelUpActivity/void m(com.mistplay.mistplay.view.activity.loyalty.LoyaltyStatusLevelUpActivity,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.loyalty.LoyaltyStatusLevelUpActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.user.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mistplay.mistplay.view.activity.chat.GameRoomNameActivity/void l(com.mistplay.mistplay.view.activity.chat.GameRoomNameActivity,com.mistplay.mistplay.component.text.editText.MistplayEditCountText,com.mistplay.mistplay.component.text.editText.MistplayEditCountText,android.view.View)",
+            "sources": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomNameActivity"
+            ],
+            "targets": [
+                "com.mistplay.mistplay.view.activity.chat.GameRoomDescriptionActivity"
+            ]
+        }
+    ]
+}

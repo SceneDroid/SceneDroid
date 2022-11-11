@@ -1,0 +1,85 @@
+{
+    "transitions": [
+        {
+            "handler": "com.frankcalise.h2droid.h2droid/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.frankcalise.h2droid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.frankcalise.h2droid.FactsActivity"
+            ]
+        },
+        {
+            "handler": "com.frankcalise.h2droid.h2droid/void onCustomServingClick(android.view.View)",
+            "sources": [
+                "com.frankcalise.h2droid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.frankcalise.h2droid.CustomEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.frankcalise.h2droid.h2droid/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.frankcalise.h2droid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.frankcalise.h2droid.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.frankcalise.h2droid.h2droid/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.frankcalise.h2droid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.frankcalise.h2droid.Settings"
+            ]
+        },
+        {
+            "handler": "com.frankcalise.h2droid.HistoryActivity/void addHistorical(int)",
+            "sources": [
+                "com.frankcalise.h2droid.HistoryActivity"
+            ],
+            "targets": [
+                "com.frankcalise.h2droid.CustomEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.frankcalise.h2droid.h2droid/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.frankcalise.h2droid.h2droid"
+            ],
+            "targets": [
+                "com.frankcalise.h2droid.Settings"
+            ]
+        },
+        {
+            "handler": "com.frankcalise.h2droid.h2droid/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.frankcalise.h2droid.h2droid"
+            ],
+            "targets": [
+                "com.frankcalise.h2droid.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.frankcalise.h2droid.h2droid/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.frankcalise.h2droid.h2droid"
+            ],
+            "targets": [
+                "com.frankcalise.h2droid.FactsActivity"
+            ]
+        },
+        {
+            "handler": "com.frankcalise.h2droid.h2droid/void onCustomServingClick(android.view.View)",
+            "sources": [
+                "com.frankcalise.h2droid.h2droid"
+            ],
+            "targets": [
+                "com.frankcalise.h2droid.CustomEntryActivity"
+            ]
+        }
+    ]
+}

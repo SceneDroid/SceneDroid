@@ -1,0 +1,2623 @@
+{
+    "transitions": [
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchVerifiedTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchInfo()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchFanSellActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity/void favoriteEvent()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.pushlanding.PushLandingActivity/void goToDiscovery(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.pushlanding.PushLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.pushlanding.PushLandingActivity/void goToDiscovery(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.pushlanding.PushLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.pushlanding.PushLandingActivity/void onShowSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.pushlanding.PushLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.pushlanding.PushLandingActivity/void goToDiscovery(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.pushlanding.PushLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxThirdPartyTicketInfoView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxThirdPartyTicketInfoView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxThirdPartyTicketInfoView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxThirdPartyTicketInfoView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.FanWalletActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.FanWalletActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.FanWalletActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.FanWalletActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.FanWalletActivity/void onShowSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.FanWalletActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.navigation.FanSellerNavigationUtil/void jumpToSell(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerSellDetailsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.navigation.FanSellerNavigationUtil/void jumpToEvent(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerSellDetailsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.purchase.PurchaseActivity/void onCheckoutUrlReceived(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.purchase.PurchaseActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.purchase.CheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.models.AppAction/void doInvokePreview(android.content.Context,int)",
+            "sources": [
+                "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.GroupedInventoryCardActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity/void invokeFallback(android.net.Uri)",
+            "sources": [
+                "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.models.AppAction$2/void onSuccess()",
+            "sources": [
+                "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.AuthChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.models.AppAction$2/void onSuccess()",
+            "sources": [
+                "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.models.AppAction/void doInvokePreview(android.content.Context,int)",
+            "sources": [
+                "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.SingleProductCardActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.checkout.delegate.SignInNavigationDelegate/void startSignUpActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.SignInActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.SignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.checkout.delegate.SignInNavigationDelegate/void startRequestPasswordResetActivity(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.SignInActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.RequestPasswordResetActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.checkout.delegate.SignInNavigationDelegate/void startTermsAndConditionsWebViewActivity(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.SignInActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.util.CommonUtils/void launchWebView(android.content.Context,com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,int)",
+            "sources": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.util.CommonUtils/void showTermsAndConditions(android.content.Context)",
+            "sources": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.util.SimpleWebView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.util.CommonUtils/void launchWebView(android.content.Context,com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,int)",
+            "sources": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.util.CommonUtils/void launchWebView(android.content.Context,com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,int)",
+            "sources": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.delegate.ResetPasswordNavigationDelegate/void startRequestPasswordResetActivity(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.mvp.view.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.RequestPasswordResetActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.mvp.view.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.mvp.view.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.mvp.view.ResetPasswordActivity/void launchUrlWithWebView(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.mvp.view.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.mvp.view.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.mvp.view.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLoadingActivity/void launchFanSellLandingPage()",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLoadingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLoadingActivity/void launchFanSellerEmptyPage()",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLoadingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.navigation.FanSellerNavigationUtil/void jumpToSell(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.SellYourTicketsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.SellYourTicketsActivity$setupSearchBar$1/void onClick(android.view.View)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.SellYourTicketsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.fragment.FanSellerEventListingFragment/void launchSellWebView(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.resalesdk.ui.SellWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.newonboarding.NewOnBoardingActivity/void signIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.newonboarding.NewOnBoardingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.AbstractActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.ShelledEventWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.FragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.TmxSetupPaymentAccountView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.TmxSetupPaymentAccountView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.TmxSetupPaymentAccountView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.TmxSetupPaymentAccountView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.BaseCardActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.AuthChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.BaseCardActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.BaseCardActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.MainView/void onListFragmentInteraction(com.ticketmaster.presencesdk.eventlist.TmxEventListModel$EventInfo)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.util.TmxWebUriHelper/void openWebUriWebView(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.util.SimpleWebView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.fragment.PresenceSdkOrdersFragment/void onRefreshTokenFailed(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.fragment.PresenceSdkOrdersFragment/void openHelpActivity(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.HelpActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity/void signOut()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.AbstractActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.FragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewActivity/boolean shouldLoadNotSupported(android.net.Uri,int)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewVenueActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewActivity/boolean shouldLoadNotSupported(android.net.Uri,int)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewVenueActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewActivity/void onLocationChangeRequested()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewVenueActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewActivity/boolean shouldLoadNotSupported(android.net.Uri,int)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewVenueActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "io.smooch.features.conversationlist.b/void f()",
+            "sources": [
+                "io.smooch.features.conversationlist.ConversationListActivity"
+            ],
+            "targets": [
+                "io.smooch.ui.ConversationActivity"
+            ]
+        },
+        {
+            "handler": "com.usabilla.sdk.ubform.screenshot.UbScreenshotActivity$Companion/void start(androidx.fragment.app.Fragment,int,com.usabilla.sdk.ubform.sdk.form.model.UbInternalTheme)",
+            "sources": [
+                "com.usabilla.sdk.ubform.screenshot.UbScreenshotActivity"
+            ],
+            "targets": [
+                "com.usabilla.sdk.ubform.screenshot.UbScreenshotActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchFanSellActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchInfo()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchVerifiedTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.FanBasedMarketingWebViewActivity/void signIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.FanBasedMarketingWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.FanBasedMarketingWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.FanBasedMarketingWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.FanBasedMarketingWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.FanBasedMarketingWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.TmxListPriceInfoView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.TmxListPriceInfoView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.TmxListPriceInfoView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.TmxListPriceInfoView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.SingleProductCardActivity$1/void receive(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.SingleProductCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.SingleProductCardActivity$1/void receive(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.SingleProductCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.AuthChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.SingleProductCardActivity$1/void receive(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.SingleProductCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.fragment.SetNewPasswordFragmentWithIdentity/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.SetNewPasswordActivityWithIdentity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmPasswordResetActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchInfo()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchVerifiedTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchFanSellActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.debug.NaDebugConfigurationActivity/void directToTestUrl(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.debug.NaDebugConfigurationActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView/void saveToAndroidPay(com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsResponseBody$EventTicket,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView/void saveToAndroidPay(com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsResponseBody$EventTicket,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView/void saveToAndroidPay(com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsResponseBody$EventTicket,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.resale.resalesdk.ResaleSdkDelegate/void postTickets(com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsResponseBody$EventTicket,java.util.List)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.resalesdk.ui.SellWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.event_tickets.TmxTicketsPagerView/void barcodeSelected(int,boolean)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxTicketAccessPagerView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.resale.TmxResaleDialogView/void linkAccount()",
+            "sources": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.entrance.VerificationCodeActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.inbox.InboxFragment/void showItemContext(com.ticketmaster.mobile.android.library.inbox.mvp.model.InboxModel$InboxItemModel)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.InboxDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.inbox.InboxFragment/void SignInClick()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.InboxDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.inbox.InboxFragment/void showItemContext(com.ticketmaster.mobile.android.library.inbox.mvp.model.InboxModel$InboxItemModel)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.InboxDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.inbox.InboxFragment/void showItemContext(com.ticketmaster.mobile.android.library.inbox.mvp.model.InboxModel$InboxItemModel)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.InboxDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.inbox.InboxFragment/void showItemContext(com.ticketmaster.mobile.android.library.inbox.mvp.model.InboxModel$InboxItemModel)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.InboxDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.checkout.delegate.SignInNavigationDelegate/void startSignInActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.SocialLoginActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.SignInActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.checkout.delegate.SignInNavigationDelegate/void startSignUpActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.SocialLoginActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.SignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.checkout.delegate.SignInNavigationDelegate/void startTermsAndConditionsWebViewActivity(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.SocialLoginActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.checkout.activity.TmSignInActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmSignInActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.checkout.activity.TmSignInActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmSignInActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.checkout.activity.TmSignInActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmSignInActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmPasswordResetActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.BaseCardActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.GroupedInventoryCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.BaseCardActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.GroupedInventoryCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.AuthChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.BaseCardActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.GroupedInventoryCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ]
+        },
+        {
+            "handler": "io.smooch.ui.widget.MessageView$d/void onClick(android.view.View)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.TMConversationActivity"
+            ],
+            "targets": [
+                "io.smooch.ui.widget.ImageActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity/void launchFanSellerLoadingPage()",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity/void launchSellYourTicketsPage()",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.SellYourTicketsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity/void signIn()",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity/void launchResaleFAQ()",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.ResaleFAQActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity/void launchSearchPage()",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchFanSellActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ICCPManagePaymentsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchInfo()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ICCPManagePaymentsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchVerifiedTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ICCPManagePaymentsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ICCPManagePaymentsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ICCPManagePaymentsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ]
+        },
+        {
+            "handler": "io.smooch.ui.widget.MessageView$d/void onClick(android.view.View)",
+            "sources": [
+                "io.smooch.ui.ConversationActivity"
+            ],
+            "targets": [
+                "io.smooch.ui.widget.ImageActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchInfo()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.FragmentActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.FragmentActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchFanSellActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.FragmentActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.FragmentActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchVerifiedTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.FragmentActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.FanWalletView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.FanWalletView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.FanWalletView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.FanWalletView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.deeplink.SignInDeeplinkActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.SignInDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CheckoutWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CheckoutWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity/void favoriteEvent()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CheckoutWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CheckoutWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CheckoutWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CheckoutWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CheckoutWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchVerifiedTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CheckoutWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchInfo()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CheckoutWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchFanSellActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CheckoutWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.DiscoverSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchFanSellActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.DiscoverSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchVerifiedTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.DiscoverSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.fragment.SearchResultFragment/void startFindTicketActivity(com.ticketmaster.voltron.datamodel.SearchResultsEventData)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.DiscoverSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.DiscoverSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchInfo()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.DiscoverSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.delegate.WebViewDelegate/void startShellEventWebviewActivity(com.ticketmaster.voltron.datamodel.SearchResultsEventData)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.DiscoverSearchActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.ShelledEventWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity/void gotoSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.FragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.account.AccountFragment/void directToGiveUsFeedback(java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.account.AccountFragment/void directToAbout()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.account.mvp.presenter.AccountPresenterImpl/void openHelp(android.content.Context)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.HelpActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.account.AccountFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ICCPManagePaymentsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.account.AccountFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.debug.NaDebugConfigurationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.account.AccountFragment/void directToActiveListing()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.ActiveListingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.account.AccountFragment/void launchInboxPage()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.InboxDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.account.AccountFragment/void launchFanWalletWidget()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.FanWalletActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.account.AccountFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.debug.DebugConfigurationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.account.AccountFragment/void showSignIn(int)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.MyAccountDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.AbstractActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.FragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.WebViewActivity/void startAttendedInstall()",
+            "sources": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.WebViewActivity/void startAttendedInstall()",
+            "sources": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.AuthChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.WebViewActivity/void startInstallSheetActivity()",
+            "sources": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallSheetActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.WebViewActivity/void startAttendedInstall()",
+            "sources": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLoadingActivity/void launchFanSellLandingPage()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLoadingActivity/void launchFanSellerEmptyPage()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerEmptyActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.fragment.PresenceSdkOrdersFragment/void onRefreshTokenFailed(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.util.TmxWebUriHelper/void openWebUriWebView(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.util.SimpleWebView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.MainView/void onListFragmentInteraction(com.ticketmaster.presencesdk.eventlist.TmxEventListModel$EventInfo)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.event_tickets.TmxEventTicketsView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.fragment.PresenceSdkOrdersFragment/void openHelpActivity(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.HelpActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.TicketRedemptionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.TicketRedemptionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.TicketRedemptionActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.MainActivity/void handleDeepLink(android.content.Intent)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.MainActivity/void onAdvertisingIdRetrieved(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.ShelledEventWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.MainActivity/void jumpToOrder(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.PresenceOrdersDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchFanSellActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchVerifiedTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchInfo()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.MainActivity/void lambda$onMemberCredentialsInvalid$4$MainActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.MainActivity/boolean onSearchRequested()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.DiscoverSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.MainActivity/void handleDeepLink(android.content.Intent)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.gdpr.UserRestrictionActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.MainActivity/void handleDeepLink(android.content.Intent)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.MainActivity/void handleDeepLink(android.content.Intent)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.MainActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity/void proceedToCCPWebview(com.ticketmaster.voltron.datamodel.event.DiscoveryEventDetailsData)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.CCPExperienceActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity/void proceedToICCPWebView(com.ticketmaster.voltron.datamodel.event.DiscoveryEventDetailsData)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.iccp.details.ICCPEventDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.delegate.WebViewDelegate/void startShellEventWebviewActivity(android.content.Context,com.livenation.app.model.Event)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.ShelledEventWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewActivity/boolean shouldLoadNotSupported(android.net.Uri,int)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewArtistActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewActivity/boolean shouldLoadNotSupported(android.net.Uri,int)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewArtistActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewActivity/void onLocationChangeRequested()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewArtistActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewActivity/boolean shouldLoadNotSupported(android.net.Uri,int)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.discovery.ICCPDiscoveryWebViewArtistActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistDetailActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistDetailActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchFanSellActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistDetailActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchInfo()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistDetailActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchVerifiedTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistDetailActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.debug.DebugConfigurationViewModel/void openDirectCheckoutUrl(android.app.Activity)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.debug.DebugConfigurationActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.iccp.checkout.ICCPCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.fragment.FavoritesWebViewFragment$1/void onRefreshTokenFailed(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FavoritesDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.android.shared.views.PresenceLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FavoritesDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FavoritesDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.fragment.FavoritesWebViewFragment/void goToDiscovery(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FavoritesDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FavoritesDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.fragment.FavoritesWebViewFragment/void goToDiscovery(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FavoritesDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.fragment.FavoritesWebViewFragment/void goToDiscovery(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FavoritesDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FavoritesDeeplinkActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.checkout.ICCPCheckoutActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchInfo()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.checkout.ICCPCheckoutActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchVerifiedTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.checkout.ICCPCheckoutActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.checkout.ICCPCheckoutActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchFanSellActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.checkout.ICCPCheckoutActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.SellerProfileView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.SellerProfileView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.SellerProfileView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.SellerProfileView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.resale.PayoutMethodView/void showDepositAccountView(java.lang.String,java.lang.String,com.ticketmaster.presencesdk.resale.TmxSetupPaymentAccountView$PaymentType)",
+            "sources": [
+                "com.ticketmaster.presencesdk.resale.PayoutMethodView"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.resale.TmxSetupPaymentAccountView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.ArtistUpcomingEventsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.EventDetailsPageRoutingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.util.WebViewUtil/void launchWithDefaultBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.VenueDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.ui.activity.AbstractActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.activity.FragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void showSupportDrawerItems(java.lang.String)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.details.ICCPEventDetailsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.LocationSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchFanSellActivity()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.details.ICCPEventDetailsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.deeplink.FanSellerDeeplinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchVerifiedTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.details.ICCPEventDetailsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchSignIn()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.details.ICCPEventDetailsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.MyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.activity.DrawerActivity/void launchInfo()",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.iccp.details.ICCPEventDetailsActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.ui.activity.InformationActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.ActiveListingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.ActiveListingActivity/void openSellDetailsScreen(com.ticketmaster.mobile.fansell.data.datamodel.FanSellerEvent)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.ActiveListingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerSellDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.ActiveListingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.ActiveListingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.ActiveListingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.checkout.mvp.view.SignUpActivity$NonLeakingSpan/void onClick(android.view.View)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.checkout.mvp.view.SignUpActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.android.library.checkout.activity.TmWebViewActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmWebViewActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.android.library.checkout.activity.TmWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void launchModernAccountsLogin(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.ModernAccountsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.DualLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity/void launchSoldTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.ActiveListingActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.TmxLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity/void launchSellYourTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.presencesdk.login.TMLoginApi/void logIn(com.ticketmaster.presencesdk.login.TMLoginApi$BackendName,com.ticketmaster.presencesdk.login.PresenceLoginListener)",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.presencesdk.login.IdentityLoginView"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity/void launchResaleFAQ()",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.ResaleFAQActivity"
+            ]
+        },
+        {
+            "handler": "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity/void launchSellYourTickets()",
+            "sources": [
+                "com.ticketmaster.mobile.fansell.ui.activity.FanSellerLandingActivity"
+            ],
+            "targets": [
+                "com.ticketmaster.mobile.fansell.ui.activity.SellYourTicketsActivity"
+            ]
+        }
+    ]
+}

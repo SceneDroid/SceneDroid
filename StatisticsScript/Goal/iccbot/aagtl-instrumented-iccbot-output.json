@@ -1,0 +1,40 @@
+{
+    "transitions": [
+        {
+            "handler": "com.zoffcc.applications.aagtl.aagtl/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.zoffcc.applications.aagtl.aagtl"
+            ],
+            "targets": [
+                "com.zoffcc.applications.aagtl.TextEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.zoffcc.applications.aagtl.aagtl/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.zoffcc.applications.aagtl.aagtl"
+            ],
+            "targets": [
+                "com.zoffcc.applications.aagtl.PostLogEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.zoffcc.applications.aagtl.aagtl/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.zoffcc.applications.aagtl.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.zoffcc.applications.aagtl.PostLogEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.zoffcc.applications.aagtl.aagtl/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.zoffcc.applications.aagtl.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.zoffcc.applications.aagtl.TextEntryActivity"
+            ]
+        }
+    ]
+}

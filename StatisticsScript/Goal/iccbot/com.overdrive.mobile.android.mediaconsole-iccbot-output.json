@@ -1,0 +1,553 @@
+{
+    "transitions": [
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.framework.OmcActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_EpubReader"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,com.overdrive.mobile.android.mediaconsole.framework.MediaNugget,int,float,boolean,com.overdrive.mobile.android.mediaconsole.OmcService)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_EpubReader"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_EpubReader"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_EpubReader"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_EpubReader"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ]
+        },
+        {
+            "handler": "aeh/void c(android.content.Context)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.BroadcastReceiver_BookshelfChange"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,com.overdrive.mobile.android.mediaconsole.framework.MediaNugget,com.overdrive.mobile.android.mediaconsole.OmcService)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_AudioPlayer"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.Fragment_BookshelfGrid/void onStart()",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcService"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.OmcWearableIntentService/void a(android.content.Context,com.overdrive.mobile.android.mediaconsole.framework.MediaNugget,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcWearableIntentService"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Webview"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.framework.OmcActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.content.Context,int,int,float,java.lang.Boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcAppWidgetProviderSmall"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,com.overdrive.mobile.android.mediaconsole.framework.MediaNugget,int,float,boolean,com.overdrive.mobile.android.mediaconsole.OmcService)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_EpubReader"
+            ]
+        },
+        {
+            "handler": "afw/java.lang.Boolean a(java.lang.Object[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcAppWidgetProviderLarge"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.app.Activity)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,com.overdrive.mobile.android.mediaconsole.framework.MediaNugget,com.overdrive.mobile.android.mediaconsole.framework.BookmarkNugget,com.overdrive.mobile.android.mediaconsole.OmcService)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_VideoPlayer"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Library_SearchResult"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.framework.OmcActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Library_SearchResult"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Library_SearchResult"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_SetupOverDrive"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcAppWidgetProviderLarge"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.framework.OmcActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_SetupOverDrive"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_SetupOverDrive"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.content.Context,com.overdrive.mobile.android.mediaconsole.framework.PartNugget)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_SetupOverDrive"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.BroadcastReceiver_BookshelfChange"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_SetupOverDrive"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.content.Context,int,int,float,java.lang.Boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_SetupOverDrive"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcAppWidgetProviderSmall"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.OmcWearableIntentService/void a(android.content.Context,com.overdrive.mobile.android.mediaconsole.framework.MediaNugget,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_SetupOverDrive"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcWearableIntentService"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.framework.OmcActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Library_TitleDetails"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Library_TitleDetails"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.framework.OmcActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Library_TitleDetails"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Webview"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Webview"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.content.Context,int,int,float,java.lang.Boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Webview"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcAppWidgetProviderSmall"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.framework.OmcActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Webview"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ]
+        },
+        {
+            "handler": "aeh/void c(android.content.Context)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Webview"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.BroadcastReceiver_BookshelfChange"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.content.Context,int,int,float,java.lang.Boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_VideoPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcAppWidgetProviderSmall"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_VideoPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.framework.OmcActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_VideoPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_VideoPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcAppWidgetProviderLarge"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.content.Context,com.overdrive.mobile.android.mediaconsole.framework.PartNugget)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_VideoPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.BroadcastReceiver_BookshelfChange"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.OmcWearableIntentService/void a(android.content.Context,int,com.overdrive.mobile.android.mediaconsole.framework.i,float)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_VideoPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcWearableIntentService"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_VideoPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_AudioPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcAppWidgetProviderLarge"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_AudioPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.OmcWearableIntentService/void a(android.content.Context,int,com.overdrive.mobile.android.mediaconsole.framework.i,float)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_AudioPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcWearableIntentService"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.framework.OmcActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_AudioPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_AudioPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.content.Context,int,int,float,java.lang.Boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_AudioPlayer"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.OmcAppWidgetProviderSmall"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.framework.OmcActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Library"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.Activity_Library/void a(android.content.Intent)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Library"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Library_SearchResult"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Library"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Library"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Bookshelf"
+            ]
+        },
+        {
+            "handler": "com.overdrive.mobile.android.mediaconsole.framework.OmcActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,com.overdrive.mobile.android.mediaconsole.framework.MediaNugget,com.overdrive.mobile.android.epub.NavPoint,boolean,com.overdrive.mobile.android.mediaconsole.OmcService)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_EpubReader"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,com.overdrive.mobile.android.mediaconsole.framework.MediaNugget,com.overdrive.mobile.android.mediaconsole.framework.BookmarkNugget,com.overdrive.mobile.android.mediaconsole.OmcService)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_VideoPlayer"
+            ]
+        },
+        {
+            "handler": "aeh/void a(android.app.Activity,com.overdrive.mobile.android.mediaconsole.framework.MediaNugget,com.overdrive.mobile.android.mediaconsole.OmcService)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_AudioPlayer"
+            ]
+        },
+        {
+            "handler": "aeh/void b(android.app.Activity)",
+            "sources": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Splash"
+            ],
+            "targets": [
+                "com.overdrive.mobile.android.mediaconsole.Activity_Holder"
+            ]
+        }
+    ]
+}

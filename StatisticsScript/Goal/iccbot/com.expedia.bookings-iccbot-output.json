@@ -1,0 +1,211 @@
+{
+    "transitions": [
+        {
+            "handler": "com.expedia.bookings.activity.RouterActivity/ps.s routeToGdprConsentScreen()",
+            "sources": [
+                "com.expedia.bookings.activity.RouterActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.privacy.gdpr.consent.activity.GdprConsentActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.activity.RouterActivity/ps.s lambda$new$6(com.expedia.analytics.legacy.branch.data.BranchSessionInitResponseData)",
+            "sources": [
+                "com.expedia.bookings.activity.RouterActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.activity.RouterActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.utils.navigation.NavUtils/void goToLaunchScreen(android.content.Context,boolean)",
+            "sources": [
+                "com.expedia.bookings.activity.RouterActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.launch.PhoneLaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.utils.navigation.NavUtils/void goToOnboardingScreen(android.content.Context)",
+            "sources": [
+                "com.expedia.bookings.activity.RouterActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.onboarding.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.privacy.gdpr.settings.activity.GdprPrivacySettingsActivity/void onCreate$lambda-3(com.expedia.bookings.privacy.gdpr.settings.activity.GdprPrivacySettingsActivity,java.lang.String)",
+            "sources": [
+                "com.expedia.bookings.privacy.gdpr.settings.activity.GdprPrivacySettingsActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.hotels.infosite.details.gallery.HotelDetailGalleryActivity/void goToGrid()",
+            "sources": [
+                "com.expedia.hotels.infosite.details.gallery.HotelDetailGalleryActivity"
+            ],
+            "targets": [
+                "com.expedia.hotels.infosite.details.gallery.grid.HotelGalleryGridActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.hotels.infosite.details.gallery.grid.HotelGalleryGridActivity/void initRecyclerView$lambda-4(com.expedia.hotels.infosite.details.gallery.grid.HotelGalleryGridActivity,java.lang.Integer)",
+            "sources": [
+                "com.expedia.hotels.infosite.details.gallery.grid.HotelGalleryGridActivity"
+            ],
+            "targets": [
+                "com.expedia.hotels.infosite.details.gallery.HotelDetailGalleryActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.hotels.infosite.details.amenities.PropertyInfoSectionView/void bind$lambda-2$lambda-1$lambda-0(com.expedia.hotels.infosite.details.amenities.PropertyInfoSectionView,com.expedia.bookings.data.hotels.PropertyInfoSectionAction,android.view.View)",
+            "sources": [
+                "com.expedia.hotels.infosite.amenities.AmenitiesActivity"
+            ],
+            "targets": [
+                "com.expedia.hotels.infosite.details.propertyInfoSectionAction.PropertyInfoSectionActionActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.launch.PhoneLaunchActivity/void onLinkClicked(android.content.DialogInterface,java.lang.String)",
+            "sources": [
+                "com.expedia.bookings.launch.PhoneLaunchActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.activity.DeepLinkRouterActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.account.fragment.AccountSettingsFragment/boolean onAboutRowClicked(int)",
+            "sources": [
+                "com.expedia.bookings.launch.PhoneLaunchActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.privacy.gdpr.settings.activity.GdprPrivacySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.utils.AboutUtils/void openOpenSourceLicenses()",
+            "sources": [
+                "com.expedia.bookings.launch.PhoneLaunchActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.activity.OpenSourceLicenseWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.utils.AboutUtils/void openWebsite(android.content.Context,java.lang.String,boolean,java.lang.String,com.expedia.analytics.legacy.AnalyticsProvider)",
+            "sources": [
+                "com.expedia.bookings.launch.PhoneLaunchActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.utils.AboutUtils/void openTSAInfoNativePage()",
+            "sources": [
+                "com.expedia.bookings.launch.PhoneLaunchActivity"
+            ],
+            "targets": [
+                "com.expedia.profile.activity.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.utils.navigation.NavUtils/void goToCustomerFirstSupportActivity(android.content.Context)",
+            "sources": [
+                "com.expedia.bookings.launch.PhoneLaunchActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.mia.activity.CustomerFirstActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.privacy.gdpr.consent.activity.GdprConsentActivity$onCreate$4/void invoke()",
+            "sources": [
+                "com.expedia.bookings.privacy.gdpr.consent.activity.GdprConsentActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.privacy.gdpr.settings.activity.GdprPrivacySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.privacy.gdpr.consent.activity.GdprConsentActivity$onCreate$3/void invoke()",
+            "sources": [
+                "com.expedia.bookings.privacy.gdpr.consent.activity.GdprConsentActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.activity.RouterActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.activity.DeepLinkRouterActivity/void onCreate$lambda-0(com.expedia.bookings.activity.DeepLinkRouterActivity,ps.s)",
+            "sources": [
+                "com.expedia.bookings.activity.DeepLinkRouterActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.privacy.gdpr.consent.activity.GdprConsentActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.activity.AccountLibActivity$Listener/void onForgotPassword()",
+            "sources": [
+                "com.expedia.bookings.activity.AccountLibActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.lx.common.LXNavUtils/void goToLXInfosite(android.content.Context,com.expedia.lx.common.SuggestionLocation,com.expedia.lx.common.SuggestionLocation,com.expedia.lx.infosite.data.LXInfositeParcelableParams,android.os.Bundle,int)",
+            "sources": [
+                "com.expedia.lx.searchresults.LXResultsActivity"
+            ],
+            "targets": [
+                "com.expedia.lx.infosite.view.LXInfositeActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.lx.common.LXNavUtils/void goToSearch(android.content.Context,com.expedia.lx.common.SearchParamsInfo,boolean,boolean,boolean,boolean,android.os.Bundle,int)",
+            "sources": [
+                "com.expedia.lx.searchresults.LXResultsActivity"
+            ],
+            "targets": [
+                "com.expedia.lx.search.LXSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.expedia.bookings.utils.navigation.NavUtils/void goToLaunchScreen(android.content.Context,boolean)",
+            "sources": [
+                "com.expedia.bookings.car.activity.CarWebViewActivity"
+            ],
+            "targets": [
+                "com.expedia.bookings.launch.PhoneLaunchActivity"
+            ]
+        }
+    ]
+}

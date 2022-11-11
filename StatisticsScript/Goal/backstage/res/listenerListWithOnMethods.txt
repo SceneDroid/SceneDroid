@@ -1,0 +1,59 @@
+? for comments use "?" at the line beginning
+addTextChangedListener-void afterTextChanged(android.text.Editable);void beforeTextChanged(java.lang.CharSequence,int,int,int);void onTextChanged(java.lang.CharSequence,int,int,int)
+setOnKeyListener-boolean onKey(android.view.View,int,android.view.KeyEvent)
+setOnEditorActionListener-
+setOnClickListener-void onClick(android.view.View)
+setOnDragListener- boolean onDrag(android.view.View,android.view.DragEvent)
+setOnHoverListener-boolean onHover(android.view.View,android.view.MotionEvent)
+setOnLongClickListener-boolean onLongClick(android.view.View)
+setOnChronometerTickListener-
+setOnKeyboardDismissListener-
+setAdapter-
+setOnItemClickListener-void onItemClick(android.widget.AdapterView,android.view.View,int,long)
+setOnItemLongClickListener- boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)
+setOnItemSelectedListener-void onItemSelected(android.widget.AdapterView,android.view.View,int,long);void onNothingSelected(android.widget.AdapterView)
+setOnRatingBarChangeListener-
+setOnSeekBarChangeListener-
+setOnCompletionListener-
+setOnErrorListener-
+setOnInfoListener-
+setOnPreparedListener-
+setOnScrollListener-void onScroll(android.widget.AbsListView,int,int,int);void onScrollStateChanged(android.widget.AbsListView,int)
+setOnChildClickListener-
+setOnGroupClickListener-
+setOnGroupCollapseListener-
+setOnGroupExpandListener-
+setDrawerListener-void onDrawerOpened(android.view.View);void onDrawerClosed(android.view.View)
+setOnChildFocusListener-
+setOnFocusSearchListener-
+setOnDateChangeListener-
+setOnTabSelectedListener-
+setNavigationItemSelectedListener-boolean onNavigationItemSelected(android.view.MenuItem item)
+setOnOrbClickedListener-
+setOnTabChangedListener-void onTabChanged(java.lang.String)
+setOnTimeChangedListener-void onTimeChanged(android.widget.TimePicker,int,int)
+setOnSearchClickedListener-
+?Menu package will take care about Menu listeners
+setOnMenuItemClickListener-boolean onMenuItemClick(android.view.MenuItem)
+setOnCheckedChangeListener-void onCheckedChanged(android.widget.CompoundButton,boolean)
+setOnCloseListener-
+setOnQueryTextFocusChangeListener-
+setOnQueryTextListener-
+setOnSearchClickListener-
+setOnTouchListener-boolean onTouch(android.view.View,android.view.MotionEvent)
+addOnItemTouchListener-boolean onInterceptTouchEvent(android.support.v7.widget.RecyclerView,android.view.MotionEvent);void onRequestDisallowInterceptTouchEvent(boolean);void onTouchEvent(android.support.v7.widget.RecyclerView,android.view.MotionEvent)
+addOnScrollListener-void onScrollStateChanged(android.support.v7.widget.RecyclerView,int);void onScrolled(android.support.v7.widget.RecyclerView,int,int)
+setOnChildLaidOutListener-
+setOnChildSelectedListener-
+setOnChildViewHolderSelectedListener-
+setOnKeyInterceptListener-
+setOnMotionInterceptListener-
+setOnTouchInterceptListener-
+setOnDrawerCloseListener-void onDrawerClosed()
+setOnDrawerOpenListener-void onDrawerOpened()
+setOnDrawerScrollListener- void onScrollEnded();void onScrollStarted()
+setPanelSlideListener-void onPanelClosed(android.view.View);void onPanelOpened(android.view.View);void onPanelSlide(android.view.View,float)
+setOnRefreshListener-
+setNavigationOnClickListener-void onClick(android.view.View)
+setOnPageChangeListener-void onPageScrollStateChanged(int);void onPageScrolled(int,float,int);void onPageSelected(int)
+addOnPageChangeListener-void onPageScrollStateChanged(int);void onPageScrolled(int,float,int);void onPageSelected(int)

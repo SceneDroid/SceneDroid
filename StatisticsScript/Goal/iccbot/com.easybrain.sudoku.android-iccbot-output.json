@@ -1,0 +1,553 @@
+{
+    "transitions": [
+        {
+            "handler": "com.easybrain.sudoku.gui.splash.SplashActivity/void d()",
+            "sources": [
+                "com.easybrain.sudoku.gui.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcActivityPhone"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.splash.SplashActivity/void d()",
+            "sources": [
+                "com.easybrain.sudoku.gui.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void b(android.content.Context,boolean)",
+            "sources": [
+                "com.easybrain.sudoku.gui.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void a(android.content.Context,boolean,boolean,boolean)",
+            "sources": [
+                "com.easybrain.sudoku.gui.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void b(android.content.Context,boolean)",
+            "sources": [
+                "com.easybrain.sudoku.gui.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivityPhone"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.c.b.f/int aq()",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.c.b.f/int aq()",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.dc.DcGamePlayActivity$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void a(android.content.Context,com.easybrain.sudoku.c.d.j,boolean,java.lang.String,int,int,int)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameover.GameOverActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.dc.DcGamePlayActivity$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcActivityPhone"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void f(android.content.Context)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.themes.ThemeChooserDialog"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void e(android.content.Context)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.whatsnew.WhatsNewActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.howtoplay.HowToPlayActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.RewardedMraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long,int,boolean)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.dc.DcTutorialActivity/void b()",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcTutorialActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.dc.DcGamePlayActivity$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcActivityPhone"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void a(android.content.Context,com.easybrain.sudoku.c.d.j,boolean,java.lang.String,int,int,int)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameover.GameOverActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void f(android.content.Context)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.themes.ThemeChooserDialog"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void e(android.content.Context)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.whatsnew.WhatsNewActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.c.b.f/int aq()",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.howtoplay.HowToPlayActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.c.b.f/int aq()",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.dc.DcGamePlayActivity$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcGamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.ads.internal.q.c.g/void b(android.content.Context,android.net.Uri,java.lang.String)",
+            "sources": [
+                "com.facebook.ads.AudienceNetworkActivity"
+            ],
+            "targets": [
+                "com.facebook.ads.AudienceNetworkActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.howtoplay.HowToPlayActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void e(android.content.Context)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.whatsnew.WhatsNewActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.gameplay.GamePlayActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.c.b.f/int aq()",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void a(android.content.Context,com.easybrain.sudoku.c.d.j,boolean,java.lang.String,int,int,int)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameover.GameOverActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void f(android.content.Context)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.themes.ThemeChooserDialog"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.gameplay.GamePlayActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcActivityPhone"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.c.b.f/int aq()",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void a(android.content.Context,com.mopub.mobileads.VastVideoConfig,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.feedback.ui.ContactZendeskActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.applovin.impl.adview.cb/void a(com.applovin.impl.sdk.an,java.lang.String,android.content.Context)",
+            "sources": [
+                "com.applovin.adview.AppLovinInterstitialActivity"
+            ],
+            "targets": [
+                "com.applovin.adview.AppLovinInterstitialActivity"
+            ]
+        },
+        {
+            "handler": "com.millennialmedia.internal.MMIntentWrapperActivity/void launch(android.content.Context,android.content.Intent,com.millennialmedia.internal.MMIntentWrapperActivity$MMIntentWrapperListener)",
+            "sources": [
+                "com.millennialmedia.internal.MMIntentWrapperActivity"
+            ],
+            "targets": [
+                "com.millennialmedia.internal.MMIntentWrapperActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.c.b.f/int aq()",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivityPhone"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.howtoplay.HowToPlayActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.gameplay.GamePlayActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.c.b.f/int aq()",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void e(android.content.Context)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.whatsnew.WhatsNewActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void f(android.content.Context)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.themes.ThemeChooserDialog"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void a(android.content.Context,com.easybrain.sudoku.c.d.j,boolean,java.lang.String,int,int,int)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameover.GameOverActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.gameplay.GamePlayActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.dc.DcActivityPhone"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.requests.RequestListFragment$RequestsCallback$1/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.zendesk.sdk.requests.RequestActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.requests.ViewRequestActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.requests.RequestActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.requests.RequestActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.requests.RequestActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.feedback.ui.ContactZendeskActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.requests.RequestActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivity/void startRichMediaIntent(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.millennialmedia.internal.MMActivity/void launch(android.content.Context,com.millennialmedia.internal.MMActivity$MMActivityConfig,com.millennialmedia.internal.MMActivity$MMActivityListener)",
+            "sources": [
+                "com.millennialmedia.internal.MMActivity"
+            ],
+            "targets": [
+                "com.millennialmedia.internal.MMActivity"
+            ]
+        },
+        {
+            "handler": "com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity/void show(android.content.Context,com.fyber.inneractive.sdk.external.InneractiveAdSpot)",
+            "sources": [
+                "com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity"
+            ],
+            "targets": [
+                "com.fyber.inneractive.sdk.activities.InneractiveFullscreenAdActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void a(android.content.Context,boolean,boolean,boolean)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcActivity"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ]
+        },
+        {
+            "handler": "com.easybrain.sudoku.gui.c.d/void a(android.content.Context,boolean,boolean,boolean)",
+            "sources": [
+                "com.easybrain.sudoku.gui.dc.DcActivityPhone"
+            ],
+            "targets": [
+                "com.easybrain.sudoku.gui.gameplay.GamePlayActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.feedback.ui.ContactZendeskActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.support.ViewArticleActivity/void startActivity(android.content.Context,com.zendesk.sdk.model.helpcenter.SimpleArticle,boolean,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration,boolean)",
+            "sources": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.support.SupportActivity$Builder/void show(android.content.Context)",
+            "sources": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.feedback.ui.ContactZendeskActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.requests.RequestActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.requests.RequestActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        }
+    ]
+}

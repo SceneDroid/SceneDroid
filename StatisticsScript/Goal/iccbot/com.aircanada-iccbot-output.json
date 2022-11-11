@@ -1,0 +1,58 @@
+{
+    "transitions": [
+        {
+            "handler": "com.usabilla.sdk.ubform.screenshot.UbScreenshotActivity$a/void a(androidx.fragment.app.Fragment,int,com.usabilla.sdk.ubform.sdk.form.model.UbInternalTheme,com.usabilla.sdk.ubform.t.d)",
+            "sources": [
+                "com.usabilla.sdk.ubform.screenshot.UbScreenshotActivity"
+            ],
+            "targets": [
+                "com.usabilla.sdk.ubform.screenshot.UbScreenshotActivity"
+            ]
+        },
+        {
+            "handler": "com.aircanada.mobile.activity.EnterPinActivity/void O(android.view.View)",
+            "sources": [
+                "com.aircanada.mobile.activity.EnterPinActivity"
+            ],
+            "targets": [
+                "com.aircanada.mobile.activity.HiddenFeaturesActivity"
+            ]
+        },
+        {
+            "handler": "com.aircanada.mobile.activity.MainActivity/void S(com.aircanada.mobile.activity.MainActivity)",
+            "sources": [
+                "com.aircanada.mobile.activity.MainActivity"
+            ],
+            "targets": [
+                "com.aircanada.mobile.activity.EnterPinActivity"
+            ]
+        },
+        {
+            "handler": "com.aircanada.mobile.activity.OnBoardingActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.aircanada.mobile.activity.OnBoardingActivity"
+            ],
+            "targets": [
+                "com.aircanada.mobile.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazonaws.mobileconnectors.cognitoauth.activities.CustomTabsRedirectActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazonaws.mobileconnectors.cognitoauth.activities.CustomTabsRedirectActivity"
+            ],
+            "targets": [
+                "com.amazonaws.mobileconnectors.cognitoauth.activities.CustomTabsManagerActivity"
+            ]
+        },
+        {
+            "handler": "com.amazonaws.mobile.auth.userpools.SignUpActivity/void startActivity(android.app.Activity,int)",
+            "sources": [
+                "com.amazonaws.mobile.auth.userpools.SignUpActivity"
+            ],
+            "targets": [
+                "com.amazonaws.mobile.auth.userpools.SignUpActivity"
+            ]
+        }
+    ]
+}

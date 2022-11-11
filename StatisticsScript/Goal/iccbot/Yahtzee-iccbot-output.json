@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "com.tum.yahtzee.YahtzeeActivity/void play(android.view.View)",
+            "sources": [
+                "com.tum.yahtzee.YahtzeeActivity"
+            ],
+            "targets": [
+                "com.tum.yahtzee.GameActivity"
+            ]
+        }
+    ]
+}

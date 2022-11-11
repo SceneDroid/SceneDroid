@@ -1,0 +1,382 @@
+{
+    "transitions": [
+        {
+            "handler": "com.fifa.ui.entry.EntryPageFavoritesActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "com.fifa.ui.entry.EntryPageFavoritesActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.entry.clubs.SelectCompetitionOwnerActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.entry.EntryPageFavoritesActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.fifa.ui.entry.EntryPageFavoritesActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.common.search.SearchItemActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.entry.OwnerCompetitionsListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fifa.ui.entry.OwnerCompetitionsListActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.entry.competitions.EntryPageTeamsCompetitionsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.entry.OwnerCompetitionsListActivity/void a(int,com.fifa.data.b.a.a.a)",
+            "sources": [
+                "com.fifa.ui.entry.OwnerCompetitionsListActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.competition.CompetitionDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.entry.OwnerCompetitionsListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fifa.ui.entry.OwnerCompetitionsListActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.fwc_entry.FwcEntryActivity/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.fifa.ui.fwc_entry.FwcEntryActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.fwc_entry.FwcEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.fwc_entry.FwcEntryActivity/void A()",
+            "sources": [
+                "com.fifa.ui.fwc_entry.FwcEntryActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.fwc_entry.FwcEntryActivity/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.fifa.ui.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.fwc_entry.FwcEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.splash.SplashBaseActivity/void n()",
+            "sources": [
+                "com.fifa.ui.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.gdpr.GdprActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.splash.SplashBaseActivity/void l()",
+            "sources": [
+                "com.fifa.ui.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.common.competition.CountryCompetitionsListActivity/void a(int,com.fifa.data.b.a.a.a)",
+            "sources": [
+                "com.fifa.ui.common.competition.CountryCompetitionsListActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.competition.CompetitionDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.common.competition.CountryCompetitionsListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fifa.ui.common.competition.CountryCompetitionsListActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.entry.competitions.EntryPageTeamsCompetitionsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.common.competition.CountryCompetitionsListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fifa.ui.common.competition.CountryCompetitionsListActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.competition.statistic.table.CompetitionStatisticsTableActivity$2/boolean a(android.view.View,com.mikepenz.a.c,com.fifa.ui.competition.statistic.table.TableRowItem,int)",
+            "sources": [
+                "com.fifa.ui.competition.statistic.table.CompetitionStatisticsTableActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.team.TeamDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.competition.statistic.table.CompetitionStatisticsTableActivity$2/boolean a(android.view.View,com.mikepenz.a.c,com.fifa.ui.competition.statistic.table.TableRowItem,int)",
+            "sources": [
+                "com.fifa.ui.competition.statistic.table.CompetitionStatisticsTableActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.player.PlayerDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.common.team.CountryTeamsCompetitionsActivity/void a(int,com.fifa.data.b.a.a.d)",
+            "sources": [
+                "com.fifa.ui.common.team.CountryTeamsCompetitionsActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.team.TeamDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.common.team.CountryTeamsCompetitionsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fifa.ui.common.team.CountryTeamsCompetitionsActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.common.team.CountryTeamsCompetitionsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fifa.ui.common.team.CountryTeamsCompetitionsActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.entry.EntryPageFavoritesActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.competition.teams.TeamsInConfederationActivity/void a(int,com.fifa.data.model.teams.l)",
+            "sources": [
+                "com.fifa.ui.competition.teams.TeamsInConfederationActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.team.TeamDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.player.PlayerDetailsActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "com.fifa.ui.player.PlayerDetailsActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.team.TeamDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.jakewharton.processphoenix.ProcessPhoenix/void triggerRebirth(android.content.Context,android.content.Intent[])",
+            "sources": [
+                "com.jakewharton.processphoenix.ProcessPhoenix"
+            ],
+            "targets": [
+                "com.jakewharton.processphoenix.ProcessPhoenix"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.common.news.article.NewsArticleActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.fifa.ui.common.news.article.NewsArticleActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.common.news.video.NewsVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.common.news.article.NewsArticleActivity$4/void onClick(android.view.View)",
+            "sources": [
+                "com.fifa.ui.common.news.article.NewsArticleActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.common.news.gallery.GalleryActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.main.MainActivity/void A()",
+            "sources": [
+                "com.fifa.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.entry.OwnerCompetitionsListActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.main.MainActivity/void c(java.lang.String)",
+            "sources": [
+                "com.fifa.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.common.news.article.NewsArticleActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.main.MainActivity/void d(java.lang.String)",
+            "sources": [
+                "com.fifa.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.common.web.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.main.MainActivity/void z()",
+            "sources": [
+                "com.fifa.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.competition.CompetitionDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.main.MainActivity/void B()",
+            "sources": [
+                "com.fifa.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.ranking.RankingOverviewActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.main.MainActivity/void D()",
+            "sources": [
+                "com.fifa.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.main.MainActivity/void C()",
+            "sources": [
+                "com.fifa.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.explore.ExploreFifaActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.entry.competitions.EntryPageTeamsCompetitionsActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "com.fifa.ui.entry.competitions.EntryPageTeamsCompetitionsActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.entry.clubs.SelectCompetitionOwnerActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.gdpr.GdprActivity/void v()",
+            "sources": [
+                "com.fifa.ui.gdpr.GdprActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.fwc_entry.FwcEntryActivity/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.fifa.ui.gdpr.GdprActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.fwc_entry.FwcEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.match.MatchDetailsActivity/void a(android.content.Context,com.fifa.ui.main.football.a,int)",
+            "sources": [
+                "com.fifa.ui.match.MatchDetailsActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.match.MatchDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.entry.clubs.SelectCompetitionOwnerActivity$1/void a(com.fifa.data.model.teams.j)",
+            "sources": [
+                "com.fifa.ui.entry.clubs.SelectCompetitionOwnerActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.common.team.CountryTeamsCompetitionsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.entry.clubs.SelectCompetitionOwnerActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fifa.ui.entry.clubs.SelectCompetitionOwnerActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.common.search.SearchItemActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.entry.clubs.SelectCompetitionOwnerActivity$1/void a(com.fifa.data.model.teams.j)",
+            "sources": [
+                "com.fifa.ui.entry.clubs.SelectCompetitionOwnerActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.common.competition.CountryCompetitionsListActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.entry.clubs.SelectCompetitionOwnerActivity/void a(com.fifa.data.model.competition.CompetitionType)",
+            "sources": [
+                "com.fifa.ui.entry.clubs.SelectCompetitionOwnerActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.entry.OwnerCompetitionsListActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.common.news.gallery.GalleryActivity$1/void a(android.view.View,int)",
+            "sources": [
+                "com.fifa.ui.common.news.gallery.GalleryActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.common.news.gallery.details.GalleryDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.common.search.SearchItemActivity$2/void a(int,com.fifa.data.b.a.a.d)",
+            "sources": [
+                "com.fifa.ui.common.search.SearchItemActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.team.TeamDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fifa.ui.common.search.SearchItemActivity$1/void a(int,com.fifa.data.b.a.a.a)",
+            "sources": [
+                "com.fifa.ui.common.search.SearchItemActivity"
+            ],
+            "targets": [
+                "com.fifa.ui.competition.CompetitionDetailsActivity"
+            ]
+        },
+        {
+            "handler": "net.hockeyapp.android.FeedbackActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "net.hockeyapp.android.FeedbackActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.PaintActivity"
+            ]
+        }
+    ]
+}

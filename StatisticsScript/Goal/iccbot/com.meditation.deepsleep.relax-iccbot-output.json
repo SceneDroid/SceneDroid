@@ -1,0 +1,1264 @@
+{
+    "transitions": [
+        {
+            "handler": "com.cs.bd.relax.activity.help.HelpActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.help.HelpActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.help.HelpActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.firstrecommend.LableGuideActivity/void a(android.content.Context,int,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.login.LoginIndexActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.firstrecommend.LableGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.login.LoginIndexActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.login.LoginIndexActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.login.LoginIndexActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.login.LoginActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.login.LoginIndexActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.login.AccountActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.login.LoginIndexActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.login.AccountActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.InnerBrowserActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.login.LoginIndexActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.InnerBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.login.LoginIndexActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.cs.bd.relax.activity.login.LoginIndexActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.palm.PalmAnalyzeActivity/void a(int,android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.palm.PalmAnalyzeActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.palm.PalmAnalyzeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.palm.PalmAnalyzeActivity/void onBackPressed()",
+            "sources": [
+                "com.cs.bd.relax.activity.palm.PalmAnalyzeActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle14And15Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,int,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle14And15Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle14And15Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle15OfficialActivity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle14And15Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle15OfficialActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle14And15Activity$3/void a(android.view.View)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle14And15Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle14And15Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle15OfficialActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle15OfficialActivity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle15OfficialActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle15OfficialActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle15OfficialActivity/void onDestroy()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle15OfficialActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle17Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle17Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle17Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle17Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle8Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle8Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle8Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle8Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle5Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.breath.BreathActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.breath.BreathActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.breath.BreathActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.player.AudioPlayerActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.breath.BreathActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.player.AudioPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.c.d/void a(int,com.cs.bd.relax.d.a.g)",
+            "sources": [
+                "com.cs.bd.relax.activity.breath.BreathActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.subscribe.c/void a(android.content.Context,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.b.d,int,java.lang.String,java.lang.String,com.cs.bd.subscribe.b.b)",
+            "sources": [
+                "com.cs.bd.relax.activity.breath.BreathActivity"
+            ],
+            "targets": [
+                "com.cs.bd.subscribe.officialstyle.activity.SubscribeActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.convert.ConvertActivity/void a(android.content.Context,int,boolean,double)",
+            "sources": [
+                "com.cs.bd.relax.activity.exchange.ExchangeActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.convert.ConvertActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.help.HelpActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.exchange.ExchangeActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.help.HelpActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.exchange.ExchangeActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.exchange.ExchangeActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.exchange.ExchangeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.InnerBrowserActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.InnerBrowserActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.InnerBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.result.ResultActivity/void a(android.content.Context,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.convert.ConvertActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.result.ResultActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.convert.ConvertActivity/void goInvite()",
+            "sources": [
+                "com.cs.bd.relax.activity.convert.ConvertActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.share.ShareAcitivty"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.convert.ConvertActivity/void a(android.content.Context,int,boolean,double)",
+            "sources": [
+                "com.cs.bd.relax.activity.convert.ConvertActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.convert.ConvertActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle1Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle1Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle1Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle1Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.distributor.DistributeRewardActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.SplashActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.distributor.DistributeRewardActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxFirstLauncherSubscribe/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.SplashActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxFirstLauncherSubscribe"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.ad.PreBeOldVideoActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.SplashActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.ad.PreBeOldVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.SplashActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.firstrecommend.LableGuideActivity/void a(android.content.Context,int,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.SplashActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.firstrecommend.LableGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.subscribe.c/void a(android.content.Context,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.b.d,int,java.lang.String,java.lang.String,com.cs.bd.subscribe.b.b)",
+            "sources": [
+                "com.cs.bd.relax.activity.SplashActivity"
+            ],
+            "targets": [
+                "com.cs.bd.subscribe.officialstyle.activity.SubscribeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.complete.CompleteActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.comment.CommentActivity"
+            ]
+        },
+        {
+            "handler": "com.inmobi.ads.rendering.InMobiAdActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.inmobi.ads.rendering.InMobiAdActivity"
+            ],
+            "targets": [
+                "com.inmobi.ads.rendering.InMobiAdActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle10Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle10Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle10Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle10Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.offlinedetails.OfflineDetailsActivity/void a(android.content.Context,com.cs.bd.relax.d.a.s)",
+            "sources": [
+                "com.cs.bd.relax.activity.offlinedetails.OfflineDetailsActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.offlinedetails.OfflineDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.firstrecommend.FirstRecommendActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.firstrecommend.FirstRecommendActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.firstrecommend.FirstRecommendActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.albumdetails.AlbumDetailsActivity/void a(android.content.Context,int,float,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.firstrecommend.FirstRecommendActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.albumdetails.AlbumDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle16Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle16Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle16Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle16Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.subscribe.c/void a(android.content.Context,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.b.d,int,java.lang.String,java.lang.String,com.cs.bd.subscribe.b.b)",
+            "sources": [
+                "com.cs.bd.relax.activity.oldface.OldFaceActivity"
+            ],
+            "targets": [
+                "com.cs.bd.subscribe.officialstyle.activity.SubscribeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.oldface.OldFaceActivity/void a(android.content.Context,int,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.oldface.OldFaceActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.oldface.OldFaceActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.oldface.OldFaceActivity/void onBackPressed()",
+            "sources": [
+                "com.cs.bd.relax.activity.oldface.OldFaceActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle7Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle7Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle7Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle7Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.subscribe.c/void a(android.content.Context,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.b.d,int,java.lang.String,java.lang.String,com.cs.bd.subscribe.b.b)",
+            "sources": [
+                "com.cs.bd.relax.activity.player.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.cs.bd.subscribe.officialstyle.activity.SubscribeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.c.d/void a(int,com.cs.bd.relax.d.a.g)",
+            "sources": [
+                "com.cs.bd.relax.activity.player.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.player.AudioPlayerActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.player.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.player.AudioPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.player.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.albumdetails.AlbumDetailsActivity/void a(android.content.Context,int,float,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.player.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.albumdetails.AlbumDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle4Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle4Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle4Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle4Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.login.AccountActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.login.AccountActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.login.AccountActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.login.AccountActivity$6$1$1/void onSwitch(java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.login.AccountActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.login.AccountActivity$6$1$1/void onSwitch(java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.login.AccountActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.firstrecommend.LableGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.subscribe.c/void a(android.content.Context,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.b.d,int,java.lang.String,java.lang.String,com.cs.bd.subscribe.b.b)",
+            "sources": [
+                "com.cs.bd.relax.activity.futurebaby.FutureBabyActivity"
+            ],
+            "targets": [
+                "com.cs.bd.subscribe.officialstyle.activity.SubscribeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.futurebaby.FutureBabyActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.futurebaby.FutureBabyActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.futurebaby.FutureBabyActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.futurebaby.FutureBabyActivity/void onBackPressed()",
+            "sources": [
+                "com.cs.bd.relax.activity.futurebaby.FutureBabyActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.subscribe.c/void a(android.content.Context,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.b.d,int,java.lang.String,java.lang.String,com.cs.bd.subscribe.b.b)",
+            "sources": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ],
+            "targets": [
+                "com.cs.bd.subscribe.officialstyle.activity.SubscribeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.player.AudioPlayerActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.player.AudioPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.firstrecommend.FirstRecommendActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.firstrecommend.FirstRecommendActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.c.d/void a(int,com.cs.bd.relax.d.a.g)",
+            "sources": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle13Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle13Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle13Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle13Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.oldface.OldFaceActivity/void a(android.content.Context,int,int)",
+            "sources": [
+                "com.cs.bd.relax.ad.PreBeOldVideoActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.oldface.OldFaceActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.ad.PreBeOldVideoActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.ad.PreBeOldVideoActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.ad.PreBeOldVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle11Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle11Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle11Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle11Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.settings.ratinggp.GetFreeVipActivity/void a(android.app.Activity,int,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.settings.ratinggp.GetFreeVipActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.settings.ratinggp.GetFreeVipActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.comment.CommentActivity/void goDetail()",
+            "sources": [
+                "com.cs.bd.relax.activity.comment.CommentActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.ratingdetail.RatingDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.login.LoginActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.login.LoginActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.login.LoginActivity/void c()",
+            "sources": [
+                "com.cs.bd.relax.activity.login.LoginActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.firstrecommend.TransitionActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.firstrecommend.TransitionActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.firstrecommend.TransitionActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.distributor.DistributionDetailActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.help.HelpActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.distributor.DistributionDetailActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.help.HelpActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.distributor.DistributionDetailActivity/void shareRelaxApp()",
+            "sources": [
+                "com.cs.bd.relax.activity.distributor.DistributionDetailActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.share.ShareAcitivty"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.distributor.DistributionDetailActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.distributor.DistributionDetailActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.distributor.DistributionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.exchange.ExchangeActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.distributor.DistributionDetailActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.exchange.ExchangeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle3Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle3Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle3Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle3Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.player.AudioPlayerActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.fastrelaxplayer.FastRelaxPlayerActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.player.AudioPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.subscribe.c/void a(android.content.Context,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.b.d,int,java.lang.String,java.lang.String,com.cs.bd.subscribe.b.b)",
+            "sources": [
+                "com.cs.bd.relax.activity.fastrelaxplayer.FastRelaxPlayerActivity"
+            ],
+            "targets": [
+                "com.cs.bd.subscribe.officialstyle.activity.SubscribeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.fastrelaxplayer.FastRelaxPlayerActivity/void a(android.content.Context,int,com.cs.bd.relax.d.a.c)",
+            "sources": [
+                "com.cs.bd.relax.activity.fastrelaxplayer.FastRelaxPlayerActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.fastrelaxplayer.FastRelaxPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.c.d/void a(int,com.cs.bd.relax.d.a.g)",
+            "sources": [
+                "com.cs.bd.relax.activity.fastrelaxplayer.FastRelaxPlayerActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.oldface.OldFaceActivity/void a(android.content.Context,int,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxFirstLauncherSubscribe"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.oldface.OldFaceActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.futurebaby.FutureBabyActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxFirstLauncherSubscribe"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.futurebaby.FutureBabyActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.heartrate.HeartRateActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxFirstLauncherSubscribe"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.heartrate.HeartRateActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxFirstLauncherSubscribe/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxFirstLauncherSubscribe"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxFirstLauncherSubscribe"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.subscribe.c/void a(android.content.Context,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.b.d,int,java.lang.String,java.lang.String,com.cs.bd.subscribe.b.b)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxFirstLauncherSubscribe"
+            ],
+            "targets": [
+                "com.cs.bd.subscribe.officialstyle.activity.SubscribeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.palm.PalmAnalyzeActivity/void a(int,android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxFirstLauncherSubscribe"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.palm.PalmAnalyzeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.distributor.DistributeGuideActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.distributor.DistributionDetailActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.distributor.DistributeGuideActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.distributor.DistributionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.firstrecommend.LableGuideActivity/void a(android.content.Context,int,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.firstrecommend.LableGuideActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.firstrecommend.LableGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.MainActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.firstrecommend.LableGuideActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.firstrecommend.TransitionActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.firstrecommend.LableGuideActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.firstrecommend.TransitionActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.heartrate.HeartRateActivity/void onBackPressed()",
+            "sources": [
+                "com.cs.bd.relax.activity.heartrate.HeartRateActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.subscribe.c/void a(android.content.Context,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.b.d,int,java.lang.String,java.lang.String,com.cs.bd.subscribe.b.b)",
+            "sources": [
+                "com.cs.bd.relax.activity.heartrate.HeartRateActivity"
+            ],
+            "targets": [
+                "com.cs.bd.subscribe.officialstyle.activity.SubscribeActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.heartrate.HeartRateActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.heartrate.HeartRateActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.heartrate.HeartRateActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.distributor.DistributeRewardActivity/void gotoDistributionDetailActivity()",
+            "sources": [
+                "com.cs.bd.relax.activity.distributor.DistributeRewardActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.share.ShareAcitivty"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.distributor.DistributeRewardActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.distributor.DistributeRewardActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.distributor.DistributeRewardActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.distributor.DistributionDetailActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.distributor.DistributeRewardActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.distributor.DistributionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.distributor.DistributeRewardActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.login.LoginIndexActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.login.LoginIndexActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.settings.SettingsActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.cs.bd.relax.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.feedback.FeedBackActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.InnerBrowserActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.InnerBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle12Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle12Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle12Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle12Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle9Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle9Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle9Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle9Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.FirstEmptyActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.FirstEmptyActivity/void a(boolean)",
+            "sources": [
+                "com.cs.bd.relax.activity.FirstEmptyActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle18Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle18Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle18Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle18Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.distributor.DistributionDetailActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.share.ShareAcitivty"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.distributor.DistributionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle20Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.InnerBrowserActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle20Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.InnerBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle20Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle20Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle20Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle6Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle6Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle6Activity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle6Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.cs.bd.relax.activity.albumdetails.AlbumDetailsActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.albumdetails.AlbumDetailsActivity/void a(android.content.Context,int,float,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.albumdetails.AlbumDetailsActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.albumdetails.AlbumDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.ratingdetail.RatingDetailActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "com.cs.bd.relax.activity.ratingdetail.RatingDetailActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.comment.CommentActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.result.ResultActivity/void a(android.content.Context,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.cs.bd.relax.activity.result.ResultActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.result.ResultActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.result.ResultActivity/void onClick()",
+            "sources": [
+                "com.cs.bd.relax.activity.result.ResultActivity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.share.ShareAcitivty"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.c/void a()",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle2Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.complete.CompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle2Activity/void a(android.content.Context,com.cs.bd.subscribe.c.b.c,com.cs.bd.subscribe.c.a.d,com.cs.bd.subscribe.c.a.b,boolean,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle2Activity"
+            ],
+            "targets": [
+                "com.cs.bd.relax.activity.subscribe.RelaxSubscribeStyle2Activity"
+            ]
+        }
+    ]
+}

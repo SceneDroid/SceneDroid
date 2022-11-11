@@ -1,0 +1,265 @@
+{
+    "transitions": [
+        {
+            "handler": "com.soundcloud.android.crop.a/void a(android.app.Activity,int)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.personal.PersonalEditActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.crop.CropImageActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.crop.a/void a(android.app.Activity,int)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.personal.podcaster.upload.channel.ChannelUpdateActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.crop.CropImageActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.detail.comment.CommentBottomSheetDialogFragment/void a(android.view.View,fm.castbox.audio.radio.podcast.data.model.account.Comment,boolean)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.play.CastBoxPlayerActivity"
+            ],
+            "targets": [
+                "fm.castbox.audio.radio.podcast.ui.detail.comment.CommentAddActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.RewardedMraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long,int,boolean)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void setTokenExpirationBroadcastAlarm()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.settings.debug.DebugActivity/void openPushActivity(android.view.View)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.settings.debug.DebugActivity"
+            ],
+            "targets": [
+                "fm.castbox.audio.radio.podcast.ui.settings.debug.PushListActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.settings.debug.DebugActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.main.MainActivity/boolean L()",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.main.MainActivity"
+            ],
+            "targets": [
+                "fm.castbox.audio.radio.podcast.ui.guide.FirstGuideSelectCategoriesActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.main.MainActivity/boolean K()",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.main.MainActivity"
+            ],
+            "targets": [
+                "fm.castbox.audio.radio.podcast.ui.personal.login.FullscreenLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void a(android.content.Context,com.mopub.mobileads.VastVideoConfig,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.personal.login.FullscreenLoginActivity/void onLineLogin(android.view.View)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.personal.login.FullscreenLoginActivity"
+            ],
+            "targets": [
+                "com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.personal.login.FullscreenLoginActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.settings.AboutActivity/void onFacebook(android.view.View)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.settings.AboutActivity"
+            ],
+            "targets": [
+                "fm.castbox.audio.radio.podcast.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.personal.podcaster.upload.episode.EpisodeUpdateActivity/void b(android.view.View)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.personal.podcaster.upload.episode.EpisodeUpdateActivity"
+            ],
+            "targets": [
+                "fm.castbox.audio.radio.podcast.ui.personal.podcaster.upload.channel.ChannelUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.crop.a/void a(android.app.Activity,int)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.personal.podcaster.upload.episode.EpisodeUpdateActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.crop.CropImageActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.settings.d/boolean a(android.preference.Preference)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "fm.castbox.audio.radio.podcast.ui.settings.opml.FirstGuideImportActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.settings.LinkedAccountsActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.settings.LinkedAccountsActivity/void onLineClick(android.view.View)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.settings.LinkedAccountsActivity"
+            ],
+            "targets": [
+                "com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.personal.login.FullscreenLoginActivity/void onLineLogin(android.view.View)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.personal.wallet.WalletLoginActivity"
+            ],
+            "targets": [
+                "com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.personal.wallet.WalletLoginActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity"
+            ],
+            "targets": [
+                "com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.util.f.b/void a(android.app.Activity,android.content.Intent)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.answer.AnswerHomeActivity"
+            ],
+            "targets": [
+                "fm.castbox.audio.radio.podcast.ui.personal.login.FullscreenLoginActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.personal.wallet.WalletSendActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.personal.wallet.WalletSendActivity"
+            ],
+            "targets": [
+                "fm.castbox.audio.radio.podcast.ui.qrcode.QrCodeActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.detail.comment.CommentBottomSheetDialogFragment/void a(android.view.View,fm.castbox.audio.radio.podcast.data.model.account.Comment,boolean)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.detail.ChannelDetailActivity"
+            ],
+            "targets": [
+                "fm.castbox.audio.radio.podcast.ui.detail.comment.CommentAddActivity"
+            ]
+        },
+        {
+            "handler": "fm.castbox.audio.radio.podcast.ui.answer.AnswerAboutActivity$e/void onClick(android.view.View)",
+            "sources": [
+                "fm.castbox.audio.radio.podcast.ui.answer.AnswerAboutActivity"
+            ],
+            "targets": [
+                "fm.castbox.audio.radio.podcast.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        }
+    ]
+}

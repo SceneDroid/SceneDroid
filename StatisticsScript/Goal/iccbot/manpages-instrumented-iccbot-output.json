@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "com.chmod0.manpages.ManualActivity/void displayManpage(com.chmod0.manpages.Page)",
+            "sources": [
+                "com.chmod0.manpages.ManualActivity"
+            ],
+            "targets": [
+                "com.chmod0.manpages.BrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.chmod0.manpages.ManualActivity/void displayManpage(com.chmod0.manpages.Page)",
+            "sources": [
+                "com.chmod0.manpages.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.chmod0.manpages.BrowserActivity"
+            ]
+        }
+    ]
+}

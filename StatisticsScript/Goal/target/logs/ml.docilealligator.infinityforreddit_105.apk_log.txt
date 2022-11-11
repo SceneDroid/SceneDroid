@@ -1,0 +1,919 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+ml.docilealligator.infinityforreddit_105: OutputDir not a directory: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/ml.docilealligator.infinityforreddit_105
+Found 61 entrypoint classes and 105 methods in overall
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewVideoActivity: void onStart()>
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostVideoActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostLinkActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewRedditGalleryActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostTextActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.InboxActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.AccountSavedThingActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.SelectedSubredditsAndUsersActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.CreateMultiRedditActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.EditProfileActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostVideoActivity: void onStart()>
+Found 53 reachable methods from <ml.docilealligator.infinityforreddit.activities.BaseActivity: void onCreate(android.os.Bundle)>
+Found 148 reachable methods from <ml.docilealligator.infinityforreddit.activities.LinkResolverActivity: void onCreate(android.os.Bundle)>
+Found 169 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewRedditGalleryActivity: void onCreate(android.os.Bundle)>
+ml.docilealligator.infinityforreddit.activities.LinkResolverActivity: Finished processing of entrypoints after 26 seconds.
+Found 206 reachable methods from <ml.docilealligator.infinityforreddit.activities.SelectedSubredditsAndUsersActivity: void onCreate(android.os.Bundle)>
+Found 175 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewImgurMediaActivity: void onCreate(android.os.Bundle)>
+Found 216 reachable methods from <ml.docilealligator.infinityforreddit.activities.HistoryActivity: void onCreate(android.os.Bundle)>
+Found 207 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostFilterUsageListingActivity: void onCreate(android.os.Bundle)>
+Found 215 reachable methods from <ml.docilealligator.infinityforreddit.activities.EditProfileActivity: void onCreate(android.os.Bundle)>
+Found 215 reachable methods from <ml.docilealligator.infinityforreddit.activities.CreateMultiRedditActivity: void onCreate(android.os.Bundle)>
+Found 233 reachable methods from <ml.docilealligator.infinityforreddit.activities.SearchActivity: void onCreate(android.os.Bundle)>
+ml.docilealligator.infinityforreddit.activities.ViewRedditGalleryActivity: Finished processing of entrypoints after 32 seconds.
+Found 222 reachable methods from <ml.docilealligator.infinityforreddit.activities.AccountSavedThingActivity: void onCreate(android.os.Bundle)>
+Found 219 reachable methods from <ml.docilealligator.infinityforreddit.activities.SubredditSelectionActivity: void onCreate(android.os.Bundle)>
+Found 231 reachable methods from <ml.docilealligator.infinityforreddit.activities.EditMultiRedditActivity: void onCreate(android.os.Bundle)>
+Found 217 reachable methods from <ml.docilealligator.infinityforreddit.activities.LoginActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewImgurMediaActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.ViewImgurMediaActivity: Finished processing of entrypoints after 33 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r12 = r0.<ml.docilealligator.infinityforreddit.activities.EditMultiRedditActivity: android.widget.EditText descriptionEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r12 = r0.<ml.docilealligator.infinityforreddit.activities.EditMultiRedditActivity: android.widget.EditText nameEditText>
+Found 219 reachable methods from <ml.docilealligator.infinityforreddit.activities.CustomThemeListingActivity: void onCreate(android.os.Bundle)>
+Found 277 reachable methods from <ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: void onCreate(android.os.Bundle)>
+Found 274 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostLinkActivity: void onCreate(android.os.Bundle)>
+Found 280 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostImageActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: android.widget.TextView contentTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r27 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: android.widget.EditText titleEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: android.widget.TextView subredditNameTextView>
+Found 277 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostTextActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r26 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: com.libRG.CustomTextView flairTextView>
+Found 304 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: void onCreate(android.os.Bundle)>
+Found 281 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostVideoActivity: void onCreate(android.os.Bundle)>
+Found 256 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewVideoActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r27 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: android.widget.EditText contentEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: com.libRG.CustomTextView flairTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: com.libRG.CustomTextView nsfwTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: com.libRG.CustomTextView spoilerTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: com.libRG.CustomTextView flairTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: com.libRG.CustomTextView nsfwTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = r0.<ml.docilealligator.infinityforreddit.activities.ViewVideoActivity: android.widget.TextView titleTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: android.widget.TextView subredditNameTextView>
+Found 356 reachable methods from <ml.docilealligator.infinityforreddit.activities.InboxActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r27 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: com.libRG.CustomTextView flairTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r26 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: com.libRG.CustomTextView nsfwTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: android.widget.TextView selectAgainTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r27 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: com.libRG.CustomTextView nsfwTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: com.libRG.CustomTextView spoilerTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r27 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: com.libRG.CustomTextView spoilerTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r26 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: com.libRG.CustomTextView spoilerTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r26 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: com.libRG.CustomTextView nsfwTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r27 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: com.libRG.CustomTextView flairTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: android.widget.TextView selectAgainTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r27 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: com.libRG.CustomTextView nsfwTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r27 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: com.libRG.CustomTextView spoilerTextView>
+Found 396 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewUserDetailActivity: void onCreate(android.os.Bundle)>
+Found 167 reachable methods from <ml.docilealligator.infinityforreddit.activities.CustomThemePreviewActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r26 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: com.libRG.CustomTextView spoilerTextView>
+Found 217 reachable methods from <ml.docilealligator.infinityforreddit.activities.SubredditMultiselectionActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r10 = r0.<ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: android.widget.TextView accountNameTextView>
+Found 358 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewPostDetailActivity: void onCreate(android.os.Bundle)>
+ml.docilealligator.infinityforreddit.activities.BaseActivity: Finished processing of entrypoints after 95 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 384 reachable methods from <ml.docilealligator.infinityforreddit.activities.MainActivity: void onCreate(android.os.Bundle)>
+ml.docilealligator.infinityforreddit.activities.SelectedSubredditsAndUsersActivity: Finished processing of entrypoints after 147 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.HistoryActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.HistoryActivity: Finished processing of entrypoints after 148 seconds.
+ml.docilealligator.infinityforreddit.activities.EditProfileActivity: Finished processing of entrypoints after 152 seconds.
+Found 3 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewImageOrGifActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r21 = r0.<ml.docilealligator.infinityforreddit.activities.SearchActivity: android.widget.TextView subredditNameTextView>
+ml.docilealligator.infinityforreddit.activities.PostFilterUsageListingActivity: Finished processing of entrypoints after 153 seconds.
+ml.docilealligator.infinityforreddit.activities.CreateMultiRedditActivity: Finished processing of entrypoints after 153 seconds.
+Found 58 reachable methods from <ml.docilealligator.infinityforreddit.activities.FetchRandomSubredditOrPostActivity: void onCreate(android.os.Bundle)>
+ml.docilealligator.infinityforreddit.activities.AccountSavedThingActivity: Finished processing of entrypoints after 155 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.SendPrivateMessageActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r5 = $r2.<ml.docilealligator.infinityforreddit.activities.EditMultiRedditActivity: android.widget.EditText descriptionEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r5 = $r2.<ml.docilealligator.infinityforreddit.activities.EditMultiRedditActivity: android.widget.EditText nameEditText>
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.EditMultiRedditActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.EditMultiRedditActivity: Finished processing of entrypoints after 156 seconds.
+ml.docilealligator.infinityforreddit.activities.LoginActivity: Finished processing of entrypoints after 156 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.SubredditSelectionActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.SubredditSelectionActivity: Finished processing of entrypoints after 156 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.ReportActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r10 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: android.widget.TextView accountNameTextView>
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.SearchActivity: void onStart()>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.SearchActivity: android.widget.EditText searchEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r21 = r0.<ml.docilealligator.infinityforreddit.activities.SearchActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r21 = r0.<ml.docilealligator.infinityforreddit.activities.SearchActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r26 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: android.widget.EditText linkEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: com.libRG.CustomTextView flairTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: com.libRG.CustomTextView flairTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: com.libRG.CustomTextView nsfwTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: android.widget.TextView selectAgainTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: com.libRG.CustomTextView nsfwTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: com.libRG.CustomTextView spoilerTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r10 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: com.libRG.CustomTextView flairTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: com.libRG.CustomTextView spoilerTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: com.libRG.CustomTextView nsfwTextView>
+ml.docilealligator.infinityforreddit.activities.CustomThemeListingActivity: Finished processing of entrypoints after 160 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: com.libRG.CustomTextView flairTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: android.widget.TextView selectAgainTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: com.libRG.CustomTextView nsfwTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostLinkActivity: com.libRG.CustomTextView spoilerTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: com.libRG.CustomTextView spoilerTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r30 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r35 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: com.libRG.CustomTextView flairTextView>
+Found 3 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewVideoActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.ViewVideoActivity: Finished processing of entrypoints after 162 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r30 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r30 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r35 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: com.libRG.CustomTextView nsfwTextView>
+ml.docilealligator.infinityforreddit.activities.SearchActivity: Finished processing of entrypoints after 163 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r35 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: com.libRG.CustomTextView spoilerTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r10 = r0.<ml.docilealligator.infinityforreddit.activities.PostTextActivity: android.widget.TextView accountNameTextView>
+ml.docilealligator.infinityforreddit.activities.PostLinkActivity: Finished processing of entrypoints after 165 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.CustomizeThemeActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.PostTextActivity: Finished processing of entrypoints after 166 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r10 = r0.<ml.docilealligator.infinityforreddit.activities.PostImageActivity: android.widget.TextView accountNameTextView>
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostImageActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.PostImageActivity: Finished processing of entrypoints after 168 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.CommentActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.CustomThemePreviewActivity: Finished processing of entrypoints after 142 seconds.
+Found 57 reachable methods from <ml.docilealligator.infinityforreddit.activities.SuicidePreventionActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r30 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r35 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: com.libRG.CustomTextView flairTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r30 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r30 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r35 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: com.libRG.CustomTextView nsfwTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r10 = r0.<ml.docilealligator.infinityforreddit.activities.PostVideoActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r35 = r0.<ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: com.libRG.CustomTextView spoilerTextView>
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.SubredditMultiselectionActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.SubredditMultiselectionActivity: Finished processing of entrypoints after 140 seconds.
+Found 2 reachable methods from <ml.docilealligator.infinityforreddit.activities.ShareDataResolverActivity: void onCreate(android.os.Bundle)>
+ml.docilealligator.infinityforreddit.activities.ShareDataResolverActivity: Finished processing of entrypoints after 0 seconds.
+Found 5 reachable methods from <ml.docilealligator.infinityforreddit.activities.SearchUsersResultActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 216 reachable methods from <ml.docilealligator.infinityforreddit.activities.AccountPostsActivity: void onCreate(android.os.Bundle)>
+ml.docilealligator.infinityforreddit.activities.PostVideoActivity: Finished processing of entrypoints after 176 seconds.
+Found 171 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewImageOrGifActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.SubmitCrosspostActivity: Finished processing of entrypoints after 179 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.EditPostActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r27 = r0.<ml.docilealligator.infinityforreddit.activities.ViewImageOrGifActivity: android.widget.TextView titleTextView>
+ml.docilealligator.infinityforreddit.activities.ViewImageOrGifActivity: Finished processing of entrypoints after 29 seconds.
+Found 230 reachable methods from <ml.docilealligator.infinityforreddit.activities.FilteredPostsActivity: void onCreate(android.os.Bundle)>
+Found 210 reachable methods from <ml.docilealligator.infinityforreddit.activities.SendPrivateMessageActivity: void onCreate(android.os.Bundle)>
+Found 234 reachable methods from <ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: void onCreate(android.os.Bundle)>
+Found 231 reachable methods from <ml.docilealligator.infinityforreddit.activities.WikiActivity: void onCreate(android.os.Bundle)>
+Found 204 reachable methods from <ml.docilealligator.infinityforreddit.activities.WebViewActivity: void onCreate(android.os.Bundle)>
+Found 227 reachable methods from <ml.docilealligator.infinityforreddit.activities.RulesActivity: void onCreate(android.os.Bundle)>
+Found 225 reachable methods from <ml.docilealligator.infinityforreddit.activities.ReportActivity: void onCreate(android.os.Bundle)>
+Found 236 reachable methods from <ml.docilealligator.infinityforreddit.activities.SubscribedThingListingActivity: void onCreate(android.os.Bundle)>
+Found 217 reachable methods from <ml.docilealligator.infinityforreddit.activities.GiveAwardActivity: void onCreate(android.os.Bundle)>
+Found 213 reachable methods from <ml.docilealligator.infinityforreddit.activities.EditCommentActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r12 = r0.<ml.docilealligator.infinityforreddit.activities.EditCommentActivity: android.widget.EditText contentEditText>
+Found 200 reachable methods from <ml.docilealligator.infinityforreddit.activities.LockScreenActivity: void onCreate(android.os.Bundle)>
+Found 210 reachable methods from <ml.docilealligator.infinityforreddit.activities.SearchUsersResultActivity: void onCreate(android.os.Bundle)>
+Found 245 reachable methods from <ml.docilealligator.infinityforreddit.activities.CommentActivity: void onCreate(android.os.Bundle)>
+ml.docilealligator.infinityforreddit.activities.PostGalleryActivity: Finished processing of entrypoints after 203 seconds.
+Found 248 reachable methods from <ml.docilealligator.infinityforreddit.activities.CustomizeThemeActivity: void onCreate(android.os.Bundle)>
+Found 214 reachable methods from <ml.docilealligator.infinityforreddit.activities.EditPostActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r13 = r0.<ml.docilealligator.infinityforreddit.activities.EditPostActivity: android.widget.EditText contentEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r12 = r0.<ml.docilealligator.infinityforreddit.activities.EditPostActivity: android.widget.TextView titleTextView>
+Found 243 reachable methods from <ml.docilealligator.infinityforreddit.activities.SearchResultActivity: void onCreate(android.os.Bundle)>
+Found 207 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostFilterPreferenceActivity: void onCreate(android.os.Bundle)>
+ml.docilealligator.infinityforreddit.activities.FetchRandomSubredditOrPostActivity: Finished processing of entrypoints after 117 seconds.
+ml.docilealligator.infinityforreddit.activities.SuicidePreventionActivity: Finished processing of entrypoints after 118 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.AccountPostsActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.AccountPostsActivity: Finished processing of entrypoints after 142 seconds.
+Found 247 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewMultiRedditDetailActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText maxAwardsTextInputEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText minAwardsTextInputEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText maxCommentsTextInputEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText minCommentsTextInputEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText maxVoteTextInputEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText minVoteTextInputEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r10 = r0.<ml.docilealligator.infinityforreddit.activities.SendPrivateMessageActivity: android.widget.EditText usernameEditText>
+ml.docilealligator.infinityforreddit.activities.SendPrivateMessageActivity: Finished processing of entrypoints after 150 seconds.
+ml.docilealligator.infinityforreddit.activities.WikiActivity: Finished processing of entrypoints after 150 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.WebViewActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.WebViewActivity: Finished processing of entrypoints after 148 seconds.
+Found 5 reachable methods from <ml.docilealligator.infinityforreddit.activities.SearchSubredditsResultActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText containDomainsTextInputEditText>
+ml.docilealligator.infinityforreddit.activities.RulesActivity: Finished processing of entrypoints after 153 seconds.
+ml.docilealligator.infinityforreddit.activities.ReportActivity: Finished processing of entrypoints after 154 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText excludeDomainsTextInputEditText>
+Found 205 reachable methods from <ml.docilealligator.infinityforreddit.activities.SettingsActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText containsFlairsTextInputEditText>
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.SubscribedThingListingActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.SubscribedThingListingActivity: Finished processing of entrypoints after 154 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText excludesFlairsTextInputEditText>
+ml.docilealligator.infinityforreddit.activities.GiveAwardActivity: Finished processing of entrypoints after 156 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.EditCommentActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.EditCommentActivity: Finished processing of entrypoints after 151 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText excludesUsersTextInputEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r10 = r0.<ml.docilealligator.infinityforreddit.activities.CommentActivity: android.widget.TextView accountNameTextView>
+ml.docilealligator.infinityforreddit.activities.LockScreenActivity: Finished processing of entrypoints after 147 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.CommentActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.CommentActivity: android.widget.TextView commentParentMarkwonView>
+ml.docilealligator.infinityforreddit.activities.SearchUsersResultActivity: Finished processing of entrypoints after 149 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText excludesSubredditsTextInputEditText>
+ml.docilealligator.infinityforreddit.activities.CommentActivity: Finished processing of entrypoints after 156 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText titleContainsRegexTextInputEditText>
+Found 242 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewPrivateMessagesActivity: void onCreate(android.os.Bundle)>
+ml.docilealligator.infinityforreddit.activities.EditPostActivity: Finished processing of entrypoints after 147 seconds.
+ml.docilealligator.infinityforreddit.activities.CustomizeThemeActivity: Finished processing of entrypoints after 163 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.SearchResultActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.SearchResultActivity: Finished processing of entrypoints after 147 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText titleExcludesRegexTextInputEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText titleContainsStringsTextInputEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText titleExcludesStringsTextInputEditText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = r0.<ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: com.google.android.material.textfield.TextInputEditText nameTextInputEditText>
+Found 223 reachable methods from <ml.docilealligator.infinityforreddit.activities.FullMarkdownActivity: void onCreate(android.os.Bundle)>
+Found 210 reachable methods from <ml.docilealligator.infinityforreddit.activities.SearchSubredditsResultActivity: void onCreate(android.os.Bundle)>
+Found 172 reachable methods from <ml.docilealligator.infinityforreddit.activities.RPANActivity: void onCreate(android.os.Bundle)>
+Found 227 reachable methods from <ml.docilealligator.infinityforreddit.activities.TrendingActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <ml.docilealligator.infinityforreddit.activities.RPANActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.RPANActivity: Finished processing of entrypoints after 27 seconds.
+ml.docilealligator.infinityforreddit.activities.PostFilterPreferenceActivity: Finished processing of entrypoints after 134 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.CustomizePostFilterActivity: Finished processing of entrypoints after 184 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.FilteredPostsActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.FilteredPostsActivity: Finished processing of entrypoints after 187 seconds.
+Found 218 reachable methods from <ml.docilealligator.infinityforreddit.activities.SelectUserFlairActivity: void onCreate(android.os.Bundle)>
+Found 216 reachable methods from <ml.docilealligator.infinityforreddit.activities.MultiredditSelectionActivity: void onCreate(android.os.Bundle)>
+Found 394 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewSubredditDetailActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r29 = r0.<ml.docilealligator.infinityforreddit.activities.ViewSubredditDetailActivity: android.widget.TextView subredditNameTextView>
+Did not find string name from string id: id: 2131886728
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r29 = r0.<ml.docilealligator.infinityforreddit.activities.ViewSubredditDetailActivity: android.widget.TextView nOnlineSubscribersTextView>
+Did not find string name from string id: id: 2131886728
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r29 = r0.<ml.docilealligator.infinityforreddit.activities.ViewSubredditDetailActivity: android.widget.TextView descriptionTextView>
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Found 277 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostPollActivity: void onCreate(android.os.Bundle)>
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+Did not find string name from string id: id: 2131886728
+ml.docilealligator.infinityforreddit.activities.SettingsActivity: Finished processing of entrypoints after 100 seconds.
+ml.docilealligator.infinityforreddit.activities.ViewPrivateMessagesActivity: Finished processing of entrypoints after 106 seconds.
+ml.docilealligator.infinityforreddit.activities.SearchSubredditsResultActivity: Finished processing of entrypoints after 92 seconds.
+Found 5 reachable methods from <ml.docilealligator.infinityforreddit.activities.FullMarkdownActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.FullMarkdownActivity: Finished processing of entrypoints after 94 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.TrendingActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.TrendingActivity: Finished processing of entrypoints after 96 seconds.
+ml.docilealligator.infinityforreddit.activities.SelectUserFlairActivity: Finished processing of entrypoints after 86 seconds.
+ml.docilealligator.infinityforreddit.activities.MultiredditSelectionActivity: Finished processing of entrypoints after 85 seconds.
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: android.widget.TextView votingLengthTextView>
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: android.widget.TextView subredditNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: android.widget.TextView subredditNameTextView>
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: com.libRG.CustomTextView flairTextView>
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: android.widget.TextView accountNameTextView>
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: com.libRG.CustomTextView nsfwTextView>
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: com.libRG.CustomTextView spoilerTextView>
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: android.widget.TextView subredditNameTextView>
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: com.libRG.CustomTextView flairTextView>
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: android.widget.TextView accountNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: android.widget.TextView accountNameTextView>
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: com.libRG.CustomTextView nsfwTextView>
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r24 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: com.libRG.CustomTextView spoilerTextView>
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Did not find string name from string id: id: 2131887476
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r10 = r0.<ml.docilealligator.infinityforreddit.activities.PostPollActivity: android.widget.TextView accountNameTextView>
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.PostPollActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.PostPollActivity: Finished processing of entrypoints after 88 seconds.
+ml.docilealligator.infinityforreddit.activities.InboxActivity: Finished processing of entrypoints after 432 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.ViewUserDetailActivity: android.widget.TextView userNameTextView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r23 = r0.<ml.docilealligator.infinityforreddit.activities.ViewUserDetailActivity: android.widget.TextView karmaTextView>
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewUserDetailActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.ViewUserDetailActivity: Finished processing of entrypoints after 436 seconds.
+Found 4 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewMultiRedditDetailActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.ViewMultiRedditDetailActivity: Finished processing of entrypoints after 176 seconds.
+ml.docilealligator.infinityforreddit.activities.ViewPostDetailActivity: Finished processing of entrypoints after 417 seconds.
+ml.docilealligator.infinityforreddit.activities.MainActivity: Finished processing of entrypoints after 416 seconds.
+Found 1 reachable methods from <ml.docilealligator.infinityforreddit.activities.ViewSubredditDetailActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+ml.docilealligator.infinityforreddit.activities.ViewSubredditDetailActivity: Finished processing of entrypoints after 255 seconds.
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/ml.docilealligator.infinityforreddit_105/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 565.605669859 seconds
+Entry point creation has run for 0.004869364 seconds
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.036554756 seconds

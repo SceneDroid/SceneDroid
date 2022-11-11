@@ -1,0 +1,409 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+io.github.domi04151309.home_1100: OutputDir not a directory: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/io.github.domi04151309.home_1100
+Found 20 entrypoint classes and 27 methods in overall
+Found 1 reachable methods from <io.github.domi04151309.home.activities.HueLampActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <io.github.domi04151309.home.activities.SplashActivity: void onCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 6 reachable methods from <io.github.domi04151309.home.activities.AboutActivity: void onCreate(android.os.Bundle)>
+Found 6 reachable methods from <io.github.domi04151309.home.activities.ContributorActivity: void onCreate(android.os.Bundle)>
+Found 9 reachable methods from <io.github.domi04151309.home.activities.DevicesActivity: void onCreate(android.os.Bundle)>
+Found 6 reachable methods from <io.github.domi04151309.home.activities.LibraryActivity: void onCreate(android.os.Bundle)>
+Found 10 reachable methods from <io.github.domi04151309.home.activities.WebActivity: void onCreate(android.os.Bundle)>
+io.github.domi04151309.home.activities.SplashActivity: Finished processing of entrypoints after 0 seconds.
+Found 7 reachable methods from <io.github.domi04151309.home.activities.SettingsActivity: void onCreate(android.os.Bundle)>
+Found 17 reachable methods from <io.github.domi04151309.home.activities.SearchDevicesActivity: void onCreate(android.os.Bundle)>
+Found 30 reachable methods from <io.github.domi04151309.home.activities.HueConnectActivity: void onCreate(android.os.Bundle)>
+io.github.domi04151309.home.activities.ContributorActivity: Finished processing of entrypoints after 0 seconds.
+io.github.domi04151309.home.activities.AboutActivity: Finished processing of entrypoints after 0 seconds.
+io.github.domi04151309.home.activities.SettingsActivity: Finished processing of entrypoints after 0 seconds.
+Found 46 reachable methods from <io.github.domi04151309.home.activities.ShortcutTasmotaActionActivity: void onCreate(android.os.Bundle)>
+Found 37 reachable methods from <io.github.domi04151309.home.activities.ShortcutTasmotaActivity: void onCreate(android.os.Bundle)>
+io.github.domi04151309.home.activities.LibraryActivity: Finished processing of entrypoints after 0 seconds.
+Found 36 reachable methods from <io.github.domi04151309.home.activities.ShortcutDeviceActivity: void onCreate(android.os.Bundle)>
+Found 37 reachable methods from <io.github.domi04151309.home.activities.ShortcutHueRoomActivity: void onCreate(android.os.Bundle)>
+Found 48 reachable methods from <io.github.domi04151309.home.activities.ShortcutHueSceneActionActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <io.github.domi04151309.home.activities.WebActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 37 reachable methods from <io.github.domi04151309.home.activities.ShortcutHueSceneActivity: void onCreate(android.os.Bundle)>
+Found 72 reachable methods from <io.github.domi04151309.home.activities.EditDeviceActivity: void onCreate(android.os.Bundle)>
+io.github.domi04151309.home.activities.WebActivity: Finished processing of entrypoints after 1 seconds.
+Found 59 reachable methods from <io.github.domi04151309.home.activities.DeviceInfoActivity: void onCreate(android.os.Bundle)>
+Found 33 reachable methods from <io.github.domi04151309.home.activities.DevicesActivity: void onStart()>
+Found 70 reachable methods from <io.github.domi04151309.home.activities.HueSceneActivity: void onCreate(android.os.Bundle)>
+Did not find string name from string id: id: 2131755191
+io.github.domi04151309.home.activities.SearchDevicesActivity: Finished processing of entrypoints after 1 seconds.
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r5 = $r4.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r5 = $r4.<kotlin.jvm.internal.Ref$ObjectRef: java.lang.Object element>
+Did not find string name from string id: id: 2131755191
+Found 117 reachable methods from <io.github.domi04151309.home.activities.HueLampActivity: void onCreate(android.os.Bundle)>
+io.github.domi04151309.home.activities.ShortcutDeviceActivity: Finished processing of entrypoints after 2 seconds.
+Found 56 reachable methods from <io.github.domi04151309.home.activities.HueConnectActivity: void onStart()>
+io.github.domi04151309.home.activities.ShortcutHueRoomActivity: Finished processing of entrypoints after 2 seconds.
+io.github.domi04151309.home.activities.ShortcutHueSceneActionActivity: Finished processing of entrypoints after 2 seconds.
+io.github.domi04151309.home.activities.ShortcutTasmotaActivity: Finished processing of entrypoints after 2 seconds.
+Did not find string name from string id: id: 2131755195
+io.github.domi04151309.home.activities.ShortcutHueSceneActivity: Finished processing of entrypoints after 2 seconds.
+io.github.domi04151309.home.activities.DeviceInfoActivity: Finished processing of entrypoints after 2 seconds.
+io.github.domi04151309.home.activities.DevicesActivity: Finished processing of entrypoints after 2 seconds.
+io.github.domi04151309.home.activities.ShortcutTasmotaActionActivity: Finished processing of entrypoints after 2 seconds.
+Found 163 reachable methods from <io.github.domi04151309.home.activities.MainActivity: void onStart()>
+io.github.domi04151309.home.activities.HueConnectActivity: Finished processing of entrypoints after 2 seconds.
+io.github.domi04151309.home.activities.EditDeviceActivity: Finished processing of entrypoints after 2 seconds.
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Found 2 reachable methods from <io.github.domi04151309.home.activities.HueLampActivity: void onStart()>
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+io.github.domi04151309.home.activities.HueLampActivity: Finished processing of entrypoints after 2 seconds.
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+io.github.domi04151309.home.activities.HueSceneActivity: Finished processing of entrypoints after 2 seconds.
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Found 1 reachable methods from <io.github.domi04151309.home.activities.MainActivity: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)>
+Found 183 reachable methods from <io.github.domi04151309.home.activities.MainActivity: void onCreate(android.os.Bundle)>
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+Did not find string name from string id: id: 2131755112
+io.github.domi04151309.home.activities.MainActivity: Finished processing of entrypoints after 5 seconds.
+AppController:addText: elementID not found for adding text: elementID: 2131296474
+AppController:addText: elementID not found for adding text: elementID: 2131296719
+AppController:addText: elementID not found for adding text: elementID: 2131296410
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 2131296681
+AppController:addText: elementID not found for adding text: elementID: 2131296410
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/io.github.domi04151309.home_1100/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 5.608983984 seconds
+Entry point creation has run for 0.003256731 seconds
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.034089764 seconds

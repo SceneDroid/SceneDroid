@@ -1,0 +1,67 @@
+{
+    "transitions": [
+        {
+            "handler": "com.github.airsaid.easydrum.ui.activity.GeneralActivity/void O000000o(android.content.Context,int)",
+            "sources": [
+                "com.github.airsaid.easydrum.ui.activity.GeneralActivity"
+            ],
+            "targets": [
+                "com.github.airsaid.easydrum.ui.activity.GeneralActivity"
+            ]
+        },
+        {
+            "handler": "com.github.airsaid.easydrum.ui.activity.SelectActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.github.airsaid.easydrum.ui.activity.SelectActivity"
+            ],
+            "targets": [
+                "com.github.airsaid.easydrum.ui.activity.KnowledgeActivity"
+            ]
+        },
+        {
+            "handler": "com.github.airsaid.easydrum.ui.activity.SelectActivity/void O00000Oo(android.view.View)",
+            "sources": [
+                "com.github.airsaid.easydrum.ui.activity.SelectActivity"
+            ],
+            "targets": [
+                "com.github.airsaid.easydrum.ui.activity.AmateurActivity"
+            ]
+        },
+        {
+            "handler": "com.github.airsaid.easydrum.ui.activity.SelectActivity/void O00000Oo(android.view.View)",
+            "sources": [
+                "com.github.airsaid.easydrum.ui.activity.SelectActivity"
+            ],
+            "targets": [
+                "com.github.airsaid.easydrum.ui.activity.BeginnerActivity"
+            ]
+        },
+        {
+            "handler": "com.github.airsaid.easydrum.ui.activity.SelectActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.github.airsaid.easydrum.ui.activity.SelectActivity"
+            ],
+            "targets": [
+                "com.github.airsaid.easydrum.ui.activity.RecordListActivity"
+            ]
+        },
+        {
+            "handler": "com.github.airsaid.easydrum.ui.activity.SelectActivity/void O00000Oo(android.view.View)",
+            "sources": [
+                "com.github.airsaid.easydrum.ui.activity.SelectActivity"
+            ],
+            "targets": [
+                "com.github.airsaid.easydrum.ui.activity.MasterActivity"
+            ]
+        },
+        {
+            "handler": "com.github.airsaid.easydrum.ui.activity.SplashActivity/void O0000o0()",
+            "sources": [
+                "com.github.airsaid.easydrum.ui.activity.SplashActivity"
+            ],
+            "targets": [
+                "com.github.airsaid.easydrum.ui.activity.SelectActivity"
+            ]
+        }
+    ]
+}

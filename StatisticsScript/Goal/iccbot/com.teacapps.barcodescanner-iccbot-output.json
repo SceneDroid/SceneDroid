@@ -1,0 +1,652 @@
+{
+    "transitions": [
+        {
+            "handler": "net.qrbot.ui.help.cheap.CheapDeviceActivity/void u(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.help.cheap.CheapDeviceActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.help.cheap.CheapDeviceActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.help.cheap.CheapDeviceActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.app.CreateAppActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.create.app.CreateAppActivity/void u(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.app.CreateAppActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.create.app.CreateAppActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.create.app.CreateAppActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.create.contact.CreateContactActivity/void z(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.contact.CreateContactActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.create.contact.CreateContactActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.contact.CreateContactActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.intro.IntroActivity$a/void a(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ],
+            "targets": [
+                "net.qrbot.ui.intro.IntroActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.file.SaveFileActivityImpl"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.encode.EncodeExternalActivityImpl"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.encode.EncodeExternalActivityImpl"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.searches.SearchOptionDetailActivity/void w(androidx.appcompat.app.d,android.net.Uri,int)",
+            "sources": [
+                "net.qrbot.ui.searches.SearchOptionsActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.searches.SearchOptionDetailActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.searches.SearchOptionsActivity/void B(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.searches.SearchOptionsActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.searches.SearchOptionsActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.searches.SearchOptionsActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.create.event.CreateEventActivity/void L(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.event.CreateEventActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.create.event.CreateEventActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.event.CreateEventActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.create.geo.CreateLocationActivity/void F(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.geo.CreateLocationActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.create.geo.CreateLocationActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.geo.CreateLocationActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.help.supported.SupportedCodesActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.help.supported.SupportedCodesActivity/void w(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.help.supported.SupportedCodesActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.help.supported.SupportedCodesActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.website.CreateWebsiteActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.create.website.CreateWebsiteActivity/void v(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.website.CreateWebsiteActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.create.website.CreateWebsiteActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.detail.DetailActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.detail.DetailActivity/void y(net.qrbot.ui.detail.DetailActivity$c,android.net.Uri,boolean,int)",
+            "sources": [
+                "net.qrbot.ui.detail.DetailActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.detail.DetailActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.detail.DetailActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.create.qr.CreateQrCodesActivity/void u(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.qr.CreateQrCodesActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.create.qr.CreateQrCodesActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.qr.CreateQrCodesActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.create.barcode.CreateBarcodeActivity/void u(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.barcode.CreateBarcodeActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.create.barcode.CreateBarcodeActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.barcode.CreateBarcodeActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.help.tips.ScanTipsActivity/void w(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.help.tips.ScanTipsActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.help.tips.ScanTipsActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.help.tips.ScanTipsActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.searches.SearchOptionDetailActivity/void w(androidx.appcompat.app.d,android.net.Uri,int)",
+            "sources": [
+                "net.qrbot.ui.searches.SearchOptionDetailActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.searches.SearchOptionDetailActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.searches.SearchOptionDetailActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.help.HelpActivity/void E(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.support.SupportHelpActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.help.HelpActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.support.SupportHelpActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.support.SupportHelpActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.license.LicenseActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.photo.PhotoActivityImpl/void G(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.photo.PhotoActivityImpl"
+            ],
+            "targets": [
+                "net.qrbot.ui.photo.PhotoActivityImpl"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.photo.PhotoActivityImpl"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.detail.DetailActivity/void y(net.qrbot.ui.detail.DetailActivity$c,android.net.Uri,boolean,int)",
+            "sources": [
+                "net.qrbot.ui.photo.PhotoActivityImpl"
+            ],
+            "targets": [
+                "net.qrbot.ui.detail.DetailActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.create.text.CreateTextActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.text.CreateTextActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.create.text.CreateTextActivity/void z(android.content.Context,x8.h)",
+            "sources": [
+                "net.qrbot.ui.create.text.CreateTextActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.create.text.CreateTextActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.help.questions.FrequentlyAskedQuestionsActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.help.questions.FrequentlyAskedQuestionsActivity/void u(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.help.questions.FrequentlyAskedQuestionsActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.help.questions.FrequentlyAskedQuestionsActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.purchase.coins.CoinsActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.coins.CoinsActivity/void w(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.purchase.coins.CoinsActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.coins.CoinsActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.wifi.CreateWifiActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.create.wifi.CreateWifiActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.create.wifi.CreateWifiActivity/void y(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.wifi.CreateWifiActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.create.wifi.CreateWifiActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.encode.EncodeCreateActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.encode.EncodeCreateActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.coins.CoinsActivity/void w(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.coins.CoinsActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.share.ShareActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.share.ShareActivity/void v(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.share.ShareActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.share.ShareActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.share.ShareActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.email.CreateEmailActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.create.email.CreateEmailActivity/void w(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.email.CreateEmailActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.create.email.CreateEmailActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.create.sms.CreateSmsActivity/void v(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.sms.CreateSmsActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.create.sms.CreateSmsActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.create.sms.CreateSmsActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.intro.IntroActivity$a/void a(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.intro.IntroActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.intro.IntroActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.help.HelpActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.help.HelpActivity/void E(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.help.HelpActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.help.HelpActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.help.HelpActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.purchase.PurchaseActivity/void C(android.content.Context,boolean)",
+            "sources": [
+                "net.qrbot.ui.encode.EncodeDetailActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.purchase.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.encode.EncodeDetailActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        },
+        {
+            "handler": "net.qrbot.ui.country.ProductSearchCountyActivity/void w(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.country.ProductSearchCountyActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.country.ProductSearchCountyActivity"
+            ]
+        },
+        {
+            "handler": "c9.a/void s(android.content.Context)",
+            "sources": [
+                "net.qrbot.ui.country.ProductSearchCountyActivity"
+            ],
+            "targets": [
+                "net.qrbot.ui.main.MainActivityImpl"
+            ]
+        }
+    ]
+}

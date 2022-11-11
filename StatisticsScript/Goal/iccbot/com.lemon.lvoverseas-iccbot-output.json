@@ -1,0 +1,328 @@
+{
+    "transitions": [
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.main.TransLynxActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.vega.recorder.LvRecordActivity$a/void a(android.app.Activity,android.content.Intent,int)",
+            "sources": [
+                "com.vega.recorder.LvRecordActivity"
+            ],
+            "targets": [
+                "com.vega.recorder.LvRecordActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.edit.muxer.view.PipSelectActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.vega.nativesettings.SettingActivity$b/void a(com.vega.ui.state.pressed.PressedStateFrameLayout)",
+            "sources": [
+                "com.vega.nativesettings.SettingActivity"
+            ],
+            "targets": [
+                "com.vega.nativesettings.language.AppLanguageChooseActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.recorder.media.player.PreviewPlayActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.edit.EditActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.web.ResearchActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.gallery.ui.SingleImageGalleryActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.publish.template.publish.view.PublishSelectActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.ug.sdk.luckycat.impl.e.i/boolean a(android.content.Context,com.bytedance.ug.sdk.luckycat.api.model.f)",
+            "sources": [
+                "com.bytedance.ug.sdk.luckycat.impl.project.ProjectActivity"
+            ],
+            "targets": [
+                "com.bytedance.ug.sdk.luckycat.impl.browser.LuckyCatBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.vega.feedx.main.ui.preview.bf/void a(android.app.Activity,com.vega.feedx.main.bean.FeedItem,java.util.List,android.os.Bundle)",
+            "sources": [
+                "com.vega.feedx.main.ui.preview.SingleFeedPreviewBridgeActivity"
+            ],
+            "targets": [
+                "com.vega.feedx.main.ui.preview.SingleFeedPreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.feedx.information.ui.FeedAvatarCropActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.referrals.ReferralClient/boolean tryStartReferral()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.main.FullScreenLynxActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity/void a(java.util.ArrayList,com.lm.components.permission.a)",
+            "sources": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.vega.share.bdopen.BdEntryActivity/void a(android.content.Intent)",
+            "sources": [
+                "com.vega.share.bdopen.BdEntryActivity"
+            ],
+            "targets": [
+                "com.vega.share.bdopen.ProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.recorder.effect.props.view.GreenScreenMediaActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.feedx.information.ui.FeedAvatarActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.ug.sdk.luckycat.impl.i.e/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.vega.luckycat.taskpage.TaskPageActivity"
+            ],
+            "targets": [
+                "com.bytedance.ug.sdk.luckycat.impl.browser.LuckyCatBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.gallery.activity.MediaSelectActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.recorder.MainCameraSelectActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.libcutsame.activity.DraftMediaSelectActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.libcutsame.activity.CutSameReplaceMediaActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.audio.musicimport.extract.ExtractGalleryMusicActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.main.tutorial.FunctionTutorialActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.libcutsame.activity.CutSamePreviewActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.multicutsame.view.MultiCutSamePreviewActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.ss.android.ShowDialogActivity/void showDialog(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.ss.android.ShowDialogActivity"
+            ],
+            "targets": [
+                "com.ss.android.ShowDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.web.WebActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.main.LynxActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.edit.video.view.ReplaceVideoSelectActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.feedx.information.ui.FeedUserEditActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        },
+        {
+            "handler": "com.lm.components.permission.PermissionProxyActivity$a/void a(com.lm.components.permission.a,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.vega.libcutsame.select.view.CutSameSelectMediaActivity"
+            ],
+            "targets": [
+                "com.lm.components.permission.PermissionProxyActivity"
+            ]
+        }
+    ]
+}

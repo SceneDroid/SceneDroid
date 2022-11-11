@@ -1,0 +1,1102 @@
+{
+    "transitions": [
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void b(java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerSongsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.SingerSongsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerSongsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.SingerSongsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.alarmclock.activity.AlarmCreateActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.alarmclock.activity.AlarmCreateActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.alarmclock.activity.AlarmMusicActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.alarmclock.activity.AlarmRingAcitivity/void onNewIntent(android.content.Intent)",
+            "sources": [
+                "com.jiubang.go.music.alarmclock.activity.AlarmRingAcitivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.alarmclock.activity.AlarmCreateActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.rate.NewRateActivity$3$1/void run()",
+            "sources": [
+                "com.jiubang.go.music.rate.NewRateActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.FeedBackActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.HomeActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.download.DownloadManagerActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.theme.ThemeActivity/void a(android.content.Context)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.theme.ThemeActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.n$1/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.playlist.ChooseSongsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.HomeActivity/void onClickMusicItemEvent(com.jiubang.go.music.f.a)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.play.MusicPlayControllActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.HomeActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.notificenter.view.NotificationCenterActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void b(java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.widget.b/void a(android.content.Context)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.widget.GOMusicWidget4x2Provider"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.h.b$a$1/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.FreeStreamActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.search.searchhot.ui.SearchAndHotActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.search.searchhot.ui.SearchAndHotActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.n$4/void a(com.jiubang.go.music.common.base.BaseMenuItemDialog$b)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.playlist.PlayListMusicManagerActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.HomeActivity/void onStart()",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.ad.LauncherAdActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.HomeActivity/void a(android.os.Bundle)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.equalizer.EqualizerActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.HomeActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.dialog.YouTubeDownloadGuide"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.me.a.a/void a(com.jiubang.go.music.login.LoginContract$LoginType,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.login.RegisterActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.pickphoto.a/void a(android.app.Activity,int,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.cutview.CutActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.n$1/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.scanmusic.ScanMusicActivity"
+            ]
+        },
+        {
+            "handler": "com.go.news.activity.news.NewsActivity/void a(android.content.Context,java.util.List)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.go.news.activity.news.NewsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.h.b$a$1/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.alarmclock.activity.AlarmCreateActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.haveatry.BalloonActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.haveatry.BalloonActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.social.comment.view.FullScreenImageActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.social.comment.view.FullScreenImageActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.setting.SettingActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.jiubang.go.music.HomeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.SettingActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.commerce.ad.url.AppDetailsJumpUtil/boolean gotoAppDetails(android.content.Context,com.jiubang.commerce.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.jiubang.go.music.ad.LauncherAdActivity"
+            ],
+            "targets": [
+                "com.jiubang.commerce.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.commerce.ad.h5.H5AdActivity/boolean openLink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.ad.LauncherAdActivity"
+            ],
+            "targets": [
+                "com.jiubang.commerce.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.go.news.activity.news.NewsActivity/void a(android.content.Context,java.util.List)",
+            "sources": [
+                "com.go.news.activity.news.NewsActivity"
+            ],
+            "targets": [
+                "com.go.news.activity.news.NewsActivity"
+            ]
+        },
+        {
+            "handler": "com.go.news.activity.detail.ListNewsPagerActivity/void a(android.app.Activity,java.util.List,int,java.lang.String,int,boolean)",
+            "sources": [
+                "com.go.news.activity.detail.ListNewsPagerActivity"
+            ],
+            "targets": [
+                "com.go.news.activity.detail.ListNewsPagerActivity"
+            ]
+        },
+        {
+            "handler": "com.go.news.activity.news.NewsActivity/void a(android.content.Context,java.util.List)",
+            "sources": [
+                "com.go.news.activity.detail.ListNewsPagerActivity"
+            ],
+            "targets": [
+                "com.go.news.activity.news.NewsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.manager.discussguide.DiscussGuideArtistActivity/void a(com.jiubang.go.music.manager.discussguide.e)",
+            "sources": [
+                "com.jiubang.go.music.manager.discussguide.DiscussGuideArtistActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.manager.discussguide.DiscussGuideArtistActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.SingerDetailActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.manager.discussguide.DiscussGuideArtistActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void b(java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.SingerDetailActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.manager.a/void a(android.app.Activity,byte,int)",
+            "sources": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.login.SilentLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumOfMoreActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumOfMoreActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.social.comment.view.PostCommentActivity/void a(android.app.Activity,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.social.comment.view.PostCommentActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumSingerSongsActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumSingerSongsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.setting.SettingActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.FeedBackActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.rate.a/void e()",
+            "sources": [
+                "com.jiubang.go.music.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.rate.NewRateActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.setting.SettingActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.gdpr.GDPRSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.setting.SettingActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.scanmusic.ScanMusicActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.setting.SettingActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.LanguageActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.utils.d/void b()",
+            "sources": [
+                "com.jiubang.go.music.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.SettingActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.utils.d/void b()",
+            "sources": [
+                "com.jiubang.go.music.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.gdpr.GDPRSplashActivity"
+            ]
+        },
+        {
+            "handler": "com.just.agentweb.ActionActivity/void a(android.app.Activity,com.just.agentweb.Action)",
+            "sources": [
+                "com.just.agentweb.ActionActivity"
+            ],
+            "targets": [
+                "com.just.agentweb.ActionActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void b(java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.social.comment.view.PostCommentActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.social.comment.view.PostCommentActivity/void a(android.app.Activity,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.social.comment.view.PostCommentActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.social.comment.view.PostCommentActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.me.me.view.MyFollowingSingerActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.me.me.view.MyFollowingSingerActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.me.me.view.MyFollowingSingerActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.SingerAlbumsActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.SingerAlbumsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.manager.a/void a(android.app.Activity,byte,int)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.login.SilentLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void b(java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.social.comment.view.FullScreenImageActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.social.comment.view.FullScreenImageActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.SingerDetailActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.ui.h$1/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.SingerSongsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.SingerSongsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.CommentGuideActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.CommentGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumSingerSongsActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumSingerSongsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumSingerSongsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void b(java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumSingerSongsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.rate.RateActivity/void m()",
+            "sources": [
+                "com.jiubang.go.music.rate.RateActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.FeedBackActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.haveatry.BalloonLocalLayout$1/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.haveatry.BalloonActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.scanmusic.ScanMusicActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.haveatry.BalloonActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.jiubang.go.music.haveatry.BalloonActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.haveatry.BalloonActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.manager.discussguide.DiscussGuideAlbumActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.manager.discussguide.DiscussGuideAlbumActivity/void a(com.jiubang.go.music.manager.discussguide.e)",
+            "sources": [
+                "com.jiubang.go.music.manager.discussguide.DiscussGuideAlbumActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.manager.discussguide.DiscussGuideAlbumActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumOfMoreActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumOfMoreActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumOfMoreActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumOfMoreActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.SplashActivity/void i()",
+            "sources": [
+                "com.jiubang.go.music.SplashActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.SplashActivity/void i()",
+            "sources": [
+                "com.jiubang.go.music.SplashActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.ad.LauncherAdActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.search.searchhot.ui.SearchAndHotActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.search.searchhot.ui.SearchAndHotActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.scanmusic.ScanMusicActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void b(java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.search.searchhot.ui.SearchAndHotActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.search.searchhot.ui.SearchAndHotActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.jiubang.go.music.search.searchhot.ui.SearchAndHotActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.search.searchhot.ui.SearchAndHotActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.gdpr.GDPRSplashActivity/void a(java.lang.Byte)",
+            "sources": [
+                "com.jiubang.go.music.gdpr.GDPRSplashActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.SingerListActivity/void a(android.content.Context,java.lang.String,int,java.util.ArrayList,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerListActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.SingerListActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void startMraid(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.login.LoginActivity/void a(com.jiubang.go.music.login.LoginContract$LoginType,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.login.LoginActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.login.RegisterActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.setting.scanmusic.ScanMusicActivity/void c(int)",
+            "sources": [
+                "com.jiubang.go.music.setting.scanmusic.ScanMusicActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.playlist.ChooseSongsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.playlist.PlayListMusicManagerActivity/void p()",
+            "sources": [
+                "com.jiubang.go.music.playlist.PlayListMusicManagerActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.playlist.ChoosePlayListActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.play.MusicPlayControllActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.play.MusicPlayControllActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.setting.equalizer.EqualizerActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.play.MusicPlayControllActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.play.MusicPlayControllActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.visualizer.MusicFlashEffectActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.pickphoto.a/void a(android.app.Activity,int,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.play.MusicPlayControllActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.cutview.CutActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void b(java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.search.SearchLocalOnlineActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.manager.discussguide.DiscussGuideNoRatingActivity/void a(com.jiubang.go.music.manager.discussguide.e,int)",
+            "sources": [
+                "com.jiubang.go.music.manager.discussguide.DiscussGuideNoRatingActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.manager.discussguide.DiscussGuideNoRatingActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.SingerDetailActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.manager.discussguide.DiscussGuideNoRatingActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.SingerDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.manager.discussguide.DiscussGuideNoRatingActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.login.SilentLoginActivity/void a(com.jiubang.go.music.login.LoginContract$LoginType,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.login.SilentLoginActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.login.RegisterActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.social.comment.view.FullScreenImageActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.social.comment.view.FullScreenImageActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.social.comment.view.FullScreenImageActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.me.MeActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.FollowListActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.me.MeActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.FollowListActivity/void a(android.content.Context,java.lang.String,int,int)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.FollowListActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.FollowListActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.CommentGuideActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.CommentGuideActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.CommentGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.go.news.activity.detail.ListNewsPagerActivity/void a(android.app.Activity,java.util.List,int,java.lang.String,int,boolean)",
+            "sources": [
+                "com.go.news.activity.news.SourcesNewsActivity"
+            ],
+            "targets": [
+                "com.go.news.activity.detail.ListNewsPagerActivity"
+            ]
+        },
+        {
+            "handler": "com.go.news.activity.news.SourcesNewsActivity/void a(android.content.Context,java.lang.String,java.lang.String,int,java.lang.String)",
+            "sources": [
+                "com.go.news.activity.news.SourcesNewsActivity"
+            ],
+            "targets": [
+                "com.go.news.activity.news.SourcesNewsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.MusicListDetailActivity$2/void a(com.jiubang.go.music.common.base.BaseMenuItemDialog$b)",
+            "sources": [
+                "com.jiubang.go.music.MusicListDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.playlist.ChooseSongsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.MusicListDetailActivity/void a(android.app.Activity,java.lang.String,int,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.MusicListDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.MusicListDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.MusicListDetailActivity$2/void a(com.jiubang.go.music.common.base.BaseMenuItemDialog$b)",
+            "sources": [
+                "com.jiubang.go.music.MusicListDetailActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.playlist.PlayListMusicManagerActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void a(java.lang.String,int,int)",
+            "sources": [
+                "com.jiubang.go.music.home.FreeStreamSubActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.commerce.ad.h5.H5AdActivity/boolean openLink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.commerce.notification.main.core.HandleNotificaionClickActivity"
+            ],
+            "targets": [
+                "com.jiubang.commerce.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.commerce.ad.url.AppDetailsJumpUtil/boolean gotoAppDetails(android.content.Context,com.jiubang.commerce.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.commerce.notification.main.core.HandleNotificaionClickActivity"
+            ],
+            "targets": [
+                "com.jiubang.commerce.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.social.comment.view.CommentsActivity/void a(android.content.Context,int,com.jiubang.go.music.net.interaction.bean.CommentsInfo,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "com.jiubang.go.music.social.comment.view.CommentsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.social.comment.view.CommentsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.social.comment.view.FullScreenImageActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.social.comment.view.CommentsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.social.comment.view.FullScreenImageActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void b(java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.social.comment.view.CommentsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.home.singer.view.SingerAlbumsActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerAlbumsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.home.singer.view.SingerAlbumsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.singer.view.SingerAlbumsActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.go.news.activity.discover.DiscoverActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.go.news.activity.discover.DiscoverActivity"
+            ],
+            "targets": [
+                "com.go.news.activity.discover.DiscoverActivity"
+            ]
+        },
+        {
+            "handler": "com.go.news.activity.news.SourcesNewsActivity/void a(android.content.Context,java.lang.String,java.lang.String,int,java.lang.String)",
+            "sources": [
+                "com.go.news.activity.discover.DiscoverActivity"
+            ],
+            "targets": [
+                "com.go.news.activity.news.SourcesNewsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.me.MeActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.me.MeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.me.MeActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.commerce.ad.url.AppDetailsJumpUtil/boolean gotoAppDetails(android.content.Context,com.jiubang.commerce.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.jiubang.go.music.ad.DailyRecommendActivity"
+            ],
+            "targets": [
+                "com.jiubang.commerce.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.commerce.ad.h5.H5AdActivity/boolean openLink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.ad.DailyRecommendActivity"
+            ],
+            "targets": [
+                "com.jiubang.commerce.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.home.album.view.AlbumListActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.foryou.OnlineSongsAlbum.ui.AlbumDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.download.DownloadManagerActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void h()",
+            "sources": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.DownloadSongGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.webview.MusicWebViewActivity/void a(java.lang.String,int,int)",
+            "sources": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.webview.MusicWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.go.music.theme.ThemeActivity/void a(android.content.Context)",
+            "sources": [
+                "com.jiubang.go.music.theme.ThemeActivity"
+            ],
+            "targets": [
+                "com.jiubang.go.music.theme.ThemeActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.commerce.ad.h5.H5AdActivity/boolean openLink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.commerce.ad.h5.H5AdActivity"
+            ],
+            "targets": [
+                "com.jiubang.commerce.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.commerce.ad.url.AppDetailsJumpUtil/boolean gotoAppDetails(android.content.Context,com.jiubang.commerce.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.jiubang.go.music.locker.LockerScreenActivity"
+            ],
+            "targets": [
+                "com.jiubang.commerce.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.jiubang.commerce.ad.h5.H5AdActivity/boolean openLink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.jiubang.go.music.locker.LockerScreenActivity"
+            ],
+            "targets": [
+                "com.jiubang.commerce.ad.h5.H5AdActivity"
+            ]
+        }
+    ]
+}

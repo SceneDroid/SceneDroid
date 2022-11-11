@@ -1,0 +1,3406 @@
+{
+    "transitions": [
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMChatInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookItemDetailsActivity/void K(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.IMAddrBookItem,boolean,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMChatInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMSelectContactsActivity/void H(android.app.Activity,com.zipow.videobox.MMSelectContactsActivity$SelectContactsParamter,int,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.MMChatInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMChatInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.MMChatInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMChatActivity/void T(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.ptapp.mm.ZoomBuddy)",
+            "sources": [
+                "com.zipow.videobox.MMChatInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMChatActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.AddrBookItemDetailsFragment/void k7(java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.MMChatInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMChatInfoActivity/void J(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.IMAddrBookItem,java.lang.String,int)",
+            "sources": [
+                "com.zipow.videobox.MMChatInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMChatInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PBXSMSActivity/void H(us.zoom.androidlib.app.ZMActivity,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.MMChatInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.videomail.SipMyGreetingActivity/void w0(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.view.sip.videomail.SipMyGreetingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.videomail.SipMyGreetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.view.sip.videomail.SipMyGreetingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookSetNumberActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookSetNumberActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookSetNumberActivity/void F(us.zoom.androidlib.app.ZMActivity,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookSetNumberActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookSetNumberActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PBXSMSActivity/void H(us.zoom.androidlib.app.ZMActivity,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMChatInfoActivity/void H(androidx.fragment.app.Fragment,java.lang.String,int)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMChatInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMCommentActivity/void K(androidx.fragment.app.Fragment,java.lang.String,java.lang.String,long,android.content.Intent,com.zipow.videobox.MMCommentActivity$ThreadUnreadInfo,int)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMCommentActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMChatActivity/void T(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.ptapp.mm.ZoomBuddy)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMChatActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.MMChatInputFragment/void sa()",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMImageListActivity/void G(android.content.Context,java.lang.String,java.lang.String,long,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMImageListActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookItemDetailsActivity/void K(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.IMAddrBookItem,boolean,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMSelectContactsActivity/void I(androidx.fragment.app.Fragment,com.zipow.videobox.MMSelectContactsActivity$SelectContactsParamter,int,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.MMChatInputFragment/void d9(com.zipow.videobox.fragment.MMChatInputFragment$z1)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "us.zoom.androidlib.app.ZMFileListActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.photopicker.g$a/void r(androidx.fragment.app.Fragment,int)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.photopicker.PhotoPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.AddrBookItemDetailsFragment/void k7(java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.mediaplayer.ZMMediaPlayerActivity/void H(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.mediaplayer.ZMMediaPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.MMChatActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.CallInActivity/void E(us.zoom.androidlib.app.ZMActivity,int)",
+            "sources": [
+                "com.zipow.videobox.CallInActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.CallInActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.CallInActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.CallInActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.SipTransferSucActivity/void F(android.app.Activity)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipTransferSucActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.SipTransferSucActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.ptvideo.PBXVideoRecordActivity/void T(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.zipow.videobox.view.ptvideo.PBXVideoRecordActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.ptvideo.PBXVideoRecordActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.ScheduleActivity/void G(us.zoom.androidlib.app.ZMActivity,int,com.zipow.videobox.view.ScheduledMeetingItem)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ScheduleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.ApproveOrBlockRegionsOptionActivity/void F(androidx.fragment.app.Fragment,int,com.zipow.videobox.confapp.meeting.ApproveOrBlockRegionsOptionParcelItem,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ApproveOrBlockRegionsOptionActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.TrackFieldOptionActivity/void F(androidx.fragment.app.Fragment,int,com.zipow.videobox.ptapp.TrackingFieldInfo)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.TrackFieldOptionActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.s0/boolean V(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMSelectContactsActivity/void I(androidx.fragment.app.Fragment,com.zipow.videobox.MMSelectContactsActivity$SelectContactsParamter,int,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AudioOptionActivity/void F(androidx.fragment.app.Fragment,int,com.zipow.videobox.confapp.meeting.AudioOptionParcelItem,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AudioOptionActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.DataRegionsOptionActivity/void F(androidx.fragment.app.Fragment,int,com.zipow.videobox.confapp.meeting.DataRegionsParcelItem,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.DataRegionsOptionActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.billing.SubscriptionDetailActivity/void i0(boolean)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.billing.SubscriptionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.E2EOptionActivity/void F(androidx.fragment.app.Fragment,int,boolean,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.E2EOptionActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.TemplateOptionActivity/void F(androidx.fragment.app.Fragment,int,com.zipow.videobox.ptapp.TemplateItem,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.ScheduleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.TemplateOptionActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PbxE2EECallStartMeetingDialogActivity/void H(android.content.Context,java.lang.String,long,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.PbxE2EECallStartMeetingDialogActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PbxE2EECallStartMeetingDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.PbxE2EECallStartMeetingDialogActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.InviteActivity/void G(android.app.Activity,int)",
+            "sources": [
+                "com.zipow.videobox.InviteActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.InviteActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.InviteActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MeetingEndMessageActivity/void D0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MeetingEndMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MeetingEndMessageActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/boolean f0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MeetingEndMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MeetingEndMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MeetingEndMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.s0/boolean V(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.MeetingEndMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.WelcomeActivity/void C0(android.content.Context,boolean,boolean,java.lang.String,android.os.Bundle,boolean)",
+            "sources": [
+                "com.zipow.videobox.MeetingEndMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.MMChatInputFragment/void d9(com.zipow.videobox.fragment.MMChatInputFragment$z1)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "us.zoom.androidlib.app.ZMFileListActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.MMChatInputFragment/void sa()",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.photopicker.g$a/void r(androidx.fragment.app.Fragment,int)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.photopicker.PhotoPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PBXSMSActivity/void H(us.zoom.androidlib.app.ZMActivity,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.AddrBookItemDetailsFragment/void k7(java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMImageListActivity/void G(android.content.Context,java.lang.String,java.lang.String,long,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMImageListActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMSelectContactsActivity/void I(androidx.fragment.app.Fragment,com.zipow.videobox.MMSelectContactsActivity$SelectContactsParamter,int,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMChatActivity/void T(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.ptapp.mm.ZoomBuddy)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMChatActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookItemDetailsActivity/void K(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.IMAddrBookItem,boolean,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMCommentActivity/void onNewIntent(android.content.Intent)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMCommentActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.mediaplayer.ZMMediaPlayerActivity/void H(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.MMCommentActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.mediaplayer.ZMMediaPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.FreeMeetingEndActivity/void F(android.content.Context,int,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.FreeMeetingEndActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.conference.ui.ZmFoldableConfActivity$q/void a(java.lang.Boolean)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.v/java.util.List m(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void G(android.content.Context,com.zipow.videobox.ptapp.PTAppProtos$InvitationItem)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MeetingEndMessageActivity/void B0(android.content.Context,int,int)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MeetingEndMessageActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.GreenRoomTransformActivity/void E(android.app.Activity,com.zipow.videobox.conference.model.data.c)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.GreenRoomTransformActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.conference.ui.ZmConfPipActivity/void Q(android.content.Context,boolean,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmConfPipActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IMActivity/void V1(android.content.Context,boolean,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.conference.ui.ZmFoldableConfActivity$q/void a(java.lang.Boolean)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.login.ZmOTPLoginActivity/void G(us.zoom.androidlib.app.ZMActivity,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.login.ZmOTPLoginActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.v/java.util.List m(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.login.ZmSmsLoginActivity/void F(us.zoom.androidlib.app.ZMActivity)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.login.ZmSmsLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.WelcomeActivity/void C0(android.content.Context,boolean,boolean,java.lang.String,android.os.Bundle,boolean)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.ForgetPasswordActivity/void E(us.zoom.androidlib.app.ZMActivity)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ForgetPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.login.ZmMultiFactorAuthActivity/void W(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.ptapp.PTAppProtos$MultiFactorAuth)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.login.ZmMultiFactorAuthActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/boolean f0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IMActivity/void W1(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.LoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMSelectContactsActivity/void I(androidx.fragment.app.Fragment,com.zipow.videobox.MMSelectContactsActivity$SelectContactsParamter,int,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookItemDetailsActivity/void K(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.IMAddrBookItem,boolean,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.v2/void k7(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.ptapp.mm.ZoomBuddy)",
+            "sources": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMChatActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MeetingInfoActivity/void E(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.ScheduledMeetingItem,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.FreeMeetingEndActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MeetingInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.FreeMeetingEndActivity/void F(android.content.Context,int,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.FreeMeetingEndActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.FreeMeetingEndActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.InMeetingSettingsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.InMeetingSettingsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.InMeetingSettingsActivity/void F(us.zoom.androidlib.app.ZMActivity,int)",
+            "sources": [
+                "com.zipow.videobox.InMeetingSettingsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.InMeetingSettingsActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.app.ZMFileListActivity/void m0(android.app.Activity,java.lang.Class,int,java.lang.String[],java.lang.String,int,java.lang.String)",
+            "sources": [
+                "us.zoom.androidlib.app.ZMFileListActivity"
+            ],
+            "targets": [
+                "us.zoom.androidlib.app.ZMFileListActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.TrackFieldOptionActivity/void F(androidx.fragment.app.Fragment,int,com.zipow.videobox.ptapp.TrackingFieldInfo)",
+            "sources": [
+                "com.zipow.videobox.TrackFieldOptionActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.TrackFieldOptionActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.v/java.util.List m(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.view.sip.CmmPbxCallControlActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.CmmPbxCallControlActivity/void E(android.content.Context,com.zipow.videobox.sip.server.g)",
+            "sources": [
+                "com.zipow.videobox.view.sip.CmmPbxCallControlActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.CmmPbxCallControlActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.view.sip.CmmPbxCallControlActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.view.sip.CmmPbxCallControlActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.login.ZmSmsLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void f0(us.zoom.androidlib.app.ZMActivity,java.lang.String,android.os.Bundle,int,int)",
+            "sources": [
+                "com.zipow.videobox.login.ZmSmsLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IMActivity/void V1(android.content.Context,boolean,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.login.ZmSmsLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void f0(us.zoom.androidlib.app.ZMActivity,java.lang.String,android.os.Bundle,int,int)",
+            "sources": [
+                "com.zipow.videobox.login.ZmSmsLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.login.ZmSmsLoginActivity/void F(us.zoom.androidlib.app.ZMActivity)",
+            "sources": [
+                "com.zipow.videobox.login.ZmSmsLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.login.ZmSmsLoginActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.v/java.util.List m(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.login.ZmSmsLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.DataRegionsOptionActivity/void F(androidx.fragment.app.Fragment,int,com.zipow.videobox.confapp.meeting.DataRegionsParcelItem,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.DataRegionsOptionActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.DataRegionsOptionActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.SettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.FeedbackActivity/void E(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.SettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.billing.SubscriptionDetailActivity/void i0(boolean)",
+            "sources": [
+                "com.zipow.videobox.SettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.billing.SubscriptionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.SettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMChatActivity/void L(us.zoom.androidlib.app.ZMActivity,java.lang.String,android.content.Intent,boolean)",
+            "sources": [
+                "com.zipow.videobox.SettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMChatActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.SettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookItemDetailsActivity/void K(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.IMAddrBookItem,boolean,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.SettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.d1/void e(us.zoom.androidlib.app.ZMActivity)",
+            "sources": [
+                "com.zipow.videobox.SettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SettingActivity/void E(us.zoom.androidlib.app.ZMActivity,int)",
+            "sources": [
+                "com.zipow.videobox.SettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SettingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.r4/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.zipow.videobox.SettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.v/java.util.List m(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.JoinConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.JoinConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.confapp.meeting.premeeting.joinscene.ZMJoinByUrl/int joinByUrl(android.content.Context,java.lang.String,boolean)",
+            "sources": [
+                "com.zipow.videobox.JoinConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.confapp.meeting.premeeting.joinscene.ZMJoinByUrl/int joinByUrl(android.content.Context,java.lang.String,boolean)",
+            "sources": [
+                "com.zipow.videobox.JoinConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.JoinConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.JoinConfActivity/void E(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.JoinConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.JoinConfActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.TemplateOptionActivity/void F(androidx.fragment.app.Fragment,int,com.zipow.videobox.ptapp.TemplateItem,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.TemplateOptionActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.TemplateOptionActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.v/boolean k(android.content.Context,java.lang.String,boolean)",
+            "sources": [
+                "com.zipow.videobox.TemplateOptionActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMImageListActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMImageListActivity/void G(android.content.Context,java.lang.String,java.lang.String,long,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.MMImageListActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMImageListActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MMImageListActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.SetPasswordActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SetPasswordActivity/void E(us.zoom.androidlib.app.ZMActivity,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.SetPasswordActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SetPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.MeetingInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.MeetingInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.ScheduleActivity/void G(us.zoom.androidlib.app.ZMActivity,int,com.zipow.videobox.view.ScheduledMeetingItem)",
+            "sources": [
+                "com.zipow.videobox.MeetingInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ScheduleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MeetingInfoActivity/void E(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.ScheduledMeetingItem,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MeetingInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MeetingInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MeetingInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.MeetingInfoActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PBXSMSActivity/void H(us.zoom.androidlib.app.ZMActivity,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.StarredMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMImageListActivity/void G(android.content.Context,java.lang.String,java.lang.String,long,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.StarredMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMImageListActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.StarredMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.StarredMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.StarredMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.StarredMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.StarredMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.StarredMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.StarredMessageActivity/void E(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.StarredMessageActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.StarredMessageActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MyProfileActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MyProfileActivity/void G(us.zoom.androidlib.app.ZMActivity,int)",
+            "sources": [
+                "com.zipow.videobox.MyProfileActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MyProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MyProfileActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/boolean f0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MyProfileActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.MyProfileActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.j3/void D6(java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.MyProfileActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.MyProfileActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MyProfileActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.JoinConfActivity/void E(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookItemDetailsActivity/void K(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.IMAddrBookItem,boolean,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMChatActivity/void a0(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.ptapp.mm.ZoomBuddy,android.content.Intent,boolean,boolean)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMChatActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.billing.SubscriptionDetailActivity/void i0(boolean)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.billing.SubscriptionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.d1/void e(us.zoom.androidlib.app.ZMActivity)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PBXSMSActivity/void G(us.zoom.androidlib.app.ZMActivity,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.confapp.meeting.confhelper.ZoomRateHelper/void launchGooglePlayAppDetail(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void q0(us.zoom.androidlib.app.ZMActivity,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.WelcomeActivity/void C0(android.content.Context,boolean,boolean,java.lang.String,android.os.Bundle,boolean)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMSelectContactsActivity/void I(androidx.fragment.app.Fragment,com.zipow.videobox.MMSelectContactsActivity$SelectContactsParamter,int,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.IMActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.AddrBookItemDetailsFragment/void k7(java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PBXSMSActivity/void H(us.zoom.androidlib.app.ZMActivity,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookItemDetailsActivity/void K(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.IMAddrBookItem,boolean,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMChatActivity/void T(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.ptapp.mm.ZoomBuddy)",
+            "sources": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMChatActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.FeedbackActivity/void E(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.FeedbackActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookVerifyNumberActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookVerifyNumberActivity/void E(us.zoom.androidlib.app.ZMActivity,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookVerifyNumberActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookVerifyNumberActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookVerifyNumberActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.AudioOptionActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.AudioOptionActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AudioOptionActivity/void F(androidx.fragment.app.Fragment,int,com.zipow.videobox.confapp.meeting.AudioOptionParcelItem,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.AudioOptionActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AudioOptionActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.SystemNotificationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.SystemNotificationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.ApproveOrBlockRegionsOptionActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.ApproveOrBlockRegionsOptionActivity/void F(androidx.fragment.app.Fragment,int,com.zipow.videobox.confapp.meeting.ApproveOrBlockRegionsOptionParcelItem,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.ApproveOrBlockRegionsOptionActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ApproveOrBlockRegionsOptionActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.ApproveOrBlockRegionsOptionActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.s0/boolean V(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.MinVersionForceUpdateActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.d1/void e(us.zoom.androidlib.app.ZMActivity)",
+            "sources": [
+                "com.zipow.videobox.MinVersionForceUpdateActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MinVersionForceUpdateActivity/void F(android.content.Context,java.lang.String,boolean,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.MinVersionForceUpdateActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MinVersionForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.billing.SubscriptionDetailActivity/void i0(boolean)",
+            "sources": [
+                "com.zipow.videobox.billing.SubscriptionDetailActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.billing.SubscriptionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.CmmPbxCallControlActivity/void E(android.content.Context,com.zipow.videobox.sip.server.g)",
+            "sources": [
+                "com.zipow.videobox.CallingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.CmmPbxCallControlActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.CallingActivity/void E(boolean)",
+            "sources": [
+                "com.zipow.videobox.CallingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.CallingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.CallingActivity/void F0(android.content.Context,com.zipow.videobox.ptapp.PTAppProtos$InvitationItem)",
+            "sources": [
+                "com.zipow.videobox.CallingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.CallingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.SignupActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.v/java.util.List m(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.SignupActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SignupActivity/void F(us.zoom.androidlib.app.ZMActivity,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.SignupActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SignupActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.SignupActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.SignupActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.ForgetPasswordActivity/void E(us.zoom.androidlib.app.ZMActivity)",
+            "sources": [
+                "com.zipow.videobox.ForgetPasswordActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ForgetPasswordActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.v/java.util.List m(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MeetingEndMessageActivity/void D0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.MeetingEndMessageActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IMActivity/void V1(android.content.Context,boolean,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.confapp.meeting.videoeffects.VideoEffectsActivity/void show(android.content.Context,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.confapp.meeting.videoeffects.VideoEffectsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.confapp.component.ZmBaseConfShareComponent/boolean handleActiveUserForScreenShare()",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.conference.model.intent.d/void d(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.FreeMeetingEndActivity/void F(android.content.Context,int,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.FreeMeetingEndActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.confapp.component.ZmBaseConfShareComponent/boolean handleActiveUserForScreenShare()",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.conference.ui.ZmConfPipActivity/void Q(android.content.Context,boolean,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmConfPipActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PListActivity/void E(us.zoom.androidlib.app.ZMActivity,int)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.PListActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.confapp.component.ZmConfShareComponent/void selectShareType(com.zipow.videobox.confapp.meeting.confhelper.ShareOptionType)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "us.zoom.androidlib.app.ZMFileListActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.GreenRoomTransformActivity/void E(android.app.Activity,com.zipow.videobox.conference.model.data.c)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.GreenRoomTransformActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipIncomePopActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.CmmPbxCallControlActivity/void E(android.content.Context,com.zipow.videobox.sip.server.g)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipIncomePopActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.CmmPbxCallControlActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.SipIncomePopActivity/void H(android.content.Context,com.zipow.videobox.sip.server.NosSIPCallItem,boolean)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipIncomePopActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.SipIncomePopActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipIncomePopActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.s0/boolean V(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.photopicker.g$a/void r(androidx.fragment.app.Fragment,int)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.photopicker.PhotoPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.MMChatInputFragment/void sa()",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMSelectContactsActivity/void I(androidx.fragment.app.Fragment,com.zipow.videobox.MMSelectContactsActivity$SelectContactsParamter,int,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMSelectContactsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PBXSMSActivity/void H(us.zoom.androidlib.app.ZMActivity,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.mediaplayer.ZMMediaPlayerActivity/void H(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.mediaplayer.ZMMediaPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.fragment.MMChatInputFragment/void d9(com.zipow.videobox.fragment.MMChatInputFragment$z1)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "us.zoom.androidlib.app.ZMFileListActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/boolean f0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.PBXSMSActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.GreenRoomTransformActivity/void E(android.app.Activity,com.zipow.videobox.conference.model.data.c)",
+            "sources": [
+                "com.zipow.videobox.GreenRoomTransformActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.GreenRoomTransformActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmConfPipActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.conference.ui.ZmConfPipActivity/void Q(android.content.Context,boolean,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmConfPipActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmConfPipActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.conference.model.intent.d/void d(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmConfPipActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.conference.ui.ZmConfPipActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipIncomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.sip.server.CmmSIPCallManager/void S7()",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipIncomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.SipIncomeActivity/void H(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipIncomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.SipIncomeActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.CmmPbxCallControlActivity/void E(android.content.Context,com.zipow.videobox.sip.server.g)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipIncomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.CmmPbxCallControlActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.CallRoomActivity/void E(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.CallRoomActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.CallRoomActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.v/java.util.List m(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.login.ZmMultiFactorAuthActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.login.ZmMultiFactorAuthActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IMActivity/void V1(android.content.Context,boolean,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.login.ZmMultiFactorAuthActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.login.ZmMultiFactorAuthActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/boolean f0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.login.ZmMultiFactorAuthActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.login.ZmMultiFactorAuthActivity/void W(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.ptapp.PTAppProtos$MultiFactorAuth)",
+            "sources": [
+                "com.zipow.videobox.login.ZmMultiFactorAuthActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.login.ZmMultiFactorAuthActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.login.ZmMultiFactorAuthActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.login.ZmMultiFactorAuthActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.mediaplayer.ZMMediaPlayerActivity/void H(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.mediaplayer.ZMMediaPlayerActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.mediaplayer.ZMMediaPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/boolean f0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.LauncherActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.LauncherActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void b0(android.content.Intent)",
+            "sources": [
+                "com.zipow.videobox.LauncherActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.LauncherActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.s0/boolean V(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.LauncherActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.login.ZmOTPLoginActivity/void G(us.zoom.androidlib.app.ZMActivity,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.login.ZmOTPLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.login.ZmOTPLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.login.ZmOTPLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.v/java.util.List m(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.login.ZmOTPLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.login.ZmOTPLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.login.ZmOTPLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.login.ZmOTPLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/boolean f0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.login.ZmOTPLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IMActivity/void V1(android.content.Context,boolean,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.login.ZmOTPLoginActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.view.sip.videomail.SipRecordVideomailActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.videomail.SipRecordVideomailActivity/void d0(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.view.sip.videomail.SipRecordVideomailActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.videomail.SipRecordVideomailActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.JoinConfActivity/void E(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.WelcomeActivity/void F0()",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void Q(androidx.fragment.app.Fragment,java.lang.String,android.os.Bundle,int,int,int)",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.v/java.util.List m(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.WelcomeActivity/void C0(android.content.Context,boolean,boolean,java.lang.String,android.os.Bundle,boolean)",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/boolean f0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.WelcomeActivity/boolean W()",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMShareActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.WelcomeActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.confapp.meeting.videoeffects.VideoEffectsActivity/void show(android.content.Context,java.util.ArrayList)",
+            "sources": [
+                "com.zipow.videobox.confapp.meeting.videoeffects.VideoEffectsActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.confapp.meeting.videoeffects.VideoEffectsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.ZmPollingActivity/void L(android.app.Activity,int)",
+            "sources": [
+                "com.zipow.videobox.ZmPollingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ZmPollingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.JoinMeetingFailActivity/void E(android.content.Context,java.lang.String,com.zipow.videobox.broadcast.model.conf.e)",
+            "sources": [
+                "com.zipow.videobox.JoinMeetingFailActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinMeetingFailActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.SimpleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.SimpleActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.E2EOptionActivity/void F(androidx.fragment.app.Fragment,int,boolean,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.E2EOptionActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.E2EOptionActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.livetranscript.PBXLiveTranscriptActivity$a/void a(us.zoom.androidlib.app.ZMActivity,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.view.sip.livetranscript.PBXLiveTranscriptActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.livetranscript.PBXLiveTranscriptActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.view.sip.livetranscript.PBXLiveTranscriptActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.videomail.SipRecordVideomailActivity/void d0(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.view.sip.videomail.SipGreetingPlayerActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.videomail.SipRecordVideomailActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.view.sip.videomail.SipGreetingPlayerActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.videomail.SipGreetingPlayerActivity/void C0(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.view.sip.videomail.SipGreetingPlayerActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.videomail.SipGreetingPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.SipInCallActivity/void J4(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.view.sip.videomail.SipGreetingPlayerActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.StarredActivity/void E(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.StarredActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.StarredActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.StarredActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.StarredActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.StarredActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookItemDetailsActivity/void K(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.IMAddrBookItem,boolean,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.StarredActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMChatActivity/void f0(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.IMAddrBookItem,java.lang.String,boolean)",
+            "sources": [
+                "com.zipow.videobox.StarredActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMChatActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.confapp.meeting.premeeting.joinscene.ZMJoinByUrl/int joinByUrl(android.content.Context,java.lang.String,boolean)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void v0(us.zoom.androidlib.app.ZMActivity,java.lang.String,boolean)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void f0(us.zoom.androidlib.app.ZMActivity,java.lang.String,android.os.Bundle,int,int)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.confapp.meeting.premeeting.joinscene.ZMJoinByUrl/int joinByUrl(android.content.Context,java.lang.String,boolean)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.JoinByURLActivity/void p0(android.content.Context,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.ForgetPasswordActivity/void E(us.zoom.androidlib.app.ZMActivity)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ForgetPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IMActivity/void V1(android.content.Context,boolean,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.WelcomeActivity/void C0(android.content.Context,boolean,boolean,java.lang.String,android.os.Bundle,boolean)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SetPasswordActivity/void E(us.zoom.androidlib.app.ZMActivity,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SetPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void f0(us.zoom.androidlib.app.ZMActivity,java.lang.String,android.os.Bundle,int,int)",
+            "sources": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/void s(us.zoom.androidlib.app.ZMActivity,android.net.Uri)",
+            "sources": [
+                "com.zipow.videobox.MMShareActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/void s(us.zoom.androidlib.app.ZMActivity,android.net.Uri)",
+            "sources": [
+                "com.zipow.videobox.MMShareActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MMShareActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/boolean f0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MMShareActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.MMShareActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.MMShareActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.SipTransferResultActivity/void f0(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipTransferResultActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.SipTransferResultActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipTransferResultActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.SipInCallActivity/void M4(android.content.Context,java.lang.String,com.zipow.videobox.sip.PBXJoinMeetingRequest)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.livetranscript.PBXLiveTranscriptActivity$a/void a(us.zoom.androidlib.app.ZMActivity,android.os.Bundle)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.livetranscript.PBXLiveTranscriptActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.CmmPbxCallControlActivity/void E(android.content.Context,com.zipow.videobox.sip.server.g)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.CmmPbxCallControlActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.CallingActivity/void F0(android.content.Context,com.zipow.videobox.ptapp.PTAppProtos$InvitationItem)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.CallingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.videomail.SipGreetingPlayerActivity/void C0(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.videomail.SipGreetingPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.MMChatActivity/void K(us.zoom.androidlib.app.ZMActivity,java.lang.String,android.content.Intent)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.MMChatActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookItemDetailsActivity/void K(us.zoom.androidlib.app.ZMActivity,com.zipow.videobox.view.IMAddrBookItem,boolean,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/boolean W(android.content.Intent)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LoginActivity/boolean show(android.content.Context,boolean,com.zipow.videobox.ptapp.AutoLogoffChecker$AutoLogoffInfo,boolean)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void J(android.app.Activity,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/boolean W(android.content.Intent)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PbxDialKeyboardMeetingDialogActivity/void E(android.content.Context,int)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PbxDialKeyboardMeetingDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/void C(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PTService$b"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.util.NotificationMgr/boolean f0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.SipIncomePopActivity/void I(android.content.Context,com.zipow.videobox.sip.server.NosSIPCallItem)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.SipIncomePopActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/boolean I()",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.SipInCallActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.LauncherActivity/void s0(android.content.Context)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.LauncherActivity"
+            ]
+        },
+        {
+            "handler": "us.zoom.androidlib.utils.s0/boolean V(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.JoinByURLActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.SipIncomeActivity/void H(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.SipIncomeActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.view.sip.videomail.SipGreetingPlayerActivity/void C0(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.view.sip.videomail.SipGreetingPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/boolean q0()",
+            "sources": [
+                "com.zipow.videobox.IntegrationActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IMActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PbxDialKeyboardMeetingDialogActivity/void E(android.content.Context,int)",
+            "sources": [
+                "com.zipow.videobox.PbxDialKeyboardMeetingDialogActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PbxDialKeyboardMeetingDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookSettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleInMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.SimpleActivity/void K(androidx.fragment.app.Fragment,int,java.lang.String,android.os.Bundle,int,int,boolean,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookSettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.SimpleActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.AddrBookSettingActivity/void F(us.zoom.androidlib.app.ZMActivity,int)",
+            "sources": [
+                "com.zipow.videobox.AddrBookSettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.AddrBookSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.AddrBookSettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.AddrBookSettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.conference.ui.ZmFoldableConfActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.utils.meeting.i/boolean m(android.content.Context,com.zipow.videobox.confapp.meeting.premeeting.confIntent.ZMConfIntentWrapper)",
+            "sources": [
+                "com.zipow.videobox.AddrBookSettingActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.ConfActivityNormal"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.PListActivity/void E(us.zoom.androidlib.app.ZMActivity,int)",
+            "sources": [
+                "com.zipow.videobox.PListActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.PListActivity"
+            ]
+        },
+        {
+            "handler": "com.zipow.videobox.IntegrationActivity/void d1(com.zipow.videobox.VideoBoxApplication,java.lang.String,java.lang.String,int,long,boolean)",
+            "sources": [
+                "com.zipow.videobox.PListActivity"
+            ],
+            "targets": [
+                "com.zipow.videobox.IntegrationActivity"
+            ]
+        }
+    ]
+}

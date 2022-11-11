@@ -1,0 +1,31 @@
+{
+    "transitions": [
+        {
+            "handler": "org.scoutant.blokish.UI/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.scoutant.blokish.UI"
+            ],
+            "targets": [
+                "org.scoutant.blokish.Settings"
+            ]
+        },
+        {
+            "handler": "org.scoutant.blokish.UI/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.scoutant.blokish.UI"
+            ],
+            "targets": [
+                "org.scoutant.blokish.Help"
+            ]
+        },
+        {
+            "handler": "org.scoutant.blokish.SplashScreen$1/void handleMessage(android.os.Message)",
+            "sources": [
+                "org.scoutant.blokish.SplashScreen"
+            ],
+            "targets": [
+                "org.scoutant.blokish.UI"
+            ]
+        }
+    ]
+}

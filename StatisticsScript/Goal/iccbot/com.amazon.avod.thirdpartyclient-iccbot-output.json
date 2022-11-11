@@ -1,0 +1,2155 @@
+{
+    "transitions": [
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.LiveTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.LiveTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.LiveTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.LiveTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.LiveTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.download.activity.DownloadsEpisodeActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.download.activity.DownloadsEpisodeActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.download.activity.DownloadsEpisodeActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.download.activity.DownloadsEpisodeActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.download.activity.DownloadsEpisodeActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.playbackclient.support.NoSupportActivity/void startActivityWithARTWarning(android.content.Context,android.net.Uri)",
+            "sources": [
+                "com.amazon.avod.playbackclient.test.BasicTestPlaybackActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.playbackclient.support.NoSupportActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.activity.WebViewSignUpActivity/void start(android.app.Activity,java.lang.String,com.amazon.avod.clickstream.RefData,java.lang.String,com.google.common.base.Optional,com.google.common.base.Optional)",
+            "sources": [
+                "com.amazon.avod.client.activity.WebViewSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.WebViewSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.WebViewSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.WebViewSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.WebViewSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.WebViewSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.WebViewSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.auth.RegistrationActivity/void startActivityForAction(android.content.Context,com.amazon.avod.auth.RegistrationActivity$RegistrationAction,android.content.Intent,com.google.common.base.Optional)",
+            "sources": [
+                "com.amazon.avod.thirdpartyclient.activity.AccountMismatchActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.thirdpartyclient.activity.AccountMismatchActivity/void startActivityForAction(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.amazon.avod.thirdpartyclient.activity.AccountMismatchActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.thirdpartyclient.activity.AccountMismatchActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.StoreTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.StoreTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.StoreTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.StoreTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.StoreTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.auth.VideoRegionErrorActivity/void launch(android.content.Context,java.lang.String,android.content.Intent)",
+            "sources": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.detailpage.DetailPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.detailpage.DetailPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.detailpage.DetailPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.detailpage.DetailPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.detailpage.DetailPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.SearchListActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.SearchListActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.SearchListActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.SearchListActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.SearchListActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.AboutUsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.AboutUsSettings/boolean lambda$setUpPreference$0$AboutUsSettings(java.lang.String,android.preference.Preference)",
+            "sources": [
+                "com.amazon.avod.settings.page.AboutUsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.AboutUsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.AboutUsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.download.activity.DownloadsLandingActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.download.activity.DownloadsLandingActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.download.activity.DownloadsLandingActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.download.activity.DownloadsLandingActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.download.activity.DownloadsLandingActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.manager.ProfileManagerActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.manager.ProfileManagerActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.profile.manager.ProfileManagerActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.profile.manager.ProfileManagerActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.manager.ProfileManagerActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.StreamingAndDownloadingSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.StreamingAndDownloadingSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.StreamingAndDownloadingSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.library.LibraryActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.library.LibraryActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.library.LibraryActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.library.LibraryActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.library.LibraryActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.DownloadQualitySettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.DownloadQualitySettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.DownloadQualitySettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.PrimeSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.PrimeSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.PrimeSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.activity.WebViewSignUpActivity/void start(android.app.Activity,java.lang.String,com.amazon.avod.clickstream.RefData,java.lang.String,com.google.common.base.Optional,com.google.common.base.Optional)",
+            "sources": [
+                "com.amazon.avod.client.activity.PrimeSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.WebViewSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.PrimeSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.PrimeSignUpActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.MainSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.MainSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.MainSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.following.gridselector.FollowingSelectorActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.following.gridselector.FollowingSelectorActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.following.gridselector.FollowingSelectorActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.following.gridselector.FollowingSelectorActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.following.gridselector.FollowingSelectorActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchlist.WatchlistListActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchlist.WatchlistListActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.watchlist.WatchlistListActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.watchlist.WatchlistListActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchlist.WatchlistListActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchparty.JoinWatchPartyActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchparty.JoinWatchPartyActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchparty.JoinWatchPartyActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.watchparty.JoinWatchPartyActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.watchparty.JoinWatchPartyActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.LandingPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.LandingPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.LandingPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.LandingPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.LandingPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity/void launch(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.ParentalControlsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.ParentalControlsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.ParentalControlsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.CantileverWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.CantileverWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.CantileverWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.CantileverWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.CantileverWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.GCastDataUsageSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.GCastDataUsageSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.GCastDataUsageSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.BrowseGridActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.BrowseGridActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.BrowseGridActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.BrowseGridActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.BrowseGridActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.profile.edit.ProfileEditActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.profile.edit.ProfileEditActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.edit.ProfileEditActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.edit.ProfileEditActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.edit.ProfileEditActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.purchase.WebViewPurchaseActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.purchase.WebViewPurchaseActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.purchase.WebViewPurchaseActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.purchase.WebViewPurchaseActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.purchase.WebViewPurchaseActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.avatar.AvatarSelectionActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.avatar.AvatarSelectionActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.avatar.AvatarSelectionActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.profile.avatar.AvatarSelectionActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.profile.avatar.AvatarSelectionActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.auth.RegistrationActivity/void startActivityForAction(android.content.Context,com.amazon.avod.auth.RegistrationActivity$RegistrationAction,android.content.Intent,com.google.common.base.Optional)",
+            "sources": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.auth.VideoRegionErrorActivity/void launch(android.content.Context,java.lang.String,android.content.Intent)",
+            "sources": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.ContactUsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.ContactUsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.ContactUsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.AutoDownloadsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.AutoDownloadsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.AutoDownloadsSettings$DescriptionListener/void onClick(android.view.View)",
+            "sources": [
+                "com.amazon.avod.settings.page.AutoDownloadsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.settings.page.AutoDownloadsLearnMoreSettings"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.AutoDownloadsSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.LanguageSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.LanguageSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.LanguageSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.launchscreens.LaunchScreensActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.launchscreens.LaunchScreensActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.launchscreens.LaunchScreensActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.launchscreens.LaunchScreensActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.launchscreens.LaunchScreensActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.playbackclient.support.NoSupportActivity/void startActivityWithNoSupportError(android.content.Context,com.amazon.avod.media.playback.support.PlaybackSupportInfo)",
+            "sources": [
+                "com.amazon.avod.playbackclient.support.NoSupportActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.playbackclient.support.NoSupportActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.SearchQueryActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.SearchQueryActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.SearchQueryActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.SearchQueryActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.SearchQueryActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.create.ProfileCreationActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.profile.create.ProfileCreationActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.profile.create.ProfileCreationActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.create.ProfileCreationActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.profile.create.ProfileCreationActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.linearpreviewrolls.ComingSoonPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.linearpreviewrolls.ComingSoonPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.linearpreviewrolls.ComingSoonPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.linearpreviewrolls.ComingSoonPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.linearpreviewrolls.ComingSoonPageActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.HelpWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.HelpWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.activity.HelpWebViewActivity/boolean activityShouldOverrideUrlLoading(java.lang.String)",
+            "sources": [
+                "com.amazon.avod.client.activity.HelpWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.DeepLinkSettingsForwardingActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.HelpWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.HelpWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.HelpWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.secondscreen.activity.CompanionModeActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.secondscreen.activity.CompanionModeActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.secondscreen.activity.CompanionModeActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.secondscreen.activity.CompanionModeActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.following.mystuff.MyStuffFollowingActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.following.mystuff.MyStuffFollowingActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.following.mystuff.MyStuffFollowingActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.following.mystuff.MyStuffFollowingActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.following.mystuff.MyStuffFollowingActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.NotificationSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.NotificationSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.NotificationSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.playbackclient.support.NoSupportActivity/void startActivityWithARTWarning(android.content.Context,android.net.Uri)",
+            "sources": [
+                "com.amazon.avod.thirdpartyclient.ThirdPartyPlaybackActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.playbackclient.support.NoSupportActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchparty.CreateWatchPartyActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.watchparty.CreateWatchPartyActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.watchparty.CreateWatchPartyActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchparty.CreateWatchPartyActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchparty.CreateWatchPartyActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.secondscreen.activity.QrCodeSignInAlertActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.secondscreen.activity.QrCodeSignInAlertActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.secondscreen.activity.QrCodeSignInAlertActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.activity.InitializationErrorActivity$InitializationErrorActivityLauncher/void onInitializationError(com.amazon.avod.core.InitializationErrorCode)",
+            "sources": [
+                "com.amazon.avod.activity.InitializationErrorActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.activity.InitializationErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.ChannelsTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.ChannelsTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.ChannelsTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.ChannelsTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.ChannelsTabActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.WebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.WebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.WebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.WebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.WebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchparty.WatchPartyChatActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.watchparty.WatchPartyChatActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchparty.WatchPartyChatActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.watchparty.WatchPartyChatActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.watchparty.WatchPartyChatActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.HomeScreenActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.HomeScreenActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.HomeScreenActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.HomeScreenActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.HomeScreenActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.ParentalControlsWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.ParentalControlsWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.ParentalControlsWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.ParentalControlsWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.ParentalControlsWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.purchase.MultiFactorAuthWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.purchase.MultiFactorAuthWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.purchase.MultiFactorAuthWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.purchase.MultiFactorAuthWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.purchase.MultiFactorAuthWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.CastDetailsActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.CastDetailsActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.CastDetailsActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.CastDetailsActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.CastDetailsActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.AutoDownloadsLearnMoreSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.AutoDownloadsLearnMoreSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.AutoDownloadsLearnMoreSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.activity.DeepLinkSettingsForwardingActivity/void onCreateAfterInject(android.os.Bundle)",
+            "sources": [
+                "com.amazon.avod.client.activity.DeepLinkSettingsForwardingActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.settings.page.NotificationSettings"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.MobileStreamingQualitySettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.MobileStreamingQualitySettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.MobileStreamingQualitySettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.FreeTvActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.FreeTvActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.client.BaseActivity/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.client.activity.FreeTvActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.privacy.EPrivacyModalFactory/void createPrivacyModal$lambda-5(com.amazon.avod.privacy.EPrivacyModalFactory,com.amazon.pv.ui.modals.PVUIModal,android.view.View)",
+            "sources": [
+                "com.amazon.avod.client.activity.FreeTvActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.client.activity.CookiePrefsWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.secondscreen.gcast.restrictions.GCastRestrictionsManager/void performPinCheck(java.lang.String,com.amazon.atvplaybackdevice.types.VideoMaterialType)",
+            "sources": [
+                "com.amazon.avod.client.activity.FreeTvActivity"
+            ],
+            "targets": [
+                "com.amazon.avod.secondscreen.gcast.restrictions.GCastPinCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.DownloadLanguagePickerSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.VideoRegionErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.DownloadLanguagePickerSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.locale.DeviceLanguageUnsupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.avod.settings.page.BaseSettings/void postInjectionInitializeInBackground()",
+            "sources": [
+                "com.amazon.avod.settings.page.DownloadLanguagePickerSettings"
+            ],
+            "targets": [
+                "com.amazon.avod.auth.RegistrationActivity"
+            ]
+        }
+    ]
+}

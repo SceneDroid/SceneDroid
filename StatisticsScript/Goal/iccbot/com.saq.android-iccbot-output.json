@@ -1,0 +1,1624 @@
+{
+    "transitions": [
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.common.activity.GenericTextActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.common.activity.GenericTextActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.common.activity.GenericTextActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.common.activity.GenericTextActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.favorites.CreateFavoriteListActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.favorites.CreateFavoriteListActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.favorites.CreateFavoriteListActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.favorites.CreateFavoriteListActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.search.criterias.SearchCriteriaCategoriesActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.search.criterias.SearchCriteriaCategoriesActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.search.criterias.SearchCriteriaCategoriesActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.search.criterias.SearchCriteriaCategoriesActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.checkout.ChooseHomeDeliveryActivity/void d()",
+            "sources": [
+                "com.saq.android.checkout.ChooseHomeDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.shippingaddress.EditShippingAddressActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.checkout.ChooseHomeDeliveryActivity/void a(com.saq.a.e.c.r)",
+            "sources": [
+                "com.saq.android.checkout.ChooseHomeDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.checkout.CheckoutSummaryActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.checkout.ChooseHomeDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.checkout.ChooseHomeDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.checkout.ChooseHomeDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.checkout.ChooseHomeDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.checkout.ChooseHomeDeliveryActivity/void c()",
+            "sources": [
+                "com.saq.android.checkout.ChooseHomeDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.shippingaddress.ShippingAddressesActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.shippingaddress.ShippingAddressesActivity/void onCreateShippingAddressClicked()",
+            "sources": [
+                "com.saq.android.shippingaddress.ShippingAddressesActivity"
+            ],
+            "targets": [
+                "com.saq.android.shippingaddress.EditShippingAddressActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.shippingaddress.ShippingAddressesActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.shippingaddress.ShippingAddressesActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.shippingaddress.ShippingAddressesActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.shippingaddress.ShippingAddressesActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.purchaseprofile.PurchaseProfileSegmentActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.purchaseprofile.PurchaseProfileSegmentActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.purchaseprofile.PurchaseProfileSegmentActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.purchaseprofile.PurchaseProfileSegmentActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.checkout.PaymentActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.checkout.PaymentActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.checkout.PaymentActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.checkout.PaymentActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.checkout.PaymentActivity$2/void a(com.mirego.scratch.core.event.i$k,com.saq.a.e.c.d)",
+            "sources": [
+                "com.saq.android.checkout.PaymentActivity"
+            ],
+            "targets": [
+                "com.saq.android.checkout.PaymentConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.search.criterias.SearchCriteriaCountriesActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.search.criterias.SearchCriteriaCountriesActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.search.criterias.SearchCriteriaCountriesActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.search.criterias.SearchCriteriaCountriesActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.productdetails.ProductImageActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.productdetails.ProductImageActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.productdetails.ProductImageActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.productdetails.ProductImageActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.shoppingcart.ShoppingCartActivity/void c()",
+            "sources": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.LegalNotesActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.shoppingcart.ShoppingCartActivity/void b(boolean)",
+            "sources": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ],
+            "targets": [
+                "com.saq.android.checkout.ChooseHomeDeliveryActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.shoppingcart.ShoppingCartActivity/void b(boolean)",
+            "sources": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ],
+            "targets": [
+                "com.saq.android.checkout.ChooseStoreDeliveryActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.shoppingcart.ShoppingCartActivity/void b()",
+            "sources": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspirePointDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.purchaseprofile.PurchaseProfileActivity/void d()",
+            "sources": [
+                "com.saq.android.purchaseprofile.PurchaseProfileActivity"
+            ],
+            "targets": [
+                "com.saq.android.purchaseprofile.PurchaseProfileSegmentActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.purchaseprofile.PurchaseProfileActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.purchaseprofile.PurchaseProfileActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.purchaseprofile.PurchaseProfileActivity/void c()",
+            "sources": [
+                "com.saq.android.purchaseprofile.PurchaseProfileActivity"
+            ],
+            "targets": [
+                "com.saq.android.purchasehistory.PurchaseHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.purchaseprofile.PurchaseProfileActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.purchaseprofile.PurchaseProfileActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.productdetails.ProductPairingsActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.productdetails.ProductPairingsActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.productdetails.ProductPairingsActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.productdetails.ProductPairingsActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.inspire.InspirePointDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.inspire.InspirePointDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.inspire.InspirePointDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.inspire.InspirePointDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.favorites.EditFavoriteCommentActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.favorites.EditFavoriteCommentActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.favorites.EditFavoriteCommentActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.favorites.EditFavoriteCommentActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.account.BillingAddressActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.account.BillingAddressActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.account.BillingAddressActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.account.BillingAddressActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.moreinfo.SettingsActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.moreinfo.SettingsActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.moreinfo.SettingsActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.moreinfo.SettingsActivity/void f()",
+            "sources": [
+                "com.saq.android.moreinfo.SettingsActivity"
+            ],
+            "targets": [
+                "com.saq.android.moreinfo.HiddenConfigActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.moreinfo.SettingsActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.splash.SplashActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.saq.android.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.shippingaddress.EditShippingAddressActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.shippingaddress.EditShippingAddressActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.shippingaddress.EditShippingAddressActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.shippingaddress.EditShippingAddressActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.productdetails.ProductDetailsActivity$9/void a(com.mirego.scratch.core.event.i$k,com.saq.a.e.c.bg)",
+            "sources": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.storelocator.StoreLocatorStandaloneActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.productdetails.ProductDetailsActivity$2/void a(com.mirego.scratch.core.event.i$k,com.saq.a.e.c.bg)",
+            "sources": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductPairingsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.productdetails.ProductDetailsActivity/void a()",
+            "sources": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.common.activity.GenericTextActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.productdetails.ProductDetailsActivity/void a(com.saq.a.e.c.bj,android.widget.ImageView)",
+            "sources": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductImageActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.purchasehistory.PurchaseHistoryActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.purchasehistory.PurchaseHistoryActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.purchasehistory.PurchaseHistoryActivity/void c()",
+            "sources": [
+                "com.saq.android.purchasehistory.PurchaseHistoryActivity"
+            ],
+            "targets": [
+                "com.saq.android.purchaseprofile.PurchaseProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.purchasehistory.PurchaseHistoryActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.purchasehistory.PurchaseHistoryActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.main.MainActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.main.MainActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.main.MainActivity/void a()",
+            "sources": [
+                "com.saq.android.main.MainActivity"
+            ],
+            "targets": [
+                "com.saq.android.favorites.FavoriteListsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.main.MainActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.main.MainActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.account.ProfileActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.account.ProfileActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.account.ProfileActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.account.ProfileActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.favorites.FavoriteListsActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.favorites.FavoriteFragment/void b()",
+            "sources": [
+                "com.saq.android.favorites.FavoriteListsActivity"
+            ],
+            "targets": [
+                "com.saq.android.search.filters.FiltersActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.favorites.FavoriteListsActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.favorites.FavoriteListsActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.favorites.FavoriteFragment/void c(com.saq.a.e.c.x)",
+            "sources": [
+                "com.saq.android.favorites.FavoriteListsActivity"
+            ],
+            "targets": [
+                "com.saq.android.favorites.EditFavoriteCommentActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.favorites.FavoriteListsActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.checkout.PaymentConfirmationActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.checkout.PaymentConfirmationActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.checkout.PaymentConfirmationActivity/void c()",
+            "sources": [
+                "com.saq.android.checkout.PaymentConfirmationActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspirePointDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.checkout.PaymentConfirmationActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.checkout.PaymentConfirmationActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.checkout.ChooseStoreDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.checkout.ChooseStoreDeliveryActivity/void b()",
+            "sources": [
+                "com.saq.android.checkout.ChooseStoreDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.checkout.CheckoutSummaryActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.checkout.ChooseStoreDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.checkout.ChooseStoreDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.checkout.ChooseStoreDeliveryActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.search.filters.FiltersActivity/void a(java.util.List,com.saq.android.common.fragment.BaseFragment,android.view.View)",
+            "sources": [
+                "com.saq.android.search.filters.FiltersActivity"
+            ],
+            "targets": [
+                "com.saq.android.search.criterias.SearchCriteriaCountriesActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.search.filters.FiltersActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.search.filters.FiltersActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.search.filters.FiltersActivity/void a(java.util.List,com.saq.a.e.c.l,com.saq.android.common.fragment.BaseFragment,android.view.View)",
+            "sources": [
+                "com.saq.android.search.filters.FiltersActivity"
+            ],
+            "targets": [
+                "com.saq.android.search.criterias.SearchCriteriaCategoriesActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.search.filters.FiltersActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.search.filters.FiltersActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.scan.ScanInspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.scan.ScanInspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.scan.ScanInspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.scan.ScanInspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.login.ForgotPasswordActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.login.ForgotPasswordActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.login.ForgotPasswordActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.login.ForgotPasswordActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.storelocator.StoreLocatorStandaloneActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.storelocator.StoreLocatorStandaloneActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.storelocator.StoreLocatorStandaloneActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.storelocator.StoreLocatorStandaloneActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.moreinfo.HiddenConfigActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.moreinfo.HiddenConfigActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.moreinfo.HiddenConfigActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.moreinfo.HiddenConfigActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.login.LoginActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.login.LoginActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.login.LoginActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.login.LoginActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.login.LoginActivity/void a(java.lang.String)",
+            "sources": [
+                "com.saq.android.login.LoginActivity"
+            ],
+            "targets": [
+                "com.saq.android.login.ForgotPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.login.LoginActivity/void a()",
+            "sources": [
+                "com.saq.android.login.LoginActivity"
+            ],
+            "targets": [
+                "com.saq.android.account.CreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.inspire.ManageInspireCardActivity/void a()",
+            "sources": [
+                "com.saq.android.inspire.ManageInspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.scan.ScanInspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.inspire.ManageInspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.inspire.ManageInspireCardActivity/void c()",
+            "sources": [
+                "com.saq.android.inspire.ManageInspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.common.activity.GenericTextActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.inspire.ManageInspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.inspire.ManageInspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.inspire.ManageInspireCardActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.account.CreateAccountActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.account.CreateAccountActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.account.CreateAccountActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.account.CreateAccountActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.checkout.CheckoutSummaryActivity/void d()",
+            "sources": [
+                "com.saq.android.checkout.CheckoutSummaryActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspirePointDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.checkout.CheckoutSummaryActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.checkout.CheckoutSummaryActivity/void b()",
+            "sources": [
+                "com.saq.android.checkout.CheckoutSummaryActivity"
+            ],
+            "targets": [
+                "com.saq.android.checkout.PaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.checkout.CheckoutSummaryActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.checkout.CheckoutSummaryActivity/void c()",
+            "sources": [
+                "com.saq.android.checkout.CheckoutSummaryActivity"
+            ],
+            "targets": [
+                "com.saq.android.account.BillingAddressActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.checkout.CheckoutSummaryActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.checkout.CheckoutSummaryActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.myoffers.OfferDetailActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.myoffers.OfferDetailActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.myoffers.OfferDetailActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.myoffers.OfferDetailActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.scan.ScanProductActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.scan.ScanProductActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.scan.ScanProductActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.scan.ScanProductActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(com.saq.a.e.c.bp)",
+            "sources": [
+                "com.saq.android.shoppingcart.LegalNotesActivity"
+            ],
+            "targets": [
+                "com.saq.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void r_()",
+            "sources": [
+                "com.saq.android.shoppingcart.LegalNotesActivity"
+            ],
+            "targets": [
+                "com.saq.android.shoppingcart.ShoppingCartActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.utils.a/void a(android.app.Activity,com.saq.a.e.c.bj,android.view.View,int)",
+            "sources": [
+                "com.saq.android.shoppingcart.LegalNotesActivity"
+            ],
+            "targets": [
+                "com.saq.android.productdetails.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.saq.android.common.activity.BaseActivity/void a(boolean)",
+            "sources": [
+                "com.saq.android.shoppingcart.LegalNotesActivity"
+            ],
+            "targets": [
+                "com.saq.android.inspire.InspireCardActivity"
+            ]
+        }
+    ]
+}

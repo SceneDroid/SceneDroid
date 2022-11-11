@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "com.irahul.worldclock.WorldClockActivity/void invokeAddZoneActivity()",
+            "sources": [
+                "com.irahul.worldclock.WorldClockActivity"
+            ],
+            "targets": [
+                "com.irahul.worldclock.TimeZoneEdit"
+            ]
+        }
+    ]
+}

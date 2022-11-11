@@ -1,0 +1,180 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+com.praveenj.vocab_2022-10-15: OutputDir not a directory: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.praveenj.vocab_2022-10-15
+Found 14 entrypoint classes and 18 methods in overall
+Found 1 reachable methods from <com.praveenj.vocab.SettingsActivity$MyPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.praveenj.vocab.testc: void onPostCreate(android.os.Bundle)>
+Found 2 reachable methods from <com.praveenj.vocab.Summary: void onCreate(android.os.Bundle)>
+Found 2 reachable methods from <com.praveenj.vocab.SettingsActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.praveenj.vocab.FragmentActivityBuilder: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <com.praveenj.vocab.ResultActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.praveenj.vocab.FragmentActivityBuilder: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.praveenj.vocab.Removeads: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.praveenj.vocab.FragmentActivityBuilder: void onCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 11 reachable methods from <com.praveenj.vocab.LevelsActivity: void onCreate(android.os.Bundle)>
+Found 10 reachable methods from <com.praveenj.vocab.FlashCardsActivity: void onCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 6 reachable methods from <com.praveenj.vocab.WordViewPager: void onCreate(android.os.Bundle)>
+com.praveenj.vocab.SettingsActivity$MyPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+com.praveenj.vocab.SettingsActivity: Finished processing of entrypoints after 0 seconds.
+com.praveenj.vocab.Summary: Finished processing of entrypoints after 0 seconds.
+com.praveenj.vocab.GroupListActivity: Finished processing of entrypoints after 0 seconds.
+com.praveenj.vocab.Removeads: Finished processing of entrypoints after 0 seconds.
+com.praveenj.vocab.FragmentActivityBuilder: Finished processing of entrypoints after 0 seconds.
+com.praveenj.vocab.WordListActivity: Finished processing of entrypoints after 0 seconds.
+Found 17 reachable methods from <com.praveenj.vocab.MainActivity: void onCreate(android.os.Bundle)>
+Found 13 reachable methods from <com.praveenj.vocab.QuizActivity: void onCreate(android.os.Bundle)>
+Found 16 reachable methods from <com.praveenj.vocab.testc: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.praveenj.vocab.FlashCardsActivity: void onPostCreate(android.os.Bundle)>
+com.praveenj.vocab.FlashCardsActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.praveenj.vocab.LevelsActivity: void onPostCreate(android.os.Bundle)>
+com.praveenj.vocab.LevelsActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.praveenj.vocab.MainActivity: void onPostCreate(android.os.Bundle)>
+com.praveenj.vocab.MainActivity: Finished processing of entrypoints after 0 seconds.
+com.praveenj.vocab.testc: Finished processing of entrypoints after 0 seconds.
+com.praveenj.vocab.WordViewPager: Finished processing of entrypoints after 0 seconds.
+com.praveenj.vocab.ResultActivity: Finished processing of entrypoints after 0 seconds.
+com.praveenj.vocab.QuizActivity: Finished processing of entrypoints after 33 seconds.
+AppsUIElement not found with id: 16908290
+AppController:addText: elementID not found for adding text: elementID: 2131230842
+AppController:addText: elementID not found for adding text: elementID: 2131230728
+AppController:addText: elementID not found for adding text: elementID: 2131230989
+AppController:addText: elementID not found for adding text: elementID: 2131230726
+AppController:addText: elementID not found for adding text: elementID: 2131230911
+AppController:addText: elementID not found for adding text: elementID: 2131230724
+AppController:addText: elementID not found for adding text: elementID: 2131230995
+AppController:addText: elementID not found for adding text: elementID: 2131230985
+AppController:addText: elementID not found for adding text: elementID: 2131230720
+AppController:addText: elementID not found for adding text: elementID: 2131230842
+AppController:addText: elementID not found for adding text: elementID: 2131230994
+AppController:addText: elementID not found for adding text: elementID: 2131230990
+AppController:addText: elementID not found for adding text: elementID: 2131230991
+AppController:addText: elementID not found for adding text: elementID: 2131230911
+AppController:addText: elementID not found for adding text: elementID: 2131230991
+AppController:addText: elementID not found for adding text: elementID: 2131230990
+AppController:addText: elementID not found for adding text: elementID: 2131230842
+AppController:addText: elementID not found for adding text: elementID: 2131230911
+AppController:addText: elementID not found for adding text: elementID: 2131230989
+AppController:addText: elementID not found for adding text: elementID: 2131230842
+AppController:addText: elementID not found for adding text: elementID: 2131230842
+AppController:addText: elementID not found for adding text: elementID: 2131230911
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.praveenj.vocab_2022-10-15/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 34.023908604 seconds
+Entry point creation has run for 0.0033847 seconds
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.018562102 seconds

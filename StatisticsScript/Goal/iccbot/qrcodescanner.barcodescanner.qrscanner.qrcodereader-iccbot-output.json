@@ -1,0 +1,670 @@
+{
+    "transitions": [
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.favorite.FavoriteActivity$a/void b(android.content.Context,boolean)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.create.CreateHistoryActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.favorite.FavoriteActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.create.CreateHistoryActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.create.CreateHistoryActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.create.CreateHistoryActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.create.CreateHistoryActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.PaypalCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.PaypalCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.PaypalCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.PaypalCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.CalendarCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.CalendarCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.CalendarCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.CalendarCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugScanLibActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugScanLibActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugDataActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugDataActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugConfigActivity$a/void a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugConfigActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugAdActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugAdActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugViewActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugViewActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WhatsappCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WhatsappCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WhatsappCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WhatsappCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugAdActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugAdActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugAdActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugDataActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugDataActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugDataActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugConfigActivity$a/void a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugConfigActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugConfigActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TwitterCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TwitterCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TwitterCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TwitterCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.ViberCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.ViberCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.ViberCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.ViberCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FeedbackActivity$a/void a(android.app.Activity)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.AmazonActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.YoutubeCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.YoutubeCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.YoutubeCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.YoutubeCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.FacebookCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.FacebookCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.FacebookCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.FacebookCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.InstagramCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.InstagramCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.InstagramCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.InstagramCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.SplashActivity$a/void b(android.content.Context,boolean)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugViewActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.SplashActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugViewActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugViewActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugViewActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$a/void c(android.content.Context,g.b.b.c.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugViewActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.ScanResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$a/void c(android.content.Context,g.b.b.c.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugViewActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.AmazonActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.SplashActivity$a/void b(android.content.Context,boolean)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.SplashActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.SplashActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.SplashActivity/void R()",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.SplashActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.MainActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.MecardCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.MecardCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.MecardCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.MecardCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.ContactsCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.ContactsCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.ContactsCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.ContactsCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.WelcomeActivity$b/void onClick(android.view.View)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.WelcomeActivity"
+            ],
+            "targets": [
+                "industries.deepthought.core.activity.PolicyActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.WelcomeActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.SplashActivity$a/void b(android.content.Context,boolean)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.WelcomeActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.SplashActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$a/void c(android.content.Context,g.b.b.c.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.batch.BatchListActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.ScanResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.batch.BatchListActivity$a/void b(android.content.Context,java.util.ArrayList)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.batch.BatchListActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.batch.BatchListActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$a/void c(android.content.Context,g.b.b.c.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.batch.BatchListActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.AmazonActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.batch.BatchListActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WifiCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WifiCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WifiCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WifiCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugScanLibActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugScanLibActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.util.debug.DebugScanLibActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.favorite.FavoriteActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$a/void c(android.content.Context,g.b.b.c.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.favorite.FavoriteActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.AmazonActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$a/void c(android.content.Context,g.b.b.c.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.favorite.FavoriteActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.ScanResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.favorite.FavoriteActivity$a/void b(android.content.Context,boolean)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.favorite.FavoriteActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.history.favorite.FavoriteActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TextCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TextCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TextCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TextCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WebsiteCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WebsiteCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WebsiteCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.WebsiteCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FAQActivity$a/void c(android.app.Activity,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FAQActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FAQActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FAQActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FeedbackActivity$a/void a(android.app.Activity)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FAQActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$a/void c(android.content.Context,g.b.b.c.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.MainActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.ScanResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FAQActivity$a/void c(android.app.Activity,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FAQActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.MainActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FAQActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$a/void c(android.content.Context,g.b.b.c.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.c.a$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.MainActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.AmazonActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.batch.BatchListActivity$a/void b(android.content.Context,java.util.ArrayList)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.MainActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.batch.BatchListActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TelCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TelCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TelCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.TelCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.EmailCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.EmailCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.EmailCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.EmailCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FAQActivity$a/void c(android.app.Activity,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FAQActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.WebViewActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FAQActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FeedbackActivity$a/void a(android.app.Activity)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FeedbackActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.setting.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.SmsCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.SmsCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.SmsCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.SmsCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.SpotifyCreatorActivity$a/k.m a(android.content.Context)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.SpotifyCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.SpotifyCreatorActivity"
+            ]
+        },
+        {
+            "handler": "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$a/void d(android.content.Context,g.b.b.e.d.b,qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity$b)",
+            "sources": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.create.kind.SpotifyCreatorActivity"
+            ],
+            "targets": [
+                "qrcodescanner.barcodescanner.qrscanner.qrcodereader.page.result.CreateResultActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "Q73/boolean a()",
+            "sources": [
+                "org.chromium.android_webview.devui.MainActivity"
+            ],
+            "targets": [
+                "org.chromium.android_webview.devui.MainActivity"
+            ]
+        }
+    ]
+}

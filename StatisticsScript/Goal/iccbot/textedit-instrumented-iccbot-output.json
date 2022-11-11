@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "org.paulmach.textedit.pmTextEdit$8/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "org.paulmach.textedit.pmTextEdit"
+            ],
+            "targets": [
+                "org.paulmach.textedit.FileBrowser"
+            ]
+        },
+        {
+            "handler": "org.paulmach.textedit.pmTextEdit/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.paulmach.textedit.pmTextEdit"
+            ],
+            "targets": [
+                "org.paulmach.textedit.EditPreferences"
+            ]
+        }
+    ]
+}

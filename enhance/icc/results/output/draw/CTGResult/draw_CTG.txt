@@ -1,0 +1,29 @@
+
+com.simplemobiletools.draw.pro.activities.MainActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.draw.pro.activities.MainActivity -> com.simplemobiletools.draw.pro.activities.SettingsActivity
+com.simplemobiletools.draw.pro.activities.MainActivity -> com.simplemobiletools.commons.activities.AboutActivity
+
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.commons.receivers.SharedThemeReceiver
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.commons.activities.AboutActivity
+
+com.simplemobiletools.commons.activities.FAQActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.FAQActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+
+com.simplemobiletools.draw.pro.activities.SplashActivity -> com.simplemobiletools.draw.pro.activities.MainActivity
+
+com.simplemobiletools.draw.pro.activities.SettingsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.draw.pro.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.ContributorsActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.LicenseActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.FAQActivity
+
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+

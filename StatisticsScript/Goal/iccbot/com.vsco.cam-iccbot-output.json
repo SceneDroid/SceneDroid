@@ -1,0 +1,1003 @@
+{
+    "transitions": [
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.splash.SignInSplashActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.suggested.SuggestedUsersOnboardingActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.signin.SignInActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.signin.SignInActivity$4/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.nux.signin.SignInActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.about.privacypolicy.SettingsAboutPrivacyPolicy"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.signin.SignInActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.nux.signin.SignInActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.about.termsofuse.SettingsAboutTermsOfUse"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.euconsent.EUConsentActivity/void a(android.app.Activity,int,co.vsco.vsn.response.consent_api.Consent)",
+            "sources": [
+                "com.vsco.cam.euconsent.EUConsentActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.euconsent.EUConsentActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.euconsent.EUConsentActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.euconsent.EUConsentActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.about.privacypolicy.SettingsAboutPrivacyPolicy"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.account.publish.m/void a()",
+            "sources": [
+                "com.vsco.cam.account.publish.PublishActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.account.publish.m/void a()",
+            "sources": [
+                "com.vsco.cam.account.publish.PublishActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.homework.submitted.HomeworkSubmittedActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.subscription.entitlement.i/void f()",
+            "sources": [
+                "com.vsco.cam.subscription.entitlement.SubscriptionEntitlementFeedActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.editimage.EditImageActivity/void a(android.content.Context,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "com.vsco.cam.editimage.EditImageActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.account.publish.PublishActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.edit.a/void v()",
+            "sources": [
+                "com.vsco.cam.editimage.EditImageActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.billing.StoreActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.edit.a/void u()",
+            "sources": [
+                "com.vsco.cam.editimage.EditImageActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.editimage.management.EditManagementActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.edit.k/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.editimage.EditImageActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.edit.k/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.editimage.EditImageActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellConsolidatedActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.accountkit.AccountKitActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.accountkit.b/void a(android.app.Activity)",
+            "sources": [
+                "com.vsco.cam.nux.accountkit.AccountKitActivity"
+            ],
+            "targets": [
+                "com.facebook.accountkit.ui.AccountKitActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.k/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellConsolidatedActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.n/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.social.SettingsSocialActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.o/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.privacy.SettingsPrivacyActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.m/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.preferences.SettingsPreferencesActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.p/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.licensing.SettingsLicensingActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.q/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.SettingsSupportActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.l/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.about.SettingsAboutActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.k/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.accountkit.ui.AccountKitEmailRedirectActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.accountkit.ui.AccountKitEmailRedirectActivity"
+            ],
+            "targets": [
+                "com.facebook.accountkit.ui.AccountKitActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity/void f()",
+            "sources": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.checkout.SubscriptionCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.signup.SignUpActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.nux.signup.SignUpActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.about.termsofuse.SettingsAboutTermsOfUse"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.signup.SignUpActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.nux.signup.SignUpActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.about.privacypolicy.SettingsAboutPrivacyPolicy"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.signup.SignUpActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.eu.OnboardingEUConsentActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.nux.eu.OnboardingEUConsentActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.about.privacypolicy.SettingsAboutPrivacyPolicy"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.eu.OnboardingEUConsentActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.fmf.contacts.FMFRecommendedContactsActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.billing.detail.l/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.billing.detail.StoreDetailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellConsolidatedActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.billing.detail.StoreDetailActivity/void a(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.vsco.cam.billing.detail.StoreDetailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.billing.detail.StoreDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.billing.detail.l/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.billing.detail.StoreDetailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.subscription.checkout.SubscriptionCheckoutOnboardingActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.imports.b.i/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.imports.ImportActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellConsolidatedActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.imports.ImportActivity/void a(android.app.Activity,com.vsco.cam.imports.ImportActivity$GalleryType,boolean,boolean)",
+            "sources": [
+                "com.vsco.cam.imports.ImportActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.imports.ImportActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.imports.b.i/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.imports.ImportActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.camera.widget.CameraActivity/void onBackPressed()",
+            "sources": [
+                "com.vsco.cam.camera.widget.CameraActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.subscription.checkout.SubscriptionCheckoutActivity/void d()",
+            "sources": [
+                "com.vsco.cam.subscription.checkout.SubscriptionCheckoutActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.success.SubscriptionSuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.l/boolean a(android.content.Intent,android.content.Context)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.camera.widget.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.l/boolean a(android.content.Intent,android.content.Context)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.edit.EditDeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.p$1/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.billing.StoreActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.billing.detail.StoreDetailActivity/void a(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.billing.detail.StoreDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.utility.views.banner.BannerType$FREE_TRIAL$a/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.l/boolean a(android.content.Intent,android.content.Context)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.personalprofile.views.h/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.l/boolean a(android.content.Intent,android.content.Context,java.util.Map)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.entitlement.SubscriptionEntitlementFeedActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.verify.c/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.account.editemail.EditEmailActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.imports.b.k/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellConsolidatedActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.l/boolean a(android.content.Intent,android.content.Context)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.preferences.SettingsPreferencesActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.p$1/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.article.video_webview.ArticleWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.l/boolean a(android.content.Intent,android.content.Context)",
+            "sources": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.account.editprofile.e/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.account.editprofile.EditProfileActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.account.changepassword.ChangePasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.account.editprofile.c/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.account.editprofile.EditProfileActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.account.changeusername.ChangeUsernameActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.imports.ImportActivity/void a(android.app.Activity,com.vsco.cam.imports.ImportActivity$GalleryType,boolean,boolean)",
+            "sources": [
+                "com.vsco.cam.account.editprofile.EditProfileActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.imports.ImportActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.subscription.upsell.SubscriptionUpsellOnboardingActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.findmyfriends.RequestPermissionActivity/void a(android.app.Activity,java.lang.String,int,int,int)",
+            "sources": [
+                "com.vsco.cam.findmyfriends.RequestPermissionActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.findmyfriends.RequestPermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.navigation.t/void onInitFinished(org.json.JSONObject,io.branch.referral.BranchError)",
+            "sources": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.entitlement.SubscriptionEntitlementFeedActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.navigation.t/void onInitFinished(org.json.JSONObject,io.branch.referral.BranchError)",
+            "sources": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.article.video_webview.ArticleWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.navigation.t/void onInitFinished(org.json.JSONObject,io.branch.referral.BranchError)",
+            "sources": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.navigation.t/void onInitFinished(org.json.JSONObject,io.branch.referral.BranchError)",
+            "sources": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.edit.EditDeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.navigation.t/void onInitFinished(org.json.JSONObject,io.branch.referral.BranchError)",
+            "sources": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.camera.widget.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.navigation.t/void onInitFinished(org.json.JSONObject,io.branch.referral.BranchError)",
+            "sources": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.billing.StoreActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.navigation.t/void onInitFinished(org.json.JSONObject,io.branch.referral.BranchError)",
+            "sources": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.navigation.t/void onInitFinished(org.json.JSONObject,io.branch.referral.BranchError)",
+            "sources": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.preferences.SettingsPreferencesActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.navigation.t/void onInitFinished(org.json.JSONObject,io.branch.referral.BranchError)",
+            "sources": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.c.a/void b()",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ],
+            "targets": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.c.a/void b()",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ],
+            "targets": [
+                "com.samsung.android.sdk.iap.lib.activity.DialogActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.edit.EditDeepLinkActivity/void a(java.util.List,com.vsco.cam.utility.imageprocessing.ImportingAsyncTask$ImportResults)",
+            "sources": [
+                "com.vsco.cam.edit.EditDeepLinkActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.editimage.EditImageActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.imports.ImportActivity/void a(android.app.Activity,com.vsco.cam.imports.ImportActivity$GalleryType,boolean,boolean)",
+            "sources": [
+                "com.vsco.cam.edit.EditDeepLinkActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.imports.ImportActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.subscription.success.b/void a()",
+            "sources": [
+                "com.vsco.cam.subscription.success.SubscriptionSuccessActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.edit.a/void u()",
+            "sources": [
+                "com.vsco.cam.video.edit.EditVideoActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.editimage.management.EditManagementActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.edit.a/void v()",
+            "sources": [
+                "com.vsco.cam.video.edit.EditVideoActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.billing.StoreActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.edit.k/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.video.edit.EditVideoActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellConsolidatedActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.edit.k/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.video.edit.EditVideoActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.activity.CheckPackageActivity$2/void run()",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.CheckPackageActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.camera.widget.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.studio.imagedetail.StudioDetailActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.debug.a/void c(android.app.Activity)",
+            "sources": [
+                "com.vsco.cam.settings.debug.SettingsDebugActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.nux.debug.experiments.SettingsDebugExperimentsActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.utility.Utility/void h(android.app.Activity)",
+            "sources": [
+                "com.vsco.cam.settings.debug.SettingsDebugActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.debug.a/void c(android.content.Context)",
+            "sources": [
+                "com.vsco.cam.settings.debug.SettingsDebugActivity"
+            ],
+            "targets": [
+                "com.vsco.ml.test.MLTestActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.debug.g/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.settings.debug.SettingsDebugActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.education.EducationActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.settings.debug.a/void b(android.content.Context)",
+            "sources": [
+                "com.vsco.cam.settings.debug.SettingsDebugActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.imports.ImportActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.subscription.admin.t/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.update.SubscriptionMessageActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.l/boolean a(android.content.Intent,android.content.Context)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.edit.EditDeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.subscription.admin.r/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.success.SubscriptionSuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.subscription.admin.p/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.l/boolean a(android.content.Intent,android.content.Context)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.camera.widget.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.s/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.l/boolean a(android.content.Intent,android.content.Context)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.billing.StoreActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.l/boolean a(android.content.Intent,android.content.Context)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.settings.preferences.SettingsPreferencesActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.subscription.admin.s/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.entitlement.SubscriptionEntitlementFeedActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.subscription.admin.q/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.checkout.SubscriptionCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.subscription.admin.p/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.subscription.upsell.SubscriptionUpsellConsolidatedActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.l/boolean a(android.content.Intent,android.content.Context)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.nux.verify.VerifyEmailActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.puns.v/void onClick(android.view.View)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.article.video_webview.ArticleWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.subscription.admin.SubscriptionAdminActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.camera.widget.CameraActivity/void onBackPressed()",
+            "sources": [
+                "com.vsco.cam.camera.widget.WidgetCameraActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.resetpassword.ResetPasswordPhoneActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.findmyfriends.f/void b()",
+            "sources": [
+                "com.vsco.cam.nux.fmf.contacts.FMFOnboardingActivity"
+            ],
+            "targets": [
+                "com.facebook.accountkit.ui.AccountKitActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.fmf.contacts.FMFOnboardingActivity/void h()",
+            "sources": [
+                "com.vsco.cam.nux.fmf.contacts.FMFOnboardingActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.nux.fmf.contacts.OnboardingContactsUploadActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.fmf.contacts.FMFOnboardingActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.fmf.contacts.FMFOnboardingActivity/void i()",
+            "sources": [
+                "com.vsco.cam.nux.fmf.contacts.FMFOnboardingActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.nux.fmf.contacts.OnboardingTwitterUploadActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.findmyfriends.RequestPermissionActivity/void a(android.app.Activity,java.lang.String,int,int,int)",
+            "sources": [
+                "com.vsco.cam.nux.fmf.contacts.FMFOnboardingActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.findmyfriends.RequestPermissionActivity"
+            ]
+        },
+        {
+            "handler": "com.vsco.cam.nux.navigation.GraphNavigationManager/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.vsco.cam.nux.createusername.CreateUsernameActivity"
+            ],
+            "targets": [
+                "com.vsco.cam.navigation.LithiumActivity"
+            ]
+        }
+    ]
+}

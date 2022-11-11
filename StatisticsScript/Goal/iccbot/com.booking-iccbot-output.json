@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "com.booking.postbooking.confirmation.activities.ForwardConfirmationActivity/void setDialogState(int)",
+            "sources": [
+                "com.booking.postbooking.confirmation.activities.ForwardConfirmationActivity"
+            ],
+            "targets": [
+                "com.booking.postbooking.confirmation.activities.ForwardConfirmationActivity$StatusDialogFragment"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "transitions": [
+        {
+            "handler": "com.smorgasbork.hotdeath.Main/void onClick(android.view.View)",
+            "sources": [
+                "com.smorgasbork.hotdeath.Main"
+            ],
+            "targets": [
+                "com.smorgasbork.hotdeath.Prefs"
+            ]
+        },
+        {
+            "handler": "com.smorgasbork.hotdeath.Main/void onClick(android.view.View)",
+            "sources": [
+                "com.smorgasbork.hotdeath.Main"
+            ],
+            "targets": [
+                "com.smorgasbork.hotdeath.GameActivity"
+            ]
+        },
+        {
+            "handler": "com.smorgasbork.hotdeath.Main/void onClick(android.view.View)",
+            "sources": [
+                "com.smorgasbork.hotdeath.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.smorgasbork.hotdeath.GameActivity"
+            ]
+        },
+        {
+            "handler": "com.smorgasbork.hotdeath.Main/void onClick(android.view.View)",
+            "sources": [
+                "com.smorgasbork.hotdeath.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.smorgasbork.hotdeath.Prefs"
+            ]
+        }
+    ]
+}

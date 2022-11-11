@@ -1,0 +1,103 @@
+{
+    "transitions": [
+        {
+            "handler": "com.evancharlton.mileage.ServiceIntervalTemplateListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.evancharlton.mileage.ServiceIntervalTemplateListActivity"
+            ],
+            "targets": [
+                "com.evancharlton.mileage.ServiceIntervalTemplateActivity"
+            ]
+        },
+        {
+            "handler": "com.evancharlton.mileage.FillupInfoActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.evancharlton.mileage.FillupInfoActivity"
+            ],
+            "targets": [
+                "com.evancharlton.mileage.FillupInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.evancharlton.mileage.FillupInfoActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.evancharlton.mileage.FillupInfoActivity"
+            ],
+            "targets": [
+                "com.evancharlton.mileage.FillupActivity"
+            ]
+        },
+        {
+            "handler": "com.evancharlton.mileage.FillupListActivity/void editFillup(long)",
+            "sources": [
+                "com.evancharlton.mileage.FillupListActivity"
+            ],
+            "targets": [
+                "com.evancharlton.mileage.FillupActivity"
+            ]
+        },
+        {
+            "handler": "com.evancharlton.mileage.FillupListActivity/void openFillup(long)",
+            "sources": [
+                "com.evancharlton.mileage.FillupListActivity"
+            ],
+            "targets": [
+                "com.evancharlton.mileage.FillupInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.evancharlton.mileage.VehicleListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.evancharlton.mileage.VehicleListActivity"
+            ],
+            "targets": [
+                "com.evancharlton.mileage.VehicleTypeListActivity"
+            ]
+        },
+        {
+            "handler": "com.evancharlton.mileage.VehicleListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.evancharlton.mileage.VehicleListActivity"
+            ],
+            "targets": [
+                "com.evancharlton.mileage.VehicleActivity"
+            ]
+        },
+        {
+            "handler": "com.evancharlton.mileage.VehicleTypeListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.evancharlton.mileage.VehicleTypeListActivity"
+            ],
+            "targets": [
+                "com.evancharlton.mileage.VehicleTypeActivity"
+            ]
+        },
+        {
+            "handler": "com.evancharlton.mileage.ServiceIntervalsListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.evancharlton.mileage.ServiceIntervalsListActivity"
+            ],
+            "targets": [
+                "com.evancharlton.mileage.ServiceIntervalActivity"
+            ]
+        },
+        {
+            "handler": "com.evancharlton.mileage.ServiceIntervalsListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.evancharlton.mileage.ServiceIntervalsListActivity"
+            ],
+            "targets": [
+                "com.evancharlton.mileage.ServiceIntervalTemplateListActivity"
+            ]
+        },
+        {
+            "handler": "com.evancharlton.mileage.FieldListActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.evancharlton.mileage.FieldListActivity"
+            ],
+            "targets": [
+                "com.evancharlton.mileage.FieldActivity"
+            ]
+        }
+    ]
+}

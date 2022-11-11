@@ -1,0 +1,904 @@
+{
+    "transitions": [
+        {
+            "handler": "com.obsidian.callcard.CallcardActivity/void a(android.content.Context)",
+            "sources": [
+                "com.obsidian.callcard.CallcardActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.alarms.alarmcard.silencecard.SilenceCardActivity/void a()",
+            "sources": [
+                "com.obsidian.alarms.alarmcard.silencecard.SilenceCardActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.EnsureScanningAbilityActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.OnboardingActivity/void a(android.content.Context,java.lang.Class,android.os.Bundle)",
+            "sources": [
+                "com.obsidian.v4.activity.OnboardingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.data.cz.service.k/void a(com.obsidian.v4.data.cz.service.s,android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.twofactorauth.TwoFactorAuthUnenrollmentActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.data.cz.service.NestService"
+            ]
+        },
+        {
+            "handler": "com.salesforce.androidsdk.ui.LoginActivity/void onPickServerClick(android.view.View)",
+            "sources": [
+                "com.salesforce.androidsdk.ui.LoginActivity"
+            ],
+            "targets": [
+                "com.salesforce.androidsdk.ui.ServerPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.tahiti.TahitiInstallationActivity/void f()",
+            "sources": [
+                "com.obsidian.v4.pairing.tahiti.TahitiInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.pairing.tahiti.TahitiInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.AddProductPairingActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.YoutubeVideoActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.YoutubeVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.AddProductPairingActivity/void a(com.obsidian.v4.fragment.pairing.generic.steps.addproduct.ProductToPair)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.EnsureScanningAbilityActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.AddProductPairingActivity/void a(com.nest.presenter.i)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.tahiti.TahitiInstallationActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.AddProductPairingActivity/void a(com.obsidian.v4.pairing.ProductDescriptor)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.nevis.NevisPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.NestWebViewActivity/void a(android.app.Activity,com.obsidian.v4.fragment.settings.account.k,boolean)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.NestWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.quartz.QuartzPairingActivity/void a(android.content.Context,com.nest.czcommon.structure.p,java.lang.String,com.obsidian.v4.fragment.pairing.generic.devices.DeviceInProgress,com.nest.czcommon.fabriccredentials.FabricCredential,com.obsidian.v4.data.cz.FabricInfo,com.obsidian.v4.log.WeaveSessionLogBuilder)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.quartz.QuartzPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.thread.assisted.ThreadAssistedPairingActivity/void a(android.content.Context,java.lang.String,com.obsidian.v4.fragment.pairing.generic.devices.DeviceInProgress,java.lang.String,com.nest.czcommon.fabriccredentials.FabricCredential,com.obsidian.v4.data.cz.FabricInfo)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.thread.assisted.ThreadAssistedPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.fragment.pairing.generic.steps.p/void a(com.obsidian.v4.widget.alerts.NestAlert,int)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.topaz.TopazWeavePairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity/void a(android.content.Context,java.lang.String,java.lang.String,com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity$EntryPoint)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.flintstone.FlintstonePairingActivity/void a(android.content.Context,java.lang.String,com.obsidian.v4.fragment.pairing.generic.devices.DeviceInProgress,com.nest.czcommon.fabriccredentials.FabricCredential,com.obsidian.v4.data.cz.FabricInfo)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.flintstone.FlintstonePairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.antigua.AntiguaPairingActivity/void a(android.content.Context,java.lang.String,com.obsidian.v4.fragment.pairing.generic.devices.DeviceInProgress,com.nest.czcommon.fabriccredentials.FabricCredential,com.obsidian.v4.data.cz.FabricInfo)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.antigua.AntiguaPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.AddProductPairingActivity/void a(com.nest.presenter.i)",
+            "sources": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.pinna.PinnaInstallationActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.data.cz.service.UserAvatarUploadService/void b(android.content.Context,com.obsidian.v4.data.cz.service.f)",
+            "sources": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.data.cz.service.UserAvatarUploadService"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void k()",
+            "sources": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.goose.healthcheck.speedbump.GooseHealthCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.AvatarCropActivity/void a(android.content.Context,com.obsidian.v4.familyaccounts.AvatarUploadData)",
+            "sources": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AvatarCropActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/boolean a(com.nest.czcommon.structure.k)",
+            "sources": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.NestSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.fragment.main.StructureSelectionFragment/void a(java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.messagecenter.MessagesActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.OnboardingActivity/void a(android.content.Context,java.lang.Class,android.os.Bundle)",
+            "sources": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.fragment.main.StructureSelectionFragment/void v()",
+            "sources": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.NestSetupSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.flintstone.FlintstoneInstallationActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.pairing.flintstone.FlintstoneInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.flintstone.FlintstoneInstallationActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.pairing.flintstone.FlintstoneInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.YoutubeVideoActivity/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.pairing.flintstone.FlintstoneInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.YoutubeVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.ae/void b()",
+            "sources": [
+                "com.obsidian.v4.pairing.flintstone.FlintstoneInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.fragment.settings.security.SecuritySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.flintstone.FlintstoneInstallationActivity/void d()",
+            "sources": [
+                "com.obsidian.v4.pairing.flintstone.FlintstoneInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.YoutubeVideoActivity/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.pairing.thread.assisted.ThreadAssistedPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.YoutubeVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.thread.assisted.ThreadAssistedPairingActivity/void onInterstitialButtonClick(android.view.View)",
+            "sources": [
+                "com.obsidian.v4.pairing.thread.assisted.ThreadAssistedPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.pinna.PinnaInstallationActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.thread.assisted.ThreadAssistedPairingActivity/void a(android.content.Context,java.lang.String,com.obsidian.v4.fragment.pairing.generic.devices.DeviceInProgress,java.lang.String,com.nest.czcommon.fabriccredentials.FabricCredential,com.obsidian.v4.data.cz.FabricInfo)",
+            "sources": [
+                "com.obsidian.v4.pairing.thread.assisted.ThreadAssistedPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.thread.assisted.ThreadAssistedPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.pairing.thread.assisted.ThreadAssistedPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.thread.assisted.ThreadAssistedPairingActivity/void onInterstitialButtonClick(android.view.View)",
+            "sources": [
+                "com.obsidian.v4.pairing.thread.assisted.ThreadAssistedPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.tahiti.TahitiInstallationActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.NestSettingsActivity/void a(android.content.Context,com.obsidian.v4.activity.NestSettingsActivity$Type,java.lang.String,java.lang.Integer)",
+            "sources": [
+                "com.obsidian.v4.activity.NestSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.NestSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.LoginActivity/void ad()",
+            "sources": [
+                "com.obsidian.v4.activity.LoginActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.NestWebViewActivity/void a(android.app.Activity,com.obsidian.v4.fragment.settings.account.k,boolean)",
+            "sources": [
+                "com.obsidian.v4.activity.LoginActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.NestWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.LoginActivity/void a(com.obsidian.v4.familyaccounts.familymembers.invitations.InviteeInfo)",
+            "sources": [
+                "com.obsidian.v4.activity.LoginActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.NestSetupSettingsActivity/void d()",
+            "sources": [
+                "com.obsidian.v4.activity.NestSetupSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.pairing.flintstone.FlintstonePairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.flintstone.FlintstonePairingActivity/void a(android.content.Context,java.lang.String,com.obsidian.v4.fragment.pairing.generic.devices.DeviceInProgress,com.nest.czcommon.fabriccredentials.FabricCredential,com.obsidian.v4.data.cz.FabricInfo)",
+            "sources": [
+                "com.obsidian.v4.pairing.flintstone.FlintstonePairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.flintstone.FlintstonePairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.weave.WeavePairingActivity/void onInterstitialButtonClick(android.view.View)",
+            "sources": [
+                "com.obsidian.v4.pairing.flintstone.FlintstonePairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.flintstone.FlintstoneSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.fragment.settings.flintstone.c/void a(java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.flintstone.FlintstoneSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.wifichange.WifiConfigurationChangeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.NestWebViewActivity/void a(android.app.Activity,com.obsidian.v4.fragment.settings.account.k,boolean)",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.flintstone.FlintstoneSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.NestWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.data.cz.service.k/void a(com.obsidian.v4.data.cz.service.s,android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.familyaccounts.familymembers.managementflow.ChangeYourPinCodeFromSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.data.cz.service.NestService"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.topaz.TopazWeavePairingActivity/void onInterstitialButtonClick(android.view.View)",
+            "sources": [
+                "com.obsidian.v4.pairing.topaz.TopazWeavePairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.pairing.topaz.TopazWeavePairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.fragment.settings.pinna.PinnaSettingsActivity/void d()",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.pinna.PinnaSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.pinna.PinnaInstallationActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.NestWebViewActivity/void a(android.app.Activity,com.obsidian.v4.fragment.settings.account.k,boolean)",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.pinna.PinnaSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.NestWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.pinna.PinnaSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.YoutubeVideoActivity/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.activity.LearnAndConfigVideoActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.YoutubeVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.nevis.NevisTransferAcceptanceActivity/void a(com.obsidian.v4.activity.LearnAndConfigVideoDescriptor)",
+            "sources": [
+                "com.obsidian.v4.pairing.nevis.NevisTransferAcceptanceActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.LearnAndConfigVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.salesforce.android.knowledge.ui.internal.activity.KnowledgeActivity/void a(android.content.Context)",
+            "sources": [
+                "com.salesforce.android.knowledge.ui.internal.activity.KnowledgeActivity"
+            ],
+            "targets": [
+                "com.salesforce.android.knowledge.ui.internal.activity.KnowledgeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.NestWebViewActivity/void a(android.app.Activity,com.obsidian.v4.fragment.settings.account.k,boolean)",
+            "sources": [
+                "com.obsidian.v4.pairing.pinna.PinnaInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.NestWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.pinna.PinnaInstallationActivity/void d()",
+            "sources": [
+                "com.obsidian.v4.pairing.pinna.PinnaInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.pairing.pinna.PinnaInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.ae/void b()",
+            "sources": [
+                "com.obsidian.v4.pairing.pinna.PinnaInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.fragment.settings.security.SecuritySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.YoutubeVideoActivity/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.pairing.pinna.PinnaInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.YoutubeVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.data.cz.service.k/void a(com.obsidian.v4.data.cz.service.s,android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.twofactorauth.TwoFactorAuthEnrollmentActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.data.cz.service.NestService"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.pairing.antigua.AntiguaPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.weave.WeavePairingActivity/void onInterstitialButtonClick(android.view.View)",
+            "sources": [
+                "com.obsidian.v4.pairing.antigua.AntiguaPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity/void a(android.content.Context,java.lang.String,java.lang.String,com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity$EntryPoint)",
+            "sources": [
+                "com.obsidian.v4.pairing.antigua.AntiguaPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.antigua.AntiguaPairingActivity/void a(android.content.Context,java.lang.String,com.obsidian.v4.fragment.pairing.generic.devices.DeviceInProgress,com.nest.czcommon.fabriccredentials.FabricCredential,com.obsidian.v4.data.cz.FabricInfo)",
+            "sources": [
+                "com.obsidian.v4.pairing.antigua.AntiguaPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.antigua.AntiguaPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.tv.startup.TvLoginActivity/void a(com.obsidian.v4.tv.startup.bc)",
+            "sources": [
+                "com.obsidian.v4.tv.startup.TvLoginActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.tv.home.TvHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.goose.healthcheck.speedbump.f/void onClick(android.view.View)",
+            "sources": [
+                "com.obsidian.v4.goose.healthcheck.speedbump.GooseHealthCheckActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.goose.healthcheck.speedbump.PhoneLocationHeaderContentActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.yale.linus.settings.YaleLinusSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.fragment.settings.antigua.AntiguaTestConnectionsActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.antigua.AntiguaTestConnectionsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.fragment.settings.antigua.AntiguaTestConnectionsActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity/void onInterstitialButtonClick(android.view.View)",
+            "sources": [
+                "com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity/void a(android.content.Context,java.lang.String,java.lang.String,com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity$EntryPoint)",
+            "sources": [
+                "com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.antigua.AntiguaInstallationActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.timeline.clip.ClipFileMoveIntentService/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.timeline.clip.ClipActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.timeline.clip.ClipFileMoveIntentService"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.wifichange.WifiConfigurationChangeActivity/void Y()",
+            "sources": [
+                "com.obsidian.v4.pairing.wifichange.WifiConfigurationChangeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.EnsureScanningAbilityActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.pairing.wifichange.WifiConfigurationChangeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.AvatarCropActivity/void a(android.content.Context,com.obsidian.v4.familyaccounts.AvatarUploadData)",
+            "sources": [
+                "com.obsidian.v4.activity.AvatarCropActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AvatarCropActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.data.cz.service.k/void a(com.obsidian.v4.data.cz.service.s,android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.twofactorauth.TwoFactorAuthDeletePhoneNumberActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.data.cz.service.NestService"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.fragment.settings.security.SecuritySettingsActivity/void a(com.obsidian.v4.activity.LearnAndConfigVideoDescriptor)",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.security.SecuritySettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.LearnAndConfigVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.security.SecuritySettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.fragment.settings.security.ae/void a(com.nest.czcommon.ProductKeyPair)",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.security.SecuritySettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.pinna.PinnaInstallationActivity"
+            ]
+        },
+        {
+            "handler": "com.nestlabs.android.framework.deeplink.DeepLinkRoutingActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.nestlabs.android.framework.deeplink.DeepLinkRoutingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.fragment.zilla.camerazilla.ag/void a(android.content.Context,com.obsidian.v4.fragment.zilla.camerazilla.ChimeAssistWelcomeActivity$EntryPoint,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.fragment.zilla.camerazilla.ChimeAssistWelcomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.fragment.zilla.camerazilla.ChimeAssistWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.fragment.settings.antigua.c/void b(java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.antigua.AntiguaSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.wifichange.WifiConfigurationChangeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.fragment.settings.antigua.AntiguaSettingsActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.pairing.quartz.QuartzPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.quartz.QuartzPairingActivity/void a(android.content.Context,com.nest.czcommon.structure.p,java.lang.String,com.obsidian.v4.fragment.pairing.generic.devices.DeviceInProgress,com.nest.czcommon.fabriccredentials.FabricCredential,com.obsidian.v4.data.cz.FabricInfo,com.obsidian.v4.log.WeaveSessionLogBuilder)",
+            "sources": [
+                "com.obsidian.v4.pairing.quartz.QuartzPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.pairing.quartz.QuartzPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.fragment.pairing.quartz.k/void v()",
+            "sources": [
+                "com.obsidian.v4.pairing.quartz.QuartzPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.NestWebViewActivity/void a(android.app.Activity,com.obsidian.v4.fragment.settings.account.k,boolean)",
+            "sources": [
+                "com.obsidian.v4.activity.NestWebViewActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.NestWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.tv.home.drawer.b/void h()",
+            "sources": [
+                "com.obsidian.v4.tv.home.TvHomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.tv.startup.TvLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.tv.home.i/void s()",
+            "sources": [
+                "com.obsidian.v4.tv.home.TvHomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.tv.multicamera.MultiCameraActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.tv.home.drawer.b/void g()",
+            "sources": [
+                "com.obsidian.v4.tv.home.TvHomeActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.tv.home.about.TvAboutActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.nevis.NevisPairingActivity/void onInterstitialButtonClick(android.view.View)",
+            "sources": [
+                "com.obsidian.v4.pairing.nevis.NevisPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.AddProductPairingActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.YoutubeVideoActivity/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.pairing.nevis.NevisPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.YoutubeVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.pairing.ae/void b()",
+            "sources": [
+                "com.obsidian.v4.pairing.nevis.NevisPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.fragment.settings.security.SecuritySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.HomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.obsidian.v4.pairing.nevis.NevisPairingActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.obsidian.v4.activity.YoutubeVideoActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.obsidian.v4.activity.YoutubeVideoActivity"
+            ],
+            "targets": [
+                "com.obsidian.v4.activity.YoutubeVideoActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "transitions": [
+        {
+            "handler": "net.mandaria.tippytipper.activities.TippyTipper$13/void onClick(android.view.View)",
+            "sources": [
+                "net.mandaria.tippytipper.activities.TippyTipper"
+            ],
+            "targets": [
+                "net.mandaria.tippytipper.activities.Total"
+            ]
+        },
+        {
+            "handler": "net.mandaria.tippytipper.activities.TippyTipper/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "net.mandaria.tippytipper.activities.TippyTipper"
+            ],
+            "targets": [
+                "net.mandaria.tippytipper.activities.About"
+            ]
+        },
+        {
+            "handler": "net.mandaria.tippytipper.activities.TippyTipper/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "net.mandaria.tippytipper.activities.TippyTipper"
+            ],
+            "targets": [
+                "net.mandaria.tippytipper.activities.Settings"
+            ]
+        },
+        {
+            "handler": "net.mandaria.tippytipper.activities.Total/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "net.mandaria.tippytipper.activities.Total"
+            ],
+            "targets": [
+                "net.mandaria.tippytipper.activities.Settings"
+            ]
+        },
+        {
+            "handler": "net.mandaria.tippytipper.activities.Total$1/void onClick(android.view.View)",
+            "sources": [
+                "net.mandaria.tippytipper.activities.Total"
+            ],
+            "targets": [
+                "net.mandaria.tippytipper.activities.SplitBill"
+            ]
+        },
+        {
+            "handler": "net.mandaria.tippytipper.activities.Total/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "net.mandaria.tippytipper.activities.Total"
+            ],
+            "targets": [
+                "net.mandaria.tippytipper.activities.About"
+            ]
+        },
+        {
+            "handler": "net.mandaria.tippytipper.activities.SplitBill/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "net.mandaria.tippytipper.activities.SplitBill"
+            ],
+            "targets": [
+                "net.mandaria.tippytipper.activities.Settings"
+            ]
+        }
+    ]
+}

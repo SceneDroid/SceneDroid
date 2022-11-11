@@ -1,0 +1,481 @@
+{
+    "transitions": [
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.notification.main.core.HandleNotificaionClickActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.url.c/boolean a(android.content.Context,com.cs.bd.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.cs.bd.notification.main.core.HandleNotificaionClickActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ActionDetailActivity/void a(android.app.Activity,int,com.keep.fit.entity.model.Course,java.util.List,int)",
+            "sources": [
+                "com.keep.fit.activity.ActionDetailActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ActionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.DataCollectionActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.keep.fit.activity.DataCollectionActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.DataCollectionActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.LearnMoreActivity/void a(android.content.Context)",
+            "sources": [
+                "com.keep.fit.activity.DataCollectionActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.LearnMoreActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ActionListActivity/void a(android.app.Activity,int,com.keep.fit.entity.model.TrainingCamp,com.keep.fit.entity.model.TrainingDay,com.keep.fit.entity.model.Course,int,int)",
+            "sources": [
+                "com.keep.fit.activity.ActionListActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ActionListActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ActionDetailActivity/void a(android.app.Activity,int,com.keep.fit.entity.model.Course,java.util.List,int)",
+            "sources": [
+                "com.keep.fit.activity.ActionListActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ActionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ad.HomeKeyAdActivity/void a()",
+            "sources": [
+                "com.keep.fit.activity.ad.HomeKeyAdActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ad.HomeKeyAdActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.notification.main.ad.mopub.base.mobileads.BaseVideoPlayerActivity/void startMraid(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.notification.main.ad.mopub.base.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.cs.bd.notification.main.ad.mopub.base.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ad.FullScreenAdActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.keep.fit.activity.ad.FullScreenAdActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ad.FullScreenAdActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.keep.fit.activity.PrivacyActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.PrivacyActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.keep.fit.activity.PrivacyActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.PrivacyActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.TrainActivity/void a(android.app.Activity,int,com.keep.fit.entity.model.TrainingCamp,com.keep.fit.entity.model.TrainingDay)",
+            "sources": [
+                "com.keep.fit.activity.TrainActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.TrainActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ActionDetailActivity/void a(android.app.Activity,int,com.keep.fit.entity.model.Course,java.util.List,int)",
+            "sources": [
+                "com.keep.fit.activity.TrainActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ActionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.TrainPauseActivity/void a(android.app.Activity,com.keep.fit.entity.model.Course,java.util.List,int,java.lang.String,int)",
+            "sources": [
+                "com.keep.fit.activity.TrainActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.TrainPauseActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.url.c/boolean a(android.content.Context,com.cs.bd.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.keep.fit.activity.TrainActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ad.FullScreenAdActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.keep.fit.activity.TrainActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ad.FullScreenAdActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.keep.fit.activity.TrainActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.TrainResultActivity/void a(android.content.Context,com.keep.fit.entity.model.TrainingDay,com.keep.fit.entity.model.Course,int)",
+            "sources": [
+                "com.keep.fit.activity.TrainActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.TrainResultActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.TrainActivity/void a(android.app.Activity,int,com.keep.fit.entity.model.TrainingCamp,com.keep.fit.entity.model.TrainingDay)",
+            "sources": [
+                "com.keep.fit.activity.TrainingCampActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.TrainActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ActionListActivity/void a(android.app.Activity,int,com.keep.fit.entity.model.TrainingCamp,com.keep.fit.entity.model.TrainingDay,com.keep.fit.entity.model.Course,int,int)",
+            "sources": [
+                "com.keep.fit.activity.TrainingCampActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ActionListActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ad.FullScreenAdActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.keep.fit.activity.TrainingCampActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ad.FullScreenAdActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.TrainingCampActivity/void a(android.app.Activity,int,com.keep.fit.entity.model.TrainingCamp)",
+            "sources": [
+                "com.keep.fit.activity.TrainingCampActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.TrainingCampActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ReminderActivity/void a(android.content.Context)",
+            "sources": [
+                "com.keep.fit.activity.ReminderActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ReminderActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ReminderGuideActivity/void a(android.content.Context)",
+            "sources": [
+                "com.keep.fit.activity.ReminderGuideActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ReminderGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.CourseDescriptionActivity/void a(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.keep.fit.activity.CourseDescriptionActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.CourseDescriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ReminderGuideActivity/void a(android.content.Context)",
+            "sources": [
+                "com.keep.fit.activity.MainActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ReminderGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.keep.fit.activity.MainActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.FeedBackActivity/void a(android.content.Context)",
+            "sources": [
+                "com.keep.fit.activity.MainActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.FeedBackActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.SettingActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.keep.fit.activity.MainActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.SettingActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ReminderActivity/void a(android.content.Context)",
+            "sources": [
+                "com.keep.fit.activity.MainActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ReminderActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ad.FullScreenAdActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.keep.fit.activity.MainActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ad.FullScreenAdActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.AboutActivity/void a(android.content.Context)",
+            "sources": [
+                "com.keep.fit.activity.AboutActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.AboutActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.keep.fit.activity.StartActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.StartActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.keep.fit.activity.StartActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.StartActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.PrivacyActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.keep.fit.activity.StartActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.PrivacyActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.TrainResultActivity/void a(android.content.Context,com.keep.fit.entity.model.TrainingDay,com.keep.fit.entity.model.Course,int)",
+            "sources": [
+                "com.keep.fit.activity.TrainResultActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.TrainResultActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void startMraid(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.LearnMoreActivity/void a(android.content.Context)",
+            "sources": [
+                "com.keep.fit.activity.LearnMoreActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.LearnMoreActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.CourseDescriptionActivity/void a(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.keep.fit.activity.CourseDetailActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.CourseDescriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ActionDetailActivity/void a(android.app.Activity,int,com.keep.fit.entity.model.Course,java.util.List,int)",
+            "sources": [
+                "com.keep.fit.activity.CourseDetailActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ActionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.TrainActivity/void a(android.app.Activity,int,com.keep.fit.entity.model.Course,java.util.List)",
+            "sources": [
+                "com.keep.fit.activity.CourseDetailActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.TrainActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ad.FullScreenAdActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.keep.fit.activity.CourseDetailActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ad.FullScreenAdActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.CourseDetailActivity/void a(android.content.Context,com.keep.fit.entity.model.Course)",
+            "sources": [
+                "com.keep.fit.activity.CourseDetailActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.CourseDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.DataCollectionActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.keep.fit.activity.SettingActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.DataCollectionActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.SettingActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.keep.fit.activity.SettingActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.SettingActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.AboutActivity/void a(android.content.Context)",
+            "sources": [
+                "com.keep.fit.activity.SettingActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.AboutActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.FeedBackActivity/void a(android.content.Context)",
+            "sources": [
+                "com.keep.fit.activity.FeedBackActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.FeedBackActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.TrainPauseActivity/void a(android.app.Activity,com.keep.fit.entity.model.Course,java.util.List,int,java.lang.String,int)",
+            "sources": [
+                "com.keep.fit.activity.TrainPauseActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.TrainPauseActivity"
+            ]
+        },
+        {
+            "handler": "com.keep.fit.activity.ActionDetailActivity/void a(android.app.Activity,int,com.keep.fit.entity.model.Course,java.util.List,int)",
+            "sources": [
+                "com.keep.fit.activity.TrainPauseActivity"
+            ],
+            "targets": [
+                "com.keep.fit.activity.ActionDetailActivity"
+            ]
+        }
+    ]
+}

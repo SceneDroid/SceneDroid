@@ -1,0 +1,148 @@
+{
+    "transitions": [
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.RewardedMraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long,int,boolean)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "net.zedge.android.activity.ControllerActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "io.presage.activities.PresageActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "net.zedge.android.activity.FileAttacherActivity"
+            ]
+        },
+        {
+            "handler": "com.inmobi.rendering.InMobiAdActivity/void a(java.lang.String[],com.inmobi.rendering.InMobiAdActivity$b)",
+            "sources": [
+                "com.inmobi.rendering.InMobiAdActivity"
+            ],
+            "targets": [
+                "com.inmobi.rendering.InMobiAdActivity"
+            ]
+        },
+        {
+            "handler": "tw/void <init>(android.content.Context)",
+            "sources": [
+                "net.zedge.android.activity.AuthenticatorActivity"
+            ],
+            "targets": [
+                "com.appboy.services.AppboyDataSyncService"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean b(com.facebook.login.g,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "net.zedge.android.activity.AuthenticatorActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "net.zedge.android.activity.FileAttacherActivity/void showDownloadProgressDialog()",
+            "sources": [
+                "net.zedge.android.activity.FileAttacherActivity"
+            ],
+            "targets": [
+                "net.zedge.android.activity.FileAttacherActivity$FileAttacherDownloadProgressDialogFragment"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.actions.UriAction/void openUriWithWebView(android.content.Context,android.net.Uri,android.os.Bundle)",
+            "sources": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void startVast(android.content.Context,com.mopub.mobileads.VastVideoConfig,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "tw/void <init>(android.content.Context)",
+            "sources": [
+                "com.appboy.ui.activities.AppboyFeedActivity"
+            ],
+            "targets": [
+                "com.appboy.services.AppboyDataSyncService"
+            ]
+        },
+        {
+            "handler": "net.zedge.android.activity.StartupActivity/void startControllerActivity()",
+            "sources": [
+                "net.zedge.android.Main"
+            ],
+            "targets": [
+                "net.zedge.android.activity.ControllerActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        }
+    ]
+}

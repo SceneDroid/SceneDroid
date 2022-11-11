@@ -1,0 +1,169 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+com.github.axet.bookreader_416: OutputDir not a directory: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.github.axet.bookreader_416
+Found 10 entrypoint classes and 17 methods in overall
+Found 1 reachable methods from <com.github.axet.bookreader.fragments.LibraryFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <com.github.axet.androidlibrary.preferences.NameFormatPreferenceCompat$NameFormatDialogPreferenceCompat: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+Found 1 reachable methods from <com.github.axet.bookreader.activities.SettingsActivity$GeneralPreferenceFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.github.axet.bookreader.fragments.ReaderFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 7 reachable methods from <com.github.axet.bookreader.activities.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+com.github.axet.androidlibrary.preferences.NameFormatPreferenceCompat$NameFormatDialogPreferenceCompat: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.github.axet.bookreader.fragments.LibraryFragment: void onCreateOptionsMenu(android.view.Menu,android.view.MenuInflater)>
+com.github.axet.bookreader.activities.SettingsActivity$GeneralPreferenceFragment: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.github.axet.bookreader.fragments.LibraryFragment: void onStart()>
+Found 1 reachable methods from <com.github.axet.bookreader.fragments.LibraryFragment: void onCreate(android.os.Bundle)>
+com.github.axet.bookreader.fragments.LibraryFragment: Finished processing of entrypoints after 0 seconds.
+Found 160 reachable methods from <com.github.axet.androidlibrary.activities.AppCompatSettingsThemeActivity: void onCreate(android.os.Bundle)>
+Found 159 reachable methods from <com.github.axet.androidlibrary.activities.AppCompatThemeActivity: void onCreate(android.os.Bundle)>
+Found 162 reachable methods from <com.github.axet.androidlibrary.activities.AppCompatFullscreenThemeActivity: void onCreate(android.os.Bundle)>
+Found 175 reachable methods from <com.github.axet.bookreader.activities.SettingsActivity: void onCreate(android.os.Bundle)>
+Found 167 reachable methods from <com.github.axet.bookreader.activities.FullscreenActivity: void onCreate(android.os.Bundle)>
+Found 532 reachable methods from <com.github.axet.bookreader.activities.MainActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r9 = r0.<com.github.axet.androidlibrary.widgets.OpenFileDialog$FileAdapter: android.widget.TextView emptyView>
+com.github.axet.androidlibrary.activities.AppCompatFullscreenThemeActivity: Finished processing of entrypoints after 18 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r9 = r0.<com.github.axet.androidlibrary.widgets.OpenFileDialog$FileAdapter: android.widget.TextView emptyView>
+com.github.axet.androidlibrary.activities.AppCompatThemeActivity: Finished processing of entrypoints after 18 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r9 = r0.<com.github.axet.androidlibrary.widgets.OpenFileDialog$FileAdapter: android.widget.TextView emptyView>
+com.github.axet.androidlibrary.activities.AppCompatSettingsThemeActivity: Finished processing of entrypoints after 19 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r9 = r0.<com.github.axet.androidlibrary.widgets.OpenFileDialog$FileAdapter: android.widget.TextView emptyView>
+com.github.axet.bookreader.activities.FullscreenActivity: Finished processing of entrypoints after 19 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r9 = r0.<com.github.axet.androidlibrary.widgets.OpenFileDialog$FileAdapter: android.widget.TextView emptyView>
+com.github.axet.bookreader.activities.SettingsActivity: Finished processing of entrypoints after 19 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = $r24.<com.github.axet.bookreader.widgets.ToolbarButtonView: android.widget.TextView text>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = $r24.<com.github.axet.bookreader.widgets.ToolbarButtonView: android.widget.TextView text>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = $r24.<com.github.axet.bookreader.widgets.ToolbarButtonView: android.widget.TextView text>
+ERROR LayoutInflater: rootLayout null: 100555; stmt: $r1 := @parameter0: android.view.View
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r9 = r0.<com.github.axet.androidlibrary.widgets.OpenFileDialog$FileAdapter: android.widget.TextView emptyView>
+com.github.axet.bookreader.activities.MainActivity: Finished processing of entrypoints after 47 seconds.
+Found 1 reachable methods from <com.github.axet.bookreader.fragments.ReaderFragment: void onStart()>
+Found 1 reachable methods from <com.github.axet.bookreader.fragments.ReaderFragment: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.github.axet.bookreader.fragments.ReaderFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>
+com.github.axet.bookreader.fragments.ReaderFragment: Finished processing of entrypoints after 120 seconds.
+AppsUIElement not found with id: 16908290
+AppController:addText: elementID not found for adding text: elementID: 16908299
+AppController:addText: elementID not found for adding text: elementID: 16908299
+AppController:addText: elementID not found for adding text: elementID: 16908299
+AppController:addText: elementID not found for adding text: elementID: 16908299
+AppController:addText: elementID not found for adding text: elementID: 16908299
+AppController:addText: elementID not found for adding text: elementID: 16908299
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.github.axet.bookreader_416/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 120.244698413 seconds
+Entry point creation has run for 0.003155179 seconds
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.022846509 seconds

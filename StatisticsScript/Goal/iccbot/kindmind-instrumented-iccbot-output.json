@@ -1,0 +1,85 @@
+{
+    "transitions": [
+        {
+            "handler": "com.sunyata.kindmind.Setup.ItemSetupFragmentC$OnClickOnActionTypeListener/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.sunyata.kindmind.Setup.ItemSetupActivityC"
+            ],
+            "targets": [
+                "com.sunyata.kindmind.Setup.BookmarkChooserActivityC"
+            ]
+        },
+        {
+            "handler": "com.sunyata.kindmind.Setup.ItemSetupFragmentC$OnClickOnActionTypeListener/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.sunyata.kindmind.Setup.ItemSetupActivityC"
+            ],
+            "targets": [
+                "com.sunyata.kindmind.Setup.VideoChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.sunyata.kindmind.WidgetAndNotifications.NotificationServiceC/void setServiceNotificationSingle(android.content.Context,android.net.Uri)",
+            "sources": [
+                "com.sunyata.kindmind.Setup.ItemSetupActivityC"
+            ],
+            "targets": [
+                "com.sunyata.kindmind.WidgetAndNotifications.NotificationServiceC"
+            ]
+        },
+        {
+            "handler": "com.sunyata.kindmind.Setup.ItemSetupFragmentC$OnClickOnActionTypeListener/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.sunyata.kindmind.Setup.BookmarkChooserActivityC"
+            ],
+            "targets": [
+                "com.sunyata.kindmind.Setup.BookmarkChooserActivityC"
+            ]
+        },
+        {
+            "handler": "com.sunyata.kindmind.WidgetAndNotifications.NotificationServiceC/void setServiceNotificationSingle(android.content.Context,android.net.Uri)",
+            "sources": [
+                "com.sunyata.kindmind.Setup.BookmarkChooserActivityC"
+            ],
+            "targets": [
+                "com.sunyata.kindmind.WidgetAndNotifications.NotificationServiceC"
+            ]
+        },
+        {
+            "handler": "com.sunyata.kindmind.Setup.ItemSetupFragmentC$OnClickOnActionTypeListener/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.sunyata.kindmind.Setup.BookmarkChooserActivityC"
+            ],
+            "targets": [
+                "com.sunyata.kindmind.Setup.VideoChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.sunyata.kindmind.WidgetAndNotifications.NotificationServiceC/void setServiceNotificationSingle(android.content.Context,android.net.Uri)",
+            "sources": [
+                "com.sunyata.kindmind.AboutActivityC"
+            ],
+            "targets": [
+                "com.sunyata.kindmind.WidgetAndNotifications.NotificationServiceC"
+            ]
+        },
+        {
+            "handler": "com.sunyata.kindmind.Setup.ItemSetupFragmentC$OnClickOnActionTypeListener/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.sunyata.kindmind.AboutActivityC"
+            ],
+            "targets": [
+                "com.sunyata.kindmind.Setup.VideoChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.sunyata.kindmind.Setup.ItemSetupFragmentC$OnClickOnActionTypeListener/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.sunyata.kindmind.AboutActivityC"
+            ],
+            "targets": [
+                "com.sunyata.kindmind.Setup.BookmarkChooserActivityC"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,373 @@
+{
+    "transitions": [
+        {
+            "handler": "com.isysway.free.alquran.AlquranAlarmsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlquranAlarmsActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.AddEditAlarmActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TafsirPrefsActivity/void j()",
+            "sources": [
+                "com.isysway.free.alquran.TafsirPrefsActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.TafsirPrefsActivity$a"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.presentation.p/void a(android.content.Context,int,java.lang.String)",
+            "sources": [
+                "com.isysway.free.alquran.AlarmStartupActiviy"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.GenaricQuranDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.SearchResultsActivity/void a(int[])",
+            "sources": [
+                "com.isysway.free.alquran.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.GenaricQuranDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.PrefsActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.AddEditAlarmActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.BookmarksActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.AlarmStartupActiviy"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.AdsReportActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.GetTafserOperationActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/void a(int,int,int,int)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.GenaricQuranDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.DownloadAudiosActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.TafsirPrefsActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.DownloadTafsirActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.AlquranAlarmsActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.AlQuranNewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.AlquranAlarmsActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.DownloadTafsirActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.AddEditAlarmActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.AdsReportActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.GetTafserOperationActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.GenaricQuranDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.PrefsActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/void onBackPressed()",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.BookmarksActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/void C()",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.TafsirPrefsActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.AlarmStartupActiviy"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.TahfizQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.DownloadAudiosActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.BookmarksActivity/void b(com.isysway.free.b.b)",
+            "sources": [
+                "com.isysway.free.alquran.BookmarksActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.GenaricQuranDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.GenaricQuranDisplayActivity/void onBackPressed()",
+            "sources": [
+                "com.isysway.free.alquran.GenaricQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.AlQuranNewActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.GenaricQuranDisplayActivity$12/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.isysway.free.alquran.GenaricQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.TahfizQuranDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.GenaricQuranDisplayActivity/void I()",
+            "sources": [
+                "com.isysway.free.alquran.GenaricQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.PrefsActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.GenaricQuranDisplayActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.isysway.free.alquran.GenaricQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.TafsirPrefsActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.GenaricQuranDisplayActivity/void O()",
+            "sources": [
+                "com.isysway.free.alquran.GenaricQuranDisplayActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.GenaricQuranDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.PrefsActivity/void j()",
+            "sources": [
+                "com.isysway.free.alquran.PrefsActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.PrefsActivity$a"
+            ]
+        },
+        {
+            "handler": "com.isysway.free.alquran.SearchActivity$2/void run()",
+            "sources": [
+                "com.isysway.free.alquran.SearchActivity"
+            ],
+            "targets": [
+                "com.isysway.free.alquran.SearchResultsActivity"
+            ]
+        }
+    ]
+}

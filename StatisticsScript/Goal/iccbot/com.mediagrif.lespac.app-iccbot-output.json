@@ -1,0 +1,76 @@
+{
+    "transitions": [
+        {
+            "handler": "com.mediagrif.lespac.ui.activity.FiltersActivity$11/void onClick(android.view.View)",
+            "sources": [
+                "com.mediagrif.lespac.ui.activity.FiltersActivity"
+            ],
+            "targets": [
+                "com.mediagrif.lespac.ui.activity.SearchLocationActivity"
+            ]
+        },
+        {
+            "handler": "com.mediagrif.lespac.ui.activity.MainActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.mediagrif.lespac.ui.activity.MainActivity"
+            ],
+            "targets": [
+                "com.mediagrif.lespac.ui.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mediagrif.lespac.ui.activity.ChatConversationDetailActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.mediagrif.lespac.ui.activity.ChatConversationDetailActivity"
+            ],
+            "targets": [
+                "com.mediagrif.lespac.ui.activity.AdDetailActivity"
+            ]
+        },
+        {
+            "handler": "net.openid.appauth.RedirectUriReceiverActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "net.openid.appauth.RedirectUriReceiverActivity"
+            ],
+            "targets": [
+                "net.openid.appauth.AuthorizationManagementActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.mediagrif.lespac.ui.activity.SplashScreenActivity/void n()",
+            "sources": [
+                "com.mediagrif.lespac.ui.activity.SplashScreenActivity"
+            ],
+            "targets": [
+                "com.mediagrif.lespac.ui.activity.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mediagrif.lespac.ui.activity.SplashScreenActivity/void m()",
+            "sources": [
+                "com.mediagrif.lespac.ui.activity.SplashScreenActivity"
+            ],
+            "targets": [
+                "com.mediagrif.lespac.ui.activity.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.mediagrif.lespac.ui.activity.LoginActivity$1/void a(com.mediagrif.lespac.core.objects.Member)",
+            "sources": [
+                "com.mediagrif.lespac.ui.activity.LoginActivity"
+            ],
+            "targets": [
+                "com.mediagrif.lespac.ui.activity.MainActivity"
+            ]
+        }
+    ]
+}

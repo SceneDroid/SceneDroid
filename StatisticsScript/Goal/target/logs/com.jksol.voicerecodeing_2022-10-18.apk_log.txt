@@ -1,0 +1,753 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+com.jksol.voicerecodeing_2022-10-18: OutputDir not a directory: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.jksol.voicerecodeing_2022-10-18
+Found 18 entrypoint classes and 19 methods in overall
+Found 2 reachable methods from <com.jksol.voicerecodeing.newui.PermissionSplashActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.jksol.voicerecodeing.newui.SettingPermissionActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.jksol.voicerecodeing.newui.SplashDefaultActivity: void onCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 4 reachable methods from <com.jksol.voicerecodeing.newui.RecordingListActivity: void onStart()>
+Found 6 reachable methods from <com.jksol.voicerecodeing.newui.Privacy_Activity: void onCreate(android.os.Bundle)>
+com.jksol.voicerecodeing.newui.PermissionSplashActivity: Finished processing of entrypoints after 0 seconds.
+com.jksol.voicerecodeing.newui.Privacy_Activity: Finished processing of entrypoints after 1 seconds.
+com.jksol.voicerecodeing.newui.SplashDefaultActivity: Finished processing of entrypoints after 0 seconds.
+com.jksol.voicerecodeing.newui.SettingPermissionActivity: Finished processing of entrypoints after 1 seconds.
+Found 7 reachable methods from <com.jksol.voicerecodeing.newui.SplashLoadingActivity: void onCreate(android.os.Bundle)>
+Found 7 reachable methods from <com.jksol.voicerecodeing.newui.ActFaq: void onCreate(android.os.Bundle)>
+com.jksol.voicerecodeing.newui.ActFaq: Finished processing of entrypoints after 1 seconds.
+Found 13 reachable methods from <com.jksol.voicerecodeing.newui.CalldoradoPermissionActivity: void onCreate(android.os.Bundle)>
+com.jksol.voicerecodeing.newui.SplashLoadingActivity: Finished processing of entrypoints after 1 seconds.
+Found 16 reachable methods from <com.jksol.voicerecodeing.fileexplorer.ListViewActivity: void onCreate(android.os.Bundle)>
+com.jksol.voicerecodeing.newui.CalldoradoPermissionActivity: Finished processing of entrypoints after 1 seconds.
+com.jksol.voicerecodeing.fileexplorer.ListViewActivity: Finished processing of entrypoints after 1 seconds.
+Found 12 reachable methods from <com.jksol.voicerecodeing.newui.LanguageSelectActivity: void onCreate(android.os.Bundle)>
+Found 16 reachable methods from <com.jksol.voicerecodeing.newui.PermissionRequiredActivity: void onCreate(android.os.Bundle)>
+com.jksol.voicerecodeing.newui.PermissionRequiredActivity: Finished processing of entrypoints after 2 seconds.
+Found 28 reachable methods from <com.jksol.voicerecodeing.newui.ShareActivity: void onCreate(android.os.Bundle)>
+Did not find string name from string id: id: 2131887207
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioSize>
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioDate>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioDate>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioDate>
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioDate>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioDate>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioDate>
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioDate>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioDate>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioDate>
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioDate>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioDate>
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: com.jksol.voicerecodeing.custom.CustomTextview audioTitle>
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Found 38 reachable methods from <com.jksol.voicerecodeing.newui.SplashActivity: void onCreate(android.os.Bundle)>
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131887207
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Found 49 reachable methods from <com.jksol.voicerecodeing.newui.RingVolumeActivity: void onCreate(android.os.Bundle)>
+Found 57 reachable methods from <com.jksol.voicerecodeing.newui.SettingActivity: void onCreate(android.os.Bundle)>
+com.jksol.voicerecodeing.newui.SplashActivity: Finished processing of entrypoints after 5 seconds.
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r4 = $r2.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r17 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r11 = $r4.<com.jksol.voicerecodeing.databinding.ActivityRingtoneEditBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r4 = $r2.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r17 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r11 = $r4.<com.jksol.voicerecodeing.databinding.ActivityRingtoneEditBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r4 = $r2.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r17 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r11 = $r4.<com.jksol.voicerecodeing.databinding.ActivityRingtoneEditBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r4 = $r2.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r17 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r11 = $r4.<com.jksol.voicerecodeing.databinding.ActivityRingtoneEditBinding: android.widget.FrameLayout adView>
+Found 48 reachable methods from <com.jksol.voicerecodeing.newui.PlayerActivity: void onCreate(android.os.Bundle)>
+com.jksol.voicerecodeing.newui.ShareActivity: Finished processing of entrypoints after 5 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r9 = $r8.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.TextView tvPlayingStartduration>
+Found 50 reachable methods from <com.jksol.voicerecodeing.newui.RingEditActivity: void onCreate(android.os.Bundle)>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r4 = $r2.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r17 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r11 = $r4.<com.jksol.voicerecodeing.databinding.ActivityRingtoneEditBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r4 = $r2.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r17 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r11 = $r4.<com.jksol.voicerecodeing.databinding.ActivityRingtoneEditBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r36 = $r5.<com.jksol.voicerecodeing.databinding.ActivityMainBinding: android.widget.FrameLayout adLayout>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.FrameLayout adView>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.TextView tvPlayingEndduration>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.TextView tvPlayingEndduration>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.TextView tvPlayingStartduration>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.TextView tvPlayingDate>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.TextView tvPlayingSongname>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.TextView tvPlayingSongname>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.TextView tvPlayingSongname>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.TextView tvPlayingSongname>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.TextView tvPlayingSongname>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.TextView tvPlayingSongname>
+Did not find string name from string id: id: 2131887207
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r28 = $r4.<com.jksol.voicerecodeing.databinding.ActivityRingtoneEditBinding: com.jksol.voicerecodeing.custom.CustomTextview tvSize>
+Did not find string name from string id: id: 2131886321
+Did not find string name from string id: id: 2131886321
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r28 = $r4.<com.jksol.voicerecodeing.databinding.ActivityRingtoneEditBinding: com.jksol.voicerecodeing.custom.CustomTextview tvDate>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r28 = $r4.<com.jksol.voicerecodeing.databinding.ActivityRingtoneEditBinding: com.jksol.voicerecodeing.custom.CustomTextview tvAudioFile>
+com.jksol.voicerecodeing.newui.RingEditActivity: Finished processing of entrypoints after 6 seconds.
+com.jksol.voicerecodeing.newui.PlayerActivity: Finished processing of entrypoints after 6 seconds.
+Found 78 reachable methods from <com.jksol.voicerecodeing.newui.RecordingListActivity: void onCreate(android.os.Bundle)>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r4 = $r2.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r17 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r11 = $r4.<com.jksol.voicerecodeing.databinding.ActivityRingtoneEditBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r4 = $r2.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r17 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRecordingListBinding: android.widget.FrameLayout adFrame>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityShareBinding: android.widget.FrameLayout adView>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r11 = $r4.<com.jksol.voicerecodeing.databinding.ActivityRingtoneEditBinding: android.widget.FrameLayout adView>
+com.jksol.voicerecodeing.newui.RecordingListActivity: Finished processing of entrypoints after 7 seconds.
+Found 96 reachable methods from <com.jksol.voicerecodeing.MainActivity: void onCreate(android.os.Bundle)>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r36 = $r5.<com.jksol.voicerecodeing.databinding.ActivityMainBinding: android.widget.FrameLayout adLayout>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r8 = $r3.<com.jksol.voicerecodeing.databinding.ActivityPlayer1Binding: android.widget.FrameLayout adView>
+com.jksol.voicerecodeing.MainActivity: Finished processing of entrypoints after 12 seconds.
+com.jksol.voicerecodeing.newui.SettingActivity: Finished processing of entrypoints after 69 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r20 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView fadeOutText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r20 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView fadeInText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r20 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView fadeInText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r20 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView fadeInText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r20 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView volumeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r20 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView volumeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r20 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView volumeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r20 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView volumeText>
+com.jksol.voicerecodeing.newui.LanguageSelectActivity: Finished processing of entrypoints after 122 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r9 = $r8.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView tvPlayingStartduration>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView tvPlayingEndduration>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView tvPlayingEndduration>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView tvPlayingStartduration>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView tvPlayingDate>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView tvPlayingSongname>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView tvPlayingSongname>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView tvPlayingSongname>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView tvPlayingSongname>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView tvPlayingSongname>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.jksol.voicerecodeing.databinding.ActivityRingVolumeBinding: android.widget.TextView tvPlayingSongname>
+com.jksol.voicerecodeing.newui.RingVolumeActivity: Finished processing of entrypoints after 125 seconds.
+AppController:addText: elementID not found for adding text: elementID: 2131362202
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.jksol.voicerecodeing_2022-10-18/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 125.986045334 seconds
+Entry point creation has run for 0.039353208 seconds
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.05610299 seconds

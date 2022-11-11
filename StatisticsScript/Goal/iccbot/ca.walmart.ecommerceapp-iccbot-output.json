@@ -1,0 +1,202 @@
+{
+    "transitions": [
+        {
+            "handler": "com.walmart.checkinsdk.location.LocationServicesActivity/void startActivity(android.content.Context,boolean,com.walmart.checkinsdk.model.Vertical)",
+            "sources": [
+                "com.walmart.checkinsdk.location.LocationServicesActivity"
+            ],
+            "targets": [
+                "com.walmart.checkinsdk.location.LocationServicesActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.base.c/void Z()",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.barcodescanner.BarcodeScannerActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.activities.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.base.c/void Z()",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.activities.MainActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.activities.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.activities.MainActivity/void K()",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.activities.MainActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.activities.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.login.LoginActivity/void onWalmartLogoClick()",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.login.LoginActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.activities.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.base.c/void Z()",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.login.LoginActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.activities.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.activities.HomeActivity/void onEvent(com.razorfish.walmart.events.s)",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.cart.CartActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.activities.HomeActivity/void aq()",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.activities.HomeActivity"
+            ],
+            "targets": [
+                "ca.walmart.ecommerceapp.evoucher.EvoucherMiniAppActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.activities.HomeActivity$3/void a(com.razorfish.walmart.data.rest_services.s)",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.activities.CheckInOnboardingAcitivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.activities.CheckInOnboardingAcitivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.base.c/void Z()",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.activities.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.perimeterx.msdk.internal.enforcers.BlockActivity/void a(com.perimeterx.msdk.c.f)",
+            "sources": [
+                "com.perimeterx.msdk.internal.enforcers.BlockActivity"
+            ],
+            "targets": [
+                "com.perimeterx.msdk.internal.enforcers.BlockActivity"
+            ]
+        },
+        {
+            "handler": "com.urbanairship.util.HelperActivity/int[] a(android.content.Context,java.lang.String[])",
+            "sources": [
+                "com.urbanairship.util.HelperActivity"
+            ],
+            "targets": [
+                "com.urbanairship.util.HelperActivity"
+            ]
+        },
+        {
+            "handler": "com.perimeterx.msdk.internal.enforcers.CaptchaActivity/void a(com.perimeterx.msdk.c.f)",
+            "sources": [
+                "com.perimeterx.msdk.internal.enforcers.CaptchaActivity"
+            ],
+            "targets": [
+                "com.perimeterx.msdk.internal.enforcers.CaptchaActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.cart.CartActivity$4/void a(com.razorfish.walmart.data.rest_services.s)",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.cart.CartActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.cart.CartActivity$6$1/void a()",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.cart.CartActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.activities.CheckInOnboardingAcitivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.base.c/void Z()",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.cart.CartActivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.activities.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.base.c/void Z()",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.activities.CheckInOnboardingAcitivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.activities.ForceUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.activities.CheckInOnboardingAcitivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.activities.CheckInOnboardingAcitivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.razorfish.walmart.ui.screens.activities.CheckInOnboardingAcitivity/void b(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.razorfish.walmart.ui.screens.activities.CheckInOnboardingAcitivity"
+            ],
+            "targets": [
+                "com.razorfish.walmart.ui.screens.activities.CheckInOnboardingAcitivity"
+            ]
+        },
+        {
+            "handler": "com.urbanairship.messagecenter.e/void c(java.lang.String)",
+            "sources": [
+                "com.urbanairship.messagecenter.MessageCenterActivity"
+            ],
+            "targets": [
+                "com.urbanairship.messagecenter.MessageActivity"
+            ]
+        }
+    ]
+}

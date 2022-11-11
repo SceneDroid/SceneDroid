@@ -1,0 +1,535 @@
+{
+    "transitions": [
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.settings.ChangeStorageLocationActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.offline.OfflineSettingsOnboardingActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.likes.TrackLikesActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.payments.ProductChoiceActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.payments.NativeConversionActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "dcj/void a(android.app.Activity,int)",
+            "sources": [
+                "com.soundcloud.android.onboarding.OnboardActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.crop.CropImageActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.onboarding.OnboardActivity/void a(com.soundcloud.api.mobileapps.protos.Representations$MobileUser,etf,boolean)",
+            "sources": [
+                "com.soundcloud.android.onboarding.OnboardActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.onboarding.OnboardActivity/void a(java.lang.String)",
+            "sources": [
+                "com.soundcloud.android.onboarding.OnboardActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.onboarding.auth.RecoverActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.onboarding.OnboardActivity/void a(com.soundcloud.api.mobileapps.protos.Representations$MobileUser,etf,boolean)",
+            "sources": [
+                "com.soundcloud.android.onboarding.OnboardActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.deeplinks.ResolveActivity"
+            ]
+        },
+        {
+            "handler": "wm/boolean b(wo,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.soundcloud.android.onboarding.OnboardActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.settings.LicensesActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSearchRequested()",
+            "sources": [
+                "com.soundcloud.android.activities.ActivitiesActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.comments.legacy.TrackCommentsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.creators.record.UploadActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.settings.LegalActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSearchRequested()",
+            "sources": [
+                "com.soundcloud.android.settings.privacy.AnalyticsSettingsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.analytics.eventlogger.DevEventLoggerMonitorActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.payments.WebCheckoutActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSearchRequested()",
+            "sources": [
+                "com.soundcloud.android.settings.privacy.AdvertisingSettingsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.profile.UserLikesActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.creators.upload.MetadataFragment/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.soundcloud.android.creators.record.RecordActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.crop.CropImageActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSearchRequested()",
+            "sources": [
+                "com.soundcloud.android.creators.record.RecordActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.profile.UserRepostsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.creators.record.RecordPermissionsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.settings.notifications.NotificationPreferencesActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "hdw/boolean onPreferenceClick(android.preference.Preference)",
+            "sources": [
+                "com.soundcloud.android.settings.OfflineSettingsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.settings.ChangeStorageLocationActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSearchRequested()",
+            "sources": [
+                "com.soundcloud.android.settings.OfflineSettingsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "hdw/void b(boolean)",
+            "sources": [
+                "com.soundcloud.android.settings.OfflineSettingsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.offline.OfflineContentService"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.profile.UserTracksActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.main.MainActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.MainActivity/void a(android.net.Uri)",
+            "sources": [
+                "com.soundcloud.android.main.MainActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.deeplinks.ResolveActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.AppboyWebViewActivity$3/boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)",
+            "sources": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSearchRequested()",
+            "sources": [
+                "com.soundcloud.android.settings.privacy.CommunicationsSettingsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.profile.UserPlaylistsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.profile.FollowersActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.profile.UserAlbumsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.collection.playhistory.PlayHistoryActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.collection.playlists.PlaylistsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSearchRequested()",
+            "sources": [
+                "com.soundcloud.android.settings.BasicSettingsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.profile.VerifyAgeActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LauncherActivity/void c()",
+            "sources": [
+                "com.soundcloud.android.main.LauncherActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.stations.LikedStationsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.collection.recentlyplayed.RecentlyPlayedActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.accounts.LogoutFragment/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.soundcloud.android.accounts.LogoutActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.offline.OfflineContentService"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.accounts.LogoutActivity/void a(android.content.Context)",
+            "sources": [
+                "com.soundcloud.android.accounts.LogoutActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.accounts.LogoutActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.payments.ConversionActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.upgrade.GoOnboardingActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.playlists.PlaylistDetailFragment/void d(eah)",
+            "sources": [
+                "com.soundcloud.android.playlists.PlaylistDetailActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.payments.NativeConversionActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.playlists.PlaylistDetailFragment/void d(eah)",
+            "sources": [
+                "com.soundcloud.android.playlists.PlaylistDetailActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.payments.ConversionActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.playlists.PlaylistDetailActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.settings.SettingsActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.search.SearchPremiumResultsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.discovery.systemplaylist.SystemPlaylistActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.ads.FullScreenVideoActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.search.SearchActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.ads.PrestitialActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.profile.FollowingsActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.soundcloud.android.main.LoggedInActivity/boolean onSupportNavigateUp()",
+            "sources": [
+                "com.soundcloud.android.stations.StationInfoActivity"
+            ],
+            "targets": [
+                "com.soundcloud.android.main.MainActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "transitions": [
+        {
+            "handler": "com.pinterest.activity.PinterestActivity/void f0()",
+            "sources": [
+                "com.pinterest.activity.PinterestActivity"
+            ],
+            "targets": [
+                "com.pinterest.modules.stubs.MissingModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.jakewharton.processphoenix.ProcessPhoenix/void a(android.content.Context)",
+            "sources": [
+                "com.jakewharton.processphoenix.ProcessPhoenix"
+            ],
+            "targets": [
+                "com.jakewharton.processphoenix.ProcessPhoenix"
+            ]
+        },
+        {
+            "handler": "com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity"
+            ],
+            "targets": [
+                "com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.pinterest.activity.ExperimentsReloaderActivity/void d0()",
+            "sources": [
+                "com.pinterest.activity.ExperimentsReloaderActivity"
+            ],
+            "targets": [
+                "com.pinterest.activity.PinterestActivity"
+            ]
+        },
+        {
+            "handler": "com.pinterest.feature.mediagallery.MediaGalleryActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.pinterest.feature.mediagallery.MediaGalleryActivity"
+            ],
+            "targets": [
+                "com.pinterest.feature.pin.creation.CreationActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$b/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "m91.f/boolean d(com.pinterest.activity.task.model.Navigation)",
+            "sources": [
+                "com.pinterest.activity.web.WebViewActivity"
+            ],
+            "targets": [
+                "com.pinterest.feature.browser.chrome.ChromeTabBroadcastReceiver"
+            ]
+        }
+    ]
+}

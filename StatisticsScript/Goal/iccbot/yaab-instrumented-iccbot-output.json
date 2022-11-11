@@ -1,0 +1,76 @@
+{
+    "transitions": [
+        {
+            "handler": "biz.gyrus.yaab.MainActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "biz.gyrus.yaab.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "biz.gyrus.yaab.CreditsActivity"
+            ]
+        },
+        {
+            "handler": "biz.gyrus.yaab.MainActivity$10/void onClick(android.view.View)",
+            "sources": [
+                "biz.gyrus.yaab.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "biz.gyrus.yaab.DonateActivity"
+            ]
+        },
+        {
+            "handler": "biz.gyrus.yaab.MainActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "biz.gyrus.yaab.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "biz.gyrus.yaab.PrefsActivity"
+            ]
+        },
+        {
+            "handler": "biz.gyrus.yaab.MainActivity$10/void onClick(android.view.View)",
+            "sources": [
+                "biz.gyrus.yaab.MainActivity"
+            ],
+            "targets": [
+                "biz.gyrus.yaab.DonateActivity"
+            ]
+        },
+        {
+            "handler": "biz.gyrus.yaab.MainActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "biz.gyrus.yaab.MainActivity"
+            ],
+            "targets": [
+                "biz.gyrus.yaab.CreditsActivity"
+            ]
+        },
+        {
+            "handler": "biz.gyrus.yaab.MainActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "biz.gyrus.yaab.MainActivity"
+            ],
+            "targets": [
+                "biz.gyrus.yaab.PrefsActivity"
+            ]
+        },
+        {
+            "handler": "biz.gyrus.yaab.LightMonitorService/void showNotificationIcon(boolean)",
+            "sources": [
+                "biz.gyrus.yaab.PrefsActivity"
+            ],
+            "targets": [
+                "biz.gyrus.yaab.MainActivity"
+            ]
+        },
+        {
+            "handler": "biz.gyrus.yaab.PrefsActivity$5/boolean onPreferenceClick(android.preference.Preference)",
+            "sources": [
+                "biz.gyrus.yaab.PrefsActivity"
+            ],
+            "targets": [
+                "biz.gyrus.yaab.RangesActivity"
+            ]
+        }
+    ]
+}

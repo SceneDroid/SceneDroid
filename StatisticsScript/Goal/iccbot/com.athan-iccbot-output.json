@@ -1,0 +1,1381 @@
+{
+    "transitions": [
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.QuranHelp"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.QuranHelp"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.QuranHelp"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.AboutUsActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.AboutUsActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.AboutUsActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.CreateCircle"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.CreateCircle/void onServiceSuccess(com.athan.model.Circle)",
+            "sources": [
+                "com.athan.activity.CreateCircle"
+            ],
+            "targets": [
+                "com.athan.activity.AddPeople"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.CreateCircle"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.CreateCircle"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.AddPeople/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.AddPeople"
+            ],
+            "targets": [
+                "com.athan.activity.EmailInvite"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.AddPeople"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.AddPeople"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.AddPeople"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.InspireOthers"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.InspireOthers/void openGroupTab(android.view.View)",
+            "sources": [
+                "com.athan.activity.InspireOthers"
+            ],
+            "targets": [
+                "com.athan.activity.CreateCircle"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.InspireOthers"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.InspireOthers"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.WelcomeTOQuran"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.WelcomeTOQuran/void run()",
+            "sources": [
+                "com.athan.activity.WelcomeTOQuran"
+            ],
+            "targets": [
+                "com.athan.activity.QuranHelp"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.WelcomeTOQuran"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.WelcomeTOQuran"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.SharePrayerTimesActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.SharePrayerTimesActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.SharePrayerTimesActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.NotificationTypeActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.NotificationTypeActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.NotificationTypeActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.LocationSettingActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.LocationSettingActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.LocationSettingActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.LocationSettingActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.LocationSettingActivity"
+            ],
+            "targets": [
+                "com.athan.activity.CustomLocationActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.LocationSettingActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.LocationSettingActivity"
+            ],
+            "targets": [
+                "com.athan.activity.LocationDetectionActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.PrayerTimeAdjustmentActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.PrayerTimeAdjustmentActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.PrayerTimeAdjustmentActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.JoinExistingCircle/void run()",
+            "sources": [
+                "com.athan.activity.JoinExistingCircle"
+            ],
+            "targets": [
+                "com.athan.activity.CircleDetail"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.JoinExistingCircle"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.JoinExistingCircle"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.JoinExistingCircle"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.CircleSettings/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.CircleSettings"
+            ],
+            "targets": [
+                "com.athan.activity.AddPeople"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.CircleSettings"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.CircleSettings"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.CircleSettings"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.SignUpActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.SignUpActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.SignUpActivity/void navigateToHome()",
+            "sources": [
+                "com.athan.activity.SignUpActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.HelpCenter"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.HelpCenter"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.HelpCenter"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.AthanSelectionActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.AthanSelectionActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.AthanSelectionActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.JuristicMethodActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.JuristicMethodActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.JuristicMethodActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.ProfileActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.athan.activity.ProfileActivity"
+            ],
+            "targets": [
+                "com.athan.activity.EditProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.ProfileActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.ProfileActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.ProfileActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.ProfileActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.ProfileActivity"
+            ],
+            "targets": [
+                "com.athan.activity.CreateCircle"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.OnBoardingNotificationActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.OnBoardingNotificationActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.OnBoardingNotificationActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.EditProfileActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.EditProfileActivity"
+            ],
+            "targets": [
+                "com.athan.activity.LocationDetectionActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.EditProfileActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.EditProfileActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.EditProfileActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.BaseFragment/void profile()",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.NavigationBaseActivity/void onServiceSuccess(com.athan.model.Circle)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.CircleDetail"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.PrayerFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.SharePrayerTimesActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.QuranSettingFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.WelcomeTOQuran"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.PrayerFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.MonthlyPrayerTimingsActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.NavigationBaseActivity$7/void run()",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.OnBoardingLocationActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.CircleFragment$ActiveCircleAdaptor$MyViewHolder/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.CircleActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.NavigationBaseActivity$6/void run()",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.HelpCenter"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.NavigationBaseActivity$8$1/void run()",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.OnBoardingNotificationActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void signOut(boolean)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.services.LogoutDeviceService"
+            ]
+        },
+        {
+            "handler": "com.athan.cards.goals.view.BadgeIsWaitingDialogFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.SignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.CalendarListFragments/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.CalendarGridActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.CircleFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.JoinExistingCircle"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.QuranFragment$3/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.services.TranslationService"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.QuranFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.QuranSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.CircleFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.CreateCircle"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.QuranFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.athan.activity.NavigationBaseActivity"
+            ],
+            "targets": [
+                "com.athan.activity.QuranBookMarkActivity"
+            ]
+        },
+        {
+            "handler": "com.noqoush.adfalcon.android.sdk.util.b/boolean a(android.content.Context,java.lang.String,boolean)",
+            "sources": [
+                "com.noqoush.adfalcon.android.sdk.ADFBrowser"
+            ],
+            "targets": [
+                "com.noqoush.adfalcon.android.sdk.ADFBrowser"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.InAppActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.InAppActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.InAppActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.CircleDetail/void onServiceSuccess()",
+            "sources": [
+                "com.athan.activity.CircleDetail"
+            ],
+            "targets": [
+                "com.athan.activity.CircleActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.CircleDetail"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.CircleDetail"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.CircleDetail"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.QuranSearchActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.BaseFragment/void profile()",
+            "sources": [
+                "com.athan.activity.QuranSearchActivity"
+            ],
+            "targets": [
+                "com.athan.activity.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.QuranSearchActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.QuranSettingFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.QuranSearchActivity"
+            ],
+            "targets": [
+                "com.athan.activity.WelcomeTOQuran"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void signOut(boolean)",
+            "sources": [
+                "com.athan.activity.QuranSearchActivity"
+            ],
+            "targets": [
+                "com.athan.services.LogoutDeviceService"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.QuranSearchActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.LocationActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.LocationActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.LocationActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.CalculationMethodActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.CalculationMethodActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.CalculationMethodActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.ChangePasswordActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.ChangePasswordActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.ChangePasswordActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.EmailInvite"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.EmailInvite"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.EmailInvite"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.CircleActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.CircleActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.CircleActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.CircleActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.athan.activity.CircleActivity"
+            ],
+            "targets": [
+                "com.athan.activity.CircleSettings"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.MonthlyPrayerTimingsActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.MonthlyPrayerTimingsActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.MonthlyPrayerTimingsActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.LocationDetectionActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.LocationDetectionActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.LocationDetectionActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void signOut(boolean)",
+            "sources": [
+                "com.athan.activity.CalendarGridActivity"
+            ],
+            "targets": [
+                "com.athan.services.LogoutDeviceService"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.BaseFragment/void profile()",
+            "sources": [
+                "com.athan.activity.CalendarGridActivity"
+            ],
+            "targets": [
+                "com.athan.activity.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.CalendarGridActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.CalendarGridActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.CalendarGridActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.OnBoarding/void goToHome()",
+            "sources": [
+                "com.athan.activity.OnBoarding"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.AthanSplashActivity/void syncAppSettings()",
+            "sources": [
+                "com.athan.activity.AthanSplashActivity"
+            ],
+            "targets": [
+                "com.athan.activity.BlockDeviceActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.AthanSplashActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.AthanSplashActivity/void setupIntentToOpenActivityRequest()",
+            "sources": [
+                "com.athan.activity.AthanSplashActivity"
+            ],
+            "targets": [
+                "com.athan.activity.OnBoarding"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.AthanSplashActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.AthanSplashActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.QuranBookMarkActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.QuranBookMarkActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.QuranBookMarkActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.athan.activity.QuranBookMarkActivity"
+            ],
+            "targets": [
+                "com.athan.activity.QuranSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void signOut(boolean)",
+            "sources": [
+                "com.athan.activity.QuranBookMarkActivity"
+            ],
+            "targets": [
+                "com.athan.services.LogoutDeviceService"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.BaseFragment/void profile()",
+            "sources": [
+                "com.athan.activity.QuranBookMarkActivity"
+            ],
+            "targets": [
+                "com.athan.activity.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.QuranBookMarkActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.fragments.QuranSettingFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.QuranBookMarkActivity"
+            ],
+            "targets": [
+                "com.athan.activity.WelcomeTOQuran"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.RamadanMonthlyPrayerTimingsActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.RamadanMonthlyPrayerTimingsActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.RamadanMonthlyPrayerTimingsActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.CustomLocationActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.CustomLocationActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.CustomLocationActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity/void removeLocalData(boolean)",
+            "sources": [
+                "com.athan.activity.OnBoardingLocationActivity"
+            ],
+            "targets": [
+                "com.athan.activity.NavigationBaseActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.OnBoardingLocationActivity/void openLocationSelectionActivity(android.view.View)",
+            "sources": [
+                "com.athan.activity.OnBoardingLocationActivity"
+            ],
+            "targets": [
+                "com.athan.activity.LocationDetectionActivity"
+            ]
+        },
+        {
+            "handler": "com.athan.activity.BaseActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.athan.activity.OnBoardingLocationActivity"
+            ],
+            "targets": [
+                "com.athan.activity.InAppActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.athan.activity.OnBoardingLocationActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        }
+    ]
+}

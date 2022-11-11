@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "com.apptentive.android.sdk.module.engagement.EngagementModule/void launchInteraction(android.content.Context,com.apptentive.android.sdk.module.engagement.interaction.model.Interaction)",
+            "sources": [
+                "com.apptentive.android.sdk.ApptentiveViewActivity"
+            ],
+            "targets": [
+                "com.apptentive.android.sdk.ApptentiveViewActivity"
+            ]
+        }
+    ]
+}

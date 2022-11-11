@@ -1,0 +1,217 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+com.getmimo_2022-10-17: OutputDir not a directory: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.getmimo_2022-10-17
+Found 60 entrypoint classes and 64 methods in overall
+Found 4 reachable methods from <com.getmimo.ui.developermenu.DeveloperMenuActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+Found 2 reachable methods from <com.getmimo.ui.main.MainActivity: void onStart()>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <com.getmimo.ui.developermenu.viewcomponents.MaterialViewComponentsActivity: void onCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 8 reachable methods from <com.getmimo.ui.certificates.CertificateActivity: void onCreate(android.os.Bundle)>
+Found 7 reachable methods from <com.getmimo.ui.base.a: void onCreate(android.os.Bundle)>
+Found 9 reachable methods from <com.getmimo.ui.developermenu.viewcomponents.InteractionKeyboardViewComponentsActivity: void onCreate(android.os.Bundle)>
+Found 9 reachable methods from <com.getmimo.ui.career.registration.MimoDevRegistrationActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.developermenu.abtest.g: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.chapter.b0: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.certificates.v: Finished processing of entrypoints after 0 seconds.
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.developermenu.discount.g: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.onboarding.a: Finished processing of entrypoints after 0 seconds.
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.developermenu.remoteconfig.e: Finished processing of entrypoints after 0 seconds.
+Found 10 reachable methods from <com.getmimo.ui.developermenu.viewcomponents.LessonViewComponentsActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.projects.seeall.a: Finished processing of entrypoints after 0 seconds.
+Found 14 reachable methods from <com.getmimo.ui.glossary.search.GlossarySearchDetailActivity: void onCreate(android.os.Bundle)>
+Found 12 reachable methods from <com.getmimo.ui.authentication.AuthenticationActivity: void onCreate(android.os.Bundle)>
+Found 14 reachable methods from <com.getmimo.ui.publicprofile.PublicProfileActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r7 = $r3.<tc.s2: android.widget.RadioGroup d>
+com.getmimo.ui.developermenu.viewcomponents.MaterialViewComponentsActivity: Finished processing of entrypoints after 1 seconds.
+com.getmimo.ui.a: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.getmimo.ui.codeplayground.CodePlaygroundActivity: boolean onPrepareOptionsMenu(android.view.Menu)>
+com.getmimo.ui.developermenu.DeveloperMenuActivity: Finished processing of entrypoints after 1 seconds.
+com.getmimo.ui.onboarding.intro.a: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.authentication.h0: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.awesome.h: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.career.registration.MimoDevRegistrationActivity: Finished processing of entrypoints after 1 seconds.
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.certificates.CertificateActivity: Finished processing of entrypoints after 1 seconds.
+Found 1 reachable methods from <com.getmimo.ui.codeplayground.CodePlaygroundActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 14 reachable methods from <com.getmimo.ui.trackoverview.challenges.results.ChallengeResultsActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.authentication.AuthenticationActivity: Finished processing of entrypoints after 1 seconds.
+Found 7 reachable methods from <com.getmimo.ui.base.a: void onCreate(android.os.Bundle)>
+Found 20 reachable methods from <com.getmimo.ui.iap.allplans.AllPlansActivity: void onCreate(android.os.Bundle)>
+Found 8 reachable methods from <com.getmimo.ui.developermenu.contentexperiment.DevelopersMenuContentExperimentActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.iap.allplans.l: Finished processing of entrypoints after 0 seconds.
+Found 9 reachable methods from <com.getmimo.ui.developermenu.remoteconfig.DevMenuRemoteConfigActivity: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <com.getmimo.ui.onboarding.OnboardingActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.developermenu.viewcomponents.InteractionKeyboardViewComponentsActivity: Finished processing of entrypoints after 1 seconds.
+Found 19 reachable methods from <com.getmimo.ui.awesome.AwesomeModeActivity: void onCreate(android.os.Bundle)>
+Found 18 reachable methods from <com.getmimo.ui.trackoverview.TrackOverviewActivity: void onCreate(android.os.Bundle)>
+Found 9 reachable methods from <com.getmimo.ui.developermenu.discount.DeveloperMenuDiscountActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.base.BaseActivity: Finished processing of entrypoints after 0 seconds.
+Found 9 reachable methods from <com.getmimo.ui.community.introduction.CommunityIntroductionActivity: void onCreate(android.os.Bundle)>
+Found 23 reachable methods from <com.getmimo.ui.SplashActivity: void onCreate(android.os.Bundle)>
+Found 19 reachable methods from <com.getmimo.ui.career.IntegratedWebViewActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.developermenu.viewcomponents.customviews.f: Finished processing of entrypoints after 0 seconds.
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+Found 6 reachable methods from <com.getmimo.ui.developermenu.flagging.FeatureFlaggingConfigActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.developermenu.viewcomponents.LessonViewComponentsActivity: Finished processing of entrypoints after 1 seconds.
+com.getmimo.ui.glossary.search.GlossarySearchDetailActivity: Finished processing of entrypoints after 1 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r13 = $r3.<tc.t1: android.widget.EditText d>
+com.getmimo.ui.developermenu.remoteconfig.DevMenuRemoteConfigActivity: Finished processing of entrypoints after 1 seconds.
+com.getmimo.ui.trackoverview.challenges.results.ChallengeResultsActivity: Finished processing of entrypoints after 2 seconds.
+com.getmimo.ui.onboarding.OnboardingActivity: Finished processing of entrypoints after 0 seconds.
+Found 13 reachable methods from <com.getmimo.ui.chapter.survey.ChapterSurveyActivity: void onCreate(android.os.Bundle)>
+Found 17 reachable methods from <com.getmimo.ui.projects.seeall.ProjectsSeeAllActivity: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <com.getmimo.ui.settings.SettingsActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.codeplayground.v1: Finished processing of entrypoints after 0 seconds.
+Found 5 reachable methods from <com.getmimo.ui.settings.appearance.ChangeAppearanceActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.base.a: Finished processing of entrypoints after 0 seconds.
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.trackoverview.TrackOverviewActivity: Finished processing of entrypoints after 2 seconds.
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.community.introduction.CommunityIntroductionActivity: Finished processing of entrypoints after 1 seconds.
+com.getmimo.ui.developermenu.flagging.FeatureFlaggingConfigActivity: Finished processing of entrypoints after 0 seconds.
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.settings.appearance.ChangeAppearanceActivity: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.developermenu.flagging.i: Finished processing of entrypoints after 0 seconds.
+Found 7 reachable methods from <com.getmimo.ui.base.a: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <com.getmimo.ui.developermenu.viewcomponents.ViewComponentsActivity: void onCreate(android.os.Bundle)>
+Found 17 reachable methods from <com.getmimo.ui.profile.SetDailyGoalActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.developermenu.campaign.h: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.developermenu.contentexperiment.DevelopersMenuContentExperimentActivity: Finished processing of entrypoints after 1 seconds.
+Found 6 reachable methods from <com.getmimo.ui.developermenu.viewcomponents.TrackOverViewComponentsActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.publicprofile.PublicProfileActivity: Finished processing of entrypoints after 2 seconds.
+com.getmimo.ui.profile.b: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.developermenu.discount.DeveloperMenuDiscountActivity: Finished processing of entrypoints after 1 seconds.
+com.getmimo.ui.chapter.survey.ChapterSurveyActivity: Finished processing of entrypoints after 1 seconds.
+Found 3 reachable methods from <com.getmimo.ui.base.BaseActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.developermenu.contentexperiment.h: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.getmimo.ui.developermenu.viewcomponents.ViewComponentsActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+com.getmimo.ui.career.IntegratedWebViewActivity: Finished processing of entrypoints after 2 seconds.
+Found 18 reachable methods from <com.getmimo.ui.codeplayground.CodePlaygroundActivity: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <com.getmimo.ui.developermenu.campaign.DeveloperMenuCampaignActivity: void onCreate(android.os.Bundle)>
+Did not find string name from string id: id: 2131952742
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r12 = $r13.<tc.d9: android.widget.TextView d>
+Did not find string name from string id: id: 2131952741
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r12 = $r11.<tc.h9: android.widget.TextView e>
+com.getmimo.ui.developermenu.viewcomponents.ViewComponentsActivity: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.upgrade.a: Finished processing of entrypoints after 0 seconds.
+Found 8 reachable methods from <com.getmimo.ui.developermenu.abtest.ABTestConfigActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.main.a: Finished processing of entrypoints after 0 seconds.
+Found 6 reachable methods from <com.getmimo.ui.developermenu.viewcomponents.customviews.CustomViewsActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.awesome.AwesomeModeActivity: Finished processing of entrypoints after 2 seconds.
+com.getmimo.ui.developermenu.viewcomponents.TrackOverViewComponentsActivity: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.glossary.c0: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.profile.SetDailyGoalActivity: Finished processing of entrypoints after 1 seconds.
+com.getmimo.ui.projects.seeall.ProjectsSeeAllActivity: Finished processing of entrypoints after 2 seconds.
+Found 26 reachable methods from <com.getmimo.ui.main.MainActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.SplashActivity: Finished processing of entrypoints after 2 seconds.
+com.getmimo.ui.iap.allplans.AllPlansActivity: Finished processing of entrypoints after 2 seconds.
+com.getmimo.ui.developermenu.campaign.DeveloperMenuCampaignActivity: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.settings.SettingsActivity: Finished processing of entrypoints after 1 seconds.
+com.getmimo.ui.developermenu.viewcomponents.customviews.CustomViewsActivity: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.developermenu.abtest.ABTestConfigActivity: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.codeplayground.CodePlaygroundActivity: Finished processing of entrypoints after 1 seconds.
+Found 13 reachable methods from <com.getmimo.ui.onboarding.intro.IntroSlidesActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.main.MainActivity: Finished processing of entrypoints after 3 seconds.
+Found 20 reachable methods from <com.getmimo.ui.upgrade.UpgradeModalActivity: void onCreate(android.os.Bundle)>
+Found 22 reachable methods from <com.getmimo.ui.glossary.GlossaryActivity: void onCreate(android.os.Bundle)>
+Found 34 reachable methods from <com.getmimo.ui.chapter.ChapterActivity: void onCreate(android.os.Bundle)>
+com.getmimo.ui.onboarding.intro.IntroSlidesActivity: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.glossary.GlossaryActivity: Finished processing of entrypoints after 0 seconds.
+com.getmimo.ui.upgrade.UpgradeModalActivity: Finished processing of entrypoints after 1 seconds.
+com.getmimo.ui.chapter.ChapterActivity: Finished processing of entrypoints after 1 seconds.
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.getmimo_2022-10-17/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 3.484214036 seconds
+Entry point creation has run for 0.009932779 seconds
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.038571584 seconds

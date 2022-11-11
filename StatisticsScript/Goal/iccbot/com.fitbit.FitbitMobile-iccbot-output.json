@@ -1,0 +1,3442 @@
+{
+    "transitions": [
+        {
+            "handler": "com.fitbit.food.ui.landing.FoodLoggingLandingActivity/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.logging.QuickCalorieAddActivity/void a(android.app.Activity,com.fitbit.data.domain.FoodLogEntry)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.logging.QuickCalorieAddActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.logging.LogFoodActivity/void a(android.content.Context,com.fitbit.data.domain.FoodLogEntry)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.logging.LogFoodActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.landing.FoodLoggingLandingActivity/void a(com.fitbit.food.ui.landing.FoodLoggingDaysListFragment,com.fitbit.food.ui.landing.i)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.landing.FoodLoggingDaysListFragment/void e()",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.ui.choose.food.ChooseFoodActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.landing.FoodLoggingDaysListFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.sharing.ShareActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.landing.FoodLoggingDaysListFragment/void f()",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.barcode.ui.BarcodeScannerActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.landing.FoodLoggingDaysListFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.settings.ui.GoalsActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.food.ui.landing.FoodLoggingLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.friends.ui.finder.views.FriendFinderActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.friends.ui.finder.views.ChallengeFriendAdderFragment/void a(android.support.v4.content.Loader,com.fitbit.friends.ui.finder.a.b$b)",
+            "sources": [
+                "com.fitbit.friends.ui.finder.views.FriendFinderActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.friends.ui.finder.views.FriendFinderActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.fitbit.friends.ui.finder.views.ChallengeFriendAdderFragment/void a(android.support.v4.content.Loader,com.fitbit.friends.ui.finder.a.b$b)",
+            "sources": [
+                "com.fitbit.friends.ui.finder.views.FriendFinderActivity"
+            ],
+            "targets": [
+                "com.fitbit.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.friends.ui.finder.views.FriendFinderActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.friends.ui.finder.views.FriendFinderActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.friends.ui.finder.views.FriendFinderActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerEditionActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.choose.ChooseTrackerEditionActivity/void a(android.app.Activity,int,com.fitbit.data.domain.device.TrackerType)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerEditionActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerEditionActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.friends.ui.MessagesFragment$e/void onClick(android.view.View)",
+            "sources": [
+                "com.fitbit.ui.MessagesActivity"
+            ],
+            "targets": [
+                "com.fitbit.settings.ui.profile.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.friends.ui.MessagesFragment/void c()",
+            "sources": [
+                "com.fitbit.ui.MessagesActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.friends.ui.MessagesFragment$e/void a(android.content.Context,com.fitbit.data.domain.Notification)",
+            "sources": [
+                "com.fitbit.ui.MessagesActivity"
+            ],
+            "targets": [
+                "com.fitbit.friends.ui.ConversationActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.ui.MessagesActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.runtrack.ui.RecordExerciseSessionActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.fitbit.runtrack.ui.RecordExerciseSessionActivity"
+            ],
+            "targets": [
+                "com.fitbit.runtrack.ui.RecordExerciseActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.runtrack.ui.RecordExerciseSessionActivity$4/void a(android.support.v4.content.Loader,com.fitbit.runtrack.data.ExerciseSession)",
+            "sources": [
+                "com.fitbit.runtrack.ui.RecordExerciseSessionActivity"
+            ],
+            "targets": [
+                "com.fitbit.runtrack.ui.RecordExerciseSessionActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.runtrack.ui.RecordExerciseSessionActivity$5/void a(android.support.v4.content.Loader,com.fitbit.data.domain.ActivityLogEntry)",
+            "sources": [
+                "com.fitbit.runtrack.ui.RecordExerciseSessionActivity"
+            ],
+            "targets": [
+                "com.fitbit.runtrack.ui.ExerciseDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.logging.QuickCalorieAddActivity/void a(android.app.Activity,java.util.Date)",
+            "sources": [
+                "com.fitbit.food.ui.logging.QuickCalorieAddActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.logging.QuickCalorieAddActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.synclair.ui.FirmwareUpdateActivity/void a(android.app.Activity,java.lang.String,java.lang.String,com.fitbit.synclair.config.bean.DeviceFlow,com.fitbit.serverinteraction.SynclairSiteApi$FirmwareUpdateStatus,boolean,boolean)",
+            "sources": [
+                "com.fitbit.synclair.ui.FirmwareUpdateActivity"
+            ],
+            "targets": [
+                "com.fitbit.synclair.ui.FirmwareUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.synclair.ui.FirmwareUpdateActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.FoodGoalActivity/void a(android.app.Activity,boolean,android.content.Intent)",
+            "sources": [
+                "com.fitbit.goals.ui.FoodGoalActivity"
+            ],
+            "targets": [
+                "com.fitbit.goals.ui.FoodGoalActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.FoodGoalActivity/void a(android.view.View)",
+            "sources": [
+                "com.fitbit.goals.ui.FoodGoalActivity"
+            ],
+            "targets": [
+                "com.fitbit.goals.ui.CaloriesEatenVsBurnedActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.gallery.SeeAllTypesActivity/void a(com.fitbit.data.domain.challenges.ChallengeType,android.view.View,android.view.View)",
+            "sources": [
+                "com.fitbit.challenges.ui.gallery.SeeAllTypesActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.CreateChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.audrey.fragments.DiscoverGroupsFragment$1/void d(com.fitbit.feed.model.f)",
+            "sources": [
+                "com.fitbit.feed.DiscoverGroupsActivity"
+            ],
+            "targets": [
+                "com.fitbit.audrey.data.SyncFeedDataService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.login.LoginActivity$c/void a()",
+            "sources": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ],
+            "targets": [
+                "com.fitbit.security.account.UserConsentActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.login.LoginActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.login.LoginActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.phone.PhoneVerificationActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.password.PasswordRecoveryActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.password.PasswordRecoveryActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.login.LoginActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.profile.AboutYouActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.login.LoginActivity$a/void a(java.lang.Exception)",
+            "sources": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ],
+            "targets": [
+                "com.fitbit.security.tfa.TfaCodeCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.heartrate.charts.ExerciseHeartRateChartActivity/void a(android.content.Context,java.util.Date)",
+            "sources": [
+                "com.fitbit.heartrate.charts.ExerciseHeartRateChartActivity"
+            ],
+            "targets": [
+                "com.fitbit.heartrate.charts.ExerciseHeartRateChartActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.MusicControlInfoActivity/void b(android.content.Context,com.fitbit.data.domain.device.Device)",
+            "sources": [
+                "com.fitbit.device.ui.MusicControlInfoActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.MusicControlInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.heartrate.landing.HeartRateLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.heartrate.landing.HeartRateLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.heartrate.landing.HeartRateLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.heartrate.landing.HeartRateLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.heartrate.landing.HeartRateDaysListFragment/void e()",
+            "sources": [
+                "com.fitbit.heartrate.landing.HeartRateLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.heartrate.onboarding.VO2OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.heartrate.details.HeartRateDetailsActivity/void a(android.content.Context,java.util.Date)",
+            "sources": [
+                "com.fitbit.heartrate.landing.HeartRateLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.heartrate.details.HeartRateDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.heartrate.landing.HeartRateLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.fitbit.heartrate.landing.HeartRateLandingActivity/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.heartrate.landing.HeartRateLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.heartrate.landing.HeartRateLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.heartrate.landing.HeartRateLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.userfeature.c/void a()",
+            "sources": [
+                "com.fitbit.heartrate.landing.HeartRateLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ExerciseShortcutsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.fitbit.device.ui.ExerciseShortcutsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ExerciseShortcutsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ExerciseIntervalSettingsActivity/void a(android.app.Activity,com.fitbit.data.domain.device.ExerciseIntervalTimerSettings,java.lang.String,com.fitbit.data.domain.device.ExerciseIntervalTimerOptions,com.fitbit.data.domain.device.ConnectedGpsStatus,int)",
+            "sources": [
+                "com.fitbit.device.ui.ExerciseShortcutsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ExerciseIntervalSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ExerciseShortcutsActivity/void a(android.view.View,int)",
+            "sources": [
+                "com.fitbit.device.ui.ExerciseShortcutsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ExerciseShortcutSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeOptionsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.ChallengeOptionsFragment$a/void b(android.app.Activity)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeOptionsActivity"
+            ],
+            "targets": [
+                "com.fitbit.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeOptionsActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeOptionsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.ChallengeOptionsFragment/void a(com.fitbit.data.domain.challenges.Challenge,com.fitbit.data.domain.challenges.ChallengeType,boolean)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeOptionsActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.challenges.sync.SyncChallengesDataService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeOptionsActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.bluetooth.BluetoothLeManager/void a(bluetooth.le.a.j$b)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeOptionsActivity"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeOptionsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeOptionsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.ChallengeOptionsFragment/void a(java.lang.String)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeOptionsActivity"
+            ],
+            "targets": [
+                "com.fitbit.settings.ui.profile.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.minerva.survey.MinervaSurveyActivity/void j()",
+            "sources": [
+                "com.fitbit.minerva.survey.MinervaSurveyActivity"
+            ],
+            "targets": [
+                "com.fitbit.minerva.ui.MinervaLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.logging.NutritionalFactsActivity/void a(android.content.Context,long,long)",
+            "sources": [
+                "com.fitbit.food.ui.logging.NutritionalFactsActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.logging.NutritionalFactsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.phone.PhoneVerificationActivity$7/void a()",
+            "sources": [
+                "com.fitbit.onboarding.phone.PhoneVerificationActivity"
+            ],
+            "targets": [
+                "com.fitbit.security.tfa.TfaEnableActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.GdprReaffirmActivity/void a(android.app.Activity,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.fitbit.GdprReaffirmActivity"
+            ],
+            "targets": [
+                "com.fitbit.GdprReaffirmActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.food.barcode.ui.BarcodeScannerActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.barcode.ui.SubmitToDbFragment/void c()",
+            "sources": [
+                "com.fitbit.food.barcode.ui.BarcodeScannerActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.barcode.ui.BarcodeScannerActivity/void onResume()",
+            "sources": [
+                "com.fitbit.food.barcode.ui.BarcodeScannerActivity"
+            ],
+            "targets": [
+                "com.fitbit.permissions.ui.DisabledPermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.logging.LogFoodActivity/void a(android.content.Context,com.fitbit.data.domain.FoodItem,java.util.Date)",
+            "sources": [
+                "com.fitbit.food.barcode.ui.BarcodeScannerActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.logging.LogFoodActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.challenges.ui.DebugCorporateOnboardingActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.DebugCorporateOnboardingActivity/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.DebugCorporateOnboardingActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.DebugCorporateOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.music.ui.playlists.SelectedPlaylistsActivity/void a()",
+            "sources": [
+                "com.fitbit.music.ui.playlists.SelectedPlaylistsActivity"
+            ],
+            "targets": [
+                "com.fitbit.music.ui.MusicPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.music.ui.playlists.SelectedPlaylistsActivity$a/void a(android.content.Context,com.fitbit.music.api.JunoService$Entity,com.fitbit.platform.adapter.data.DeviceInformation)",
+            "sources": [
+                "com.fitbit.music.ui.playlists.SelectedPlaylistsActivity"
+            ],
+            "targets": [
+                "com.fitbit.music.ui.playlists.SelectedPlaylistsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.login.LoginActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceDeviceActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.choose.ExplainTrackersActivity/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceDeviceActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ExplainTrackersActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.synclair.ui.PairActivity/void a(android.app.Activity,com.fitbit.data.domain.device.TrackerType,com.fitbit.synclair.ui.FlowAnalyticsHelper)",
+            "sources": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceDeviceActivity"
+            ],
+            "targets": [
+                "com.fitbit.synclair.ui.PairActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.replace.ConfirmReplaceDeviceActivity/void a(android.app.Activity,int,com.fitbit.data.domain.device.TrackerType)",
+            "sources": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceDeviceActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceDeviceActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.wallet.WalletActivity/void b(android.support.v4.util.Pair)",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.wallet.WalletActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.ribs.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.wallet.WalletActivity/void a(com.fitbit.coin.kit.internal.model.Card)",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.wallet.WalletActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.verification.VerificationActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.profile.AboutYouActivity/void f()",
+            "sources": [
+                "com.fitbit.onboarding.profile.AboutYouActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.profile.AboutYouActivity$WhyAreWeAskingDialogFragment"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.profile.AboutYouActivity/void b(int)",
+            "sources": [
+                "com.fitbit.onboarding.profile.AboutYouActivity"
+            ],
+            "targets": [
+                "com.fitbit.pluto.ui.onboarding.FitbitForChildrenOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.profile.AboutYouActivity$3/void a()",
+            "sources": [
+                "com.fitbit.onboarding.profile.AboutYouActivity"
+            ],
+            "targets": [
+                "com.fitbit.security.tfa.TfaInfoScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleMeasurementsActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleMeasurementsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleMeasurementsActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleMeasurementsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.bluetooth.BluetoothLeManager/void a(bluetooth.le.a.j$b)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleMeasurementsActivity"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleMeasurementsActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleMeasurementsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleMeasurementsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.DebugCorporateChallengesSettingsActivity/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.DebugCorporateChallengesSettingsActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.DebugCorporateChallengesSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.goals.ui.SelectPlanIntensityActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.goals.ui.SelectPlanIntensityActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.goals.ui.SelectPlanIntensityActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.SelectPlanIntensityActivity/void a(android.app.Activity,boolean,android.content.Intent)",
+            "sources": [
+                "com.fitbit.goals.ui.SelectPlanIntensityActivity"
+            ],
+            "targets": [
+                "com.fitbit.goals.ui.SelectPlanIntensityActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.goals.ui.SelectPlanIntensityActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.SelectPlanIntensityActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.fitbit.goals.ui.SelectPlanIntensityActivity"
+            ],
+            "targets": [
+                "com.fitbit.goals.ui.FoodGoalActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.goals.ui.SelectPlanIntensityActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.goals.ui.SelectPlanIntensityActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.CWChallengeWelcomeScreensActivity/void a(android.app.Activity,java.lang.String,com.fitbit.data.repo.greendao.challenge.CorporateChallengeWelcomeScreenSettings,int)",
+            "sources": [
+                "com.fitbit.challenges.ui.CWChallengeWelcomeScreensActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.CWChallengeWelcomeScreensActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.password.PasswordRecoveryActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.fitbit.onboarding.password.PasswordRecoveryActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.password.PasswordRecoveryActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.CorporateWellnessAchievementFragment$3/void a(android.support.v4.content.Loader,android.net.Uri)",
+            "sources": [
+                "com.fitbit.challenges.ui.AchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.feed.ComposeActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.AchievementActivity/void a(android.app.Activity,com.fitbit.data.domain.challenges.Challenge,com.fitbit.data.domain.challenges.ChallengeType,int)",
+            "sources": [
+                "com.fitbit.challenges.ui.AchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.AchievementActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.licenses.LicenseDisplayActivity/void a(android.content.Context,com.fitbit.licenses.data.LibraryLicense)",
+            "sources": [
+                "com.fitbit.licenses.OpenSourceLicenseActivity"
+            ],
+            "targets": [
+                "com.fitbit.licenses.LicenseDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.ae/void a(android.app.Activity)",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.verification.VerificationActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.CorporateChallengeLeaderboardActivity$1/void a(java.lang.CharSequence)",
+            "sources": [
+                "com.fitbit.challenges.ui.CorporateChallengeLeaderboardActivity"
+            ],
+            "targets": [
+                "com.fitbit.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.CorporateChallengeLeaderboardActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.util.Date,int)",
+            "sources": [
+                "com.fitbit.challenges.ui.CorporateChallengeLeaderboardActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.CorporateChallengeLeaderboardActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.synclair.ui.fragment.impl.education.view.EducationDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.weight.ui.landing.WeightLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.profile.ui.achievements.AchievementDetailFragment$2/void a(android.support.v4.content.Loader,android.net.Uri)",
+            "sources": [
+                "com.fitbit.profile.ui.achievements.AchievementDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.feed.ComposeActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.profile.ui.achievements.AchievementDetailActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.profile.ui.achievements.AchievementDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.userfeature.c/void a()",
+            "sources": [
+                "com.fitbit.profile.ui.achievements.AchievementDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.bluetooth.BluetoothLeManager/void a(bluetooth.le.a.j$b)",
+            "sources": [
+                "com.fitbit.profile.ui.achievements.AchievementDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.profile.ui.achievements.AchievementDetailActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.profile.ui.achievements.AchievementDetailActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.profile.ui.achievements.AchievementDetailActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.CustomFoodActivity/void a(android.content.Context,long,long)",
+            "sources": [
+                "com.fitbit.food.ui.CustomFoodActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.CustomFoodActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.alarm.ui.AlarmActivity/void a(android.content.Context,com.fitbit.data.domain.device.Device)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.alarm.ui.AlarmActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity$20/void onClick(android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.InactivityActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity$11/void b()",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.platform.domain.gallery.AppGalleryActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void c(com.fitbit.data.domain.device.Device,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ClockFaceSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity$7/void onClick(android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.WifiManagementActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.PrimaryGoalSelector/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void a(android.support.v4.content.Loader,com.fitbit.device.ui.TrackerDetailsActivity$e)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.KeepAliveRationaleActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void b(android.content.Context,com.fitbit.data.domain.device.Device)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void a(com.fitbit.data.domain.device.q,com.fitbit.data.domain.device.Device,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ExerciseShortcutsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void f(com.fitbit.data.domain.device.Device,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.MusicControlInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void b(com.fitbit.data.domain.device.Device,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.ipass.IPassOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void o()",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.synclair.ui.FirmwareUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void a(com.fitbit.data.domain.device.Device,com.fitbit.coin.kit.PaymentDevice,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void g(com.fitbit.data.domain.device.Device,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.GuideActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void e(com.fitbit.data.domain.device.Device,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.notifications.NotificationConfigurationActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void a(com.fitbit.data.domain.device.q,com.fitbit.data.domain.device.Device,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ExerciseCuesShortcutsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void a(com.fitbit.data.domain.device.Device,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.platform.developer.TrackerDeveloperActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity/void d(com.fitbit.data.domain.device.Device,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.TrackerDetailsActivity$11/void c()",
+            "sources": [
+                "com.fitbit.device.ui.TrackerDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.music.ui.views.MediaActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.pluto.ui.onboarding.FamilyAccountOnboardingActivity/void f()",
+            "sources": [
+                "com.fitbit.pluto.ui.onboarding.FamilyAccountOnboardingActivity"
+            ],
+            "targets": [
+                "com.fitbit.pluto.ui.FamilyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.pluto.ui.onboarding.FamilyAccountOnboardingActivity/void b(android.view.View)",
+            "sources": [
+                "com.fitbit.pluto.ui.onboarding.FamilyAccountOnboardingActivity"
+            ],
+            "targets": [
+                "com.fitbit.security.account.VerifyEmailActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.heartrate.vo2.VO2MaxFullscreenActivity/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.heartrate.vo2.VO2MaxFullscreenActivity"
+            ],
+            "targets": [
+                "com.fitbit.heartrate.vo2.VO2MaxFullscreenActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.settings.ui.AccountActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.pluto.ui.onboarding.CoppaOnboardingActivity$OurExecutor/void a(android.support.v4.app.FragmentActivity)",
+            "sources": [
+                "com.fitbit.pluto.ui.onboarding.CoppaOnboardingActivity"
+            ],
+            "targets": [
+                "com.fitbit.pluto.ui.CoppaDetailedActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.logging.LogMealActivity/void a(android.content.Context,com.fitbit.data.domain.Meal,java.util.Date)",
+            "sources": [
+                "com.fitbit.food.ui.logging.LogMealActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.logging.LogMealActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.logging.LogMealActivity/void p()",
+            "sources": [
+                "com.fitbit.food.ui.logging.LogMealActivity"
+            ],
+            "targets": [
+                "com.fitbit.ui.choose.food.ChooseFoodActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.bluetooth.BluetoothLeManager/void a(bluetooth.le.a.j$b)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.logging.QuickCalorieAddActivity/void a(android.app.Activity,java.util.Date)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.logging.QuickCalorieAddActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.logging.LogFoodActivity/void a(android.content.Context,com.fitbit.data.domain.FoodLogEntry)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.logging.LogFoodActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.barcode.ui.BarcodeScannerActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.sharing.ShareActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.ui.choose.food.ChooseFoodActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.settings.ui.GoalsActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.food.ui.daydetails.FoodLoggingDayDetailsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.minerva.ui.settings.MinervaSettingsActivity$b/void onClick(android.view.View)",
+            "sources": [
+                "com.fitbit.minerva.ui.settings.MinervaSettingsActivity"
+            ],
+            "targets": [
+                "com.fitbit.minerva.ui.settings.BirthControlActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.landing.SoftReloginActivity$a/void a()",
+            "sources": [
+                "com.fitbit.onboarding.landing.SoftReloginActivity"
+            ],
+            "targets": [
+                "com.fitbit.FirstActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.landing.SoftReloginActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.fitbit.onboarding.landing.SoftReloginActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.landing.SoftReloginActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.feed.ProfileGroupsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.feed.ProfileGroupsActivity"
+            ],
+            "targets": [
+                "com.fitbit.feed.GroupsPrivacyActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.audrey.fragments.GroupsFragment/void d(com.fitbit.feed.model.f)",
+            "sources": [
+                "com.fitbit.feed.ProfileGroupsActivity"
+            ],
+            "targets": [
+                "com.fitbit.audrey.data.SyncFeedDataService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.adventures.AdventureSummaryActivity/void a(com.fitbit.data.domain.challenges.Landmark)",
+            "sources": [
+                "com.fitbit.challenges.ui.adventures.AdventureSummaryActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.LandmarkDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.adventures.AdventureSummaryActivity$6/void c(android.view.View)",
+            "sources": [
+                "com.fitbit.challenges.ui.adventures.AdventureSummaryActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.CreateChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.adventures.AdventureSummaryActivity$6/void b(android.view.View)",
+            "sources": [
+                "com.fitbit.challenges.ui.adventures.AdventureSummaryActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.gallery.SeeAllTypesActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.music.ui.fragments.PandoraFragment/void k()",
+            "sources": [
+                "com.fitbit.music.ui.views.MediaActivity"
+            ],
+            "targets": [
+                "com.fitbit.music.ui.MusicPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.music.ui.views.MediaActivity/void f()",
+            "sources": [
+                "com.fitbit.music.ui.views.MediaActivity"
+            ],
+            "targets": [
+                "com.fitbit.music.ui.playlists.SelectedPlaylistsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.music.ui.a/void a(android.support.v4.app.FragmentActivity,com.fitbit.platform.adapter.data.DeviceInformation,com.fitbit.music.b)",
+            "sources": [
+                "com.fitbit.music.ui.views.MediaActivity"
+            ],
+            "targets": [
+                "com.fitbit.music.ui.AutoSyncActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.gallery.LearnMoreActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.fitbit.challenges.ui.gallery.LearnMoreActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.gallery.SeeAllTypesActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.activity.ui.landing.ActivityLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.activity.ui.landing.ActivityLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.activity.ui.landing.ActivityLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.activity.ui.landing.ActivityLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.activity.ui.landing.ActivityLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.bluetooth.BluetoothLeManager/void a(bluetooth.le.a.j$b)",
+            "sources": [
+                "com.fitbit.activity.ui.landing.ActivityLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.activity.ui.landing.ActivityLandingActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.activity.ui.landing.ActivityLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.GuideActivity/void a(android.content.Context,com.fitbit.device.b)",
+            "sources": [
+                "com.fitbit.device.ui.GuideActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.GuideActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.choose.ExplainTrackersActivity/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ExplainTrackersActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ExplainTrackersActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.pluto.ui.onboarding.JoinFamilyOnboardingActivity/void f()",
+            "sources": [
+                "com.fitbit.pluto.ui.onboarding.JoinFamilyOnboardingActivity"
+            ],
+            "targets": [
+                "com.fitbit.pluto.ui.FamilyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.heartrate.charts.RestingHeartRateChartActivity/void a(android.content.Context,java.util.Date)",
+            "sources": [
+                "com.fitbit.heartrate.charts.RestingHeartRateChartActivity"
+            ],
+            "targets": [
+                "com.fitbit.heartrate.charts.RestingHeartRateChartActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.platform.domain.gallery.AppSettingsActivity/void onBackPressed()",
+            "sources": [
+                "com.fitbit.platform.domain.gallery.AppSettingsActivity"
+            ],
+            "targets": [
+                "com.fitbit.platform.domain.gallery.AppGalleryActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.login.LoginActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ConfirmDeviceActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.choose.ConfirmDeviceActivity/void a(android.app.Activity,int,com.fitbit.data.domain.device.TrackerType)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ConfirmDeviceActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ConfirmDeviceActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.synclair.ui.PairActivity/void a(android.app.Activity,com.fitbit.data.domain.device.TrackerType,com.fitbit.synclair.ui.FlowAnalyticsHelper)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ConfirmDeviceActivity"
+            ],
+            "targets": [
+                "com.fitbit.synclair.ui.PairActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.choose.ExplainTrackersActivity/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ConfirmDeviceActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ExplainTrackersActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.landing.LoginOrCreateAccountActivity/void c()",
+            "sources": [
+                "com.fitbit.onboarding.landing.LoginOrCreateAccountActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.landing.LoginOrCreateAccountActivity/void c(int)",
+            "sources": [
+                "com.fitbit.onboarding.landing.LoginOrCreateAccountActivity"
+            ],
+            "targets": [
+                "com.fitbit.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.FitbitMobile.ServerSettingsActivity/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.onboarding.landing.LoginOrCreateAccountActivity"
+            ],
+            "targets": [
+                "com.fitbit.FitbitMobile.ServerSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.landing.LoginOrCreateAccountActivity/void a(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.fitbit.onboarding.landing.LoginOrCreateAccountActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.landing.LoginOrCreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.login.LoginActivity/void b(android.app.Activity,int)",
+            "sources": [
+                "com.fitbit.onboarding.landing.LoginOrCreateAccountActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.synclair.ui.PairActivity/void a(android.app.Activity,com.fitbit.data.domain.device.TrackerType,com.fitbit.synclair.ui.FlowAnalyticsHelper)",
+            "sources": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceSmartWatchActivity"
+            ],
+            "targets": [
+                "com.fitbit.synclair.ui.PairActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.choose.ExplainTrackersActivity/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceSmartWatchActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ExplainTrackersActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.replace.ConfirmReplaceSmartWatchActivity/void a(android.app.Activity,int,com.fitbit.data.domain.device.TrackerType,com.fitbit.data.domain.device.TrackerType,java.lang.String)",
+            "sources": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceSmartWatchActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceSmartWatchActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.login.LoginActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceSmartWatchActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.device.ui.OrderActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.IncomingInvitationFragment/void a(com.fitbit.challenges.ui.RequiredFeaturesDialogFragment,int)",
+            "sources": [
+                "com.fitbit.challenges.ui.IncomingInvitationActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.IncomingInvitationFragment$2/void a(com.fitbit.util.g$a,boolean,com.fitbit.httpcore.exceptions.ServerCommunicationException)",
+            "sources": [
+                "com.fitbit.challenges.ui.IncomingInvitationActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.IncomingInvitationActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.bluetooth.BluetoothLeManager/void a(bluetooth.le.a.j$b)",
+            "sources": [
+                "com.fitbit.challenges.ui.IncomingInvitationActivity"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.IncomingInvitationActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.IncomingInvitationActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.IncomingInvitationActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.IncomingInvitationFragment/void j()",
+            "sources": [
+                "com.fitbit.challenges.ui.IncomingInvitationActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.ChallengeGameplayActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.challenges.ui.IncomingInvitationActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.IncomingInvitationActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.licenses.LicenseDisplayActivity/void a(android.content.Context,com.fitbit.licenses.data.LibraryLicense)",
+            "sources": [
+                "com.fitbit.licenses.LicenseDisplayActivity"
+            ],
+            "targets": [
+                "com.fitbit.licenses.LicenseDisplayActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.SelectPlanIntensityActivity/void a(android.app.Activity,boolean,android.content.Intent)",
+            "sources": [
+                "com.fitbit.goals.ui.CreateWeightGoalActivity"
+            ],
+            "targets": [
+                "com.fitbit.goals.ui.SelectPlanIntensityActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.FoodGoalActivity/void a(android.app.Activity,boolean,android.content.Intent)",
+            "sources": [
+                "com.fitbit.goals.ui.CreateWeightGoalActivity"
+            ],
+            "targets": [
+                "com.fitbit.goals.ui.FoodGoalActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.CreateWeightGoalActivity/void a(android.content.Context,boolean,android.content.Intent)",
+            "sources": [
+                "com.fitbit.goals.ui.CreateWeightGoalActivity"
+            ],
+            "targets": [
+                "com.fitbit.goals.ui.CreateWeightGoalActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.lock.LockActivity/void a()",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.lock.LockActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.pin.SetPinActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleUsersActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ScaleUsersInviteFragment$1/java.lang.Object b()",
+            "sources": [
+                "com.fitbit.device.ui.ScaleUsersActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.pluto.ui.onboarding.AboutTheKidActivity$l/void a(com.fitbit.pluto.ui.onboarding.AboutTheKidViewModel$State)",
+            "sources": [
+                "com.fitbit.pluto.ui.onboarding.AboutTheKidActivity"
+            ],
+            "targets": [
+                "com.fitbit.pluto.ui.onboarding.ChildAccountCreateOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.runtrack.ui.RecordExerciseActivity/void a(android.support.v4.content.Loader,java.util.List)",
+            "sources": [
+                "com.fitbit.runtrack.ui.RecordExerciseActivity"
+            ],
+            "targets": [
+                "com.fitbit.runtrack.ui.RecordExerciseSessionActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ExerciseIntervalSettingsActivity/void a(android.app.Activity,com.fitbit.data.domain.device.ExerciseIntervalTimerSettings,java.lang.String,com.fitbit.data.domain.device.ExerciseIntervalTimerOptions,com.fitbit.data.domain.device.GPSStatus,int)",
+            "sources": [
+                "com.fitbit.device.ui.ExerciseCuesShortcutsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ExerciseIntervalSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ExerciseCuesShortcutsActivity/void a(android.view.View,int)",
+            "sources": [
+                "com.fitbit.device.ui.ExerciseCuesShortcutsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ExerciseShortcutSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ExerciseCuesShortcutsActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.fitbit.device.ui.ExerciseCuesShortcutsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ExerciseCuesShortcutsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.alarm.ui.AlarmActivity/void a(android.content.Context,com.fitbit.data.domain.device.Device)",
+            "sources": [
+                "com.fitbit.alarm.ui.AlarmActivity"
+            ],
+            "targets": [
+                "com.fitbit.alarm.ui.AlarmActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.pin.SetPinPromptActivity/void onProceedPressed()",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.pin.SetPinPromptActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.pin.SetPinActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.heartrate.intraday.IntradayHeartRateChartActivity/void a(android.content.Context,java.util.Date)",
+            "sources": [
+                "com.fitbit.heartrate.intraday.IntradayHeartRateChartActivity"
+            ],
+            "targets": [
+                "com.fitbit.heartrate.intraday.IntradayHeartRateChartActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.bluetooth.BluetoothLeManager/void a(bluetooth.le.a.j$b)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.messagelist.ChallengeMessagesFragment/void c(com.fitbit.data.domain.challenges.ChallengeMessage)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.adventures.GemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.messagelist.ChallengeMessagesFragment/void a(com.fitbit.data.domain.challenges.ChallengeMessage,com.fitbit.data.domain.challenges.ChallengeUser)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.fitbit.settings.ui.profile.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.CorporateChallengeLeaderboardActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.util.Date,int)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.CorporateChallengeLeaderboardActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.messagelist.ChallengeMessagesFragment/void a(com.fitbit.data.domain.challenges.ChallengeMessage)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.fitbit.friends.ui.finder.views.FriendFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.messagelist.ChallengeMessagesFragment/void e()",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.adventures.AdventureSummaryActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.messagelist.ChallengeMessagesFragment/void d()",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.messagelist.ChallengeMessagesFragment/void b()",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.challenges.sync.SyncChallengesDataService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.messagelist.ChallengeMessagesFragment/void b(com.fitbit.data.domain.challenges.ChallengeMessage)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.LandmarkDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.fitbit.settings.ui.ChallengeActivityTest"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.pluto.ui.onboarding.ChildAccountCreateOnboardingActivity/void h()",
+            "sources": [
+                "com.fitbit.pluto.ui.onboarding.ChildAccountCreateOnboardingActivity"
+            ],
+            "targets": [
+                "com.fitbit.pluto.ui.onboarding.PairingKidDeviceInstructionsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.pluto.ui.onboarding.ChildAccountCreateOnboardingActivity/void e()",
+            "sources": [
+                "com.fitbit.pluto.ui.onboarding.ChildAccountCreateOnboardingActivity"
+            ],
+            "targets": [
+                "com.fitbit.pluto.ui.FamilyAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.CreateWeightGoalActivity/void a(android.content.Context,boolean,android.content.Intent)",
+            "sources": [
+                "com.fitbit.goals.ui.PlanSummaryActivity"
+            ],
+            "targets": [
+                "com.fitbit.goals.ui.CreateWeightGoalActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.PlanSummaryActivity/void a(android.content.Context,boolean,android.content.Intent)",
+            "sources": [
+                "com.fitbit.goals.ui.PlanSummaryActivity"
+            ],
+            "targets": [
+                "com.fitbit.goals.ui.PlanSummaryActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.PlanSummaryActivity$1/void a()",
+            "sources": [
+                "com.fitbit.goals.ui.PlanSummaryActivity"
+            ],
+            "targets": [
+                "com.fitbit.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.runtrack.ui.ExerciseListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.fitbit.settings.ui.AutoExerciseSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.runtrack.onboarding.c/void c()",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.fitbit.runtrack.onboarding.ExerciseGoalsOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.bluetooth.BluetoothLeManager/void a(bluetooth.le.a.j$b)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.runtrack.onboarding.c/void d()",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.fitbit.runtrack.onboarding.AutoExerciseOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.runtrack.ui.ExerciseListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.fitbit.runtrack.ui.RecordExerciseActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.runtrack.ui.ExerciseListActivity/void a(com.fitbit.data.domain.ActivityLogEntry)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.fitbit.runtrack.ui.ExerciseDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseListActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.device.ui.WifiManagementActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.WifiManagementActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.WifiManagementActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.wifi.b/com.fitbit.device.wifi.b$a g()",
+            "sources": [
+                "com.fitbit.device.ui.WifiManagementActivity"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.device.ui.WifiManagementActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.WifiManagementActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.WifiManagementActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.device.ui.WifiManagementActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.replace.ConfirmReplaceSmartWatchActivity/void a(android.app.Activity,int,com.fitbit.data.domain.device.TrackerType,com.fitbit.data.domain.device.TrackerType,java.lang.String)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceSmartWatchActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.replace.ConfirmReplaceDeviceActivity/void a(android.app.Activity,int,com.fitbit.data.domain.device.TrackerType)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.replace.ConfirmReplaceDeviceActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.onboarding.login.LoginActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity"
+            ],
+            "targets": [
+                "com.fitbit.onboarding.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.GdprReaffirmActivity/void a(android.app.Activity,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity"
+            ],
+            "targets": [
+                "com.fitbit.GdprReaffirmActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.choose.ChooseTrackerEditionActivity/void a(android.app.Activity,int,com.fitbit.data.domain.device.TrackerType)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerEditionActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.choose.ConfirmDeviceActivity/void a(android.app.Activity,int,com.fitbit.data.domain.device.TrackerType)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ConfirmDeviceActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.setup.notifications.SelectedAppsForNotificationFragment/void b(android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.setup.notifications.NotificationConfigurationActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.notifications.NotificationPermissionsRationaleActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.device.ui.setup.notifications.NotificationConfigurationActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.SplashActivity/void f()",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.lock.LockActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.SplashActivity/void a(java.lang.Class)",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.fingerprint.KeyGuardHelperActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.SplashActivity/void a(com.fitbit.coin.kit.internal.device.da)",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.pin.SetPinActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.SplashActivity/void a(com.fitbit.coin.kit.internal.ui.SplashActivity$a,android.content.Intent)",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.ribs.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.SplashActivity/void a(com.fitbit.coin.kit.internal.device.da)",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.pin.SetPinPromptActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.SplashActivity/void d()",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.PaymentsOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.coin.kit.internal.ui.SplashActivity/void a(com.fitbit.coin.kit.internal.ui.SplashActivity$a,android.content.Intent)",
+            "sources": [
+                "com.fitbit.coin.kit.internal.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.fitbit.coin.kit.internal.ui.wallet.WalletActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.logging.LogFoodActivity/void a(android.content.Context,com.fitbit.data.domain.FoodLogEntry)",
+            "sources": [
+                "com.fitbit.food.ui.logging.LogFoodActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.logging.LogFoodActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.platform.developer.AppDetailFragment/void viewLogs()",
+            "sources": [
+                "com.fitbit.platform.developer.TrackerDeveloperActivity"
+            ],
+            "targets": [
+                "com.fitbit.platform.developer.CompanionLogsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.platform.developer.AppDetailFragment/void a(com.fitbit.platform.domain.gallery.AppSettingsActivity$SettingIntentData)",
+            "sources": [
+                "com.fitbit.platform.developer.TrackerDeveloperActivity"
+            ],
+            "targets": [
+                "com.fitbit.platform.domain.gallery.AppSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.sleep.ui.details.SleepLoggingDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.minerva.ui.MinervaLandingActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.minerva.ui.MinervaLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.minerva.ui.info.MinervaInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.minerva.ui.MinervaLandingActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.minerva.ui.MinervaLandingActivity"
+            ],
+            "targets": [
+                "com.fitbit.minerva.ui.settings.MinervaSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.CaloriesEatenVsBurnedActivity/void a(android.app.Activity,boolean,android.content.Intent)",
+            "sources": [
+                "com.fitbit.goals.ui.CaloriesEatenVsBurnedActivity"
+            ],
+            "targets": [
+                "com.fitbit.goals.ui.CaloriesEatenVsBurnedActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.goals.ui.CaloriesEatenVsBurnedActivity/void a(android.view.View)",
+            "sources": [
+                "com.fitbit.goals.ui.CaloriesEatenVsBurnedActivity"
+            ],
+            "targets": [
+                "com.fitbit.goals.ui.PlanSummaryActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ClockFaceSelectorActivity/void b(android.content.Context,com.fitbit.data.domain.device.Device)",
+            "sources": [
+                "com.fitbit.device.ui.ClockFaceSelectorActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ClockFaceSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.device.ui.ClockFaceSelectorActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.feed.PostDetailActivity/void a(com.fitbit.feed.model.f)",
+            "sources": [
+                "com.fitbit.feed.PostDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.feed.GroupDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.feed.PostDetailActivity/void b(com.fitbit.feed.model.FeedItem)",
+            "sources": [
+                "com.fitbit.feed.PostDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.feed.moderation.ModerationReportActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.feed.PostDetailActivity/void b(java.lang.String)",
+            "sources": [
+                "com.fitbit.feed.PostDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.settings.ui.profile.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.runtrack.ui.ExerciseDetailsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.activity.ui.activitylog.UpdateRecordedExerciseActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.runtrack.ui.ExerciseDetailsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.runtrack.ui.ExerciseDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.sharing.ShareActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.pluto.ui.CoppaDetailedActivity/void onAgree()",
+            "sources": [
+                "com.fitbit.pluto.ui.CoppaDetailedActivity"
+            ],
+            "targets": [
+                "com.fitbit.pluto.ui.onboarding.AboutTheKidActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.feed.ComposeActivity/void a(com.fitbit.audrey.compose.quilt.QuiltTileType)",
+            "sources": [
+                "com.fitbit.feed.ComposeActivity"
+            ],
+            "targets": [
+                "com.fitbit.sharing.ShareActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.feed.ComposeActivity/void a(com.fitbit.audrey.compose.quilt.QuiltTileType)",
+            "sources": [
+                "com.fitbit.feed.ComposeActivity"
+            ],
+            "targets": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.feed.ComposeActivity/void f()",
+            "sources": [
+                "com.fitbit.feed.ComposeActivity"
+            ],
+            "targets": [
+                "com.fitbit.feed.ShareImageActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.profile.ui.achievements.BadgesFragment$2/void a(android.widget.ImageView,com.fitbit.data.domain.badges.Badge)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.profile.ui.achievements.AchievementDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.landing.FoodLoggingDaysListFragment/void f()",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.barcode.ui.BarcodeScannerActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.landing.FoodLoggingDaysListFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.settings.ui.GoalsActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.landing.FoodLoggingDaysListFragment/void e()",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.ui.choose.food.ChooseFoodActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.bluetooth.BluetoothLeManager/void a(bluetooth.le.a.j$b)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.logging.QuickCalorieAddActivity/void a(android.app.Activity,java.util.Date)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.food.ui.logging.QuickCalorieAddActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.food.ui.landing.FoodLoggingDaysListFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.sharing.ShareActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.feed.ShareAchievementActivity/void b()",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.feed.ShareImageActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.feed.ShareAchievementActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.activity.ui.details.ActivityDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.gallery.CustomSocialAdventureActivity$a/void a(android.support.v4.content.Loader,com.fitbit.friends.ui.finder.a.b$b)",
+            "sources": [
+                "com.fitbit.challenges.ui.gallery.CustomSocialAdventureActivity"
+            ],
+            "targets": [
+                "com.fitbit.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.gallery.CustomSocialAdventureActivity$a/void a(android.support.v4.content.Loader,com.fitbit.friends.ui.finder.a.b$b)",
+            "sources": [
+                "com.fitbit.challenges.ui.gallery.CustomSocialAdventureActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.audrey.fragments.FeedFragment/void f()",
+            "sources": [
+                "com.fitbit.feed.GroupDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.audrey.data.SyncPendingOperationsService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.feed.GroupDetailActivity/void w()",
+            "sources": [
+                "com.fitbit.feed.GroupDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.audrey.creategroups.members.GroupMembersActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.audrey.loaders.f/void a()",
+            "sources": [
+                "com.fitbit.feed.GroupDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.audrey.data.SyncFeedItemsService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.feed.GroupDetailActivity/void t()",
+            "sources": [
+                "com.fitbit.feed.GroupDetailActivity"
+            ],
+            "targets": [
+                "com.fitbit.feed.CreateGroupActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ExerciseIntervalSettingsActivity/void a(android.app.Activity,com.fitbit.data.domain.device.ExerciseIntervalTimerSettings,java.lang.String,com.fitbit.data.domain.device.ExerciseIntervalTimerOptions,com.fitbit.data.domain.device.GPSStatus,int)",
+            "sources": [
+                "com.fitbit.device.ui.ExerciseIntervalSettingsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ExerciseIntervalSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.MainActivity/void a(android.app.Activity,com.fitbit.MainActivity$NavigationItem)",
+            "sources": [
+                "com.fitbit.MainActivity"
+            ],
+            "targets": [
+                "com.fitbit.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.LeadershipChallengeResultsFragment$3/void a(android.support.v4.content.Loader,android.net.Uri)",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.fitbit.feed.ComposeActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.bluetooth.BluetoothLeManager/void a(bluetooth.le.a.j$b)",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.LeadershipChallengeResultsFragment/void a(java.lang.String)",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.fitbit.settings.ui.profile.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.LeadershipChallengeResultsFragment/void onStart()",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.challenges.sync.SyncChallengesDataService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.LeadershipChallengeResultsFragment$1/void a(java.lang.CharSequence)",
+            "sources": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ],
+            "targets": [
+                "com.fitbit.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.settings.ui.HelpPageActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.FitbitMobile.ServerSettingsActivity/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.FitbitMobile.ServerSettingsActivity"
+            ],
+            "targets": [
+                "com.fitbit.FitbitMobile.ServerSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.messagelist.ChallengeMessagesFragment/void a(com.fitbit.data.domain.challenges.ChallengeMessage,com.fitbit.data.domain.challenges.ChallengeUser)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.settings.ui.profile.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.adventures.AdventureFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.ChallengeOptionsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.adventures.AdventureFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.friends.ui.finder.views.FriendFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.progress.ChallengeProgressFragment/void a(com.fitbit.challenges.ui.RequiredFeaturesDialogFragment,int)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.setup.choose.ChooseTrackerActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.CorporateChallengeLeaderboardActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.util.Date,int)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.CorporateChallengeLeaderboardActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.messagelist.ChallengeMessagesFragment/void e()",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.adventures.AdventureSummaryActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.messagelist.ChallengeMessagesFragment/void b(com.fitbit.data.domain.challenges.ChallengeMessage)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.LandmarkDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.AchievementActivity/void a(android.app.Activity,com.fitbit.data.domain.challenges.Challenge,com.fitbit.data.domain.challenges.ChallengeType,int)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.AchievementActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.messagelist.ChallengeMessagesFragment/void c(com.fitbit.data.domain.challenges.ChallengeMessage)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.adventures.GemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.progress.ChallengeProgressFragment/void f()",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.CreateChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.adventures.AdventureFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.ChallengeGameplayActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.bluetooth.BluetoothLeManager/void a(bluetooth.le.a.j$b)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.bluetooth.BluetoothService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.CWChallengeWelcomeScreensActivity/void a(android.app.Activity,java.lang.String,com.fitbit.data.repo.greendao.challenge.CorporateChallengeWelcomeScreenSettings,int)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.CWChallengeWelcomeScreensActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.LeadershipChallengeFragment/boolean a(com.fitbit.FitbitMobile.GCMNotification)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.challenges.sync.SyncChallengesDataService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.fitbit.challenges.ui.ChallengeActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.LeadershipChallengeResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.settings.ui.BeemoTestsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v21.PlatformJobService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.fcm.a/void a(android.content.Context)",
+            "sources": [
+                "com.fitbit.settings.ui.BeemoTestsActivity"
+            ],
+            "targets": [
+                "com.fitbit.data.bl.SyncService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.adventures.FinisherLeaderboardFragment/void a()",
+            "sources": [
+                "com.fitbit.settings.ui.BeemoTestsActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.CreateChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.s/void e(com.fitbit.FitBitApplication)",
+            "sources": [
+                "com.fitbit.settings.ui.BeemoTestsActivity"
+            ],
+            "targets": [
+                "com.fitbit.mobiletrack.FitbitPedometerService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.b/int b(android.content.Context)",
+            "sources": [
+                "com.fitbit.settings.ui.BeemoTestsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.gcm.PlatformGcmService"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.settings.ui.BeemoTestsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.challenges.ui.adventures.FinisherLeaderboardFragment/void b()",
+            "sources": [
+                "com.fitbit.settings.ui.BeemoTestsActivity"
+            ],
+            "targets": [
+                "com.fitbit.challenges.ui.gallery.SeeAllTypesActivity"
+            ]
+        },
+        {
+            "handler": "com.evernote.android.job.util.JobApi/boolean a(android.content.Context)",
+            "sources": [
+                "com.fitbit.settings.ui.BeemoTestsActivity"
+            ],
+            "targets": [
+                "com.evernote.android.job.v14.PlatformAlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.settings.ui.dc.MobileDataTestPageActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ScaleDetailsActivity/void a(com.fitbit.data.domain.device.Scale,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.GuideActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ScaleDetailsActivity/void c(android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ScaleUsersActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ScaleDetailsActivity/void b(com.fitbit.data.domain.device.Scale,android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.synclair.ui.WifiSetupActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.device.ui.ScaleDetailsActivity/void b(android.view.View)",
+            "sources": [
+                "com.fitbit.device.ui.ScaleDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.device.ui.ScaleMeasurementsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.settings.ui.AutoExerciseSettingsActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        },
+        {
+            "handler": "com.fitbit.pluto.ui.onboarding.FitbitForChildrenOnboardingActivity$OurExecutor/void a(android.support.v4.app.FragmentActivity)",
+            "sources": [
+                "com.fitbit.pluto.ui.onboarding.FitbitForChildrenOnboardingActivity"
+            ],
+            "targets": [
+                "com.fitbit.pluto.ui.onboarding.PairingKidDeviceInstructionsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.heartrate.details.HeartRateDetailsActivity/void a(android.content.Context,java.util.Date)",
+            "sources": [
+                "com.fitbit.heartrate.details.HeartRateDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.heartrate.details.HeartRateDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.heartrate.intraday.IntradayHeartRateChartActivity/void a(android.content.Context,java.util.Date)",
+            "sources": [
+                "com.fitbit.heartrate.details.HeartRateDetailsActivity"
+            ],
+            "targets": [
+                "com.fitbit.heartrate.intraday.IntradayHeartRateChartActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.synclair.ui.PairActivity/void a(android.app.Activity,com.fitbit.data.domain.device.TrackerType,com.fitbit.synclair.ui.FlowAnalyticsHelper)",
+            "sources": [
+                "com.fitbit.synclair.ui.PairActivity"
+            ],
+            "targets": [
+                "com.fitbit.synclair.ui.PairActivity"
+            ]
+        },
+        {
+            "handler": "com.fitbit.data.bl.eh/void e(boolean)",
+            "sources": [
+                "com.fitbit.synclair.ui.PairActivity"
+            ],
+            "targets": [
+                "com.fitbit.widget.WidgetUpdateService"
+            ]
+        }
+    ]
+}

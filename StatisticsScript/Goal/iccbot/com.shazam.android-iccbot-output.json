@@ -1,0 +1,229 @@
+{
+    "transitions": [
+        {
+            "handler": "com.shazam.android.activities.account.SignUpActivity/void showSuccess()",
+            "sources": [
+                "com.shazam.android.activities.account.SignUpActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.ShazamErrorHandlerActivity/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.shazam.android.activities.ShazamErrorHandlerActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainCompatActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.ShazamErrorHandlerActivity/void goShazamError(android.content.Context,com.shazam.g.e)",
+            "sources": [
+                "com.shazam.android.activities.ShazamErrorHandlerActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.ShazamErrorHandlerActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.ShazamErrorHandlerActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.shazam.android.activities.ShazamErrorHandlerActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.artist.ArtistProfileActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.shazam.android.activities.artist.ArtistProfileActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.search.SearchActivity/void goBackOrHome()",
+            "sources": [
+                "com.shazam.android.activities.search.SearchActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.MainActivity/void startTaggingIfTaggingIntentNotFromRecents()",
+            "sources": [
+                "com.shazam.android.activities.MainActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.PermissionGrantingActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.launchers.MainActivityLauncher/void goTagging(android.content.Context,com.shazam.android.analytics.TaggingOrigin)",
+            "sources": [
+                "com.shazam.android.activities.MainActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.MainActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.shazam.android.activities.MainActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.ShazamErrorHandlerActivity/void goShazamError(android.content.Context,com.shazam.g.e)",
+            "sources": [
+                "com.shazam.android.activities.MainActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.ShazamErrorHandlerActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.WebActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.shazam.android.activities.WebActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.WebActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.shazam.android.activities.WebActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.PermissionGrantingActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.account.CheckEmailActivity/void handleIntent(android.content.Intent)",
+            "sources": [
+                "com.shazam.android.activities.account.CheckEmailActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.launchers.MainActivityLauncher/void goTagging(android.content.Context,com.shazam.android.analytics.TaggingOrigin)",
+            "sources": [
+                "com.shazam.android.activities.StreamingPlaylistsActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.fragment.player.PlayerFragment/void onStart()",
+            "sources": [
+                "com.shazam.android.activities.player.PlayerActivity"
+            ],
+            "targets": [
+                "com.shazam.android.service.player.MusicPlayerService"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.service.player.MusicPlayerService/void c()",
+            "sources": [
+                "com.shazam.android.activities.player.PlayerActivity"
+            ],
+            "targets": [
+                "com.shazam.android.fragment.player.PlayerFragment$OnPlayerInteractionBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.PermissionGrantingActivity$Builder/boolean checkAndRequest(android.content.Context,com.shazam.model.s.d,android.net.Uri,android.os.Bundle)",
+            "sources": [
+                "com.shazam.android.activities.PermissionGrantingActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.PermissionGrantingActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.MainCompatActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.shazam.android.activities.MainCompatActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainCompatActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.logout.LogoutDialogActivity/void goHome()",
+            "sources": [
+                "com.shazam.android.activities.logout.LogoutDialogActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void a(android.content.Context,com.mopub.mobileads.VastVideoConfig,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.account.EmailRegistrationActivity/void goHome()",
+            "sources": [
+                "com.shazam.android.activities.account.EmailRegistrationActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.shazam.android.activities.SplashActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.shazam.android.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.shazam.android.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        }
+    ]
+}

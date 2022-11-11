@@ -1,0 +1,283 @@
+{
+    "transitions": [
+        {
+            "handler": "com.socialnmobile.colornote.oauth.RedirectOauthReceiverActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.socialnmobile.colornote.oauth.RedirectOauthReceiverActivity"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.SyncActivity"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.g.a/void al()",
+            "sources": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Today"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.g.a/boolean a(boolean)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteWidgetConfigure"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.g.a/void al()",
+            "sources": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Main"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.g.a/void al()",
+            "sources": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.Search/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Search"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Main"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.Search/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Search"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.Today$a/java.lang.Long a(java.lang.String[])",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Today"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Today"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.Today$a/java.lang.Long a(java.lang.String[])",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Today"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Main"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.Today/void a(int)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Today"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/void a(android.content.Context,int[])",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Main"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Main"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.Main$b/void onError(com.socialnmobile.colornote.sync.errors.AuthRequired)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Main"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.SyncActivity"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/android.widget.RemoteViews e(android.content.Context)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Main"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.Main$4/boolean a(int,java.lang.String,com.socialnmobile.colornote.i.e$a)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Main"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteWidgetConfigure"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.Main/void c(int)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Main"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Settings"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/void a(android.content.Context,int[])",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Main"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Today"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.ActionReceiver/boolean a(android.content.Intent)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.ActionReceiver"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/android.widget.RemoteViews a(android.content.Context,int,int)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.NoteWidgetConfigure"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.NoteWidgetConfigure/void a(long)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.NoteWidgetConfigure"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteWidgetConfigure"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/void a(android.content.Context,android.widget.RemoteViews,int,int,long,java.lang.String,java.lang.String,int,int,boolean,int,int)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Settings"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteWidgetConfigure"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/void a(android.content.Context,int[])",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Settings"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Main"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/android.widget.RemoteViews e(android.content.Context)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Settings"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/void a(android.content.Context,int[])",
+            "sources": [
+                "com.socialnmobile.colornote.activity.Settings"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Today"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.SendToNoteByTitle/void a(android.net.Uri)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.SendToNoteByTitle"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.data.o/void b(android.content.Context,android.net.Uri,int)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.PasswordSetting"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/android.widget.RemoteViews a(android.content.Context,int,int,long,java.lang.String,java.lang.String,int,int,boolean,int,int)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.PasswordSetting"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteWidgetConfigure"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/void a(android.content.Context,int[])",
+            "sources": [
+                "com.socialnmobile.colornote.activity.PasswordSetting"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Today"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/void a(android.content.Context,int[])",
+            "sources": [
+                "com.socialnmobile.colornote.activity.PasswordSetting"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Main"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.receiver.a/android.widget.RemoteViews e(android.content.Context)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.ReminderSettings"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.NoteEditor"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.ReminderSettings/boolean b(boolean)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.ReminderSettings"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Main"
+            ]
+        },
+        {
+            "handler": "com.socialnmobile.colornote.activity.ReminderSettings/boolean b(boolean)",
+            "sources": [
+                "com.socialnmobile.colornote.activity.ReminderSettings"
+            ],
+            "targets": [
+                "com.socialnmobile.colornote.activity.Today"
+            ]
+        }
+    ]
+}

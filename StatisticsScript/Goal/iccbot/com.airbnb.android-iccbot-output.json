@@ -1,0 +1,103 @@
+{
+    "transitions": [
+        {
+            "handler": "com.airbnb.android.places.ResyController/void a(int,int,android.content.Intent)",
+            "sources": [
+                "com.airbnb.android.places.activities.PlaceActivityPDPActivity"
+            ],
+            "targets": [
+                "com.airbnb.android.places.activities.ResyPostBookingActivity"
+            ]
+        },
+        {
+            "handler": "com.airbnb.android.select.homelayout.HomeLayoutActivity/void a(android.os.Bundle)",
+            "sources": [
+                "com.airbnb.android.select.homelayout.HomeLayoutActivity"
+            ],
+            "targets": [
+                "com.airbnb.n2.components.imageviewer.ImageViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.airbnb.android.payments.legacy.addpayments.activities.LegacyAddPaymentMethodActivity/void S()",
+            "sources": [
+                "com.airbnb.android.payments.legacy.addpayments.activities.LegacyAddPaymentMethodActivity"
+            ],
+            "targets": [
+                "com.airbnb.android.payments.paymentmethods.alipay.AlipayV2Activity"
+            ]
+        },
+        {
+            "handler": "com.airbnb.android.payments.legacy.addpayments.activities.LegacyAddPaymentMethodActivity/void R()",
+            "sources": [
+                "com.airbnb.android.payments.legacy.addpayments.activities.LegacyAddPaymentMethodActivity"
+            ],
+            "targets": [
+                "com.airbnb.android.payments.paymentmethods.alipay.AlipayActivity"
+            ]
+        },
+        {
+            "handler": "com.airbnb.android.places.ResyController/void a(int,int,android.content.Intent)",
+            "sources": [
+                "com.airbnb.android.places.activities.ResyActivity"
+            ],
+            "targets": [
+                "com.airbnb.android.places.activities.ResyPostBookingActivity"
+            ]
+        },
+        {
+            "handler": "com.airbnb.android.pensieve.PensieveActivity/void a(com.airbnb.android.core.memories.models.PensieveMemorySlide)",
+            "sources": [
+                "com.airbnb.android.pensieve.PensieveActivity"
+            ],
+            "targets": [
+                "com.airbnb.android.base.activities.AutoFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.airbnb.android.select.rfs.ReadyForSelectActivity/void f(com.airbnb.android.select.rfs.ReadyForSelectFlowState)",
+            "sources": [
+                "com.airbnb.android.select.rfs.ReadyForSelectActivity"
+            ],
+            "targets": [
+                "com.airbnb.android.select.homelayout.HomeLayoutActivity"
+            ]
+        },
+        {
+            "handler": "com.airbnb.android.walle.WalleClientActivity/void L()",
+            "sources": [
+                "com.airbnb.android.walle.WalleClientActivity"
+            ],
+            "targets": [
+                "com.airbnb.android.walle.WalleAfterSubmittedActivity"
+            ]
+        },
+        {
+            "handler": "com.airbnb.android.profilecompletion.ProfileCompletionActivity/void y()",
+            "sources": [
+                "com.airbnb.android.profilecompletion.ProfileCompletionActivity"
+            ],
+            "targets": [
+                "com.airbnb.android.profilecompletion.edit_about_me.EditAboutMeActivity"
+            ]
+        },
+        {
+            "handler": "com.airbnb.android.p3.HomeTourActivity/void a(com.airbnb.android.lib.p3.models.RoomPhoto)",
+            "sources": [
+                "com.airbnb.android.p3.HomeTourActivity"
+            ],
+            "targets": [
+                "com.airbnb.android.p3.HomeTourImageViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.airbnb.android.safety.activities.SafetyWebViewActivity$Companion/void a(android.content.Context)",
+            "sources": [
+                "com.airbnb.android.safety.activities.SafetyWebViewActivity"
+            ],
+            "targets": [
+                "com.airbnb.android.safety.activities.SafetyWebViewActivity"
+            ]
+        }
+    ]
+}

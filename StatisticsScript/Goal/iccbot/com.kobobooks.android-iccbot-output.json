@@ -1,0 +1,688 @@
+{
+    "transitions": [
+        {
+            "handler": "com.kobobooks.android.lookup.AbsLookupActivity/void lambda$showSearchResult$282(com.kobobooks.android.content.APISearchResult,java.lang.String,android.view.View)",
+            "sources": [
+                "com.kobobooks.android.lookup.FullScreenBookSearchActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.lookup.LookupWebActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.tasteprofile.TasteProfileOverview/void lambda$onCreate$1154(android.view.View)",
+            "sources": [
+                "com.kobobooks.android.tasteprofile.TasteProfileOverview"
+            ],
+            "targets": [
+                "com.kobobooks.android.tasteprofile.TasteProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.lookup.AbsLookupActivity/void lambda$showSearchResult$282(com.kobobooks.android.content.APISearchResult,java.lang.String,android.view.View)",
+            "sources": [
+                "com.kobobooks.android.lookup.BookSearchActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.lookup.LookupWebActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToLibraryInfoPageFromBook(android.app.Activity,java.lang.String,com.kobobooks.android.content.ContentType,java.lang.String,com.kobobooks.android.analytics.AnalyticsConstants$Origin)",
+            "sources": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.itemdetails.ItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.reading.epub3.EPub3Viewer/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.AppLoading"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.reading.common.AbstractContentViewer/void goToLibrary()",
+            "sources": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.MainNavActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void launchBookSearchActivity(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.lookup.BookSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void launchBookSearchActivity(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.lookup.FullScreenBookSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void launchReadingExperienceFTE(android.app.Activity)",
+            "sources": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.epub3.ReadingExperienceFullScreenFTEActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void launchEndOfPreviewActivity(android.app.Activity,com.kobobooks.android.content.Volume)",
+            "sources": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.common.EndOfPreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToChapterBTBActivity(android.app.Activity,com.kobobooks.android.content.Content,int,int,double,double)",
+            "sources": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.btb.BeyondBookActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToLibraryInfoPageFromBook(android.app.Activity,java.lang.String,com.kobobooks.android.content.ContentType,java.lang.String,com.kobobooks.android.analytics.AnalyticsConstants$Origin)",
+            "sources": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.itemdetails.ItemDetailsBookActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.reading.epub3.EPub3Viewer/void loadImageViewer(java.lang.String)",
+            "sources": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.epub3.ImageViewer"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.screens.SearchController$1/void onPostExecute()",
+            "sources": [
+                "com.kobobooks.android.screens.SearchController"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.MainNavActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.reviews.ThankYouActivity/void onMyReviewClicked()",
+            "sources": [
+                "com.kobobooks.android.reviews.ThankYouActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.reviews.MyReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void launchWriteReviewActivity(android.app.Activity,java.lang.String,com.kobobooks.android.content.Review,boolean)",
+            "sources": [
+                "com.kobobooks.android.reviews.ThankYouActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.reviews.WriteReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToTasteProfileQuestionActivity(android.app.Activity)",
+            "sources": [
+                "com.kobobooks.android.tasteprofile2014.TasteProfileLandingActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.tasteprofile2014.TasteProfileQuestionsActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.search.LiveSearchActivity/void performSearchInStore()",
+            "sources": [
+                "com.kobobooks.android.search.LiveSearchActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.SearchController"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.tasteprofile2014.TasteProfileSearchResultsActivity/void lambda$getOnClickListener$374(android.view.View)",
+            "sources": [
+                "com.kobobooks.android.tasteprofile2014.TasteProfileSearchResultsActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.tasteprofile2014.TasteProfileSearchConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToThankYouActivity(android.app.Activity,boolean,com.kobobooks.android.content.Review)",
+            "sources": [
+                "com.kobobooks.android.reviews.WriteReviewActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.reviews.ThankYouActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.kobobooks.android.social.CommentsActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void launchEndOfPreviewActivity(android.app.Activity,com.kobobooks.android.content.Volume)",
+            "sources": [
+                "com.kobobooks.android.reading.comics.ComicsViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.common.EndOfPreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.screens.SignInAbstractDelegate/boolean onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.kobobooks.android.reading.comics.ComicsViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.AppLoading"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToLibraryInfoPageFromBook(android.app.Activity,java.lang.String,com.kobobooks.android.content.ContentType,java.lang.String,com.kobobooks.android.analytics.AnalyticsConstants$Origin)",
+            "sources": [
+                "com.kobobooks.android.reading.comics.ComicsViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.itemdetails.ItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToLibraryInfoPageFromBook(android.app.Activity,java.lang.String,com.kobobooks.android.content.ContentType,java.lang.String,com.kobobooks.android.analytics.AnalyticsConstants$Origin)",
+            "sources": [
+                "com.kobobooks.android.reading.comics.ComicsViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.itemdetails.ItemDetailsBookActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.reading.common.AbstractContentViewer/void goToLibrary()",
+            "sources": [
+                "com.kobobooks.android.reading.comics.ComicsViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.MainNavActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToLibraryInfoPageFromBook(android.app.Activity,java.lang.String,com.kobobooks.android.content.ContentType,java.lang.String,com.kobobooks.android.analytics.AnalyticsConstants$Origin)",
+            "sources": [
+                "com.kobobooks.android.reading.zave.ZAveViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.itemdetails.ItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.aquafadas.dp.reader.engine.ReaderView/void goToWeb(android.view.View,com.aquafadas.dp.reader.model.actions.AveActionGoToWeb)",
+            "sources": [
+                "com.kobobooks.android.reading.zave.ZAveViewer"
+            ],
+            "targets": [
+                "com.aquafadas.dp.reader.layoutelements.webview.LEWebViewFullScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.aquafadas.dp.reader.engine.ReaderView/void showActivityPopup(com.aquafadas.dp.reader.model.actions.AveActionShowPopup,boolean,boolean,boolean)",
+            "sources": [
+                "com.kobobooks.android.reading.zave.ZAveViewer"
+            ],
+            "targets": [
+                "com.aquafadas.dp.reader.layoutelements.popup.LEPopupActivity"
+            ]
+        },
+        {
+            "handler": "com.aquafadas.dp.reader.engine.AveActionController/void performShowGallery(android.view.View,com.aquafadas.dp.reader.model.actions.AveActionDescription)",
+            "sources": [
+                "com.kobobooks.android.reading.zave.ZAveViewer"
+            ],
+            "targets": [
+                "com.aquafadas.dp.reader.gallery.GalleryActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToLibraryInfoPageFromBook(android.app.Activity,java.lang.String,com.kobobooks.android.content.ContentType,java.lang.String,com.kobobooks.android.analytics.AnalyticsConstants$Origin)",
+            "sources": [
+                "com.kobobooks.android.reading.zave.ZAveViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.itemdetails.ItemDetailsBookActivity"
+            ]
+        },
+        {
+            "handler": "com.aquafadas.dp.reader.engine.AveActionController/void performSimpleDraw(com.aquafadas.dp.reader.model.actions.AveActionDescription)",
+            "sources": [
+                "com.kobobooks.android.reading.zave.ZAveViewer"
+            ],
+            "targets": [
+                "com.aquafadas.dp.reader.layoutelements.draw.SimpleDrawActivity"
+            ]
+        },
+        {
+            "handler": "com.aquafadas.dp.reader.engine.AveActionController/void performShowGallery(android.view.View,com.aquafadas.dp.reader.model.actions.AveActionDescription)",
+            "sources": [
+                "com.kobobooks.android.reading.zave.ZAveViewer"
+            ],
+            "targets": [
+                "com.aquafadas.dp.reader.gallery.fullscreen.LEImageListFullScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.aquafadas.dp.reader.engine.AveActionController/void performShowGallery(android.view.View,com.aquafadas.dp.reader.model.actions.AveActionDescription)",
+            "sources": [
+                "com.kobobooks.android.reading.zave.ZAveViewer"
+            ],
+            "targets": [
+                "com.aquafadas.dp.reader.gallery.detail.GalleryDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.aquafadas.dp.reader.engine.ReaderView/void showActivityPopupFullScreen(com.aquafadas.dp.reader.model.actions.AveActionShowPopup)",
+            "sources": [
+                "com.kobobooks.android.reading.zave.ZAveViewer"
+            ],
+            "targets": [
+                "com.aquafadas.dp.reader.layoutelements.popup.LEPopupFullScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.reading.common.AbstractContentViewer/void goToLibrary()",
+            "sources": [
+                "com.kobobooks.android.reading.zave.ZAveViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.MainNavActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.ftux.FTEActivity/void goToNextActivity()",
+            "sources": [
+                "com.kobobooks.android.ftux.FTEActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.MainNavActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void launchWebStoreSlideOut(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.kobobooks.android.ftux.FTEActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.web.WebStoreSlideOut"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.util.LoginPermissionsDelegate/void login(com.kobobooks.android.social.signin.SocialSignInActivity$SignInProvider)",
+            "sources": [
+                "com.kobobooks.android.ftux.FTEActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.social.signin.SocialSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.ftux.FTEActivity/void goToNextActivity()",
+            "sources": [
+                "com.kobobooks.android.ftux.FTEActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.tasteprofile2014.TasteProfileLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.ftux.FTEActivity/void goToNextActivity()",
+            "sources": [
+                "com.kobobooks.android.ftux.FTEActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.ftux.FTEActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.ftux.FTEActivity/void launchLogin(int)",
+            "sources": [
+                "com.kobobooks.android.ftux.FTEActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.Login"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.ftux.FTEActivity/void sendSearchIntent()",
+            "sources": [
+                "com.kobobooks.android.ftux.FTEActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.search.SearchResultActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void launchWriteReviewActivity(android.app.Activity,java.lang.String,com.kobobooks.android.content.Review,boolean)",
+            "sources": [
+                "com.kobobooks.android.reviews.ReviewsListActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.reviews.WriteReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.reviews.ReviewsListActivity/void lambda$onCreate$794(android.view.View)",
+            "sources": [
+                "com.kobobooks.android.reviews.ReviewsListActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.reviews.MyReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.web.WebStoreSlideOut/void onLoadingComplete(com.kobobooks.android.web.KoboEventResult)",
+            "sources": [
+                "com.kobobooks.android.web.WebStoreSlideOut"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.MainNavActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.itemdetails.ItemDetailsActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.kobobooks.android.itemdetails.ItemDetailsBookActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.AppLoading"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.tasteprofile2014.TasteProfileQuestionsActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.kobobooks.android.tasteprofile2014.TasteProfileQuestionsActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.MainNavActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.tasteprofile2014.TasteProfileQuestionsActivity/void sendSearchIntent()",
+            "sources": [
+                "com.kobobooks.android.tasteprofile2014.TasteProfileQuestionsActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.tasteprofile2014.TasteProfileSearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.screens.MainNavActivity$MainNavBroadcastReceiver/void onLogOut(android.content.Intent)",
+            "sources": [
+                "com.kobobooks.android.screens.MainNavActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.ftux.FTEActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.screens.SignInAbstractDelegate/boolean onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.kobobooks.android.relatedreading.RelatedReadsActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.AppLoading"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToLibraryInfoPageFromBook(android.app.Activity,java.lang.String,com.kobobooks.android.content.ContentType,java.lang.String,com.kobobooks.android.analytics.AnalyticsConstants$Origin)",
+            "sources": [
+                "com.kobobooks.android.reading.fixedlayout.media.SMILFLEPubViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.itemdetails.ItemDetailsBookActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToLibraryInfoPageFromBook(android.app.Activity,java.lang.String,com.kobobooks.android.content.ContentType,java.lang.String,com.kobobooks.android.analytics.AnalyticsConstants$Origin)",
+            "sources": [
+                "com.kobobooks.android.reading.fixedlayout.media.SMILFLEPubViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.itemdetails.ItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.reading.common.AbstractContentViewer/void goToLibrary()",
+            "sources": [
+                "com.kobobooks.android.reading.fixedlayout.media.SMILFLEPubViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.MainNavActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void launchEndOfPreviewActivity(android.app.Activity,com.kobobooks.android.content.Volume)",
+            "sources": [
+                "com.kobobooks.android.reading.fixedlayout.media.SMILFLEPubViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.common.EndOfPreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.screens.SignInAbstractDelegate/boolean onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.kobobooks.android.reading.fixedlayout.media.SMILFLEPubViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.AppLoading"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.screens.SignInAbstractDelegate/boolean onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.kobobooks.android.itemdetails.ItemDetailsActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.AppLoading"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.kobobooks.android.social.PageCommentsActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/boolean openAnnotation(android.app.Activity,boolean,com.kobobooks.android.content.library.item.LibraryItem,int,double,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.kobobooks.android.library.ShelfFragmentActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.zave.ZAveViewer"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.download.DownloadClickHandlerHelper/boolean launchRecommendations(java.lang.String,android.app.Activity,boolean,android.content.Intent)",
+            "sources": [
+                "com.kobobooks.android.library.ShelfFragmentActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.MainNavActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/boolean openAnnotation(android.app.Activity,boolean,com.kobobooks.android.content.library.item.LibraryItem,int,double,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.kobobooks.android.library.ShelfFragmentActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.fixedlayout.FLEPubViewer"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/boolean openAnnotation(android.app.Activity,boolean,com.kobobooks.android.content.library.item.LibraryItem,int,double,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.kobobooks.android.library.ShelfFragmentActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.fixedlayout.media.SMILFLEPubViewer"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void launchLockedChapterActivity(android.app.Activity,com.kobobooks.android.content.Content)",
+            "sources": [
+                "com.kobobooks.android.library.ShelfFragmentActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.common.EndOfPreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/boolean openAnnotation(android.app.Activity,boolean,com.kobobooks.android.content.library.item.LibraryItem,int,double,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.kobobooks.android.library.ShelfFragmentActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.epub3.EPub3Viewer"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/boolean openAnnotation(android.app.Activity,boolean,com.kobobooks.android.content.library.item.LibraryItem,int,double,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.kobobooks.android.library.ShelfFragmentActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.comics.ComicsViewer"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/boolean openAnnotation(android.app.Activity,boolean,com.kobobooks.android.content.library.item.LibraryItem,int,double,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.kobobooks.android.library.ShelfFragmentActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.fontdownload.FontDownloadScreen"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToNewsItem(android.app.Activity,java.lang.String,java.lang.String,java.lang.String,long)",
+            "sources": [
+                "com.kobobooks.android.rssfeeds.ui.RSSFeedsActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.rssfeeds.ui.RSSFeedItemActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void launchEndOfPreviewActivity(android.app.Activity,com.kobobooks.android.content.Volume)",
+            "sources": [
+                "com.kobobooks.android.reading.fixedlayout.FLEPubViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.reading.common.EndOfPreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.reading.common.AbstractContentViewer/void goToLibrary()",
+            "sources": [
+                "com.kobobooks.android.reading.fixedlayout.FLEPubViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.MainNavActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.screens.SignInAbstractDelegate/boolean onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.kobobooks.android.reading.fixedlayout.FLEPubViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.AppLoading"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToLibraryInfoPageFromBook(android.app.Activity,java.lang.String,com.kobobooks.android.content.ContentType,java.lang.String,com.kobobooks.android.analytics.AnalyticsConstants$Origin)",
+            "sources": [
+                "com.kobobooks.android.reading.fixedlayout.FLEPubViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.itemdetails.ItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.helpers.NavigationHelper/void goToLibraryInfoPageFromBook(android.app.Activity,java.lang.String,com.kobobooks.android.content.ContentType,java.lang.String,com.kobobooks.android.analytics.AnalyticsConstants$Origin)",
+            "sources": [
+                "com.kobobooks.android.reading.fixedlayout.FLEPubViewer"
+            ],
+            "targets": [
+                "com.kobobooks.android.itemdetails.ItemDetailsBookActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.screens.CustomizeCustomShelfActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.kobobooks.android.screens.CustomizeCustomShelfActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.CustomizeCustomShelfActivity$CustomizeCustomShelfFragment"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.lookup.AbsLookupActivity/void lambda$showSearchResult$282(com.kobobooks.android.content.APISearchResult,java.lang.String,android.view.View)",
+            "sources": [
+                "com.kobobooks.android.lookup.LookupActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.lookup.LookupWebActivity"
+            ]
+        },
+        {
+            "handler": "com.kobobooks.android.social.facebook.FacebookHelper/void logout(android.app.Activity,boolean,boolean)",
+            "sources": [
+                "com.kobobooks.android.screens.ShowDialogActivity"
+            ],
+            "targets": [
+                "com.kobobooks.android.screens.ShowDialogActivity"
+            ]
+        }
+    ]
+}

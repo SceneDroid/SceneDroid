@@ -1,0 +1,130 @@
+{
+    "transitions": [
+        {
+            "handler": "com.applovin.impl.sdk.AppLovinSdkImpl/boolean checkCorrectInitialization(android.content.Context)",
+            "sources": [
+                "com.applovin.adview.AppLovinInterstitialActivity"
+            ],
+            "targets": [
+                "tv.twitch.android.app.core.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.applovin.impl.adview.cb/void a(com.applovin.impl.sdk.am,java.lang.String,android.content.Context)",
+            "sources": [
+                "com.applovin.adview.AppLovinInterstitialActivity"
+            ],
+            "targets": [
+                "com.applovin.adview.AppLovinInterstitialActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.RewardedMraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long,int,boolean)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "tv.twitch.android.app.twitchbroadcast.BroadcastActivity/void a(android.support.v4.app.FragmentActivity)",
+            "sources": [
+                "tv.twitch.android.app.twitchbroadcast.BroadcastActivity"
+            ],
+            "targets": [
+                "tv.twitch.android.app.twitchbroadcast.BroadcastActivity"
+            ]
+        },
+        {
+            "handler": "tv.twitch.android.app.core.WebViewActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "tv.twitch.android.app.core.WebViewActivity"
+            ],
+            "targets": [
+                "tv.twitch.android.app.core.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "tv.twitch.android.player.theater.ChromecastHelper/void openPlayableItem(android.content.Context)",
+            "sources": [
+                "tv.twitch.android.app.core.TwitchExpandedControllerActivity"
+            ],
+            "targets": [
+                "tv.twitch.android.app.core.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "tv.twitch.android.app.core.login.LoginActivity/void c()",
+            "sources": [
+                "tv.twitch.android.app.core.login.LoginActivity"
+            ],
+            "targets": [
+                "tv.twitch.android.app.core.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.upsight.android.marketing.internal.billboard.BillboardManagementActivity/void start(com.upsight.android.marketing.UpsightBillboard$AttachParameters,com.upsight.android.marketing.internal.content.MarketingContent,android.content.Context)",
+            "sources": [
+                "com.upsight.android.marketing.internal.billboard.BillboardManagementActivity"
+            ],
+            "targets": [
+                "com.upsight.android.marketing.internal.billboard.BillboardManagementActivity"
+            ]
+        },
+        {
+            "handler": "com.applovin.impl.sdk.AppLovinSdkImpl/boolean checkCorrectInitialization(android.content.Context)",
+            "sources": [
+                "com.upsight.mediation.ads.adapters.ALActivity"
+            ],
+            "targets": [
+                "tv.twitch.android.app.core.LandingActivity"
+            ]
+        },
+        {
+            "handler": "tv.twitch.android.app.core.login.i/void a(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "tv.twitch.android.app.core.LandingActivity"
+            ],
+            "targets": [
+                "tv.twitch.android.app.core.login.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void a(android.content.Context,com.mopub.mobileads.VastVideoConfig,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        }
+    ]
+}

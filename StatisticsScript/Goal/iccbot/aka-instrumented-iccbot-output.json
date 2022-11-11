@@ -1,0 +1,58 @@
+{
+    "transitions": [
+        {
+            "handler": "com.templaro.opsiz.aka.AndroidomaticKeyerActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.templaro.opsiz.aka.AndroidomaticKeyerActivity"
+            ],
+            "targets": [
+                "com.templaro.opsiz.aka.Help"
+            ]
+        },
+        {
+            "handler": "com.templaro.opsiz.aka.AndroidomaticKeyerActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.templaro.opsiz.aka.AndroidomaticKeyerActivity"
+            ],
+            "targets": [
+                "com.templaro.opsiz.aka.StraightKeyActivity"
+            ]
+        },
+        {
+            "handler": "com.templaro.opsiz.aka.AndroidomaticKeyerActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.templaro.opsiz.aka.AndroidomaticKeyerActivity"
+            ],
+            "targets": [
+                "com.templaro.opsiz.aka.Settings"
+            ]
+        },
+        {
+            "handler": "com.templaro.opsiz.aka.AndroidomaticKeyerActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.templaro.opsiz.aka.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.templaro.opsiz.aka.StraightKeyActivity"
+            ]
+        },
+        {
+            "handler": "com.templaro.opsiz.aka.AndroidomaticKeyerActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.templaro.opsiz.aka.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.templaro.opsiz.aka.Settings"
+            ]
+        },
+        {
+            "handler": "com.templaro.opsiz.aka.AndroidomaticKeyerActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.templaro.opsiz.aka.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.templaro.opsiz.aka.Help"
+            ]
+        }
+    ]
+}

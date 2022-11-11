@@ -1,0 +1,382 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+com.bravolol.bravolang.englishchinesecdictionary_2022-10-16: OutputDir not a directory: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.bravolol.bravolang.englishchinesecdictionary_2022-10-16
+Found 36 entrypoint classes and 91 methods in overall
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onStart()>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.CopyHandler: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onStart()>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onStart()>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onStart()>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.DialogActivityClass2: void onStart()>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.HistoryGroup: boolean onPrepareOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.DialogActivityClass: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.CameraActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.AddNote: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ImageTranslator: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onStart()>
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.PopularWord: void onStart()>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.AddNote: boolean onPrepareOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onStart()>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.CopyHandler: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.CopyHandler: Finished processing of entrypoints after 1 seconds.
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.Settings: void onStart()>
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.Analyzer: void onStart()>
+Found 15 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SearchableActivity2: void onStart()>
+Found 26 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onCreate(android.os.Bundle)>
+Found 26 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.DialogActivityClass2: void onCreate(android.os.Bundle)>
+Found 29 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.AdsActivity: void onCreate(android.os.Bundle)>
+Found 36 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.DictSelect: void onCreate(android.os.Bundle)>
+Found 33 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.FlashCard: void onCreate(android.os.Bundle)>
+Found 34 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ResetActivity: void onCreate(android.os.Bundle)>
+Found 34 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.GeneralInfo: void onCreate(android.os.Bundle)>
+Found 27 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SearchableActivity2: void onCreate(android.os.Bundle)>
+Found 66 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.CameraActivity: void onCreate(android.os.Bundle)>
+Found 108 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ImageTranslator: void onCreate(android.os.Bundle)>
+Found 120 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.Settings: void onCreate(android.os.Bundle)>
+Found 106 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.InAppDialog: void onCreate(android.os.Bundle)>
+Found 105 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.InAppDialog3: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.DialogActivityClass: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.DialogActivityClass: Finished processing of entrypoints after 58 seconds.
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onStart()>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SelectedWordAnalyzer2: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SelectedWordAnalyzer2: boolean onPrepareOptionsMenu(android.view.Menu)>
+com.bravolol.bravolang.englishchinesecdictionary.DialogActivityClass2: Finished processing of entrypoints after 64 seconds.
+Found 5 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.PosDetails: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 38 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.PosDetails: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.DialogActivityClass2: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.PosDetails: Finished processing of entrypoints after 63 seconds.
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820972
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820972
+Did not find string name from string id: id: 2131821450
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820972
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820972
+Did not find string name from string id: id: 2131821450
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820972
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820972
+Did not find string name from string id: id: 2131821450
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820972
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820971
+Did not find string name from string id: id: 2131820972
+Did not find string name from string id: id: 2131821450
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: Finished processing of entrypoints after 130 seconds.
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.DictSelect: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)>
+Did not find string name from string id: id: 2131820739
+Did not find string name from string id: id: 2131821517
+Did not find string name from string id: id: 2131821615
+Did not find string name from string id: id: 2131821615
+Did not find string name from string id: id: 2131821517
+com.bravolol.bravolang.englishchinesecdictionary.AdsActivity: Finished processing of entrypoints after 133 seconds.
+Did not find string name from string id: id: 2131820739
+Did not find string name from string id: id: 2131821517
+Did not find string name from string id: id: 2131821615
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.GameActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+com.bravolol.bravolang.englishchinesecdictionary.DictSelect: Finished processing of entrypoints after 133 seconds.
+com.bravolol.bravolang.englishchinesecdictionary.ResetActivity: Finished processing of entrypoints after 133 seconds.
+Found 5 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.CloudBackup: void onStart()>
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ResultDetails: void onStart()>
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.FlashCard: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.SearchableActivity2: Finished processing of entrypoints after 134 seconds.
+com.bravolol.bravolang.englishchinesecdictionary.FlashCard: Finished processing of entrypoints after 134 seconds.
+Found 61 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.InAppDialog2: void onCreate(android.os.Bundle)>
+com.bravolol.bravolang.englishchinesecdictionary.GeneralInfo: Finished processing of entrypoints after 209 seconds.
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.CameraActivity: Finished processing of entrypoints after 323 seconds.
+Found 10 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SearchableActivity: void onStart()>
+Found 34 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SearchableActivity: void onCreate(android.os.Bundle)>
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.InAppDialog: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.InAppDialog: Finished processing of entrypoints after 339 seconds.
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Did not find string name from string id: id: 2131821308
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.InAppDialog3: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.InAppDialog3: Finished processing of entrypoints after 363 seconds.
+Found 5 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.InAppDialog2: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.InAppDialog2: Finished processing of entrypoints after 245 seconds.
+com.bravolol.bravolang.englishchinesecdictionary.ImageTranslator: Finished processing of entrypoints after 424 seconds.
+com.bravolol.bravolang.englishchinesecdictionary.SearchableActivity: Finished processing of entrypoints after 137 seconds.
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.Settings: void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo)>
+Did not find string name from string id: id: 2131820739
+Did not find string name from string id: id: 2131821008
+Did not find string name from string id: id: 2131821769
+Did not find string name from string id: id: 2131820739
+Did not find string name from string id: id: 2131821008
+Did not find string name from string id: id: 2131820907
+Did not find string name from string id: id: 2131820739
+Did not find string name from string id: id: 2131820995
+Did not find string name from string id: id: 2131821773
+Did not find string name from string id: id: 2131821112
+Did not find string name from string id: id: 2131820578
+Did not find string name from string id: id: 2131820739
+Did not find string name from string id: id: 2131821411
+Did not find string name from string id: id: 2131821178
+Did not find string name from string id: id: 2131821445
+Did not find string name from string id: id: 2131820739
+com.bravolol.bravolang.englishchinesecdictionary.Settings: Finished processing of entrypoints after 481 seconds.
+Found 321 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.Examples: void onCreate(android.os.Bundle)>
+Found 328 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SelectedWordAnalyzer: void onCreate(android.os.Bundle)>
+Found 321 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.RelatedWords: void onCreate(android.os.Bundle)>
+Found 337 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.HistoryGroup: void onCreate(android.os.Bundle)>
+Found 338 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.TranslateLang: void onCreate(android.os.Bundle)>
+Found 321 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.EngDef: void onCreate(android.os.Bundle)>
+Found 334 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.AddNote: void onCreate(android.os.Bundle)>
+Found 323 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SearchActivity: void onCreate(android.os.Bundle)>
+Found 499 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.PopularWord: void onCreate(android.os.Bundle)>
+Found 328 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SelectedWordAnalyzer2: void onCreate(android.os.Bundle)>
+Found 465 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.Analyzer: void onCreate(android.os.Bundle)>
+Found 327 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.CloudBackup: void onCreate(android.os.Bundle)>
+Found 339 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ResultDetailsSub: void onCreate(android.os.Bundle)>
+Found 339 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ResultDetails: void onCreate(android.os.Bundle)>
+Found 350 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.GameActivity: void onCreate(android.os.Bundle)>
+Found 330 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ImportActivity: void onCreate(android.os.Bundle)>
+Found 439 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.BravoDict: void onCreate(android.os.Bundle)>
+Found 460 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.History: void onCreate(android.os.Bundle)>
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.GameActivity: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.GameActivity: Finished processing of entrypoints after 4526 seconds.
+Found 5 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.TranslateLang: void onStart()>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.TranslateLang: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.TranslateLang: boolean onPrepareOptionsMenu(android.view.Menu)>
+com.bravolol.bravolang.englishchinesecdictionary.TranslateLang: Finished processing of entrypoints after 4775 seconds.
+com.bravolol.bravolang.englishchinesecdictionary.ResultDetails: Finished processing of entrypoints after 4642 seconds.
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.AddNote: Finished processing of entrypoints after 4776 seconds.
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SelectedWordAnalyzer: boolean onPrepareOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SelectedWordAnalyzer: boolean onCreateOptionsMenu(android.view.Menu)>
+com.bravolol.bravolang.englishchinesecdictionary.SelectedWordAnalyzer: Finished processing of entrypoints after 4776 seconds.
+com.bravolol.bravolang.englishchinesecdictionary.SelectedWordAnalyzer2: Finished processing of entrypoints after 4718 seconds.
+com.bravolol.bravolang.englishchinesecdictionary.CloudBackup: Finished processing of entrypoints after 4642 seconds.
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.HistoryGroup: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ResultDetailsSub: void onStart()>
+Found 5 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.HistoryGroup: void onStart()>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.ActivityClass: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.ImportActivity: Finished processing of entrypoints after 4567 seconds.
+com.bravolol.bravolang.englishchinesecdictionary.ResultDetailsSub: Finished processing of entrypoints after 4642 seconds.
+com.bravolol.bravolang.englishchinesecdictionary.HistoryGroup: Finished processing of entrypoints after 4776 seconds.
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.EngDef: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.EngDef: Finished processing of entrypoints after 4776 seconds.
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.Examples: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.Examples: Finished processing of entrypoints after 4776 seconds.
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.RelatedWords: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.RelatedWords: Finished processing of entrypoints after 4776 seconds.
+Found 16 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.SearchActivity: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.SearchActivity: Finished processing of entrypoints after 4777 seconds.
+Did not find string name from string id: id: 2131821161
+Did not find string name from string id: id: 2131821161
+com.bravolol.bravolang.englishchinesecdictionary.PopularWord: Finished processing of entrypoints after 5205 seconds.
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.Analyzer: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.History: boolean onCreateOptionsMenu(android.view.Menu)>
+com.bravolol.bravolang.englishchinesecdictionary.Analyzer: Finished processing of entrypoints after 5205 seconds.
+Found 8 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.History: void onStart()>
+Found 1 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.History: boolean onPrepareOptionsMenu(android.view.Menu)>
+Found 19 reachable methods from <com.bravolol.bravolang.englishchinesecdictionary.BravoDict: void onStart()>
+com.bravolol.bravolang.englishchinesecdictionary.BravoDict: Finished processing of entrypoints after 5071 seconds.
+com.bravolol.bravolang.englishchinesecdictionary.History: Finished processing of entrypoints after 5078 seconds.
+AppController:addText: elementID not found for adding text: elementID: 2131297003
+AppController:addText: elementID not found for adding text: elementID: 2131297170
+AppController:addText: elementID not found for adding text: elementID: 2131297260
+AppController:addText: elementID not found for adding text: elementID: 2131296468
+Did not find string name from string id: id: 2131821357
+AppController:addText: elementID not found for adding text: elementID: 2131297260
+AppController:addText: elementID not found for adding text: elementID: 2131296742
+AppController:addText: elementID not found for adding text: elementID: 2131297237
+Did not find string name from string id: id: 2131820807
+AppController:addText: elementID not found for adding text: elementID: 2131297001
+AppController:addText: elementID not found for adding text: elementID: 2131296468
+Did not find string name from string id: id: 2131821307
+AppController:addText: elementID not found for adding text: elementID: 2131297002
+Did not find string name from string id: id: 2131820759
+AppController:addText: elementID not found for adding text: elementID: 2131297001
+AppController:addText: elementID not found for adding text: elementID: 2131296920
+Did not find string name from string id: id: 2131820607
+AppController:addText: elementID not found for adding text: elementID: 2131297260
+AppController:addText: elementID not found for adding text: elementID: 2131296742
+AppController:addText: elementID not found for adding text: elementID: 2131297036
+Did not find string name from string id: id: 2131820717
+AppController:addText: elementID not found for adding text: elementID: 2131296833
+Did not find string name from string id: id: 2131820759
+AppController:addText: elementID not found for adding text: elementID: 2131297001
+Did not find string name from string id: id: 2131821161
+AppController:addText: elementID not found for adding text: elementID: 2131297012
+AppController:addText: elementID not found for adding text: elementID: 2131296620
+AppController:addText: elementID not found for adding text: elementID: 2131296620
+AppController:addText: elementID not found for adding text: elementID: 2131297600
+AppController:addText: elementID not found for adding text: elementID: 2131296731
+Did not find string name from string id: id: 2131821401
+AppController:addText: elementID not found for adding text: elementID: 2131296468
+AppController:addText: elementID not found for adding text: elementID: 2131297209
+Did not find string name from string id: id: 2131821307
+AppController:addText: elementID not found for adding text: elementID: 2131297002
+AppController:addText: elementID not found for adding text: elementID: 2131296952
+Did not find string name from string id: id: 2131820811
+AppController:addText: elementID not found for adding text: elementID: 2131297001
+AppController:addText: elementID not found for adding text: elementID: 2131297004
+AppController:addText: elementID not found for adding text: elementID: 2131296879
+AppController:addText: elementID not found for adding text: elementID: 2131297237
+AppController:addText: elementID not found for adding text: elementID: 2131296845
+AppController:addText: elementID not found for adding text: elementID: 2131297260
+AppController:addText: elementID not found for adding text: elementID: 2131297004
+Did not find string name from string id: id: 2131821359
+AppController:addText: elementID not found for adding text: elementID: 2131297260
+AppController:addText: elementID not found for adding text: elementID: 2131296440
+AppController:addText: elementID not found for adding text: elementID: 2131296785
+Did not find string name from string id: id: 2131821223
+AppController:addText: elementID not found for adding text: elementID: 2131296833
+Did not find string name from string id: id: 2131821104
+AppController:addText: elementID not found for adding text: elementID: 2131296440
+Did not find string name from string id: id: 2131821154
+AppController:addText: elementID not found for adding text: elementID: 2131297002
+Did not find string name from string id: id: 2131820656
+AppController:addText: elementID not found for adding text: elementID: 2131297260
+AppController:addText: elementID not found for adding text: elementID: 2131296820
+Did not find string name from string id: id: 2131821768
+AppController:addText: elementID not found for adding text: elementID: 2131297002
+AppController:addText: elementID not found for adding text: elementID: 2131297170
+Did not find string name from string id: id: 2131821572
+AppController:addText: elementID not found for adding text: elementID: 2131296494
+AppController:addText: elementID not found for adding text: elementID: 2131296440
+Did not find string name from string id: id: 2131821154
+AppController:addText: elementID not found for adding text: elementID: 2131297002
+Did not find string name from string id: id: 2131820759
+AppController:addText: elementID not found for adding text: elementID: 2131297004
+Did not find string name from string id: id: 2131820656
+AppController:addText: elementID not found for adding text: elementID: 2131297260
+AppController:addText: elementID not found for adding text: elementID: 2131296680
+AppController:addText: elementID not found for adding text: elementID: 2131297600
+Did not find string name from string id: id: 2131820579
+AppController:addText: elementID not found for adding text: elementID: 2131296620
+Did not find string name from string id: id: 2131820759
+AppController:addText: elementID not found for adding text: elementID: 2131297237
+Did not find string name from string id: id: 2131821768
+AppController:addText: elementID not found for adding text: elementID: 2131297002
+Did not find string name from string id: id: 2131820709
+AppController:addText: elementID not found for adding text: elementID: 2131297237
+AppController:addText: elementID not found for adding text: elementID: 2131296845
+AppController:addText: elementID not found for adding text: elementID: 2131297600
+Did not find string name from string id: id: 2131820759
+AppController:addText: elementID not found for adding text: elementID: 2131297004
+AppController:addText: elementID not found for adding text: elementID: 2131297036
+AppController:addText: elementID not found for adding text: elementID: 2131296680
+AppController:addText: elementID not found for adding text: elementID: 2131297003
+AppController:addText: elementID not found for adding text: elementID: 2131297600
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.bravolol.bravolang.englishchinesecdictionary_2022-10-16/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 5209.379304936 seconds
+Entry point creation has run for 0.056614559 seconds
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.038855471 seconds

@@ -1,0 +1,211 @@
+{
+    "transitions": [
+        {
+            "handler": "com.usebutton.sdk.internal.BaseActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.GroupedInventoryCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.BaseActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.GroupedInventoryCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.BaseActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.GroupedInventoryCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.AuthChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.models.AppAction$2/void onSuccess()",
+            "sources": [
+                "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.AuthChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.models.AppAction/void invokeActionInternal(android.content.Context,int)",
+            "sources": [
+                "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.SingleProductCardActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.models.AppAction$2/void onSuccess()",
+            "sources": [
+                "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.GroupedInventoryCardActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity/void invokeFallback(android.net.Uri)",
+            "sources": [
+                "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.models.AppAction$2/void onSuccess()",
+            "sources": [
+                "com.usebutton.sdk.internal.merchantaction.MerchantActionActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.WebViewActivity/void startInstallSheetActivity()",
+            "sources": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallSheetActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.WebViewActivity/void startAttendedInstall()",
+            "sources": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.WebViewActivity/void startAttendedInstall()",
+            "sources": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.AuthChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.WebViewActivity/void startAttendedInstall()",
+            "sources": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.BaseActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.BaseActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.AuthChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.BaseActivity/void installOrPerformAction(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.SingleProductCardActivity$1/void receive(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.SingleProductCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.SingleProductCardActivity$1/void receive(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.SingleProductCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.AuthChallengeActivity"
+            ]
+        },
+        {
+            "handler": "com.usebutton.sdk.internal.SingleProductCardActivity$1/void receive(com.usebutton.sdk.models.Link)",
+            "sources": [
+                "com.usebutton.sdk.internal.SingleProductCardActivity"
+            ],
+            "targets": [
+                "com.usebutton.sdk.internal.InstallCardActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void startMraid(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "net.hockeyapp.android.FeedbackActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "net.hockeyapp.android.FeedbackActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.PaintActivity"
+            ]
+        }
+    ]
+}

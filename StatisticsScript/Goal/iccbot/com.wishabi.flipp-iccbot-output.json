@@ -1,0 +1,355 @@
+{
+    "transitions": [
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.wishabi.flipp.app.login.LoginDialogActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.onboarding.OnboardingLocationRequestFragment/void D0(java.lang.String)",
+            "sources": [
+                "com.wishabi.flipp.app.ChangeLocationActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.gizmo.nearby.NearbyWidget"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.onboarding.MainOnboardingActivity/void j0(android.net.Uri)",
+            "sources": [
+                "com.wishabi.flipp.onboarding.MainOnboardingActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.app.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void setTokenExpirationBroadcastAlarm()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.ccpa.reauth.ReauthenticateDialogActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.wishabi.flipp.app.ccpa.reauth.ReauthenticateDialogActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.account.userAuth.app.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.wishabi.flipp.app.ccpa.reauth.ReauthenticateDialogActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.ccpa.CcpaFormActivity/void n0(com.wishabi.flipp.app.ccpa.CcpaFormActivity$RequestType)",
+            "sources": [
+                "com.wishabi.flipp.app.ccpa.CcpaFormActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.app.ccpa.reauth.ReauthenticateDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.account.app.CardListingActivity/void K(com.wishabi.flipp.model.ltc.LoyaltyProgram)",
+            "sources": [
+                "com.wishabi.flipp.account.app.CardListingActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.app.RegisterDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.search.app.SearchAutoCompleteFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.wishabi.flipp.search.app.SearchAutoCompleteActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.search.app.SearchAutoCompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.ui.launcher.DefaultLauncherActivity/void onStart()",
+            "sources": [
+                "com.wishabi.flipp.ui.launcher.DefaultLauncherActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.ui.launcher.DeeplinkLauncherActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.storefront.StoreFrontCarouselActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.wishabi.flipp.storefront.StoreFrontCarouselActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.app.flyer.NearbyMerchantActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.storefront.StorefrontHelper/void a(androidx.fragment.app.FragmentActivity,java.lang.String,com.wishabi.flipp.content.Flyer$Model[],long,boolean)",
+            "sources": [
+                "com.wishabi.flipp.storefront.StoreFrontCarouselActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.storefront.StoreFrontCarouselActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.storefront.StoreFrontCarouselActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.wishabi.flipp.storefront.StoreFrontCarouselActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.shoppinglist.ShoppingListActivity"
+            ]
+        },
+        {
+            "handler": "com.braze.ui.BrazeWebViewActivity$2/java.lang.Boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ],
+            "targets": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.ShoppingListFragment$2/void d(android.view.View,int)",
+            "sources": [
+                "com.wishabi.flipp.shoppinglist.ShoppingListActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.ui.coupondetails.LinkCouponDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.storefront.StorefrontHelper/void a(androidx.fragment.app.FragmentActivity,java.lang.String,com.wishabi.flipp.content.Flyer$Model[],long,boolean)",
+            "sources": [
+                "com.wishabi.flipp.shoppinglist.ShoppingListActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.storefront.StoreFrontCarouselActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.shoppinglist.ShoppingListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.wishabi.flipp.shoppinglist.ShoppingListActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.app.ChangeLocationActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.shoppinglist.ShoppingListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.wishabi.flipp.shoppinglist.ShoppingListActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.app.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.ShoppingListFragment$2/void d(android.view.View,int)",
+            "sources": [
+                "com.wishabi.flipp.shoppinglist.ShoppingListActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.ui.merchantitems.MerchantItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.ShoppingListFragment/void s0(com.wishabi.flipp.widget.ShoppingListCell,com.wishabi.flipp.model.shoppinglist.ShoppingListItem,int)",
+            "sources": [
+                "com.wishabi.flipp.shoppinglist.ShoppingListActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.search.app.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.chuckerteam.chucker.api.internal.ui.MainActivity/void Z1(long,int)",
+            "sources": [
+                "com.chuckerteam.chucker.api.internal.ui.MainActivity"
+            ],
+            "targets": [
+                "com.chuckerteam.chucker.api.internal.ui.transaction.TransactionActivity"
+            ]
+        },
+        {
+            "handler": "com.chuckerteam.chucker.api.internal.ui.MainActivity/void X(long,int)",
+            "sources": [
+                "com.chuckerteam.chucker.api.internal.ui.MainActivity"
+            ],
+            "targets": [
+                "com.chuckerteam.chucker.api.internal.ui.error.ErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.search.app.SearchFragment$9/void a(java.util.HashMap)",
+            "sources": [
+                "com.wishabi.flipp.ui.brandmedia.BrandMediaActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.storefront.StoreFrontCarouselActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.MainActivity/void o0(android.net.Uri,boolean)",
+            "sources": [
+                "com.wishabi.flipp.ui.brandmedia.BrandMediaActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.ui.landingpage.LandingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.MainActivity/void o0(android.net.Uri,boolean)",
+            "sources": [
+                "com.wishabi.flipp.ui.brandmedia.BrandMediaActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.account.app.AccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.MainActivity/void o0(android.net.Uri,boolean)",
+            "sources": [
+                "com.wishabi.flipp.ui.brandmedia.BrandMediaActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.ui.brandmedia.BrandMediaActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.MainActivity/void o0(android.net.Uri,boolean)",
+            "sources": [
+                "com.wishabi.flipp.ui.brandmedia.BrandMediaActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.storefront.flyerpreview.StorefrontPreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.DialogActivity/void j0(androidx.fragment.app.FragmentActivity,java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.wishabi.flipp.app.DialogActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.app.DialogActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.foursquare.pilgrimsdk.debugging.PilgrimSdkDebugActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.foursquare.pilgrimsdk.debugging.PilgrimSdkDebugActivity"
+            ],
+            "targets": [
+                "com.chuckerteam.chucker.api.internal.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.MainActivity/void o0(android.net.Uri,boolean)",
+            "sources": [
+                "com.wishabi.flipp.app.MainActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.ui.brandmedia.BrandMediaActivity"
+            ]
+        },
+        {
+            "handler": "d.e.a.b.w/void onFocusChange(android.view.View,boolean)",
+            "sources": [
+                "com.wishabi.flipp.app.MainActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.app.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.MainActivity/void o0(android.net.Uri,boolean)",
+            "sources": [
+                "com.wishabi.flipp.app.MainActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.ui.landingpage.LandingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.MainActivity/boolean r0()",
+            "sources": [
+                "com.wishabi.flipp.app.MainActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.app.ChangeLocationActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.MainActivity/void o0(android.net.Uri,boolean)",
+            "sources": [
+                "com.wishabi.flipp.app.MainActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.account.app.AccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.MainActivity/void o0(android.net.Uri,boolean)",
+            "sources": [
+                "com.wishabi.flipp.app.MainActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.storefront.flyerpreview.StorefrontPreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.app.MainActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.wishabi.flipp.app.MainActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.app.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.wishabi.flipp.storefront.StorefrontHelper/void a(androidx.fragment.app.FragmentActivity,java.lang.String,com.wishabi.flipp.content.Flyer$Model[],long,boolean)",
+            "sources": [
+                "com.wishabi.flipp.browse.app.FlyerTabAsActivity"
+            ],
+            "targets": [
+                "com.wishabi.flipp.storefront.StoreFrontCarouselActivity"
+            ]
+        }
+    ]
+}

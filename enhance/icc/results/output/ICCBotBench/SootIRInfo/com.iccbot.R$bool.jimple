@@ -1,0 +1,37 @@
+public final class com.iccbot.R$bool extends java.lang.Object
+{
+    public static final int abc_action_bar_embed_tabs;
+    public static final int abc_action_bar_embed_tabs_pre_jb;
+    public static final int abc_action_bar_expanded_action_views_exclusive;
+    public static final int abc_config_actionMenuItemAllCaps;
+    public static final int abc_config_allowActionMenuItemTextWithIcon;
+    public static final int abc_config_showMenuShortcutsWhenKeyboardPresent;
+
+    public void <init>()
+    {
+        com.iccbot.R$bool r0;
+
+        r0 := @this: com.iccbot.R$bool;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void <clinit>()
+    {
+        <com.iccbot.R$bool: int abc_config_showMenuShortcutsWhenKeyboardPresent> = 2131034115;
+
+        <com.iccbot.R$bool: int abc_config_allowActionMenuItemTextWithIcon> = 2131034116;
+
+        <com.iccbot.R$bool: int abc_config_actionMenuItemAllCaps> = 2131034117;
+
+        <com.iccbot.R$bool: int abc_action_bar_expanded_action_views_exclusive> = 2131034114;
+
+        <com.iccbot.R$bool: int abc_action_bar_embed_tabs_pre_jb> = 2131034113;
+
+        <com.iccbot.R$bool: int abc_action_bar_embed_tabs> = 2131034112;
+
+        return;
+    }
+}

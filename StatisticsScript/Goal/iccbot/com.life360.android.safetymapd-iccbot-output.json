@@ -1,0 +1,2551 @@
+{
+    "transitions": [
+        {
+            "handler": "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFueUpsellDialog/void a(android.view.View)",
+            "sources": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFueUpsellDialog"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.emergency_contacts.ui.ContactsSelectorActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.emergency_contacts.ui.ContactsSelectorActivity/void a(android.app.Activity,java.util.ArrayList)",
+            "sources": [
+                "com.life360.android.emergency_contacts.ui.ContactsSelectorActivity"
+            ],
+            "targets": [
+                "com.life360.android.emergency_contacts.ui.ContactsSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.InviteeAvatarListActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.life360.android.shared.ui.InviteeAvatarListActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingPictureCropperActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.shared.ui.InviteeAvatarListActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.driver_behavior.crash_feedback.CrashFeedbackActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.account.ForgotPasswordActivity/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.life360.android.first_user_experience.account.ForgotPasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.account.ForgotPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.account.ForgotPasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.OnboardingAddCircleOverviewActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleOverviewActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.OnboardingAddCircleOverviewActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleOverviewActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleOverviewActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleOverviewActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.b/void b()",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleOverviewActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPlusFUEActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumPlusFUEActivity/void start(android.content.Context)",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPlusFUEActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumPlusFUEActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumPostPurchasePLUSActivity/void start(android.content.Context)",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPostPurchasePLUSActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumPostPurchasePLUSActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPostPurchasePLUSActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumPostPurchaseActivity/void start(android.content.Context)",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPostPurchaseActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumPostPurchaseActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPostPurchaseActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.emergency_contacts.ui.ContactsSelectorActivity/void a(android.app.Activity,java.util.ArrayList)",
+            "sources": [
+                "com.life360.android.emergency_contacts.ui.HelpAlertActivity"
+            ],
+            "targets": [
+                "com.life360.android.emergency_contacts.ui.ContactsSelectorActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.location.location_sharing.LocationSharingService/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.life360.android.emergency_contacts.ui.HelpAlertActivity"
+            ],
+            "targets": [
+                "com.life360.android.location.location_sharing.LocationSharingService"
+            ]
+        },
+        {
+            "handler": "com.life360.android.emergency_contacts.ui.HelpAlertActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.emergency_contacts.ui.HelpAlertActivity"
+            ],
+            "targets": [
+                "com.life360.android.emergency_contacts.ui.HelpAlertActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.emergency_contacts.ui.HelpAlertActivity/void a(android.content.Context)",
+            "sources": [
+                "com.life360.android.emergency_contacts.ui.HelpAlertActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.emergency_contacts.ui.HelpAlertActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.AddressPicker/void a(android.app.Activity,int)",
+            "sources": [
+                "com.life360.android.places.AddressPicker"
+            ],
+            "targets": [
+                "com.life360.android.places.AddressPicker"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPostPurchaseLandingActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumPostPurchaseLandingActivity/void onExplore()",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPostPurchaseLandingActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumPostPurchaseActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumPostPurchaseLandingActivity/void start(android.content.Context)",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPostPurchaseLandingActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumPostPurchaseLandingActivity"
+            ]
+        },
+        {
+            "handler": "com.helpshift.campaigns.activities.NotificationActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.helpshift.campaigns.activities.NotificationActivity"
+            ],
+            "targets": [
+                "com.helpshift.campaigns.activities.ParentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.messaging.ui.MessageThreadActivity/void a(android.content.Context)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.messaging.ui.MessageThreadActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.emergency_contacts.ui.HelpAlertActivity/void a(android.content.Context)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.emergency_contacts.ui.HelpAlertActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeShareActivity/void a(android.content.Context)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeShareActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity/void c(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.map.profile_v2.drive_report.DriveReportViewModel/void a(android.app.Activity,android.net.Uri)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.map.profile_v2.drive_report.DriveReportActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumPlusFUEActivity/void start(android.content.Context)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumPlusFUEActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.battery.BatteryAlertsActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.battery.BatteryAlertsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ShareRecommenderActivity/void a(android.content.Context)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ShareRecommenderActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.base.DeepLinkLauncherUtils/void launchAuthenticatedAction(android.app.Activity,java.lang.String,android.net.Uri)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ShareToPremiumActivity/void startFromLaunch(android.content.Context)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ShareToPremiumActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.FueIntroActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.base.DeepLinkLauncherUtils/void launchAuthenticatedAction(android.app.Activity,java.lang.String,android.net.Uri)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumPostPurchaseActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.PlaceEditActivity/void a(android.app.Activity,int,com.life360.android.places.data.models.PlaceInfo,java.lang.String,boolean)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.PlaceEditActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.base.DeepLinkLauncherUtils/void launchAuthenticatedAction(android.app.Activity,java.lang.String,android.net.Uri)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.checkin.CheckinPlacePickerActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.base.DeepLinkLauncherUtils/void launchAuthenticatedAction(android.app.Activity,java.lang.String,android.net.Uri)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.PlacesActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.PlaceDetailsActivity/void a(android.app.Activity,int,com.life360.android.places.data.models.PlaceInfo,java.lang.String)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.messaging.ui.MessageThreadListActivity/void a(android.content.Context)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.messaging.ui.MessageThreadListActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.koko.root.RootActivity/void a(android.content.Context,boolean,boolean)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeValidateActivity/void a(android.content.Context,boolean,java.lang.String)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.account.ExchangeTokenActivity/void a(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.account.ExchangeTokenActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumAppboyActivity/void startActivity(com.life360.android.premium.PremiumInAppBillingManager$PremiumTier,com.life360.android.premium.CheckoutPremium$PlanType,android.app.Activity)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumAppboyActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity/void a(android.content.Context)",
+            "sources": [
+                "com.life360.android.shared.base.LauncherActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeValidateActivity/void a(android.app.Activity,boolean,java.lang.String)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.d/boolean b(com.facebook.login.f,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.AppboyWebViewActivity$3/boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)",
+            "sources": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.a/void <init>(android.content.Context)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.appboy.services.AppboyDataSyncService"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.life360.inapppurchase.CreditCardBillingManager$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "bo.app.ae$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$1/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.PlacesActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.PlacesActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.checkin.d$b"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.life360.android.driver_behavior.ui.b$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.life360.android.location.ForegroundNotificationService$2"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.life360.android.appboy.a"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.PremiumInAppBillingManager$5"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.life360.inapppurchase.PremiumInAppBillingManager$5"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.PlaceEditActivity/void a(android.app.Activity,int,com.life360.android.places.data.models.PlaceInfo,java.lang.String,boolean)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.PlaceEditActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.PlacesActivity$2/void a(com.life360.android.places.data.models.PlaceInfo)",
+            "sources": [
+                "com.life360.android.places.PlacesActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.helpshift.support.g$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.helpshift.support.HSReview"
+            ],
+            "targets": [
+                "com.helpshift.support.activities.ParentActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.a/void <init>(android.content.Context)",
+            "sources": [
+                "com.appboy.ui.activities.AppboyFeedActivity"
+            ],
+            "targets": [
+                "com.appboy.services.AppboyDataSyncService"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeValidateActivity/void a(android.app.Activity,boolean,java.lang.String)",
+            "sources": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.messaging.ui.ViewThreadPeopleActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.messaging.ui.ViewThreadPeopleActivity/void a(android.content.Context,com.life360.android.shared.utils.CloneableHashMap)",
+            "sources": [
+                "com.life360.android.messaging.ui.ViewThreadPeopleActivity"
+            ],
+            "targets": [
+                "com.life360.android.messaging.ui.ViewThreadPeopleActivity"
+            ]
+        },
+        {
+            "handler": "net.hockeyapp.android.FeedbackActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "net.hockeyapp.android.FeedbackActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.PaintActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.account.PasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.core.c/android.util.Pair c(java.util.Map)",
+            "sources": [
+                "com.life360.android.first_user_experience.account.PasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.core.services.UserService"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.account.d$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.first_user_experience.account.PasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.account.ForgotPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.account.d$1/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.first_user_experience.account.PasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.account.ClaimPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.debug.DebugSettingsActivity$17/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.debug.DebugSettingsActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumPostPurchasePLUSActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.debug.DebugSettingsActivity$23$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.life360.android.debug.DebugSettingsActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.debug.DebugSettingsActivity$16/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.debug.DebugSettingsActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFueUpsellDialog"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.FueIntroActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.debug.DebugSettingsActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.debug.DebugSettingsActivity/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.life360.android.debug.DebugSettingsActivity"
+            ],
+            "targets": [
+                "com.life360.android.debug.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.debug.DebugSettingsActivity$23$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.life360.android.debug.DebugSettingsActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.debug.DebugSettingsActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.WidgetActionActivity$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.life360.android.shared.ui.WidgetActionActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.WidgetActionActivity$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.life360.android.shared.ui.WidgetActionActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.RequestUserAlert"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.WidgetActionActivity$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.life360.android.shared.ui.WidgetActionActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeValidateActivity/void a(android.app.Activity,boolean,java.lang.String)",
+            "sources": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountPasswordActivity/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity/void b(android.app.Activity,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.d/boolean b(com.facebook.login.f,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeValidateActivity/void a(android.app.Activity,boolean,java.lang.String)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity/void c(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.account.ClaimPhoneActivity/void a(android.app.Activity,java.lang.String,int,int)",
+            "sources": [
+                "com.life360.android.first_user_experience.account.ClaimPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.account.ClaimPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.account.ClaimPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.account.a$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.first_user_experience.account.ClaimPhoneActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPlusFUELandingActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumPlusFUELandingActivity/void onExplore()",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPlusFUELandingActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumPlusFUEActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumPlusFUELandingActivity/void start(android.content.Context)",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumPlusFUELandingActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumPlusFUELandingActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.battery.BatteryAlertsActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.battery.BatteryAlertsActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.life360.android.battery.BatteryAlertsActivity"
+            ],
+            "targets": [
+                "com.life360.android.battery.BatteryAlertsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.battery.BatteryAlertsActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.battery.BatteryAlertsActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeShareActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ShareRecommenderActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.ShareRecommenderActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ShareRecommenderActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ShareRecommenderActivity/void a(android.content.Context)",
+            "sources": [
+                "com.life360.android.first_user_experience.ShareRecommenderActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.ShareRecommenderActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.location.location_sharing.LocationSharingActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.FueIntroActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.widget.WidgetCircleActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.widget.WidgetCircleActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity/void a(android.content.Context,android.content.Intent,boolean)",
+            "sources": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeValidateActivity/void a(android.app.Activity,boolean,java.lang.String)",
+            "sources": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.o$1/void onItemSelected(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleOverviewActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.FueIntroActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.utils.x/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.checkin.CheckinPlacePickerActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity$11/boolean a(android.view.MenuItem)",
+            "sources": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ],
+            "targets": [
+                "com.life360.android.messaging.ui.MessageThreadActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity/void b(android.content.Context,java.lang.Class,android.os.Bundle)",
+            "sources": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.PlacesSyncService/void a(android.content.Context,java.lang.String,boolean)",
+            "sources": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.PlacesSyncService"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.checkin.e/void b()",
+            "sources": [
+                "com.life360.android.places.checkin.d$b"
+            ],
+            "targets": [
+                "com.life360.inapppurchase.CreditCardBillingManager$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.checkin.e/void b()",
+            "sources": [
+                "com.life360.android.places.checkin.d$b"
+            ],
+            "targets": [
+                "bo.app.ae$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.checkin.e/void b()",
+            "sources": [
+                "com.life360.android.places.checkin.d$b"
+            ],
+            "targets": [
+                "com.life360.android.appboy.a"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.checkin.e/void b()",
+            "sources": [
+                "com.life360.android.places.checkin.d$b"
+            ],
+            "targets": [
+                "com.life360.android.driver_behavior.ui.b$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.checkin.e/void b()",
+            "sources": [
+                "com.life360.android.places.checkin.d$b"
+            ],
+            "targets": [
+                "com.life360.android.location.ForegroundNotificationService$2"
+            ]
+        },
+        {
+            "handler": "com.life360.android.location.location_sharing.LocationSharingService/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.life360.android.places.checkin.d$b"
+            ],
+            "targets": [
+                "com.life360.android.location.location_sharing.LocationSharingService"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.checkin.e/void b()",
+            "sources": [
+                "com.life360.android.places.checkin.d$b"
+            ],
+            "targets": [
+                "com.life360.inapppurchase.PremiumInAppBillingManager$5"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.checkin.e/void b()",
+            "sources": [
+                "com.life360.android.places.checkin.d$b"
+            ],
+            "targets": [
+                "com.life360.android.premium.PremiumInAppBillingManager$5"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.checkin.e/void b()",
+            "sources": [
+                "com.life360.android.places.checkin.d$b"
+            ],
+            "targets": [
+                "com.life360.android.places.checkin.d$b"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.FueIntroActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.base.MainFragmentActivity/void start(android.content.Context,java.lang.Class,android.os.Bundle)",
+            "sources": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.base.MainFragmentActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.premium.DatePickerAlert"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.shared.ui.WebviewActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.PlaceEditActivity/void a(android.app.Activity,int,java.lang.String,com.life360.android.core.models.gson.Place$Type,java.lang.String,boolean)",
+            "sources": [
+                "com.life360.android.places.PlaceEditActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.PlaceEditActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.PlaceDetailsActivity/void a(android.app.Activity,int,com.life360.android.places.data.models.PlaceInfo,java.lang.String)",
+            "sources": [
+                "com.life360.android.places.PlaceEditActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.AddressPicker/void a(android.app.Activity,int)",
+            "sources": [
+                "com.life360.android.places.PlaceEditActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.AddressPicker"
+            ]
+        },
+        {
+            "handler": "com.appboy.a/void <init>(android.content.Context)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.appboy.services.AppboyDataSyncService"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.PlaceDetailsActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeShareActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.PlaceDetailsActivity/void a(android.app.Activity,int,com.life360.android.places.data.models.PlaceInfo,java.lang.String)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.life360.android.location.ForegroundNotificationService$2"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.checkin.d$b"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "bo.app.ae$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.life360.inapppurchase.CreditCardBillingManager$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.life360.inapppurchase.PremiumInAppBillingManager$5"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.PremiumInAppBillingManager$5"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.life360.android.appboy.a"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$1/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumUpsellHookDialog$2/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.life360.android.driver_behavior.ui.b$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.PlaceEditActivity/void a(android.app.Activity,int,com.life360.android.places.data.models.PlaceInfo,java.lang.String,boolean)",
+            "sources": [
+                "com.life360.android.places.PlaceDetailsActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.PlaceEditActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity/void b(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueSignInActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.FueSignInActivity$6/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueSignInActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.account.ClaimPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.FueSignInActivity/void a(android.content.Context,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueSignInActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.FueSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.koko.root.RootActivity/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueSignInActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.i/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.b$a)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueSignInActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.debug.DebugSettingsActivity/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity"
+            ],
+            "targets": [
+                "com.life360.android.debug.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity/void b(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.map.profile_v2.detail_2_0.TransitDetailActivity/void finish()",
+            "sources": [
+                "com.life360.android.map.profile_v2.detail_2_0.TransitDetailActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.map.profile_v2.detail_2_0.TransitDetailActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.map.profile_v2.detail_2_0.TransitDetailActivity/void a(android.app.Activity,com.life360.android.map.profile_v2.detail_2_0.TransitDetailViewModel)",
+            "sources": [
+                "com.life360.android.map.profile_v2.detail_2_0.TransitDetailActivity"
+            ],
+            "targets": [
+                "com.life360.android.map.profile_v2.detail_2_0.TransitDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.core.services.SmsSenderService/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,com.life360.android.core.services.SmsSenderService$SmsSendResultListener)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingPictureCropperActivity"
+            ],
+            "targets": [
+                "com.life360.android.core.services.SmsSenderService"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingPictureCropperActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity$2/void a(com.life360.android.first_user_experience.login_screens.b$a)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity/void b(android.app.Activity,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity/void b(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity/void onReclaimAccount()",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.account.ClaimPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.koko.root.RootActivity/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.d/boolean b(com.facebook.login.f,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.settings.ui.SettingsActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.settings.ui.SettingsActivity/void start(android.content.Context)",
+            "sources": [
+                "com.life360.android.settings.ui.SettingsActivity"
+            ],
+            "targets": [
+                "com.life360.android.settings.ui.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ShareToPremiumActivity/void startFromLaunch(android.content.Context)",
+            "sources": [
+                "com.life360.android.premium.ShareToPremiumActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ShareToPremiumActivity/void startFromLaunch(android.content.Context)",
+            "sources": [
+                "com.life360.android.premium.ShareToPremiumActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ShareToPremiumActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ShareRecommenderActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "com.life360.android.premium.ShareToPremiumActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ShareRecommenderActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ShareToPremiumActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.premium.ShareToPremiumActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddEmergencyContactsActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.koko.root.RootActivity/void a(android.content.Context,boolean,boolean)",
+            "sources": [
+                "com.life360.koko.root.RootActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.FueSignInActivity/void a(android.content.Context,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.FueSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.debug.DebugSettingsActivity/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ],
+            "targets": [
+                "com.life360.android.debug.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.h/void a()",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity/void b(android.app.Activity,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.SignInPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.FueIntroActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity/void c(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.OnboardingAddCircleOverviewActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeValidateActivity/void a(android.content.Context,boolean,java.lang.String)",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeValidateActivity/void a(android.content.Context,boolean,java.lang.String)",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.OnboardingAddCircleOverviewActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleOverviewActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.map.profile_v2.drive_report.DriveReportActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountPasswordActivity/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPasswordActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.map.profile_v2.drive_report.DriveReportEventListActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.fue_2_0.map_tour_fue.MapFuePermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.CircleJoinConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeValidateActivity/void a(android.app.Activity,boolean,java.lang.String)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeValidateActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.d/boolean b(com.facebook.login.f,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity/void a(android.app.Activity,com.life360.android.first_user_experience.login_screens.FueIntroActivity$LoadingResult,com.life360.android.first_user_experience.login_screens.UserProfileData)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountEmailActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity/void a(android.content.Intent)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingPictureCropperActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.CircleJoinConfirmationActivity/void a(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.login_screens.CreateAccountProfileActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeShareActivity/void a(android.content.Context)",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeShareActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeShareActivity/void a(android.content.Context,java.lang.String,boolean)",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeShareActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeShareActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeShareActivity/void a(android.content.Context)",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeShareActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.invite.circle_codes.CircleCodeShareActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.messaging.ui.ViewThreadPeopleActivity/void a(android.content.Context,com.life360.android.shared.utils.CloneableHashMap)",
+            "sources": [
+                "com.life360.android.messaging.ui.MessageThreadActivity"
+            ],
+            "targets": [
+                "com.life360.android.messaging.ui.ViewThreadPeopleActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.messaging.ui.MessageThreadActivity/void a(java.lang.String,java.lang.String,int,int)",
+            "sources": [
+                "com.life360.android.messaging.ui.MessageThreadActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.PhotoViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.messaging.ui.MessageThreadActivity/void b(android.content.Intent)",
+            "sources": [
+                "com.life360.android.messaging.ui.MessageThreadActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.PhotoConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.messaging.ui.MessageThreadActivity/void a(android.content.Context)",
+            "sources": [
+                "com.life360.android.messaging.ui.MessageThreadActivity"
+            ],
+            "targets": [
+                "com.life360.android.messaging.ui.MessageThreadActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.messaging.ui.MessageThreadActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.messaging.ui.MessageThreadListActivity/void b(android.content.Context)",
+            "sources": [
+                "com.life360.android.messaging.ui.MessageThreadListActivity"
+            ],
+            "targets": [
+                "com.life360.android.messaging.ui.MessageThreadListActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.messaging.ui.MessageThreadListActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.life360.android.messaging.ui.MessageThreadListActivity"
+            ],
+            "targets": [
+                "com.life360.android.messaging.ui.MessageThreadActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.messaging.ui.MessageThreadListActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.invite.circle_codes.CircleCodeShareActivity/void a(android.content.Context,java.lang.String,boolean)",
+            "sources": [
+                "com.life360.android.messaging.ui.MessageThreadListActivity"
+            ],
+            "targets": [
+                "com.life360.android.invite.circle_codes.CircleCodeShareActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.account.ExchangeTokenActivity/void a(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.life360.android.first_user_experience.account.ExchangeTokenActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.account.ExchangeTokenActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.account.ExchangeTokenActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.account.ExchangeTokenActivity/void a()",
+            "sources": [
+                "com.life360.android.first_user_experience.account.ExchangeTokenActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.account.ExchangeTokenActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.marketing_carousel.FueIntroCarouselActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.login_screens.FueIntroActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.account.ExchangeTokenActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.login_screens.FueIntroActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.utils.ab/void a(android.content.Context,java.lang.String,java.lang.Object[])",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.inapppurchase.CreditCardBillingManager$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity/void a(android.app.Activity,java.lang.String,int,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.utils.ab/void a(android.content.Context,java.lang.String,java.lang.Object[])",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.android.driver_behavior.ui.b$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.utils.ab/void a(android.content.Context,java.lang.String,java.lang.Object[])",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.PremiumInAppBillingManager$5"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.utils.ab/void a(android.content.Context,java.lang.String,java.lang.Object[])",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.inapppurchase.PremiumInAppBillingManager$5"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.utils.ab/void a(android.content.Context,java.lang.String,java.lang.Object[])",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.android.appboy.a"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.utils.ab/void a(android.content.Context,java.lang.String,java.lang.Object[])",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.android.location.ForegroundNotificationService$2"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.utils.ab/void a(android.content.Context,java.lang.String,java.lang.Object[])",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity"
+            ],
+            "targets": [
+                "bo.app.ae$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.utils.ab/void a(android.content.Context,java.lang.String,java.lang.Object[])",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingSmsConfirmationActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.checkin.d$b"
+            ]
+        },
+        {
+            "handler": "com.appboy.a/void <init>(android.content.Context)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.appboy.services.AppboyDataSyncService"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.a$4/void a(com.life360.android.core.models.gson.Circle)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.inapppurchase.PremiumInAppBillingManager$5"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.a$4/void a(com.life360.android.core.models.gson.Circle)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.android.appboy.a"
+            ]
+        },
+        {
+            "handler": "com.life360.android.shared.ui.MainMapActivity/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.ui.MainMapActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.a$4/void a(com.life360.android.core.models.gson.Circle)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.checkin.d$b"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.a$4/void a(com.life360.android.core.models.gson.Circle)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.inapppurchase.CreditCardBillingManager$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.a$4/void a(com.life360.android.core.models.gson.Circle)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.android.location.ForegroundNotificationService$2"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.koko.root.RootActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity/void a(android.app.Activity,boolean)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.a$4/void a(com.life360.android.core.models.gson.Circle)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.android.driver_behavior.ui.b$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.a$4/void a(com.life360.android.core.models.gson.Circle)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "bo.app.ae$1"
+            ]
+        },
+        {
+            "handler": "com.life360.android.first_user_experience.ui.a$4/void a(com.life360.android.core.models.gson.Circle)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.PremiumInAppBillingManager$5"
+            ]
+        },
+        {
+            "handler": "com.life360.android.core.services.UpdateService/void f(android.content.Context)",
+            "sources": [
+                "com.life360.android.first_user_experience.ui.OnboardingAddCircleActivity"
+            ],
+            "targets": [
+                "com.life360.android.core.services.UpdateService"
+            ]
+        },
+        {
+            "handler": "com.life360.android.places.checkin.CheckinPlacePickerActivity/void a(android.content.Context,java.lang.String,java.util.ArrayList)",
+            "sources": [
+                "com.life360.android.places.checkin.CheckinPlacePickerActivity"
+            ],
+            "targets": [
+                "com.life360.android.places.checkin.CheckinPlacePickerActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.places.checkin.CheckinPlacePickerActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.PremiumInAppBillingManager/void startCreditCardCheckout()",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumAppboyActivity"
+            ],
+            "targets": [
+                "com.life360.android.shared.base.MainFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.life360.android.premium.ui.PremiumAppboyActivity/void startActivity(com.life360.android.premium.PremiumInAppBillingManager$PremiumTier,com.life360.android.premium.CheckoutPremium$PlanType,android.app.Activity)",
+            "sources": [
+                "com.life360.android.premium.ui.PremiumAppboyActivity"
+            ],
+            "targets": [
+                "com.life360.android.premium.ui.PremiumAppboyActivity"
+            ]
+        }
+    ]
+}

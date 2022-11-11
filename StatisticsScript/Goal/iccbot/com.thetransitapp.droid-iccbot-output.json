@@ -1,0 +1,49 @@
+{
+    "transitions": [
+        {
+            "handler": "com.thetransitapp.droid.shared.deeplink.GeoLaunchActivity/void b(java.lang.String)",
+            "sources": [
+                "com.thetransitapp.droid.shared.deeplink.GeoLaunchActivity"
+            ],
+            "targets": [
+                "com.thetransitapp.droid.shared.activity.TransitActivity"
+            ]
+        },
+        {
+            "handler": "com.thetransitapp.droid.shared.activity.SplashActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.thetransitapp.droid.shared.activity.SplashActivity"
+            ],
+            "targets": [
+                "com.thetransitapp.droid.shared.activity.TransitOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.thetransitapp.droid.shared.activity.SplashActivity/void n()",
+            "sources": [
+                "com.thetransitapp.droid.shared.activity.SplashActivity"
+            ],
+            "targets": [
+                "com.thetransitapp.droid.shared.activity.TransitActivity"
+            ]
+        },
+        {
+            "handler": "com.thetransitapp.droid.shared.deeplink.TransitLaunchActivity/void a()",
+            "sources": [
+                "com.thetransitapp.droid.shared.deeplink.TransitLaunchActivity"
+            ],
+            "targets": [
+                "com.thetransitapp.droid.shared.activity.TransitActivity"
+            ]
+        },
+        {
+            "handler": "com.thetransitapp.droid.shared.activity.TransitOnboardingActivity/void y()",
+            "sources": [
+                "com.thetransitapp.droid.shared.activity.TransitOnboardingActivity"
+            ],
+            "targets": [
+                "com.thetransitapp.droid.shared.activity.TransitActivity"
+            ]
+        }
+    ]
+}

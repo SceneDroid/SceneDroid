@@ -1,0 +1,22 @@
+public final class com.iccbot.R$menu extends java.lang.Object
+{
+    public static final int main;
+
+    public void <init>()
+    {
+        com.iccbot.R$menu r0;
+
+        r0 := @this: com.iccbot.R$menu;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void <clinit>()
+    {
+        <com.iccbot.R$menu: int main> = 2131492864;
+
+        return;
+    }
+}

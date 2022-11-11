@@ -1,0 +1,28 @@
+public class com.iccbot.withFragCtx.Des1WithFragCtx extends android.app.Activity
+{
+
+    public void <init>()
+    {
+        com.iccbot.withFragCtx.Des1WithFragCtx r0;
+
+        r0 := @this: com.iccbot.withFragCtx.Des1WithFragCtx;
+
+        specialinvoke r0.<android.app.Activity: void <init>()>();
+
+        return;
+    }
+
+    protected void onCreate(android.os.Bundle)
+    {
+        com.iccbot.withFragCtx.Des1WithFragCtx r0;
+        android.os.Bundle $r1;
+
+        r0 := @this: com.iccbot.withFragCtx.Des1WithFragCtx;
+
+        $r1 := @parameter0: android.os.Bundle;
+
+        specialinvoke r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1);
+
+        return;
+    }
+}

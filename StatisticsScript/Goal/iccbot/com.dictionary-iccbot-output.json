@@ -1,0 +1,499 @@
+{
+    "transitions": [
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.WordOfTheDayArchivesActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.BlogDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.FavoritesActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.WordOfTheDayDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.AddOnsActivity"
+            ]
+        },
+        {
+            "handler": "com.sessionm.ui.SessionMActivity/boolean startSessionMActivity(android.content.Context,java.lang.String,com.sessionm.b.a,boolean,int)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.sessionm.ui.SessionMActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.TrendsActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.SlideShowActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.RecentsActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.BlogActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.activity.QuizActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.IAP_Detail"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.activity.ClickActionHandlerActivity"
+            ],
+            "targets": [
+                "com.dictionary.SlideShowDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.Splash$1/void run()",
+            "sources": [
+                "com.dictionary.Splash"
+            ],
+            "targets": [
+                "com.dictionary.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.Splash$1/void run()",
+            "sources": [
+                "com.dictionary.Splash"
+            ],
+            "targets": [
+                "com.dictionary.WordOfTheDayDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.millennialmedia.internal.MMIntentWrapperActivity/void launch(android.content.Context,android.content.Intent,com.millennialmedia.internal.MMIntentWrapperActivity$MMIntentWrapperListener)",
+            "sources": [
+                "com.millennialmedia.internal.MMIntentWrapperActivity"
+            ],
+            "targets": [
+                "com.millennialmedia.internal.MMIntentWrapperActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.widget.VoiceHandler/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.dictionary.widget.VoiceHandler"
+            ],
+            "targets": [
+                "com.dictionary.SerpTabbedActivity"
+            ]
+        },
+        {
+            "handler": "com.sessionm.ui.SessionMVideoActivity/boolean start(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.sessionm.ui.SessionMVideoActivity"
+            ],
+            "targets": [
+                "com.sessionm.ui.SessionMVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.sessionm.ui.SessionMActivity/boolean startSessionMActivity(android.content.Context,java.lang.String,com.sessionm.b.a,boolean,int)",
+            "sources": [
+                "com.sessionm.ui.SessionMVideoActivity"
+            ],
+            "targets": [
+                "com.sessionm.ui.SessionMActivity"
+            ]
+        },
+        {
+            "handler": "com.millennialmedia.internal.MMActivity/void launch(android.content.Context,com.millennialmedia.internal.MMActivity$MMActivityConfig,com.millennialmedia.internal.MMActivity$MMActivityListener)",
+            "sources": [
+                "com.millennialmedia.internal.MMActivity"
+            ],
+            "targets": [
+                "com.millennialmedia.internal.MMActivity"
+            ]
+        },
+        {
+            "handler": "com.sessionm.ui.SessionMActivity/boolean startSessionMActivity(android.content.Context,java.lang.String,com.sessionm.b.a,boolean,int)",
+            "sources": [
+                "com.sessionm.ui.SessionMActivity"
+            ],
+            "targets": [
+                "com.sessionm.ui.SessionMActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.IAP_Detail"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.AddOnsActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.activity.QuizActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.BlogActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.TrendsActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.RecentsActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.SlideShowActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.FavoritesActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.BlogDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.WordOfTheDayArchivesActivity"
+            ]
+        },
+        {
+            "handler": "com.sessionm.ui.SessionMActivity/boolean startSessionMActivity(android.content.Context,java.lang.String,com.sessionm.b.a,boolean,int)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.sessionm.ui.SessionMActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.SlideShowDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.util.ClickActionManager/void runClickAction(com.dictionary.util.ClickActionManager$ClickActionParams)",
+            "sources": [
+                "com.dictionary.AddOnsActivity"
+            ],
+            "targets": [
+                "com.dictionary.WordOfTheDayDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.activity.SearchActivity/void openBackDoor()",
+            "sources": [
+                "com.dictionary.activity.SearchActivity"
+            ],
+            "targets": [
+                "com.dictionary.activity.BackDoorConfig"
+            ]
+        },
+        {
+            "handler": "com.dictionary.activity.SearchActivity/void openSerp(java.lang.String)",
+            "sources": [
+                "com.dictionary.activity.SearchActivity"
+            ],
+            "targets": [
+                "com.dictionary.SerpTabbedActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.activity.HomeActivity/void processDeepLink(android.content.Intent)",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.SerpTabbedActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.activity.HomeActivity/void processDeepLink(android.content.Intent)",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.activity.TranslateActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.fragment.NavigationDrawerFragment$SlidingMenuAdapter$12/void onClick()",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.About"
+            ]
+        },
+        {
+            "handler": "com.sessionm.ui.SessionMActivity/boolean startSessionMActivity(android.content.Context,java.lang.String,com.sessionm.b.a,boolean,int)",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.sessionm.ui.SessionMActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.fragment.NavigationDrawerFragment$SlidingMenuAdapter$2/void onClick()",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.BlogActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.activity.HomeActivity/void processDeepLink(android.content.Intent)",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.WordOfTheDayDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.fragment.NavigationDrawerFragment$SlidingMenuAdapter$3/void onClick()",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.SlideShowActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.fragment.NavigationDrawerFragment$SlidingMenuAdapter$6/void onClick()",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.RecentsActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.fragment.NavigationDrawerFragment$SlidingMenuAdapter$4/void onClick()",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.TrendsActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.fragment.NavigationDrawerFragment$SlidingMenuAdapter$9/void onClick()",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.fragment.NavigationDrawerFragment$SlidingMenuAdapter$7/void onClick()",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.AddOnsActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.fragment.NavigationDrawerFragment$SlidingMenuAdapter$5/void onClick()",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.FavoritesActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.fragment.NavigationDrawerFragment$SlidingMenuAdapter$1/void onClick()",
+            "sources": [
+                "com.dictionary.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.dictionary.WordOfTheDayArchivesActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void startMraid(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "com.dictionary.SerpTabbedActivity/void openSerp(android.content.Context,com.dictionary.SerpTabbedActivity$SerpOptions)",
+            "sources": [
+                "com.dictionary.SerpTabbedActivity"
+            ],
+            "targets": [
+                "com.dictionary.SerpTabbedActivity"
+            ]
+        }
+    ]
+}

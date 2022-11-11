@@ -1,0 +1,76 @@
+{
+    "transitions": [
+        {
+            "handler": "jp.sblo.pandora.aGrep.Settings$3/void onClick(android.view.View)",
+            "sources": [
+                "jp.sblo.pandora.aGrep.Settings"
+            ],
+            "targets": [
+                "jp.sblo.pandora.aGrep.FileSelectorActivity"
+            ]
+        },
+        {
+            "handler": "jp.sblo.pandora.aGrep.Settings/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "jp.sblo.pandora.aGrep.Settings"
+            ],
+            "targets": [
+                "jp.sblo.pandora.aGrep.OptionActivity"
+            ]
+        },
+        {
+            "handler": "jp.sblo.pandora.aGrep.Settings$9/void onClick(android.view.View)",
+            "sources": [
+                "jp.sblo.pandora.aGrep.Settings"
+            ],
+            "targets": [
+                "jp.sblo.pandora.aGrep.Search"
+            ]
+        },
+        {
+            "handler": "jp.sblo.pandora.aGrep.Settings/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "jp.sblo.pandora.aGrep.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "jp.sblo.pandora.aGrep.OptionActivity"
+            ]
+        },
+        {
+            "handler": "jp.sblo.pandora.aGrep.Settings$3/void onClick(android.view.View)",
+            "sources": [
+                "jp.sblo.pandora.aGrep.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "jp.sblo.pandora.aGrep.FileSelectorActivity"
+            ]
+        },
+        {
+            "handler": "jp.sblo.pandora.aGrep.Settings$9/void onClick(android.view.View)",
+            "sources": [
+                "jp.sblo.pandora.aGrep.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "jp.sblo.pandora.aGrep.Search"
+            ]
+        },
+        {
+            "handler": "jp.sblo.pandora.aGrep.Search/void onGrepItemClicked(int)",
+            "sources": [
+                "jp.sblo.pandora.aGrep.Search"
+            ],
+            "targets": [
+                "jp.sblo.pandora.aGrep.TextViewer"
+            ]
+        },
+        {
+            "handler": "jp.sblo.pandora.aGrep.Search/void onCreate(android.os.Bundle)",
+            "sources": [
+                "jp.sblo.pandora.aGrep.Search"
+            ],
+            "targets": [
+                "jp.sblo.pandora.aGrep.Settings"
+            ]
+        }
+    ]
+}

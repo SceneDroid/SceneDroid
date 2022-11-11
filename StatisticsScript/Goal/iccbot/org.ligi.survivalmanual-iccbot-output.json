@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "org.ligi.survivalmanual.ui.MainActivity$onURLClick$1/void invoke(java.lang.String)",
+            "sources": [
+                "org.ligi.survivalmanual.ui.MainActivity"
+            ],
+            "targets": [
+                "org.ligi.survivalmanual.ui.ImageViewActivity"
+            ]
+        },
+        {
+            "handler": "org.ligi.survivalmanual.ui.MainActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.ligi.survivalmanual.ui.MainActivity"
+            ],
+            "targets": [
+                "org.ligi.survivalmanual.ui.PreferenceActivity"
+            ]
+        }
+    ]
+}

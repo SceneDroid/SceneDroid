@@ -1,0 +1,3154 @@
+{
+    "transitions": [
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.microsoft.office.outlook.people.EnableContactsSyncActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.office.outlook.people.EnableContactsSyncActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.microsoft.office.outlook.people.EnableContactsSyncActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.microsoft.office.outlook.file.FilesDirectListActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.file.FilesDirectListActivity/void openBrowser(com.microsoft.office.outlook.file.model.AccountId)",
+            "sources": [
+                "com.microsoft.office.outlook.file.FilesDirectListActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.file.FilesDirectListActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.office.outlook.file.FilesDirectListActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.microsoft.office.outlook.file.FilesDirectListActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.CentralActivity/void a(com.acompli.acompli.helpers.DeepLink)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.CentralActivity$GetDropboxDirectTokenTask$1/void a(com.acompli.thrift.client.generated.GetOAuth2TokenResponse_190)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.OAuthActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.CentralActivity/void K()",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.CentralActivity/void b(com.microsoft.office.outlook.olmcore.model.interfaces.groups.Group)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.group.activities.GroupCardActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.CentralActivity/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.create.DraftEventActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.CentralActivity/void a(com.acompli.acompli.helpers.DeepLink)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.MessageDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.drawer.favorite.EditFavoritesActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.drawer.favorite.EditFavoritesActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.CentralActivity/void a(int,com.microsoft.office.outlook.olmcore.model.interfaces.Conversation,com.acompli.acompli.message.list.MessageListState,java.util.Set,boolean)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.conversation.ConversationActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.CentralActivity/void a(com.microsoft.office.outlook.olmcore.model.EventMetadata,com.outlook.mobile.telemetry.generated.OTActivity,boolean)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.details.EventDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.CentralActivity/void a(int,com.microsoft.office.outlook.olmcore.model.interfaces.ThreadId,com.microsoft.office.outlook.olmcore.model.interfaces.MessageId,boolean)",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ComposeActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.CentralActivity/void M()",
+            "sources": [
+                "com.acompli.acompli.CentralActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.interesting.InterestingCalendarActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.interesting.InterestingCalendarActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.interesting.InterestingCalendarActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ImageViewerActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.helpers.FileViewer/void b(com.acompli.accore.model.ACFile,android.content.Context,com.acompli.acompli.helpers.SupportedAppsInfo)",
+            "sources": [
+                "com.acompli.acompli.ImageViewerActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ImageViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ImageViewerActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ImageViewerActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.shortcuts.CalendarShortcutActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.shortcuts.CalendarShortcutActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.shortcuts.CalendarShortcutActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.drawer.favorite.EditFavoritesActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "com.acompli.acompli.ui.drawer.favorite.EditFavoritesActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.drawer.favorite.EditFavoritesActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.drawer.favorite.EditFavoritesActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.drawer.favorite.EditFavoritesActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.drawer.favorite.EditFavoritesActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.AutoReplySettingsActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.AutoReplySettingsActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.AutoReplySettingsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.ConversationActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.ConversationActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.ConversationActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ComposeActivity/void onInvitationHeaderClicked()",
+            "sources": [
+                "com.acompli.acompli.ComposeActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.CreateInvitationActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ComposeActivity/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.acompli.acompli.ComposeActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.SelectAvailabilityActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ComposeActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ComposeActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ComposeActivity/void a(java.lang.String,int)",
+            "sources": [
+                "com.acompli.acompli.ComposeActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.AttachActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ComposeActivity/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.acompli.acompli.ComposeActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.file.FilesDirectListActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ComposeActivity/void onInvitationHeaderClicked()",
+            "sources": [
+                "com.acompli.acompli.ComposeActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.create.CreateMeetingRequestActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ComposeActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.ComposeActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.CentralActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ComposeActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.ComposeActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.helpers.FileViewer/void b(com.acompli.accore.model.ACFile,android.content.Context,com.acompli.acompli.helpers.SupportedAppsInfo)",
+            "sources": [
+                "com.acompli.acompli.ComposeActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ImageViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ComposeActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.SplashActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.SplashActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.SplashActivity/void c()",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.SplashActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.AddAnotherAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.SplashActivity/void onClickStart(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.SplashActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.sso.AddSSOAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.SplashActivity/void onClickStart(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.SplashActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.SplashActivity/void onClickStart(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.SplashActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.SplashActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.addin.AddinManagerActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.addin.AddinManagerActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.addin.AddinManagerActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.microsoft.office.outlook.tokenrefresh.InteractiveAdalReauthActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.microsoft.office.outlook.tokenrefresh.InteractiveAdalReauthActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.office.outlook.tokenrefresh.InteractiveAdalReauthActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.CreateInvitationActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.CreateInvitationActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.CreateInvitationActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.OAuthActivity/void a(android.content.Intent)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.OAuthActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.ChooseAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.OAuthActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.OAuthActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.OAuthActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.contact.ContactListActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.contact.ContactListActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.contact.ContactListActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.calendar.share.ShareCalendarActivity/void a(com.acompli.accore.model.ACCalendarPermission)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.share.ShareCalendarActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.calendar.share.ShareCalendarContainerActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.share.ShareCalendarActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.share.ShareCalendarActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.share.ShareCalendarActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.ProductTourActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.ProductTourActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.ProductTourActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.CreateGroupActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.CreateGroupActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.CreateGroupActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.group.activities.CreateGroupActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.CreateGroupActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.group.activities.CreateGroupActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.recurrence.RecurrenceRuleEditorActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.recurrence.RecurrenceRuleEditorActivity$MonthlyUIController/void d()",
+            "sources": [
+                "com.acompli.acompli.ui.event.recurrence.RecurrenceRuleEditorActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.recurrence.RepeatOnDayPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.recurrence.RecurrenceRuleEditorActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.recurrence.RecurrenceRuleEditorActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.recurrence.RecurrenceRuleEditorActivity/void g()",
+            "sources": [
+                "com.acompli.acompli.ui.event.recurrence.RecurrenceRuleEditorActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.recurrence.RepeatUntilPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.map.MapActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.map.MapActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.map.MapActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.create.DraftEventActivity/void onClickPeople(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.DraftEventActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.contact.ContactPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.create.DraftEventActivity/void onClickRecurrence(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.DraftEventActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.recurrence.RecurrenceRuleEditorActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.create.DraftEventActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.DraftEventActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.DraftEventActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.create.DraftEventActivity/void onClickLocation(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.DraftEventActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.location.LocationPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.DraftEventActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.DraftEventActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingDriveActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.avery.onboard.AveryOnboardingDriveActivity/void b()",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingDriveActivity"
+            ],
+            "targets": [
+                "com.avery.onboard.AveryOnboardingSpendActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingDriveActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingDriveActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.ChooseAccountActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.ChooseAccountActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.ChooseAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.Office365LoginActivity$6/void a(com.acompli.thrift.client.generated.StatusCode,com.acompli.libcircle.Errors$ClError)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.Office365LoginActivity$6/void a(com.acompli.thrift.client.generated.AuthType,java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.OAuthActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.Office365LoginActivity$6/void a(com.acompli.thrift.client.generated.AuthType,java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.SimpleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.Office365LoginActivity/void a(com.acompli.accore.model.ACMailAccount,boolean)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.DeviceManagementActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.Office365LoginActivity$4/void onError(java.lang.Exception)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.ChooseAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.MessageDetailActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.MessageDetailActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.MessageDetailActivity/void a(com.microsoft.office.outlook.olmcore.model.EventMetadata,com.outlook.mobile.telemetry.generated.OTActivity,boolean)",
+            "sources": [
+                "com.acompli.acompli.MessageDetailActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.details.EventDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.fragments.EmailThreadFragment/void c()",
+            "sources": [
+                "com.acompli.acompli.MessageDetailActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ComposeActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.MessageDetailActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.contact.ContactPickerActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.contact.ContactPickerActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.contact.ContactPickerActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.AddAccountActivity/void redirectToSovereignCloudLogin(java.lang.String,com.microsoft.office.outlook.cloudenvironment.CloudEnvironment)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.onboarding.SovereignCloudAddAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.AddAccountActivity/void redirectToLogin(com.acompli.acompli.api.autodetect.DetectResponse,java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.AddAccountActivity/void a(com.acompli.accore.model.MdmProfile)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.SimpleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.StackChooserActivity/void b(android.content.Context,com.acompli.accore.util.Environment,android.content.Intent)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.StackChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.AddAccountActivity/void redirectToLogin(com.acompli.acompli.api.autodetect.DetectResponse,java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.OAuthActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.AddAccountActivity/void onClickManualSetup(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.ChooseAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.AddAnotherAccountActivity/void onClickAccept(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAnotherAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAnotherAccountActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAnotherAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.AddAnotherAccountActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity/void onSuccess(com.microsoft.powerlift.model.IncidentAnalysis)",
+            "sources": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ],
+            "targets": [
+                "com.microsoft.powerlift.android.RemedyActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.office.outlook.livepersonacard.ui.LivePersonaCardActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.microsoft.office.outlook.livepersonacard.ui.LivePersonaCardActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.microsoft.office.outlook.livepersonacard.ui.LivePersonaCardActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.share.ShareCalendarContainerActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.share.ShareCalendarContainerActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.share.ShareCalendarContainerActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.location.LocationPickerActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.location.LocationPickerActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.location.LocationPickerActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.EditGroupActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.EditGroupActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.EditGroupActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.helpshift.support.HSReviewFragment$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.helpshift.support.HSReview"
+            ],
+            "targets": [
+                "com.helpshift.support.activities.ParentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.search.SearchActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.search.SearchActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.search.SearchActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.SubSettingsActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.SubSettingsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.SubSettingsActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.file.FileListsActivity/void b(int,com.acompli.acompli.adapters.FileListAdapter$OnFileItemClickListener)",
+            "sources": [
+                "com.acompli.acompli.ui.file.FileListsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.file.FileTreeActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.file.FileListsActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.file.FileListsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.file.FileListsActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.recurrence.RepeatUntilPickerActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.recurrence.RepeatUntilPickerActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.recurrence.RepeatUntilPickerActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.addin.AddinTermsPrivacyPolicyActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.addin.AddinTermsPrivacyPolicyActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.addin.AddinTermsPrivacyPolicyActivity$AddinsTermsPrivacyAdapter/void a(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.ui.addin.AddinTermsPrivacyPolicyActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.GenericWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.addin.AddinTermsPrivacyPolicyActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "net.hockeyapp.android.FeedbackActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "net.hockeyapp.android.FeedbackActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.PaintActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.AddinPopupDialogActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.AddinPopupDialogActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.AddinPopupDialogActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingVisitsActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.avery.onboard.AveryOnboardingVisitsActivity/void b()",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingVisitsActivity"
+            ],
+            "targets": [
+                "com.avery.onboard.AveryOnboardingCompletedActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingVisitsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingVisitsActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.SelectAvailabilityActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.SelectAvailabilityActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.SelectAvailabilityActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.uservoice.uservoicesdk.activity.TopicActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.uservoice.uservoicesdk.activity.TopicActivity"
+            ],
+            "targets": [
+                "com.uservoice.uservoicesdk.activity.ContactActivity"
+            ]
+        },
+        {
+            "handler": "com.uservoice.uservoicesdk.activity.TopicActivity$3/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.uservoice.uservoicesdk.activity.TopicActivity"
+            ],
+            "targets": [
+                "com.uservoice.uservoicesdk.activity.ArticleActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.OneRMWebModalActivity$OneRMWebViewClient/boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.OneRMWebModalActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ComposeActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.OneRMWebModalActivity$OneRMWebViewClient/boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.OneRMWebModalActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.create.DraftEventActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.OneRMWebModalActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.OneRMWebModalActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.OneRMWebModalActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.OneRMWebModalActivity$OneRMWebViewClient/boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.OneRMWebModalActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.file.FilesDirectListActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.OneRMWebModalActivity$OneRMWebViewClient/boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.OneRMWebModalActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.ChooseAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.OneRMWebModalActivity$OneRMWebViewClient/boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.OneRMWebModalActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.OneRMWebModalActivity$OneRMWebViewClient/boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.OneRMWebModalActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.SubSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.file.FileTreeActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.file.FileTreeActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.file.FileTreeActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingCompletedActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingCompletedActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingCompletedActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.ZeroQueryGroupsListActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.ZeroQueryGroupsListActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.ZeroQueryGroupsListActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.MAMCompanyPortalRequiredActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.MAMCompanyPortalRequiredActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.MAMCompanyPortalRequiredActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.uservoice.uservoicesdk.activity.PortalActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.uservoice.uservoicesdk.activity.PortalActivity"
+            ],
+            "targets": [
+                "com.uservoice.uservoicesdk.activity.ContactActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.recurrence.RepeatOnDayPickerActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.recurrence.RepeatOnDayPickerActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.recurrence.RepeatOnDayPickerActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.microsoft.office.outlook.onboarding.SovereignCloudAddAccountActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.microsoft.office.outlook.onboarding.SovereignCloudAddAccountActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.office.outlook.onboarding.SovereignCloudAddAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.conversation.v3.controllers.MessageBodyViewController/boolean a(java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ],
+            "targets": [
+                "com.acompli.acompli.CentralActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.conversation.v3.controllers.MessageBodyViewController/void a(boolean)",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.group.activities.GroupCardActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.conversation.v3.controllers.MessageInvitationViewController/void d()",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.details.EventDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.conversation.v3.controllers.MessageViewController/void a(com.acompli.acompli.ui.conversation.v3.views.MessageView$ViewModel)",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.helpers.FileViewer/void b(com.acompli.accore.model.ACFile,android.content.Context,com.acompli.acompli.helpers.SupportedAppsInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ],
+            "targets": [
+                "com.acompli.acompli.ImageViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3/void replyButtonPressed()",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ],
+            "targets": [
+                "com.acompli.acompli.ComposeActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingSpendActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingSpendActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.avery.onboard.AveryOnboardingSpendActivity/void b()",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingSpendActivity"
+            ],
+            "targets": [
+                "com.avery.onboard.AveryOnboardingVisitsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingSpendActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.CreateMeetingRequestActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.create.CreateMeetingRequestActivity/void onClickRecurrence(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.CreateMeetingRequestActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.recurrence.RecurrenceRuleEditorActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.CreateMeetingRequestActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.create.CreateMeetingRequestActivity/void onClickPeople(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.CreateMeetingRequestActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.contact.ContactPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.CreateMeetingRequestActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.create.CreateMeetingRequestActivity/void onClickLocation(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.create.CreateMeetingRequestActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.location.LocationPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.GroupCardActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.GroupCardActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.GroupCardActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.DeepLinkActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.ChooseAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.DeepLinkActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.event.create.DraftEventActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.DeepLinkActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.file.FilesDirectListActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.DeepLinkActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.DeepLinkActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ComposeActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.DeepLinkActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.DeepLinkActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.SubSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.GenericWebViewActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.GenericWebViewActivity/void b(android.app.Activity,com.acompli.accore.util.BaseAnalyticsProvider)",
+            "sources": [
+                "com.acompli.acompli.GenericWebViewActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.GenericWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.GenericWebViewActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.GenericWebViewActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardAllMessagesActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardAllMessagesActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardAllMessagesActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ProfileCardActivity/void n()",
+            "sources": [
+                "com.acompli.acompli.ProfileCardActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.people.EnableContactsSyncActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.helpers.ProfileCardBottomSheet$3/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ComposeActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.GroupMembersActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.GroupMembersActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.GroupMembersActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.StackChooserActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.StackChooserActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.onboarding.StackChooserActivity/void b(android.content.Context,com.acompli.accore.util.Environment,android.content.Intent)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.StackChooserActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.StackChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.StackChooserActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardAllFilesActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardAllFilesActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardAllFilesActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.apps.CalendarAppsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.apps.CalendarAppsActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.calendar.apps.CalendarAppsActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.SimpleLoginActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.SimpleLoginActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.onboarding.SimpleLoginActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.AttachActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.AttachActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.AttachActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.uservoice.uservoicesdk.activity.ForumActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.uservoice.uservoicesdk.activity.ForumActivity"
+            ],
+            "targets": [
+                "com.uservoice.uservoicesdk.activity.PostIdeaActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.appwidget.inbox.ConfigureInboxWidgetActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.appwidget.inbox.ConfigureInboxWidgetActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.appwidget.inbox.ConfigureInboxWidgetActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.appwidget.inbox.ConfigureInboxWidgetActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.appwidget.inbox.ConfigureInboxWidgetActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventNotesActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventNotesActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventNotesActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.details.EventNotesActivity/void a(com.microsoft.office.outlook.olmcore.model.interfaces.Attachment)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventNotesActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.conversation.v3.MessageDetailActivityV3"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.event.details.EventNotesActivity/void a(java.lang.String)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventNotesActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ComposeActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.helpers.FileViewer/void b(com.acompli.accore.model.ACFile,android.content.Context,com.acompli.acompli.helpers.SupportedAppsInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventNotesActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ImageViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.services.FilesDirectDownloadIntentService/void saveToDevice(android.content.Context,com.microsoft.office.outlook.olmcore.model.interfaces.FileId,java.lang.String,long,java.lang.String,android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventNotesActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.services.FilesDirectDownloadIntentService"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardNotesActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardNotesActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardNotesActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventDetailsAttendeesActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventDetailsAttendeesActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventDetailsAttendeesActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.MainActivity/void redirect()",
+            "sources": [
+                "com.microsoft.office.outlook.MainActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.MainActivity/void redirect()",
+            "sources": [
+                "com.microsoft.office.outlook.MainActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.CentralActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.microsoft.office.outlook.MainActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.microsoft.office.outlook.MainActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.office.outlook.MainActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.GroupFilesActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.GroupFilesActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.GroupFilesActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.search.ContactSearchResultsActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.search.ContactSearchResultsActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.search.ContactSearchResultsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.uservoice.uservoicesdk.activity.ArticleActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.uservoice.uservoicesdk.activity.ArticleActivity"
+            ],
+            "targets": [
+                "com.uservoice.uservoicesdk.activity.ContactActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventDetailsActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventDetailsActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.event.details.EventDetailsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.DeviceManagementActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.DeviceManagementActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.DeviceManagementActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.AddMembersActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.AddMembersActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.group.activities.AddMembersActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingStartActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.avery.onboard.AveryOnboardingStartActivity/void onClickGetStarted()",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingStartActivity"
+            ],
+            "targets": [
+                "com.avery.onboard.AveryOnboardingDriveActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingStartActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.avery.onboard.AveryOnboardingStartActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.microsoft.office.outlook.compose.ComposeActivityV2"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.microsoft.office.outlook.compose.ComposeActivityV2"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.office.outlook.compose.ComposeActivityV2"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.microsoft.office.outlook.migration.HxAccountMigrationLearnMoreActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.microsoft.office.outlook.migration.HxAccountMigrationLearnMoreActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.office.outlook.migration.HxAccountMigrationLearnMoreActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.sso.AddSSOAccountActivity/void g()",
+            "sources": [
+                "com.acompli.acompli.ui.sso.AddSSOAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.sso.AddSSOAccountActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.sso.AddSSOAccountActivity/void l()",
+            "sources": [
+                "com.acompli.acompli.ui.sso.AddSSOAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.AddAnotherAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.sso.AddSSOAccountActivity$AddAccountErrorDialog/void a(android.support.v4.app.FragmentManager,java.util.ArrayList)",
+            "sources": [
+                "com.acompli.acompli.ui.sso.AddSSOAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.sso.AddSSOAccountActivity$AddAccountErrorDialog"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.sso.AddSSOAccountActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.sso.AddSSOAccountActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.settings.SettingsActivity$7/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.sso.AddSSOAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.settings.SettingsActivity$7/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.ChooseAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.settings.SettingsActivity$8/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.Office365LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.settings.SettingsActivity/void b(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.migration.HxAccountMigrationLearnMoreActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ui.settings.SettingsActivity$7/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.onboarding.AddAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.appwidget.agenda.ConfigureAgendaWidgetActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.acompli.acompli.appwidget.agenda.ConfigureAgendaWidgetActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.appwidget.agenda.ConfigureAgendaWidgetActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.appwidget.agenda.ConfigureAgendaWidgetActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.appwidget.agenda.ConfigureAgendaWidgetActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.AddinContainerActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.AddinContainerActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.AddinContainerActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity/void lambda$showAppStatusInView$2$ACBaseActivity(android.content.DialogInterface,int)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardAllEventsActivity"
+            ],
+            "targets": [
+                "com.microsoft.office.outlook.powerlift.ui.PowerliftIncidentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.office.outlook.hockeyapp.SeamlessHockeyAppUpdater/void showHockeyAppUpdate(com.microsoft.office.outlook.hockeyapp.HockeyUpdateInfo)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardAllEventsActivity"
+            ],
+            "targets": [
+                "net.hockeyapp.android.UpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.acompli.acompli.ACBaseActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.acompli.acompli.ProfileCardAllEventsActivity"
+            ],
+            "targets": [
+                "com.acompli.acompli.ui.settings.ConflictingAccountsActivity"
+            ]
+        }
+    ]
+}

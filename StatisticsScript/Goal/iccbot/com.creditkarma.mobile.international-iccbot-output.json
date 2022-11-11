@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "com.creditkarma.mobile.international.region.ui.RegionSelectionActivity$a/java.lang.Object m(java.lang.Object)",
+            "sources": [
+                "com.creditkarma.mobile.international.region.ui.RegionSelectionActivity"
+            ],
+            "targets": [
+                "com.creditkarma.mobile.international.landing.ui.LandingActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1111 @@
+{
+    "transitions": [
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.webapps.WebappActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.webapps.WebappActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "ve0/boolean c()",
+            "sources": [
+                "org.chromium.chrome.browser.webapps.WebappActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "nQ0/void a(android.app.Activity,org.chromium.chrome.browser.tab.Tab,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.webapps.WebappActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.history.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "g10/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "org.chromium.chrome.browser.browserservices.ClearDataDialogActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "g10/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "org.chromium.chrome.browser.browserservices.ClearDataDialogActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.video_tutorials.VideoPlayerActivity/void l3(android.content.Context,int)",
+            "sources": [
+                "org.chromium.chrome.browser.app.video_tutorials.VideoTutorialListActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.app.video_tutorials.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.webapps.SameTaskWebApkActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.webapps.SameTaskWebApkActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "ve0/boolean c()",
+            "sources": [
+                "org.chromium.chrome.browser.webapps.SameTaskWebApkActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "nQ0/void a(android.app.Activity,org.chromium.chrome.browser.tab.Tab,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.webapps.SameTaskWebApkActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.history.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "q1/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.AccountDetailsWithQrActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.AccountPrivateKeyActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.video_tutorials.VideoPlayerActivity/void l3(android.content.Context,int)",
+            "sources": [
+                "org.chromium.chrome.browser.app.video_tutorials.VideoPlayerActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.app.video_tutorials.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "V43/void onResult(java.lang.Object)",
+            "sources": [
+                "org.chromium.chrome.browser.app.video_tutorials.VideoPlayerActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.bookmarks.BookmarkAddEditFolderActivity/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkAddEditFolderActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkFolderSelectActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.bookmarks.BookmarkAddEditFolderActivity/void l3(android.content.Context,org.chromium.components.bookmarks.BookmarkId)",
+            "sources": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkAddEditFolderActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkAddEditFolderActivity"
+            ]
+        },
+        {
+            "handler": "iA2/void g(xm,int,int)",
+            "sources": [
+                "org.chromium.chrome.browser.history.HistoryActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "gQ0/void b(org.chromium.url.GURL,java.lang.Boolean,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.history.HistoryActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.site_settings.ManageSpaceActivity/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.site_settings.ManageSpaceActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.site_settings.ManageSpaceActivity/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.site_settings.ManageSpaceActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.searchwidget.SearchActivity/void M3(java.lang.String,int,java.lang.String,byte[])",
+            "sources": [
+                "org.chromium.chrome.browser.searchwidget.SearchActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.incognito.IncognitoTabLauncher/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.chromium.chrome.browser.incognito.IncognitoTabLauncher"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "WI/void b(android.content.Context,java.lang.Class,android.os.Bundle)",
+            "sources": [
+                "org.chromium.chrome.browser.browserservices.ManageTrustedWebActivityDataActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "WI/void b(android.content.Context,java.lang.Class,android.os.Bundle)",
+            "sources": [
+                "org.chromium.chrome.browser.browserservices.ManageTrustedWebActivityDataActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.settings.SettingsActivity/void W1(androidx.preference.Preference)",
+            "sources": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.reengagement.ReengagementActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.chromium.chrome.browser.app.reengagement.ReengagementActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.webapps.ActivateWebApkActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkAddActivity"
+            ]
+        },
+        {
+            "handler": "nQ0/void a(android.app.Activity,org.chromium.chrome.browser.tab.Tab,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.history.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.android_webview.devui.MainActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.app.feed.followmanagement.FollowManagementActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.browserservices.ManageTrustedWebActivityDataActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.webapps.WebappLauncherActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.incognito.IncognitoTabLauncher"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.android_webview.nonembedded.LicenseActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.incognito.IncognitoTabLauncher"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.webapps.WebappLauncherActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.browserservices.ManageTrustedWebActivityDataActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "nQ0/void a(android.app.Activity,org.chromium.chrome.browser.tab.Tab,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.history.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.android_webview.devui.MainActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.app.feed.followmanagement.FollowManagementActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.android_webview.nonembedded.LicenseActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkAddActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "Ke0/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.webapps.ActivateWebApkActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.settings.BraveSettingsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ]
+        },
+        {
+            "handler": "jI/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.BraveRewardsUserWalletActivity"
+            ]
+        },
+        {
+            "handler": "ZH/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.BraveRewardsSiteBannerActivity"
+            ]
+        },
+        {
+            "handler": "nQ0/void a(android.app.Activity,org.chromium.chrome.browser.tab.Tab,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.history.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "IL/void h(android.app.Activity)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnPlansActivity"
+            ]
+        },
+        {
+            "handler": "wL/void f(android.content.Context)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnProfileActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "LE/void c0()",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.set_default_browser.SetDefaultBrowserActivity"
+            ]
+        },
+        {
+            "handler": "dy2/void c(android.content.Context,android.os.Bundle)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.signin.SyncConsentActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.download.DownloadUtils/boolean showDownloadManager(android.app.Activity,org.chromium.chrome.browser.tab.Tab,org.chromium.chrome.browser.profiles.OTRProfileID,int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.app.download.home.DownloadActivity"
+            ]
+        },
+        {
+            "handler": "bv1/org.chromium.chrome.browser.tab.Tab d(int,org.chromium.content_public.browser.LoadUrlParams)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "bv1/org.chromium.chrome.browser.tab.Tab d(int,org.chromium.content_public.browser.LoadUrlParams)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "LE/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity2"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.BraveWalletActivity"
+            ]
+        },
+        {
+            "handler": "IL/void h(android.app.Activity)",
+            "sources": [
+                "org.chromium.chrome.browser.vpn.BraveVpnProfileActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnPlansActivity"
+            ]
+        },
+        {
+            "handler": "kX0/void b(dz)",
+            "sources": [
+                "org.chromium.chrome.browser.vpn.BraveVpnProfileActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnProfileActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.bookmarks.BookmarkFolderSelectActivity/void l3(android.content.Context,org.chromium.components.bookmarks.BookmarkId[])",
+            "sources": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkEditActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkFolderSelectActivity"
+            ]
+        },
+        {
+            "handler": "lq0/void onResult(java.lang.Object)",
+            "sources": [
+                "org.chromium.chrome.browser.app.download.home.DownloadActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "lq0/void onResult(java.lang.Object)",
+            "sources": [
+                "org.chromium.chrome.browser.app.download.home.DownloadActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "jI/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.onboarding.OnboardingActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.BraveRewardsUserWalletActivity"
+            ]
+        },
+        {
+            "handler": "ZH/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.onboarding.OnboardingActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.BraveRewardsSiteBannerActivity"
+            ]
+        },
+        {
+            "handler": "IL/void h(android.app.Activity)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnPlansActivity"
+            ]
+        },
+        {
+            "handler": "LE/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.BraveWalletActivity"
+            ]
+        },
+        {
+            "handler": "bv1/org.chromium.chrome.browser.tab.Tab d(int,org.chromium.content_public.browser.LoadUrlParams)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ]
+        },
+        {
+            "handler": "nQ0/void a(android.app.Activity,org.chromium.chrome.browser.tab.Tab,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.history.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.download.DownloadUtils/boolean showDownloadManager(android.app.Activity,org.chromium.chrome.browser.tab.Tab,org.chromium.chrome.browser.profiles.OTRProfileID,int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.app.download.home.DownloadActivity"
+            ]
+        },
+        {
+            "handler": "jI/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.BraveRewardsUserWalletActivity"
+            ]
+        },
+        {
+            "handler": "LE/void c0()",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.set_default_browser.SetDefaultBrowserActivity"
+            ]
+        },
+        {
+            "handler": "ZH/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.BraveRewardsSiteBannerActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "wL/void f(android.content.Context)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnProfileActivity"
+            ]
+        },
+        {
+            "handler": "bv1/org.chromium.chrome.browser.tab.Tab d(int,org.chromium.content_public.browser.LoadUrlParams)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "dy2/void c(android.content.Context,android.os.Bundle)",
+            "sources": [
+                "org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.signin.SyncConsentActivity"
+            ]
+        },
+        {
+            "handler": "lH2/void a(androidx.appcompat.app.a)",
+            "sources": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.BuySendSwapActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.LauncherShortcutActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.chromium.chrome.browser.LauncherShortcutActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "LE/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.BraveWalletActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "wL/void f(android.content.Context)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnProfileActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.download.DownloadUtils/boolean showDownloadManager(android.app.Activity,org.chromium.chrome.browser.tab.Tab,org.chromium.chrome.browser.profiles.OTRProfileID,int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.app.download.home.DownloadActivity"
+            ]
+        },
+        {
+            "handler": "nQ0/void a(android.app.Activity,org.chromium.chrome.browser.tab.Tab,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.history.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "dy2/void c(android.content.Context,android.os.Bundle)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.signin.SyncConsentActivity"
+            ]
+        },
+        {
+            "handler": "ZH/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.BraveRewardsSiteBannerActivity"
+            ]
+        },
+        {
+            "handler": "LE/void c0()",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.set_default_browser.SetDefaultBrowserActivity"
+            ]
+        },
+        {
+            "handler": "bv1/org.chromium.chrome.browser.tab.Tab d(int,org.chromium.content_public.browser.LoadUrlParams)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.document.ChromeLauncherActivity"
+            ]
+        },
+        {
+            "handler": "bv1/org.chromium.chrome.browser.tab.Tab d(int,org.chromium.content_public.browser.LoadUrlParams)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ]
+        },
+        {
+            "handler": "IL/void h(android.app.Activity)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnPlansActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.ChromeActivity/boolean E2(int,boolean)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "jI/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.BraveRewardsUserWalletActivity"
+            ]
+        },
+        {
+            "handler": "kh3/boolean a()",
+            "sources": [
+                "org.chromium.android_webview.devui.MainActivity"
+            ],
+            "targets": [
+                "org.chromium.android_webview.devui.MainActivity"
+            ]
+        },
+        {
+            "handler": "o1/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.AccountDetailActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.AddAccountActivity"
+            ]
+        },
+        {
+            "handler": "n1/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.AccountDetailActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.AccountDetailsWithQrActivity"
+            ]
+        },
+        {
+            "handler": "uB0/void b(java.lang.String)",
+            "sources": [
+                "org.chromium.chrome.browser.app.feed.feedmanagement.FeedManagementActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.customtabs.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.feed.feedmanagement.FeedManagementActivity/void N1(android.content.Context)",
+            "sources": [
+                "org.chromium.chrome.browser.app.feed.feedmanagement.FeedManagementActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.feed.feedmanagement.FeedManagementActivity/void U0(android.content.Context)",
+            "sources": [
+                "org.chromium.chrome.browser.app.feed.feedmanagement.FeedManagementActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.app.feed.followmanagement.FollowManagementActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.app.feed.feedmanagement.FeedManagementActivity/void N1(android.content.Context)",
+            "sources": [
+                "org.chromium.chrome.browser.app.feed.feedmanagement.FeedManagementActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.media.PictureInPictureActivity/void createActivity(long,java.lang.Object)",
+            "sources": [
+                "org.chromium.chrome.browser.media.PictureInPictureActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.media.PictureInPictureActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.bookmarks.BookmarkFolderSelectActivity/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkFolderSelectActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkAddEditFolderActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.bookmarks.BookmarkFolderSelectActivity/void l3(android.content.Context,org.chromium.components.bookmarks.BookmarkId[])",
+            "sources": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkFolderSelectActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.bookmarks.BookmarkFolderSelectActivity"
+            ]
+        },
+        {
+            "handler": "FI/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.BraveRewardsSiteBannerActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.BraveRewardsDonationSentActivity"
+            ]
+        },
+        {
+            "handler": "IL/void h(android.app.Activity)",
+            "sources": [
+                "org.chromium.chrome.browser.vpn.BraveVpnParentActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnPlansActivity"
+            ]
+        },
+        {
+            "handler": "kX0/void b(dz)",
+            "sources": [
+                "org.chromium.chrome.browser.vpn.BraveVpnParentActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnProfileActivity"
+            ]
+        },
+        {
+            "handler": "Ej2/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.sharing.shared_clipboard.SharedClipboardShareActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "Ej2/void onClick(android.view.View)",
+            "sources": [
+                "org.chromium.chrome.browser.sharing.shared_clipboard.SharedClipboardShareActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.vpn.BraveVpnPlansActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.chromium.chrome.browser.vpn.BraveVpnPlansActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnProfileActivity"
+            ]
+        },
+        {
+            "handler": "IL/void h(android.app.Activity)",
+            "sources": [
+                "org.chromium.chrome.browser.vpn.BraveVpnPlansActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.vpn.BraveVpnPlansActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.crypto_wallet.activities.AssetDetailActivity/void A2(yc3)",
+            "sources": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.AssetDetailActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.AccountDetailActivity"
+            ]
+        },
+        {
+            "handler": "H23/void D(android.app.Activity,WO,java.lang.String)",
+            "sources": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.AssetDetailActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.BuySendSwapActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.BrowserRestartActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.chromium.chrome.browser.BrowserRestartActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.ChromeTabbedActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.crypto_wallet.activities.BraveWalletActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.BraveWalletActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.BraveSettingsActivity"
+            ]
+        },
+        {
+            "handler": "org.chromium.chrome.browser.crypto_wallet.activities.BraveWalletActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.chromium.chrome.browser.crypto_wallet.activities.BraveWalletActivity"
+            ],
+            "targets": [
+                "org.chromium.chrome.browser.settings.SettingsActivity"
+            ]
+        }
+    ]
+}

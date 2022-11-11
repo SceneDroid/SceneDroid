@@ -1,0 +1,139 @@
+{
+    "transitions": [
+        {
+            "handler": "com.commonsware.android.arXiv.SubarXiv/void updateWidget()",
+            "sources": [
+                "com.commonsware.android.arXiv.SubarXiv"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.arXiv"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.SubarXiv/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.commonsware.android.arXiv.SubarXiv"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.RSSListWindow"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.SubarXiv/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.commonsware.android.arXiv.SubarXiv"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.SearchListWindow"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.SearchWindow/void pressedSearchButton(android.view.View)",
+            "sources": [
+                "com.commonsware.android.arXiv.SearchWindow"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.SearchListWindow"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.SearchListWindow/void updateWidget()",
+            "sources": [
+                "com.commonsware.android.arXiv.SearchListWindow"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.arXiv"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.SearchListWindow/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "com.commonsware.android.arXiv.SearchListWindow"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.SingleItemWindow"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.SingleItemWindow/void onClick(android.view.View)",
+            "sources": [
+                "com.commonsware.android.arXiv.SingleItemWindow"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.SearchListWindow"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.arXiv/void searchPressed(android.view.View)",
+            "sources": [
+                "com.commonsware.android.arXiv.arXiv"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.SearchWindow"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.arXiv/void updateWidget()",
+            "sources": [
+                "com.commonsware.android.arXiv.arXiv"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.arXiv"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.arXiv/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.commonsware.android.arXiv.arXiv"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.SubarXiv"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.arXiv/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.commonsware.android.arXiv.arXiv"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.SearchListWindow"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.arXiv/boolean applyMenuChoice(android.view.MenuItem)",
+            "sources": [
+                "com.commonsware.android.arXiv.arXiv"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.EditPreferences"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.arXiv/boolean applyMenuChoice(android.view.MenuItem)",
+            "sources": [
+                "com.commonsware.android.arXiv.arXiv"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.HistoryWindow"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.arXiv/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.commonsware.android.arXiv.arXiv"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.RSSListWindow"
+            ]
+        },
+        {
+            "handler": "com.commonsware.android.arXiv.RSSListWindow/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "com.commonsware.android.arXiv.RSSListWindow"
+            ],
+            "targets": [
+                "com.commonsware.android.arXiv.SingleItemWindow"
+            ]
+        }
+    ]
+}

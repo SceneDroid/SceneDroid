@@ -1,0 +1,85 @@
+{
+    "transitions": [
+        {
+            "handler": "com.nloko.android.syncmypix.SyncResultsActivity$6/void onClick(android.view.View)",
+            "sources": [
+                "com.nloko.android.syncmypix.SyncResultsActivity"
+            ],
+            "targets": [
+                "com.nloko.android.syncmypix.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.nloko.android.syncmypix.SyncResultsActivity/void crop(java.lang.String)",
+            "sources": [
+                "com.nloko.android.syncmypix.SyncResultsActivity"
+            ],
+            "targets": [
+                "com.nloko.android.syncmypix.graphics.CropImage"
+            ]
+        },
+        {
+            "handler": "com.nloko.android.syncmypix.MainActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "com.nloko.android.syncmypix.MainActivity"
+            ],
+            "targets": [
+                "com.nloko.android.syncmypix.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.nloko.android.syncmypix.MainActivity$12/void onClick(android.view.View)",
+            "sources": [
+                "com.nloko.android.syncmypix.MainActivity"
+            ],
+            "targets": [
+                "com.nloko.android.syncmypix.DonateActivity"
+            ]
+        },
+        {
+            "handler": "com.nloko.android.syncmypix.MainActivity/void login()",
+            "sources": [
+                "com.nloko.android.syncmypix.MainActivity"
+            ],
+            "targets": [
+                "com.nloko.android.syncmypix.facebook.FacebookLoginWebView"
+            ]
+        },
+        {
+            "handler": "com.nloko.android.syncmypix.MainActivity/void showResults()",
+            "sources": [
+                "com.nloko.android.syncmypix.MainActivity"
+            ],
+            "targets": [
+                "com.nloko.android.syncmypix.SyncResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.nloko.android.syncmypix.MainActivity$14/void onServiceConnected(android.content.ComponentName,android.os.IBinder)",
+            "sources": [
+                "com.nloko.android.syncmypix.MainActivity"
+            ],
+            "targets": [
+                "com.nloko.android.syncmypix.SyncProgressActivity"
+            ]
+        },
+        {
+            "handler": "com.nloko.android.syncmypix.SyncProgressActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.nloko.android.syncmypix.SyncProgressActivity"
+            ],
+            "targets": [
+                "com.nloko.android.syncmypix.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.nloko.android.syncmypix.SyncProgressActivity$3$1/void onSyncCompleted()",
+            "sources": [
+                "com.nloko.android.syncmypix.SyncProgressActivity"
+            ],
+            "targets": [
+                "com.nloko.android.syncmypix.SyncResultsActivity"
+            ]
+        }
+    ]
+}

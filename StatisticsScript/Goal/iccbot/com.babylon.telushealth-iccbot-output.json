@@ -1,0 +1,76 @@
+{
+    "transitions": [
+        {
+            "handler": "com.braintreepayments.api.ThreeDSecure/void performCardinalAuthentication(com.braintreepayments.api.BraintreeFragment,com.braintreepayments.api.models.ThreeDSecureLookup)",
+            "sources": [
+                "com.braintreepayments.api.dropin.AddCardActivity"
+            ],
+            "targets": [
+                "com.braintreepayments.api.ThreeDSecureActivity"
+            ]
+        },
+        {
+            "handler": "com.braintreepayments.api.dropin.DropInActivity/void onPaymentMethodSelected(com.braintreepayments.api.dropin.utils.PaymentMethodType)",
+            "sources": [
+                "com.braintreepayments.api.dropin.DropInActivity"
+            ],
+            "targets": [
+                "com.braintreepayments.api.dropin.AddCardActivity"
+            ]
+        },
+        {
+            "handler": "com.braintreepayments.api.ThreeDSecure/void performCardinalAuthentication(com.braintreepayments.api.BraintreeFragment,com.braintreepayments.api.models.ThreeDSecureLookup)",
+            "sources": [
+                "com.braintreepayments.api.dropin.DropInActivity"
+            ],
+            "targets": [
+                "com.braintreepayments.api.ThreeDSecureActivity"
+            ]
+        },
+        {
+            "handler": "com.braintreepayments.api.dropin.DropInActivity/void onVaultEditButtonClick(android.view.View)",
+            "sources": [
+                "com.braintreepayments.api.dropin.DropInActivity"
+            ],
+            "targets": [
+                "com.braintreepayments.api.dropin.VaultManagerActivity"
+            ]
+        },
+        {
+            "handler": "com.braintreepayments.api.GooglePayment$3/void onConfigurationFetched(com.braintreepayments.api.models.Configuration)",
+            "sources": [
+                "com.braintreepayments.api.dropin.DropInActivity"
+            ],
+            "targets": [
+                "com.braintreepayments.api.GooglePaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.cardinalcommerce.shared.cs.userinterfaces.ChallengeUtils/void b(android.content.Context,com.cardinalcommerce.shared.cs.e.b,com.cardinalcommerce.shared.userinterfaces.UiCustomization)",
+            "sources": [
+                "com.braintreepayments.api.ThreeDSecureActivity"
+            ],
+            "targets": [
+                "com.cardinalcommerce.shared.cs.userinterfaces.ChallengeHTMLView"
+            ]
+        },
+        {
+            "handler": "com.cardinalcommerce.shared.cs.userinterfaces.ChallengeUtils/void b(android.content.Context,com.cardinalcommerce.shared.cs.e.b,com.cardinalcommerce.shared.userinterfaces.UiCustomization)",
+            "sources": [
+                "com.braintreepayments.api.ThreeDSecureActivity"
+            ],
+            "targets": [
+                "com.cardinalcommerce.shared.cs.userinterfaces.ChallengeNativeView"
+            ]
+        },
+        {
+            "handler": "com.onfido.android.sdk.capture.ui.OnfidoActivity/void showLivenessCapture()",
+            "sources": [
+                "com.onfido.android.sdk.capture.ui.OnfidoActivity"
+            ],
+            "targets": [
+                "com.onfido.android.sdk.capture.ui.camera.CaptureActivity"
+            ]
+        }
+    ]
+}

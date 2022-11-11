@@ -1,0 +1,67 @@
+{
+    "transitions": [
+        {
+            "handler": "com.gluegadget.hndroid.Submissions$6/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.gluegadget.hndroid.Submissions"
+            ],
+            "targets": [
+                "com.gluegadget.hndroid.Comments"
+            ]
+        },
+        {
+            "handler": "com.gluegadget.hndroid.Main$11/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.gluegadget.hndroid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.gluegadget.hndroid.Comments"
+            ]
+        },
+        {
+            "handler": "com.gluegadget.hndroid.Main$7/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.gluegadget.hndroid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.gluegadget.hndroid.Preferences"
+            ]
+        },
+        {
+            "handler": "com.gluegadget.hndroid.Main$12/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.gluegadget.hndroid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.gluegadget.hndroid.Submissions"
+            ]
+        },
+        {
+            "handler": "com.gluegadget.hndroid.Main$11/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.gluegadget.hndroid.Main"
+            ],
+            "targets": [
+                "com.gluegadget.hndroid.Comments"
+            ]
+        },
+        {
+            "handler": "com.gluegadget.hndroid.Main$7/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.gluegadget.hndroid.Main"
+            ],
+            "targets": [
+                "com.gluegadget.hndroid.Preferences"
+            ]
+        },
+        {
+            "handler": "com.gluegadget.hndroid.Main$12/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.gluegadget.hndroid.Main"
+            ],
+            "targets": [
+                "com.gluegadget.hndroid.Submissions"
+            ]
+        }
+    ]
+}

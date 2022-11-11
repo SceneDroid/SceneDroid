@@ -1,0 +1,886 @@
+{
+    "transitions": [
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.account.AccountActivity/void l(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.account.AccountActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.account.AccountActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.azure.AzureActivity/void K(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.account.AccountActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.azure.AzureActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity/void h(android.app.Activity,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.account.AccountActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.storedetails.StoreDetailActivity/void m(android.app.Activity,java.lang.String,android.location.Location,com.subway.mobile.subwayapp03.model.platform.offers.objects.PaydiantPromotion,boolean,com.subway.mobile.subwayapp03.model.platform.order.transfer.objects.PurchaseSummary,com.subway.mobile.subwayapp03.ui.dashboard.c,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.storedetails.StoreDetailActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.storedetails.StoreDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity/void r(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.storedetails.StoreDetailActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.delivery.DeliveryLocationActivity/void h(android.app.Activity,double,double,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.delivery.DeliveryLocationActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.delivery.DeliveryLocationActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.deals.DealsActivity/void o(android.app.Activity,com.subway.mobile.subwayapp03.model.platform.offers.objects.BasePromotion,oe.a$f,java.lang.String)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.deals.DealsActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.deals.DealsActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity/void A(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.deals.DealsActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity/void K(android.app.Activity,boolean,java.lang.String)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.deals.DealsActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefilter.StoreFilterActivity/void g(android.app.Activity,int,java.util.ArrayList)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.storefilter.StoreFilterActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefilter.StoreFilterActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity/void t(android.app.Activity,double,double,android.location.Address,boolean,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.storesearch.StoreSearchActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storesearch.StoreSearchActivity/void k(android.app.Activity,int,boolean,java.lang.String,com.google.android.gms.maps.model.LatLng,java.lang.String,boolean,java.lang.String,boolean,int,int,boolean,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.storesearch.StoreSearchActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storesearch.StoreSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.landing.LandingActivity/void l(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.deeplink.ResolveDeeplinkActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity/void B(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.deeplink.ResolveDeeplinkActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.deeplink.ResolveDeeplinkActivity$a/void W6()",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.deeplink.ResolveDeeplinkActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.deeplink.DeepLinkIntentRouter"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity/void g(android.app.Activity,java.lang.String,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity/void r(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity/void l(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.landing.LandingActivity/void m(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.deals.DealsActivity/void n(android.app.Activity,com.subway.mobile.subwayapp03.model.platform.offers.objects.BasePromotion,int)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.deals.DealsActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.landing.LandingActivity/void l(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity/void g(android.app.Activity,java.lang.String,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity/void y(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.loyalty.LoyaltyActivity/void g(android.app.Activity,boolean,int,java.lang.String,com.subway.mobile.subwayapp03.ui.dashboard.e$s)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.loyalty.LoyaltyActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity/void B(android.app.Activity,boolean,com.subway.mobile.subwayapp03.model.platform.order.transfer.response.FreshFavoriteItem$FavoriteItem,java.lang.String,com.subway.mobile.subwayapp03.ui.dashboard.c)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.azure.UnSupportCountryActivity/void h(android.app.Activity,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.azure.UnSupportCountryActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.azure.UnSupportCountryActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity/void g(android.app.Activity,java.lang.String,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.orderpickupdelivery.DeliveryOrderStatusActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.guestprofile.GuestProfileActivity/void g(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.guestprofile.GuestProfileActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.guestprofile.GuestProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity/void l(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.guestprofile.GuestProfileActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ]
+        },
+        {
+            "handler": "net.openid.appauth.RedirectUriReceiverActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "net.openid.appauth.RedirectUriReceiverActivity"
+            ],
+            "targets": [
+                "net.openid.appauth.AuthorizationManagementActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity/void h(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.payment.subwaycard.SubwayCardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.payment.subwaycard.SubwayCardActivity/void g(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.payment.subwaycard.SubwayCardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.payment.subwaycard.SubwayCardActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.account.purchasehistory.PurchaseHistoryActivity/void g(android.app.Activity,com.subway.mobile.subwayapp03.ui.dashboard.c)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.account.purchasehistory.PurchaseHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.deals.DealsActivity/void n(android.app.Activity,com.subway.mobile.subwayapp03.model.platform.offers.objects.BasePromotion,int)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.deals.DealsActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.account.AccountActivity/void m(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.account.AccountActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity/void z(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity/void z(android.app.Activity,int)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity/void m(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.landing.LandingActivity/void l(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity/void i(android.app.Activity,int)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$a/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefilter.StoreFilterActivity/void g(android.app.Activity,int,java.util.ArrayList)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefilter.StoreFilterActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity/void B(android.app.Activity,boolean,com.subway.mobile.subwayapp03.model.platform.order.transfer.response.FreshFavoriteItem$FavoriteItem,java.lang.String,com.subway.mobile.subwayapp03.ui.dashboard.c)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity/void m(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.delivery.DeliveryLocationActivity/void h(android.app.Activity,double,double,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.delivery.DeliveryLocationActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.storedetails.StoreDetailActivity/void m(android.app.Activity,java.lang.String,android.location.Location,com.subway.mobile.subwayapp03.model.platform.offers.objects.PaydiantPromotion,boolean,com.subway.mobile.subwayapp03.model.platform.order.transfer.objects.PurchaseSummary,com.subway.mobile.subwayapp03.ui.dashboard.c,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.storedetails.StoreDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity$a/void L3(boolean,boolean,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storesearch.StoreSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.migrateafterupdate.MigrateAfterUpdateActivity/void g(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.migrateafterupdate.MigrateAfterUpdateActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.migrateafterupdate.MigrateAfterUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity/void L(android.app.Activity,boolean,int,int,boolean,java.lang.String)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity/void y(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity/void r(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.deals.DealsActivity/void n(android.app.Activity,com.subway.mobile.subwayapp03.model.platform.offers.objects.BasePromotion,int)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.deals.DealsActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity/void i(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.azure.UnSupportCountryActivity/void h(android.app.Activity,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.azure.UnSupportCountryActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity/void C(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.migrateafterupdate.MigrateAfterUpdateActivity/void g(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.migrateafterupdate.MigrateAfterUpdateActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.updateapp.UpdateAppPromptActivity/void g(android.app.Activity,com.subway.mobile.subwayapp03.model.platform.order.response.AppVersionResponse)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.updateapp.UpdateAppPromptActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.landing.LandingActivity/void l(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.guestprofile.GuestProfileActivity/void g(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.SplashActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.guestprofile.GuestProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity/void m(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity/void F(android.app.Activity,int)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.guestprofile.GuestProfileActivity/void g(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.guestprofile.GuestProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity/void s(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.dashboard.guest.GuestDashboardActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.azure.UnSupportCountryActivity/void h(android.app.Activity,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.azure.UnSupportCountryActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.landing.LandingActivity/void n(android.app.Activity,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity/void y(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.account.purchasehistory.PurchaseHistoryActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.account.purchasehistory.PurchaseHistoryActivity/void g(android.app.Activity,com.subway.mobile.subwayapp03.ui.dashboard.c)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.account.purchasehistory.PurchaseHistoryActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.account.purchasehistory.PurchaseHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity/void K(android.app.Activity,boolean,java.lang.String)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.account.purchasehistory.PurchaseHistoryActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.customizer.CustomizerActivity/void i(android.app.Activity,com.subway.mobile.subwayapp03.model.platform.order.transfer.objects.freshMenuResponse.MasterProductGroupItem,java.lang.String,int,java.lang.String,com.subway.mobile.subwayapp03.model.platform.order.transfer.response.OrderCartItemDetailResponse$CartItemDetail,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.customizer.CustomizerActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.customizer.CustomizerActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity/void u(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.customizer.CustomizerActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.azure.UnSupportCountryActivity/void h(android.app.Activity,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.azure.UnSupportCountryActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.customizer.CustomizerActivity/void i(android.app.Activity,com.subway.mobile.subwayapp03.model.platform.order.transfer.objects.freshMenuResponse.MasterProductGroupItem,java.lang.String,int,java.lang.String,com.subway.mobile.subwayapp03.model.platform.order.transfer.response.OrderCartItemDetailResponse$CartItemDetail,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.customizer.CustomizerActivity"
+            ]
+        },
+        {
+            "handler": "net.openid.appauth.f/void b(ai.c,android.app.PendingIntent,android.app.PendingIntent,q.d)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "net.openid.appauth.AuthorizationManagementActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity/void h(android.app.Activity,java.lang.String,boolean,java.lang.String)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.azure.AzureActivity/void F(android.app.Activity,java.lang.String,com.subway.mobile.subwayapp03.model.session.Session,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.azure.AzureActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity/void m(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity$a/void b0(java.lang.String)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.payment.AdyenPaypalActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.deals.DealsActivity/void o(android.app.Activity,com.subway.mobile.subwayapp03.model.platform.offers.objects.BasePromotion,oe.a$f,java.lang.String)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.deals.DealsActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity/void s(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity$a/void y()",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity/void g(android.app.Activity,java.lang.String,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.orderpickupstatus.OrderPickupStatusActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity/void g(android.app.Activity,java.lang.String,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.orderpickupcurbside.OrderPickupCurbsideActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.currentorderdetail.CurrentOrderDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity/void K(android.app.Activity,boolean,java.lang.String)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.gamification.GamificationActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.loyalty.LoyaltyActivity/void g(android.app.Activity,boolean,int,java.lang.String,com.subway.mobile.subwayapp03.ui.dashboard.e$s)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.gamification.GamificationActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.loyalty.LoyaltyActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity/void r(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.gamification.GamificationActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity/void n(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.payment.subwaycard.SubwayCardActivity/void h(android.app.Activity,java.util.List,com.subway.mobile.subwayapp03.model.platform.payment.transfer.objects.PaymentMethod)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.payment.subwaycard.SubwayCardActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity$a/void b0(java.lang.String)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.payment.PaymentActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.payment.AdyenPaypalActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.updateapp.UpdateAppPromptActivity/void g(android.app.Activity,com.subway.mobile.subwayapp03.model.platform.order.response.AppVersionResponse)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.updateapp.UpdateAppPromptActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.updateapp.UpdateAppPromptActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity/void I(android.app.Activity,android.content.Intent)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.loyalty.LoyaltyActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.storefinder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.loyalty.LoyaltyActivity/void g(android.app.Activity,boolean,int,java.lang.String,com.subway.mobile.subwayapp03.ui.dashboard.e$s)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.loyalty.LoyaltyActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.loyalty.LoyaltyActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.order.OrderActivity/void r(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.loyalty.LoyaltyActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity/void y(android.app.Activity,java.util.List,java.util.ArrayList,java.util.List)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.loyalty.LoyaltyActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.navigation.BaseBottomNavActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.azure.UnSupportCountryActivity/void h(android.app.Activity,boolean)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.azure.AzureActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.azure.UnSupportCountryActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.azure.AzureActivity/void s(android.app.Activity,com.subway.mobile.subwayapp03.model.session.Session,java.lang.String,java.lang.String,android.net.Uri)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.azure.AzureActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.azure.AzureActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.landing.LandingActivity/void m(android.app.Activity)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.azure.AzureActivity"
+            ],
+            "targets": [
+                "com.subway.mobile.subwayapp03.ui.landing.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.subway.mobile.subwayapp03.ui.azure.AzureActivity/void s(android.app.Activity,com.subway.mobile.subwayapp03.model.session.Session,java.lang.String,java.lang.String,android.net.Uri)",
+            "sources": [
+                "com.subway.mobile.subwayapp03.ui.azure.AzureActivity"
+            ],
+            "targets": [
+                "net.openid.appauth.AuthorizationManagementActivity"
+            ]
+        }
+    ]
+}

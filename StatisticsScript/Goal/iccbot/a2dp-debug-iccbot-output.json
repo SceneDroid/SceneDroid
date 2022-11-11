@@ -1,0 +1,103 @@
+{
+    "transitions": [
+        {
+            "handler": "a2dp.Vol.main/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "a2dp.Vol.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "a2dp.Vol.PackagesChooser"
+            ]
+        },
+        {
+            "handler": "a2dp.Vol.main$5$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "a2dp.Vol.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "a2dp.Vol.EditDevice"
+            ]
+        },
+        {
+            "handler": "a2dp.Vol.main/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "a2dp.Vol.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "a2dp.Vol.Preferences"
+            ]
+        },
+        {
+            "handler": "a2dp.Vol.main/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "a2dp.Vol.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "a2dp.Vol.ManageData"
+            ]
+        },
+        {
+            "handler": "a2dp.Vol.EditDevice$11/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "a2dp.Vol.EditDevice"
+            ],
+            "targets": [
+                "a2dp.Vol.CustomIntentMaker"
+            ]
+        },
+        {
+            "handler": "a2dp.Vol.EditDevice$11/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "a2dp.Vol.EditDevice"
+            ],
+            "targets": [
+                "a2dp.Vol.AppChooser"
+            ]
+        },
+        {
+            "handler": "a2dp.Vol.EditDevice$11/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "a2dp.Vol.EditDevice"
+            ],
+            "targets": [
+                "a2dp.Vol.ProviderList"
+            ]
+        },
+        {
+            "handler": "a2dp.Vol.main$5$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "a2dp.Vol.main"
+            ],
+            "targets": [
+                "a2dp.Vol.EditDevice"
+            ]
+        },
+        {
+            "handler": "a2dp.Vol.main/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "a2dp.Vol.main"
+            ],
+            "targets": [
+                "a2dp.Vol.PackagesChooser"
+            ]
+        },
+        {
+            "handler": "a2dp.Vol.main/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "a2dp.Vol.main"
+            ],
+            "targets": [
+                "a2dp.Vol.ManageData"
+            ]
+        },
+        {
+            "handler": "a2dp.Vol.main/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "a2dp.Vol.main"
+            ],
+            "targets": [
+                "a2dp.Vol.Preferences"
+            ]
+        }
+    ]
+}

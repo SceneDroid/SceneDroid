@@ -1,0 +1,139 @@
+{
+    "transitions": [
+        {
+            "handler": "com.microsoft.onlineid.internal.ui.InterruptResolutionActivity/void showPendingActivity()",
+            "sources": [
+                "com.microsoft.onlineid.internal.ui.InterruptResolutionActivity"
+            ],
+            "targets": [
+                "com.microsoft.onlineid.authenticator.AccountAddPendingActivity"
+            ]
+        },
+        {
+            "handler": "com.azure.authenticator.ui.backup.RestoreFlowActivity/void signInAndRestore()",
+            "sources": [
+                "com.azure.authenticator.ui.backup.RestoreFlowActivity"
+            ],
+            "targets": [
+                "com.azure.authenticator.authentication.msa.ui.AddMsaAccountActivity"
+            ]
+        },
+        {
+            "handler": "net.openid.appauth.RedirectUriReceiverActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "net.openid.appauth.RedirectUriReceiverActivity"
+            ],
+            "targets": [
+                "net.openid.appauth.AuthorizationManagementActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.identity.client.CurrentTaskBrowserTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.microsoft.identity.client.CurrentTaskBrowserTabActivity"
+            ],
+            "targets": [
+                "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.workaccount.workplacejoin.core.JoinActivity/void installCert()",
+            "sources": [
+                "com.microsoft.workaccount.workplacejoin.core.JoinActivity"
+            ],
+            "targets": [
+                "com.microsoft.workaccount.workplacejoin.core.InstallCertActivity"
+            ]
+        },
+        {
+            "handler": "com.azure.authenticator.ui.LaunchActivity/void launchNextActivity(boolean)",
+            "sources": [
+                "com.azure.authenticator.ui.LaunchActivity"
+            ],
+            "targets": [
+                "com.azure.authenticator.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.azure.authenticator.ui.LaunchActivity/void launchNextActivity(boolean)",
+            "sources": [
+                "com.azure.authenticator.ui.LaunchActivity"
+            ],
+            "targets": [
+                "com.azure.authenticator.ui.fragment.sharedDeviceMode.SharedDeviceModeActivity"
+            ]
+        },
+        {
+            "handler": "com.azure.authenticator.ui.backup.BackupFlowActivity$showAddMsaAccountDialog$addMsaAccountDialogBuilder$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.azure.authenticator.ui.backup.BackupFlowActivity"
+            ],
+            "targets": [
+                "com.azure.authenticator.authentication.msa.ui.AddMsaAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.azure.authenticator.ui.authentication.AbstractAuthRequestActivity/void showConfirmCredentialsScreen(int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.azure.authenticator.ui.authentication.AadRemoteNgcSessionActivity"
+            ],
+            "targets": [
+                "com.microsoft.authenticator.commonuilibrary.ui.localauth.DeviceScreenUnlockActivity"
+            ]
+        },
+        {
+            "handler": "com.azure.authenticator.ui.dialog.StoreRatingTask$showSendFeedbackDialog$storeRatingDialogBuilder$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.azure.authenticator.ui.authentication.AadRemoteNgcSessionActivity"
+            ],
+            "targets": [
+                "com.azure.authenticator.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity"
+            ],
+            "targets": [
+                "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity"
+            ]
+        },
+        {
+            "handler": "com.azure.authenticator.ui.dialog.StoreRatingTask$showSendFeedbackDialog$storeRatingDialogBuilder$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.azure.authenticator.ui.authentication.MsaSessionActivity"
+            ],
+            "targets": [
+                "com.azure.authenticator.ui.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.azure.authenticator.ui.authentication.MsaSessionActivity$showKeyInvalidatedScreen$1/void onClick(android.view.View)",
+            "sources": [
+                "com.azure.authenticator.ui.authentication.MsaSessionActivity"
+            ],
+            "targets": [
+                "com.azure.authenticator.authentication.msa.ui.AddMsaAccountActivity"
+            ]
+        },
+        {
+            "handler": "com.azure.authenticator.ui.authentication.AbstractAuthRequestActivity/void showConfirmCredentialsScreen(int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.azure.authenticator.ui.authentication.MsaSessionActivity"
+            ],
+            "targets": [
+                "com.microsoft.authenticator.commonuilibrary.ui.localauth.DeviceScreenUnlockActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.authenticator.commonuilibrary.ui.AppLockActivity/void showConfirmCredentialsScreen()",
+            "sources": [
+                "com.microsoft.authenticator.commonuilibrary.ui.AppLockActivity"
+            ],
+            "targets": [
+                "com.microsoft.authenticator.commonuilibrary.ui.localauth.DeviceScreenUnlockActivity"
+            ]
+        }
+    ]
+}

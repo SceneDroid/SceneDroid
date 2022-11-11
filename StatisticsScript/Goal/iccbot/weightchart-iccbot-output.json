@@ -1,0 +1,58 @@
+{
+    "transitions": [
+        {
+            "handler": "es.senselesssolutions.gpl.weightchart.FileCommands/boolean onOptionsItemSelected(int)",
+            "sources": [
+                "es.senselesssolutions.gpl.weightchart.ChartActivity"
+            ],
+            "targets": [
+                "es.senselesssolutions.gpl.weightchart.EntryActivity"
+            ]
+        },
+        {
+            "handler": "es.senselesssolutions.gpl.weightchart.ChartActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "es.senselesssolutions.gpl.weightchart.ChartActivity"
+            ],
+            "targets": [
+                "es.senselesssolutions.gpl.weightchart.LegendActivity"
+            ]
+        },
+        {
+            "handler": "es.senselesssolutions.gpl.weightchart.ChartActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "es.senselesssolutions.gpl.weightchart.ChartActivity"
+            ],
+            "targets": [
+                "es.senselesssolutions.gpl.weightchart.EntryListActivity"
+            ]
+        },
+        {
+            "handler": "es.senselesssolutions.gpl.weightchart.FileCommands/boolean onOptionsItemSelected(int)",
+            "sources": [
+                "es.senselesssolutions.gpl.weightchart.ChartActivity"
+            ],
+            "targets": [
+                "es.senselesssolutions.gpl.weightchart.PreferencesActivity"
+            ]
+        },
+        {
+            "handler": "es.senselesssolutions.gpl.weightchart.FileCommands/boolean onOptionsItemSelected(int)",
+            "sources": [
+                "es.senselesssolutions.gpl.weightchart.EntryListActivity"
+            ],
+            "targets": [
+                "es.senselesssolutions.gpl.weightchart.PreferencesActivity"
+            ]
+        },
+        {
+            "handler": "es.senselesssolutions.gpl.weightchart.FileCommands/boolean onOptionsItemSelected(int)",
+            "sources": [
+                "es.senselesssolutions.gpl.weightchart.EntryListActivity"
+            ],
+            "targets": [
+                "es.senselesssolutions.gpl.weightchart.EntryActivity"
+            ]
+        }
+    ]
+}

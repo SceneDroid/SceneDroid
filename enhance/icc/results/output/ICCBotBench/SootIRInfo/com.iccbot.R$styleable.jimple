@@ -1,0 +1,1346 @@
+public final class com.iccbot.R$styleable extends java.lang.Object
+{
+    public static final int[] ActionBar;
+    public static final int[] ActionBarLayout;
+    public static final int ActionBarLayout_android_layout_gravity;
+    public static final int ActionBar_background;
+    public static final int ActionBar_backgroundSplit;
+    public static final int ActionBar_backgroundStacked;
+    public static final int ActionBar_contentInsetEnd;
+    public static final int ActionBar_contentInsetLeft;
+    public static final int ActionBar_contentInsetRight;
+    public static final int ActionBar_contentInsetStart;
+    public static final int ActionBar_customNavigationLayout;
+    public static final int ActionBar_displayOptions;
+    public static final int ActionBar_divider;
+    public static final int ActionBar_elevation;
+    public static final int ActionBar_height;
+    public static final int ActionBar_hideOnContentScroll;
+    public static final int ActionBar_homeAsUpIndicator;
+    public static final int ActionBar_homeLayout;
+    public static final int ActionBar_icon;
+    public static final int ActionBar_indeterminateProgressStyle;
+    public static final int ActionBar_itemPadding;
+    public static final int ActionBar_logo;
+    public static final int ActionBar_navigationMode;
+    public static final int ActionBar_popupTheme;
+    public static final int ActionBar_progressBarPadding;
+    public static final int ActionBar_progressBarStyle;
+    public static final int ActionBar_subtitle;
+    public static final int ActionBar_subtitleTextStyle;
+    public static final int ActionBar_title;
+    public static final int ActionBar_titleTextStyle;
+    public static final int[] ActionMenuItemView;
+    public static final int ActionMenuItemView_android_minWidth;
+    public static final int[] ActionMenuView;
+    public static final int[] ActionMode;
+    public static final int ActionMode_background;
+    public static final int ActionMode_backgroundSplit;
+    public static final int ActionMode_closeItemLayout;
+    public static final int ActionMode_height;
+    public static final int ActionMode_subtitleTextStyle;
+    public static final int ActionMode_titleTextStyle;
+    public static final int[] ActivityChooserView;
+    public static final int ActivityChooserView_expandActivityOverflowButtonDrawable;
+    public static final int ActivityChooserView_initialActivityCount;
+    public static final int[] CompatTextView;
+    public static final int CompatTextView_textAllCaps;
+    public static final int[] DrawerArrowToggle;
+    public static final int DrawerArrowToggle_barSize;
+    public static final int DrawerArrowToggle_color;
+    public static final int DrawerArrowToggle_drawableSize;
+    public static final int DrawerArrowToggle_gapBetweenBars;
+    public static final int DrawerArrowToggle_middleBarArrowSize;
+    public static final int DrawerArrowToggle_spinBars;
+    public static final int DrawerArrowToggle_thickness;
+    public static final int DrawerArrowToggle_topBottomBarArrowSize;
+    public static final int[] LinearLayoutCompat;
+    public static final int[] LinearLayoutCompat_Layout;
+    public static final int LinearLayoutCompat_Layout_android_layout_gravity;
+    public static final int LinearLayoutCompat_Layout_android_layout_height;
+    public static final int LinearLayoutCompat_Layout_android_layout_weight;
+    public static final int LinearLayoutCompat_Layout_android_layout_width;
+    public static final int LinearLayoutCompat_android_baselineAligned;
+    public static final int LinearLayoutCompat_android_baselineAlignedChildIndex;
+    public static final int LinearLayoutCompat_android_gravity;
+    public static final int LinearLayoutCompat_android_orientation;
+    public static final int LinearLayoutCompat_android_weightSum;
+    public static final int LinearLayoutCompat_divider;
+    public static final int LinearLayoutCompat_dividerPadding;
+    public static final int LinearLayoutCompat_measureWithLargestChild;
+    public static final int LinearLayoutCompat_showDividers;
+    public static final int[] ListPopupWindow;
+    public static final int ListPopupWindow_android_dropDownHorizontalOffset;
+    public static final int ListPopupWindow_android_dropDownVerticalOffset;
+    public static final int[] MenuGroup;
+    public static final int MenuGroup_android_checkableBehavior;
+    public static final int MenuGroup_android_enabled;
+    public static final int MenuGroup_android_id;
+    public static final int MenuGroup_android_menuCategory;
+    public static final int MenuGroup_android_orderInCategory;
+    public static final int MenuGroup_android_visible;
+    public static final int[] MenuItem;
+    public static final int MenuItem_actionLayout;
+    public static final int MenuItem_actionProviderClass;
+    public static final int MenuItem_actionViewClass;
+    public static final int MenuItem_android_alphabeticShortcut;
+    public static final int MenuItem_android_checkable;
+    public static final int MenuItem_android_checked;
+    public static final int MenuItem_android_enabled;
+    public static final int MenuItem_android_icon;
+    public static final int MenuItem_android_id;
+    public static final int MenuItem_android_menuCategory;
+    public static final int MenuItem_android_numericShortcut;
+    public static final int MenuItem_android_onClick;
+    public static final int MenuItem_android_orderInCategory;
+    public static final int MenuItem_android_title;
+    public static final int MenuItem_android_titleCondensed;
+    public static final int MenuItem_android_visible;
+    public static final int MenuItem_showAsAction;
+    public static final int[] MenuView;
+    public static final int MenuView_android_headerBackground;
+    public static final int MenuView_android_horizontalDivider;
+    public static final int MenuView_android_itemBackground;
+    public static final int MenuView_android_itemIconDisabledAlpha;
+    public static final int MenuView_android_itemTextAppearance;
+    public static final int MenuView_android_verticalDivider;
+    public static final int MenuView_android_windowAnimationStyle;
+    public static final int MenuView_preserveIconSpacing;
+    public static final int[] PopupWindow;
+    public static final int[] PopupWindowBackgroundState;
+    public static final int PopupWindowBackgroundState_state_above_anchor;
+    public static final int PopupWindow_android_popupBackground;
+    public static final int PopupWindow_overlapAnchor;
+    public static final int[] SearchView;
+    public static final int SearchView_android_focusable;
+    public static final int SearchView_android_imeOptions;
+    public static final int SearchView_android_inputType;
+    public static final int SearchView_android_maxWidth;
+    public static final int SearchView_closeIcon;
+    public static final int SearchView_commitIcon;
+    public static final int SearchView_goIcon;
+    public static final int SearchView_iconifiedByDefault;
+    public static final int SearchView_layout;
+    public static final int SearchView_queryBackground;
+    public static final int SearchView_queryHint;
+    public static final int SearchView_searchIcon;
+    public static final int SearchView_submitBackground;
+    public static final int SearchView_suggestionRowLayout;
+    public static final int SearchView_voiceIcon;
+    public static final int[] Spinner;
+    public static final int Spinner_android_background;
+    public static final int Spinner_android_dropDownHorizontalOffset;
+    public static final int Spinner_android_dropDownSelector;
+    public static final int Spinner_android_dropDownVerticalOffset;
+    public static final int Spinner_android_dropDownWidth;
+    public static final int Spinner_android_gravity;
+    public static final int Spinner_android_popupBackground;
+    public static final int Spinner_disableChildrenWhenDisabled;
+    public static final int Spinner_popupPromptView;
+    public static final int Spinner_prompt;
+    public static final int Spinner_spinnerMode;
+    public static final int[] SwitchCompat;
+    public static final int SwitchCompat_android_textOff;
+    public static final int SwitchCompat_android_textOn;
+    public static final int SwitchCompat_android_thumb;
+    public static final int SwitchCompat_showText;
+    public static final int SwitchCompat_splitTrack;
+    public static final int SwitchCompat_switchMinWidth;
+    public static final int SwitchCompat_switchPadding;
+    public static final int SwitchCompat_switchTextAppearance;
+    public static final int SwitchCompat_thumbTextPadding;
+    public static final int SwitchCompat_track;
+    public static final int[] Theme;
+    public static final int Theme_actionBarDivider;
+    public static final int Theme_actionBarItemBackground;
+    public static final int Theme_actionBarPopupTheme;
+    public static final int Theme_actionBarSize;
+    public static final int Theme_actionBarSplitStyle;
+    public static final int Theme_actionBarStyle;
+    public static final int Theme_actionBarTabBarStyle;
+    public static final int Theme_actionBarTabStyle;
+    public static final int Theme_actionBarTabTextStyle;
+    public static final int Theme_actionBarTheme;
+    public static final int Theme_actionBarWidgetTheme;
+    public static final int Theme_actionButtonStyle;
+    public static final int Theme_actionDropDownStyle;
+    public static final int Theme_actionMenuTextAppearance;
+    public static final int Theme_actionMenuTextColor;
+    public static final int Theme_actionModeBackground;
+    public static final int Theme_actionModeCloseButtonStyle;
+    public static final int Theme_actionModeCloseDrawable;
+    public static final int Theme_actionModeCopyDrawable;
+    public static final int Theme_actionModeCutDrawable;
+    public static final int Theme_actionModeFindDrawable;
+    public static final int Theme_actionModePasteDrawable;
+    public static final int Theme_actionModePopupWindowStyle;
+    public static final int Theme_actionModeSelectAllDrawable;
+    public static final int Theme_actionModeShareDrawable;
+    public static final int Theme_actionModeSplitBackground;
+    public static final int Theme_actionModeStyle;
+    public static final int Theme_actionModeWebSearchDrawable;
+    public static final int Theme_actionOverflowButtonStyle;
+    public static final int Theme_actionOverflowMenuStyle;
+    public static final int Theme_activityChooserViewStyle;
+    public static final int Theme_android_windowIsFloating;
+    public static final int Theme_buttonBarButtonStyle;
+    public static final int Theme_buttonBarStyle;
+    public static final int Theme_colorAccent;
+    public static final int Theme_colorButtonNormal;
+    public static final int Theme_colorControlActivated;
+    public static final int Theme_colorControlHighlight;
+    public static final int Theme_colorControlNormal;
+    public static final int Theme_colorPrimary;
+    public static final int Theme_colorPrimaryDark;
+    public static final int Theme_colorSwitchThumbNormal;
+    public static final int Theme_dividerHorizontal;
+    public static final int Theme_dividerVertical;
+    public static final int Theme_dropDownListViewStyle;
+    public static final int Theme_dropdownListPreferredItemHeight;
+    public static final int Theme_editTextBackground;
+    public static final int Theme_editTextColor;
+    public static final int Theme_homeAsUpIndicator;
+    public static final int Theme_listChoiceBackgroundIndicator;
+    public static final int Theme_listPopupWindowStyle;
+    public static final int Theme_listPreferredItemHeight;
+    public static final int Theme_listPreferredItemHeightLarge;
+    public static final int Theme_listPreferredItemHeightSmall;
+    public static final int Theme_listPreferredItemPaddingLeft;
+    public static final int Theme_listPreferredItemPaddingRight;
+    public static final int Theme_panelBackground;
+    public static final int Theme_panelMenuListTheme;
+    public static final int Theme_panelMenuListWidth;
+    public static final int Theme_popupMenuStyle;
+    public static final int Theme_popupWindowStyle;
+    public static final int Theme_searchViewStyle;
+    public static final int Theme_selectableItemBackground;
+    public static final int Theme_selectableItemBackgroundBorderless;
+    public static final int Theme_spinnerDropDownItemStyle;
+    public static final int Theme_spinnerStyle;
+    public static final int Theme_switchStyle;
+    public static final int Theme_textAppearanceLargePopupMenu;
+    public static final int Theme_textAppearanceListItem;
+    public static final int Theme_textAppearanceListItemSmall;
+    public static final int Theme_textAppearanceSearchResultSubtitle;
+    public static final int Theme_textAppearanceSearchResultTitle;
+    public static final int Theme_textAppearanceSmallPopupMenu;
+    public static final int Theme_textColorSearchUrl;
+    public static final int Theme_toolbarNavigationButtonStyle;
+    public static final int Theme_toolbarStyle;
+    public static final int Theme_windowActionBar;
+    public static final int Theme_windowActionBarOverlay;
+    public static final int Theme_windowActionModeOverlay;
+    public static final int Theme_windowFixedHeightMajor;
+    public static final int Theme_windowFixedHeightMinor;
+    public static final int Theme_windowFixedWidthMajor;
+    public static final int Theme_windowFixedWidthMinor;
+    public static final int[] Toolbar;
+    public static final int Toolbar_android_gravity;
+    public static final int Toolbar_android_minHeight;
+    public static final int Toolbar_collapseContentDescription;
+    public static final int Toolbar_collapseIcon;
+    public static final int Toolbar_contentInsetEnd;
+    public static final int Toolbar_contentInsetLeft;
+    public static final int Toolbar_contentInsetRight;
+    public static final int Toolbar_contentInsetStart;
+    public static final int Toolbar_maxButtonHeight;
+    public static final int Toolbar_navigationContentDescription;
+    public static final int Toolbar_navigationIcon;
+    public static final int Toolbar_popupTheme;
+    public static final int Toolbar_subtitle;
+    public static final int Toolbar_subtitleTextAppearance;
+    public static final int Toolbar_theme;
+    public static final int Toolbar_title;
+    public static final int Toolbar_titleMarginBottom;
+    public static final int Toolbar_titleMarginEnd;
+    public static final int Toolbar_titleMarginStart;
+    public static final int Toolbar_titleMarginTop;
+    public static final int Toolbar_titleMargins;
+    public static final int Toolbar_titleTextAppearance;
+    public static final int[] View;
+    public static final int[] ViewStubCompat;
+    public static final int ViewStubCompat_android_id;
+    public static final int ViewStubCompat_android_inflatedId;
+    public static final int ViewStubCompat_android_layout;
+    public static final int View_android_focusable;
+    public static final int View_paddingEnd;
+    public static final int View_paddingStart;
+
+    static void <clinit>()
+    {
+        int[] $r0;
+
+        <com.iccbot.R$styleable: int View_paddingStart> = 1;
+
+        <com.iccbot.R$styleable: int View_paddingEnd> = 2;
+
+        <com.iccbot.R$styleable: int View_android_focusable> = 0;
+
+        <com.iccbot.R$styleable: int ViewStubCompat_android_layout> = 1;
+
+        <com.iccbot.R$styleable: int ViewStubCompat_android_inflatedId> = 2;
+
+        <com.iccbot.R$styleable: int ViewStubCompat_android_id> = 0;
+
+        <com.iccbot.R$styleable: int Toolbar_titleTextAppearance> = 9;
+
+        <com.iccbot.R$styleable: int Toolbar_titleMargins> = 11;
+
+        <com.iccbot.R$styleable: int Toolbar_titleMarginTop> = 14;
+
+        <com.iccbot.R$styleable: int Toolbar_titleMarginStart> = 12;
+
+        <com.iccbot.R$styleable: int Toolbar_titleMarginEnd> = 13;
+
+        <com.iccbot.R$styleable: int Toolbar_titleMarginBottom> = 15;
+
+        <com.iccbot.R$styleable: int Toolbar_title> = 2;
+
+        <com.iccbot.R$styleable: int Toolbar_theme> = 17;
+
+        <com.iccbot.R$styleable: int Toolbar_subtitleTextAppearance> = 10;
+
+        <com.iccbot.R$styleable: int Toolbar_subtitle> = 3;
+
+        <com.iccbot.R$styleable: int Toolbar_popupTheme> = 8;
+
+        <com.iccbot.R$styleable: int Toolbar_navigationIcon> = 20;
+
+        <com.iccbot.R$styleable: int Toolbar_navigationContentDescription> = 21;
+
+        <com.iccbot.R$styleable: int Toolbar_maxButtonHeight> = 16;
+
+        <com.iccbot.R$styleable: int Toolbar_contentInsetStart> = 4;
+
+        <com.iccbot.R$styleable: int Toolbar_contentInsetRight> = 7;
+
+        <com.iccbot.R$styleable: int Toolbar_contentInsetLeft> = 6;
+
+        <com.iccbot.R$styleable: int Toolbar_contentInsetEnd> = 5;
+
+        <com.iccbot.R$styleable: int Toolbar_collapseIcon> = 18;
+
+        <com.iccbot.R$styleable: int Toolbar_collapseContentDescription> = 19;
+
+        <com.iccbot.R$styleable: int Toolbar_android_minHeight> = 1;
+
+        <com.iccbot.R$styleable: int Toolbar_android_gravity> = 0;
+
+        <com.iccbot.R$styleable: int Theme_windowFixedWidthMinor> = 6;
+
+        <com.iccbot.R$styleable: int Theme_windowFixedWidthMajor> = 4;
+
+        <com.iccbot.R$styleable: int Theme_windowFixedHeightMinor> = 5;
+
+        <com.iccbot.R$styleable: int Theme_windowFixedHeightMajor> = 7;
+
+        <com.iccbot.R$styleable: int Theme_windowActionModeOverlay> = 3;
+
+        <com.iccbot.R$styleable: int Theme_windowActionBarOverlay> = 2;
+
+        <com.iccbot.R$styleable: int Theme_windowActionBar> = 1;
+
+        <com.iccbot.R$styleable: int Theme_toolbarStyle> = 51;
+
+        <com.iccbot.R$styleable: int Theme_toolbarNavigationButtonStyle> = 52;
+
+        <com.iccbot.R$styleable: int Theme_textColorSearchUrl> = 60;
+
+        <com.iccbot.R$styleable: int Theme_textAppearanceSmallPopupMenu> = 37;
+
+        <com.iccbot.R$styleable: int Theme_textAppearanceSearchResultTitle> = 58;
+
+        <com.iccbot.R$styleable: int Theme_textAppearanceSearchResultSubtitle> = 59;
+
+        <com.iccbot.R$styleable: int Theme_textAppearanceListItemSmall> = 70;
+
+        <com.iccbot.R$styleable: int Theme_textAppearanceListItem> = 69;
+
+        <com.iccbot.R$styleable: int Theme_textAppearanceLargePopupMenu> = 36;
+
+        <com.iccbot.R$styleable: int Theme_switchStyle> = 57;
+
+        <com.iccbot.R$styleable: int Theme_spinnerStyle> = 40;
+
+        <com.iccbot.R$styleable: int Theme_spinnerDropDownItemStyle> = 41;
+
+        <com.iccbot.R$styleable: int Theme_selectableItemBackgroundBorderless> = 47;
+
+        <com.iccbot.R$styleable: int Theme_selectableItemBackground> = 46;
+
+        <com.iccbot.R$styleable: int Theme_searchViewStyle> = 61;
+
+        <com.iccbot.R$styleable: int Theme_popupWindowStyle> = 54;
+
+        <com.iccbot.R$styleable: int Theme_popupMenuStyle> = 53;
+
+        <com.iccbot.R$styleable: int Theme_panelMenuListWidth> = 72;
+
+        <com.iccbot.R$styleable: int Theme_panelMenuListTheme> = 73;
+
+        <com.iccbot.R$styleable: int Theme_panelBackground> = 71;
+
+        <com.iccbot.R$styleable: int Theme_listPreferredItemPaddingRight> = 66;
+
+        <com.iccbot.R$styleable: int Theme_listPreferredItemPaddingLeft> = 65;
+
+        <com.iccbot.R$styleable: int Theme_listPreferredItemHeightSmall> = 63;
+
+        <com.iccbot.R$styleable: int Theme_listPreferredItemHeightLarge> = 64;
+
+        <com.iccbot.R$styleable: int Theme_listPreferredItemHeight> = 62;
+
+        <com.iccbot.R$styleable: int Theme_listPopupWindowStyle> = 68;
+
+        <com.iccbot.R$styleable: int Theme_listChoiceBackgroundIndicator> = 74;
+
+        <com.iccbot.R$styleable: int Theme_homeAsUpIndicator> = 42;
+
+        <com.iccbot.R$styleable: int Theme_editTextColor> = 55;
+
+        <com.iccbot.R$styleable: int Theme_editTextBackground> = 56;
+
+        <com.iccbot.R$styleable: int Theme_dropdownListPreferredItemHeight> = 39;
+
+        <com.iccbot.R$styleable: int Theme_dropDownListViewStyle> = 67;
+
+        <com.iccbot.R$styleable: int Theme_dividerVertical> = 48;
+
+        <com.iccbot.R$styleable: int Theme_dividerHorizontal> = 49;
+
+        <com.iccbot.R$styleable: int Theme_colorSwitchThumbNormal> = 82;
+
+        <com.iccbot.R$styleable: int Theme_colorPrimaryDark> = 76;
+
+        <com.iccbot.R$styleable: int Theme_colorPrimary> = 75;
+
+        <com.iccbot.R$styleable: int Theme_colorControlNormal> = 78;
+
+        <com.iccbot.R$styleable: int Theme_colorControlHighlight> = 80;
+
+        <com.iccbot.R$styleable: int Theme_colorControlActivated> = 79;
+
+        <com.iccbot.R$styleable: int Theme_colorButtonNormal> = 81;
+
+        <com.iccbot.R$styleable: int Theme_colorAccent> = 77;
+
+        <com.iccbot.R$styleable: int Theme_buttonBarStyle> = 44;
+
+        <com.iccbot.R$styleable: int Theme_buttonBarButtonStyle> = 45;
+
+        <com.iccbot.R$styleable: int Theme_android_windowIsFloating> = 0;
+
+        <com.iccbot.R$styleable: int Theme_activityChooserViewStyle> = 50;
+
+        <com.iccbot.R$styleable: int Theme_actionOverflowMenuStyle> = 12;
+
+        <com.iccbot.R$styleable: int Theme_actionOverflowButtonStyle> = 11;
+
+        <com.iccbot.R$styleable: int Theme_actionModeWebSearchDrawable> = 34;
+
+        <com.iccbot.R$styleable: int Theme_actionModeStyle> = 23;
+
+        <com.iccbot.R$styleable: int Theme_actionModeSplitBackground> = 26;
+
+        <com.iccbot.R$styleable: int Theme_actionModeShareDrawable> = 32;
+
+        <com.iccbot.R$styleable: int Theme_actionModeSelectAllDrawable> = 31;
+
+        <com.iccbot.R$styleable: int Theme_actionModePopupWindowStyle> = 35;
+
+        <com.iccbot.R$styleable: int Theme_actionModePasteDrawable> = 30;
+
+        <com.iccbot.R$styleable: int Theme_actionModeFindDrawable> = 33;
+
+        <com.iccbot.R$styleable: int Theme_actionModeCutDrawable> = 28;
+
+        <com.iccbot.R$styleable: int Theme_actionModeCopyDrawable> = 29;
+
+        <com.iccbot.R$styleable: int Theme_actionModeCloseDrawable> = 27;
+
+        <com.iccbot.R$styleable: int Theme_actionModeCloseButtonStyle> = 24;
+
+        <com.iccbot.R$styleable: int Theme_actionModeBackground> = 25;
+
+        <com.iccbot.R$styleable: int Theme_actionMenuTextColor> = 22;
+
+        <com.iccbot.R$styleable: int Theme_actionMenuTextAppearance> = 21;
+
+        <com.iccbot.R$styleable: int Theme_actionDropDownStyle> = 38;
+
+        <com.iccbot.R$styleable: int Theme_actionButtonStyle> = 43;
+
+        <com.iccbot.R$styleable: int Theme_actionBarWidgetTheme> = 17;
+
+        <com.iccbot.R$styleable: int Theme_actionBarTheme> = 16;
+
+        <com.iccbot.R$styleable: int Theme_actionBarTabTextStyle> = 10;
+
+        <com.iccbot.R$styleable: int Theme_actionBarTabStyle> = 8;
+
+        <com.iccbot.R$styleable: int Theme_actionBarTabBarStyle> = 9;
+
+        <com.iccbot.R$styleable: int Theme_actionBarStyle> = 14;
+
+        <com.iccbot.R$styleable: int Theme_actionBarSplitStyle> = 15;
+
+        <com.iccbot.R$styleable: int Theme_actionBarSize> = 18;
+
+        <com.iccbot.R$styleable: int Theme_actionBarPopupTheme> = 13;
+
+        <com.iccbot.R$styleable: int Theme_actionBarItemBackground> = 20;
+
+        <com.iccbot.R$styleable: int Theme_actionBarDivider> = 19;
+
+        <com.iccbot.R$styleable: int SwitchCompat_track> = 3;
+
+        <com.iccbot.R$styleable: int SwitchCompat_thumbTextPadding> = 4;
+
+        <com.iccbot.R$styleable: int SwitchCompat_switchTextAppearance> = 5;
+
+        <com.iccbot.R$styleable: int SwitchCompat_switchPadding> = 7;
+
+        <com.iccbot.R$styleable: int SwitchCompat_switchMinWidth> = 6;
+
+        <com.iccbot.R$styleable: int SwitchCompat_splitTrack> = 8;
+
+        <com.iccbot.R$styleable: int SwitchCompat_showText> = 9;
+
+        <com.iccbot.R$styleable: int SwitchCompat_android_thumb> = 2;
+
+        <com.iccbot.R$styleable: int SwitchCompat_android_textOn> = 0;
+
+        <com.iccbot.R$styleable: int SwitchCompat_android_textOff> = 1;
+
+        <com.iccbot.R$styleable: int Spinner_spinnerMode> = 8;
+
+        <com.iccbot.R$styleable: int Spinner_prompt> = 7;
+
+        <com.iccbot.R$styleable: int Spinner_popupPromptView> = 9;
+
+        <com.iccbot.R$styleable: int Spinner_disableChildrenWhenDisabled> = 10;
+
+        <com.iccbot.R$styleable: int Spinner_android_popupBackground> = 3;
+
+        <com.iccbot.R$styleable: int Spinner_android_gravity> = 0;
+
+        <com.iccbot.R$styleable: int Spinner_android_dropDownWidth> = 4;
+
+        <com.iccbot.R$styleable: int Spinner_android_dropDownVerticalOffset> = 6;
+
+        <com.iccbot.R$styleable: int Spinner_android_dropDownSelector> = 2;
+
+        <com.iccbot.R$styleable: int Spinner_android_dropDownHorizontalOffset> = 5;
+
+        <com.iccbot.R$styleable: int Spinner_android_background> = 1;
+
+        <com.iccbot.R$styleable: int SearchView_voiceIcon> = 10;
+
+        <com.iccbot.R$styleable: int SearchView_suggestionRowLayout> = 12;
+
+        <com.iccbot.R$styleable: int SearchView_submitBackground> = 14;
+
+        <com.iccbot.R$styleable: int SearchView_searchIcon> = 9;
+
+        <com.iccbot.R$styleable: int SearchView_queryHint> = 6;
+
+        <com.iccbot.R$styleable: int SearchView_queryBackground> = 13;
+
+        <com.iccbot.R$styleable: int SearchView_layout> = 4;
+
+        <com.iccbot.R$styleable: int SearchView_iconifiedByDefault> = 5;
+
+        <com.iccbot.R$styleable: int SearchView_goIcon> = 8;
+
+        <com.iccbot.R$styleable: int SearchView_commitIcon> = 11;
+
+        <com.iccbot.R$styleable: int SearchView_closeIcon> = 7;
+
+        <com.iccbot.R$styleable: int SearchView_android_maxWidth> = 1;
+
+        <com.iccbot.R$styleable: int SearchView_android_inputType> = 2;
+
+        <com.iccbot.R$styleable: int SearchView_android_imeOptions> = 3;
+
+        <com.iccbot.R$styleable: int SearchView_android_focusable> = 0;
+
+        <com.iccbot.R$styleable: int PopupWindow_overlapAnchor> = 1;
+
+        <com.iccbot.R$styleable: int PopupWindow_android_popupBackground> = 0;
+
+        <com.iccbot.R$styleable: int PopupWindowBackgroundState_state_above_anchor> = 0;
+
+        <com.iccbot.R$styleable: int MenuView_preserveIconSpacing> = 7;
+
+        <com.iccbot.R$styleable: int MenuView_android_windowAnimationStyle> = 0;
+
+        <com.iccbot.R$styleable: int MenuView_android_verticalDivider> = 3;
+
+        <com.iccbot.R$styleable: int MenuView_android_itemTextAppearance> = 1;
+
+        <com.iccbot.R$styleable: int MenuView_android_itemIconDisabledAlpha> = 6;
+
+        <com.iccbot.R$styleable: int MenuView_android_itemBackground> = 5;
+
+        <com.iccbot.R$styleable: int MenuView_android_horizontalDivider> = 2;
+
+        <com.iccbot.R$styleable: int MenuView_android_headerBackground> = 4;
+
+        <com.iccbot.R$styleable: int MenuItem_showAsAction> = 13;
+
+        <com.iccbot.R$styleable: int MenuItem_android_visible> = 4;
+
+        <com.iccbot.R$styleable: int MenuItem_android_titleCondensed> = 8;
+
+        <com.iccbot.R$styleable: int MenuItem_android_title> = 7;
+
+        <com.iccbot.R$styleable: int MenuItem_android_orderInCategory> = 6;
+
+        <com.iccbot.R$styleable: int MenuItem_android_onClick> = 12;
+
+        <com.iccbot.R$styleable: int MenuItem_android_numericShortcut> = 10;
+
+        <com.iccbot.R$styleable: int MenuItem_android_menuCategory> = 5;
+
+        <com.iccbot.R$styleable: int MenuItem_android_id> = 2;
+
+        <com.iccbot.R$styleable: int MenuItem_android_icon> = 0;
+
+        <com.iccbot.R$styleable: int MenuItem_android_enabled> = 1;
+
+        <com.iccbot.R$styleable: int MenuItem_android_checked> = 3;
+
+        <com.iccbot.R$styleable: int MenuItem_android_checkable> = 11;
+
+        <com.iccbot.R$styleable: int MenuItem_android_alphabeticShortcut> = 9;
+
+        <com.iccbot.R$styleable: int MenuItem_actionViewClass> = 15;
+
+        <com.iccbot.R$styleable: int MenuItem_actionProviderClass> = 16;
+
+        <com.iccbot.R$styleable: int MenuItem_actionLayout> = 14;
+
+        <com.iccbot.R$styleable: int MenuGroup_android_visible> = 2;
+
+        <com.iccbot.R$styleable: int MenuGroup_android_orderInCategory> = 4;
+
+        <com.iccbot.R$styleable: int MenuGroup_android_menuCategory> = 3;
+
+        <com.iccbot.R$styleable: int MenuGroup_android_id> = 1;
+
+        <com.iccbot.R$styleable: int MenuGroup_android_enabled> = 0;
+
+        <com.iccbot.R$styleable: int MenuGroup_android_checkableBehavior> = 5;
+
+        <com.iccbot.R$styleable: int ListPopupWindow_android_dropDownVerticalOffset> = 1;
+
+        <com.iccbot.R$styleable: int ListPopupWindow_android_dropDownHorizontalOffset> = 0;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_showDividers> = 7;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_measureWithLargestChild> = 6;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_dividerPadding> = 8;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_divider> = 5;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_android_weightSum> = 4;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_android_orientation> = 1;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_android_gravity> = 0;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_android_baselineAlignedChildIndex> = 3;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_android_baselineAligned> = 2;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_Layout_android_layout_width> = 1;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_Layout_android_layout_weight> = 3;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_Layout_android_layout_height> = 2;
+
+        <com.iccbot.R$styleable: int LinearLayoutCompat_Layout_android_layout_gravity> = 0;
+
+        <com.iccbot.R$styleable: int DrawerArrowToggle_topBottomBarArrowSize> = 4;
+
+        <com.iccbot.R$styleable: int DrawerArrowToggle_thickness> = 7;
+
+        <com.iccbot.R$styleable: int DrawerArrowToggle_spinBars> = 1;
+
+        <com.iccbot.R$styleable: int DrawerArrowToggle_middleBarArrowSize> = 5;
+
+        <com.iccbot.R$styleable: int DrawerArrowToggle_gapBetweenBars> = 3;
+
+        <com.iccbot.R$styleable: int DrawerArrowToggle_drawableSize> = 2;
+
+        <com.iccbot.R$styleable: int DrawerArrowToggle_color> = 0;
+
+        <com.iccbot.R$styleable: int DrawerArrowToggle_barSize> = 6;
+
+        <com.iccbot.R$styleable: int CompatTextView_textAllCaps> = 0;
+
+        <com.iccbot.R$styleable: int ActivityChooserView_initialActivityCount> = 0;
+
+        <com.iccbot.R$styleable: int ActivityChooserView_expandActivityOverflowButtonDrawable> = 1;
+
+        <com.iccbot.R$styleable: int ActionMode_titleTextStyle> = 1;
+
+        <com.iccbot.R$styleable: int ActionMode_subtitleTextStyle> = 2;
+
+        <com.iccbot.R$styleable: int ActionMode_height> = 0;
+
+        <com.iccbot.R$styleable: int ActionMode_closeItemLayout> = 5;
+
+        <com.iccbot.R$styleable: int ActionMode_backgroundSplit> = 4;
+
+        <com.iccbot.R$styleable: int ActionMode_background> = 3;
+
+        <com.iccbot.R$styleable: int ActionMenuItemView_android_minWidth> = 0;
+
+        <com.iccbot.R$styleable: int ActionBar_titleTextStyle> = 6;
+
+        <com.iccbot.R$styleable: int ActionBar_title> = 0;
+
+        <com.iccbot.R$styleable: int ActionBar_subtitleTextStyle> = 7;
+
+        <com.iccbot.R$styleable: int ActionBar_subtitle> = 5;
+
+        <com.iccbot.R$styleable: int ActionBar_progressBarStyle> = 16;
+
+        <com.iccbot.R$styleable: int ActionBar_progressBarPadding> = 18;
+
+        <com.iccbot.R$styleable: int ActionBar_popupTheme> = 26;
+
+        <com.iccbot.R$styleable: int ActionBar_navigationMode> = 3;
+
+        <com.iccbot.R$styleable: int ActionBar_logo> = 9;
+
+        <com.iccbot.R$styleable: int ActionBar_itemPadding> = 19;
+
+        <com.iccbot.R$styleable: int ActionBar_indeterminateProgressStyle> = 17;
+
+        <com.iccbot.R$styleable: int ActionBar_icon> = 8;
+
+        <com.iccbot.R$styleable: int ActionBar_homeLayout> = 15;
+
+        <com.iccbot.R$styleable: int ActionBar_homeAsUpIndicator> = 2;
+
+        <com.iccbot.R$styleable: int ActionBar_hideOnContentScroll> = 20;
+
+        <com.iccbot.R$styleable: int ActionBar_height> = 1;
+
+        <com.iccbot.R$styleable: int ActionBar_elevation> = 25;
+
+        <com.iccbot.R$styleable: int ActionBar_divider> = 10;
+
+        <com.iccbot.R$styleable: int ActionBar_displayOptions> = 4;
+
+        <com.iccbot.R$styleable: int ActionBar_customNavigationLayout> = 14;
+
+        <com.iccbot.R$styleable: int ActionBar_contentInsetStart> = 21;
+
+        <com.iccbot.R$styleable: int ActionBar_contentInsetRight> = 24;
+
+        <com.iccbot.R$styleable: int ActionBar_contentInsetLeft> = 23;
+
+        <com.iccbot.R$styleable: int ActionBar_contentInsetEnd> = 22;
+
+        <com.iccbot.R$styleable: int ActionBar_backgroundStacked> = 12;
+
+        <com.iccbot.R$styleable: int ActionBar_backgroundSplit> = 13;
+
+        <com.iccbot.R$styleable: int ActionBar_background> = 11;
+
+        <com.iccbot.R$styleable: int ActionBarLayout_android_layout_gravity> = 0;
+
+        $r0 = newarray (int)[27];
+
+        $r0[0] = 2130771968;
+
+        $r0[1] = 2130771969;
+
+        $r0[2] = 2130772012;
+
+        $r0[3] = 2130772053;
+
+        $r0[4] = 2130772054;
+
+        $r0[5] = 2130772055;
+
+        $r0[6] = 2130772056;
+
+        $r0[7] = 2130772057;
+
+        $r0[8] = 2130772058;
+
+        $r0[9] = 2130772059;
+
+        $r0[10] = 2130772060;
+
+        $r0[11] = 2130772061;
+
+        $r0[12] = 2130772062;
+
+        $r0[13] = 2130772063;
+
+        $r0[14] = 2130772064;
+
+        $r0[15] = 2130772065;
+
+        $r0[16] = 2130772066;
+
+        $r0[17] = 2130772067;
+
+        $r0[18] = 2130772068;
+
+        $r0[19] = 2130772069;
+
+        $r0[20] = 2130772070;
+
+        $r0[21] = 2130772071;
+
+        $r0[22] = 2130772072;
+
+        $r0[23] = 2130772073;
+
+        $r0[24] = 2130772074;
+
+        $r0[25] = 2130772075;
+
+        $r0[26] = 2130772076;
+
+        <com.iccbot.R$styleable: int[] ActionBar> = $r0;
+
+        $r0 = newarray (int)[1];
+
+        $r0[0] = 16842931;
+
+        <com.iccbot.R$styleable: int[] ActionBarLayout> = $r0;
+
+        $r0 = newarray (int)[1];
+
+        $r0[0] = 16843071;
+
+        <com.iccbot.R$styleable: int[] ActionMenuItemView> = $r0;
+
+        $r0 = newarray (int)[0];
+
+        <com.iccbot.R$styleable: int[] ActionMenuView> = $r0;
+
+        $r0 = newarray (int)[6];
+
+        $r0[0] = 2130771969;
+
+        $r0[1] = 2130772056;
+
+        $r0[2] = 2130772057;
+
+        $r0[3] = 2130772061;
+
+        $r0[4] = 2130772063;
+
+        $r0[5] = 2130772077;
+
+        <com.iccbot.R$styleable: int[] ActionMode> = $r0;
+
+        $r0 = newarray (int)[2];
+
+        $r0[0] = 2130772100;
+
+        $r0[1] = 2130772101;
+
+        <com.iccbot.R$styleable: int[] ActivityChooserView> = $r0;
+
+        $r0 = newarray (int)[1];
+
+        $r0[0] = 2130772102;
+
+        <com.iccbot.R$styleable: int[] CompatTextView> = $r0;
+
+        $r0 = newarray (int)[8];
+
+        $r0[0] = 2130772121;
+
+        $r0[1] = 2130772122;
+
+        $r0[2] = 2130772123;
+
+        $r0[3] = 2130772124;
+
+        $r0[4] = 2130772125;
+
+        $r0[5] = 2130772126;
+
+        $r0[6] = 2130772127;
+
+        $r0[7] = 2130772128;
+
+        <com.iccbot.R$styleable: int[] DrawerArrowToggle> = $r0;
+
+        $r0 = newarray (int)[9];
+
+        $r0[0] = 16842927;
+
+        $r0[1] = 16842948;
+
+        $r0[2] = 16843046;
+
+        $r0[3] = 16843047;
+
+        $r0[4] = 16843048;
+
+        $r0[5] = 2130772060;
+
+        $r0[6] = 2130772103;
+
+        $r0[7] = 2130772104;
+
+        $r0[8] = 2130772105;
+
+        <com.iccbot.R$styleable: int[] LinearLayoutCompat> = $r0;
+
+        $r0 = newarray (int)[4];
+
+        $r0[0] = 16842931;
+
+        $r0[1] = 16842996;
+
+        $r0[2] = 16842997;
+
+        $r0[3] = 16843137;
+
+        <com.iccbot.R$styleable: int[] LinearLayoutCompat_Layout> = $r0;
+
+        $r0 = newarray (int)[2];
+
+        $r0[0] = 16843436;
+
+        $r0[1] = 16843437;
+
+        <com.iccbot.R$styleable: int[] ListPopupWindow> = $r0;
+
+        $r0 = newarray (int)[6];
+
+        $r0[0] = 16842766;
+
+        $r0[1] = 16842960;
+
+        $r0[2] = 16843156;
+
+        $r0[3] = 16843230;
+
+        $r0[4] = 16843231;
+
+        $r0[5] = 16843232;
+
+        <com.iccbot.R$styleable: int[] MenuGroup> = $r0;
+
+        $r0 = newarray (int)[17];
+
+        $r0[0] = 16842754;
+
+        $r0[1] = 16842766;
+
+        $r0[2] = 16842960;
+
+        $r0[3] = 16843014;
+
+        $r0[4] = 16843156;
+
+        $r0[5] = 16843230;
+
+        $r0[6] = 16843231;
+
+        $r0[7] = 16843233;
+
+        $r0[8] = 16843234;
+
+        $r0[9] = 16843235;
+
+        $r0[10] = 16843236;
+
+        $r0[11] = 16843237;
+
+        $r0[12] = 16843375;
+
+        $r0[13] = 2130772081;
+
+        $r0[14] = 2130772082;
+
+        $r0[15] = 2130772083;
+
+        $r0[16] = 2130772084;
+
+        <com.iccbot.R$styleable: int[] MenuItem> = $r0;
+
+        $r0 = newarray (int)[8];
+
+        $r0[0] = 16842926;
+
+        $r0[1] = 16843052;
+
+        $r0[2] = 16843053;
+
+        $r0[3] = 16843054;
+
+        $r0[4] = 16843055;
+
+        $r0[5] = 16843056;
+
+        $r0[6] = 16843057;
+
+        $r0[7] = 2130772080;
+
+        <com.iccbot.R$styleable: int[] MenuView> = $r0;
+
+        $r0 = newarray (int)[2];
+
+        $r0[0] = 16843126;
+
+        $r0[1] = 2130772120;
+
+        <com.iccbot.R$styleable: int[] PopupWindow> = $r0;
+
+        $r0 = newarray (int)[1];
+
+        $r0[0] = 2130772119;
+
+        <com.iccbot.R$styleable: int[] PopupWindowBackgroundState> = $r0;
+
+        $r0 = newarray (int)[15];
+
+        $r0[0] = 16842970;
+
+        $r0[1] = 16843039;
+
+        $r0[2] = 16843296;
+
+        $r0[3] = 16843364;
+
+        $r0[4] = 2130772089;
+
+        $r0[5] = 2130772090;
+
+        $r0[6] = 2130772091;
+
+        $r0[7] = 2130772092;
+
+        $r0[8] = 2130772093;
+
+        $r0[9] = 2130772094;
+
+        $r0[10] = 2130772095;
+
+        $r0[11] = 2130772096;
+
+        $r0[12] = 2130772097;
+
+        $r0[13] = 2130772098;
+
+        $r0[14] = 2130772099;
+
+        <com.iccbot.R$styleable: int[] SearchView> = $r0;
+
+        $r0 = newarray (int)[11];
+
+        $r0[0] = 16842927;
+
+        $r0[1] = 16842964;
+
+        $r0[2] = 16843125;
+
+        $r0[3] = 16843126;
+
+        $r0[4] = 16843362;
+
+        $r0[5] = 16843436;
+
+        $r0[6] = 16843437;
+
+        $r0[7] = 2130772085;
+
+        $r0[8] = 2130772086;
+
+        $r0[9] = 2130772087;
+
+        $r0[10] = 2130772088;
+
+        <com.iccbot.R$styleable: int[] Spinner> = $r0;
+
+        $r0 = newarray (int)[10];
+
+        $r0[0] = 16843044;
+
+        $r0[1] = 16843045;
+
+        $r0[2] = 16843074;
+
+        $r0[3] = 2130772130;
+
+        $r0[4] = 2130772131;
+
+        $r0[5] = 2130772132;
+
+        $r0[6] = 2130772133;
+
+        $r0[7] = 2130772134;
+
+        $r0[8] = 2130772135;
+
+        $r0[9] = 2130772136;
+
+        <com.iccbot.R$styleable: int[] SwitchCompat> = $r0;
+
+        $r0 = newarray (int)[83];
+
+        $r0[0] = 16842839;
+
+        $r0[1] = 2130771971;
+
+        $r0[2] = 2130771972;
+
+        $r0[3] = 2130771973;
+
+        $r0[4] = 2130771974;
+
+        $r0[5] = 2130771975;
+
+        $r0[6] = 2130771976;
+
+        $r0[7] = 2130771977;
+
+        $r0[8] = 2130771978;
+
+        $r0[9] = 2130771979;
+
+        $r0[10] = 2130771980;
+
+        $r0[11] = 2130771981;
+
+        $r0[12] = 2130771982;
+
+        $r0[13] = 2130771983;
+
+        $r0[14] = 2130771984;
+
+        $r0[15] = 2130771985;
+
+        $r0[16] = 2130771986;
+
+        $r0[17] = 2130771987;
+
+        $r0[18] = 2130771988;
+
+        $r0[19] = 2130771989;
+
+        $r0[20] = 2130771990;
+
+        $r0[21] = 2130771991;
+
+        $r0[22] = 2130771992;
+
+        $r0[23] = 2130771993;
+
+        $r0[24] = 2130771994;
+
+        $r0[25] = 2130771995;
+
+        $r0[26] = 2130771996;
+
+        $r0[27] = 2130771997;
+
+        $r0[28] = 2130771998;
+
+        $r0[29] = 2130771999;
+
+        $r0[30] = 2130772000;
+
+        $r0[31] = 2130772001;
+
+        $r0[32] = 2130772002;
+
+        $r0[33] = 2130772003;
+
+        $r0[34] = 2130772004;
+
+        $r0[35] = 2130772005;
+
+        $r0[36] = 2130772006;
+
+        $r0[37] = 2130772007;
+
+        $r0[38] = 2130772008;
+
+        $r0[39] = 2130772009;
+
+        $r0[40] = 2130772010;
+
+        $r0[41] = 2130772011;
+
+        $r0[42] = 2130772012;
+
+        $r0[43] = 2130772013;
+
+        $r0[44] = 2130772014;
+
+        $r0[45] = 2130772015;
+
+        $r0[46] = 2130772016;
+
+        $r0[47] = 2130772017;
+
+        $r0[48] = 2130772018;
+
+        $r0[49] = 2130772019;
+
+        $r0[50] = 2130772020;
+
+        $r0[51] = 2130772021;
+
+        $r0[52] = 2130772022;
+
+        $r0[53] = 2130772023;
+
+        $r0[54] = 2130772024;
+
+        $r0[55] = 2130772025;
+
+        $r0[56] = 2130772026;
+
+        $r0[57] = 2130772027;
+
+        $r0[58] = 2130772028;
+
+        $r0[59] = 2130772029;
+
+        $r0[60] = 2130772030;
+
+        $r0[61] = 2130772031;
+
+        $r0[62] = 2130772032;
+
+        $r0[63] = 2130772033;
+
+        $r0[64] = 2130772034;
+
+        $r0[65] = 2130772035;
+
+        $r0[66] = 2130772036;
+
+        $r0[67] = 2130772037;
+
+        $r0[68] = 2130772038;
+
+        $r0[69] = 2130772039;
+
+        $r0[70] = 2130772040;
+
+        $r0[71] = 2130772041;
+
+        $r0[72] = 2130772042;
+
+        $r0[73] = 2130772043;
+
+        $r0[74] = 2130772044;
+
+        $r0[75] = 2130772045;
+
+        $r0[76] = 2130772046;
+
+        $r0[77] = 2130772047;
+
+        $r0[78] = 2130772048;
+
+        $r0[79] = 2130772049;
+
+        $r0[80] = 2130772050;
+
+        $r0[81] = 2130772051;
+
+        $r0[82] = 2130772052;
+
+        <com.iccbot.R$styleable: int[] Theme> = $r0;
+
+        $r0 = newarray (int)[22];
+
+        $r0[0] = 16842927;
+
+        $r0[1] = 16843072;
+
+        $r0[2] = 2130771968;
+
+        $r0[3] = 2130772055;
+
+        $r0[4] = 2130772071;
+
+        $r0[5] = 2130772072;
+
+        $r0[6] = 2130772073;
+
+        $r0[7] = 2130772074;
+
+        $r0[8] = 2130772076;
+
+        $r0[9] = 2130772106;
+
+        $r0[10] = 2130772107;
+
+        $r0[11] = 2130772108;
+
+        $r0[12] = 2130772109;
+
+        $r0[13] = 2130772110;
+
+        $r0[14] = 2130772111;
+
+        $r0[15] = 2130772112;
+
+        $r0[16] = 2130772113;
+
+        $r0[17] = 2130772114;
+
+        $r0[18] = 2130772115;
+
+        $r0[19] = 2130772116;
+
+        $r0[20] = 2130772117;
+
+        $r0[21] = 2130772118;
+
+        <com.iccbot.R$styleable: int[] Toolbar> = $r0;
+
+        $r0 = newarray (int)[3];
+
+        $r0[0] = 16842970;
+
+        $r0[1] = 2130772078;
+
+        $r0[2] = 2130772079;
+
+        <com.iccbot.R$styleable: int[] View> = $r0;
+
+        $r0 = newarray (int)[3];
+
+        $r0[0] = 16842960;
+
+        $r0[1] = 16842994;
+
+        $r0[2] = 16842995;
+
+        <com.iccbot.R$styleable: int[] ViewStubCompat> = $r0;
+
+        return;
+    }
+
+    public void <init>()
+    {
+        com.iccbot.R$styleable r0;
+
+        r0 := @this: com.iccbot.R$styleable;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

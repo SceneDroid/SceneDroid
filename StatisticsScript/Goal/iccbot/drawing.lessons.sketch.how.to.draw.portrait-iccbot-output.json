@@ -1,0 +1,184 @@
+{
+    "transitions": [
+        {
+            "handler": "com.meevii.learn.'to'.draw.splash.SplashActivity/void m()",
+            "sources": [
+                "com.meevii.learn.to.draw.splash.SplashActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.home.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.webview.ClientWebActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.meevii.learn.to.draw.webview.ClientWebActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.webview.ClientWebActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.home.view.CourseDetailListActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,float,int)",
+            "sources": [
+                "com.meevii.learn.to.draw.home.view.CourseDetailListActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.home.view.CourseDetailListActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.ads.internal.view.g$6/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.facebook.ads.AudienceNetworkActivity"
+            ],
+            "targets": [
+                "com.facebook.ads.AudienceNetworkActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.dialog.LoginDialog/void a(android.content.Context,int,int)",
+            "sources": [
+                "com.meevii.learn.to.draw.dialog.LoginDialog"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.dialog.LoginDialog"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.home.view.DrawingActivity/void a(android.content.Context,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.meevii.learn.to.draw.home.view.DrawingActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.home.view.DrawingActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.me.MeActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.meevii.learn.to.draw.me.MeActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.me.MeActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.result.AdsResultActivity/void a(android.content.Context,boolean,boolean,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.meevii.learn.to.draw.result.DrawingResultActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.result.AdsResultActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.result.DrawingResultActivity/void a(android.content.Context)",
+            "sources": [
+                "com.meevii.learn.to.draw.result.DrawingResultActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.result.DrawingResultActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.rate.view.RateUsActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.meevii.learn.to.draw.rate.view.RateUsActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.rate.view.RateUsActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.home.view.GeneralActivity/void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "com.meevii.learn.to.draw.home.view.GeneralActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.home.view.GeneralActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.result.RectCameraActivity/void a(android.content.Context,boolean)",
+            "sources": [
+                "com.meevii.learn.to.draw.result.RectCameraActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.result.RectCameraActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.home.view.FullScreenActivity/void a(android.content.Context,java.lang.String,int)",
+            "sources": [
+                "com.meevii.learn.to.draw.home.view.FullScreenActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.home.view.FullScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.dialog.LoginDialog/void a(android.content.Context,int,int)",
+            "sources": [
+                "com.meevii.learn.to.draw.home.MainActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.dialog.LoginDialog"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.me.MeActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.meevii.learn.to.draw.home.MainActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.me.MeActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.home.view.FullScreenActivity/void a(android.content.Context,com.meevii.learn.'to'.draw.bean.CheckAppBean)",
+            "sources": [
+                "com.meevii.learn.to.draw.home.MainActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.home.view.FullScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.webview.ClientWebActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.meevii.learn.to.draw.home.MainActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.webview.ClientWebActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.home.view.GeneralActivity/void d(android.content.Context)",
+            "sources": [
+                "com.meevii.learn.to.draw.home.MainActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.home.view.GeneralActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.meevii.learn.'to'.draw.result.AdsResultActivity/void a(android.content.Context,boolean,boolean,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.meevii.learn.to.draw.result.AdsResultActivity"
+            ],
+            "targets": [
+                "com.meevii.learn.to.draw.result.AdsResultActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "transitions": [
+        {
+            "handler": "com.eleybourn.bookcatalogue.StandardDialogs$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.eleybourn.bookcatalogue.BookISBNSearch"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.AdministrationLibraryThing"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookISBNSearch/void createBook(android.os.Bundle)",
+            "sources": [
+                "com.eleybourn.bookcatalogue.BookISBNSearch"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.BookEdit"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookCatalogue/void createBook()",
+            "sources": [
+                "com.eleybourn.bookcatalogue.BookCatalogue"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.BookEdit"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookCatalogue/void createBookISBN(java.lang.String)",
+            "sources": [
+                "com.eleybourn.bookcatalogue.BookCatalogue"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.BookISBNSearch"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookCatalogue/void adminPage(java.lang.String,int)",
+            "sources": [
+                "com.eleybourn.bookcatalogue.BookCatalogue"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.Administration"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.Bookshelf/void createBookshelf()",
+            "sources": [
+                "com.eleybourn.bookcatalogue.Bookshelf"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.BookshelfEdit"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.AdministrationFunctions/void updateThumbnails()",
+            "sources": [
+                "com.eleybourn.bookcatalogue.AdministrationFunctions"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.UpdateFromInternet"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.AdministrationFunctions/void manageBookselves()",
+            "sources": [
+                "com.eleybourn.bookcatalogue.AdministrationFunctions"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.Bookshelf"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.AdministrationFunctions/void manageFields()",
+            "sources": [
+                "com.eleybourn.bookcatalogue.AdministrationFunctions"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.FieldVisibility"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookCatalogue/void createBook()",
+            "sources": [
+                "com.eleybourn.bookcatalogue.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.BookEdit"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookCatalogue/void adminPage(java.lang.String,int)",
+            "sources": [
+                "com.eleybourn.bookcatalogue.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.Administration"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookCatalogue/void createBookISBN(java.lang.String)",
+            "sources": [
+                "com.eleybourn.bookcatalogue.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.BookISBNSearch"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookEditFields/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.eleybourn.bookcatalogue.BookEditFields"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.CropCropImage"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookEditFields$DoConfirmAction/void success()",
+            "sources": [
+                "com.eleybourn.bookcatalogue.BookEditFields"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.BookEdit"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookEditFields$1/void onClick(android.view.View)",
+            "sources": [
+                "com.eleybourn.bookcatalogue.BookEditFields"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.EditAuthorList"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookEditFields$2/void onClick(android.view.View)",
+            "sources": [
+                "com.eleybourn.bookcatalogue.BookEditFields"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.EditSeriesList"
+            ]
+        },
+        {
+            "handler": "com.eleybourn.bookcatalogue.BookEdit/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.eleybourn.bookcatalogue.BookEdit"
+            ],
+            "targets": [
+                "com.eleybourn.bookcatalogue.BookEdit"
+            ]
+        }
+    ]
+}

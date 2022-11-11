@@ -1,0 +1,229 @@
+{
+    "transitions": [
+        {
+            "handler": "zendesk.support.requestlist.RequestListView/void startRequestActivity(zendesk.support.request.RequestConfiguration$Builder)",
+            "sources": [
+                "zendesk.support.requestlist.RequestListActivity"
+            ],
+            "targets": [
+                "zendesk.support.request.RequestActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.activities.BaseActivity/void moveToMainActivity()",
+            "sources": [
+                "ca.skipthedishes.customer.activities.MainActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.activities.MainActivity/void onRestoreInstanceState(android.os.Bundle)",
+            "sources": [
+                "ca.skipthedishes.customer.activities.MainActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.activities.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.activities.BaseActivity/void moveToMaintenanceScreen()",
+            "sources": [
+                "ca.skipthedishes.customer.activities.MainActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.base.activity.NewGraphedActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.activities.BaseActivity/void moveToMaintenanceScreen()",
+            "sources": [
+                "ca.skipthedishes.customer.activities.NotificationReceiverActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.base.activity.NewGraphedActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.activities.BaseActivity/void moveToMainActivity()",
+            "sources": [
+                "ca.skipthedishes.customer.activities.NotificationReceiverActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.activities.BaseActivity/void moveToMainActivity()",
+            "sources": [
+                "ca.skipthedishes.customer.activities.SplashActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.activities.BaseActivity/void moveToMaintenanceScreen()",
+            "sources": [
+                "ca.skipthedishes.customer.activities.SplashActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.base.activity.NewGraphedActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.fragments.DisposableFragment/void redirectToRestaurants()",
+            "sources": [
+                "ca.skipthedishes.customer.activities.SplashActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.activities.SplashActivity"
+            ]
+        },
+        {
+            "handler": "zendesk.support.guide.HelpCenterActivity/void showContactZendesk()",
+            "sources": [
+                "zendesk.support.guide.HelpCenterActivity"
+            ],
+            "targets": [
+                "zendesk.messaging.MessagingActivity"
+            ]
+        },
+        {
+            "handler": "zendesk.messaging.MessagingConfiguration$Builder/void show(android.content.Context,zendesk.configurations.Configuration[])",
+            "sources": [
+                "com.ncconsulting.skipthedishes_android.activities.PhoneNumberVerify"
+            ],
+            "targets": [
+                "zendesk.messaging.MessagingActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.activities.BaseActivity/void moveToMaintenanceScreen()",
+            "sources": [
+                "com.ncconsulting.skipthedishes_android.activities.PhoneNumberVerify"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.base.activity.NewGraphedActivity"
+            ]
+        },
+        {
+            "handler": "com.ncconsulting.skipthedishes_android.activities.PhoneNumberVerify$ConnectionErrorDialog/void create(androidx.fragment.app.FragmentManager)",
+            "sources": [
+                "com.ncconsulting.skipthedishes_android.activities.PhoneNumberVerify"
+            ],
+            "targets": [
+                "com.ncconsulting.skipthedishes_android.activities.PhoneNumberVerify$ConnectionErrorDialog"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.activities.BaseActivity/void moveToMainActivity()",
+            "sources": [
+                "com.ncconsulting.skipthedishes_android.activities.PhoneNumberVerify"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.zopim.android.sdk.prechat.ZopimChatActivity/void startActivity(android.content.Context,com.zopim.android.sdk.api.ZopimChat$SessionConfig)",
+            "sources": [
+                "com.zopim.android.sdk.prechat.ZopimChatActivity"
+            ],
+            "targets": [
+                "com.zopim.android.sdk.prechat.ZopimChatActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.AppboyWebViewActivity$2/java.lang.Boolean handleUrlOverride(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.base.activity.BaseActivity/void moveToMaintenanceScreen()",
+            "sources": [
+                "ca.skipthedishes.customer.base.activity.NewGraphedActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.base.activity.NewGraphedActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.base.activity.BaseActivity/void moveToMainActivity()",
+            "sources": [
+                "ca.skipthedishes.customer.base.activity.NewGraphedActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "zendesk.support.guide.ViewArticleActivity/void showContactZendesk()",
+            "sources": [
+                "zendesk.support.guide.ViewArticleActivity"
+            ],
+            "targets": [
+                "zendesk.messaging.MessagingActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.activities.BaseActivity/void moveToMaintenanceScreen()",
+            "sources": [
+                "ca.skipthedishes.customer.activities.PreChatActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.base.activity.NewGraphedActivity"
+            ]
+        },
+        {
+            "handler": "ca.skipthedishes.customer.activities.BaseActivity/void moveToMainActivity()",
+            "sources": [
+                "ca.skipthedishes.customer.activities.PreChatActivity"
+            ],
+            "targets": [
+                "ca.skipthedishes.customer.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "zendesk.messaging.MessagingConfiguration$Builder/void show(android.content.Context,zendesk.configurations.Configuration[])",
+            "sources": [
+                "ca.skipthedishes.customer.activities.PreChatActivity"
+            ],
+            "targets": [
+                "zendesk.messaging.MessagingActivity"
+            ]
+        },
+        {
+            "handler": "com.stripe.android.stripe3ds2.views.ChallengeProgressActivity$Companion/void show(android.content.Context,java.lang.String,boolean,com.stripe.android.stripe3ds2.init.ui.StripeUiCustomization,com.stripe.android.stripe3ds2.transaction.SdkTransactionId)",
+            "sources": [
+                "com.stripe.android.stripe3ds2.views.ChallengeProgressActivity"
+            ],
+            "targets": [
+                "com.stripe.android.stripe3ds2.views.ChallengeProgressActivity"
+            ]
+        }
+    ]
+}

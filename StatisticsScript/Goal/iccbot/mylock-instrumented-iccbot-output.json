@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "i4nc4mp.myLockcomplete.GuardActivity/void StartDismiss(android.content.Context)",
+            "sources": [
+                "i4nc4mp.myLockcomplete.GuardActivity"
+            ],
+            "targets": [
+                "i4nc4mp.myLockcomplete.DismissActivity"
+            ]
+        }
+    ]
+}

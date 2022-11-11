@@ -1,0 +1,2317 @@
+{
+    "transitions": [
+        {
+            "handler": "com.walmart.core.productcareplan.ProductCarePlanActivity$1/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "com.walmart.core.productcareplan.ProductCarePlanActivity"
+            ],
+            "targets": [
+                "com.walmart.core.productcareplan.scanner.ReceiptScannerActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storemode.ui.scanner.StoreModeScannerActivity/void onTypeBarcode()",
+            "sources": [
+                "com.walmart.core.storemode.ui.scanner.StoreModeScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storemode.ui.scanner.StoreModeItemEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.mpay.MobilePayController/void startMoreInfo(android.content.Context)",
+            "sources": [
+                "com.walmart.core.storemode.ui.scanner.StoreModeScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.mpay.MobilePayActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity/void show(android.support.v4.app.Fragment,int)",
+            "sources": [
+                "com.walmart.core.storemode.ui.scanner.StoreModeScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.wmpay.scanner.WalmartPayOverlayFragment$5$4/void onClick(android.view.View)",
+            "sources": [
+                "com.walmart.core.storemode.ui.scanner.StoreModeScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.chase.ChaseProvisioningActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.weeklyads.impl.app.detail.WeeklyAdDetailsActivity$Companion/void launch(android.content.Context,java.lang.String,int,int,java.lang.String,java.lang.String,long,long,java.lang.Boolean)",
+            "sources": [
+                "com.walmart.core.weeklyads.impl.app.detail.WeeklyAdDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.core.weeklyads.impl.app.detail.WeeklyAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.payment.controller.methods.PaymentActivity/void launch(android.app.Activity)",
+            "sources": [
+                "com.walmartlabs.payment.controller.methods.PaymentActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.payment.controller.methods.PaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.settings.CXOHybridSettingsActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.walmart.android.app.settings.CXOHybridSettingsActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.settings.CXOHybridSettingsActivity$CXOSettingsFragment"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.productcareplan.ui.CarePlanDetailActivity/void launch(android.content.Context,java.lang.String,int,double,java.lang.String)",
+            "sources": [
+                "com.walmart.core.productcareplan.ui.CarePlanDetailActivity"
+            ],
+            "targets": [
+                "com.walmart.core.productcareplan.ui.CarePlanDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.feedback.FeedbackActivity/void launchFeedback(android.content.Context,com.walmart.android.app.feedback.FeedbackActivity$FeedbackOptions)",
+            "sources": [
+                "com.walmart.android.app.feedback.FeedbackActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.feedback.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.app.otw.detail.PickupDetailsActivity$intializeButtons$2/void onClick(android.view.View)",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.otw.detail.PickupDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.otw.PickupAreaMapActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.app.otw.detail.PickupDetailsActivity/void showError()",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.otw.detail.PickupDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.otw.CheckInErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.app.otw.detail.PickupDetailsActivity$Companion/void launch(android.content.Context,java.lang.String,com.walmart.core.connect.api.data.ConnectOrder$AccessPoint,boolean)",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.otw.detail.PickupDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.otw.detail.PickupDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.wishlist.impl.app.ReactSmartListActivity/void launch(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmart.core.lists.wishlist.impl.app.ListCreatorActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.wishlist.impl.app.ReactSmartListActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.wishlist.impl.app.ListCreatorActivity/void launch(android.app.Activity,com.walmart.core.lists.wishlist.impl.service.request.AddBundle)",
+            "sources": [
+                "com.walmart.core.lists.wishlist.impl.app.ListCreatorActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.wishlist.impl.app.ListCreatorActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.help.HelpActivity/void startHelpActivity(android.content.Context,boolean)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.help.HelpActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.help.HelpActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void offerPinAndFingerprint(int,com.walmart.core.auth.authenticator.Events$Screen)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.DefaultAuthenticationActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.pin.PinActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.CreateAccountFragment$16$1/void onAuthenticationError(java.lang.String,com.walmart.core.auth.authenticator.AuthenticationService$ServiceErrorMessage,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.DefaultAuthenticationActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.captcha.ReCaptchaActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void launchPasswordReset()",
+            "sources": [
+                "com.walmart.core.auth.authenticator.DefaultAuthenticationActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.reset.ResetPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void offerFingerprint(java.lang.String,java.lang.String,int,com.walmart.core.auth.authenticator.Events$Screen)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.DefaultAuthenticationActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.fingerprint.FingerprintActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.LoginFragment/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.DefaultAuthenticationActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.ConfirmPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.ConfirmPasswordFragment$2$1/void onAuthenticationError(java.lang.String,com.walmart.core.auth.authenticator.AuthenticationService$ServiceErrorMessage,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.ConfirmPasswordActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.captcha.ReCaptchaActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void offerPinAndFingerprint(int,com.walmart.core.auth.authenticator.Events$Screen)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.ConfirmPasswordActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.pin.PinActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void launchPasswordReset()",
+            "sources": [
+                "com.walmart.core.auth.authenticator.ConfirmPasswordActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.reset.ResetPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void offerFingerprint(java.lang.String,java.lang.String,int,com.walmart.core.auth.authenticator.Events$Screen)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.ConfirmPasswordActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.fingerprint.FingerprintActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.app.otw.CheckinOtwActivity/void launch(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.otw.CheckinOtwActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.otw.CheckinOtwActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.app.otw.CheckinOtwActivity/void showCheckedin(boolean)",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.otw.CheckinOtwActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.otw.detail.PickupDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.app.otw.CheckinOtwActivity/void showCheckinReminder()",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.otw.CheckinOtwActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.otw.reminder.CheckinReminderActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.service.otw.CheckinOtwNotificationFactory/android.app.Notification getOtwCheckinPersistentNotification(android.content.Context,int)",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.otw.CheckinOtwActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.PickupActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.moneytransfer.ui.ComplianceMessageActivity/void start(android.content.Context,java.lang.CharSequence,android.net.Uri,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.ComplianceMessageActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.ComplianceMessageActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.easyreturns.react.ReactEasyReturnsActivity/void launchForResult(android.support.v4.app.Fragment,int,java.lang.String,com.walmart.core.easyreturns.api.EasyReturnsApi$OrderType)",
+            "sources": [
+                "com.walmart.core.easyreturns.react.ReactEasyReturnsActivity"
+            ],
+            "targets": [
+                "com.walmart.core.easyreturns.react.ReactEasyReturnsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storelocator.impl.finder.filter.StoreFilterActivity/void launch(android.app.Activity,int,java.util.ArrayList)",
+            "sources": [
+                "com.walmart.core.storelocator.impl.finder.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storelocator.impl.finder.filter.StoreFilterActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storelocator.impl.finder.StoreFinderActivity$Companion/void launchPicker(android.support.v4.app.Fragment,int,com.walmart.core.storelocator.api.StoreFinderOptions)",
+            "sources": [
+                "com.walmart.core.storelocator.impl.finder.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storelocator.impl.finder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storelocator.impl.page.StorePageActivity$Companion/void launch(android.content.Context,int)",
+            "sources": [
+                "com.walmart.core.storelocator.impl.finder.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storelocator.impl.page.StorePageActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.connect.transaction.ConnectTransactionActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.walmart.core.connect.transaction.ConnectTransactionActivity"
+            ],
+            "targets": [
+                "com.walmart.core.connect.transaction.confirmation.ConnectConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.mpay.MobilePayController/void startMoreInfo(android.content.Context)",
+            "sources": [
+                "com.walmart.core.connect.transaction.ConnectTransactionActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.mpay.MobilePayActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.wmpay.scanner.WalmartPayOverlayFragment$5$4/void onClick(android.view.View)",
+            "sources": [
+                "com.walmart.core.connect.transaction.ConnectTransactionActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.chase.ChaseProvisioningActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.connect.transaction.ConnectTransactionActivity/void startPairing(java.lang.String)",
+            "sources": [
+                "com.walmart.core.connect.transaction.ConnectTransactionActivity"
+            ],
+            "targets": [
+                "com.walmart.core.connect.transaction.pairing.ConnectPairActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity/void show(android.support.v4.app.Fragment,int)",
+            "sources": [
+                "com.walmart.core.connect.transaction.ConnectTransactionActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.ui.TransactionHistoryFragment/void onTransactionItemClicked(com.walmart.core.moneyservices.impl.service.datamodel.Transaction)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.ui.TransactionHistoryActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.TransactionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.ui.TransactionHistoryActivity/void start(android.content.Context)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.ui.TransactionHistoryActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.ui.TransactionHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.submitted.ConfirmationActivity/void startConfirmation(android.app.Activity,int)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.submitted.ConfirmationActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.submitted.ConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.registry.impl.app.ManageRegistryActivity/void launch(android.app.Activity,android.os.Bundle)",
+            "sources": [
+                "com.walmart.core.lists.registry.impl.app.ManageRegistryActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.registry.impl.app.ManageRegistryActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.reset.ResetPasswordFragment$2/void onFailure(com.walmart.core.auth.authenticator.AuthenticationService$SimpleCallback$Error,android.os.Bundle)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.reset.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.captcha.ReCaptchaActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void launchPasswordReset()",
+            "sources": [
+                "com.walmart.core.auth.authenticator.reset.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.reset.ResetPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void offerPinAndFingerprint(int,com.walmart.core.auth.authenticator.Events$Screen)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.reset.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.pin.PinActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void offerFingerprint(java.lang.String,java.lang.String,int,com.walmart.core.auth.authenticator.Events$Screen)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.reset.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.fingerprint.FingerprintActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storemode.ui.StoreModeFeedbackSurveyActivity/void launchStoreFeedbackSurvey(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.walmart.core.storemode.ui.StoreModeFeedbackSurveyActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storemode.ui.StoreModeFeedbackSurveyActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.app.ItemDetailsActivity/void launch(android.content.Context,com.walmart.core.item.api.ItemDetailsOptions)",
+            "sources": [
+                "com.walmart.core.item.impl.app.ItemDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.core.item.impl.app.ItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity/void show(android.support.v4.app.Fragment,int)",
+            "sources": [
+                "com.walmart.core.productcareplan.scanner.ReceiptScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.mpay.MobilePayController/void startMoreInfo(android.content.Context)",
+            "sources": [
+                "com.walmart.core.productcareplan.scanner.ReceiptScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.mpay.MobilePayActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.wmpay.scanner.WalmartPayOverlayFragment$5$4/void onClick(android.view.View)",
+            "sources": [
+                "com.walmart.core.productcareplan.scanner.ReceiptScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.chase.ChaseProvisioningActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.account.onlineorderhistory.impl.ui.OrderDetailsActivity/void launch(android.content.Context,java.lang.String,java.lang.String,android.os.Bundle,java.lang.String)",
+            "sources": [
+                "com.walmart.core.account.onlineorderhistory.impl.ui.OrderDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.core.account.onlineorderhistory.impl.ui.OrderDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PharmacyVideoActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.PrescriptionActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PrescriptionActivity/void launchGuestRefill(android.app.Activity,int,java.lang.String)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.PrescriptionActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PrescriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PrescriptionActivity/void onShowOverlay(android.graphics.Rect)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.PrescriptionActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyConfirmationOverlayActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.shared.app.BrowseActivity/void launch(android.content.Context,com.walmart.core.shop.api.BrowseBuilder)",
+            "sources": [
+                "com.walmart.core.shop.impl.shared.app.BrowseActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.shared.app.BrowseActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.shared.filter.ShopFilterActivity/void launch(android.support.v4.app.Fragment,com.walmart.core.shop.impl.shared.filter.ShopFilterBuilder)",
+            "sources": [
+                "com.walmart.core.shop.impl.shared.app.BrowseActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.shared.filter.ShopFilterActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.settings.PharmacyHybridSettingsActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.walmart.android.app.settings.PharmacyHybridSettingsActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.settings.PharmacyHybridSettingsActivity$PharmacySettingsFragment"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.app.btv.BuyTogetherValueActivity/void launchActivity(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.walmart.core.item.impl.app.btv.BuyTogetherValueActivity"
+            ],
+            "targets": [
+                "com.walmart.core.item.impl.app.btv.BuyTogetherValueActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.checkinsdk.location.LocationServicesHighAccuracyActivity/void startActivity(android.content.Context,boolean)",
+            "sources": [
+                "com.walmart.checkinsdk.location.LocationServicesHighAccuracyActivity"
+            ],
+            "targets": [
+                "com.walmart.checkinsdk.location.LocationServicesHighAccuracyActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storemode.freeosk.controller.external.ExternalActivity/void startExternalActivity(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmart.core.storemode.freeosk.controller.FreeoskActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storemode.freeosk.controller.external.ExternalActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storemode.freeosk.controller.help.HelpActivity$Companion/void startHelpActivity(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmart.core.storemode.freeosk.controller.FreeoskActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storemode.freeosk.controller.help.HelpActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.fragments.OnboardingFragment/void finishOnboarding()",
+            "sources": [
+                "com.walmart.android.app.main.OnboardingActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.details.competitors.ItemDetailsActivity/void launchItemDetailsActivity(android.content.Context,com.walmart.core.savingscatcher.model.SavingsCatcherReceipt$ReceiptItem)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.details.competitors.ItemDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.details.competitors.ItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storelocator.impl.finder.filter.StoreFilterActivity/void launch(android.app.Activity,int,java.util.ArrayList)",
+            "sources": [
+                "com.walmart.core.storelocator.impl.finder.filter.StoreFilterActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storelocator.impl.finder.filter.StoreFilterActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.app.otw.CheckInErrorFragment/void lambda$onViewCreated$0(com.walmart.core.pickup.impl.app.otw.CheckInErrorFragment,android.view.View)",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.otw.CheckInErrorActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.otw.reminder.CheckinReminderActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.app.otw.CheckInErrorActivity$Companion/void launch(android.content.Context,java.lang.String,java.lang.CharSequence,java.lang.CharSequence,boolean)",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.otw.CheckInErrorActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.otw.CheckInErrorActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.weeklyads.impl.app.detail.WeeklyAdDetailsActivity$Companion/void launch(android.content.Context,java.lang.String,int,int,java.lang.String,java.lang.String,long,long,java.lang.Boolean)",
+            "sources": [
+                "com.walmart.core.weeklyads.impl.app.WeeklyAdActivity"
+            ],
+            "targets": [
+                "com.walmart.core.weeklyads.impl.app.detail.WeeklyAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.weeklyads.impl.app.WeeklyAdActivity$Companion/void launch(android.content.Context,com.walmart.core.weeklyads.api.WeeklyAdOptions,boolean)",
+            "sources": [
+                "com.walmart.core.weeklyads.impl.app.WeeklyAdActivity"
+            ],
+            "targets": [
+                "com.walmart.core.weeklyads.impl.app.WeeklyAdActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PharmacyDetailsActivity$OrderDetailsCallback/void onStageOrder(java.lang.String,java.lang.String,com.walmartlabs.android.pharmacy.service.Order$SignatureForms,boolean,java.lang.String)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.PharmacyDetailsActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyStagingActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PharmacyManager/void launchLinkFailureScreen(android.support.v4.app.Fragment,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.PharmacyDetailsActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyLinkAccountFailureActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.shared.filter.ShopFilterActivity/void launch(android.support.v4.app.Fragment,com.walmart.core.shop.impl.shared.filter.ShopFilterBuilder)",
+            "sources": [
+                "com.walmart.core.shop.impl.cp.impl.views.CategoryPageActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.shared.filter.ShopFilterActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.cp.impl.views.CategoryPageActivity/void launch(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmart.core.shop.impl.cp.impl.views.CategoryPageActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.cp.impl.views.CategoryPageActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storelocator.impl.page.StorePageActivity$Companion/void launch(android.content.Context,int)",
+            "sources": [
+                "com.walmart.core.storelocator.impl.page.StorePageActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storelocator.impl.page.StorePageActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storelocator.impl.finder.StoreFinderActivity$Companion/void launchInFront(android.content.Context)",
+            "sources": [
+                "com.walmart.core.storelocator.impl.page.StorePageActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storelocator.impl.finder.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PharmacyDialogActivity/void launchGetStartedGuidePage(android.app.Activity,boolean,int)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.PharmacyDialogActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferActivity/void startForResult(android.app.Activity,int,com.walmart.core.moneyservices.impl.service.datamodel.TransactionType,java.lang.String,com.walmart.core.moneyservices.impl.moneytransfer.content.MoneyTransferData)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.TransactionDetailActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.moneytransfer.ui.TransactionDetailActivity/void startForResult(android.support.v4.app.Fragment,int,com.walmart.core.moneyservices.impl.service.datamodel.Transaction,android.content.Intent)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.TransactionDetailActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.TransactionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.moneytransfer.ui.VendorReceiptActivity/void start(android.content.Context,com.walmart.core.moneyservices.impl.service.datamodel.TransactionType,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.TransactionDetailActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.VendorReceiptActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.setup.SetupActivity/void startChaseEnablement()",
+            "sources": [
+                "com.walmart.android.pay.controller.setup.SetupActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.chase.ChaseProvisioningActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.wishlist.impl.app.ReactSmartListActivity/void launch(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmart.core.lists.wishlist.impl.app.WishListActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.wishlist.impl.app.ReactSmartListActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.wishlist.impl.app.ListCreatorActivity/void launch(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.walmart.core.lists.wishlist.impl.app.WishListActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.wishlist.impl.app.ListCreatorActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.wishlist.impl.app.WishListActivity/void launch(android.app.Activity,com.walmart.core.lists.wishlist.impl.app.WishListBuilder)",
+            "sources": [
+                "com.walmart.core.lists.wishlist.impl.app.WishListActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.wishlist.impl.app.WishListActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.wishlist.WishListFragment$1/void onSingleClick(android.view.View)",
+            "sources": [
+                "com.walmart.core.lists.wishlist.impl.app.WishListActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.wishlist.impl.app.FindListActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.wishlist.WishListFragment/void onViewStateRestored(android.os.Bundle)",
+            "sources": [
+                "com.walmart.core.lists.wishlist.impl.app.WishListActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.wishlist.impl.app.DeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PharmacyVideoActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.PharmacyVideoActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.fam.PharmacyFamAddDependentActivity/void launchAddDependentActivity(android.app.Activity,int)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.fam.PharmacyFamDashboardActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.fam.PharmacyFamAddDependentActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.fam.PharmacyFamDashboardActivity/void launch(android.app.Activity,int)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.fam.PharmacyFamDashboardActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.fam.PharmacyFamDashboardActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PrescriptionActivity/void launchPrescription(android.app.Activity,int,java.lang.String)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.fam.PharmacyFamDashboardActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PrescriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.wishlist.impl.app.ReactSmartListActivity/void launch(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmart.core.lists.wishlist.impl.app.ReactSmartListActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.wishlist.impl.app.ReactSmartListActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.scanner.SavingsCatcherScannerActivity/void onTypeBarcode()",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.scanner.SavingsCatcherScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.scanner.SavingsCatcherEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.wmpay.scanner.WalmartPayOverlayFragment$5$4/void onClick(android.view.View)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.scanner.SavingsCatcherScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.chase.ChaseProvisioningActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.mpay.MobilePayController/void startMoreInfo(android.content.Context)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.scanner.SavingsCatcherScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.mpay.MobilePayActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity/void show(android.support.v4.app.Fragment,int)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.scanner.SavingsCatcherScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.app.WalmartReturnPolicyActivity$Companion/void launch(android.app.Activity)",
+            "sources": [
+                "com.walmart.core.item.impl.app.WalmartReturnPolicyActivity"
+            ],
+            "targets": [
+                "com.walmart.core.item.impl.app.WalmartReturnPolicyActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.app.WebViewActivity/void launch(android.app.Activity,com.walmart.core.item.impl.app.WebViewActivity$Settings)",
+            "sources": [
+                "com.walmart.core.item.impl.app.WalmartReturnPolicyActivity"
+            ],
+            "targets": [
+                "com.walmart.core.item.impl.app.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.Debug$6/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.walmart.android.app.main.MiscActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.push.GCMIntentService"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.moremenu.AboutFragment$1$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.walmart.android.app.main.MiscActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.feedback.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.Debug$33/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.walmart.android.app.main.MiscActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.settings.PharmacyHybridSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.util.FeedbackUtils/boolean checkCanRateApp(android.content.Context)",
+            "sources": [
+                "com.walmart.android.app.main.MiscActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.Debug$33/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.walmart.android.app.main.MiscActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.settings.CXOHybridSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.WalmartStartActivity/void checkVersion(com.walmart.core.config.impl.config.AppConfiguration)",
+            "sources": [
+                "com.walmart.android.app.main.ProductDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.UpgradeActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.ProductDetailsActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.walmart.android.app.main.ProductDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.fourdollar.PharmacyFourDollarActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.fourdollar.PharmacyFourDollarActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.fourdollar.PharmacyFourDollarActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.cart.impl.app.ReactThankYouActivity/void onBackPressed()",
+            "sources": [
+                "com.walmart.core.cart.impl.app.ReactThankYouActivity"
+            ],
+            "targets": [
+                "com.walmart.core.cart.impl.app.ReactCartActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.WebPresenterActivity/void launch(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmart.android.app.main.WebPresenterActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.WebPresenterActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.WalmartStartActivity/void checkVersion(com.walmart.core.config.impl.config.AppConfiguration)",
+            "sources": [
+                "com.walmart.android.app.main.WebPresenterActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.UpgradeActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.ereceipt.EReceiptReturnActivity/void launch(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmartlabs.ereceipt.EReceiptDetailsActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.ereceipt.EReceiptReturnActivity"
+            ]
+        },
+        {
+            "handler": "com.synchronyfinancial.plugin.SynchronyPlugInActivity/void startPluginActivity(android.app.Activity,int,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.synchronyfinancial.plugin.SynchronyPlugInActivity"
+            ],
+            "targets": [
+                "com.synchronyfinancial.plugin.SynchronyPlugInActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.ui.MoneyServicesExpressServicesVideoActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.ui.MoneyServicesExpressServicesVideoActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.ui.MoneyServicesExpressServicesVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferActivity/void startForResult(android.app.Activity,int,com.walmart.core.moneyservices.impl.service.datamodel.TransactionType)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.ui.MoneyServicesHomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.ui.MoneyServicesHomeActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.ui.MoneyServicesHomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.TransactionDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.ui.MoneyServicesExpressServicesVideoActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.ui.MoneyServicesHomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.ui.MoneyServicesExpressServicesVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.ui.MoneyServicesHomeActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.ui.MoneyServicesHomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.ui.MoneyServicesHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferConfirmationActivity/void startForResult(android.app.Activity,int,com.walmart.core.moneyservices.impl.service.datamodel.TransactionType,com.walmart.core.moneyservices.impl.service.datamodel.DynamicFormData$StagedTransaction,com.walmart.core.moneyservices.impl.service.datamodel.DynamicFormData$DeclinedTransaction)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.ui.MoneyServicesHomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.ui.TransactionHistoryActivity/void start(android.content.Context)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.ui.MoneyServicesHomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.ui.TransactionHistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.ui.ComplianceUiDelegate/void showWalmartPrivacyPolicy(android.content.Context,com.walmart.core.moneyservices.impl.service.datamodel.TransactionType)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.ui.MoneyServicesHomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.ComplianceMessageActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PharmacyStagingActivity$SignatureCallbacks/void openForm(java.lang.String)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.PharmacyStagingActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacySignatureFormActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.app.ItemAvailabilityActivity/void launchByUpc(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmart.core.item.impl.app.ItemAvailabilityActivity"
+            ],
+            "targets": [
+                "com.walmart.core.item.impl.app.ItemAvailabilityActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.account.easyreorder.impl.ui.EasyReorderActivity/void launch(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmart.core.account.easyreorder.impl.ui.EasyReorderActivity"
+            ],
+            "targets": [
+                "com.walmart.core.account.easyreorder.impl.ui.EasyReorderActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void offerFingerprint(java.lang.String,java.lang.String,int,com.walmart.core.auth.authenticator.Events$Screen)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.pin.PinActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.fingerprint.FingerprintActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void offerPinAndFingerprint(int,com.walmart.core.auth.authenticator.Events$Screen)",
+            "sources": [
+                "com.walmart.core.auth.authenticator.pin.PinActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.pin.PinActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.AuthenticationFragment/void launchPasswordReset()",
+            "sources": [
+                "com.walmart.core.auth.authenticator.pin.PinActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.reset.ResetPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.search.impl.fragment.OnlineSearchResultViewFragment/void performUncheckedSearch(java.lang.String)",
+            "sources": [
+                "com.walmart.core.shop.impl.search.impl.app.BarcodeSearchActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.search.impl.app.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.search.impl.app.BarcodeSearchActivity/void launchForResult(android.app.Activity,java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.walmart.core.shop.impl.search.impl.app.BarcodeSearchActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.search.impl.app.BarcodeSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.shared.app.BrowseActivity/void launch(android.content.Context,com.walmart.core.shop.api.BrowseBuilder)",
+            "sources": [
+                "com.walmart.core.shop.impl.search.impl.app.BarcodeSearchActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.shared.app.BrowseActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.search.impl.app.BarcodeSearchActivity/void searchByText()",
+            "sources": [
+                "com.walmart.core.shop.impl.search.impl.app.BarcodeSearchActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.search.impl.app.BarcodeTextSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.search.impl.app.SearchActivity/void launch(android.content.Context,android.os.Bundle,java.lang.String)",
+            "sources": [
+                "com.walmart.core.shop.impl.search.impl.app.SearchActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.search.impl.app.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.dashboard.LearnMoreActivity/void startLearnMore(android.app.Activity,int)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.dashboard.LearnMoreActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.dashboard.LearnMoreActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.account.verify.ui.AccountVerifyActivity/void launch(android.support.v4.app.Fragment,int,android.os.Bundle)",
+            "sources": [
+                "com.walmart.core.account.verify.ui.AccountVerifyActivity"
+            ],
+            "targets": [
+                "com.walmart.core.account.verify.ui.AccountVerifyActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.account.verify.ui.AccountVerifyActivity/void launchCreateAddressActivity()",
+            "sources": [
+                "com.walmart.core.account.verify.ui.AccountVerifyActivity"
+            ],
+            "targets": [
+                "com.walmart.core.account.verify.ui.AccountVerifyCreateAddressActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.backtoschool.impl.app.ReactBackToSchoolActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmart.core.lists.backtoschool.impl.app.ReactBackToSchoolActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.backtoschool.impl.app.ReactBackToSchoolActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PharmacyAccountVerifyFailureActivity/void launch(android.app.Activity,int,int,android.os.Bundle)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.PharmacyAccountVerifyFailureActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyAccountVerifyFailureActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.ConfirmActivity/void startAuthentication()",
+            "sources": [
+                "com.walmart.core.auth.authenticator.ConfirmActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.fingerprint.FingerprintActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.ConfirmActivity/void startAuthentication()",
+            "sources": [
+                "com.walmart.core.auth.authenticator.ConfirmActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.ConfirmPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.auth.authenticator.ConfirmActivity/void startAuthentication()",
+            "sources": [
+                "com.walmart.core.auth.authenticator.ConfirmActivity"
+            ],
+            "targets": [
+                "com.walmart.core.auth.authenticator.pin.PinActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.photo.react.ReactPhotoActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmart.core.photo.react.ReactPhotoActivity"
+            ],
+            "targets": [
+                "com.walmart.core.photo.react.ReactPhotoActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.ui.PharmacyFragment/void startTransferPrescription()",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.ui.PharmacyActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.transferrx.PharmacyTransferRxActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.fourdollar.PharmacyFourDollarActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.ui.PharmacyActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.fourdollar.PharmacyFourDollarActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PharmacyVideoActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.ui.PharmacyActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.fam.PharmacyFamDashboardActivity/void launch(android.app.Activity,int)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.ui.PharmacyActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.fam.PharmacyFamDashboardActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.ui.PharmacyActivity/boolean handleIntent(android.content.Intent)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.ui.PharmacyActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.ui.PharmacyActivity/void launchReviewOrderStatus(android.app.Activity,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.ui.PharmacyActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.ui.PharmacyActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PharmacyDialogActivity/void launchGetStartedGuidePage(android.app.Activity,boolean,int)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.ui.PharmacyActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PharmacyAccountVerifyFailureActivity/void launch(android.app.Activity,int,int,android.os.Bundle)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.ui.PharmacyActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyAccountVerifyFailureActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PharmacyManager/void launchLinkFailureScreen(android.support.v4.app.Fragment,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.ui.PharmacyActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PharmacyLinkAccountFailureActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.PrescriptionActivity/void launchGuestRefill(android.app.Activity,int,java.lang.String)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.ui.PharmacyActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.PrescriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.wmpay.WalmartPayValuePropositionActivity$2/void onGetUserInfo(boolean,walmartlabs.electrode.net.Result)",
+            "sources": [
+                "com.walmart.core.wmpay.WalmartPayValuePropositionActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.setup.SetupActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.wmpay.WalmartPayValuePropositionActivity$2/void onGetUserInfo(boolean,walmartlabs.electrode.net.Result)",
+            "sources": [
+                "com.walmart.core.wmpay.WalmartPayValuePropositionActivity"
+            ],
+            "targets": [
+                "com.walmart.core.wmpay.WalmartPayActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.wmpay.WalmartPayActivity/void startScanner()",
+            "sources": [
+                "com.walmart.core.wmpay.WalmartPayActivity"
+            ],
+            "targets": [
+                "com.walmart.core.wmpay.WalmartPayScannerActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.wmpay.WalmartPayActivity/void startValueProp()",
+            "sources": [
+                "com.walmart.core.wmpay.WalmartPayActivity"
+            ],
+            "targets": [
+                "com.walmart.core.wmpay.WalmartPayValuePropositionActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.account.personalinfo.impl.ui.PersonalInfoFragment$1/void onSingleClick(android.view.View)",
+            "sources": [
+                "com.walmart.core.account.personalinfo.impl.ui.PersonalInfoActivity"
+            ],
+            "targets": [
+                "com.walmart.core.account.personalinfo.impl.verification.PhoneVerificationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.account.personalinfo.impl.ui.PersonalInfoActivity/void launch(android.app.Activity)",
+            "sources": [
+                "com.walmart.core.account.personalinfo.impl.ui.PersonalInfoActivity"
+            ],
+            "targets": [
+                "com.walmart.core.account.personalinfo.impl.ui.PersonalInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.payment.controller.PaymentMethodsActivity/void showConfirmation(int)",
+            "sources": [
+                "com.walmartlabs.payment.controller.PaymentMethodsActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.payment.controller.edit.ConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.payment.controller.edit.AddCreditCardFragment/void onRootedTaskFinished(java.lang.Boolean)",
+            "sources": [
+                "com.walmartlabs.payment.controller.PaymentMethodsActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.payment.controller.edit.ScanCreditCardActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.payment.controller.PaymentMethodsActivity/void launchTwoStepCreditCardPicker(java.lang.Object,java.lang.Integer,com.walmartlabs.payment.methods.api.CreditCard,int)",
+            "sources": [
+                "com.walmartlabs.payment.controller.PaymentMethodsActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.payment.controller.PaymentMethodsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storemode.freeosk.controller.help.HelpActivity$Companion/void startHelpActivity(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmart.core.storemode.freeosk.controller.help.HelpActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storemode.freeosk.controller.help.HelpActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.gpshopper.sdk.beacons.SdkBeaconsBootReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.core.cart.impl.app.CheckoutHybridActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.push.GCMIntentService"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.core.item.impl.app.ItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.gpshopper.sdk.geofences.GeofencesBootReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.facebook.places.internal.WifiScannerImpl$ScanResultBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.push.GCMInstanceIDListenerService"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.squareup.picasso.Dispatcher$NetworkBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storedetector.locator.wifi.WifiLocator$3$1"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.app.WebViewActivity/void launch(android.app.Activity,com.walmart.core.item.impl.app.WebViewActivity$Settings)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.core.item.impl.app.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.gpshopper.sdk.geofences.GeofencesNetStatReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.android.utils.NetworkConnectivityHelper$NetworkConnectivityChangeReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.flipp.picasso.Dispatcher$NetworkBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.shortcutwidget.ShortcutWidgetProvider"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.core.cart.impl.app.ShippingPassHybridActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.threatmetrix.TrustDefender.internal.K5"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.app.review.add.AddReviewActivity$Companion/void launch(android.content.Context,com.walmart.core.item.impl.app.model.MiniItem)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.gpshopper.sdk.beacons.BeaconsNetStatReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.gpshopper.sdk.geofences.FusedLocationService$1"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.core.cart.impl.app.ReactCheckoutActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.onradar.sdk._RadarReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.threatmetrix.TrustDefender.internal.XZ$O"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.mparticle.internal.MessageManager"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "org.altbeacon.beacon.startup.StartupBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.gpshopper.sdk.geofences.LocationChangedService"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.facebook.react.modules.netinfo.NetInfoModule$ConnectivityBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.InstallReferrerReceiver"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.digimarc.dms.helpers.camerahelper.Camera1SurfaceView$2"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.photopicker.PhotoPicker/void startPhotoPickerActivity(boolean)",
+            "sources": [
+                "com.walmart.core.item.impl.app.review.add.AddReviewActivity"
+            ],
+            "targets": [
+                "com.walmart.android.analytics.MParticleTracker$1"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.app.WebViewActivity/void launch(android.app.Activity,com.walmart.core.item.impl.app.WebViewActivity$Settings)",
+            "sources": [
+                "com.walmart.core.item.impl.app.WebViewActivity"
+            ],
+            "targets": [
+                "com.walmart.core.item.impl.app.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.shared.views.'-$$Lambda$ViewContentHelper$h7v9QHNJg4b9wiwYVLa2ksMkuLg'/void onClick(android.view.View)",
+            "sources": [
+                "com.walmart.core.shop.impl.shared.app.ShelfItemLocationActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.shared.app.ShelfItemLocationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferConfirmationActivity/void startForResult(android.app.Activity,int,com.walmart.core.moneyservices.impl.service.datamodel.TransactionType,com.walmart.core.moneyservices.impl.service.datamodel.DynamicFormData$StagedTransaction,com.walmart.core.moneyservices.impl.service.datamodel.DynamicFormData$DeclinedTransaction)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferConfirmationActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.ScannerBaseActivity$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.walmart.android.app.main.ScannerBaseActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.payment.service.mpay.VerifyCvvActivity/void encryptValues(java.lang.String)",
+            "sources": [
+                "com.walmartlabs.payment.service.mpay.VerifyCvvActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.payment.service.mpay.VerifyCvvActivity$LoadingDialogFragment"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.ReceiptScannerActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.walmart.android.app.main.ReceiptScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.ReceiptSubmitActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.ScannerBaseActivity$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.walmart.android.app.main.ReceiptScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.account.onlineorderhistory.impl.ui.TrackGuestOrderActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmart.core.account.onlineorderhistory.impl.ui.TrackGuestOrderActivity"
+            ],
+            "targets": [
+                "com.walmart.core.account.onlineorderhistory.impl.ui.TrackGuestOrderActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.account.onlineorderhistory.impl.ui.OrderDetailsActivity/void launch(android.content.Context,java.lang.String,java.lang.String,android.os.Bundle,java.lang.String)",
+            "sources": [
+                "com.walmart.core.account.onlineorderhistory.impl.ui.TrackGuestOrderActivity"
+            ],
+            "targets": [
+                "com.walmart.core.account.onlineorderhistory.impl.ui.OrderDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.submitted.ConfirmationActivity/void startConfirmation(android.app.Activity,int)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.external.AutomaticSubmitReceiptActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.submitted.ConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.settings.MobilePaySettingsFragment$4/void onClick(android.view.View)",
+            "sources": [
+                "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.chase.ChaseProvisioningActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity/void show(android.support.v4.app.Fragment,int)",
+            "sources": [
+                "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.settings.MobilePaySettingsFragment/void showConfirmation(int)",
+            "sources": [
+                "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.ConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.details.TransactionDetailsActivity/void startSubmittedTransactionDetails(android.content.Context,com.walmart.core.savingscatcher.model.SubmittedTransactions$SubmittedTransaction,android.view.View)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.details.TransactionDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.details.TransactionDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.submitted.ConfirmationActivity/void startConfirmation(android.app.Activity,int)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.details.TransactionDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.submitted.ConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.details.competitors.ItemDetailsActivity/void launchItemDetailsActivity(android.content.Context,com.walmart.core.savingscatcher.model.SavingsCatcherReceipt$ReceiptItem)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.details.TransactionDetailsActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.details.competitors.ItemDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.app.PickupActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.PickupActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.PickupActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.app.otw.CheckinOtwActivity/void launch(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.PickupActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.otw.CheckinOtwActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.help.HelpActivity/void startHelpActivity(android.content.Context,boolean)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.help.HelpActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.submitted.ConfirmationActivity/void startConfirmation(android.app.Activity,int)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.submitted.ConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.dashboard.LearnMoreActivity/void startLearnMore(android.app.Activity,int)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.dashboard.LearnMoreActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.dashboard.DashboardActivity/void onStartScanner()",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.scanner.SavingsCatcherScannerActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.details.TransactionDetailsActivity/void startSubmittedTransactionDetails(android.content.Context,com.walmart.core.savingscatcher.model.SubmittedTransactions$SubmittedTransaction,android.view.View)",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.details.TransactionDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.savingscatcher.app.dashboard.DashboardActivity/void onStartScanner()",
+            "sources": [
+                "com.walmart.core.savingscatcher.app.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.walmart.core.savingscatcher.app.scanner.SavingsCatcherEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.purchasehistory.search.PurchaseHistorySearchActivity/boolean startScanner()",
+            "sources": [
+                "com.walmart.core.purchasehistory.search.PurchaseHistorySearchActivity"
+            ],
+            "targets": [
+                "com.walmart.core.support.scanner.item.ItemScannerActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.wishlist.impl.app.WishListActivity/void launch(android.app.Activity,com.walmart.core.lists.wishlist.impl.app.WishListBuilder)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.wishlist.impl.app.WishListActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.home.TransactionHelper/void showConnectTransactionConfirmation(com.walmart.core.connect.transaction.model.Transaction)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.connect.transaction.confirmation.ConnectConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.BarcodeActionController/void startScanner(boolean,boolean)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.ReceiptScannerActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.HomeActivity$1/void onResult(com.walmartlabs.modularization.util.WalmartUri)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.search.impl.app.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.search.impl.app.BarcodeSearchActivity/void launchForUpcEntry(android.app.Activity,boolean)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.search.impl.app.BarcodeSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.WebPresenterActivity/void launch(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.WebPresenterActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.shared.app.BrowseActivity/void launch(android.content.Context,com.walmart.core.shop.api.BrowseBuilder)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.shared.app.BrowseActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.registry.impl.app.RegistryActivity/void launch(android.app.Activity,com.walmart.core.lists.registry.RegistryBuilder)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.registry.impl.app.RegistryActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.feedback.FeedbackActivity/void launchFeedback(android.content.Context,com.walmart.android.app.feedback.FeedbackActivity$FeedbackOptions)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.feedback.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.WalmartStartActivity/void checkVersion(com.walmart.core.config.impl.config.AppConfiguration)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.UpgradeActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.mpay.MobilePayTransactionController/void startConfirmation(android.content.Context,com.walmart.android.pay.model.Transaction)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.mpay.MobilePayActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.cp.impl.views.CategoryPageActivity/void launch(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.cp.impl.views.CategoryPageActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.HomeActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmart.android.app.main.HomeActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.instawatch.ui.InstaWatchActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmart.core.instawatch.ui.InstaWatchActivity"
+            ],
+            "targets": [
+                "com.walmart.core.instawatch.ui.InstaWatchActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.item.impl.app.ReturnPolicyActivity/void launch(android.app.Activity,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmart.core.item.impl.app.ReturnPolicyActivity"
+            ],
+            "targets": [
+                "com.walmart.core.item.impl.app.ReturnPolicyActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.android.pharmacy.fam.PharmacyFamAddDependentActivity/void launchAddDependentActivity(android.app.Activity,int)",
+            "sources": [
+                "com.walmartlabs.android.pharmacy.fam.PharmacyFamAddDependentActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.android.pharmacy.fam.PharmacyFamAddDependentActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.pickup.impl.app.otw.PickupAreaMapActivity$Companion/void launch(android.content.Context,java.lang.String,com.walmart.core.connect.api.data.ConnectOrder$AccessPoint)",
+            "sources": [
+                "com.walmart.core.pickup.impl.app.otw.PickupAreaMapActivity"
+            ],
+            "targets": [
+                "com.walmart.core.pickup.impl.app.otw.PickupAreaMapActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.wmpay.scanner.WalmartPayOverlayFragment$5$4/void onClick(android.view.View)",
+            "sources": [
+                "com.walmart.core.support.scanner.item.ItemScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.chase.ChaseProvisioningActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.mpay.MobilePayController/void startMoreInfo(android.content.Context)",
+            "sources": [
+                "com.walmart.core.support.scanner.item.ItemScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.mpay.MobilePayActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity/void show(android.support.v4.app.Fragment,int)",
+            "sources": [
+                "com.walmart.core.support.scanner.item.ItemScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.UpdateAppActivity/void start(android.content.Context,com.walmart.android.app.main.UpdateAppActivity$Options)",
+            "sources": [
+                "com.walmart.android.app.main.UpdateAppActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.UpdateAppActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.purchasehistory.list.PurchaseHistoryListFragment$3/void onLearnMoreClicked()",
+            "sources": [
+                "com.walmart.core.purchasehistory.PurchaseHistoryActivity"
+            ],
+            "targets": [
+                "com.walmart.core.purchasehistory.list.PurchaseHistoryStoreReturnsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.creditcard.impl.ui.SynchronyActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.walmart.core.creditcard.impl.ui.SynchronyActivity"
+            ],
+            "targets": [
+                "com.walmart.core.creditcard.impl.ui.SynchronyActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.suggested.store.impl.SuggestedStoreApiImpl/void launchSetLocation(android.app.Activity,int,android.os.Bundle)",
+            "sources": [
+                "com.walmart.core.suggested.store.impl.SelectStoreActivity"
+            ],
+            "targets": [
+                "com.walmart.core.suggested.store.impl.SetLocationActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.shop.impl.shared.filter.ShopFilterActivity/void launch(android.support.v4.app.Fragment,com.walmart.core.shop.impl.shared.filter.ShopFilterBuilder)",
+            "sources": [
+                "com.walmart.core.shop.impl.shared.filter.ShopFilterActivity"
+            ],
+            "targets": [
+                "com.walmart.core.shop.impl.shared.filter.ShopFilterActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity/void show(android.support.v4.app.Fragment,int)",
+            "sources": [
+                "com.walmart.core.wmpay.WalmartPayScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.settings.MobilePaySettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.wmpay.WalmartPayScannerActivity/boolean startPairing(java.lang.String,java.lang.String,boolean,boolean,float)",
+            "sources": [
+                "com.walmart.core.wmpay.WalmartPayScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.controller.mpay.MobilePayActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.wmpay.scanner.WalmartPayOverlayFragment$5$4/void onClick(android.view.View)",
+            "sources": [
+                "com.walmart.core.wmpay.WalmartPayScannerActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.chase.ChaseProvisioningActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storemode.freeosk.controller.external.ExternalActivity/void startExternalActivity(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmart.core.storemode.freeosk.controller.external.ExternalActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storemode.freeosk.controller.external.ExternalActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.lists.registry.impl.app.RegistryActivity/void launch(android.app.Activity,com.walmart.core.lists.registry.RegistryBuilder)",
+            "sources": [
+                "com.walmart.core.lists.registry.impl.app.RegistryActivity"
+            ],
+            "targets": [
+                "com.walmart.core.lists.registry.impl.app.RegistryActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.moneytransfer.ui.VendorReceiptActivity/void start(android.content.Context,com.walmart.core.moneyservices.impl.service.datamodel.TransactionType,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.VendorReceiptActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.VendorReceiptActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.MainActivity/void moveToNextActivity()",
+            "sources": [
+                "com.walmart.android.app.main.MainActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.MainActivity/void moveToNextActivity()",
+            "sources": [
+                "com.walmart.android.app.main.MainActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.UpgradeActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.MainActivity/void moveToNextActivity()",
+            "sources": [
+                "com.walmart.android.app.main.MainActivity"
+            ],
+            "targets": [
+                "com.walmart.android.pay.chase.ChaseProvisioningActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.MainActivity/void moveToNextActivity()",
+            "sources": [
+                "com.walmart.android.app.main.MainActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.android.app.main.MainActivity/void moveToNextActivity()",
+            "sources": [
+                "com.walmart.android.app.main.MainActivity"
+            ],
+            "targets": [
+                "com.walmart.android.app.main.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storelocator.impl.app.StoreViewPresenter$4/void onClick(android.view.View)",
+            "sources": [
+                "com.walmart.core.storelocator.impl.app.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storelocator.impl.search.StoreFinderSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storelocator.impl.app.StoreFinderActivity/void launchPickerForResult(android.support.v4.app.Fragment,int,com.walmart.core.storelocator.api.StoreFinderOptions)",
+            "sources": [
+                "com.walmart.core.storelocator.impl.app.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storelocator.impl.app.StoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.storelocator.impl.app.StoreFinderActivity/void launchPickerForResult(android.support.v4.app.Fragment,int,com.walmart.core.storelocator.api.StoreFinderOptions)",
+            "sources": [
+                "com.walmart.core.storelocator.impl.app.StoreFinderActivity"
+            ],
+            "targets": [
+                "com.walmart.core.storelocator.impl.app.ZipCodeStoreFinderActivity"
+            ]
+        },
+        {
+            "handler": "com.walmartlabs.ereceipt.EReceiptReturnActivity/void launch(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.walmartlabs.ereceipt.EReceiptReturnActivity"
+            ],
+            "targets": [
+                "com.walmartlabs.ereceipt.EReceiptReturnActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferActivity/void startForResult(android.app.Activity,int,com.walmart.core.moneyservices.impl.service.datamodel.TransactionType,java.lang.String,com.walmart.core.moneyservices.impl.moneytransfer.content.MoneyTransferData)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.ui.ComplianceUiDelegate/void showWalmartPrivacyPolicy(android.content.Context,com.walmart.core.moneyservices.impl.service.datamodel.TransactionType)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.ComplianceMessageActivity"
+            ]
+        },
+        {
+            "handler": "com.walmart.core.moneyservices.impl.dynamicform.ui.DynamicFormFragment/void onCaptureImageFieldClicked(com.walmart.core.moneyservices.impl.service.datamodel.Field)",
+            "sources": [
+                "com.walmart.core.moneyservices.impl.moneytransfer.ui.MoneyTransferActivity"
+            ],
+            "targets": [
+                "com.walmart.core.moneyservices.impl.imagecapture.MoneyServicesCameraActivity"
+            ]
+        }
+    ]
+}

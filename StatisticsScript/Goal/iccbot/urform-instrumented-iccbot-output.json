@@ -1,0 +1,256 @@
+{
+    "transitions": [
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/void startEdit(com.threedlite.urforms.data.Entity)",
+            "sources": [
+                "com.threedlite.urforms.BackupRestoreActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.BackupRestoreActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.ManageFormsActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.BackupRestoreActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.BackupRestoreActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.BackupRestoreActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.SearchDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/void startEdit(com.threedlite.urforms.data.Entity)",
+            "sources": [
+                "com.threedlite.urforms.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.BackupRestoreActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.ManageFormsActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.SearchDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.SearchDataActivity/void doSearch(com.threedlite.urforms.data.Entity)",
+            "sources": [
+                "com.threedlite.urforms.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.SearchDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.BackupRestoreActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.ManageFormsActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/void startEdit(com.threedlite.urforms.data.Entity)",
+            "sources": [
+                "com.threedlite.urforms.SearchResultsActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.SearchDataActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.ManageFormsActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.SearchDataActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.SearchDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/void startEdit(com.threedlite.urforms.data.Entity)",
+            "sources": [
+                "com.threedlite.urforms.SearchDataActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.SearchDataActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.BackupRestoreActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.SearchDataActivity/void doSearch(com.threedlite.urforms.data.Entity)",
+            "sources": [
+                "com.threedlite.urforms.SearchDataActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.ManageFormsActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.ManageFormsActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.ManageFormsActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.SearchDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/void startEdit(com.threedlite.urforms.data.Entity)",
+            "sources": [
+                "com.threedlite.urforms.ManageFormsActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.ManageFormsActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.BackupRestoreActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/void startEdit(com.threedlite.urforms.data.Entity)",
+            "sources": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.SearchDataActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.BackupRestoreActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.EditViewFactory/void startSelectForResult(android.app.Activity,com.threedlite.urforms.data.Entity,java.lang.String)",
+            "sources": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.EditViewFactory/void startChooseFileForResult(android.app.Activity,com.threedlite.urforms.data.Entity,java.lang.String)",
+            "sources": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.UrformsFileChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.threedlite.urforms.BaseActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.threedlite.urforms.EnterDataActivity"
+            ],
+            "targets": [
+                "com.threedlite.urforms.ManageFormsActivity"
+            ]
+        }
+    ]
+}

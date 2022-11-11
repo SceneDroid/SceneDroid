@@ -1,0 +1,294 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+com.kursx.smartbook_2022-04-10: OutputDir not a directory: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.kursx.smartbook_2022-04-10
+Found 54 entrypoint classes and 107 methods in overall
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.load.c: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+com.kursx.smartbook.dictionary.f0: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.dictionary.settings.h: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.bookshelf.v: Finished processing of entrypoints after 0 seconds.
+com.kursx.smartbook.cards.c: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.g: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.h: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.pronunciation.a: Finished processing of entrypoints after 0 seconds.
+com.kursx.smartbook.settings.i: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.parallator.p: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.ui.main.a: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.ui.chapters.g: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.reader.c: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.pronunciation.b: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.kursx.smartbook.ui.chapters.ChaptersActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.kursx.smartbook.statistics.StatisticsActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 1 reachable methods from <com.kursx.smartbook.settings.reader.InterfaceSettingsActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.translation.screen.e: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 2 reachable methods from <com.kursx.smartbook.reader.ReaderActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 4 reachable methods from <com.kursx.smartbook.dictionary.DictionaryActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 4 reachable methods from <com.kursx.smartbook.news.NewsActivity: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <com.kursx.smartbook.files.FilesActivity: void onCreate(android.os.Bundle)>
+Found 6 reachable methods from <com.kursx.smartbook.bookshelf.BookmarksActivity: void onCreate(android.os.Bundle)>
+com.kursx.smartbook.news.NewsActivity: Finished processing of entrypoints after 0 seconds.
+Found 9 reachable methods from <com.kursx.smartbook.statistics.a: void onCreate(android.os.Bundle)>
+Found 12 reachable methods from <com.kursx.smartbook.bookshelf.BooksActivity: void onCreate(android.os.Bundle)>
+Found 9 reachable methods from <com.kursx.smartbook.statistics.a: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.files.FilesActivity: Finished processing of entrypoints after 1 seconds.
+com.kursx.smartbook.bookshelf.BookmarksActivity: Finished processing of entrypoints after 1 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.dictionary.g0: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.bookshelf.w: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 14 reachable methods from <com.kursx.smartbook.statistics.StatisticsActivity: void onCreate(android.os.Bundle)>
+Found 13 reachable methods from <com.kursx.smartbook.ui.main.MainActivity: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <com.kursx.smartbook.ui.chapters.ChaptersActivity: void onCreate(android.os.Bundle)>
+Found 18 reachable methods from <com.kursx.smartbook.parallator.ParallatorActivity: void onCreate(android.os.Bundle)>
+Found 10 reachable methods from <com.kursx.smartbook.dictionary.settings.DictionarySettingsActivity: void onCreate(android.os.Bundle)>
+Found 6 reachable methods from <com.kursx.smartbook.reader.ReaderActivity: void onCreate(android.os.Bundle)>
+com.kursx.smartbook.reader.ReaderActivity: Finished processing of entrypoints after 1 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.store.c: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.kursx.smartbook.bookshelf.BooksActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.ui.chapters.ChaptersActivity: Finished processing of entrypoints after 1 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.bookshelf.BooksActivity: Finished processing of entrypoints after 2 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.home.b: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.statistics.a: Finished processing of entrypoints after 2 seconds.
+com.kursx.smartbook.files.o: Finished processing of entrypoints after 0 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.dictionary.settings.DictionarySettingsActivity: Finished processing of entrypoints after 2 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.ui.settings.translators.a: Finished processing of entrypoints after 0 seconds.
+Found 6 reachable methods from <com.kursx.smartbook.reader.ImageActivity: void onCreate(android.os.Bundle)>
+com.kursx.smartbook.ui.main.MainActivity: Finished processing of entrypoints after 2 seconds.
+Found 0 reachable methods from <ke.h: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.reader.e: Finished processing of entrypoints after 0 seconds.
+Found 10 reachable methods from <com.kursx.smartbook.settings.pronunciation.VoicesActivity: void onCreate(android.os.Bundle)>
+Found 6 reachable methods from <com.kursx.smartbook.reader.HintActivity: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.reader.ImageActivity: Finished processing of entrypoints after 0 seconds.
+com.kursx.smartbook.statistics.b: Finished processing of entrypoints after 2 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.pronunciation.VoicesActivity: Finished processing of entrypoints after 1 seconds.
+com.kursx.smartbook.parallator.ParallatorActivity: Finished processing of entrypoints after 2 seconds.
+Found 6 reachable methods from <com.kursx.smartbook.ui.settings.translators.TranslatorsActivity: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.ui.settings.translators.TranslatorsActivity: Finished processing of entrypoints after 0 seconds.
+Found 1 reachable methods from <com.kursx.smartbook.reader.HintActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.reader.HintActivity: Finished processing of entrypoints after 1 seconds.
+Found 30 reachable methods from <com.kursx.smartbook.load.LoadActivity: void onCreate(android.os.Bundle)>
+com.kursx.smartbook.statistics.StatisticsActivity: Finished processing of entrypoints after 3 seconds.
+Did not find string name from string id: id: 2131952319
+Did not find string name from string id: id: 2131952496
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.load.LoadActivity: Finished processing of entrypoints after 3 seconds.
+Found 22 reachable methods from <com.kursx.smartbook.translation.screen.TranslationActivity: void onCreate(android.os.Bundle)>
+Found 25 reachable methods from <com.kursx.smartbook.cards.WordEditingActivity: void onCreate(android.os.Bundle)>
+Found 25 reachable methods from <com.kursx.smartbook.cards.WordCreatingActivity: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.translation.screen.TranslationActivity: Finished processing of entrypoints after 2 seconds.
+Found 60 reachable methods from <com.kursx.smartbook.settings.reader.InterfaceSettingsActivity: void onCreate(android.os.Bundle)>
+com.kursx.smartbook.settings.reader.InterfaceSettingsActivity: Finished processing of entrypoints after 5 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.cards.WordEditingActivity: Finished processing of entrypoints after 6 seconds.
+com.kursx.smartbook.cards.WordCreatingActivity: Finished processing of entrypoints after 5 seconds.
+Found 46 reachable methods from <com.kursx.smartbook.store.StoreActivity: void onCreate(android.os.Bundle)>
+Found 14 reachable methods from <com.kursx.smartbook.settings.pronunciation.SpeechActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<se.a: android.widget.TextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = $r1.<se.a: android.widget.TextView n>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = $r1.<se.a: android.widget.TextView o>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = $r1.<se.a: android.widget.TextView i>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = $r8.<se.a: android.widget.TextView b>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = $r8.<se.a: android.widget.TextView k>
+com.kursx.smartbook.store.StoreActivity: Finished processing of entrypoints after 6 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.pronunciation.SpeechActivity: Finished processing of entrypoints after 7 seconds.
+Found 32 reachable methods from <com.kursx.smartbook.dictionary.ExportActivity: void onCreate(android.os.Bundle)>
+Found 9 reachable methods from <com.kursx.smartbook.home.SharingActivity: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.home.SharingActivity: Finished processing of entrypoints after 5 seconds.
+Found 31 reachable methods from <com.kursx.smartbook.dictionary.DictionaryActivity: void onCreate(android.os.Bundle)>
+com.kursx.smartbook.dictionary.DictionaryActivity: Finished processing of entrypoints after 8 seconds.
+Found 50 reachable methods from <com.kursx.smartbook.settings.SettingsActivity: void onCreate(android.os.Bundle)>
+Found 42 reachable methods from <com.kursx.smartbook.settings.SubSettingsActivity: void onCreate(android.os.Bundle)>
+Found 42 reachable methods from <com.kursx.smartbook.settings.SubSettingsActivity: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.SettingsActivity: Finished processing of entrypoints after 9 seconds.
+Found 42 reachable methods from <com.kursx.smartbook.settings.SubSettingsActivity: void onCreate(android.os.Bundle)>
+Found 42 reachable methods from <com.kursx.smartbook.settings.SubSettingsActivity: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.NotificationsSettings: Finished processing of entrypoints after 9 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.bookshelf.BookSettingsActivity: Finished processing of entrypoints after 9 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.AdvancedSettings: Finished processing of entrypoints after 9 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.SubSettingsActivity: Finished processing of entrypoints after 9 seconds.
+Found 70 reachable methods from <com.kursx.smartbook.settings.QuickSettingsActivity: void onCreate(android.os.Bundle)>
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.settings.QuickSettingsActivity: Finished processing of entrypoints after 10 seconds.
+Found 0 reachable methods from <ke.h: boolean onCreateOptionsMenu(android.view.Menu)>
+com.kursx.smartbook.dictionary.ExportActivity: Finished processing of entrypoints after 19 seconds.
+Did not find string name from string id: id: 1
+AppController:addText: elementID not found for adding text: elementID: 2131362571
+Did not find string name from string id: id: 2131952418
+AppController:addText: elementID not found for adding text: elementID: 0
+Did not find string name from string id: id: 2131951655
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 0
+Did not find string name from string id: id: 2131952418
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 2131558722
+Did not find string name from string id: id: 2131952418
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 2131362843
+AppController:addText: elementID not found for adding text: elementID: 2131362844
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 0
+Did not find string name from string id: id: 1
+AppController:addText: elementID not found for adding text: elementID: 2131362571
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 0
+Did not find string name from string id: id: 1
+AppController:addText: elementID not found for adding text: elementID: 2131362571
+AppController:addText: elementID not found for adding text: elementID: 2131362287
+Did not find string name from string id: id: 2131952448
+AppController:addText: elementID not found for adding text: elementID: 0
+Did not find string name from string id: id: 1
+AppController:addText: elementID not found for adding text: elementID: 2131362571
+AppController:addText: elementID not found for adding text: elementID: 0
+Did not find string name from string id: id: 2131952418
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 2131362828
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.kursx.smartbook_2022-04-10/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 20.118275049 seconds
+Entry point creation has run for 0.008792456 seconds
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.030592995 seconds

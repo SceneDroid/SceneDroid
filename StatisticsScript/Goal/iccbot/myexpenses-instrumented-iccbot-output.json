@@ -1,0 +1,139 @@
+{
+    "transitions": [
+        {
+            "handler": "org.totschnig.myexpenses.SelectCategory/void importCats(android.view.View)",
+            "sources": [
+                "org.totschnig.myexpenses.SelectCategory"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.GrisbiImport"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.ManageAccounts/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "org.totschnig.myexpenses.ManageAccounts"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.AccountEdit"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.ExpenseEdit/void startSelectCategory()",
+            "sources": [
+                "org.totschnig.myexpenses.ExpenseEdit"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.SelectCategory"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.ManageMethods/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "org.totschnig.myexpenses.ManageMethods"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.MethodEdit"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.MyExpenses/boolean dispatchCommand(int,java.lang.Object)",
+            "sources": [
+                "org.totschnig.myexpenses.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.AccountEdit"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.MyExpenses/void createRow(boolean)",
+            "sources": [
+                "org.totschnig.myexpenses.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.ExpenseEdit"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.MyExpenses/boolean dispatchCommand(int,java.lang.Object)",
+            "sources": [
+                "org.totschnig.myexpenses.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.Backup"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.MyExpenses/boolean dispatchCommand(int,java.lang.Object)",
+            "sources": [
+                "org.totschnig.myexpenses.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.MyPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.MyExpenses/boolean dispatchCommand(int,java.lang.Object)",
+            "sources": [
+                "org.totschnig.myexpenses.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.ManageAccounts"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.MyExpenses/boolean dispatchCommand(int,java.lang.Object)",
+            "sources": [
+                "org.totschnig.myexpenses.MyExpenses"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.MyPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.MyExpenses/boolean dispatchCommand(int,java.lang.Object)",
+            "sources": [
+                "org.totschnig.myexpenses.MyExpenses"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.Backup"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.MyExpenses/void createRow(boolean)",
+            "sources": [
+                "org.totschnig.myexpenses.MyExpenses"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.ExpenseEdit"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.MyExpenses/boolean dispatchCommand(int,java.lang.Object)",
+            "sources": [
+                "org.totschnig.myexpenses.MyExpenses"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.ManageAccounts"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.MyExpenses/boolean dispatchCommand(int,java.lang.Object)",
+            "sources": [
+                "org.totschnig.myexpenses.MyExpenses"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.AccountEdit"
+            ]
+        },
+        {
+            "handler": "org.totschnig.myexpenses.ManageTemplates/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.totschnig.myexpenses.ManageTemplates"
+            ],
+            "targets": [
+                "org.totschnig.myexpenses.ExpenseEdit"
+            ]
+        }
+    ]
+}

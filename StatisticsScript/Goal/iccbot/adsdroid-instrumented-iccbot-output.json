@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "hu.vsza.adsdroid.SearchPanel$SearchByPartName/void onPostExecute(java.util.ArrayList)",
+            "sources": [
+                "hu.vsza.adsdroid.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "hu.vsza.adsdroid.PartList"
+            ]
+        },
+        {
+            "handler": "hu.vsza.adsdroid.SearchPanel$SearchByPartName/void onPostExecute(java.util.ArrayList)",
+            "sources": [
+                "hu.vsza.adsdroid.SearchPanel"
+            ],
+            "targets": [
+                "hu.vsza.adsdroid.PartList"
+            ]
+        }
+    ]
+}

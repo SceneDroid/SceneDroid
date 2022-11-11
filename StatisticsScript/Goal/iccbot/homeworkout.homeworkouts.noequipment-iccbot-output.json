@@ -1,0 +1,220 @@
+{
+    "transitions": [
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.ResultCalendarActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.ResultCalendarActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.MainActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.DebugActivity/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.DebugActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.AllExerciseActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.InstructionActivity/void a(android.content.Context,homeworkout.homeworkouts.noequipment.f.i,boolean,boolean,int,boolean,boolean)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.DebugActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.InstructionActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.TipsListActivity/void a(android.content.Context,int)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.TipsActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.TipsListActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.TipsActivity/void a(android.content.Context,int,int)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.TipsActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.TipsActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.setting.SettingReminderActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.setting.SettingReminderActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.MainActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.MainActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.MainActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.LWCalendarActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.MainActivity$13/void onClick(android.view.View)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.MainActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.AloneAdActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.MainActivity$9/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.MainActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.MainActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.TipsListActivity/void a(android.content.Context,int)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.TipsListActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.TipsListActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.TipsActivity/void a(android.content.Context,int,int)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.TipsListActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.TipsActivity"
+            ]
+        },
+        {
+            "handler": "com.my.target.core.utils.j/void a(java.lang.String)",
+            "sources": [
+                "com.my.target.ads.MyTargetActivity"
+            ],
+            "targets": [
+                "com.my.target.ads.MyTargetActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.ExerciseResultActivity/void k()",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.ExerciseResultActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.ExerciseActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.ExerciseResultActivity/void r()",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.ExerciseResultActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.setting.SettingReminderActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.ExerciseResultActivity/void l()",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.ExerciseResultActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.LWHistoryActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.InstructionActivity/void a(android.content.Context,homeworkout.homeworkouts.noequipment.f.i,boolean,boolean,int,boolean,boolean)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.TwentyOneDaysChallengeActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.InstructionActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.TwentyOneDaysChallengeActivity/void a(android.app.Activity,int)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.TwentyOneDaysChallengeActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.TwentyOneDaysChallengeActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.AllExerciseActivity$4/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.AllExerciseActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.ActionPreviewActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.LWHistoryActivity/void r()",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.LWHistoryActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.MainActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.InstructionActivity/void c(int)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.InstructionActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.ExerciseActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.InstructionActivity/void a(android.content.Context,homeworkout.homeworkouts.noequipment.f.i,boolean,boolean,int,boolean,boolean)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.InstructionActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.InstructionActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.ExerciseActivity/void r()",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.ExerciseActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.ExerciseResultActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.ExerciseActivity/void d(int)",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.ExerciseActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.MainActivity"
+            ]
+        },
+        {
+            "handler": "homeworkout.homeworkouts.noequipment.SettingActivity/void k()",
+            "sources": [
+                "homeworkout.homeworkouts.noequipment.SettingActivity"
+            ],
+            "targets": [
+                "homeworkout.homeworkouts.noequipment.MainActivity"
+            ]
+        }
+    ]
+}

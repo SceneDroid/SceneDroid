@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "jpf.android.diary.Diary/void showText(int)",
+            "sources": [
+                "jpf.android.diary.Diary"
+            ],
+            "targets": [
+                "jpf.android.diary.Text"
+            ]
+        }
+    ]
+}

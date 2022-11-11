@@ -1,0 +1,229 @@
+{
+    "transitions": [
+        {
+            "handler": "com.teleca.jamendo.activity.PlayerActivity/void launch(android.content.Context,com.teleca.jamendo.api.Playlist)",
+            "sources": [
+                "com.teleca.jamendo.activity.AlbumActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.PlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.SettingsActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.teleca.jamendo.activity.SettingsActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.PlaylistActivity/void launch(android.content.Context,boolean)",
+            "sources": [
+                "com.teleca.jamendo.activity.BrowsePlaylistActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.PlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.BrowsePlaylistActivity/void launchSave(android.app.Activity,com.teleca.jamendo.api.Playlist)",
+            "sources": [
+                "com.teleca.jamendo.activity.BrowsePlaylistActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.BrowsePlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.PlayerActivity/void launch(android.content.Context,com.teleca.jamendo.api.Playlist)",
+            "sources": [
+                "com.teleca.jamendo.activity.RadioActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.PlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.RadioActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.teleca.jamendo.activity.RadioActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.RadioActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.IntentDistributorActivity/void distributeIntent()",
+            "sources": [
+                "com.teleca.jamendo.activity.IntentDistributorActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.PlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.HomeActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.teleca.jamendo.activity.SplashscreenActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.PlaylistActivity/void launch(android.content.Context,boolean)",
+            "sources": [
+                "com.teleca.jamendo.activity.PlaylistActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.PlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.BrowsePlaylistActivity/void launchSave(android.app.Activity,com.teleca.jamendo.api.Playlist)",
+            "sources": [
+                "com.teleca.jamendo.activity.PlaylistActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.BrowsePlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.PlayerActivity/void launch(android.content.Context,com.teleca.jamendo.api.Playlist)",
+            "sources": [
+                "com.teleca.jamendo.activity.PlaylistActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.PlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.RadioActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.teleca.jamendo.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.RadioActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.HomeActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.teleca.jamendo.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.BrowsePlaylistActivity/void launch(android.content.Context,com.teleca.jamendo.activity.BrowsePlaylistActivity$Mode)",
+            "sources": [
+                "com.teleca.jamendo.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.BrowsePlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.SearchActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.teleca.jamendo.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.DownloadActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.teleca.jamendo.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.DownloadActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.SettingsActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.teleca.jamendo.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.PlayerActivity/void launch(android.content.Context,com.teleca.jamendo.api.Playlist)",
+            "sources": [
+                "com.teleca.jamendo.activity.HomeActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.PlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.SearchActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.teleca.jamendo.activity.SearchActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.HomeActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.teleca.jamendo.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.DownloadActivity/void launch(android.content.Context)",
+            "sources": [
+                "com.teleca.jamendo.activity.DownloadActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.DownloadActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.PlayerActivity/void homeClickHandler(android.view.View)",
+            "sources": [
+                "com.teleca.jamendo.activity.PlayerActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.PlayerActivity/void launch(android.content.Context,com.teleca.jamendo.api.Playlist)",
+            "sources": [
+                "com.teleca.jamendo.activity.PlayerActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.PlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.PlaylistActivity/void launch(android.content.Context,boolean)",
+            "sources": [
+                "com.teleca.jamendo.activity.PlayerActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.PlaylistActivity"
+            ]
+        },
+        {
+            "handler": "com.teleca.jamendo.activity.PlayerActivity/void equalizerOnClick(android.view.View)",
+            "sources": [
+                "com.teleca.jamendo.activity.PlayerActivity"
+            ],
+            "targets": [
+                "com.teleca.jamendo.activity.EqualizerActivity"
+            ]
+        }
+    ]
+}

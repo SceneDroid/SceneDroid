@@ -1,0 +1,41 @@
+public class com.iccbot.withFrag.Frag1WithFrag extends android.support.v4.app.Fragment
+{
+
+    public void <init>()
+    {
+        com.iccbot.withFrag.Frag1WithFrag r0;
+
+        r0 := @this: com.iccbot.withFrag.Frag1WithFrag;
+
+        specialinvoke r0.<android.support.v4.app.Fragment: void <init>()>();
+
+        return;
+    }
+
+    public void onAttach(android.app.Activity)
+    {
+        com.iccbot.withFrag.Frag1WithFrag r0;
+        android.app.Activity $r1;
+        android.content.Intent r2;
+        android.support.v4.app.FragmentActivity $r3;
+        android.content.Context $r4;
+
+        r0 := @this: com.iccbot.withFrag.Frag1WithFrag;
+
+        $r1 := @parameter0: android.app.Activity;
+
+        r2 = new android.content.Intent;
+
+        $r3 = virtualinvoke r0.<com.iccbot.withFrag.Frag1WithFrag: android.support.v4.app.FragmentActivity getActivity()>();
+
+        $r4 = virtualinvoke $r3.<android.support.v4.app.FragmentActivity: android.content.Context getBaseContext()>();
+
+        specialinvoke r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r4, class "Lcom/iccbot/withFrag/Des1WithFrag;");
+
+        $r3 = virtualinvoke r0.<com.iccbot.withFrag.Frag1WithFrag: android.support.v4.app.FragmentActivity getActivity()>();
+
+        virtualinvoke $r3.<android.support.v4.app.FragmentActivity: void startActivity(android.content.Intent)>(r2);
+
+        return;
+    }
+}

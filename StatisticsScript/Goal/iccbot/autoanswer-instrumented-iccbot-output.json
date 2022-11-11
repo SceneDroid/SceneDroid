@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "com.everysoft.autoanswer.AutoAnswerNotifier/void enableNotification()",
+            "sources": [
+                "com.everysoft.autoanswer.AutoAnswerPreferenceActivity"
+            ],
+            "targets": [
+                "com.everysoft.autoanswer.AutoAnswerPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "com.everysoft.autoanswer.AutoAnswerNotifier/void enableNotification()",
+            "sources": [
+                "com.everysoft.autoanswer.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.everysoft.autoanswer.AutoAnswerPreferenceActivity"
+            ]
+        }
+    ]
+}

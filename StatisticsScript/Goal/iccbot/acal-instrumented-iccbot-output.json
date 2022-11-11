@@ -1,0 +1,454 @@
+{
+    "transitions": [
+        {
+            "handler": "com.morphoss.acal.activity.JournalListView/void startMonthView()",
+            "sources": [
+                "com.morphoss.acal.activity.JournalListView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.MonthView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.JournalListAdapter/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.activity.JournalListView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.JournalView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.JournalListAdapter/boolean contextClick(android.view.MenuItem)",
+            "sources": [
+                "com.morphoss.acal.activity.JournalListView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.JournalEdit"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.JournalListView/void startSettings()",
+            "sources": [
+                "com.morphoss.acal.activity.JournalListView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.Settings"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.AlarmActivity$1/void run()",
+            "sources": [
+                "com.morphoss.acal.activity.AlarmActivity"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.AlarmActivity"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.weekview.WeekViewActivity/void startSettings()",
+            "sources": [
+                "com.morphoss.acal.weekview.WeekViewActivity"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.Settings"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.weekview.WeekViewActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.weekview.WeekViewActivity"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.YearView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.weekview.WeekViewActivity/boolean onSingleTapUp(android.view.MotionEvent)",
+            "sources": [
+                "com.morphoss.acal.weekview.WeekViewActivity"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.EventView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.weekview.WeekViewActivity/void startTodoList()",
+            "sources": [
+                "com.morphoss.acal.weekview.WeekViewActivity"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.TodoListView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.weekview.WeekViewActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.weekview.WeekViewActivity"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.MonthView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.weekview.WeekViewActivity/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.morphoss.acal.weekview.WeekViewActivity"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.EventEdit"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCalTasks/void startPreferredView(android.content.SharedPreferences,android.app.Activity)",
+            "sources": [
+                "com.morphoss.acal.aCalTasks"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.TodoListView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCalNotes/void startPreferredView(android.content.SharedPreferences,android.app.Activity)",
+            "sources": [
+                "com.morphoss.acal.aCalNotes"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.JournalListView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.serverconfig.AddServerList/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.activity.serverconfig.AddServerList"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.serverconfig.ServerConfiguration"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.MonthView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.morphoss.acal.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.ShowUpgradeChanges"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.serverconfig.NewServerConfiguration"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.morphoss.acal.weekview.WeekViewActivity"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.TodoListView/void startMonthView()",
+            "sources": [
+                "com.morphoss.acal.activity.TodoListView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.MonthView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.TodoListAdapter/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.activity.TodoListView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.TodoView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.TodoListView/void startSettings()",
+            "sources": [
+                "com.morphoss.acal.activity.TodoListView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.Settings"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.TodoListAdapter/boolean contextClick(android.view.MenuItem)",
+            "sources": [
+                "com.morphoss.acal.activity.TodoListView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.TodoEdit"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.activity.ShowUpgradeChanges"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.serverconfig.NewServerConfiguration"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.activity.ShowUpgradeChanges"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.MonthView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.activity.ShowUpgradeChanges"
+            ],
+            "targets": [
+                "com.morphoss.acal.weekview.WeekViewActivity"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.YearView/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.activity.YearView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.EventEdit"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.serverconfig.ServerConfigList$ServerListClickListener/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.morphoss.acal.activity.serverconfig.ServerConfigList"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.serverconfig.ServerConfiguration"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.serverconfig.ServerConfigList/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.activity.serverconfig.ServerConfigList"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.serverconfig.AddServerList"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.TodoView/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.activity.TodoView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.TodoEdit"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.activity.serverconfig.NewServerConfiguration"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.MonthView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.activity.serverconfig.NewServerConfiguration"
+            ],
+            "targets": [
+                "com.morphoss.acal.weekview.WeekViewActivity"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.activity.serverconfig.NewServerConfiguration"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.serverconfig.NewServerConfiguration"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.MonthView/void startSettings()",
+            "sources": [
+                "com.morphoss.acal.activity.MonthView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.Settings"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.EventListAdapter/boolean contextClick(android.view.MenuItem)",
+            "sources": [
+                "com.morphoss.acal.activity.MonthView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.EventEdit"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.MonthView/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.activity.MonthView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.YearView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.MonthView/void startTodoList()",
+            "sources": [
+                "com.morphoss.acal.activity.MonthView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.TodoListView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.MonthView/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.activity.MonthView"
+            ],
+            "targets": [
+                "com.morphoss.acal.weekview.WeekViewActivity"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.EventListAdapter/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.activity.MonthView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.EventView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.EventView/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.activity.EventView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.EventEdit"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.CollectionConfigList/boolean onPreferenceClick(android.preference.Preference)",
+            "sources": [
+                "com.morphoss.acal.activity.CollectionConfigList"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.CollectionConfiguration"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.aCal"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.MonthView"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.morphoss.acal.aCal"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.ShowUpgradeChanges"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.aCal"
+            ],
+            "targets": [
+                "com.morphoss.acal.weekview.WeekViewActivity"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.aCal/void startPreferredView(android.content.SharedPreferences,android.app.Activity,boolean)",
+            "sources": [
+                "com.morphoss.acal.aCal"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.serverconfig.NewServerConfiguration"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.Settings/void serverConfig()",
+            "sources": [
+                "com.morphoss.acal.activity.Settings"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.serverconfig.ServerConfigList"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.Settings/void debugOptions()",
+            "sources": [
+                "com.morphoss.acal.activity.Settings"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.DebugSettings"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.Settings/void collectionConfig()",
+            "sources": [
+                "com.morphoss.acal.activity.Settings"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.CollectionConfigList"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.Settings/void showUpdateInformation()",
+            "sources": [
+                "com.morphoss.acal.activity.Settings"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.ShowUpgradeChanges"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.Settings/void preferences()",
+            "sources": [
+                "com.morphoss.acal.activity.Settings"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.AcalPreferences"
+            ]
+        },
+        {
+            "handler": "com.morphoss.acal.activity.JournalView/void onClick(android.view.View)",
+            "sources": [
+                "com.morphoss.acal.activity.JournalView"
+            ],
+            "targets": [
+                "com.morphoss.acal.activity.JournalEdit"
+            ]
+        }
+    ]
+}

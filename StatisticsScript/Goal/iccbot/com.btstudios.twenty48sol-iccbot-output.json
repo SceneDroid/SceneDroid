@@ -1,0 +1,157 @@
+{
+    "transitions": [
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.RewardedMraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long,int,boolean)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.mobvista.msdk.base.utils.k$a/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mobvista.msdk.interstitial.view.MVInterstitialActivity"
+            ],
+            "targets": [
+                "io.presage.activities.PresageActivity"
+            ]
+        },
+        {
+            "handler": "com.tapjoy.TJContentActivity/void start(android.content.Context,com.tapjoy.TJContentActivity$ContentProducer,boolean)",
+            "sources": [
+                "com.tapjoy.TJContentActivity"
+            ],
+            "targets": [
+                "com.tapjoy.TJContentActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void startMraid(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.chartboost.sdk.c/void a(android.app.Activity,com.chartboost.sdk.Model.c)",
+            "sources": [
+                "com.chartboost.sdk.CBImpressionActivity"
+            ],
+            "targets": [
+                "com.chartboost.sdk.CBImpressionActivity"
+            ]
+        },
+        {
+            "handler": "com.applovin.impl.adview.cb/void a(android.content.Context)",
+            "sources": [
+                "com.applovin.adview.AppLovinInterstitialActivity"
+            ],
+            "targets": [
+                "com.applovin.adview.AppLovinInterstitialActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.facebook.unity.FBUnityLoginActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.millennialmedia.internal.MMIntentWrapperActivity/void launch(android.content.Context,android.content.Intent,com.millennialmedia.internal.MMIntentWrapperActivity$MMIntentWrapperListener)",
+            "sources": [
+                "com.millennialmedia.internal.MMIntentWrapperActivity"
+            ],
+            "targets": [
+                "com.millennialmedia.internal.MMIntentWrapperActivity"
+            ]
+        },
+        {
+            "handler": "com.millennialmedia.internal.MMActivity/void launch(android.content.Context,com.millennialmedia.internal.MMActivity$MMActivityConfig,com.millennialmedia.internal.MMActivity$MMActivityListener)",
+            "sources": [
+                "com.millennialmedia.internal.MMActivity"
+            ],
+            "targets": [
+                "com.millennialmedia.internal.MMActivity"
+            ]
+        },
+        {
+            "handler": "com.hyprmx.android.sdk.utility.HyprMXViewUtilities/void handleTransition(android.app.Activity,com.hyprmx.android.sdk.api.data.Offer,boolean)",
+            "sources": [
+                "com.iqzone.activities.InterstitialActivity"
+            ],
+            "targets": [
+                "com.hyprmx.android.sdk.activity.HyprMXNoOffersActivity"
+            ]
+        },
+        {
+            "handler": "com.hyprmx.android.sdk.utility.HyprMXViewUtilities/void handleTransition(android.app.Activity,com.hyprmx.android.sdk.api.data.Offer,boolean)",
+            "sources": [
+                "com.iqzone.activities.InterstitialActivity"
+            ],
+            "targets": [
+                "com.hyprmx.android.sdk.activity.HyprMXRequiredInformationActivity"
+            ]
+        },
+        {
+            "handler": "com.hyprmx.android.sdk.utility.HyprMXViewUtilities/void handleTransition(android.app.Activity,com.hyprmx.android.sdk.api.data.Offer,boolean)",
+            "sources": [
+                "com.iqzone.activities.InterstitialActivity"
+            ],
+            "targets": [
+                "com.hyprmx.android.sdk.activity.HyprMXOfferViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.inmobi.rendering.InMobiAdActivity/void a(java.lang.String[],com.inmobi.rendering.InMobiAdActivity$b)",
+            "sources": [
+                "com.inmobi.rendering.InMobiAdActivity"
+            ],
+            "targets": [
+                "com.inmobi.rendering.InMobiAdActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        }
+    ]
+}

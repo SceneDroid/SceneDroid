@@ -1,0 +1,265 @@
+{
+    "transitions": [
+        {
+            "handler": "com.wattpad.tap.reader.ReaderLoaderActivity/void onDismiss(android.content.DialogInterface)",
+            "sources": [
+                "com.wattpad.tap.reader.ReaderLoaderActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.discover.ui.DiscoverActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.purchase.subscribe.SubscribeActivity$a/void b(android.content.Context,com.wattpad.tap.util.analytics.h$c,com.wattpad.tap.purchase.subscribe.b,com.wattpad.tap.entity.Scene)",
+            "sources": [
+                "com.wattpad.tap.reader.ReaderLoaderActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.purchase.subscribe.SubscribeActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.reader.ReaderLoaderActivity/void b(com.wattpad.tap.reader.c.a$c)",
+            "sources": [
+                "com.wattpad.tap.reader.ReaderLoaderActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.reader.container.ReaderActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.report.ReportReasonActivity$b/void a(com.wattpad.tap.entity.am)",
+            "sources": [
+                "com.wattpad.tap.report.ReportReasonActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.report.ReportMoreDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.EditStoryActivity$13/void onClick(android.view.View)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.EditStoryActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.StoryLanguageActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.EditStoryActivity$12/void a()",
+            "sources": [
+                "com.wattpad.tap.writer.ui.EditStoryActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.EditCategoriesActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.EditStoryActivity$14/void onClick(android.view.View)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.EditStoryActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.StoryCopyrightActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.EditStoryActivity$2/void a()",
+            "sources": [
+                "com.wattpad.tap.writer.ui.EditStoryActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.ChooseCategoryPrePublishActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.LauncherActivity/void b(java.util.List)",
+            "sources": [
+                "com.wattpad.tap.LauncherActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.reader.ReaderLoaderActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.LauncherActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.wattpad.tap.LauncherActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.auth.phone.LinkPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.ChooseCategoryPrePublishActivity$3/void a(com.wattpad.tap.entity.au)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.ChooseCategoryPrePublishActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.settings.profile.ProfileSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.ChooseCategoryPrePublishActivity/void l()",
+            "sources": [
+                "com.wattpad.tap.writer.ui.ChooseCategoryPrePublishActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.PublishedActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.YourStoriesActivity$1/void a(java.lang.String)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.YourStoriesActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.YourStoryActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.YourStoriesActivity$6$1/void a(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.YourStoriesActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.WriterActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.purchase.subscribe.SubscribeActivity$b/void a(com.wattpad.tap.util.o.c)",
+            "sources": [
+                "com.wattpad.tap.purchase.subscribe.SubscribeActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.purchase.welcome.TapPremiumWelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.purchase.subscribe.SubscribeActivity$a/void b(android.content.Context,com.wattpad.tap.util.analytics.h$c,com.wattpad.tap.purchase.subscribe.b,com.wattpad.tap.entity.Scene)",
+            "sources": [
+                "com.wattpad.tap.purchase.subscribe.SubscribeActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.purchase.subscribe.SubscribeActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.purchase.subscribe.SubscribeActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.wattpad.tap.purchase.subscribe.SubscribeActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.discover.ui.DiscoverActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.settings.SettingsActivity$e/void a(d.m)",
+            "sources": [
+                "com.wattpad.tap.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.settings.profile.ProfileSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.WriterActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.WriterActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.preview.ScenePreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.WriterActivity$12/void a(com.wattpad.tap.entity.au)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.WriterActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.settings.profile.ProfileSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.WriterActivity$12/void a(com.wattpad.tap.entity.au)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.WriterActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.PublishedActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.WriterActivity$12/void a(com.wattpad.tap.entity.au)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.WriterActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.EditStoryActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.YourStoryActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.YourStoryActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.analytics.StoryAnalyticsActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.YourStoryActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.YourStoryActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.EditStoryActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.YourStoryActivity$17/void onClick(android.view.View)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.YourStoryActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.StoryCopyrightActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.writer.ui.YourStoryActivity$14$1/void a(java.lang.String,java.lang.String)",
+            "sources": [
+                "com.wattpad.tap.writer.ui.YourStoryActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.writer.ui.WriterActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.profile.ui.ProfileActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.wattpad.tap.profile.ui.ProfileActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.settings.profile.ProfileSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.wattpad.tap.profile.ui.ProfileActivity/void o()",
+            "sources": [
+                "com.wattpad.tap.profile.ui.ProfileActivity"
+            ],
+            "targets": [
+                "com.wattpad.tap.auth.AuthActivity"
+            ]
+        }
+    ]
+}

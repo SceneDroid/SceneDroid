@@ -1,0 +1,184 @@
+{
+    "transitions": [
+        {
+            "handler": "com.intuit.spc.authorization.AuthorizationClient/void startAuthorizationClientActivity(android.content.Context,com.intuit.spc.authorization.ui.BaseFlowConfiguration)",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.welcome.WelcomeActivity"
+            ],
+            "targets": [
+                "com.intuit.spc.authorization.AuthorizationClientActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.startup.dialogs.SignInBailOutDialog$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.welcome.WelcomeActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.startup.activity.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.welcome.WelcomeActivity/void navigateApp()",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.welcome.WelcomeActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.appshell.activities.TTUActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.welcome.WelcomeActivity/void navigateToSignUp()",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.welcome.WelcomeActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.onboarding.OnBoardingActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.appshell.activities.BaseTTUActivity/void restartApp()",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.plu.PluActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.startup.activity.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.startup.activity.SplashScreenActivity/void launchStartupActivity(boolean,java.lang.String)",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.startup.activity.SplashScreenActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.welcome.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.startup.dialogs.SignInBailOutDialog$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.startup.activity.SplashScreenActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.startup.activity.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.startup.activity.DeepLinkActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.startup.activity.DeepLinkActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.startup.activity.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.AppboyWebViewActivity$2/java.lang.Boolean handleUrlOverride(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.appshell.activities.TTUActivity/void lambda$startPluActivity$1$TTUActivity(java.lang.Boolean,java.lang.Boolean)",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.appshell.activities.TTUActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.plu.PluActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.startup.dialogs.SignInBailOutDialog$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.appshell.activities.TTUActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.startup.activity.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.intuit.spc.authorization.AuthorizationClientActivity/void signInAgain(java.lang.String,boolean,boolean)",
+            "sources": [
+                "com.intuit.spc.authorization.AuthorizationClientActivity"
+            ],
+            "targets": [
+                "com.intuit.spc.authorization.AuthorizationClientActivity"
+            ]
+        },
+        {
+            "handler": "com.intuit.iip.stepup.StepUpGuardedFragment/void startStepUp()",
+            "sources": [
+                "com.intuit.iip.accountinfo.ui.AccountInfoActivity"
+            ],
+            "targets": [
+                "com.intuit.spc.authorization.AuthorizationClientActivity"
+            ]
+        },
+        {
+            "handler": "com.intuit.spc.authorization.AuthorizationClient/void startAuthorizationClientActivity(android.content.Context,com.intuit.spc.authorization.ui.BaseFlowConfiguration)",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.onboarding.OnBoardingActivity"
+            ],
+            "targets": [
+                "com.intuit.spc.authorization.AuthorizationClientActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.onboarding.OnBoardingActivity/void navigateApp(int,ca.intuit.turbotaxuniversal.models.OnBoardingData)",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.onboarding.OnBoardingActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.appshell.activities.TTUActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.onboarding.OnBoardingActivity/void navigatePLU(int,boolean,boolean)",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.onboarding.OnBoardingActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.plu.PluActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.startup.dialogs.SignInBailOutDialog$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.onboarding.OnBoardingActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.startup.activity.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.onboarding.OnBoardingActivity/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.onboarding.OnBoardingActivity"
+            ],
+            "targets": [
+                "com.intuit.mobilelib.imagecapture.barcode.w2barcodelibrary.BarcodeCaptureActivity"
+            ]
+        },
+        {
+            "handler": "ca.intuit.turbotaxuniversal.startup.activity.PushNotificationActivity/void launchStartUpFlow()",
+            "sources": [
+                "ca.intuit.turbotaxuniversal.startup.activity.PushNotificationActivity"
+            ],
+            "targets": [
+                "ca.intuit.turbotaxuniversal.startup.activity.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.intuit.iip.accountinfo.ui.AccountInfoSheetFragment$onViewCreated$1/void onClick(android.view.View)",
+            "sources": [
+                "com.intuit.iip.accountinfo.ui.AccountInfoSheetActivity"
+            ],
+            "targets": [
+                "com.intuit.iip.accountinfo.ui.AccountInfoActivity"
+            ]
+        }
+    ]
+}

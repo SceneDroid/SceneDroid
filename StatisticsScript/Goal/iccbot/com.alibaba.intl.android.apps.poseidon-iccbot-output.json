@@ -1,0 +1,742 @@
+{
+    "transitions": [
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserLoginFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserLoginActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void switchToPwdLogin()",
+            "sources": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserLoginActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.UserTransparentLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void switchToPwdLogin()",
+            "sources": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserLoginActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void onNeedReg(com.ali.user.mobile.model.Login2RegParam)",
+            "sources": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserLoginActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserLoginFragment$7/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserLoginActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserEmailLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityHybrid"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.msgbox.activity.ActMessageBoxSettings"
+            ]
+        },
+        {
+            "handler": "xc4/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ],
+            "targets": [
+                "com.taobao.android.preview.DXTemplatePreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.referrals.ReferralClient/boolean i()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void o()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.flow.container.OneSightActivity/void doSearch(java.lang.String)",
+            "sources": [
+                "com.alibaba.intl.android.flow.container.WakeOneSightActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.flow.container.SearchOneSightActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.rate.activity.CurrencySettingsActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.alibaba.intl.android.rate.activity.CurrencySettingsActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.rate.activity.CurrencyDisclaimerActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity$StartParam)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.SingleHybridActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.msgbox.activity.ActMessageBoxSettings"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.SingleHybridActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.SingleHybridActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityHybrid"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.appindexing.util.AppLinksUtil/void restart(android.content.Context)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.appindexing.activity.ActivityAppIndexing"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void o()",
+            "sources": [
+                "com.alibaba.android.intl.trueview.activity.TrueViewTopicDetailActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.flow.container.OneSightActivity/void doSearch(java.lang.String)",
+            "sources": [
+                "com.alibaba.intl.android.flow.container.OneSightActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.flow.container.SearchOneSightActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.wireless.security.open.middletier.fc.ui.AppStoreUtils/java.util.HashMap getInstalledMarketPackageName(android.content.Context)",
+            "sources": [
+                "com.alibaba.wireless.security.open.middletier.fc.ui.ContainerActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.appindexing.activity.ActivityAppIndexing"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.webview.WebViewActivity/void goLogin(java.lang.String,java.lang.String,java.lang.String,boolean,java.lang.String,java.lang.String,boolean,boolean,boolean)",
+            "sources": [
+                "com.ali.user.mobile.icbu.webview.WebViewActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserLoginActivity"
+            ]
+        },
+        {
+            "handler": "xc4/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.DxPreviewBoardActivity"
+            ],
+            "targets": [
+                "com.taobao.android.preview.DXTemplatePreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.android.intl.privacy.activity.PrivacyDialogActivity/void restart()",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.privacy.PrivacyBuyerDialogActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.ma.activity.MyProfileActivity$1/void onSucceed(java.lang.String[])",
+            "sources": [
+                "com.alibaba.intl.android.ma.activity.MyProfileActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.ma.activity.ClipImageActivity"
+            ]
+        },
+        {
+            "handler": "com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity"
+            ],
+            "targets": [
+                "com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void switchToPwdLogin()",
+            "sources": [
+                "com.ali.user.mobile.icbu.login.ui.UserTransparentLoginActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void switchToPwdLogin()",
+            "sources": [
+                "com.ali.user.mobile.icbu.login.ui.UserTransparentLoginActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.UserTransparentLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void onNeedReg(com.ali.user.mobile.model.Login2RegParam)",
+            "sources": [
+                "com.ali.user.mobile.icbu.login.ui.UserTransparentLoginActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserLoginFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.ali.user.mobile.icbu.login.ui.UserTransparentLoginActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserLoginFragment$7/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.ali.user.mobile.icbu.login.ui.UserTransparentLoginActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserEmailLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.ui.AliUserVerificationActivity/void startVerifyActivity(androidx.fragment.app.Fragment,java.lang.String,int)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.ui.AliUserVerificationActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserLoginFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserLoginFragment$7/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserEmailLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void switchToPwdLogin()",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.UserTransparentLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void switchToPwdLogin()",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void onNeedReg(com.ali.user.mobile.model.Login2RegParam)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.register.ui.form.BaseRegisterFormFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.countrylist.AliUserRegisterCountryListActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.register.ui.form.BaseRegisterFormFragment/void onRegisterForeignSMS(com.ali.user.mobile.model.OceanRegisterParam,com.ali.user.mobile.rpc.register.model.OceanRegisterResult)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.sms.AliUserRegisterSMSVerificationActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.register.ui.form.BaseRegisterFormFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.countrylist.AliUserRegisterCountryListActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void switchToPwdLogin()",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.UserTransparentLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void switchToPwdLogin()",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserMobileLoginFragment/void onNeedReg(com.ali.user.mobile.model.Login2RegParam)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.ui.AliUserVerificationActivity/void startVerifyActivity(androidx.fragment.app.Fragment,java.lang.String,int)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.ui.AliUserVerificationActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserLoginFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.register.ui.form.BaseRegisterFormFragment/void onRegisterForeignSMS(com.ali.user.mobile.model.OceanRegisterParam,com.ali.user.mobile.rpc.register.model.OceanRegisterResult)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.sms.AliUserRegisterSMSVerificationActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.login.ui.AliUserLoginFragment$7/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.form.AliUserRegisterStep2"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.login.ui.AliUserEmailLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.picture.ActGalleryBrowser/void onOpenScrawler()",
+            "sources": [
+                "com.alibaba.intl.android.picture.ActGalleryBrowser"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.picture.ActScrawler"
+            ]
+        },
+        {
+            "handler": "com.vk.sdk.VKServiceActivity/void startLoginActivity(android.app.Fragment,java.util.ArrayList)",
+            "sources": [
+                "com.vk.sdk.VKServiceActivity"
+            ],
+            "targets": [
+                "com.vk.sdk.VKServiceActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.msgbox.fragment.FragmentQuickQuotationList/void onItemClick(android.view.View,int)",
+            "sources": [
+                "com.alibaba.intl.android.msgbox.activity.ActivityQuickQuotationList"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.msgbox.activity.ActivityKnockMessageDetail"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.TransparentHybridActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityHybrid"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.TransparentHybridActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.msgbox.activity.ActMessageBoxSettings"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.TransparentHybridActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.flutterleakkiller.LeakDetailActivity/void start(android.content.Context,java.util.List)",
+            "sources": [
+                "com.alibaba.flutterleakkiller.LeakListActivity"
+            ],
+            "targets": [
+                "com.alibaba.flutterleakkiller.LeakDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.richtext.editor.container.RichTextEditActivity/void start(android.content.Context,java.lang.CharSequence,java.lang.Integer)",
+            "sources": [
+                "com.alibaba.icbu.richtext.editor.container.RichTextEditActivity"
+            ],
+            "targets": [
+                "com.alibaba.icbu.richtext.editor.container.RichTextEditActivity"
+            ]
+        },
+        {
+            "handler": "com.taobao.avplayer.playercontrol.hiv.HivTopBarController$4/void onClick()",
+            "sources": [
+                "com.alibaba.android.intl.teldrassil.activity.LiveRoomActivity"
+            ],
+            "targets": [
+                "com.taobao.avplayer.playercontrol.hiv.OpenUrlSpecialForAlarmActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.android.intl.privacy.activity.PrivacyStartupActivity/void restart()",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.privacy.PrivacyBuyerStartupActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivityForAliRtc/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.mtop.bean.JoinMeetingParam,boolean)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivityForAliRtc"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivityForAliRtc"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.mtop.bean.RunningMeetingParam,java.util.Map)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivityForAliRtc"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity$StartParam)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivityForAliRtc"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.rate.fragment.CurrencyConverterFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.alibaba.intl.android.rate.activity.CurrencyConverterActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.rate.activity.CurrencyDisclaimerActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity$3/void onStateChange(com.alibaba.icbu.cloudmeeting.inner.control.state.AbstractMeetingState,com.alibaba.icbu.cloudmeeting.inner.control.state.AbstractMeetingState)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.TargetConnectFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.mtop.bean.RunningMeetingParam,java.util.Map)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity$StartParam)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityChangeLanguage/void restart()",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityChangeLanguage"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.register.ui.sms.BaseRegisterSMSVerificationFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.ali.user.mobile.icbu.register.ui.sms.AliUserRegisterSMSVerificationActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.register.ui.countrylist.AliUserRegisterCountryListActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.flutterleakkiller.LeakDetailActivity/void start(android.content.Context,java.util.List)",
+            "sources": [
+                "com.alibaba.flutterleakkiller.LeakDetailActivity"
+            ],
+            "targets": [
+                "com.alibaba.flutterleakkiller.LeakDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityHybrid"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityMainMaterial"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityHybrid"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityHybrid"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.apps.poseidon.app.notification.NotificationWidgetUtils/android.widget.RemoteViews buildRemoteViews(android.content.Context,int,boolean,boolean)",
+            "sources": [
+                "com.alibaba.intl.android.apps.poseidon.app.activity.ActivityHybrid"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.msgbox.activity.ActMessageBoxSettings"
+            ]
+        },
+        {
+            "handler": "com.alibaba.intl.android.flow.container.OneSightActivity/void doSearch(java.lang.String)",
+            "sources": [
+                "com.alibaba.intl.android.flow.container.SearchOneSightActivity"
+            ],
+            "targets": [
+                "com.alibaba.intl.android.flow.container.SearchOneSightActivity"
+            ]
+        },
+        {
+            "handler": "com.ali.user.mobile.icbu.ui.AliUserVerificationActivity/void startVerifyActivity(androidx.fragment.app.Fragment,java.lang.String,int)",
+            "sources": [
+                "com.ali.user.mobile.icbu.ui.AliUserVerificationActivity"
+            ],
+            "targets": [
+                "com.ali.user.mobile.icbu.ui.AliUserVerificationActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.inner.ui.CallMakeWaitingActivityForAliRtc/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.mtop.bean.StartMeetingParam)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallMakeWaitingActivityForAliRtc"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallMakeWaitingActivityForAliRtc"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity$StartParam)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallMakeWaitingActivityForAliRtc"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.mtop.bean.RunningMeetingParam,java.util.Map)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallMakeWaitingActivityForAliRtc"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.mtop.bean.RunningMeetingParam,java.util.Map)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivity"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.core.rtc.IcbuMeetingDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity$StartParam)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivity"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallResultActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivity/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.mtop.bean.JoinMeetingParam,boolean)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivity"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallWaitingAnswerActivity"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.DynamicLoadingDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.alibaba.icbu.cloudmeeting.inner.ui.CallMakeWaitingActivityForAliRtc/void start(android.content.Context,com.alibaba.icbu.cloudmeeting.inner.mtop.bean.StartMeetingParam)",
+            "sources": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.TargetConnectFailedActivity"
+            ],
+            "targets": [
+                "com.alibaba.icbu.cloudmeeting.inner.ui.CallMakeWaitingActivityForAliRtc"
+            ]
+        }
+    ]
+}

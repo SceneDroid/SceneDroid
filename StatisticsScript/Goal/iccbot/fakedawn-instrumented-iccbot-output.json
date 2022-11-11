@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "org.balau.fakedawn.Preferences$HelpListener/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "org.balau.fakedawn.Preferences"
+            ],
+            "targets": [
+                "org.balau.fakedawn.License"
+            ]
+        },
+        {
+            "handler": "org.balau.fakedawn.Preferences$HelpListener/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "org.balau.fakedawn.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.balau.fakedawn.License"
+            ]
+        }
+    ]
+}

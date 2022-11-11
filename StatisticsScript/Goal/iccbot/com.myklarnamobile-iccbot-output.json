@@ -1,0 +1,517 @@
+{
+    "transitions": [
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_HighCallVolumeActivity/void quitSdk()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_HighCallVolumeActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super/void handleNextButtonClicked_vip(boolean)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_BeforeStartingActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super/void loadLiveScreen()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_IceLink"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super/void doStartCQCActivity()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_DeviceSupportActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_HelpDataActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_LegalNoticesActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity$4/void onClick(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_HelpIDActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super/void lambda$cancelAttemptUsing$0$de-idnow-sdk-Activities-Activities_VideoOverviewCheckActivity_Super(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "com.braze.ui.BrazeWebViewActivity$2/java.lang.Boolean handleUrlOverride(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ],
+            "targets": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super$75/void onClick(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_PDFViewer"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super/void showResultActivity(int)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_ResultActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super/void redirectUserToAgentRating()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_AgentFeedbackActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super$80/void onServiceConnected(android.content.ComponentName,android.os.IBinder)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_IceLink"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super/void openResultActivity(int)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_PhotoUploadActivity/void navigateToResultScreen(boolean,android.content.Context)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_PhotoUploadActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_ResultActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_PhotoUploadActivity/void handleSuccessCase()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_PhotoUploadActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "com.klarna.klarnabrowser.ui.KlarnaBrowserActivity$Companion/void openBrowser(android.content.Context,com.klarna.klarnabrowser.KlarnaBrowserApi,kotlin.jvm.functions.Function1)",
+            "sources": [
+                "com.klarna.klarnabrowser.ui.KlarnaBrowserActivity"
+            ],
+            "targets": [
+                "com.klarna.klarnabrowser.ui.KlarnaBrowserActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_DeviceSupportActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_DeviceSupportActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_PhotoDocumentSelectionActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_PhotoDocumentSelectionActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_LegalNoticesActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super/void showResultActivity(int)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_AgentFeedbackActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_ResultActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super/void redirectUserToAgentRating()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_AgentFeedbackActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_AgentFeedbackActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super$126/void onClick(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_AgentFeedbackActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super/void openResultActivity(int)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_AgentFeedbackActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "com.klarna.GooglePayA2AActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.klarna.GooglePayA2AActivity"
+            ],
+            "targets": [
+                "com.klarna.MainActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_PhotoProcessOverviewActivity/void continueProcessForSelectedDocument()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_PhotoProcessOverviewActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_PhotoLiveActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_PhotoProcessOverviewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_PhotoProcessOverviewActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_LegalNoticesActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_PhotoProcessOverviewActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_PhotoProcessOverviewActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_PhotoUploadActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_BeforeStartingActivity/void lambda$cancelAttemptUsing$0$de-idnow-sdk-Activities-Activities_BeforeStartingActivity(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_BeforeStartingActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_BeforeStartingActivity/void loadLiveScreen()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_BeforeStartingActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_IceLink"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_BeforeStartingActivity/void doStartCQCActivity()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_BeforeStartingActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_ResultActivity/void forwardResultAndFinish()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_ResultActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_IceLink"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_ResultActivity/void setLastResultCodeAndFinish()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_ResultActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_ResultActivity/void restartIdent()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_ResultActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super/void onRequestPermissionsResult(int,java.lang.String[],int[])",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_DeviceSupportActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super/void lambda$cancelAttemptUsing$0$de-idnow-sdk-Activities-Activities_VideoOverviewCheckActivity_Super(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super/void loadLiveScreen()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_IceLink"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super/void doStartCQCActivity()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super/void handleNextButtonClicked_vip(boolean)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity_Super"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_BeforeStartingActivity"
+            ]
+        },
+        {
+            "handler": "io.cobrowse.CobrowseIO/boolean launchPermissionActivity()",
+            "sources": [
+                "io.cobrowse.ui.CobrowseActivity"
+            ],
+            "targets": [
+                "io.cobrowse.FullDeviceFrameSource$PermissionRequestActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_PhotoLiveActivity/void callPhotoCheckActivity(java.lang.String)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_PhotoLiveActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_PhotoCheckActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super/void showResultActivity(int)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_IceLink"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_ResultActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super/void redirectUserToAgentRating()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_IceLink"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_AgentFeedbackActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super/void openResultActivity(int)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_IceLink"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_Super$126/void onClick(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_IceLink"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity"
+            ]
+        },
+        {
+            "handler": "com.klarna.mobile.sdk.core.natives.cardscan.KlarnaCardScanStartActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.klarna.mobile.sdk.core.natives.cardscan.KlarnaCardScanStartActivity"
+            ],
+            "targets": [
+                "com.klarna.mobile.sdk.core.natives.cardscan.KlarnaCardScanActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_PhotoCountrySelectionActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_PhotoCountrySelectionActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_PhotoDocumentSelectionActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_PhotoCountrySelectionActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_PhotoCountrySelectionActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_LegalNoticesActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_EntryActivity/void proceedToIdent()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoOverviewCheckActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_EntryActivity/void linkToChosenModeActivity()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_PhotoCountrySelectionActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_EntryActivity/void proceedToIdent()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.IDnowSDK/void start(java.lang.String)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_EntryActivity/void forwardResultAndFinish()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_IceLink"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_EntryActivity/void proceedToIdent()",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_DeviceSupportActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck/void proceedToIdent(boolean)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_IceLink"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck/void lambda$cancelAttemptUsing$0$de-idnow-sdk-Activities-Activities_VideoLiveStreamActivity_CallQualityCheck(android.view.View)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_EntryActivity"
+            ]
+        },
+        {
+            "handler": "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck/void proceedToIdent(boolean)",
+            "sources": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck"
+            ],
+            "targets": [
+                "de.idnow.sdk.Activities.Activities_VideoLiveStreamActivity_CallQualityCheck"
+            ]
+        }
+    ]
+}

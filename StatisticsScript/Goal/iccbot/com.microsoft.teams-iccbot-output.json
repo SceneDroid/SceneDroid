@@ -1,0 +1,661 @@
+{
+    "transitions": [
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.GroupJoinLinkActivity/void open(android.app.Activity,java.lang.String,boolean,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.GroupJoinLinkActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.GroupJoinLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.fragments.ChatsTabsFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.CustomTabsShellActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.ContactGroupsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.fragments.BaseTeamsJsHostFragment/void handleAssignmentTab(java.lang.String,com.microsoft.skype.teams.webmodule.model.TaskInfo,com.microsoft.skype.teams.extensibility.taskmodule.model.TaskInfoV2,com.microsoft.skype.teams.extensibility.taskmodule.model.ITaskModuleLaunchParams)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.CustomTabsShellActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.TeamsJsHostActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.InCallFilesActivity/void openForResult(android.app.Activity,int,java.lang.String,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.InCallShareContentActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.InCallFilesActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.teams.media.views.activities.MediaItemViewerActivity/void open(android.content.Context,com.microsoft.teams.media.navigation.MediaPreviewParams)",
+            "sources": [
+                "com.microsoft.teams.mediagallery.views.activities.GalleryActivity"
+            ],
+            "targets": [
+                "com.microsoft.teams.media.views.activities.MediaItemViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.viewmodels.AccountSwitchableShareTargetFragmentViewModel/void startShareService(android.app.Activity)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.ShareToSkypeTeamsActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.services.sharing.ShareMessageService"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.util.PostCallManager/void launchCallFeedbackActivityForResult(android.app.Activity,java.lang.String,java.lang.String,int,int,boolean,boolean,int,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.EndCallActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.CallFeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.fragments.BaseTeamsJsHostFragment/void handleAssignmentTab(java.lang.String,com.microsoft.skype.teams.webmodule.model.TaskInfo,com.microsoft.skype.teams.extensibility.taskmodule.model.TaskInfoV2,com.microsoft.skype.teams.extensibility.taskmodule.model.ITaskModuleLaunchParams)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.TeamsJsHostActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.TeamsJsHostActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.teams.media.views.activities.MediaItemViewerActivity/void open(android.content.Context,com.microsoft.teams.media.navigation.MediaPreviewParams)",
+            "sources": [
+                "com.microsoft.teams.media.views.activities.MediaItemViewerActivity"
+            ],
+            "targets": [
+                "com.microsoft.teams.media.views.activities.MediaItemViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.files.listing.views.BaseFilesFragment/void onFileUploadOptionClicked()",
+            "sources": [
+                "com.microsoft.skype.teams.files.listing.views.OfflineFilesActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.files.listing.views.DocumentsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.ImageSlidePagerActivity/void open(android.content.Context,java.lang.String[],int,boolean)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.ImageSlidePagerActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.ImageSlidePagerActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.files.listing.views.BaseFilesFragment/void onFileUploadOptionClicked()",
+            "sources": [
+                "com.microsoft.skype.teams.files.listing.views.ChannelFilesActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.files.listing.views.DocumentsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.fragments.CallRosterFragment$CallRosterCallEventListener/void handleServerCallMuted()",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.CallRosterActivity"
+            ],
+            "targets": [
+                "com.microsoft.teams.aio.services.AIOBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.fragments.CallRosterFragment$CallRosterCallEventListener/void handleServerCallMuted()",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.CallRosterActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.talknow.receiver.TalkNowDedicatedPttButtonReceiver"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.calendar.views.activities.DescriptionEditActivity/void openDescriptionEdit(android.app.Activity,int,java.lang.String)",
+            "sources": [
+                "com.microsoft.skype.teams.calendar.views.activities.DescriptionEditActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.calendar.views.activities.DescriptionEditActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.CallingForwardOptionsActivity/void addContact(int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.CallingForwardOptionsActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.SearchUsersActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.FeedbackActivity/void lambda$initialize$3(android.view.View)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.FeedbackActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.AnnotationActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.calendar.views.activities.AddParticipantsActivity/void openForResult(android.app.Activity,int,java.util.Map,java.lang.String)",
+            "sources": [
+                "com.microsoft.skype.teams.calendar.views.activities.AddParticipantsActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.calendar.views.activities.AddParticipantsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.fragments.ChatsTabsFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.MasterDetailContainerActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.ContactGroupsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.fragments.BaseTeamsJsHostFragment/void handleAssignmentTab(java.lang.String,com.microsoft.skype.teams.webmodule.model.TaskInfo,com.microsoft.skype.teams.extensibility.taskmodule.model.TaskInfoV2,com.microsoft.skype.teams.extensibility.taskmodule.model.ITaskModuleLaunchParams)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.MasterDetailContainerActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.TeamsJsHostActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.files.listing.views.BaseFilesFragment/void onFileUploadOptionClicked()",
+            "sources": [
+                "com.microsoft.skype.teams.files.listing.views.ChatFilesActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.files.listing.views.DocumentsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.utilities.CallControlHandler/void handleCallFinished(com.microsoft.skype.teams.calling.call.Call,boolean,boolean,com.microsoft.skype.teams.views.activities.BaseActivity,com.microsoft.skype.teams.calling.call.Call$LowNetworkQualityListener,java.lang.String,boolean,com.microsoft.skype.teams.util.PostCallManager,com.microsoft.skype.teams.storage.RunnableOf,com.microsoft.skype.teams.storage.RunnableOf)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.InCallActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.CallRatingActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.InCallDriveModeActivity/void openForResult(android.app.Activity,int,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.InCallActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.InCallDriveModeActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.InCallActivity/void openWhiteboardActivity(android.content.Context,com.microsoft.skype.teams.models.WhiteboardShareDetails,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.InCallActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.WhiteboardActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.files.listing.views.BaseFilesFragment/void onFileUploadOptionClicked()",
+            "sources": [
+                "com.microsoft.skype.teams.files.listing.views.PersonalFilesActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.files.listing.views.DocumentsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.util.PostCallManager/void launchLiveEventRatingActivity(android.content.Context,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.BroadcastMeetingActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.CallRatingActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.teams.vault.views.fragments.FREInfoFragment$2/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.teams.vault.views.activities.VaultSetupActivity"
+            ],
+            "targets": [
+                "com.microsoft.teams.vault.views.activities.VaultRemoteAuthActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.fragments.CallingOptionsFragment/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.CallingOptionsActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.SyncDeviceContactActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.teams.vault.views.fragments.FREInfoFragment$2/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.teams.vault.views.activities.GroupVaultActivity"
+            ],
+            "targets": [
+                "com.microsoft.teams.vault.views.activities.VaultRemoteAuthActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.teams.vault.views.activities.GroupVaultActivity/void open(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.microsoft.teams.vault.views.activities.GroupVaultActivity"
+            ],
+            "targets": [
+                "com.microsoft.teams.vault.views.activities.GroupVaultActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.teams.vault.views.fragments.GroupVaultFragment/void onItemSelected(int)",
+            "sources": [
+                "com.microsoft.teams.vault.views.activities.GroupVaultActivity"
+            ],
+            "targets": [
+                "com.microsoft.teams.vault.views.activities.VaultFormActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.EDUTemplatesActivity/void openCreateTeamWithTemplate(android.view.View)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.EDUTemplatesActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.CreateEditTeamActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.identity.client.CurrentTaskBrowserTabActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.microsoft.identity.client.CurrentTaskBrowserTabActivity"
+            ],
+            "targets": [
+                "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.roomcontroller.views.RoomControllerActivity$Companion/void open(android.content.Context,com.microsoft.skype.teams.storage.tables.User,java.lang.Integer,com.microsoft.skype.teams.roomcontroller.PairSuccessEventArguments)",
+            "sources": [
+                "com.microsoft.skype.teams.roomcontroller.views.RoomControllerActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.roomcontroller.views.RoomControllerActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.fragments.BaseTeamsJsHostFragment/void handleAssignmentTab(java.lang.String,com.microsoft.skype.teams.webmodule.model.TaskInfo,com.microsoft.skype.teams.extensibility.taskmodule.model.TaskInfoV2,com.microsoft.skype.teams.extensibility.taskmodule.model.ITaskModuleLaunchParams)",
+            "sources": [
+                "com.microsoft.skype.teams.roomcontroller.views.RoomControllerActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.TeamsJsHostActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.AdHocMeetingActivity/void openToCreateMeeting(android.content.Context)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.AdHocMeetingActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.AdHocMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.AddRoomActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.AddRoomActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.InCallActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.viewmodels.AccountSwitchableShareTargetFragmentViewModel/void startShareService(android.app.Activity)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.SdkShareTargetActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.services.sharing.ShareMessageService"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.calendar.viewmodels.MeetingDetailsViewModel/void editMeeting()",
+            "sources": [
+                "com.microsoft.skype.teams.calendar.views.activities.MeetingDetailsActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.calendar.views.activities.CreateMeetingsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.ChatGroupUsersListActivity/void addMembers(java.lang.String,java.lang.String[],boolean,boolean)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.ChatGroupUsersListActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.ChatGroupAddMemberActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.GroupJoinLinkActivity/void open(android.app.Activity,java.lang.String,boolean,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.ChatGroupUsersListActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.GroupJoinLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.ChatGroupUsersListActivity/void open(android.app.Activity,java.lang.String,java.util.List,java.lang.String,int,boolean,boolean,boolean,boolean,boolean,com.microsoft.skype.teams.storage.ThreadType,com.microsoft.skype.teams.storage.ThreadType,boolean,java.lang.String)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.ChatGroupUsersListActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.ChatGroupUsersListActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.InviteToTenantActivity/void openForResult(android.app.Activity,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.FreActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.InviteToTenantActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.calendar.views.activities.DescriptionEditActivity/void openDescriptionEdit(android.app.Activity,int,java.lang.String)",
+            "sources": [
+                "com.microsoft.skype.teams.calendar.views.activities.CreateMeetingsActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.calendar.views.activities.DescriptionEditActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.ChannelPickerActivity$Companion/void openChannelPickerForResult(com.microsoft.skype.teams.views.activities.BaseActivity,java.lang.String,java.lang.String,java.util.List,boolean,boolean,boolean)",
+            "sources": [
+                "com.microsoft.skype.teams.calendar.views.activities.CreateMeetingsActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.ChannelPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.calendar.views.activities.CreateMeetingsActivity/void openCreateOrEdit(android.content.Context,com.microsoft.skype.teams.calendar.models.CalendarEvent,java.lang.String,java.lang.String,int,java.util.Map,int)",
+            "sources": [
+                "com.microsoft.skype.teams.calendar.views.activities.CreateMeetingsActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.calendar.views.activities.CreateMeetingsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.Fre4vActivity/void onTflProfileEditNameClicked()",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.Fre4vActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.EditMSANameActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.InviteToTenantActivity/void openForResult(android.app.Activity,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.Fre4vActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.InviteToTenantActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.AdHocMeetingActivity/void openToCreateMeeting(android.content.Context)",
+            "sources": [
+                "com.microsoft.skype.teams.calendar.views.activities.CalendarListEventsActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.AdHocMeetingActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.calendar.views.activities.CreateMeetingsActivity/void openCreateOrEdit(android.content.Context,com.microsoft.skype.teams.calendar.models.CalendarEvent,java.lang.String,java.lang.String,int,java.util.Map,int)",
+            "sources": [
+                "com.microsoft.skype.teams.calendar.views.activities.CalendarListEventsActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.calendar.views.activities.CreateMeetingsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.InviteToTenantActivity/void openForResult(android.app.Activity,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.InviteToTenantActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.InviteToTenantActivity"
+            ]
+        },
+        {
+            "handler": "ols.microsoft.com.shiftr.common.ShiftrNavigationHelper/void launchTimeZoneSettingsScreen()",
+            "sources": [
+                "ols.microsoft.com.shiftr.activity.SingleFragmentActivity"
+            ],
+            "targets": [
+                "ols.microsoft.com.shiftr.activity.SingleFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.ChannelPickerActivity$Companion/void openChannelPickerForResult(com.microsoft.skype.teams.views.activities.BaseActivity,java.lang.String,java.lang.String,java.util.List,boolean,boolean,boolean)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.ChannelPickerActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.ChannelPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.teams.vault.views.fragments.VaultCategoryDialogFragment/void onItemSelected(int)",
+            "sources": [
+                "com.microsoft.teams.vault.views.activities.UserVaultsActivity"
+            ],
+            "targets": [
+                "com.microsoft.teams.vault.views.activities.VaultFormActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.util.PostCallManager/void launchThankYouScreenActivity(android.content.Context,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.CallFeedbackActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.CallRatingThankingActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.InCallDriveModeActivity/void openForResult(android.app.Activity,int,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.InCallDriveModeActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.InCallDriveModeActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.UsersListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.UsersListActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.SearchTeamDashboardActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.ipphone.IpPhoneUtils/void launchDeviceSettings(android.content.Context)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.WelcomeActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.InCallFilesActivity/void openForResult(android.app.Activity,int,java.lang.String,int)",
+            "sources": [
+                "com.microsoft.skype.teams.calling.expo.files.ExpoFilesActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.InCallFilesActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.files.listing.views.BaseFilesFragment/void onFileUploadOptionClicked()",
+            "sources": [
+                "com.microsoft.skype.teams.calling.expo.files.ExpoFilesActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.files.listing.views.DocumentsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.InCallFilesActivity/void openForResult(android.app.Activity,int,java.lang.String,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.InCallFilesActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.InCallFilesActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.teams.media.views.activities.MediaItemViewerActivity/void open(android.content.Context,com.microsoft.teams.media.navigation.MediaPreviewParams)",
+            "sources": [
+                "com.microsoft.teams.vault.views.activities.VaultFormActivity"
+            ],
+            "targets": [
+                "com.microsoft.teams.media.views.activities.MediaItemViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.teams.vault.views.fragments.VaultKeyRequestFragment$3/void onClick(android.view.View)",
+            "sources": [
+                "com.microsoft.teams.vault.views.activities.VaultRemoteAuthActivity"
+            ],
+            "targets": [
+                "com.microsoft.teams.vault.views.activities.VaultKeyForgotActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.calendar.views.activities.ParticipantsListActivity/void open(android.app.Activity,int,java.util.List,boolean)",
+            "sources": [
+                "com.microsoft.skype.teams.calendar.views.activities.ParticipantsListActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.calendar.views.activities.ParticipantsListActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.PreCallActivity/void onEndCallButtonClicked()",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.PreCallActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.CallRatingActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.SplashActivity/void continuePostResume()",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.PrivacyNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.SplashActivity/void handleNavigateToNextScreen(boolean)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.SearchUsersToStartNewCall2Activity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.SplashActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.ShareToSkypeTeamsActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.ManageChannelsActivity/void openPrivacyActivity()",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.ManageChannelsActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.ChannelPrivacyActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity$1/void onMAMReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity"
+            ],
+            "targets": [
+                "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.util.PostCallManager/void launchThankYouScreenActivity(android.content.Context,int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.CallEarlyCancelFbActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.CallRatingThankingActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.ExtensiblePeoplePicker/void openForResult(android.app.Activity,int,com.microsoft.skype.teams.services.extensibility.capabilities.peoplepicker.PeoplePickerProps)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.ExtensiblePeoplePicker"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.ExtensiblePeoplePicker"
+            ]
+        },
+        {
+            "handler": "com.microsoft.skype.teams.views.activities.CallRatingActivity$3/void onRatingChanged(int)",
+            "sources": [
+                "com.microsoft.skype.teams.views.activities.CallRatingActivity"
+            ],
+            "targets": [
+                "com.microsoft.skype.teams.views.activities.CallFeedbackActivity"
+            ]
+        }
+    ]
+}

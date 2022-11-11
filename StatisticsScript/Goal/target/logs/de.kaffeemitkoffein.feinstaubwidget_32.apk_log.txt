@@ -1,0 +1,367 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+de.kaffeemitkoffein.feinstaubwidget_32: OutputDir not a directory: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/de.kaffeemitkoffein.feinstaubwidget_32
+Found 5 entrypoint classes and 6 methods in overall
+Found 1 reachable methods from <de.kaffeemitkoffein.feinstaubwidget.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 3 reachable methods from <de.kaffeemitkoffein.feinstaubwidget.StaubInfo: void onCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 15 reachable methods from <de.kaffeemitkoffein.feinstaubwidget.PreferencesActivity: void onCreate(android.os.Bundle)>
+de.kaffeemitkoffein.feinstaubwidget.StaubInfo: Finished processing of entrypoints after 0 seconds.
+de.kaffeemitkoffein.feinstaubwidget.PreferencesActivity: Finished processing of entrypoints after 0 seconds.
+Found 286 reachable methods from <de.kaffeemitkoffein.feinstaubwidget.SensorInfo: void onCreate(android.os.Bundle)>
+Found 294 reachable methods from <de.kaffeemitkoffein.feinstaubwidget.LoginActivity: void onCreate(android.os.Bundle)>
+Found 265 reachable methods from <de.kaffeemitkoffein.feinstaubwidget.MainActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r4 = $r3.<de.kaffeemitkoffein.feinstaubwidget.FeinstaubPreferences: java.lang.String sensor2_number>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r4 = $r3.<de.kaffeemitkoffein.feinstaubwidget.FeinstaubPreferences: java.lang.String sensor2_number>
+Did not find string name from string id: id: 2131296301
+Did not find string name from string id: id: 2131296278
+Did not find string name from string id: id: 2131296278
+Did not find string name from string id: id: 2131296301
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r8 = $r7.<de.kaffeemitkoffein.feinstaubwidget.FeinstaubPreferences: java.lang.String sensor2_number>
+Did not find string name from string id: id: 2131296278
+Did not find string name from string id: id: 2131296278
+Did not find string name from string id: id: 2131296294
+Did not find string name from string id: id: 2131296332
+Did not find string name from string id: id: 2131296293
+Did not find string name from string id: id: 2131296331
+Did not find string name from string id: id: 2131296321
+Did not find string name from string id: id: 2131296320
+Did not find string name from string id: id: 2131296293
+Did not find string name from string id: id: 2131296331
+Did not find string name from string id: id: 2131296321
+Did not find string name from string id: id: 2131296320
+Did not find string name from string id: id: 2131296279
+Did not find string name from string id: id: 2131296279
+Did not find string name from string id: id: 2131296280
+Did not find string name from string id: id: 2131296280
+Did not find string name from string id: id: 2131296291
+Did not find string name from string id: id: 2131296291
+Did not find string name from string id: id: 2131296279
+Did not find string name from string id: id: 2131296279
+Did not find string name from string id: id: 2131296280
+Did not find string name from string id: id: 2131296280
+Did not find string name from string id: id: 2131296291
+Did not find string name from string id: id: 2131296291
+Did not find string name from string id: id: 2131296281
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r3 = r0.<de.kaffeemitkoffein.feinstaubwidget.LoginActivity$SmartTemperatureSensorFetcher: java.lang.String sensor_result>
+Did not find string name from string id: id: 2131296307
+Did not find string name from string id: id: 2131296308
+Did not find string name from string id: id: 2131296307
+Did not find string name from string id: id: 2131296308
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationAltitude>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationLatitude>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationLongitude>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationCountry>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r20 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String sensorId>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r20 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String sensorId>
+Did not find string name from string id: id: 2131296294
+Did not find string name from string id: id: 2131296332
+Did not find string name from string id: id: 2131296293
+Did not find string name from string id: id: 2131296331
+Did not find string name from string id: id: 2131296320
+Did not find string name from string id: id: 2131296294
+Did not find string name from string id: id: 2131296332
+Did not find string name from string id: id: 2131296293
+Did not find string name from string id: id: 2131296331
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+de.kaffeemitkoffein.feinstaubwidget.LoginActivity: Finished processing of entrypoints after 119 seconds.
+Did not find string name from string id: id: 2131296279
+Did not find string name from string id: id: 2131296279
+Did not find string name from string id: id: 2131296280
+Did not find string name from string id: id: 2131296280
+Did not find string name from string id: id: 2131296291
+Did not find string name from string id: id: 2131296291
+Did not find string name from string id: id: 2131296279
+Did not find string name from string id: id: 2131296279
+Did not find string name from string id: id: 2131296280
+Did not find string name from string id: id: 2131296280
+Did not find string name from string id: id: 2131296291
+Did not find string name from string id: id: 2131296291
+Did not find string name from string id: id: 2131296281
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r3 = r0.<de.kaffeemitkoffein.feinstaubwidget.LoginActivity$SmartTemperatureSensorFetcher: java.lang.String sensor_result>
+Did not find string name from string id: id: 2131296307
+Did not find string name from string id: id: 2131296308
+Did not find string name from string id: id: 2131296307
+Did not find string name from string id: id: 2131296308
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationAltitude>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationLatitude>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationLongitude>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationCountry>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r20 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String sensorId>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r20 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String sensorId>
+Did not find string name from string id: id: 2131296294
+Did not find string name from string id: id: 2131296332
+Did not find string name from string id: id: 2131296293
+Did not find string name from string id: id: 2131296331
+Did not find string name from string id: id: 2131296320
+Did not find string name from string id: id: 2131296294
+Did not find string name from string id: id: 2131296332
+Did not find string name from string id: id: 2131296293
+Did not find string name from string id: id: 2131296331
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+de.kaffeemitkoffein.feinstaubwidget.SensorInfo: Finished processing of entrypoints after 121 seconds.
+Did not find string name from string id: id: 2131296301
+Did not find string name from string id: id: 2131296293
+Did not find string name from string id: id: 2131296331
+Did not find string name from string id: id: 2131296321
+Did not find string name from string id: id: 2131296320
+Did not find string name from string id: id: 2131296307
+Did not find string name from string id: id: 2131296308
+Did not find string name from string id: id: 2131296307
+Did not find string name from string id: id: 2131296308
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationAltitude>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationLatitude>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationLongitude>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r14 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String locationCountry>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r20 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String sensorId>
+Error StringSwitch: Doesn't find textReg in initializationOfField: $r20 = $r2.<de.kaffeemitkoffein.feinstaubwidget.SensorDataSet: java.lang.String sensorId>
+Did not find string name from string id: id: 2131296294
+Did not find string name from string id: id: 2131296332
+Did not find string name from string id: id: 2131296293
+Did not find string name from string id: id: 2131296331
+Did not find string name from string id: id: 2131296320
+Did not find string name from string id: id: 2131296294
+Did not find string name from string id: id: 2131296332
+Did not find string name from string id: id: 2131296293
+Did not find string name from string id: id: 2131296331
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+Did not find string name from string id: id: 2131296309
+de.kaffeemitkoffein.feinstaubwidget.MainActivity: Finished processing of entrypoints after 320 seconds.
+AppController:addText: elementID not found for adding text: elementID: 2130968705
+AppController:addText: elementID not found for adding text: elementID: 2130968714
+AppController:addText: elementID not found for adding text: elementID: 2130968710
+AppController:addText: elementID not found for adding text: elementID: 2130968733
+AppController:addText: elementID not found for adding text: elementID: 2130968614
+AppController:addText: elementID not found for adding text: elementID: 2130968719
+AppController:addText: elementID not found for adding text: elementID: 2130968592
+AppController:addText: elementID not found for adding text: elementID: 2130968618
+AppController:addText: elementID not found for adding text: elementID: 2130968717
+AppController:addText: elementID not found for adding text: elementID: 2130968691
+AppController:addText: elementID not found for adding text: elementID: 2130968720
+AppController:addText: elementID not found for adding text: elementID: 2130968716
+AppController:addText: elementID not found for adding text: elementID: 2130968732
+AppController:addText: elementID not found for adding text: elementID: 2130968653
+AppController:addText: elementID not found for adding text: elementID: 2130968586
+AppController:addText: elementID not found for adding text: elementID: 2130968731
+AppController:addText: elementID not found for adding text: elementID: 2130968718
+AppController:addText: elementID not found for adding text: elementID: 2130968726
+AppController:addText: elementID not found for adding text: elementID: 2130968584
+AppController:addText: elementID not found for adding text: elementID: 2130968715
+AppController:addText: elementID not found for adding text: elementID: 2130968702
+AppController:addText: elementID not found for adding text: elementID: 2130968718
+AppController:addText: elementID not found for adding text: elementID: 2130968730
+AppController:addText: elementID not found for adding text: elementID: 2130968728
+AppController:addText: elementID not found for adding text: elementID: 2130968708
+AppController:addText: elementID not found for adding text: elementID: 2130968724
+AppController:addText: elementID not found for adding text: elementID: 2130968704
+AppController:addText: elementID not found for adding text: elementID: 2130968720
+AppController:addText: elementID not found for adding text: elementID: 2130968704
+AppController:addText: elementID not found for adding text: elementID: 2130968721
+AppController:addText: elementID not found for adding text: elementID: 2130968720
+AppController:addText: elementID not found for adding text: elementID: 2130968731
+AppController:addText: elementID not found for adding text: elementID: 2130968653
+AppController:addText: elementID not found for adding text: elementID: 2130968715
+AppController:addText: elementID not found for adding text: elementID: 2130968592
+AppController:addText: elementID not found for adding text: elementID: 2130968730
+AppController:addText: elementID not found for adding text: elementID: 2130968704
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 2130968716
+AppController:addText: elementID not found for adding text: elementID: 2130968703
+AppController:addText: elementID not found for adding text: elementID: 2130968731
+AppController:addText: elementID not found for adding text: elementID: 2130968712
+AppController:addText: elementID not found for adding text: elementID: 2130968679
+AppController:addText: elementID not found for adding text: elementID: 2130968715
+AppController:addText: elementID not found for adding text: elementID: 2130968704
+AppController:addText: elementID not found for adding text: elementID: 2130968731
+AppController:addText: elementID not found for adding text: elementID: 2130968733
+AppController:addText: elementID not found for adding text: elementID: 2130968653
+AppController:addText: elementID not found for adding text: elementID: 2130968710
+AppController:addText: elementID not found for adding text: elementID: 2130968705
+AppController:addText: elementID not found for adding text: elementID: 2130968708
+AppController:addText: elementID not found for adding text: elementID: 2130968704
+AppController:addText: elementID not found for adding text: elementID: 2130968726
+AppController:addText: elementID not found for adding text: elementID: 2130968719
+AppController:addText: elementID not found for adding text: elementID: 2130968705
+AppController:addText: elementID not found for adding text: elementID: 2130968708
+AppController:addText: elementID not found for adding text: elementID: 2130968716
+AppController:addText: elementID not found for adding text: elementID: 2130968720
+AppController:addText: elementID not found for adding text: elementID: 2130968712
+AppController:addText: elementID not found for adding text: elementID: 2130968653
+AppController:addText: elementID not found for adding text: elementID: 2130968679
+AppController:addText: elementID not found for adding text: elementID: 2130968684
+AppController:addText: elementID not found for adding text: elementID: 2130968718
+AppController:addText: elementID not found for adding text: elementID: 2130968731
+AppController:addText: elementID not found for adding text: elementID: 2130968718
+AppController:addText: elementID not found for adding text: elementID: 2130968731
+AppController:addText: elementID not found for adding text: elementID: 2130968714
+AppController:addText: elementID not found for adding text: elementID: 2130968730
+AppController:addText: elementID not found for adding text: elementID: 2130968703
+AppController:addText: elementID not found for adding text: elementID: 0
+AppController:addText: elementID not found for adding text: elementID: 2130968715
+AppController:addText: elementID not found for adding text: elementID: 2130968724
+AppController:addText: elementID not found for adding text: elementID: 2130968720
+AppController:addText: elementID not found for adding text: elementID: 2130968732
+AppController:addText: elementID not found for adding text: elementID: 2130968704
+AppController:addText: elementID not found for adding text: elementID: 2130968726
+AppController:addText: elementID not found for adding text: elementID: 2130968653
+AppController:addText: elementID not found for adding text: elementID: 2130968592
+AppController:addText: elementID not found for adding text: elementID: 2130968702
+AppController:addText: elementID not found for adding text: elementID: 2130968676
+AppController:addText: elementID not found for adding text: elementID: 2130968691
+AppController:addText: elementID not found for adding text: elementID: 2130968715
+AppController:addText: elementID not found for adding text: elementID: 2130968719
+AppController:addText: elementID not found for adding text: elementID: 2130968728
+AppController:addText: elementID not found for adding text: elementID: 2130968702
+AppController:addText: elementID not found for adding text: elementID: 2130968702
+AppController:addText: elementID not found for adding text: elementID: 2130968691
+AppController:addText: elementID not found for adding text: elementID: 2130968718
+AppController:addText: elementID not found for adding text: elementID: 2130968732
+AppController:addText: elementID not found for adding text: elementID: 2130968653
+AppController:addText: elementID not found for adding text: elementID: 2130968721
+AppController:addText: elementID not found for adding text: elementID: 2130968676
+AppController:addText: elementID not found for adding text: elementID: 2130968720
+AppController:addText: elementID not found for adding text: elementID: 2130968718
+AppController:addText: elementID not found for adding text: elementID: 2130968717
+AppController:addText: elementID not found for adding text: elementID: 2130968721
+AppController:addText: elementID not found for adding text: elementID: 2130968714
+AppController:addText: elementID not found for adding text: elementID: 2130968733
+AppController:addText: elementID not found for adding text: elementID: 2130968710
+AppController:addText: elementID not found for adding text: elementID: 2130968717
+AppController:addText: elementID not found for adding text: elementID: 2130968585
+AppController:addText: elementID not found for adding text: elementID: 2130968702
+AppController:addText: elementID not found for adding text: elementID: 2130968684
+AppController:addText: elementID not found for adding text: elementID: 2130968712
+AppController:addText: elementID not found for adding text: elementID: 2130968715
+AppController:addText: elementID not found for adding text: elementID: 2130968703
+AppController:addText: elementID not found for adding text: elementID: 2130968702
+AppController:addText: elementID not found for adding text: elementID: 2130968728
+AppController:addText: elementID not found for adding text: elementID: 2130968679
+AppController:addText: elementID not found for adding text: elementID: 2130968609
+AppController:addText: elementID not found for adding text: elementID: 2130968684
+AppController:addText: elementID not found for adding text: elementID: 2130968724
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/de.kaffeemitkoffein.feinstaubwidget_32/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 321.417465796 seconds
+Entry point creation has run for 0.003022718 seconds
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.015992783 seconds

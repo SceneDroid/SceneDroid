@@ -1,0 +1,1282 @@
+{
+    "transitions": [
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.EmailSellerActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.phone.SSOAccountProfileActivity/void advancedSettings()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOAccountProfileActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SSOAdvancedSettingsActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOAccountProfileActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startSSOLoginActivity(android.app.Activity,ca.autotrader.userapp.SSODataManager$SsoScreenOpenedBy,android.os.Bundle,int,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOAccountProfileActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SSOLoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.phone.SSOAccountProfileActivity/void changePassword()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOAccountProfileActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SSOChangePasswordActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startWebViewActivity(android.content.Context,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOAccountProfileActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.Session/boolean tryLoginActivity(com.facebook.Session$AuthorizationRequest)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOAccountProfileActivity"
+            ],
+            "targets": [
+                "com.facebook.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.foresee.sdk.cxMeasure.tracker.app.SurveyInviteActivity/void onTermsClick()",
+            "sources": [
+                "com.foresee.sdk.cxMeasure.tracker.app.ContactSurveyInviteActivity"
+            ],
+            "targets": [
+                "com.foresee.sdk.cxMeasure.tracker.app.SurveyActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.AddNoteActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.fragment.vdp.VdpOwnerReviewListFragment$3/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPOwnerReviewListActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.OwnerReviewDetailActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPOwnerReviewListActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.controller.ContactSellerButtonsController/void onEmailSellerButtonClick()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.AdMapActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.EmailSellerActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.AdMapActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOChangePasswordActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startWebViewActivity(android.content.Context,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOChangePasswordActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.PaymentConfirmActivity/void a(android.app.Activity,int,com.paypal.android.sdk.payments.dh,android.os.Parcelable,com.paypal.android.sdk.payments.PayPalConfiguration,boolean)",
+            "sources": [
+                "com.paypal.android.sdk.payments.PaymentConfirmActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.PaymentConfirmActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.LoginActivity/void a(android.app.Activity,int,com.paypal.android.sdk.dm,boolean,boolean,java.lang.String,com.paypal.android.sdk.payments.PayPalConfiguration)",
+            "sources": [
+                "com.paypal.android.sdk.payments.PaymentConfirmActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.phone.OwnerReviewDetailActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.OwnerReviewDetailActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.MoreActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.OwnerReviewDetailActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.TextViewActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.FullScreenImageActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startSSOLoginActivity(android.app.Activity,ca.autotrader.userapp.SSODataManager$SsoScreenOpenedBy,android.os.Bundle,int,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.FullScreenImageActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SSOLoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.phone.FullScreenImageActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.FullScreenImageActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.FullScreenImageActivity$ThumbnailSliderFragment"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.core.activities.OscCameraViewerActivity/void onHandleTagMediaButtonClicked(com.egosventures.stable360.core.model.Tag)",
+            "sources": [
+                "com.egosventures.stable360.core.activities.OscCameraViewerActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.TagMediaActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.core.activities.OscCameraViewerActivity/void f()",
+            "sources": [
+                "com.egosventures.stable360.core.activities.OscCameraViewerActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.InsideCaptureSourceChooserActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.controller.dealerpage.DealerPageHelper/void startDealerPageActivity(android.app.Activity,ca.autotrader.userapp.model.vehicle.ATVehicle,boolean,ca.autotrader.userapp.model.ga.ATAdTrackingInfo)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.dealerpage.DealerPageActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.vdp.fragment.VDPTransparencyFragment/void imageViewClick()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.FullScreenImageActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.vdp.fragment.VDPTransparencyFragment/void carproofViewReport()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.vdp.fragment.VDPTransparencyFragment/void imageViewClick()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.vdp.fragment.VDPTransparencyFragment/void carproofRequestReport()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.CarProofRequestReport"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.fragment.AdDetailBaseFragment/void textSeller()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.vdp.TextSellerLeadActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startSSOLoginActivity(android.app.Activity,ca.autotrader.userapp.SSODataManager$SsoScreenOpenedBy,android.os.Bundle,int,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SSOLoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.vdp.fragment.VDPTransparencyFragment/void onClick(android.view.View)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPOwnerReviewListActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.vdp.fragment.VDPTransparencyFragment/void handleNotesClicked()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.AddNoteActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.vdp.fragment.VDPTransparencyFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.MoreActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startAdMapActivity(android.support.v4.app.Fragment,ca.autotrader.userapp.model.vehicle.ATVehicle,ca.autotrader.userapp.model.ga.ATAdTrackingInfo,ca.autotrader.userapp.model.dealer.Dealer,ca.autotrader.userapp.util.GAHelper$AdLocation,int)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.AdMapActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.vdp.fragment.VDPTransparencyFragment/void reportAdActivity()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.ReportAdAbuseActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.vdp.fragment.VDPTransparencyFragment/void onClick(android.view.View)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SubprimeWebViewActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.controller.testdrivereward.TestDriveRewardControllerHelper/void startTestDriveRewardActivity(android.support.v4.app.Fragment,ca.autotrader.userapp.model.vehicle.ATVehicle,ca.autotrader.userapp.model.testdrivereward.TestDriveRewardOffer,java.util.ArrayList,ca.autotrader.userapp.model.ga.ATAdTrackingInfo,ca.autotrader.userapp.util.GAHelper$AdLocation)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.testdrivereward.TestDriveRewardActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.vdp.fragment.VDPTransparencyFragment/void carproofViewReportWithLead()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.CarProofLeadCaptureForm"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.fragment.AdDetailBaseFragment/void emailSeller()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.EmailSellerActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startFinanceCalculatorActivity(android.support.v4.app.Fragment,ca.autotrader.userapp.model.financecalculator.FinanceCalculatorData$FinanceCalculatorType,ca.autotrader.userapp.model.vehicle.ATVehicle,ca.autotrader.userapp.model.ga.ATAdTrackingInfo)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.financecalculator.FinanceCalculatorDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.display.fragments.OnlineViewerFragment/boolean openInsideViewer(android.app.Activity,int,com.egosventures.stable360.core.activities.ImmersiveActivity$StartMode)",
+            "sources": [
+                "com.egosventures.stable360.display.activities.OnlineViewerActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.OscCameraViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.core.fragments.ViewerFragment/void a(com.egosventures.stable360.core.model.Tag)",
+            "sources": [
+                "com.egosventures.stable360.display.activities.OnlineViewerActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.TagMediaActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.display.activities.OnlineViewerActivity/void onThumbnailsButtonClicked()",
+            "sources": [
+                "com.egosventures.stable360.display.activities.OnlineViewerActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.SpinThumbnailsActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CompareVehicleActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.fragment.CompareVehicleFragment/void emailSeller(ca.autotrader.userapp.model.vehicle.ATVehicle)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CompareVehicleActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.EmailSellerActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.fragment.CompareVehicleEditFragment$3/void onClick(android.view.View)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CompareVehicleActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.fragment.CompareVehicleEditFragment$2/void onClick(android.view.View)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CompareVehicleActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SavedVehiclesActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startAdDetailsActivity(android.app.Activity,ca.autotrader.userapp.util.GAHelper$AdLocation,ca.autotrader.userapp.model.vehicle.ATVehicle,int)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CompareVehicleActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.fragment.CompareVehicleEditFragment$4/void onClick(android.view.View)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CompareVehicleActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.MainTabsActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.financecalculator.FinanceCalculatorDetailActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.financecalculator.fragment.FdpFragment/void onInquireButtonClick(ca.autotrader.userapp.model.financecalculator.FinanceCalculatorData$FinanceCalculatorType)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.financecalculator.FinanceCalculatorDetailActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.financecalculatorinquiry.FinanceCalculatorInquiryActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.PaymentMethodActivity/void a(android.app.Activity,int,com.paypal.android.sdk.payments.PayPalConfiguration)",
+            "sources": [
+                "com.paypal.android.sdk.payments.PaymentActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.PaymentMethodActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.ValuationSummaryActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void sendFeedbackEmailToSupport(android.content.Context)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSORegistrationSuccessfulActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSORegistrationSuccessfulActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.VideoPlayerActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.ReportAdAbuseActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.SendSmsActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SavedSearchesActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void executeSavedSearch(android.app.Activity,java.lang.String,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SavedSearchesActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.TextSellerLeadActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.fragment.vdp.TextSellerLeadFragment$a/void a(java.lang.String)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.TextSellerLeadActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.vdp.SendSmsActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.Session/boolean tryLoginActivity(com.facebook.Session$AuthorizationRequest)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.TextSellerLeadActivity"
+            ],
+            "targets": [
+                "com.facebook.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startSSOLoginActivity(android.app.Activity,ca.autotrader.userapp.SSODataManager$SsoScreenOpenedBy,android.os.Bundle,int,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOAdvancedSettingsActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SSOLoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOAdvancedSettingsActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.LoginActivity/void a(android.app.Activity,int,com.paypal.android.sdk.dm,boolean,boolean,java.lang.String,com.paypal.android.sdk.payments.PayPalConfiguration)",
+            "sources": [
+                "com.paypal.android.sdk.payments.LoginActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.FuturePaymentConsentActivity/void a(android.app.Activity,int,com.paypal.android.sdk.payments.PayPalConfiguration)",
+            "sources": [
+                "com.paypal.android.sdk.payments.PayPalFuturePaymentActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.FuturePaymentConsentActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SellMyItemsActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startPlaceAdWebViewActivity(android.content.Context,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SellMyItemsActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.PlaceAdWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.Session/boolean tryLoginActivity(com.facebook.Session$AuthorizationRequest)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SellMyItemsActivity"
+            ],
+            "targets": [
+                "com.facebook.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.FeedbackActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.core.activities.OscCameraCaptureActivity/void showConnectionFailedActivity()",
+            "sources": [
+                "com.egosventures.stable360.core.activities.RicohThetaCaptureActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.OscCameraCaptureConnectionFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.core.activities.RicohThetaCaptureActivity/void showConnectionFailedActivity()",
+            "sources": [
+                "com.egosventures.stable360.core.activities.RicohThetaCaptureActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.RicohThetaCaptureConnectionFailedActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.core.activities.InsideCaptureSourceChooserActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.egosventures.stable360.core.activities.InsideCaptureSourceChooserActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.RicohThetaCaptureActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.core.activities.InsideCaptureSourceChooserActivity$5$1/void onClick(android.view.View)",
+            "sources": [
+                "com.egosventures.stable360.core.activities.InsideCaptureSourceChooserActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.GenericOscCameraCaptureActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startWebViewActivity(android.content.Context,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CarProofLeadCaptureForm"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CarProofLeadCaptureForm"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.Session/boolean tryLoginActivity(com.facebook.Session$AuthorizationRequest)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CarProofLeadCaptureForm"
+            ],
+            "targets": [
+                "com.facebook.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.ValuationFormActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SavedVehiclesActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.mygarage.savedvehiclepage.SavedVehiclesListFragment/void handleItemClicks(android.view.View)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SavedVehiclesActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startSearchResultActivity(android.app.Activity,ca.autotrader.userapp.model.search.SearchParameters,ca.autotrader.userapp.model.ATConst$SearchOrigination,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.controller.dealerpage.DealerPageHelper/void startDealerPageActivity(android.app.Activity,java.lang.String,java.lang.String,java.lang.String,java.lang.String,ca.autotrader.userapp.model.ga.ATAdTrackingInfo)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.dealerpage.DealerPageActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startAdDetailsActivity(android.app.Activity,ca.autotrader.userapp.util.GAHelper$AdLocation,ca.autotrader.userapp.model.vehicle.ATVehicle,int)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startSSOLoginActivity(android.app.Activity,ca.autotrader.userapp.SSODataManager$SsoScreenOpenedBy,android.os.Bundle,int,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SSOLoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.phone.SplashActivity/void startFunctionalActivity()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.MainTabsActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.Session/boolean tryLoginActivity(com.facebook.Session$AuthorizationRequest)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CarProofRequestReport"
+            ],
+            "targets": [
+                "com.facebook.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CarProofRequestReport"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startWebViewActivity(android.content.Context,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.CarProofRequestReport"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.WebViewActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.display.activities.OnlineViewerConfigurationActivity/void onGoButtonClick()",
+            "sources": [
+                "com.egosventures.stable360.display.activities.OnlineViewerConfigurationActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.display.activities.OnlineViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.PaymentMethodActivity/void c(com.paypal.android.sdk.payments.PaymentMethodActivity)",
+            "sources": [
+                "com.paypal.android.sdk.payments.PaymentMethodActivity"
+            ],
+            "targets": [
+                "io.card.payment.CardIOActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.PaymentConfirmActivity/void a(android.app.Activity,int,com.paypal.android.sdk.payments.dh,android.os.Parcelable,com.paypal.android.sdk.payments.PayPalConfiguration,boolean)",
+            "sources": [
+                "com.paypal.android.sdk.payments.PaymentMethodActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.PaymentConfirmActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.PaymentMethodActivity/void a(android.app.Activity,int,com.paypal.android.sdk.payments.PayPalConfiguration)",
+            "sources": [
+                "com.paypal.android.sdk.payments.PaymentMethodActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.PaymentMethodActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.PlaceAdWebViewActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOEmailSignOnActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.phone.SSOEmailSignOnActivity/void register()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOEmailSignOnActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SSORegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.ProfileSharingConsentActivity/void a(android.app.Activity,int,com.paypal.android.sdk.payments.PayPalConfiguration)",
+            "sources": [
+                "com.paypal.android.sdk.payments.ProfileSharingConsentActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.ProfileSharingConsentActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.LoginActivity/void a(android.app.Activity,int,com.paypal.android.sdk.dm,boolean,boolean,java.lang.String,com.paypal.android.sdk.payments.PayPalConfiguration)",
+            "sources": [
+                "com.paypal.android.sdk.payments.ProfileSharingConsentActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SearchResultsActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.foresee.sdk.cxMeasure.tracker.app.SurveyInviteActivity/void onTermsClick()",
+            "sources": [
+                "com.foresee.sdk.cxMeasure.tracker.app.SurveyInviteActivity"
+            ],
+            "targets": [
+                "com.foresee.sdk.cxMeasure.tracker.app.SurveyActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.ProfileSharingConsentActivity/void a(android.app.Activity,int,com.paypal.android.sdk.payments.PayPalConfiguration)",
+            "sources": [
+                "com.paypal.android.sdk.payments.PayPalProfileSharingActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.ProfileSharingConsentActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startWebViewActivity(android.content.Context,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSORegistrationActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSORegistrationActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.phone.SSORegistrationActivity$1/void onPostExecuteResult(ca.autotrader.userapp.model.sso.SSOAsyncResult)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSORegistrationActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SSORegistrationSuccessfulActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.LoginActivity/void a(android.app.Activity,int,com.paypal.android.sdk.dm,boolean,boolean,java.lang.String,com.paypal.android.sdk.payments.PayPalConfiguration)",
+            "sources": [
+                "com.paypal.android.sdk.payments.FuturePaymentConsentActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.paypal.android.sdk.payments.FuturePaymentConsentActivity/void a(android.app.Activity,int,com.paypal.android.sdk.payments.PayPalConfiguration)",
+            "sources": [
+                "com.paypal.android.sdk.payments.FuturePaymentConsentActivity"
+            ],
+            "targets": [
+                "com.paypal.android.sdk.payments.FuturePaymentConsentActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.MainTabsActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void executeSavedSearch(android.app.Activity,java.lang.String,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.MainTabsActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SearchResultsActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startAdDetailsActivity(android.app.Activity,ca.autotrader.userapp.util.GAHelper$AdLocation,ca.autotrader.userapp.model.vehicle.ATVehicle,int)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.MainTabsActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.financecalculatorinquiry.FinanceCalculatorInquiryActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.vdp.AdDetailSwipeableActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.sso.SSOSignOnController/void redirectScreensOnSignedIn(boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOLoginActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.MainTabsActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startWebViewActivity(android.content.Context,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOLoginActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.Session/void validateLoginBehavior(com.facebook.Session$AuthorizationRequest)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOLoginActivity"
+            ],
+            "targets": [
+                "com.facebook.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOLoginActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.sso.SSOSignOnController/void c()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SSOLoginActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SSOEmailSignOnActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.core.activities.OscCameraCaptureActivity/void showConnectionFailedActivity()",
+            "sources": [
+                "com.egosventures.stable360.core.activities.GenericOscCameraCaptureActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.OscCameraCaptureConnectionFailedActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startWebViewActivity(android.content.Context,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.testdrivereward.TestDriveRewardActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startTextViewActivity(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.testdrivereward.TestDriveRewardActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.TextViewActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.testdrivereward.TestDriveRewardActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.Session/boolean tryLoginActivity(com.facebook.Session$AuthorizationRequest)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.MoreActivity"
+            ],
+            "targets": [
+                "com.facebook.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.phone.MoreActivity/void onClick(android.view.View)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.MoreActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.FindAdById"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void sendFeedbackEmailToSupport(android.content.Context)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.MoreActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.MoreActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.phone.MoreActivity/void onClick(android.view.View)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.MoreActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "io.card.payment.CardIOActivity$2/void run()",
+            "sources": [
+                "io.card.payment.CardIOActivity"
+            ],
+            "targets": [
+                "io.card.payment.DataEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.core.fragments.ViewerFragment/void a(com.egosventures.stable360.core.model.Tag)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.FullScreen360DisplayActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.TagMediaActivity"
+            ]
+        },
+        {
+            "handler": "com.egosventures.stable360.display.fragments.OnlineViewerFragment/boolean openInsideViewer(android.app.Activity,int,com.egosventures.stable360.core.activities.ImmersiveActivity$StartMode)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.FullScreen360DisplayActivity"
+            ],
+            "targets": [
+                "com.egosventures.stable360.core.activities.OscCameraViewerActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.FullScreen360DisplayActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.dealerpage.DealerPageActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.controller.ContactSellerButtonsController/void onEmailSellerButtonClick()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.dealerpage.DealerPageActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.EmailSellerActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.controller.ContactSellerButtonsController/void onTextSellerButtonClick()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.dealerpage.DealerPageActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.vdp.TextSellerLeadActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.dealerpage.fragment.DealerPageFragment/void onRegularVehicleClicked(android.support.v7.widget.RecyclerView$ViewHolder,ca.autotrader.userapp.model.vehicle.ATVehicle,int)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.dealerpage.DealerPageActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.vdp.VDPTransparencyActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startDealerReviewWebViewActivity(android.content.Context,java.lang.String)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.dealerpage.DealerPageActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.AppHelper/void startAdMapActivity(android.support.v4.app.Fragment,ca.autotrader.userapp.model.vehicle.ATVehicle,ca.autotrader.userapp.model.ga.ATAdTrackingInfo,ca.autotrader.userapp.model.dealer.Dealer,ca.autotrader.userapp.util.GAHelper$AdLocation,int)",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.dealerpage.DealerPageActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.AdMapActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.SubprimeWebViewActivity"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ca.autotrader.userapp.ui.ATActivityDelegate/void a()",
+            "sources": [
+                "ca.autotrader.userapp.ui.phone.FindAdById"
+            ],
+            "targets": [
+                "ca.autotrader.userapp.ui.phone.SplashActivity"
+            ]
+        }
+    ]
+}

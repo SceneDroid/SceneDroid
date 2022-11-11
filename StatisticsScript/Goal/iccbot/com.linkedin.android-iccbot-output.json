@@ -1,0 +1,67 @@
+{
+    "transitions": [
+        {
+            "handler": "com.linkedin.android.liauthlib.thirdparty.LiThirdPartyAuthorizeActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "com.linkedin.android.liauthlib.thirdparty.LiThirdPartyAuthorizeActivity"
+            ],
+            "targets": [
+                "com.linkedin.android.liauthlib.thirdparty.LiThirdPartyViewUrlActivity"
+            ]
+        },
+        {
+            "handler": "com.linkedin.android.liauthlib.thirdparty.LiThirdPartyAuthorizeActivity/void startLoginActivity(boolean)",
+            "sources": [
+                "com.linkedin.android.liauthlib.thirdparty.LiThirdPartyAuthorizeActivity"
+            ],
+            "targets": [
+                "com.linkedin.android.authenticator.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.linkedin.android.infra.shared.CameraUtils/void launchCustomCamera(android.support.v4.app.Fragment,com.linkedin.android.publishing.shared.camera.CameraBundleBuilder,boolean)",
+            "sources": [
+                "com.linkedin.android.messaging.messagelist.MessageListActivity"
+            ],
+            "targets": [
+                "com.linkedin.android.infra.shared.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.linkedin.android.lioneclicklogin.LiOneClickLogin/boolean initiateOneClickLogin(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.linkedin.android.growth.login.LoginActivity"
+            ],
+            "targets": [
+                "com.linkedin.android.lioneclicklogin.LiOneClickLoginInitActivity"
+            ]
+        },
+        {
+            "handler": "com.linkedin.android.infra.shared.CameraUtils/void launchCustomCamera(android.support.v4.app.Fragment,com.linkedin.android.publishing.shared.camera.CameraBundleBuilder,boolean)",
+            "sources": [
+                "com.linkedin.android.messaging.compose.ComposeActivity"
+            ],
+            "targets": [
+                "com.linkedin.android.infra.shared.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.linkedin.android.infra.shared.CameraUtils/void launchCustomCamera(android.support.v4.app.Fragment,com.linkedin.android.publishing.shared.camera.CameraBundleBuilder,boolean)",
+            "sources": [
+                "com.linkedin.android.messaging.compose.InmailComposeActivity"
+            ],
+            "targets": [
+                "com.linkedin.android.infra.shared.CameraActivity"
+            ]
+        },
+        {
+            "handler": "com.linkedin.android.growth.samsung.SamsungSyncConsentActivity/void finish()",
+            "sources": [
+                "com.linkedin.android.growth.samsung.SamsungSyncConsentActivity"
+            ],
+            "targets": [
+                "com.linkedin.android.developer.OAuthTokenHelperActivity"
+            ]
+        }
+    ]
+}

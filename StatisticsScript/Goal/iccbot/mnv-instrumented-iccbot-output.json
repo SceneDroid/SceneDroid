@@ -1,0 +1,121 @@
+{
+    "transitions": [
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.MainActivity/boolean onMenuItemSelected(int,android.view.MenuItem)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.MainActivity"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.GrepActivity"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.MainActivity/void openFile(java.io.File)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.MainActivity"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.TextEdit"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.MainActivity/void moveFile(java.io.File)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.MainActivity"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.SelectFileName"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.MainActivity/boolean onMenuItemSelected(int,android.view.MenuItem)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.MainActivity"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.Settings"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.Settings/boolean onPreferenceClick_setTemplateText(android.preference.Preference)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.Settings"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.TemplateTextList"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.Settings/boolean onPreferenceClick_setAutoLink(android.preference.Preference)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.Settings"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.SettingAutoLink"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.Settings/boolean onPreferenceClick_setInitDir(android.preference.Preference)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.Settings"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.SelectDirName"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.MainActivity/boolean onMenuItemSelected(int,android.view.MenuItem)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.Settings"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.MainActivity/void moveFile(java.io.File)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.SelectFileName"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.MainActivity/void openFile(java.io.File)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.TextEdit"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.MainActivity/boolean onMenuItemSelected(int,android.view.MenuItem)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.GrepActivity"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.GrepActivity/boolean onMenuItemSelected(int,android.view.MenuItem)",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.GrepActivity"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.TextEdit"
+            ]
+        },
+        {
+            "handler": "jp.gr.java_conf.hatalab.mnv.TextEdit/void saveFileAsNewFile()",
+            "sources": [
+                "jp.gr.java_conf.hatalab.mnv.TextEdit"
+            ],
+            "targets": [
+                "jp.gr.java_conf.hatalab.mnv.SelectFileName"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "transitions": [
+        {
+            "handler": "com.wlappdebug.DebugActivity$v/void a()",
+            "sources": [
+                "com.wlappdebug.DebugActivity"
+            ],
+            "targets": [
+                "com.wlappdebug.DebugProctorActivity"
+            ]
+        },
+        {
+            "handler": "com.wlappdebug.DebugActivity$m/void a()",
+            "sources": [
+                "com.wlappdebug.DebugActivity"
+            ],
+            "targets": [
+                "com.wlappdebug.DebugFlagsActivity"
+            ]
+        },
+        {
+            "handler": "com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.linecorp.linesdk.auth.internal.LineAuthenticationCallbackActivity"
+            ],
+            "targets": [
+                "com.linecorp.linesdk.auth.internal.LineAuthenticationActivity"
+            ]
+        }
+    ]
+}

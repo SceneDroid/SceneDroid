@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "com.hykwok.CurrencyConverter.ActivityMain/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.hykwok.CurrencyConverter.ActivityMain"
+            ],
+            "targets": [
+                "com.hykwok.CurrencyConverter.CurrencyPreferences"
+            ]
+        },
+        {
+            "handler": "com.hykwok.CurrencyConverter.ActivityMain/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.hykwok.CurrencyConverter.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.hykwok.CurrencyConverter.CurrencyPreferences"
+            ]
+        }
+    ]
+}

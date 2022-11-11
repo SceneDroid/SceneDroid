@@ -1,0 +1,751 @@
+{
+    "transitions": [
+        {
+            "handler": "org.videolan.vlc.gui.tv.preferences.PreferencesAdvanced/boolean onPreferenceTreeClick(android.support.v7.preference.Preference)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.preferences.PreferencesActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.DebugLogActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.preferences.PreferencesFragment/boolean onPreferenceTreeClick(android.support.v7.preference.Preference)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.preferences.PreferencesActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.MainActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderWhite"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.MainActivity/void showSecondaryFragment(java.lang.String,java.lang.String)",
+            "sources": [
+                "org.videolan.vlc.gui.MainActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoGridFragment/void onRefresh()",
+            "sources": [
+                "org.videolan.vlc.gui.MainActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.MediaParsingService"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.MainActivity/boolean onNavigationItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.videolan.vlc.gui.MainActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.preferences.PreferencesActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.audio.AudioBrowserFragment/void onClick(android.view.View,int,org.videolan.medialibrary.media.MediaLibraryItem)",
+            "sources": [
+                "org.videolan.vlc.gui.MainActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.MainActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderBlack"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.ContentActivity/void onClick(android.view.View)",
+            "sources": [
+                "org.videolan.vlc.gui.MainActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.SearchActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.MainActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "org.videolan.vlc.gui.MainActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.StartActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.browser.MediaBrowserFragment/void showInfoDialog(org.videolan.medialibrary.media.MediaLibraryItem)",
+            "sources": [
+                "org.videolan.vlc.gui.MainActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void start$62c15c53(android.content.Context,android.net.Uri,boolean,int)",
+            "sources": [
+                "org.videolan.vlc.gui.MainActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.MainActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "org.videolan.vlc.gui.MainActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.MainActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoGridFragment/void onRefresh()",
+            "sources": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.MediaParsingService"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderBlack"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void start$62c15c53(android.content.Context,android.net.Uri,boolean,int)",
+            "sources": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderWhite"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.MainActivity/void showSecondaryFragment(java.lang.String,java.lang.String)",
+            "sources": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.audio.AudioBrowserFragment/void onClick(android.view.View,int,org.videolan.medialibrary.media.MediaLibraryItem)",
+            "sources": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.browser.MediaBrowserFragment/void showInfoDialog(org.videolan.medialibrary.media.MediaLibraryItem)",
+            "sources": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.StartActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.videolan.vlc.StartActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.MainTvActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.StartActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.videolan.vlc.StartActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.audioplayer.AudioPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.StartActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.videolan.vlc.StartActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.MainActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.StartActivity/void startPlaybackFromApp(android.content.Intent)",
+            "sources": [
+                "org.videolan.vlc.StartActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void start$62c15c53(android.content.Context,android.net.Uri,boolean,int)",
+            "sources": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void switchToAudioMode(boolean)",
+            "sources": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.audioplayer.AudioPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity$10/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.browser.FilePickerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void switchToAudioMode(boolean)",
+            "sources": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.MainActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.TvUtil/void playAudioList(android.app.Activity,org.videolan.medialibrary.media.MediaWrapper[],int)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.SearchActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.audioplayer.AudioPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.TvUtil/void openMedia$1be251e0(android.app.Activity,java.lang.Object)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.SearchActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.DialogActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.tv.SearchActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderWhite"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.TvUtil/void showMediaDetail(android.content.Context,org.videolan.medialibrary.media.MediaWrapper)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.SearchActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.DetailsActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.TvUtil/void openMedia$1be251e0(android.app.Activity,java.lang.Object)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.SearchActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.browser.VerticalGridActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.tv.SearchActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderBlack"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.browser.FilePickerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderWhite"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void start$62c15c53(android.content.Context,android.net.Uri,boolean,int)",
+            "sources": [
+                "org.videolan.vlc.gui.browser.FilePickerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoGridFragment/void onRefresh()",
+            "sources": [
+                "org.videolan.vlc.gui.browser.FilePickerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.MediaParsingService"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.browser.MediaBrowserFragment/void showInfoDialog(org.videolan.medialibrary.media.MediaLibraryItem)",
+            "sources": [
+                "org.videolan.vlc.gui.browser.FilePickerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.audio.AudioBrowserFragment/void onClick(android.view.View,int,org.videolan.medialibrary.media.MediaLibraryItem)",
+            "sources": [
+                "org.videolan.vlc.gui.browser.FilePickerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.MainActivity/void showSecondaryFragment(java.lang.String,java.lang.String)",
+            "sources": [
+                "org.videolan.vlc.gui.browser.FilePickerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.browser.FilePickerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderBlack"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void switchToAudioMode(boolean)",
+            "sources": [
+                "org.videolan.vlc.gui.video.benchmark.BenchActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.audioplayer.AudioPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void start$62c15c53(android.content.Context,android.net.Uri,boolean,int)",
+            "sources": [
+                "org.videolan.vlc.gui.video.benchmark.BenchActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity$10/boolean onMenuItemClick(android.view.MenuItem)",
+            "sources": [
+                "org.videolan.vlc.gui.video.benchmark.BenchActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.browser.FilePickerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void switchToAudioMode(boolean)",
+            "sources": [
+                "org.videolan.vlc.gui.video.benchmark.BenchActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.MainActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.preferences.PreferencesFragment/boolean onPreferenceTreeClick(android.support.v7.preference.Preference)",
+            "sources": [
+                "org.videolan.vlc.gui.preferences.PreferencesActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.preferences.PreferencesAdvanced/boolean onPreferenceTreeClick(android.support.v7.preference.Preference)",
+            "sources": [
+                "org.videolan.vlc.gui.preferences.PreferencesActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.DebugLogActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.browser.BaseTvActivity/boolean onKeyDown(int,android.view.KeyEvent)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.audioplayer.AudioPlayerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.SearchActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void start$62c15c53(android.content.Context,android.net.Uri,boolean,int)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.audioplayer.AudioPlayerActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.TvUtil/void openMedia$1be251e0(android.app.Activity,java.lang.Object)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.MainTvActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.DialogActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.MainTvActivity/void onItemClicked(android.support.v17.leanback.widget.Presenter$ViewHolder,java.lang.Object,android.support.v17.leanback.widget.RowPresenter$ViewHolder,java.lang.Object)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.MainTvActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.LicenceActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.browser.BaseTvActivity/boolean onKeyDown(int,android.view.KeyEvent)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.MainTvActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.SearchActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.MainTvActivity/void onItemClicked(android.support.v17.leanback.widget.Presenter$ViewHolder,java.lang.Object,android.support.v17.leanback.widget.RowPresenter$ViewHolder,java.lang.Object)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.MainTvActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.AboutActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.TvUtil/void openMedia$1be251e0(android.app.Activity,java.lang.Object)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.MainTvActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.browser.VerticalGridActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.MainTvActivity/void onItemClicked(android.support.v17.leanback.widget.Presenter$ViewHolder,java.lang.Object,android.support.v17.leanback.widget.RowPresenter$ViewHolder,java.lang.Object)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.MainTvActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.audioplayer.AudioPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.MainTvActivity/boolean onKeyDown(int,android.view.KeyEvent)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.MainTvActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.DetailsActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.MainTvActivity/void onItemClicked(android.support.v17.leanback.widget.Presenter$ViewHolder,java.lang.Object,android.support.v17.leanback.widget.RowPresenter$ViewHolder,java.lang.Object)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.MainTvActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.preferences.PreferencesActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.browser.BaseTvActivity/boolean onKeyDown(int,android.view.KeyEvent)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.DetailsActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.SearchActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.tv.DetailsActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderBlack"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.TvUtil/void openMedia$1be251e0(android.app.Activity,java.lang.Object)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.DetailsActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.DialogActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.tv.DetailsActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderWhite"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.TvUtil/void showMediaDetail(android.content.Context,org.videolan.medialibrary.media.MediaWrapper)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.DetailsActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.DetailsActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void start$62c15c53(android.content.Context,android.net.Uri,boolean,int)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.DetailsActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.TvUtil/void openMedia$1be251e0(android.app.Activity,java.lang.Object)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.DetailsActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.browser.VerticalGridActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.TvUtil/void playMedia(android.app.Activity,org.videolan.medialibrary.media.MediaWrapper)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.DetailsActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.audioplayer.AudioPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.DialogActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderWhite"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.DialogActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderBlack"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderBlack"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void start$62c15c53(android.content.Context,android.net.Uri,boolean,int)",
+            "sources": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.audio.AudioBrowserFragment/void onClick(android.view.View,int,org.videolan.medialibrary.media.MediaLibraryItem)",
+            "sources": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoGridFragment/void onRefresh()",
+            "sources": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.MediaParsingService"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.browser.MediaBrowserFragment/void showInfoDialog(org.videolan.medialibrary.media.MediaLibraryItem)",
+            "sources": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.MainActivity/void showSecondaryFragment(java.lang.String,java.lang.String)",
+            "sources": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderWhite"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.ContentActivity/void onClick(android.view.View)",
+            "sources": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.SearchActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderBlack"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoGridFragment/void onRefresh()",
+            "sources": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.MediaParsingService"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.browser.MediaBrowserFragment/void showInfoDialog(org.videolan.medialibrary.media.MediaLibraryItem)",
+            "sources": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.InfoActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.MainActivity/void showSecondaryFragment(java.lang.String,java.lang.String)",
+            "sources": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.audio.AudioBrowserFragment/void onClick(android.view.View,int,org.videolan.medialibrary.media.MediaLibraryItem)",
+            "sources": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.PlaylistActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.PlaybackService/void updateWidget()",
+            "sources": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.widget.VLCAppWidgetProviderWhite"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.video.VideoPlayerActivity/void start$62c15c53(android.content.Context,android.net.Uri,boolean,int)",
+            "sources": [
+                "org.videolan.vlc.gui.SecondaryActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.video.VideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "org.videolan.vlc.gui.tv.browser.BaseTvActivity/boolean onKeyDown(int,android.view.KeyEvent)",
+            "sources": [
+                "org.videolan.vlc.gui.tv.browser.VerticalGridActivity"
+            ],
+            "targets": [
+                "org.videolan.vlc.gui.tv.SearchActivity"
+            ]
+        }
+    ]
+}

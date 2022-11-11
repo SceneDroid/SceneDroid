@@ -1,0 +1,112 @@
+{
+    "transitions": [
+        {
+            "handler": "com.facebook.referrals.ReferralClient/boolean tryStartReferral()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.modfurniture.minecraftpe.mcpe.ui.preview.PreviewDetailActivity/void addContent$lambda-19$lambda-18$lambda-17(com.modfurniture.minecraftpe.mcpe.ui.preview.PreviewDetailActivity,java.util.ArrayList,android.view.View)",
+            "sources": [
+                "com.modfurniture.minecraftpe.mcpe.ui.preview.PreviewDetailActivity"
+            ],
+            "targets": [
+                "com.modfurniture.minecraftpe.mcpe.ui.updateguide.GuideTutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.modfurniture.minecraftpe.mcpe.ui.preview.PreviewDetailActivity$initRelated$1$2/void invoke(com.modfurniture.minecraftpe.mcpe.dto.model.MCPEItem)",
+            "sources": [
+                "com.modfurniture.minecraftpe.mcpe.ui.preview.PreviewDetailActivity"
+            ],
+            "targets": [
+                "com.modfurniture.minecraftpe.mcpe.ui.preview.PreviewDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.modfurniture.minecraftpe.mcpe.ui.preview.PreviewDetailActivity/void buyItem()",
+            "sources": [
+                "com.modfurniture.minecraftpe.mcpe.ui.preview.PreviewDetailActivity"
+            ],
+            "targets": [
+                "com.modfurniture.minecraftpe.mcpe.ui.shop.ShopActivity"
+            ]
+        },
+        {
+            "handler": "com.modfurniture.minecraftpe.mcpe.ui.preview.PreviewDetailActivity/void checkMinecraftInstalled()",
+            "sources": [
+                "com.modfurniture.minecraftpe.mcpe.ui.preview.PreviewDetailActivity"
+            ],
+            "targets": [
+                "com.modfurniture.minecraftpe.mcpe.ui.subscription.SubscriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.modfurniture.minecraftpe.mcpe.ui.main.MainActivity/void initViews()",
+            "sources": [
+                "com.modfurniture.minecraftpe.mcpe.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.modfurniture.minecraftpe.mcpe.ui.subscription.SubscriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.modfurniture.minecraftpe.mcpe.ui.main.MainActivity/void initViews()",
+            "sources": [
+                "com.modfurniture.minecraftpe.mcpe.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.modfurniture.minecraftpe.mcpe.ui.preview.PreviewDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.modfurniture.minecraftpe.mcpe.ui.main.MainActivity/void initViews()",
+            "sources": [
+                "com.modfurniture.minecraftpe.mcpe.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.modfurniture.minecraftpe.mcpe.ui.updateguide.TutorialMain"
+            ]
+        },
+        {
+            "handler": "com.modfurniture.minecraftpe.mcpe.ui.splash.SplashScreenActivity$createTimer$countDownTimer$1/void onFinish()",
+            "sources": [
+                "com.modfurniture.minecraftpe.mcpe.ui.splash.SplashScreenActivity"
+            ],
+            "targets": [
+                "com.modfurniture.minecraftpe.mcpe.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.modfurniture.minecraftpe.mcpe.ui.shop.ShopActivity/void onItemClicked(com.modfurniture.minecraftpe.mcpe.dto.model.ShopItem)",
+            "sources": [
+                "com.modfurniture.minecraftpe.mcpe.ui.shop.ShopActivity"
+            ],
+            "targets": [
+                "com.modfurniture.minecraftpe.mcpe.ui.subscription.SubscriptionActivity"
+            ]
+        }
+    ]
+}

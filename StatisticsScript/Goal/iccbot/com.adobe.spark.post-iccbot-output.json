@@ -1,0 +1,238 @@
+{
+    "transitions": [
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUxAssetBrowserV2Activity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.storage.controllers.AssetViewFragment$AssetsViewBaseActionBarController/boolean handleOptionItemSelect(int)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUxAssetBrowserV2Activity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeShowUploadTasksActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.storage.controllers.PhotosAssetsFragment/void handleAssetClickAction(java.lang.Object)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUxAssetBrowserV2Activity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXPhotoAssetOneUpViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.storage.controllers.MobileCreationPackageItemsFragment/void handleAssetClickAction(java.lang.Object)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUxAssetBrowserV2Activity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXMobilePackageItemOneUpViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.storage.controllers.DesignLibraryItemsFragment/void handleAssetClickAction(java.lang.Object)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUxAssetBrowserV2Activity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXLibraryItemCollectionOneUpViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.spark.view.signin.SignInActivity$_loginObserver$1$onSuccess$1/java.lang.Object invokeSuspend(java.lang.Object)",
+            "sources": [
+                "com.adobe.spark.view.signin.SignInActivity"
+            ],
+            "targets": [
+                "com.adobe.theo.view.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void launchSignInActivity(int)",
+            "sources": [
+                "com.adobe.spark.view.signin.SignInActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.adobe.spark.view.signin.SignInActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.referrals.ReferralClient/boolean tryStartReferral()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.service.BaseService/void onEndProcess()",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ],
+            "targets": [
+                "com.samsung.android.sdk.iap.lib.activity.DialogActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.service.BaseService/void onEndProcess()",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ],
+            "targets": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity$AdobeAuthContinuableEventFragment"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeAssetOneUpSinglePageCellView$1/void onClick(android.view.View)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXAssetOneUpViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXAssetVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.spark.view.main.SparkMainActivity/boolean onNavigationItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.adobe.theo.view.main.MainActivity"
+            ],
+            "targets": [
+                "com.adobe.spark.view.signin.SignInActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void launchUserConsentDialog(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher,com.adobe.creativesdk.foundation.internal.auth.AdobeDataUsageNoticeViewListDialogFragment$AdobeDataUsageNoticeDialogObserver)",
+            "sources": [
+                "com.adobe.theo.view.main.MainActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.theo.view.main.MainActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.theo.view.main.MainActivity$onQuickAction$1/void onQuickActionSourceSelected(com.adobe.theo.view.home.QuickActionBottomSheet,com.adobe.theo.view.home.QuickActionSource)",
+            "sources": [
+                "com.adobe.theo.view.main.MainActivity"
+            ],
+            "targets": [
+                "com.adobe.theo.view.quickaction.QuickActionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.spark.view.main.SplashActivity$onAuthStatusChange$1/java.lang.Object invokeSuspend(java.lang.Object)",
+            "sources": [
+                "com.adobe.spark.view.main.SplashActivity"
+            ],
+            "targets": [
+                "com.adobe.spark.view.signin.SignInActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.spark.view.main.SplashActivity$onAuthStatusChange$1/java.lang.Object invokeSuspend(java.lang.Object)",
+            "sources": [
+                "com.adobe.spark.view.main.SplashActivity"
+            ],
+            "targets": [
+                "com.adobe.theo.view.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.base.AdobeTOUHandlerActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.typekit.TypekitActivity/void onEvent(com.adobe.creativesdk.typekit.FontFamilyClickEvent)",
+            "sources": [
+                "com.adobe.creativesdk.typekit.TypekitActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.typekit.TypekitFontInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.typekit.TypekitActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.adobe.creativesdk.typekit.TypekitActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.typekit.TypekitFilterActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.creativesdk.typekit.TypekitActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.AppboyWebViewActivity$2/java.lang.Boolean handleUrlOverride(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        }
+    ]
+}

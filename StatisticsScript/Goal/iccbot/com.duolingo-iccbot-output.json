@@ -1,0 +1,193 @@
+{
+    "transitions": [
+        {
+            "handler": "zendesk.support.requestlist.RequestListView/void startRequestActivity(zendesk.support.request.RequestConfiguration$Builder)",
+            "sources": [
+                "zendesk.support.requestlist.RequestListActivity"
+            ],
+            "targets": [
+                "zendesk.support.request.RequestActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.onboarding.WelcomeFlowActivity$e/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.duolingo.onboarding.WelcomeFlowActivity"
+            ],
+            "targets": [
+                "com.duolingo.signuplogin.SignupActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.onboarding.WelcomeFlowActivity$o/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.duolingo.onboarding.WelcomeFlowActivity"
+            ],
+            "targets": [
+                "com.duolingo.onboarding.FromLanguageActivity"
+            ]
+        },
+        {
+            "handler": "zendesk.support.guide.HelpCenterActivity/void showContactZendesk()",
+            "sources": [
+                "zendesk.support.guide.HelpCenterActivity"
+            ],
+            "targets": [
+                "zendesk.messaging.MessagingActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.session.SessionActivity/void q0(boolean)",
+            "sources": [
+                "com.duolingo.session.SessionActivity"
+            ],
+            "targets": [
+                "com.duolingo.explanations.SkillTipActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.session.SessionActivity/void A0(com.duolingo.user.User)",
+            "sources": [
+                "com.duolingo.session.SessionActivity"
+            ],
+            "targets": [
+                "com.duolingo.plus.purchaseflow.PlusPurchaseFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.internal.CustomTab/boolean openCustomTab(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.duolingo.splash.LaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.referral.ReferralExpiringActivity/void O()",
+            "sources": [
+                "com.duolingo.referral.ReferralExpiringActivity"
+            ],
+            "targets": [
+                "com.duolingo.plus.purchaseflow.PlusPurchaseFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.session.w3/void onClick(android.view.View)",
+            "sources": [
+                "com.duolingo.session.MistakesPracticeActivity"
+            ],
+            "targets": [
+                "com.duolingo.session.SessionActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.debug.u/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.duolingo.debug.DebugActivity"
+            ],
+            "targets": [
+                "com.duolingo.session.SessionActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.debug.f/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.duolingo.debug.DebugActivity"
+            ],
+            "targets": [
+                "com.duolingo.debug.DebugActivity$ClientExperimentOptionDialogFragment"
+            ]
+        },
+        {
+            "handler": "zendesk.support.guide.ViewArticleActivity/void showContactZendesk()",
+            "sources": [
+                "zendesk.support.guide.ViewArticleActivity"
+            ],
+            "targets": [
+                "zendesk.messaging.MessagingActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.home.HomeActivity$a/void a(com.duolingo.home.HomeActivity$a,android.app.Activity,boolean,com.duolingo.home.HomeNavigationListener$Tab,boolean,com.duolingo.profile.ProfileActivity$Source,java.lang.String,boolean,boolean,b4.m,boolean,int)",
+            "sources": [
+                "com.duolingo.home.HomeActivity"
+            ],
+            "targets": [
+                "com.duolingo.home.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.duolingo.core.util.facebook.PlayFacebookUtils$WrapperActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.signuplogin.SignupActivity$y/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.duolingo.signuplogin.SignupActivity"
+            ],
+            "targets": [
+                "com.duolingo.plus.purchaseflow.PlusPurchaseFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.signuplogin.SignupActivity$z/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.duolingo.signuplogin.SignupActivity"
+            ],
+            "targets": [
+                "com.duolingo.signuplogin.AddPhoneActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.signuplogin.SignupActivity$w/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.duolingo.signuplogin.SignupActivity"
+            ],
+            "targets": [
+                "com.duolingo.plus.registration.WelcomeRegistrationActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.session.u3/void onClick(android.view.View)",
+            "sources": [
+                "com.duolingo.session.LevelTestExplainedActivity"
+            ],
+            "targets": [
+                "com.duolingo.session.SessionActivity"
+            ]
+        },
+        {
+            "handler": "com.duolingo.session.s3/void onClick(android.view.View)",
+            "sources": [
+                "com.duolingo.session.LevelReviewExplainedActivity"
+            ],
+            "targets": [
+                "com.duolingo.session.SessionActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        }
+    ]
+}

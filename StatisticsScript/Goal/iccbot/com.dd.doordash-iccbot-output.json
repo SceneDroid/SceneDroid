@@ -1,0 +1,571 @@
+{
+    "transitions": [
+        {
+            "handler": "com.stripe.android.stripe3ds2.views.ChallengeProgressActivity$Companion/void show(android.content.Context,java.lang.String,boolean,com.stripe.android.stripe3ds2.init.ui.StripeUiCustomization,com.stripe.android.stripe3ds2.transaction.SdkTransactionId)",
+            "sources": [
+                "com.stripe.android.stripe3ds2.views.ChallengeProgressActivity"
+            ],
+            "targets": [
+                "com.stripe.android.stripe3ds2.views.ChallengeProgressActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.android.risk.cardchallenge.ui.CardScanActivity$a/void a(androidx.fragment.app.Fragment,ie.j,boolean)",
+            "sources": [
+                "com.doordash.android.risk.cardchallenge.ui.CardScanActivity"
+            ],
+            "targets": [
+                "com.doordash.android.risk.cardchallenge.ui.CardScanActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.plan.partnerdeeplink.PartnerDeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity/void p0(long)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.devicegating.DeviceGatedSplashActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.convenience.ConvenienceActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.userinfo.UserInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.store.StoreActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.plan.planenrollment.PlanEnrollmentActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.login.LandingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.payments.PaymentsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.giftcards.GiftCardsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.plan.plandetails.PlanDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.saved.SavedStoresActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.facetFeed.FacetFeedActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.referral.ReferralActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.dashboard.verticals.OffersListActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.support.gethelp.GetHelpActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.notification.NotificationsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.support.v2.SupportV2Activity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.login.LauncherActivity$a/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.doordash.consumer.ui.login.LauncherActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.cms.CMSWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.getbouncer.cardverify.ui.zerofraud.CardVerifyActivity$Companion/void start(androidx.fragment.app.Fragment,java.lang.String,java.lang.String,boolean,boolean,boolean)",
+            "sources": [
+                "com.getbouncer.cardverify.ui.zerofraud.CardVerifyActivity"
+            ],
+            "targets": [
+                "com.getbouncer.cardverify.ui.zerofraud.CardVerifyActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.userinfo.UserInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.support.gethelp.GetHelpActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.convenience.ConvenienceActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.facetFeed.FacetFeedActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.dashboard.verticals.OffersListActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.plan.partnerdeeplink.PartnerDeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.support.v2.SupportV2Activity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.plan.plandetails.PlanDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.cms.CMSWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.giftcards.GiftCardsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.plan.planenrollment.PlanEnrollmentActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.notification.NotificationsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.referral.ReferralActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.saved.SavedStoresActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.payments.PaymentsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.order.OrderActivity$c/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.store.StoreActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.plan.planenrollment.PlanEnrollmentActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.cms.CMSWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.payments.PaymentsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.notification.NotificationsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.saved.SavedStoresActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.facetFeed.FacetFeedActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.convenience.ConvenienceActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.plan.plandetails.PlanDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.referral.ReferralActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.plan.partnerdeeplink.PartnerDeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.dashboard.verticals.OffersListActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.store.StoreActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.giftcards.GiftCardsActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.support.v2.SupportV2Activity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.support.gethelp.GetHelpActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.userinfo.UserInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.dashboard.DashboardActivity$b/void a(com.doordash.consumer.deeplink.domain.models.DeepLinkDomainModel)",
+            "sources": [
+                "com.doordash.consumer.ui.dashboard.DashboardActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.order.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.getbouncer.cardverify.ui.network.CardVerifyActivity$Companion/void start(androidx.fragment.app.Fragment,java.lang.String,java.lang.String,java.lang.String,boolean,boolean,boolean,boolean,boolean)",
+            "sources": [
+                "com.getbouncer.cardverify.ui.network.CardVerifyActivity"
+            ],
+            "targets": [
+                "com.getbouncer.cardverify.ui.network.CardVerifyActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.store.StoreActivity/void g1(android.content.Context,ff.y1)",
+            "sources": [
+                "com.doordash.consumer.ui.store.StoreActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.store.StoreActivity"
+            ]
+        },
+        {
+            "handler": "com.getbouncer.cardverify.ui.local.CardVerifyActivity$Companion/void start(androidx.fragment.app.Fragment,java.lang.String,java.lang.String,boolean,boolean,boolean,boolean)",
+            "sources": [
+                "com.getbouncer.cardverify.ui.local.CardVerifyActivity"
+            ],
+            "targets": [
+                "com.getbouncer.cardverify.ui.local.CardVerifyActivity"
+            ]
+        },
+        {
+            "handler": "com.doordash.consumer.ui.plan.student.PlanVerificationRedirectReceiverActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.doordash.consumer.ui.plan.student.PlanVerificationRedirectReceiverActivity"
+            ],
+            "targets": [
+                "com.doordash.consumer.ui.plan.student.PlanVerificationActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+class com.iccbot.withFrag.Source1WithFrag$1 extends java.lang.Object implements android.view.View$OnClickListener
+{
+    final com.iccbot.withFrag.Source1WithFrag this$0;
+
+    void <init>(com.iccbot.withFrag.Source1WithFrag)
+    {
+        com.iccbot.withFrag.Source1WithFrag$1 r0;
+        com.iccbot.withFrag.Source1WithFrag $r1;
+
+        r0 := @this: com.iccbot.withFrag.Source1WithFrag$1;
+
+        $r1 := @parameter0: com.iccbot.withFrag.Source1WithFrag;
+
+        r0.<com.iccbot.withFrag.Source1WithFrag$1: com.iccbot.withFrag.Source1WithFrag this$0> = $r1;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void onClick(android.view.View)
+    {
+        com.iccbot.withFrag.Source1WithFrag$1 r0;
+        android.view.View $r1;
+        com.iccbot.withFrag.Frag1WithFrag $r2;
+        com.iccbot.withFrag.Source1WithFrag $r3;
+        android.support.v4.app.FragmentManager $r4;
+        android.support.v4.app.FragmentTransaction $r5;
+
+        r0 := @this: com.iccbot.withFrag.Source1WithFrag$1;
+
+        $r1 := @parameter0: android.view.View;
+
+        $r3 = r0.<com.iccbot.withFrag.Source1WithFrag$1: com.iccbot.withFrag.Source1WithFrag this$0>;
+
+        $r4 = virtualinvoke $r3.<com.iccbot.withFrag.Source1WithFrag: android.support.v4.app.FragmentManager getSupportFragmentManager()>();
+
+        $r5 = virtualinvoke $r4.<android.support.v4.app.FragmentManager: android.support.v4.app.FragmentTransaction beginTransaction()>();
+
+        $r2 = new com.iccbot.withFrag.Frag1WithFrag;
+
+        specialinvoke $r2.<com.iccbot.withFrag.Frag1WithFrag: void <init>()>();
+
+        $r5 = virtualinvoke $r5.<android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)>(2131296321, $r2);
+
+        virtualinvoke $r5.<android.support.v4.app.FragmentTransaction: int commit()>();
+
+        return;
+    }
+}

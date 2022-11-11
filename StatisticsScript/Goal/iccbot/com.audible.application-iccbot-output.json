@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "com.audible.clips.activities.EditClipActivity/void g(android.content.Context,com.audible.mobile.bookmarks.domain.Bookmark,com.audible.mobile.audio.metadata.ChapterMetadata,boolean)",
+            "sources": [
+                "com.audible.clips.activities.EditClipActivity"
+            ],
+            "targets": [
+                "com.audible.clips.activities.EditClipActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "transitions": [
+        {
+            "handler": "com.nephoapp.anarxiv.PaperListWnd/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.nephoapp.anarxiv.PaperListWnd"
+            ],
+            "targets": [
+                "com.nephoapp.anarxiv.PaperDetailWnd"
+            ]
+        },
+        {
+            "handler": "com.nephoapp.anarxiv.anarxiv/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.nephoapp.anarxiv.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.nephoapp.anarxiv.SubCategoryWnd"
+            ]
+        },
+        {
+            "handler": "com.nephoapp.anarxiv.anarxiv/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.nephoapp.anarxiv.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.nephoapp.anarxiv.PaperDetailWnd_2"
+            ]
+        },
+        {
+            "handler": "com.nephoapp.anarxiv.anarxiv/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.nephoapp.anarxiv.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.nephoapp.anarxiv.PaperListWnd"
+            ]
+        },
+        {
+            "handler": "com.nephoapp.anarxiv.anarxiv/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.nephoapp.anarxiv.anarxiv"
+            ],
+            "targets": [
+                "com.nephoapp.anarxiv.SubCategoryWnd"
+            ]
+        },
+        {
+            "handler": "com.nephoapp.anarxiv.anarxiv/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.nephoapp.anarxiv.anarxiv"
+            ],
+            "targets": [
+                "com.nephoapp.anarxiv.PaperListWnd"
+            ]
+        },
+        {
+            "handler": "com.nephoapp.anarxiv.anarxiv/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.nephoapp.anarxiv.anarxiv"
+            ],
+            "targets": [
+                "com.nephoapp.anarxiv.PaperDetailWnd_2"
+            ]
+        },
+        {
+            "handler": "com.nephoapp.anarxiv.SubCategoryWnd/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.nephoapp.anarxiv.SubCategoryWnd"
+            ],
+            "targets": [
+                "com.nephoapp.anarxiv.PaperListWnd"
+            ]
+        }
+    ]
+}

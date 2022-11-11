@@ -1,0 +1,49 @@
+{
+    "transitions": [
+        {
+            "handler": "com.anchorfree.hydrasdk.vpnservice.StartVPNServiceShadowActivity/void a(android.content.Context)",
+            "sources": [
+                "com.anchorfree.hydrasdk.vpnservice.StartVPNServiceShadowActivity"
+            ],
+            "targets": [
+                "com.anchorfree.hydrasdk.vpnservice.StartVPNServiceShadowActivity"
+            ]
+        },
+        {
+            "handler": "com.anchorfree.hotspotshield.ui.activity.MainActivity/void h(java.lang.String)",
+            "sources": [
+                "com.anchorfree.hotspotshield.ui.activity.MainActivity"
+            ],
+            "targets": [
+                "com.anchorfree.hotspotshield.ui.screens.help.article.view.HelpChatWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.anchorfree.hotspotshield.ui.activity.MainActivity/void k(java.lang.String)",
+            "sources": [
+                "com.anchorfree.hotspotshield.ui.activity.MainActivity"
+            ],
+            "targets": [
+                "com.anchorfree.hotspotshield.ui.screens.purchase.view.PurchaseActivity"
+            ]
+        },
+        {
+            "handler": "com.braintreepayments.api.dropin.DropInActivity/void onVaultEditButtonClick(android.view.View)",
+            "sources": [
+                "com.braintreepayments.api.dropin.DropInActivity"
+            ],
+            "targets": [
+                "com.braintreepayments.api.dropin.VaultManagerActivity"
+            ]
+        },
+        {
+            "handler": "com.braintreepayments.api.dropin.DropInActivity/void a(com.braintreepayments.api.dropin.c.a)",
+            "sources": [
+                "com.braintreepayments.api.dropin.DropInActivity"
+            ],
+            "targets": [
+                "com.braintreepayments.api.dropin.AddCardActivity"
+            ]
+        }
+    ]
+}

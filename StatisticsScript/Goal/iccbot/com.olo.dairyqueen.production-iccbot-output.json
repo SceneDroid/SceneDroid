@@ -1,0 +1,58 @@
+{
+    "transitions": [
+        {
+            "handler": "j3.c/void openUriWithWebViewActivityFromPush(android.content.Context,android.net.Uri,android.os.Bundle)",
+            "sources": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ],
+            "targets": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$a/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.braze.push.a/void handlePushStoryPageClicked(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.braze.push.NotificationTrampolineActivity"
+            ],
+            "targets": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ]
+        },
+        {
+            "handler": "j3.b/void execute(android.content.Context)",
+            "sources": [
+                "com.appboy.ui.activities.AppboyContentCardsActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.activities.AppboyFeedActivity"
+            ]
+        },
+        {
+            "handler": "j3.c/void execute(android.content.Context)",
+            "sources": [
+                "com.appboy.ui.activities.AppboyContentCardsActivity"
+            ],
+            "targets": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ]
+        }
+    ]
+}

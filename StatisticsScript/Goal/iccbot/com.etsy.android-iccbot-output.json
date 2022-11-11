@@ -1,0 +1,850 @@
+{
+    "transitions": [
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.purchases.PurchasesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.purchases.PurchasesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.ShareFeedbackDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.purchases.PurchasesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.purchases.PurchasesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.BOEActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.purchases.PurchasesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.EtsyPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.purchases.PurchasesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.purchases.PurchasesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.uikit.CustomViewDemoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.purchases.PurchasesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.review.CreateReviewActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.purchases.PurchasesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.listingnomapper.TextDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.purchases.PurchasesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.ShopAboutVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.braze.ui.BrazeWebViewActivity$b/java.lang.Boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ],
+            "targets": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.EtsyPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.review.CreateReviewActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ],
+            "targets": [
+                "com.etsy.android.uikit.CustomViewDemoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.ShareFeedbackDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.BOEActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.ShopAboutVideoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.listingnomapper.TextDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.review.CreateReviewActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.ShareFeedbackDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.listingnomapper.TextDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.BOEActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.EtsyPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.ShopAboutVideoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ],
+            "targets": [
+                "com.etsy.android.uikit.CustomViewDemoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$onCreate$redirectReceiver$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.search.v2.interstitial.SearchInterstitialActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.search.v2.interstitial.SearchInterstitialActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.ShopAboutVideoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.search.v2.interstitial.SearchInterstitialActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.BOEActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.search.v2.interstitial.SearchInterstitialActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.review.CreateReviewActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.search.v2.interstitial.SearchInterstitialActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.EtsyPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.search.v2.interstitial.SearchInterstitialActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.search.v2.interstitial.SearchInterstitialActivity"
+            ],
+            "targets": [
+                "com.etsy.android.uikit.CustomViewDemoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.search.v2.interstitial.SearchInterstitialActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.listingnomapper.TextDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.search.v2.interstitial.SearchInterstitialActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.ShareFeedbackDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.search.v2.interstitial.SearchInterstitialActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.BOEActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.BOEActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.BOEActivity"
+            ],
+            "targets": [
+                "com.etsy.android.uikit.CustomViewDemoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.BOEActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.listingnomapper.TextDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.BOEActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.review.CreateReviewActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.BOEActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.BOEActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.BOEActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.ShareFeedbackDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.BOEActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.BOEActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.ShopAboutVideoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.BOEActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.EtsyPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "com.etsy.android.lib.toolbar.AdminToolbarActivity/void lambda$getJSONResponseButton$0(com.etsy.android.lib.toolbar.AdminToolbarNetworkResponse,android.view.View)",
+            "sources": [
+                "com.etsy.android.lib.toolbar.AdminToolbarActivity"
+            ],
+            "targets": [
+                "com.etsy.android.lib.toolbar.AdminToolbarJSONActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.cart.CartShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.review.CreateReviewActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.cart.CartShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.BOEActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.cart.CartShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.cart.CartShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.ShopAboutVideoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.cart.CartShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.EtsyPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.cart.CartShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.listingnomapper.TextDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.cart.CartShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.cart.CartShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.cart.CartShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.uikit.CustomViewDemoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.cart.CartShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.ShareFeedbackDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.favorites.FavoritesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.favorites.FavoritesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.favorites.FavoritesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.uikit.CustomViewDemoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.favorites.FavoritesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.ShareFeedbackDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.favorites.FavoritesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.ShopAboutVideoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.favorites.FavoritesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.EtsyPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.favorites.FavoritesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.BOEActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.favorites.FavoritesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.review.CreateReviewActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.favorites.FavoritesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.favorites.FavoritesShortcutActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.listingnomapper.TextDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.homescreen.HomescreenTabsActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.listingnomapper.TextDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.homescreen.HomescreenTabsActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.homescreen.HomescreenTabsActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.review.CreateReviewActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.homescreen.HomescreenTabsActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.ShareFeedbackDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.homescreen.HomescreenTabsActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.BOEActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.homescreen.HomescreenTabsActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.homescreen.HomescreenTabsActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.ShopAboutVideoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.homescreen.HomescreenTabsActivity"
+            ],
+            "targets": [
+                "com.etsy.android.uikit.CustomViewDemoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.homescreen.HomescreenTabsActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.EtsyPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.homescreen.HomescreenTabsActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.SignInActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.ShareFeedbackDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.ShopAboutVideoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.core.listingnomapper.TextDialogActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.user.review.CreateReviewActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ],
+            "targets": [
+                "com.etsy.android.uikit.CustomViewDemoActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.EtsyPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.BOEActivity"
+            ]
+        },
+        {
+            "handler": "ye.a/void e(android.app.Activity,ze.e)",
+            "sources": [
+                "com.etsy.android.ui.user.auth.ForgotPasswordDialogActivity"
+            ],
+            "targets": [
+                "com.etsy.android.ui.dialog.TextInfoActivity"
+            ]
+        }
+    ]
+}

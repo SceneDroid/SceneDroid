@@ -1,0 +1,328 @@
+{
+    "transitions": [
+        {
+            "handler": "com.tattoodo.app.fragment.pin.SelectBoardActivity/void a(android.support.v4.app.Fragment,android.support.v4.app.FragmentActivity)",
+            "sources": [
+                "com.tattoodo.app.fragment.pin.SelectBoardActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.pin.SelectBoardActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.communication.conversation.consultation.ConsultationActivity/void a(android.support.v4.app.Fragment,com.tattoodo.app.ui.communication.conversation.consultation.edit.EditConsultationScreenArg)",
+            "sources": [
+                "com.tattoodo.app.ui.communication.conversation.consultation.ConsultationActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.communication.conversation.consultation.ConsultationActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.editUser.EditUserActivity/void a(android.content.Context)",
+            "sources": [
+                "com.tattoodo.app.fragment.editUser.EditUserActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.editUser.EditUserActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.createpost.postinfo.selectuser.SelectUserActivity/void a(android.support.v4.app.Fragment,com.tattoodo.app.ui.createpost.postinfo.selectuser.SelectUserScreenArg)",
+            "sources": [
+                "com.tattoodo.app.ui.createpost.postinfo.selectuser.SelectUserActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.createpost.postinfo.selectuser.SelectUserActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.booking.ShopBookingActivity/void a(android.content.Context,com.tattoodo.app.ui.ShopBookingScreenArg)",
+            "sources": [
+                "com.tattoodo.app.ui.booking.ShopBookingActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.booking.ShopBookingActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.claimShop.ClaimShopActivity/void a(android.content.Context,com.tattoodo.app.fragment.claimShop.ClaimShopScreenArg)",
+            "sources": [
+                "com.tattoodo.app.fragment.claimShop.ClaimShopActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.claimShop.ClaimShopActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.fullscreenimage.ImageFullScreenActivity/void a(android.app.Activity,android.view.View,com.tattoodo.app.ui.fullscreenimage.ImageScreenArg)",
+            "sources": [
+                "com.tattoodo.app.ui.fullscreenimage.ImageFullScreenActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.fullscreenimage.ImageFullScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.MainActivity/void o()",
+            "sources": [
+                "com.tattoodo.app.MainActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.navigation.NavigationActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.tattoodo.app.MainActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.MainActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.tattoodo.app.MainActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.onboarding.OnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.jakewharton.processphoenix.ProcessPhoenix/void a(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.jakewharton.processphoenix.ProcessPhoenix"
+            ],
+            "targets": [
+                "com.jakewharton.processphoenix.ProcessPhoenix"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.reviewShop.ReviewShopActivity/void a(android.content.Context,com.tattoodo.app.fragment.reviewShop.ReviewScreenArg)",
+            "sources": [
+                "com.tattoodo.app.fragment.reviewShop.ReviewShopActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.reviewShop.ReviewShopActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.createpost.postinfo.selectartist.SelectArtistActivity/void a(android.support.v4.app.Fragment,com.tattoodo.app.ui.createpost.postinfo.selectartist.SelectArtistScreenArg)",
+            "sources": [
+                "com.tattoodo.app.ui.createpost.postinfo.selectartist.SelectArtistActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.createpost.postinfo.selectartist.SelectArtistActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.createpost.postinfo.selectshop.SelectShopActivity/void a(android.support.v4.app.Fragment,com.tattoodo.app.ui.createpost.postinfo.selectshop.SelectShopScreenArg)",
+            "sources": [
+                "com.tattoodo.app.ui.createpost.postinfo.selectshop.SelectShopActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.createpost.postinfo.selectshop.SelectShopActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.createpost.ImagePickerActivity/void b(android.support.v4.app.Fragment)",
+            "sources": [
+                "com.tattoodo.app.ui.createpost.ImagePickerActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.createpost.ImagePickerActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.data.net.auth.SocialAuthTokenActivity/void a(android.support.v4.app.Fragment,com.tattoodo.app.util.model.SocialAuthProviderId)",
+            "sources": [
+                "com.tattoodo.app.data.net.auth.SocialAuthTokenActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.data.net.auth.SocialAuthTokenActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.shop.shopadmin.ShopAdminActivity/void a(android.content.Context,com.tattoodo.app.ui.reviews.ShopIdScreenArg)",
+            "sources": [
+                "com.tattoodo.app.fragment.shop.shopadmin.ShopAdminActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.shop.shopadmin.ShopAdminActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.shop.ShopArtistsActivity/void a(android.content.Context)",
+            "sources": [
+                "com.tattoodo.app.fragment.shop.ShopArtistsActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.shop.ShopArtistsActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.createShop.CreateShopLeadActivity/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.tattoodo.app.fragment.createShop.CreateShopLeadActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.createShop.CreateShopLeadActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.getintouch.ShopGetInTouchActivity/void a(android.content.Context,com.tattoodo.app.ui.getintouch.GetInTouchScreenArg)",
+            "sources": [
+                "com.tattoodo.app.ui.getintouch.ShopGetInTouchActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.getintouch.ShopGetInTouchActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.skills.SkillsPickerActivity/void a(android.content.Context)",
+            "sources": [
+                "com.tattoodo.app.fragment.skills.SkillsPickerActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.skills.SkillsPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.createpost.CreatePostActivity/void a(android.content.Context)",
+            "sources": [
+                "com.tattoodo.app.ui.createpost.CreatePostActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.createpost.CreatePostActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.MainActivity/void a(android.content.Context)",
+            "sources": [
+                "com.tattoodo.app.deeplink.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.onboarding.WelcomeActivity/void b(android.content.Context)",
+            "sources": [
+                "com.tattoodo.app.fragment.onboarding.WelcomeActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.onboarding.WelcomeActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.video.fullscreen.FullScreenVideoPlayerActivity/void a(android.content.Context,com.tattoodo.app.ui.video.fullscreen.FullScreenVideoPlayerScreenArg)",
+            "sources": [
+                "com.tattoodo.app.ui.video.fullscreen.FullScreenVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.video.fullscreen.FullScreenVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.settings.SettingsActivity/void a(android.content.Context)",
+            "sources": [
+                "com.tattoodo.app.fragment.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.navigation.NavigationActivity/void a(android.content.Context,com.tattoodo.app.navigation.SharedNavigationItem)",
+            "sources": [
+                "com.tattoodo.app.navigation.NavigationActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.navigation.NavigationActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.createpost.CreatePostActivity/void a(android.content.Context,android.net.Uri)",
+            "sources": [
+                "com.tattoodo.app.navigation.NavigationActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.createpost.CreatePostActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.profile.ProfileActivity/void a(android.content.Context,com.tattoodo.app.ui.profile.ProfileScreenArg)",
+            "sources": [
+                "com.tattoodo.app.ui.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.profile.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.editShop.EditShopActivity/void a(android.content.Context)",
+            "sources": [
+                "com.tattoodo.app.fragment.editShop.EditShopActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.editShop.EditShopActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.onboarding.WebDocumentActivity/void a(android.content.Context,com.tattoodo.app.fragment.onboarding.WebDocumentActivity$WebDocument)",
+            "sources": [
+                "com.tattoodo.app.fragment.onboarding.WebDocumentActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.onboarding.WebDocumentActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.communication.conversation.ConversationActivity/void a(android.content.Context,com.tattoodo.app.ui.communication.conversation.ConversationScreenArg)",
+            "sources": [
+                "com.tattoodo.app.ui.communication.conversation.ConversationActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.communication.conversation.ConversationActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.ui.createpost.EditPostActivity/void a(android.content.Context,com.tattoodo.app.util.model.Post)",
+            "sources": [
+                "com.tattoodo.app.ui.createpost.EditPostActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.ui.createpost.EditPostActivity"
+            ]
+        },
+        {
+            "handler": "com.tattoodo.app.fragment.workplaces.WorkplacesActivity/void b(android.content.Context)",
+            "sources": [
+                "com.tattoodo.app.fragment.workplaces.WorkplacesActivity"
+            ],
+            "targets": [
+                "com.tattoodo.app.fragment.workplaces.WorkplacesActivity"
+            ]
+        }
+    ]
+}

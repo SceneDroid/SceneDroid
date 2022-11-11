@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "com.appboy.ui.actions.UriAction/void openUriWithWebViewActivity(android.content.Context,android.net.Uri,android.os.Bundle)",
+            "sources": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        }
+    ]
+}

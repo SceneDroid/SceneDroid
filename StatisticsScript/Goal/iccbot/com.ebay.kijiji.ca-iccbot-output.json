@@ -1,0 +1,3793 @@
+{
+    "transitions": [
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.ActivatePayableAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.ActivatePayableAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.ActivatePayableAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.ActivatePayableAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.featurePurchase.activities.PromoteActivity/void startPostAdCompleteActivity(com.ebay.app.featurePurchase.models.PurchasableItemOrder)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.ActivatePayableAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostCompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.favorites.activities.FavoritesActivity/void V2()",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesActivity"
+            ],
+            "targets": [
+                "com.ebay.app.settings.activities.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.ExternalDeepLinkActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.ExternalDeepLinkActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.savedSearch.activities.SavedSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.savedSearch.activities.SavedSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.savedSearch.activities.SavedSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.savedSearch.activities.SavedSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.landingScreen.homeSweetHome.HomeSweetHomeLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.landingScreen.homeSweetHome.HomeSweetHomeLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.landingScreen.homeSweetHome.HomeSweetHomeLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.landingScreen.homeSweetHome.HomeSweetHomeLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.ShortcutLauncherActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.ShortcutLauncherActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void h4()",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.radialSearch.RadialSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void J3()",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.t/void C6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.t/void C6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.startup.SplashScreenActivity/void M2(com.ebay.app.common.startup.h)",
+            "sources": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.startup.SplashScreenActivity/void M2(com.ebay.app.common.startup.h)",
+            "sources": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.NavBarTutorialActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostInProgressActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostInProgressActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostInProgressActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostInProgressActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.postAd.activities.PostInProgressActivity/void onBackPressed()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostInProgressActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.messageBox.activities.MessageBoxChatZoomImageActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.messageBox.activities.MessageBoxChatZoomImageActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.messageBox.activities.MessageBoxChatZoomImageActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.messageBox.activities.MessageBoxChatZoomImageActivity$a/void a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ebay.app.messageBox.activities.MessageBoxChatZoomImageActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBox.activities.MessageBoxChatZoomImageActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.messageBox.activities.MessageBoxChatZoomImageActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.messageBox.activities.MessageBoxDisplayNameActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.postAd.activities.PostAdmarktLimitActivity/void q2()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostAdmarktLimitActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.notificationCenter.activities.WelcomeNotificationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.notificationCenter.activities.WelcomeNotificationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.notificationCenter.activities.WelcomeNotificationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.notificationCenter.activities.WelcomeNotificationActivity$a/void a(android.content.Context)",
+            "sources": [
+                "com.ebay.app.notificationCenter.activities.WelcomeNotificationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.notificationCenter.activities.WelcomeNotificationActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.notificationCenter.activities.WelcomeNotificationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void o7()",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void Q6(java.lang.String)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void a5(android.view.View)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void s7(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void onEventMainThread(com.ebay.app.common.adDetails.i.g)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.imagepicker.image_library.ImageLibraryActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.browse.activities.BrowseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.landingScreen.kijijiVillage.KijijiVillageLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.landingScreen.kijijiVillage.KijijiVillageLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.landingScreen.kijijiVillage.KijijiVillageLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.landingScreen.kijijiVillage.KijijiVillageLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.savedSearch.activities.SavedSearchAdListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.savedSearch.activities.SavedSearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void J3()",
+            "sources": [
+                "com.ebay.app.search.savedSearch.activities.SavedSearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void h4()",
+            "sources": [
+                "com.ebay.app.search.savedSearch.activities.SavedSearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.radialSearch.RadialSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.savedSearch.activities.SavedSearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.savedSearch.activities.SavedSearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.savedSearch.activities.SavedSearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.savedSearch.activities.SavedSearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.common.adDetails.activities.ZoomImageActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.common.adDetails.activities.ZoomImageActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.common.adDetails.activities.ZoomImageActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.adDetails.activities.ZoomImageActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.settings.activities.SettingsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.settings.activities.SettingsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.settings.activities.SettingsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.settings.activities.SettingsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.ForgotPasswordActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.barcodereader.activities.BarcodeCaptureActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.common.adDetails.activities.ExtendedInfoActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.common.adDetails.activities.ExtendedInfoActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.common.adDetails.activities.ExtendedInfoActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.adDetails.activities.ExtendedInfoActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.about.activities.CopyrightActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.about.activities.CopyrightActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.about.activities.CopyrightActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.about.activities.CopyrightActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.UniversalDeepLinkActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.UniversalDeepLinkActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.map.activities.MapSearchActivity/void w8(com.ebay.app.search.map.models.MapMarker)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.ClusterAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.map.activities.MapSearchActivity/void x8(android.os.Bundle)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.t/void C6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void J3()",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.t/void C6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void h4()",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.radialSearch.RadialSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapClusterAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapClusterAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapClusterAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapClusterAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapClusterAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void a5(android.view.View)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapClusterAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void onEventMainThread(com.ebay.app.common.adDetails.i.g)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapClusterAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapClusterAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapClusterAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.myAds.activities.MyAdsActivity$d/void a()",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.EditAdActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.featurePurchase.strategy.PaymentStrategy/void startPromoteActivity(com.ebay.app.featurePurchase.models.PurchasableItemOrder)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.featurePurchase.activities.ActivatePayableAdActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.myAds.activities.MyAdsActivity/void A3()",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.settings.activities.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.featurePurchase.strategy.PaymentStrategy/void startPromoteActivity(com.ebay.app.featurePurchase.models.PurchasableItemOrder)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.featurePurchase.activities.PostFlowFeaturePurchaseActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.featurePurchase.strategy.PaymentStrategy/void startPromoteActivity(com.ebay.app.featurePurchase.models.PurchasableItemOrder)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.featurePurchase.activities.FeaturePurchaseActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.myAds.activities.MyAdsActivity$d/void a()",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity/void i5(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.browse.activities.BrowseAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void J3()",
+            "sources": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void h4()",
+            "sources": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.radialSearch.RadialSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void a5(android.view.View)",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void o7()",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void Q6(java.lang.String)",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void s7(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void onEventMainThread(com.ebay.app.common.adDetails.i.g)",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.NotificationMediatorActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.NotificationMediatorActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.AdDeepLinkActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.activities.AdDeepLinkActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.landingScreen.seller.modal.SellerLandingScreenModalActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.landingScreen.seller.modal.SellerLandingScreenModalActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.landingScreen.seller.modal.SellerLandingScreenModalActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.landingScreen.seller.modal.SellerLandingScreenModalActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.deleteAd.views.complete.DeleteAdCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.deleteAd.views.complete.DeleteAdCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.deleteAd.views.complete.DeleteAdCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.deleteAd.views.complete.DeleteAdCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.n.a/void j3()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.n.a/void j3()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.n.a/void j3()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.notificationCenter.activities.NotificationCenterActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.notificationCenter.activities.NotificationCenterActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.notificationCenter.activities.NotificationCenterActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.notificationCenter.activities.NotificationCenterActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.userAccount.register.activate.ActivationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.userAccount.register.activate.ActivationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.userAccount.register.activate.ActivationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.userAccount.register.activate.ActivationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void a5(android.view.View)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void onEventMainThread(com.ebay.app.common.adDetails.i.g)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void s7(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void o7()",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void Q6(java.lang.String)",
+            "sources": [
+                "com.ebay.app.search.map.activities.MapSingleAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostAdRequestPermissionActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostAdRequestPermissionActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostAdRequestPermissionActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostAdRequestPermissionActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.mapv2.AdsMapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.mapv2.AdsMapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.mapv2.AdsMapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void J3()",
+            "sources": [
+                "com.ebay.app.search.mapv2.AdsMapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.t/void C6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.mapv2.AdsMapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.mapv2.AdsMapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void h4()",
+            "sources": [
+                "com.ebay.app.search.mapv2.AdsMapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.radialSearch.RadialSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.t/void C6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.mapv2.AdsMapSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.about.activities.AboutActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.about.activities.AboutActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.about.activities.AboutActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.about.activities.AboutActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.NavBarTutorialActivity$a/void onClick(android.view.View)",
+            "sources": [
+                "com.ebay.app.common.activities.NavBarTutorialActivity"
+            ],
+            "targets": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.postAd.activities.SendPictureActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.u/void x2(java.lang.String,java.lang.String,boolean,boolean,boolean,android.content.Intent)",
+            "sources": [
+                "com.ebay.app.postAd.activities.SendPictureActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.activities.PostersAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.activities.PostersAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.PostersAdListActivity$a/void c(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ebay.app.search.activities.PostersAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.PostersAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.activities.PostersAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.g.e.a/void k(java.lang.String,androidx.browser.a.d,java.lang.String,boolean)",
+            "sources": [
+                "com.ebay.app.search.activities.PostersAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.activities.PostersAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.featurePurchase.strategy.PaymentStrategy/void startPromoteActivity(com.ebay.app.featurePurchase.models.PurchasableItemOrder)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.featurePurchase.activities.PostFlowFeaturePurchaseActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.featurePurchase.strategy.PaymentStrategy/void startPromoteActivity(com.ebay.app.featurePurchase.models.PurchasableItemOrder)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.featurePurchase.activities.ActivatePayableAdActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.featurePurchase.strategy.PaymentStrategy/void startPromoteActivity(com.ebay.app.featurePurchase.models.PurchasableItemOrder)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.featurePurchase.activities.FeaturePurchaseActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void a5(android.view.View)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity/void n7()",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.EditAdActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void onEventMainThread(com.ebay.app.common.adDetails.i.g)",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.activities.ViewAddressLocationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.activities.ViewAddressLocationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.activities.ViewAddressLocationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.activities.ViewAddressLocationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.featurePurchase.activities.PromoteActivity/void startPostAdCompleteActivity(com.ebay.app.featurePurchase.models.PurchasableItemOrder)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.FeaturePurchaseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostCompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.FeaturePurchaseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.FeaturePurchaseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.FeaturePurchaseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.FeaturePurchaseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void o7()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void n7(boolean)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void a5(android.view.View)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void onEventMainThread(com.ebay.app.common.adDetails.i.g)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void Q6(java.lang.String)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.SingleAdDetailsActivity/void s7(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.SingleAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PreviewAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.settings.activities.MessagingPreferenceActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.settings.activities.MessagingPreferenceActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.settings.activities.MessagingPreferenceActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.settings.activities.MessagingPreferenceActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.login.activities.ResetPasswordActivity/void j2(java.lang.String)",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.ForgotPasswordActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.login.activities.ResetPasswordActivity/void t2()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.ResetPasswordActivity"
+            ],
+            "targets": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity/void a3()",
+            "sources": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBox.activities.MessageBoxDisplayNameActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity$a/void c(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.deleteAd.views.selectBuyers.DeleteAdSelectBuyersActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.deleteAd.views.selectBuyers.DeleteAdSelectBuyersActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.deleteAd.views.selectBuyers.DeleteAdSelectBuyersActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.deleteAd.views.selectBuyers.DeleteAdSelectBuyersActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.home.activities.HomeActivity/void m6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.home.activities.HomeActivity/void S4()",
+            "sources": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.home.activities.HomeActivity/void m6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.home.activities.HomeActivity/void V6(java.util.List)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.LocationSuggestionActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.debug.settings.DebugSettingsActivity/void x2(com.ebay.app.userRatings.models.internal.SubmitRatingParameters)",
+            "sources": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userRatings.submitRating.SubmitRatingActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.debug.settings.DebugSettingsActivity/void v2(android.net.Uri)",
+            "sources": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.UniversalDeepLinkActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.userRatings.submitRating.SubmitRatingActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userRatings.submitRating.SubmitRatingActivity/void R8(int,java.lang.String,int)",
+            "sources": [
+                "com.ebay.app.userRatings.submitRating.SubmitRatingActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userRatings.submitRatingConfirmation.SubmitRatingConfirmationActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.BumpUpActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.BumpUpActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.featurePurchase.activities.PromoteActivity/void startPostAdCompleteActivity(com.ebay.app.featurePurchase.models.PurchasableItemOrder)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.BumpUpActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostCompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.BumpUpActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.BumpUpActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.postAd.activities.EditCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.postAd.activities.EditCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.postAd.activities.EditCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.postAd.activities.EditCompleteActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.t/void C6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void J3()",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void h4()",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.radialSearch.RadialSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.t/void C6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.activities.LocationSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.activities.LocationSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.activities.LocationSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.activities.LocationSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.activities.WidgetAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.activities.WidgetAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void onEventMainThread(com.ebay.app.common.adDetails.i.g)",
+            "sources": [
+                "com.ebay.app.search.activities.WidgetAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.activities.WidgetAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void a5(android.view.View)",
+            "sources": [
+                "com.ebay.app.search.activities.WidgetAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.activities.WidgetAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.activities.WidgetAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.activities.WidgetAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.activities.WidgetAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeFeedAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeFeedAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void a5(android.view.View)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeFeedAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeFeedAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeFeedAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.home.activities.HomeFeedAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeFeedAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void onEventMainThread(com.ebay.app.common.adDetails.i.g)",
+            "sources": [
+                "com.ebay.app.home.activities.HomeFeedAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.home.activities.HomeFeedAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.userRatings.submitRatingConfirmation.SubmitRatingConfirmationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.postAd.activities.EditAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.postAd.activities.EditAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.postAd.activities.EditAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.postAd.activities.EditAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void onEventMainThread(com.ebay.app.common.adDetails.i.g)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void a5(android.view.View)",
+            "sources": [
+                "com.ebay.app.favorites.activities.FavoritesAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.PostFlowFeaturePurchaseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.PostFlowFeaturePurchaseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.PostFlowFeaturePurchaseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.PostFlowFeaturePurchaseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.featurePurchase.activities.PromoteActivity/void startPostAdCompleteActivity(com.ebay.app.featurePurchase.models.PurchasableItemOrder)",
+            "sources": [
+                "com.ebay.app.featurePurchase.activities.PostFlowFeaturePurchaseActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostCompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.deleteAd.views.confirmTrade.DeleteAdConfirmTradeActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.deleteAd.views.confirmTrade.DeleteAdConfirmTradeActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.deleteAd.views.confirmTrade.DeleteAdConfirmTradeActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.deleteAd.views.confirmTrade.DeleteAdConfirmTradeActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.n.a/void j3()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.n.a/void j3()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.login.activities.LinkedLoginActivity/void j3()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.home.activities.HomeActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.n.a/void j3()",
+            "sources": [
+                "com.ebay.app.userAccount.login.activities.LinkedLoginActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.userAccount.edit.activities.EditUserProfileActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.userAccount.edit.activities.EditUserProfileActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.userAccount.edit.activities.EditUserProfileActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.userAccount.edit.activities.EditUserProfileActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.landingScreen.seller.SellerLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.landingScreen.seller.SellerLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.landingScreen.seller.SellerLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.landingScreen.seller.SellerLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.userAccount.register.activities.RegistrationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.n.a/void j3()",
+            "sources": [
+                "com.ebay.app.userAccount.register.activities.RegistrationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.userAccount.register.activities.RegistrationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.register.activities.RegistrationActivity/void V3()",
+            "sources": [
+                "com.ebay.app.userAccount.register.activities.RegistrationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.imagepicker.image_library.ImageLibraryFoldersActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.userAccount.register.activities.RegistrationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.userAccount.register.activities.RegistrationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.n.a/void j3()",
+            "sources": [
+                "com.ebay.app.userAccount.register.activities.RegistrationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.n.a/void j3()",
+            "sources": [
+                "com.ebay.app.userAccount.register.activities.RegistrationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.imagepicker.image_library.ImageLibraryFoldersActivity$b/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.ebay.app.imagepicker.image_library.ImageLibraryFoldersActivity"
+            ],
+            "targets": [
+                "com.ebay.app.imagepicker.image_library.ImageLibraryActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.imagepicker.image_library.ImageLibraryFoldersActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.radialSearch.RadialSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.radialSearch.RadialSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.radialSearch.RadialSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.radialSearch.RadialSearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.landingScreen.categorypicker.CategoryPickerLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.landingScreen.categorypicker.CategoryPickerLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.landingScreen.categorypicker.CategoryPickerLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.landingScreen.categorypicker.CategoryPickerLandingScreenActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void onEventMainThread(com.ebay.app.common.adDetails.i.g)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.activities.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.contactPoster.activities.ContactPosterActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.adDetails.activities.k/void a5(android.view.View)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsAdDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.contactPoster.actions.i/void i(com.ebay.app.common.models.ad.Ad)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchAdDetailsActivity"
+            ],
+            "targets": [
+                "com.ebay.app.messageBoxSdk.activities.MessageBoxSdkChatActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.SearchActivity/void U3(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.activities.SearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.activities.SearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.activities.SearchActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.photoEditing.views.EditPhotoActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.photoEditing.views.EditPhotoActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.photoEditing.views.EditPhotoActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.photoEditing.views.EditPhotoActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.payments.views.PaymentConfirmationActivity/void R2()",
+            "sources": [
+                "com.ebay.app.payments.views.PaymentConfirmationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.payments.views.PaymentConfirmationActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.t/void C6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.activities.ClusterAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.activities.SearchAdListActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.search.activities.ClusterAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void h4()",
+            "sources": [
+                "com.ebay.app.search.activities.ClusterAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.radialSearch.RadialSearchActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.search.activities.ClusterAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.search.activities.ClusterAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.r/void J3()",
+            "sources": [
+                "com.ebay.app.search.activities.ClusterAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.postAd.activities.PostActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.search.activities.ClusterAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.search.activities.t/void C6(com.ebay.app.search.models.SearchParameters)",
+            "sources": [
+                "com.ebay.app.search.activities.ClusterAdListActivity"
+            ],
+            "targets": [
+                "com.ebay.app.search.browse.activities.CategoryLandingScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/void startSplashScreenActivity()",
+            "sources": [
+                "com.ebay.app.deleteAd.views.main.DeleteAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.startup.SplashScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.t/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.ebay.app.deleteAd.views.main.DeleteAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.common.debug.settings.DebugSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.common.activities.s/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.ebay.app.deleteAd.views.main.DeleteAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.userAccount.login.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.ebay.app.userAccount.views.a/void o()",
+            "sources": [
+                "com.ebay.app.deleteAd.views.main.DeleteAdActivity"
+            ],
+            "targets": [
+                "com.ebay.app.myAds.activities.MyAdsActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "transitions": [
+        {
+            "handler": "messenger.chat.social.messenger.Activities.NewMainActivity/void j()",
+            "sources": [
+                "messenger.chat.social.messenger.Activities.NewMainActivity"
+            ],
+            "targets": [
+                "messenger.chat.social.messenger.Activities.WebviewApps"
+            ]
+        },
+        {
+            "handler": "messenger.chat.social.messenger.Helper.h/void a(android.content.Context,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "messenger.chat.social.messenger.Activities.NewMainActivity"
+            ],
+            "targets": [
+                "messenger.chat.social.messenger.Activities.NewMainActivity"
+            ]
+        },
+        {
+            "handler": "messenger.chat.social.messenger.Helper.g/void b(android.content.Context)",
+            "sources": [
+                "messenger.chat.social.messenger.Activities.NewMainActivity"
+            ],
+            "targets": [
+                "com.mobvista.msdk.shell.MVActivity"
+            ]
+        },
+        {
+            "handler": "messenger.chat.social.messenger.Activities.NewMainActivity/boolean a(android.view.MenuItem)",
+            "sources": [
+                "messenger.chat.social.messenger.Activities.NewMainActivity"
+            ],
+            "targets": [
+                "messenger.chat.social.messenger.Activities.ShoppingAppsActivity"
+            ]
+        },
+        {
+            "handler": "messenger.chat.social.messenger.Activities.NewMainActivity/boolean a(android.view.MenuItem)",
+            "sources": [
+                "messenger.chat.social.messenger.Activities.NewMainActivity"
+            ],
+            "targets": [
+                "messenger.chat.social.messenger.Activities.PrivacyPolicyActivity"
+            ]
+        },
+        {
+            "handler": "messenger.chat.social.messenger.Activities.NewMainActivity/boolean a(android.view.MenuItem)",
+            "sources": [
+                "messenger.chat.social.messenger.Activities.NewMainActivity"
+            ],
+            "targets": [
+                "messenger.chat.social.messenger.Activities.EUGdprActivity"
+            ]
+        },
+        {
+            "handler": "messenger.chat.social.messenger.Activities.NewMainActivity/boolean a(android.view.MenuItem)",
+            "sources": [
+                "messenger.chat.social.messenger.Activities.NewMainActivity"
+            ],
+            "targets": [
+                "messenger.chat.social.messenger.Activities.FreeApps"
+            ]
+        },
+        {
+            "handler": "messenger.chat.social.messenger.Activities.SplashActivity/void onResume()",
+            "sources": [
+                "messenger.chat.social.messenger.Activities.SplashActivity"
+            ],
+            "targets": [
+                "messenger.chat.social.messenger.Activities.NewMainActivity"
+            ]
+        }
+    ]
+}

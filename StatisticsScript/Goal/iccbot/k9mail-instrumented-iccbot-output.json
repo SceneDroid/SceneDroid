@@ -1,0 +1,688 @@
+{
+    "transitions": [
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupIncoming/void actionIncomingSettings(android.app.Activity,com.fsck.k9.Account,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupIncoming"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupIncoming"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupCheckSettings/void actionCheckSettings(android.app.Activity,com.fsck.k9.Account,boolean,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupIncoming"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupCheckSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupOutgoing/void actionOutgoingSettings(android.content.Context,com.fsck.k9.Account,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupIncoming"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupOutgoing"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.FolderSettings/void actionSettings(android.content.Context,com.fsck.k9.Account,java.lang.String)",
+            "sources": [
+                "com.fsck.k9.activity.MessageList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.FolderSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageCompose/void actionCompose(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.MessageList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageCompose"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSettings/void actionSettings(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.MessageList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageList/void onShowFolderList()",
+            "sources": [
+                "com.fsck.k9.activity.MessageList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.FolderList"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageList/void actionHandle(android.content.Context,java.lang.String,com.fsck.k9.SearchSpecification)",
+            "sources": [
+                "com.fsck.k9.activity.MessageList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageList"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.Accounts/void listAccounts(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.MessageList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.Accounts"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageList/void onMoveBatch()",
+            "sources": [
+                "com.fsck.k9.activity.MessageList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.ChooseFolder"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageView/void actionView(android.content.Context,com.fsck.k9.activity.MessageReference,java.util.List,android.os.Bundle)",
+            "sources": [
+                "com.fsck.k9.activity.MessageList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageView"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.Prefs/void actionPrefs(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.MessageList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.Prefs"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupIncoming/void actionEditIncomingSettings(android.app.Activity,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupIncoming"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSettings/void onManageIdentities()",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.ManageIdentities"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupOutgoing/void actionEditOutgoingSettings(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupOutgoing"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSettings/void actionSettings(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSettings/void onChooseAutoExpandFolder()",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.ChooseFolder"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupComposition/void actionEditCompositionSettings(android.app.Activity,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupComposition"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupCheckSettings/void actionCheckSettings(android.app.Activity,com.fsck.k9.Account,boolean,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupCheckSettings"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupCheckSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.Prefs/void actionPrefs(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.Prefs"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.Accounts/void listAccounts(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.Accounts"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.FolderList/void actionHandleAccount(android.content.Context,com.fsck.k9.Account,java.lang.String)",
+            "sources": [
+                "com.fsck.k9.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.FolderList"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupBasics/void actionNewAccount(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupBasics"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.Accounts/boolean onOpenAccount(com.fsck.k9.BaseAccount)",
+            "sources": [
+                "com.fsck.k9.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageList"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageCompose/void actionCompose(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageCompose"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSettings/void actionSettings(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.FolderSettings/void actionSettings(android.content.Context,com.fsck.k9.Account,java.lang.String)",
+            "sources": [
+                "com.fsck.k9.activity.setup.FolderSettings"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.FolderSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageCompose/void onChooseIdentity()",
+            "sources": [
+                "com.fsck.k9.activity.MessageCompose"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.ChooseIdentity"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageCompose/void onChooseIdentity()",
+            "sources": [
+                "com.fsck.k9.activity.MessageCompose"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.ChooseAccount"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageCompose/void actionCompose(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.MessageCompose"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageCompose"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageCompose/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.fsck.k9.activity.MessageCompose"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.Accounts"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.Accounts/boolean onOpenAccount(com.fsck.k9.BaseAccount)",
+            "sources": [
+                "com.fsck.k9.activity.Accounts"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageList"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.Prefs/void actionPrefs(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.Accounts"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.Prefs"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupBasics/void actionNewAccount(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.Accounts"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupBasics"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.Accounts$AccountsAdapter$2/void onClick(android.view.View)",
+            "sources": [
+                "com.fsck.k9.activity.Accounts"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.FolderList"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.Accounts/void listAccounts(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.Accounts"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.Accounts"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageCompose/void actionCompose(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.Accounts"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageCompose"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSettings/void actionSettings(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.Accounts"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.Prefs/void actionPrefs(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.FolderList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.Prefs"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSettings/void actionSettings(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.FolderList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.FolderList/void onResume()",
+            "sources": [
+                "com.fsck.k9.activity.FolderList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.Accounts"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.FolderList/void actionHandleAccount(android.content.Context,com.fsck.k9.Account,java.lang.String)",
+            "sources": [
+                "com.fsck.k9.activity.FolderList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.FolderList"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageCompose/void actionCompose(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.FolderList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageCompose"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageList/void actionHandle(android.content.Context,java.lang.String,com.fsck.k9.SearchSpecification)",
+            "sources": [
+                "com.fsck.k9.activity.FolderList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageList"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.FolderSettings/void actionSettings(android.content.Context,com.fsck.k9.Account,java.lang.String)",
+            "sources": [
+                "com.fsck.k9.activity.FolderList"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.FolderSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupComposition/void actionEditCompositionSettings(android.app.Activity,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupComposition"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupComposition"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupIncoming/void actionIncomingSettings(android.app.Activity,com.fsck.k9.Account,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupAccountType"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupIncoming"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupAccountType/void actionSelectAccountType(android.content.Context,com.fsck.k9.Account,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupAccountType"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupAccountType"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.ManageIdentities/void editItem(int)",
+            "sources": [
+                "com.fsck.k9.activity.ManageIdentities"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.EditIdentity"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.Prefs/void actionPrefs(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.setup.Prefs"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.Prefs"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.FontSizeSettings/void actionEditSettings(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.setup.Prefs"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.FontSizeSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.Accounts/void listAccounts(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.setup.Prefs"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.Accounts"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupNames/void actionSetNames(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupOptions"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupNames"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupOptions/void actionOptions(android.content.Context,com.fsck.k9.Account,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupOptions"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupOptions"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.FontSizeSettings/void actionEditSettings(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.setup.FontSizeSettings"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.FontSizeSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupCheckSettings/void actionCheckSettings(android.app.Activity,com.fsck.k9.Account,boolean,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupOutgoing"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupCheckSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupOptions/void actionOptions(android.content.Context,com.fsck.k9.Account,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupOutgoing"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupOptions"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupOutgoing/void actionOutgoingSettings(android.content.Context,com.fsck.k9.Account,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupOutgoing"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupOutgoing"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupNames/void actionSetNames(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupNames"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupNames"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupAccountType/void actionSelectAccountType(android.content.Context,com.fsck.k9.Account,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupBasics"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupAccountType"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupNames/void actionSetNames(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupBasics"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupNames"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupCheckSettings/void actionCheckSettings(android.app.Activity,com.fsck.k9.Account,boolean,boolean)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupBasics"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupCheckSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSetupBasics/void actionNewAccount(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.setup.AccountSetupBasics"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSetupBasics"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.FolderSettings/void actionSettings(android.content.Context,com.fsck.k9.Account,java.lang.String)",
+            "sources": [
+                "com.fsck.k9.activity.Search"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.FolderSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageList/void onMoveBatch()",
+            "sources": [
+                "com.fsck.k9.activity.Search"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.ChooseFolder"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.AccountSettings/void actionSettings(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.Search"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.AccountSettings"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageCompose/void actionCompose(android.content.Context,com.fsck.k9.Account)",
+            "sources": [
+                "com.fsck.k9.activity.Search"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageCompose"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageList/void actionHandle(android.content.Context,java.lang.String,com.fsck.k9.SearchSpecification)",
+            "sources": [
+                "com.fsck.k9.activity.Search"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageList"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.setup.Prefs/void actionPrefs(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.Search"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.setup.Prefs"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageList/void onShowFolderList()",
+            "sources": [
+                "com.fsck.k9.activity.Search"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.FolderList"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.Accounts/void listAccounts(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.Search"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.Accounts"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageView/void actionView(android.content.Context,com.fsck.k9.activity.MessageReference,java.util.List,android.os.Bundle)",
+            "sources": [
+                "com.fsck.k9.activity.Search"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageView"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.Accounts/void listAccounts(android.content.Context)",
+            "sources": [
+                "com.fsck.k9.activity.MessageView"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.Accounts"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageView/void actionView(android.content.Context,com.fsck.k9.activity.MessageReference,java.util.List,android.os.Bundle)",
+            "sources": [
+                "com.fsck.k9.activity.MessageView"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageView"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageCompose/void actionReply(android.content.Context,com.fsck.k9.Account,com.fsck.k9.mail.Message,boolean,java.lang.String)",
+            "sources": [
+                "com.fsck.k9.activity.MessageView"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.MessageCompose"
+            ]
+        },
+        {
+            "handler": "com.fsck.k9.activity.MessageView/void startRefileActivity(int)",
+            "sources": [
+                "com.fsck.k9.activity.MessageView"
+            ],
+            "targets": [
+                "com.fsck.k9.activity.ChooseFolder"
+            ]
+        }
+    ]
+}

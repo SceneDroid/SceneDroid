@@ -1,0 +1,535 @@
+{
+    "transitions": [
+        {
+            "handler": "com.braze.ui.BrazeWebViewActivity$b/java.lang.Boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ],
+            "targets": [
+                "com.braze.ui.BrazeWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.deeplink.DeepLinkActivity$a/java.lang.Object invoke()",
+            "sources": [
+                "com.app.tgtg.activities.deeplink.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.deeplink.DeepLinkActivity$b/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.app.tgtg.activities.deeplink.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.access.landing.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.deeplink.DeepLinkActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.app.tgtg.activities.deeplink.DeepLinkActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.SplashActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.helpdesk.ui.ChooseTopicActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.howdoesitwork.HowDoesItWorkActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void w()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.access.landing.LandingActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.paymentdetail.vouchers.addvoucher.AddVoucherActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity$b/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.optin.genericOptIn.OptInActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.trivia.TriviaActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.trivia.ShareableTriviaActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.contactus.ContactUsActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.hiddenstores.unlock.UnlockHiddenStoreActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.wecare.WeCareActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.ProfileActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.storeview.StoreViewActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.notificationsettings.NotificationSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.itemview.ItemViewActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.donations.DonationActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void u()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.orderview.OrderActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity/void v()",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.orders.ui.OrderListView"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.SplashActivity$b/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.locationpicker.LocationPickerActivity"
+            ]
+        },
+        {
+            "handler": "ai.c/void f(android.app.Activity,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.app.tgtg.activities.SplashActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.webview.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.main.MainActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.ProfileActivity/void y(com.app.tgtg.activities.tabmorestuff.accountdetails.profile.ProfileActivity,java.lang.String)",
+            "sources": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.edit.EditDataActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.howdoesitwork.HowDoesItWorkActivity/void onBackPressed()",
+            "sources": [
+                "com.app.tgtg.activities.howdoesitwork.HowDoesItWorkActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.howdoesitwork.HowDoesItWorkActivity$d/java.lang.Object invoke(java.lang.Object)",
+            "sources": [
+                "com.app.tgtg.activities.howdoesitwork.HowDoesItWorkActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.helpdesk.ui.ChooseTopicActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.donations.DonationActivity/void onBackPressed()",
+            "sources": [
+                "com.app.tgtg.activities.donations.DonationActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "t3.i0/void s(java.lang.String)",
+            "sources": [
+                "com.app.tgtg.activities.donations.DonationActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.postpurchase.success.purchase.PurchaseSuccessActivity"
+            ]
+        },
+        {
+            "handler": "ai.c/void f(android.app.Activity,java.lang.String,java.lang.String,int)",
+            "sources": [
+                "com.app.tgtg.activities.helpdesk.ui.AnswerActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.webview.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.helpdesk.ui.AnswerActivity/void r()",
+            "sources": [
+                "com.app.tgtg.activities.helpdesk.ui.AnswerActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.orders.ui.OrderListView"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.helpdesk.ui.AnswerActivity/void o()",
+            "sources": [
+                "com.app.tgtg.activities.helpdesk.ui.AnswerActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.storesignup.StoreSignupActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.helpdesk.ui.AnswerActivity/void d(com.app.tgtg.activities.tabmorestuff.contactus.model.ContactUsEntryData)",
+            "sources": [
+                "com.app.tgtg.activities.helpdesk.ui.AnswerActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.contactus.ContactUsActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.helpdesk.ui.AnswerActivity/void n()",
+            "sources": [
+                "com.app.tgtg.activities.helpdesk.ui.AnswerActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.privacy.PrivacyActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.privacy.trackingconsent.TrackingConsentActivity/void A(com.app.tgtg.activities.tabmorestuff.accountdetails.profile.privacy.trackingconsent.model.TrackingConsentCategory)",
+            "sources": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.privacy.trackingconsent.TrackingConsentActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.privacy.trackingconsent.TrackingConsentDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$a/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.tabmorestuff.accountdetails.paymentdetail.vouchers.addvoucher.AddVoucherActivity/void onBackPressed()",
+            "sources": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.paymentdetail.vouchers.addvoucher.AddVoucherActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.helpdesk.ui.ChooseTopicActivity/void s(com.app.tgtg.activities.helpdesk.model.HelpDeskCategory)",
+            "sources": [
+                "com.app.tgtg.activities.helpdesk.ui.ChooseTopicActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.helpdesk.ui.ChooseQuestionActivity"
+            ]
+        },
+        {
+            "handler": "t3.i0/void s(java.lang.String)",
+            "sources": [
+                "com.app.tgtg.activities.itemview.ItemViewActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.postpurchase.success.purchase.PurchaseSuccessActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.itemview.ItemViewActivity/void onBackPressed()",
+            "sources": [
+                "com.app.tgtg.activities.itemview.ItemViewActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "ai.c/void b(android.app.Activity)",
+            "sources": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.hiddenstores.HiddenStoresActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.hiddenstores.unlock.UnlockHiddenStoreActivity/void onBackPressed()",
+            "sources": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.hiddenstores.unlock.UnlockHiddenStoreActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.hiddenstores.HiddenStoresActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.helpdesk.ui.ChooseQuestionActivity/void j(com.app.tgtg.activities.helpdesk.model.HelpDeskCategory)",
+            "sources": [
+                "com.app.tgtg.activities.helpdesk.ui.ChooseQuestionActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.helpdesk.ui.AnswerActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.helpdesk.ui.ChooseQuestionActivity/void j(com.app.tgtg.activities.helpdesk.model.HelpDeskCategory)",
+            "sources": [
+                "com.app.tgtg.activities.helpdesk.ui.ChooseQuestionActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.storesignup.StoreSignupActivity"
+            ]
+        },
+        {
+            "handler": "gf.e/void m(android.content.Context,oa.c,wa.c)",
+            "sources": [
+                "com.braintreepayments.api.ThreeDSecureActivity"
+            ],
+            "targets": [
+                "com.cardinalcommerce.shared.cs.userinterfaces.ChallengeHTMLView"
+            ]
+        },
+        {
+            "handler": "gf.e/void m(android.content.Context,oa.c,wa.c)",
+            "sources": [
+                "com.braintreepayments.api.ThreeDSecureActivity"
+            ],
+            "targets": [
+                "com.cardinalcommerce.shared.cs.userinterfaces.ChallengeNativeView"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.privacy.PrivacyActivity/void y(com.app.tgtg.activities.tabmorestuff.accountdetails.profile.privacy.PrivacyActivity,java.lang.String)",
+            "sources": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.privacy.PrivacyActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.profile.privacy.privacyaction.PrivacyActionActivity"
+            ]
+        },
+        {
+            "handler": "v3.b/void run()",
+            "sources": [
+                "com.app.tgtg.activities.deeplink.TrackDeepLinkActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.SplashActivity"
+            ]
+        },
+        {
+            "handler": "ai.c/void b(android.app.Activity)",
+            "sources": [
+                "com.app.tgtg.activities.orderview.OrderActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.orderview.OrderActivity/void F()",
+            "sources": [
+                "com.app.tgtg.activities.orderview.OrderActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.tabmorestuff.contactus.ContactUsActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.tabdiscover.browsebuckets.BrowseBuckets$c/java.lang.Object f(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)",
+            "sources": [
+                "com.app.tgtg.activities.tabdiscover.browsebuckets.BrowseBuckets"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.itemview.ItemViewActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.tabdiscover.browsebuckets.BrowseBuckets$b/java.lang.Object invoke()",
+            "sources": [
+                "com.app.tgtg.activities.tabdiscover.browsebuckets.BrowseBuckets"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.recommendation.RecommendationActivity"
+            ]
+        },
+        {
+            "handler": "ai.c/void b(android.app.Activity)",
+            "sources": [
+                "com.app.tgtg.activities.webview.WebViewActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.trivia.TriviaActivity/void onBackPressed()",
+            "sources": [
+                "com.app.tgtg.activities.trivia.TriviaActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.storeview.StoreViewActivity/void onBackPressed()",
+            "sources": [
+                "com.app.tgtg.activities.storeview.StoreViewActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.trivia.ShareableTriviaActivity/void onBackPressed()",
+            "sources": [
+                "com.app.tgtg.activities.trivia.ShareableTriviaActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.app.tgtg.activities.tabmorestuff.accountdetails.paymentdetail.vouchers.voucherdetail.VoucherDetailActivity/void onBackPressed()",
+            "sources": [
+                "com.app.tgtg.activities.tabmorestuff.accountdetails.paymentdetail.vouchers.voucherdetail.VoucherDetailActivity"
+            ],
+            "targets": [
+                "com.app.tgtg.activities.main.MainActivity"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "transitions": [
+        {
+            "handler": "in.shick.lockpatterngenerator.GeneratorActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "in.shick.lockpatterngenerator.GeneratorActivity"
+            ],
+            "targets": [
+                "in.shick.lockpatterngenerator.PreferencesActivity"
+            ]
+        },
+        {
+            "handler": "in.shick.lockpatterngenerator.GeneratorActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "in.shick.lockpatterngenerator.GeneratorActivity"
+            ],
+            "targets": [
+                "in.shick.lockpatterngenerator.TextWallActivity"
+            ]
+        },
+        {
+            "handler": "in.shick.lockpatterngenerator.GeneratorActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "in.shick.lockpatterngenerator.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "in.shick.lockpatterngenerator.TextWallActivity"
+            ]
+        },
+        {
+            "handler": "in.shick.lockpatterngenerator.GeneratorActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "in.shick.lockpatterngenerator.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "in.shick.lockpatterngenerator.PreferencesActivity"
+            ]
+        }
+    ]
+}

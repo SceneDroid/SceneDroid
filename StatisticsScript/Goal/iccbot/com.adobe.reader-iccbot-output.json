@@ -1,0 +1,1786 @@
+{
+    "transitions": [
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServicesAppleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceGoogleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openImageFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.misc.ARFileURLDownloadActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.misc.ARFileURLDownloadActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARIntentUtils/void openHomeActivity(android.os.Bundle,android.content.Context)",
+            "sources": [
+                "com.adobe.reader.misc.ARFileURLDownloadActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.misc.ARFileURLDownloadActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.dcm.libs.ui.SAIMSSignUpActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void launchSignInActivity(int)",
+            "sources": [
+                "com.adobe.dcm.libs.ui.SAIMSSignUpActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter/void initiateLoginWorkflow(com.adobe.libs.services.utils.SVConstants$SERVICE_AUTH_SIGNIN_TYPE,int)",
+            "sources": [
+                "com.adobe.reader.services.ARUserAccountActionsActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceGoogleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter/void initiateLoginWorkflow(com.adobe.libs.services.utils.SVConstants$SERVICE_AUTH_SIGNIN_TYPE,int)",
+            "sources": [
+                "com.adobe.reader.services.ARUserAccountActionsActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter/void initiateLoginWorkflow(com.adobe.libs.services.utils.SVConstants$SERVICE_AUTH_SIGNIN_TYPE,int)",
+            "sources": [
+                "com.adobe.reader.services.ARUserAccountActionsActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter/void initiateLoginWorkflow(com.adobe.libs.services.utils.SVConstants$SERVICE_AUTH_SIGNIN_TYPE,int)",
+            "sources": [
+                "com.adobe.reader.services.ARUserAccountActionsActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter/void initiateLoginWorkflow(com.adobe.libs.services.utils.SVConstants$SERVICE_AUTH_SIGNIN_TYPE,int)",
+            "sources": [
+                "com.adobe.reader.services.ARUserAccountActionsActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServicesAppleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.share.ARShareContainerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.share.ARShareContainerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.share.ARShareContainerActivity/void startSigningProcess(com.adobe.libs.share.interfaces.ShareSignInCompletionHandler)",
+            "sources": [
+                "com.adobe.reader.share.ARShareContainerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.services.combine.ARCombinePDFActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.services.combine.ARCombinePDFActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.services.combine.ARCombinePDFActivity/void finishActivityAndReturnToHome(android.content.Intent)",
+            "sources": [
+                "com.adobe.reader.services.combine.ARCombinePDFActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.services.combine.ARCombinePDFActivity/void openPaywall(java.lang.String)",
+            "sources": [
+                "com.adobe.reader.services.combine.ARCombinePDFActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.filepicker.ARFilePickerManager/void launchFilePicker(android.app.Activity,int)",
+            "sources": [
+                "com.adobe.reader.services.combine.ARCombinePDFActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.filepicker.ARFilePickerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.dcm.libs.ui.SAIMSLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServicesAppleLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.connector.ARConnectorFileTransferActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openImageFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.connector.ARConnectorFileTransferActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.connector.ARConnectorFileTransferActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.connector.ARConnectorFileTransferActivity/void downloadOpenWithConnectorFile(android.app.Activity,android.content.Intent,long,com.adobe.libs.connectors.CNConnectorManager$ConnectorType,com.adobe.reader.home.ARDocumentOpeningLocation)",
+            "sources": [
+                "com.adobe.reader.connector.ARConnectorFileTransferActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.connector.ARConnectorFileTransferActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.share.ARLinkShareActivity/void startShareLinkWorkflow(java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.adobe.reader.share.ARLinkShareActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.share.ARShareContainerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARIntentUtils/void openHomeActivity(android.os.Bundle,android.content.Context)",
+            "sources": [
+                "com.adobe.reader.share.ARLinkShareActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.referrals.ReferralClient/boolean tryStartReferral()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.filepicker.ARFilePickerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.filepicker.ARFilePickerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onMAMReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void exportFile(android.app.Activity,com.adobe.reader.services.ARConvertPDFObject,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.epdf.ARExportPDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void protectFile(android.app.Activity,com.adobe.reader.services.ARConvertPDFObject,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.protect.ARProtectPDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARIntentUtils/void openHomeActivity(android.os.Bundle,android.content.Context)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void compressFile(android.app.Activity,com.adobe.reader.services.ARConvertPDFObject,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.compress.ARCompressPDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void combinePDF(android.app.Activity,java.util.ArrayList,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.combine.ARCombinePDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void saveACopy(android.app.Activity,com.adobe.reader.services.ARConvertPDFObject)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.saveACopy.ARSaveACopyActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/boolean openNonPDFFileWithResolverActivity(java.io.File,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void createPDF(android.app.Activity,com.adobe.reader.services.ARConvertPDFObject,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.cpdf.ARCreatePDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openImageFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.review.ARReviewUtils/void openSharedFile(android.content.Context,com.adobe.reader.review.model.ARSharedFileIntentModel,java.lang.String,boolean)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcm.libs.ui.SADefaultLoginActivity/void doLogin(com.adobe.dcm.libs.utils.SAConstants$SIGNINTYPE)",
+            "sources": [
+                "com.adobe.dcm.libs.ui.SADefaultLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.dcm.libs.ui.SAGoogleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcm.libs.ui.SADefaultLoginActivity/void doLogin(com.adobe.dcm.libs.utils.SAConstants$SIGNINTYPE)",
+            "sources": [
+                "com.adobe.dcm.libs.ui.SADefaultLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.dcm.libs.ui.SAIMSSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcm.libs.ui.SADefaultLoginActivity/void doLogin(com.adobe.dcm.libs.utils.SAConstants$SIGNINTYPE)",
+            "sources": [
+                "com.adobe.dcm.libs.ui.SADefaultLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.dcm.libs.ui.SAFacebookLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcm.libs.ui.SADefaultLoginActivity/void doLogin(com.adobe.dcm.libs.utils.SAConstants$SIGNINTYPE)",
+            "sources": [
+                "com.adobe.dcm.libs.ui.SADefaultLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.dcm.libs.ui.SAIMSLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.signature.ui.SGSignatureActivity/void startCropWorkflow(android.graphics.Bitmap)",
+            "sources": [
+                "com.adobe.libs.signature.ui.SGSignatureActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.signature.ui.SGCropActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.intune.mam.client.app.AppStoreUtils/void onClickInstallPortal(java.lang.String,android.content.Context)",
+            "sources": [
+                "com.microsoft.intune.mam.client.app.offline.OfflineStartupBlockedActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceGoogleLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void redirectToUrlInBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.services.cpdf.ARCreatePDFManager/void refreshConvertUI()",
+            "sources": [
+                "com.adobe.reader.services.cpdf.ARCreatePDFActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.services.cpdf.ARCreatePDFManager/void onCreatePDFFormatsTaskSuccess()",
+            "sources": [
+                "com.adobe.reader.services.cpdf.ARCreatePDFActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.engagementsdk.AdobeEngagementActivity/void onMAMNewIntent(android.content.Intent)",
+            "sources": [
+                "com.adobe.engagementsdk.AdobeEngagementActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARIntentUtils/void openHomeActivity(android.os.Bundle,android.content.Context)",
+            "sources": [
+                "com.adobe.reader.services.protect.ARProtectPDFActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.intune.mam.client.app.AppStoreUtils/void onClickInstallPortal(java.lang.String,android.content.Context)",
+            "sources": [
+                "com.microsoft.intune.mam.client.app.offline.OfflineNotifyWipeActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.search.ARItemUtils$2/void onSuccess(java.lang.String)",
+            "sources": [
+                "com.adobe.reader.notifications.panelUI.ARNotificationsViewerActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openImageFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.viewer.ARViewerActivity/void handleCombine(com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint$TouchPoint)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.combine.ARCombinePDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServicesAppleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.viewer.ARViewerActivity/void onOrganizePagesButtonClicked(boolean,boolean,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint$TouchPoint)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARIntentUtils/void openHomeActivity(android.os.Bundle,android.content.Context)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void protectFile(android.app.Activity,com.adobe.reader.services.ARConvertPDFObject,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.protect.ARProtectPDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.pdfnext.ARPDFNextDocumentManager/void onUnqualifiedSnackarCTAClick()",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARLearnMoreWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void compressFile(android.app.Activity,com.adobe.reader.services.ARConvertPDFObject,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.compress.ARCompressPDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.viewer.ARViewerActivity/void setShareInfo(boolean,boolean,com.adobe.libs.share.model.ShareFileInfo)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.share.ARAddReviewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.review.ARSharedFileUtils/void saveACopy(androidx.fragment.app.FragmentActivity,java.lang.String,java.lang.String,com.adobe.reader.filebrowser.ARFileEntry$DOCUMENT_SOURCE,java.lang.String)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.saveACopy.ARSaveACopyActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.services.ARBlueHeronFileTransferActivity/void performUploadInFolder(android.app.Activity,java.lang.String,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.ARBlueHeronFileTransferActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void exportFile(android.app.Activity,com.adobe.reader.services.ARConvertPDFObject,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.epdf.ARExportPDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceGoogleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.favourites.ARFavouriteOperationOptInDialog$setClickListener$4/void onClick(android.view.View)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.viewer.ARViewerActivity/void setShareInfo(boolean,boolean,com.adobe.libs.share.model.ShareFileInfo)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.share.ARShareContainerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.trackingCards.AROnboardingCardsManager/void launchMarketingPage()",
+            "sources": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.trackingCards.AROnboardingCardsManager/void launchAuthActivity(com.adobe.reader.services.auth.ARMarketingPageContentProviderUtils$IMarketingPageContentProvider)",
+            "sources": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openImageFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.ARBellIconMenuItem/void bellIconTapWorkflow()",
+            "sources": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.notifications.panelUI.ARNotificationsViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.search.ARItemUtils$2/void onSuccess(java.lang.String)",
+            "sources": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.ARUserProfileMenuItem/void lambda$handleClickOnAvatarIcon$2(android.app.Activity,android.view.View)",
+            "sources": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.settings.ARSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.ARHomeActivity/void handleShareFromThirdParty(android.content.Intent)",
+            "sources": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.share.ARLinkShareActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void launchSignInActivity(int)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.helper.HelperUtil/void goGalaxyStoreDetailPage(android.content.Context)",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.PaymentActivity"
+            ],
+            "targets": [
+                "com.adobe.engagementsdk.AdobeEngagementActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.helper.HelperUtil/void goGalaxyStoreDetailPage(android.content.Context)",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.PaymentActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceIMSContinuableActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.review.ARReviewUtils/void openSharedFile(android.content.Context,com.adobe.reader.review.model.ARSharedFileIntentModel,java.lang.String,boolean)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openImageFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void protectFile(android.app.Activity,com.adobe.reader.services.ARConvertPDFObject,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.protect.ARProtectPDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.viewer.ARViewerActivity/void setShareInfo(boolean,boolean,com.adobe.libs.share.model.ShareFileInfo)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.share.ARAddReviewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.viewer.ARViewerActivity/void setShareInfo(boolean,boolean,com.adobe.libs.share.model.ShareFileInfo)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.share.ARShareContainerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.review.ARSharedFileUtils/void saveACopy(androidx.fragment.app.FragmentActivity,java.lang.String,java.lang.String,com.adobe.reader.filebrowser.ARFileEntry$DOCUMENT_SOURCE,java.lang.String)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.saveACopy.ARSaveACopyActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARIntentUtils/void openHomeActivity(android.os.Bundle,android.content.Context)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void compressFile(android.app.Activity,com.adobe.reader.services.ARConvertPDFObject,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.compress.ARCompressPDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServicesAppleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.viewer.ARViewerActivity/void onOrganizePagesButtonClicked(boolean,boolean,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint$TouchPoint)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.viewer.ARViewerActivity$32/void onSuccess()",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.share.ARLinkShareActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceGoogleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.pdfnext.ARPDFNextDocumentManager/void onUnqualifiedSnackarCTAClick()",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARLearnMoreWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.services.ARBlueHeronFileTransferActivity/void performUploadInFolder(android.app.Activity,java.lang.String,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.ARBlueHeronFileTransferActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.favourites.ARFavouriteOperationOptInDialog$setClickListener$4/void onClick(android.view.View)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.viewer.ARViewerActivity/void handleCombine(com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint$TouchPoint)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.combine.ARCombinePDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.home.fileoperations.ARFileOperations/void exportFile(android.app.Activity,com.adobe.reader.services.ARConvertPDFObject,com.adobe.libs.services.inappbilling.SVInAppBillingUpsellPoint)",
+            "sources": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.epdf.ARExportPDFActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.filepicker.ARFilePickerManager/void launchFilePicker(android.app.Activity,int)",
+            "sources": [
+                "com.adobe.reader.services.saveACopy.ARSaveACopyActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.filepicker.ARFilePickerActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.service.BaseService/void onEndProcess()",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ],
+            "targets": [
+                "com.samsung.android.sdk.iap.lib.activity.DialogActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.service.BaseService/void onEndProcess()",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ],
+            "targets": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.services.epdf.ARExportPDFActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.services.epdf.ARExportPDFActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openImageFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.review.ARSharedFileLoaderActivity/void showSignInScreen()",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.ui.AROptionalSigningFragment/void lambda$setClickListeners$1(android.app.Activity,android.view.View)",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.review.ARSharedFileLoaderActivity/void continueActivityResume()",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.ui.AROptionalSigningFragment/void lambda$setClickListeners$1(android.app.Activity,android.view.View)",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceGoogleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.ui.AROptionalSigningFragment/void lambda$setClickListeners$1(android.app.Activity,android.view.View)",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServicesAppleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void redirectToUrlInBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.ui.AROptionalSigningFragment/void lambda$setClickListeners$1(android.app.Activity,android.view.View)",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.ui.AROptionalSigningFragment/void lambda$setClickListeners$1(android.app.Activity,android.view.View)",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity$AdobeAuthContinuableEventFragment"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceGoogleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServicesAppleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.share.ARShareIntentListenerActivity/void finishAndLaunchHome()",
+            "sources": [
+                "com.adobe.reader.share.ARShareIntentListenerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.share.ARShareIntentListenerActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.adobe.reader.share.ARShareIntentListenerActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.AdobeReader"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openImageFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.review.parcel.ARParcelContentListActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.review.parcel.ARParcelContentListActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.review.parcel.ARParcelContentListActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceIMSLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.identity.client.CurrentTaskBrowserTabActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.microsoft.identity.client.CurrentTaskBrowserTabActivity"
+            ],
+            "targets": [
+                "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.services.ARBlueHeronFileTransferActivity/void launchAuthActivity(com.adobe.reader.services.auth.ARMarketingPageContentProviderUtils$IMarketingPageContentProvider,int)",
+            "sources": [
+                "com.adobe.reader.services.ARBlueHeronFileTransferActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.auth.ARServicesLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.services.ARBlueHeronFileTransferActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.services.ARBlueHeronFileTransferActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.services.ARBlueHeronFileTransferActivity/void performUploadInFolder(android.app.Activity,java.lang.String,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.adobe.reader.services.ARBlueHeronFileTransferActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.ARBlueHeronFileTransferActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openImageFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.services.ARBlueHeronFileTransferActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.base.AdobeTOUHandlerActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.intune.mam.client.app.AppStoreUtils/void onClickInstallPortal(java.lang.String,android.content.Context)",
+            "sources": [
+                "com.microsoft.intune.mam.client.app.offline.OfflineInstallCompanyPortalDialogActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.helper.HelperUtil/void goGalaxyStoreDetailPage(android.content.Context)",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.CheckPackageActivity"
+            ],
+            "targets": [
+                "com.adobe.engagementsdk.AdobeEngagementActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.helper.HelperUtil/void goGalaxyStoreDetailPage(android.content.Context)",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.CheckPackageActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.dcm.libs.ui.SAGoogleLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onMAMCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity$1/void onMAMReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity"
+            ],
+            "targets": [
+                "com.microsoft.identity.common.internal.providers.oauth2.CurrentTaskAuthorizationActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.services.compress.ARCompressPDFOperation/void refreshConvertUI()",
+            "sources": [
+                "com.adobe.reader.services.compress.ARCompressPDFActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARDataUsageConsentNotice/void launchConsentNoticeDialog(android.app.Activity,com.adobe.reader.utils.ARDataUsageConsentNotice$UsageDataDismissListener)",
+            "sources": [
+                "com.adobe.reader.settings.ARSettingsActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARCustomAdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.settings.ARSettingsFragment/void openMarketingPage(com.adobe.reader.services.ARUserAccountActionsActivity$AccountActions)",
+            "sources": [
+                "com.adobe.reader.settings.ARSettingsActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.ARUserAccountActionsActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void redirectToUrlInBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.adobe.reader.settings.ARSettingsActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.settings.ARSettingsLeftNavigationFragment/void openAcrobatPremiumMarketingPage()",
+            "sources": [
+                "com.adobe.reader.settings.ARSettingsActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.services.ARMarketingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void showGDPRConsentDialog(android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.settings.ARSettingsActivity"
+            ],
+            "targets": [
+                "com.adobe.reader.utils.ARGdprDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void setTokenExpirationBroadcastAlarm()",
+            "sources": [
+                "com.adobe.reader.settings.ARSettingsActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.adobe.dcm.libs.ui.SAFacebookLoginActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.dcm.libs.ui.SAFacebookLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARUtils/void redirectToUrlInBrowser(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.AdobeReader/void handleContinuableError(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSContinuableActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.launcher.ARLauncherUtils/void openHomeActivity(androidx.appcompat.app.AppCompatActivity)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.reader.home.ARHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openImageFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.reader.viewer.ARFileViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.ui.AROptionalSigningFragment/void lambda$setClickListeners$1(android.app.Activity,android.view.View)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.ui.AROptionalSigningFragment/void lambda$setClickListeners$1(android.app.Activity,android.view.View)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServicesAppleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.AdobeReader/void handleIntent()",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.reader.connector.ARConnectorFileTransferActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.ui.AROptionalSigningFragment/void lambda$setClickListeners$1(android.app.Activity,android.view.View)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceGoogleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.utils.ARFileOpenUtils/void openPDFFile(com.adobe.reader.viewer.ARFileOpenModel,android.app.Activity)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.reader.surfaceduo.ARDualScreenViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.ui.AROptionalSigningFragment/void lambda$setClickListeners$1(android.app.Activity,android.view.View)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.AdobeReader/void handleIntent()",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.reader.misc.ARFileURLDownloadActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.review.ARReviewUtils/void openSharedFile(android.content.Context,com.adobe.reader.review.model.ARSharedFileIntentModel,java.lang.String,boolean)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.reader.review.ARSharedFileLoaderActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.reader.ui.AROptionalSigningFragment/void lambda$setClickListeners$1(android.app.Activity,android.view.View)",
+            "sources": [
+                "com.adobe.reader.AdobeReader"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ]
+        }
+    ]
+}

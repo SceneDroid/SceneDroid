@@ -1,0 +1,202 @@
+{
+    "transitions": [
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.v4.fls.FlsActivity"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.onboarding.NoSubBlockingActivity"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.v4.freeTrial.FreeTrialFragment$doJwtRefresh$1/java.lang.Object invokeSuspend(java.lang.Object)",
+            "sources": [
+                "awl.application.v4.freeTrial.FreeTrialActivity"
+            ],
+            "targets": [
+                "awl.application.MainActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.v4.freeTrial.FreeTrialFragment$getToken$1/java.lang.Object invokeSuspend(java.lang.Object)",
+            "sources": [
+                "awl.application.v4.freeTrial.FreeTrialActivity"
+            ],
+            "targets": [
+                "awl.application.v4.freeTrial.WebView"
+            ]
+        },
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.v4.freeTrial.FreeTrialActivity"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.util.PurchaseFlowWebView"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.util.PurchaseFlowWebView/void onBackPressed()",
+            "sources": [
+                "awl.application.util.PurchaseFlowWebView"
+            ],
+            "targets": [
+                "awl.application.MainActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.v4.odl.OdlOfflineActivity"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.v4.vls.VlsActivity"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.AppboyWebViewActivity$2/java.lang.Boolean handleUrlOverride(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.v4.edp.EdpActivity"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.SettingsActivity"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.profile.menu.DevOptionActivity"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.profile.menu.DevOptionActivity/void onCreate$lambda-6(awl.application.profile.menu.DevOptionActivity,android.view.View)",
+            "sources": [
+                "awl.application.profile.menu.DevOptionActivity"
+            ],
+            "targets": [
+                "ca.bellmedia.optinlibrary.activities.OptInActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.MainActivity/void onLanguageSelection(awl.application.v4.odl.action.OdlActionModel,awl.application.v4.odl.OdlMetadataDto)",
+            "sources": [
+                "awl.application.MainActivity"
+            ],
+            "targets": [
+                "awl.application.v4.vls.VlsActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.MainActivity/void onSignOut()",
+            "sources": [
+                "awl.application.MainActivity"
+            ],
+            "targets": [
+                "awl.application.MainActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.mydownloads.NavigationToMyDownload/void gotoMyDownload(awl.application.app.navigation.FragmentNavigation,androidx.fragment.app.FragmentActivity)",
+            "sources": [
+                "awl.application.MainActivity"
+            ],
+            "targets": [
+                "awl.application.v4.odl.OdlOfflineActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.MainActivity/void onNewIntent(android.content.Intent)",
+            "sources": [
+                "awl.application.MainActivity"
+            ],
+            "targets": [
+                "awl.application.profile.menu.DevOptionActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.MainActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "awl.application.MainActivity"
+            ],
+            "targets": [
+                "awl.vidi.VidiPlayerStreamingActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.MainActivity"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.filters.FilterSelectionActivity"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        },
+        {
+            "handler": "awl.application.AbstractWindowActivity/void launchAwlAuthActivity(android.net.Uri)",
+            "sources": [
+                "awl.application.profile.manage.access.ChannelAccessActivity"
+            ],
+            "targets": [
+                "entpay.awl.auth.AwlAuthActivity"
+            ]
+        }
+    ]
+}

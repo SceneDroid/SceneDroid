@@ -1,0 +1,49 @@
+{
+    "transitions": [
+        {
+            "handler": "b.a.d.j/void d(android.content.Context,java.lang.Class,android.os.Parcelable)",
+            "sources": [
+                "com.discord.app.AppActivity$AppAction"
+            ],
+            "targets": [
+                "com.discord.app.AppActivity"
+            ]
+        },
+        {
+            "handler": "b.a.d.j/void d(android.content.Context,java.lang.Class,android.os.Parcelable)",
+            "sources": [
+                "com.discord.app.AppActivity$Call"
+            ],
+            "targets": [
+                "com.discord.app.AppActivity"
+            ]
+        },
+        {
+            "handler": "b.a.d.j/void d(android.content.Context,java.lang.Class,android.os.Parcelable)",
+            "sources": [
+                "com.discord.app.AppActivity$IncomingCall"
+            ],
+            "targets": [
+                "com.discord.app.AppActivity"
+            ]
+        },
+        {
+            "handler": "b.a.d.j/void d(android.content.Context,java.lang.Class,android.os.Parcelable)",
+            "sources": [
+                "com.discord.app.AppActivity$Main"
+            ],
+            "targets": [
+                "com.discord.app.AppActivity"
+            ]
+        },
+        {
+            "handler": "b.a.d.j/void d(android.content.Context,java.lang.Class,android.os.Parcelable)",
+            "sources": [
+                "com.discord.app.AppActivity"
+            ],
+            "targets": [
+                "com.discord.app.AppActivity"
+            ]
+        }
+    ]
+}

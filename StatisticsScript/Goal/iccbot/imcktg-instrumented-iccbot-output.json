@@ -1,0 +1,49 @@
+{
+    "transitions": [
+        {
+            "handler": "us.achromaticmetaphor.imcktg.GaAT/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "us.achromaticmetaphor.imcktg.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "us.achromaticmetaphor.imcktg.About"
+            ]
+        },
+        {
+            "handler": "us.achromaticmetaphor.imcktg.GaAT/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "us.achromaticmetaphor.imcktg.GaAT"
+            ],
+            "targets": [
+                "us.achromaticmetaphor.imcktg.About"
+            ]
+        },
+        {
+            "handler": "us.achromaticmetaphor.imcktg.SelectContacts/void confirmContacts(android.view.View)",
+            "sources": [
+                "us.achromaticmetaphor.imcktg.SelectContacts"
+            ],
+            "targets": [
+                "us.achromaticmetaphor.imcktg.ConfirmContacts"
+            ]
+        },
+        {
+            "handler": "us.achromaticmetaphor.imcktg.DefaultToneInput/void confirm(android.view.View)",
+            "sources": [
+                "us.achromaticmetaphor.imcktg.DefaultToneInput"
+            ],
+            "targets": [
+                "us.achromaticmetaphor.imcktg.ConfirmContacts"
+            ]
+        },
+        {
+            "handler": "us.achromaticmetaphor.imcktg.ChooseFilename/void confirm(android.view.View)",
+            "sources": [
+                "us.achromaticmetaphor.imcktg.ChooseFilename"
+            ],
+            "targets": [
+                "us.achromaticmetaphor.imcktg.ConfirmContacts"
+            ]
+        }
+    ]
+}

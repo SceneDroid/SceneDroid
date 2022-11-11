@@ -1,0 +1,760 @@
+{
+    "transitions": [
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.storage.controllers.MobileCreationPackageItemsFragment/void handleAssetClickAction(java.lang.Object)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUxAssetBrowserV2Activity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXMobilePackageItemOneUpViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUxAssetBrowserV2Activity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.storage.controllers.DesignLibraryItemsFragment/void handleAssetClickAction(java.lang.Object)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUxAssetBrowserV2Activity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXLibraryItemCollectionOneUpViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.storage.controllers.AssetViewFragment$AssetsViewBaseActionBarController/boolean handleOptionItemSelect(int)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUxAssetBrowserV2Activity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeShowUploadTasksActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.storage.controllers.PhotosAssetsFragment/void handleAssetClickAction(java.lang.Object)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUxAssetBrowserV2Activity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXPhotoAssetOneUpViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void launchSignInActivity(int)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthSignInActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.search.SearchFilterActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.search.SearchFilterActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.search.SearchFilterActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void setTokenExpirationBroadcastAlarm()",
+            "sources": [
+                "com.adobe.scan.android.ScanTourViewActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.ScanTourViewActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.ScanTourViewActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.ScanTourViewActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.adobe.scan.android.ScanTourViewActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.PreviewActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.PreviewActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.PreviewActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServicesAppleLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.helper.HelperUtil/void goGalaxyStoreDetailPage(android.content.Context)",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.PaymentActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.util.MultiPageSelectionDialog"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.util.MultiPageSelectionDialog"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.util.MultiPageSelectionDialog"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceIMSContinuableActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.referrals.ReferralClient/boolean tryStartReferral()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.internal.Validate/boolean hasCustomTabRedirectActivity(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.settings.PreferencesFragment/void launchOCRActivity()",
+            "sources": [
+                "com.adobe.scan.android.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.settings.OcrLanguageActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.settings.PreferencesFragment/void launchFileNameIntent()",
+            "sources": [
+                "com.adobe.scan.android.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.DefaultFileNameActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.service.BaseService/void onEndProcess()",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ],
+            "targets": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.service.BaseService/void onEndProcess()",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.AccountActivity"
+            ],
+            "targets": [
+                "com.samsung.android.sdk.iap.lib.activity.DialogActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity$AdobeAuthContinuableEventFragment"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.services.CombineActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.services.CombineActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.services.CombineActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.contacts.ContactFieldTypeActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.contacts.ContactFieldTypeActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.contacts.ContactFieldTypeActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.services.CombineSelectionActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.services.CombineSelectionActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.services.CombineSelectionActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceIMSLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeAssetOneUpSinglePageCellView$1/void onClick(android.view.View)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXAssetOneUpViewerActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.storage.controllers.AdobeUXAssetVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.creativesdk.foundation.internal.base.AdobeTOUHandlerActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.MoveActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.MoveActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.MoveActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.FileBrowserActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.FileBrowserActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.adobe.scan.android.FileBrowserActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void launchUserConsentDialog(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher,com.adobe.creativesdk.foundation.internal.auth.AdobeDataUsageNoticeViewListDialogFragment$AdobeDataUsageNoticeDialogObserver)",
+            "sources": [
+                "com.adobe.scan.android.FileBrowserActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeDataUsageNoticeActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.FileBrowserActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.FileBrowserActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.search.SearchActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.search.SearchActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.search.SearchActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.samsung.android.sdk.iap.lib.helper.HelperUtil/void goGalaxyStoreDetailPage(android.content.Context)",
+            "sources": [
+                "com.samsung.android.sdk.iap.lib.activity.CheckPackageActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.AcrobatPromotionActivity/void openAppStoreLink(java.lang.String,java.util.HashMap)",
+            "sources": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.settings.OcrLanguageActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.settings.OcrLanguageActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.settings.OcrLanguageActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceGoogleLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.services.ExportActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.services.ExportActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.services.ExportActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.contacts.AddContactActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.contacts.AddContactActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.contacts.AddContactActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.contacts.AddContactActivity/void insertNewContactInner()",
+            "sources": [
+                "com.adobe.scan.android.contacts.AddContactActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.FileBrowserActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.FileListHelper/void openPDF(android.app.Activity,com.adobe.scan.android.file.ScanFile,com.adobe.scan.android.analytics.ScanAppAnalytics$SecondaryCategory,boolean,boolean,com.adobe.scan.android.AcrobatPromotionActivity$OPEN_MODE_ENUM,java.util.HashMap,com.adobe.scan.android.BaseFileItemAdapter$SearchInfo)",
+            "sources": [
+                "com.adobe.scan.android.services.CompressActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.AcrobatPromotionActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.scan.android.util.NotificationHelper/void tryToScheduleNotification(java.lang.String,int,int,long)",
+            "sources": [
+                "com.adobe.scan.android.services.CompressActivity"
+            ],
+            "targets": [
+                "com.adobe.scan.android.util.NotificationPublisher"
+            ]
+        },
+        {
+            "handler": "com.adobe.dcmscan.ScanWorkflow/boolean start(android.app.Activity,boolean,androidx.activity.result.ActivityResultLauncher)",
+            "sources": [
+                "com.adobe.scan.android.services.CompressActivity"
+            ],
+            "targets": [
+                "com.adobe.dcmscan.ReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.scan.android.services.ScanMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.scan.android.services.ScanMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceGoogleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.scan.android.services.ScanMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.scan.android.services.ScanMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServiceIMSSignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.libs.services.inappbilling.SVSubscriptionLayoutPresenter$1/void complete()",
+            "sources": [
+                "com.adobe.scan.android.services.ScanMarketingPageActivity"
+            ],
+            "targets": [
+                "com.adobe.libs.services.auth.SVServicesAppleLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthManager/void openContinuableAuthenticationEvent(com.adobe.creativesdk.foundation.auth.AdobeAuthSessionLauncher)",
+            "sources": [
+                "com.adobe.libs.services.auth.SVServiceFacebookLoginActivity"
+            ],
+            "targets": [
+                "com.adobe.creativesdk.foundation.internal.auth.AdobeAuthContinuableEventActivity"
+            ]
+        }
+    ]
+}

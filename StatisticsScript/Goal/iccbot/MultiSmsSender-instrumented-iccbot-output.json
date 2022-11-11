@@ -1,0 +1,85 @@
+{
+    "transitions": [
+        {
+            "handler": "com.hectorone.multismssender.SelectGroupActivity/void editGroup(java.lang.Long)",
+            "sources": [
+                "com.hectorone.multismssender.SelectGroupActivity"
+            ],
+            "targets": [
+                "com.hectorone.multismssender.GroupEditActivity"
+            ]
+        },
+        {
+            "handler": "com.hectorone.multismssender.PhoneNumberSelection/void display_group_list()",
+            "sources": [
+                "com.hectorone.multismssender.PhoneNumberSelection"
+            ],
+            "targets": [
+                "com.hectorone.multismssender.SelectGroupActivity"
+            ]
+        },
+        {
+            "handler": "com.hectorone.multismssender.SelectDeliveryActivity/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "com.hectorone.multismssender.SelectDeliveryActivity"
+            ],
+            "targets": [
+                "com.hectorone.multismssender.ListEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.hectorone.multismssender.MultiSmsSender/void display_group_list()",
+            "sources": [
+                "com.hectorone.multismssender.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.hectorone.multismssender.SelectGroupActivity"
+            ]
+        },
+        {
+            "handler": "com.hectorone.multismssender.MultiSmsSender/void display_delivery_list()",
+            "sources": [
+                "com.hectorone.multismssender.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.hectorone.multismssender.SelectDeliveryActivity"
+            ]
+        },
+        {
+            "handler": "com.hectorone.multismssender.MultiSmsSender/void selectNumbers()",
+            "sources": [
+                "com.hectorone.multismssender.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.hectorone.multismssender.PhoneNumberSelection"
+            ]
+        },
+        {
+            "handler": "com.hectorone.multismssender.MultiSmsSender/void selectNumbers()",
+            "sources": [
+                "com.hectorone.multismssender.MultiSmsSender"
+            ],
+            "targets": [
+                "com.hectorone.multismssender.PhoneNumberSelection"
+            ]
+        },
+        {
+            "handler": "com.hectorone.multismssender.MultiSmsSender/void display_delivery_list()",
+            "sources": [
+                "com.hectorone.multismssender.MultiSmsSender"
+            ],
+            "targets": [
+                "com.hectorone.multismssender.SelectDeliveryActivity"
+            ]
+        },
+        {
+            "handler": "com.hectorone.multismssender.MultiSmsSender/void display_group_list()",
+            "sources": [
+                "com.hectorone.multismssender.MultiSmsSender"
+            ],
+            "targets": [
+                "com.hectorone.multismssender.SelectGroupActivity"
+            ]
+        }
+    ]
+}

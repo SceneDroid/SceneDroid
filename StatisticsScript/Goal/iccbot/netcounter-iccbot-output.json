@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "net.jaqpot.netcounter.activity.NetCounterActivity/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "net.jaqpot.netcounter.activity.NetCounterActivity"
+            ],
+            "targets": [
+                "net.jaqpot.netcounter.activity.BarGraphActivity"
+            ]
+        },
+        {
+            "handler": "net.jaqpot.netcounter.activity.NetCounterActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "net.jaqpot.netcounter.activity.NetCounterActivity"
+            ],
+            "targets": [
+                "net.jaqpot.netcounter.activity.NetCounterPreferences"
+            ]
+        }
+    ]
+}

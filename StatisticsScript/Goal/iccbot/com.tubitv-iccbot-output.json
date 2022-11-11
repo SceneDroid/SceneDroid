@@ -1,0 +1,400 @@
+{
+    "transitions": [
+        {
+            "handler": "com.tubitv.helpers.LoginHandler/void signIn(android.app.Activity)",
+            "sources": [
+                "com.tubitv.activities.MainActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.MainLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.PlayVideoHelper/void playerExoPlayer(android.app.Activity,com.tubitv.api.models.VideoApi)",
+            "sources": [
+                "com.tubitv.activities.MainActivity"
+            ],
+            "targets": [
+                "com.exoplayer.MobileAutoplayActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.CastHelper$1/void onResult(com.google.android.gms.cast.framework.media.RemoteMediaClient$MediaChannelResult)",
+            "sources": [
+                "com.tubitv.activities.MainActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.CastExpandedControllerActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.PlayVideoHelper/void resumeFromChromeCastToNativePlayer(android.app.Activity,com.tubitv.api.models.VideoApi)",
+            "sources": [
+                "com.tubitv.activities.MainActivity"
+            ],
+            "targets": [
+                "com.exoplayer.ResumeFromChromeCastPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.activities.WebActivity/void start(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.tubitv.activities.MainActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.DialogHelper$12/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.tubitv.activities.MainActivity"
+            ],
+            "targets": [
+                "com.hulu.HuluPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.feedback.ui.ContactZendeskActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.requests.RequestActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.requests.RequestListFragment$RequestsCallback$1/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.zendesk.sdk.requests.RequestActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.requests.ViewRequestActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.requests.RequestActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.requests.RequestActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.requests.RequestActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.activities.TvWebActivity/java.lang.String startNativePlayer(org.json.JSONObject)",
+            "sources": [
+                "com.tubitv.activities.TvWebActivity"
+            ],
+            "targets": [
+                "com.exoplayer.AutoplayActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.PlayVideoHelper/void resumeFromChromeCastToNativePlayer(android.app.Activity,com.tubitv.api.models.VideoApi)",
+            "sources": [
+                "com.tubitv.activities.CastExpandedControllerActivity"
+            ],
+            "targets": [
+                "com.exoplayer.ResumeFromChromeCastPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.CastHelper$1/void onResult(com.google.android.gms.cast.framework.media.RemoteMediaClient$MediaChannelResult)",
+            "sources": [
+                "com.exoplayer.ExoPlayerActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.CastExpandedControllerActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void setTokenExpirationBroadcastAlarm()",
+            "sources": [
+                "com.facebook.FacebookActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.CastHelper$1/void onResult(com.google.android.gms.cast.framework.media.RemoteMediaClient$MediaChannelResult)",
+            "sources": [
+                "com.exoplayer.ResumeFromChromeCastPlayerActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.CastExpandedControllerActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.feedback.ui.ContactZendeskActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.tubitv.activities.CustomContactZendeskActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.DialogHelper$12/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.tubitv.activities.VideoDetailTransitionActivity"
+            ],
+            "targets": [
+                "com.hulu.HuluPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.LoginHandler/void signIn(android.app.Activity)",
+            "sources": [
+                "com.tubitv.activities.VideoDetailTransitionActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.MainLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.PlayVideoHelper/void resumeFromChromeCastToNativePlayer(android.app.Activity,com.tubitv.api.models.VideoApi)",
+            "sources": [
+                "com.tubitv.activities.VideoDetailTransitionActivity"
+            ],
+            "targets": [
+                "com.exoplayer.ResumeFromChromeCastPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.CastHelper$1/void onResult(com.google.android.gms.cast.framework.media.RemoteMediaClient$MediaChannelResult)",
+            "sources": [
+                "com.tubitv.activities.VideoDetailTransitionActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.CastExpandedControllerActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.PlayVideoHelper/void playerExoPlayer(android.app.Activity,com.tubitv.api.models.VideoApi)",
+            "sources": [
+                "com.tubitv.activities.VideoDetailTransitionActivity"
+            ],
+            "targets": [
+                "com.exoplayer.MobileAutoplayActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.activities.ShowVideoActivity/void navigate2MainActivity()",
+            "sources": [
+                "com.tubitv.activities.ShowVideoActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.PlayVideoHelper/void playerExoPlayer(android.app.Activity,com.tubitv.api.models.VideoApi)",
+            "sources": [
+                "com.tubitv.activities.ShowVideoActivity"
+            ],
+            "targets": [
+                "com.exoplayer.MobileAutoplayActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.CastHelper$1/void onResult(com.google.android.gms.cast.framework.media.RemoteMediaClient$MediaChannelResult)",
+            "sources": [
+                "com.exoplayer.MobileAutoplayActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.CastExpandedControllerActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.activities.ChooseGenreActivity/void navigate2MainActivity()",
+            "sources": [
+                "com.tubitv.activities.ChooseGenreActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.activities.ChooseGenreActivity/void navigate2SelectedGenreShow()",
+            "sources": [
+                "com.tubitv.activities.ChooseGenreActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.ShowVideoActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.feedback.ui.ContactZendeskActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.support.ViewArticleActivity/void startActivity(android.content.Context,com.zendesk.sdk.model.helpcenter.SimpleArticle,boolean,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration,boolean)",
+            "sources": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.feedback.ui.ContactZendeskActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.support.SupportActivity$Builder/void show(android.content.Context)",
+            "sources": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.requests.RequestActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.support.SupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.requests.RequestActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.activities.MainLoginActivity$4/void onClick(android.view.View)",
+            "sources": [
+                "com.tubitv.activities.MainLoginActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.SignUpActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.activities.MainLoginActivity/void startActivityOnAuth()",
+            "sources": [
+                "com.tubitv.activities.MainLoginActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.activities.MainLoginActivity$5/void onClick(android.view.View)",
+            "sources": [
+                "com.tubitv.activities.MainLoginActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.SignInActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.activities.SplashScreenActivity/void startMainActivity()",
+            "sources": [
+                "com.tubitv.activities.SplashScreenActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.features.deeplink.DeepLinkRouter/void dialRouteToPlaybackOrDetail(android.app.Activity,java.lang.String,java.lang.String,com.tubitv.reactive.TubiAction,com.tubitv.reactive.TubiConsumer,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.tubitv.activities.SplashScreenActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.TvWebActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.activities.WebActivity/void start(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.tubitv.activities.WebActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void setTokenExpirationBroadcastAlarm()",
+            "sources": [
+                "com.tubitv.activities.SignInActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.tubitv.activities.SignInActivity/void onSignInComplete()",
+            "sources": [
+                "com.tubitv.activities.SignInActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.AccessTokenManager/void setTokenExpirationBroadcastAlarm()",
+            "sources": [
+                "com.tubitv.activities.SignUpActivity"
+            ],
+            "targets": [
+                "com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            ]
+        },
+        {
+            "handler": "com.appboy.ui.actions.UriAction/void openUriWithWebView(android.content.Context,android.net.Uri,android.os.Bundle)",
+            "sources": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ],
+            "targets": [
+                "com.appboy.ui.AppboyWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.tubitv.helpers.CastHelper$1/void onResult(com.google.android.gms.cast.framework.media.RemoteMediaClient$MediaChannelResult)",
+            "sources": [
+                "com.exoplayer.AutoplayActivity"
+            ],
+            "targets": [
+                "com.tubitv.activities.CastExpandedControllerActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.feedback.ui.ContactZendeskActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        }
+    ]
+}

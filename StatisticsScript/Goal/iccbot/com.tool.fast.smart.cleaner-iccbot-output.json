@@ -1,0 +1,895 @@
+{
+    "transitions": [
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockSetPasswordAct/void gotoLockMainActivity()",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockSetPasswordAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockMasterAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.privatePhoto.ui.SafePhotoMoreFromHomeActivity$a/void d(int)",
+            "sources": [
+                "com.smart.cleaner.app.ui.privatePhoto.ui.SafePhotoMoreFromHomeActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.privatePhoto.ui.PrivacyPhotoDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity/void showAd(android.content.Context,com.bytedance.sdk.openadsdk.TTNativeAd,int,com.bytedance.sdk.openadsdk.CustomEventInterstitialListener)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.adapter.PangleAdInterstitialActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.boost.BoostActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.smart.cleaner.app.ui.boost.BoostActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.cleanresult.CleanResultActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.permissionguide.NotificationGuideActivity/void finish()",
+            "sources": [
+                "com.smart.cleaner.app.ui.permissionguide.NotificationGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.notificationcleaner.notificationclean.NotificationCleanerActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.permissionguide.NotificationGuideActivity/void e(java.lang.Long)",
+            "sources": [
+                "com.smart.cleaner.app.ui.permissionguide.NotificationGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.permissionguide.NotificationGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.saver.SaverScanningFragment$b/void onGlobalLayout()",
+            "sources": [
+                "com.smart.cleaner.app.ui.saver.BatterySaverActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.cleanresult.CleanResultActivity"
+            ]
+        },
+        {
+            "handler": "com.smaato.sdk.rewarded.widget.RewardedInterstitialAdActivity/void start(android.content.Context,java.lang.String,boolean)",
+            "sources": [
+                "com.smaato.sdk.rewarded.widget.RewardedInterstitialAdActivity"
+            ],
+            "targets": [
+                "com.smaato.sdk.rewarded.widget.RewardedInterstitialAdActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct/void startAnswerSecurityQuestion(android.content.Context)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteAppPasswordAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockDeleteAppPasswordAct/boolean d(android.view.MenuItem)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteAppPasswordAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteSelfPasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockDeleteAppPasswordAct/void h(android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteAppPasswordAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockReplacePasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockDeleteAppPasswordAct/void onBackPressed()",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteAppPasswordAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockMasterAct"
+            ]
+        },
+        {
+            "handler": "com.inmobi.ads.rendering.InMobiAdActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.inmobi.ads.rendering.InMobiAdActivity"
+            ],
+            "targets": [
+                "com.inmobi.ads.rendering.InMobiAdActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.newscene.activity.AppInstallActivity/void initView$lambda-3(com.smart.cleaner.app.ui.newscene.activity.AppInstallActivity,android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.newscene.activity.AppInstallActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.splash.SmartSplashActivity"
+            ]
+        },
+        {
+            "handler": "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore/boolean startRichMediaIntent(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore"
+            ],
+            "targets": [
+                "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.settings.SettingsFragment/boolean onPreferenceTreeClick(androidx.preference.Preference)",
+            "sources": [
+                "com.smart.cleaner.app.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.settings.AboutActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.settings.SettingsFragment/boolean onPreferenceTreeClick(androidx.preference.Preference)",
+            "sources": [
+                "com.smart.cleaner.app.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.notification.NotificationRemindActivity"
+            ]
+        },
+        {
+            "handler": "bs.y2.d/void j(android.content.Context,boolean)",
+            "sources": [
+                "com.smart.cleaner.app.ui.genscan.GenScanActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.cleanresult.CleanResultActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.featureguide.feature.IntFeatureGuideActivity/void onCleanClick(android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.featureguide.feature.IntFeatureGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteSelfPasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.featureguide.feature.IntFeatureGuideActivity/void onCleanClick(android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.featureguide.feature.IntFeatureGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockMasterAct"
+            ]
+        },
+        {
+            "handler": "com.tapjoy.TJContentActivity/void start(android.content.Context,com.tapjoy.TJContentActivity$ContentProducer,boolean)",
+            "sources": [
+                "com.tapjoy.TJContentActivity"
+            ],
+            "targets": [
+                "com.tapjoy.TJContentActivity"
+            ]
+        },
+        {
+            "handler": "com.chartboost.sdk.d/void e(com.chartboost.sdk.Model.c)",
+            "sources": [
+                "com.chartboost.sdk.CBImpressionActivity"
+            ],
+            "targets": [
+                "com.chartboost.sdk.CBImpressionActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.privatePhoto.ui.PrivacyPhotoHomeActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.smart.cleaner.app.ui.privatePhoto.ui.PrivacyPhotoHomeActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.privatePhoto.ui.PrivacyPhotoHelpActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.permissionguide.PermissionGuideActivity/void e(java.lang.Long)",
+            "sources": [
+                "com.smart.cleaner.app.ui.permissionguide.PermissionGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.permissionguide.PermissionGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.splash.PrivacyConfirmActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.smart.cleaner.app.ui.splash.PrivacyConfirmActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.splash.SmartSplashActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.splash.PrivacyConfirmActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.splash.PrivacyConfirmActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.main.SmartMainActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.permission.PermissionUI/void requestPermissions(android.content.Context,java.util.List,com.smart.cleaner.app.ui.permission.PermissionUI$a)",
+            "sources": [
+                "com.smart.cleaner.app.ui.splash.PrivacyConfirmActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.permission.PermissionUI"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct/void startSetSecurityQuestion(android.content.Context)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockSettingAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.MySettingFgm/boolean onPreferenceTreeClick(androidx.preference.Preference)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockSettingAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockReplacePasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.vip.billing.activity.VipBillingActivity$c/void a(boolean,boolean)",
+            "sources": [
+                "com.smart.cleaner.vip.billing.activity.VipBillingActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.vip.billing.activity.VipBillingResultActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct/void startAnswerSecurityQuestion(android.content.Context)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteSelfPasswordAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockDeleteSelfPasswordAct/void c(java.util.List)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteSelfPasswordAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockSettingAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockDeleteSelfPasswordAct/void l(android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteSelfPasswordAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockReplacePasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockDeleteSelfPasswordAct/void c(java.util.List)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteSelfPasswordAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockMasterAct"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity/void a(android.content.Context,com.bytedance.sdk.openadsdk.core.f.m,java.lang.String)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTFullScreenExpressVideoActivity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.activity.TTDelegateActivity/void a(com.bytedance.sdk.openadsdk.core.f.m,java.lang.String)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.privatePhoto.ui.PrivacyPhotoAddActivity$a/void d(int,java.util.ArrayList)",
+            "sources": [
+                "com.smart.cleaner.app.ui.privatePhoto.ui.PrivacyPhotoAddActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.privatePhoto.ui.PrivacyPhotoMoreFromAddActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.applog.util.SimulateLaunchActivity/void startSimulatorWithoutQR(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.bytedance.applog.util.SimulateLaunchActivity"
+            ],
+            "targets": [
+                "com.bytedance.applog.util.SimulateLaunchActivity"
+            ]
+        },
+        {
+            "handler": "com.tradplus.adx.sdk.ui.InnerActivity/void start(java.lang.String)",
+            "sources": [
+                "com.tradplus.adx.sdk.ui.InnerActivity"
+            ],
+            "targets": [
+                "com.tradplus.adx.sdk.ui.InnerActivity"
+            ]
+        },
+        {
+            "handler": "com.tradplus.adx.sdk.ui.InnerActivity/void startHtmlActivity(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.tradplus.adx.sdk.ui.InnerActivity"
+            ],
+            "targets": [
+                "com.tradplus.adx.sdk.ui.InnerWebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity/void a(android.content.Context,com.bytedance.sdk.openadsdk.core.f.m,java.lang.String)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTAppOpenAdActivity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.vip.billing.activity.VipBillingGuideActivity$a/void a(boolean,boolean)",
+            "sources": [
+                "com.smart.cleaner.vip.billing.activity.VipBillingGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.vip.billing.activity.VipBillingResultActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.utils.r/android.app.Notification g(android.content.Context)",
+            "sources": [
+                "com.smart.cleaner.app.ui.splash.SmartSplashActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.splash.SmartSplashActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.splash.SmartSplashActivity/void goAct()",
+            "sources": [
+                "com.smart.cleaner.app.ui.splash.SmartSplashActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.main.SmartMainActivity"
+            ]
+        },
+        {
+            "handler": "com.mbridge.msdk.click.b/void b(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mbridge.msdk.reward.player.MBRewardVideoActivity"
+            ],
+            "targets": [
+                "com.mbridge.msdk.activity.MBCommonActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct/void c(android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockReplacePasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct/void startSetSecurityQuestion(android.content.Context)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.permission.PermissionUI/void requestPermissions(android.content.Context,java.util.List,com.smart.cleaner.app.ui.permission.PermissionUI$a)",
+            "sources": [
+                "com.smart.cleaner.app.ui.junkclean.JunkCleanActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.permission.PermissionUI"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.junkclean.JunkCleanActivity/void showCleanResultActivity(java.lang.String)",
+            "sources": [
+                "com.smart.cleaner.app.ui.junkclean.JunkCleanActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.cleanresult.CleanResultActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.permissionguide.PhoneBoostGuideActivity/void onResume()",
+            "sources": [
+                "com.smart.cleaner.app.ui.permissionguide.PhoneBoostGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.junkclean.JunkCleanActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.permissionguide.PhoneBoostGuideActivity/void e(java.lang.Long)",
+            "sources": [
+                "com.smart.cleaner.app.ui.permissionguide.PhoneBoostGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.permissionguide.PhoneBoostGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.widget.WidgetActivity1/void onClickMore(android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.widget.WidgetActivity1"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.widget.WidgetActivity2"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.newscene.activity.AppUninstallActivity/void initView$lambda-3(com.smart.cleaner.app.ui.newscene.activity.AppUninstallActivity,android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.newscene.activity.AppUninstallActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.splash.SmartSplashActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.largefile.LargeFileAct/void showCleanResultActivity()",
+            "sources": [
+                "com.smart.cleaner.app.ui.largefile.LargeFileAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.cleanresult.CleanResultActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.vip.similarphoto.SimilarActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.smart.cleaner.vip.similarphoto.SimilarActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.vip.billing.activity.VipBillingActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.cleanresult.CleanResultActivity/void showVIPBillingAct()",
+            "sources": [
+                "com.smart.cleaner.app.ui.cleanresult.CleanResultActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.vip.billing.activity.VipBillingGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity/void a(android.content.Context,com.bytedance.sdk.openadsdk.core.f.m,java.lang.String)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTFullScreenVideoActivity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.clipboardmanager.ClipboardManagerActivity/void onContentClick(int)",
+            "sources": [
+                "com.smart.cleaner.app.ui.clipboardmanager.ClipboardManagerActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.clipboardmanager.ClipboardDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockMasterAct/void c(android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockMasterAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockSetPasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockMasterAct/void i(java.lang.Long)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockMasterAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockMasterAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct/void startSetSecurityQuestion(android.content.Context)",
+            "sources": [
+                "com.smart.cleaner.app.ui.applock.gui.LockMasterAct"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockUnlearnPasswordAct"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.activity.TTDelegateActivity/void a(com.bytedance.sdk.openadsdk.core.f.m,java.lang.String)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTDelegateActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity/void a(android.content.Context,com.bytedance.sdk.openadsdk.core.f.m,java.lang.String)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"
+            ]
+        },
+        {
+            "handler": "com.onesignal.PermissionsActivity$d/void a(android.app.Activity)",
+            "sources": [
+                "com.onesignal.PermissionsActivity"
+            ],
+            "targets": [
+                "com.onesignal.PermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.main.SmartMainActivity/void goToAct(android.content.Intent)",
+            "sources": [
+                "com.smart.cleaner.app.ui.main.SmartMainActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.permissionguide.NotificationGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.main.SmartMainActivity/void goToAct(android.content.Intent)",
+            "sources": [
+                "com.smart.cleaner.app.ui.main.SmartMainActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.settings.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.main.SmartMainActivity/void goToAct(android.content.Intent)",
+            "sources": [
+                "com.smart.cleaner.app.ui.main.SmartMainActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.privatePhoto.ui.PrivacyPhotoHomeActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.main.SmartMainActivity/void goToAct(android.content.Intent)",
+            "sources": [
+                "com.smart.cleaner.app.ui.main.SmartMainActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.vip.autosecurity.activity.SecurityResultActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.main.SmartMainActivity/void goToAct(android.content.Intent)",
+            "sources": [
+                "com.smart.cleaner.app.ui.main.SmartMainActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockMasterAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.main.SmartMainActivity/void goToAct(android.content.Intent)",
+            "sources": [
+                "com.smart.cleaner.app.ui.main.SmartMainActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteSelfPasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.main.SmartMainActivity/void goToAct(android.content.Intent)",
+            "sources": [
+                "com.smart.cleaner.app.ui.main.SmartMainActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.genscan.GenScanActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.main.SmartMainActivity/void goToAct(android.content.Intent)",
+            "sources": [
+                "com.smart.cleaner.app.ui.main.SmartMainActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.junkclean.JunkCleanActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.main.SmartMainActivity/void goToAct(android.content.Intent)",
+            "sources": [
+                "com.smart.cleaner.app.ui.main.SmartMainActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.notificationcleaner.notificationclean.NotificationCleanerActivity"
+            ]
+        },
+        {
+            "handler": "com.tradplus.crosspro.ui.CPAdActivity/void start(android.content.Context,com.tradplus.ads.network.response.CPAdResponse,int,long,java.lang.String,int,boolean,int)",
+            "sources": [
+                "com.tradplus.crosspro.ui.CPLandscapeActivity"
+            ],
+            "targets": [
+                "com.tradplus.crosspro.ui.CPLandscapeActivity"
+            ]
+        },
+        {
+            "handler": "com.tradplus.crosspro.ui.CPAdActivity/void start(android.content.Context,com.tradplus.ads.network.response.CPAdResponse,int,long,java.lang.String,int,boolean,int)",
+            "sources": [
+                "com.tradplus.crosspro.ui.CPLandscapeActivity"
+            ],
+            "targets": [
+                "com.tradplus.crosspro.ui.CPPortraitActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.vip.autoclean.VipCommonAutoCleanActivity/void initView$lambda-3(com.smart.cleaner.vip.autoclean.VipCommonAutoCleanActivity,android.view.View)",
+            "sources": [
+                "com.smart.cleaner.vip.autoclean.VipCommonAutoCleanActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.vip.billing.activity.VipBillingActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.core.b.a/void a(android.view.View,float,float,float,float,android.util.SparseArray,boolean)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.l.s/void a(com.bytedance.sdk.openadsdk.core.f.m,java.lang.String)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTVideoLandingPageLink2Activity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.l.s/void a(com.bytedance.sdk.openadsdk.core.f.m,java.lang.String)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTPlayableLandingPageActivity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTLandingPageActivity"
+            ]
+        },
+        {
+            "handler": "com.mbridge.msdk.foundation.tools.t/void a(android.content.Context,java.lang.String,com.mbridge.msdk.foundation.entity.CampaignEx,com.mbridge.msdk.out.NativeListener$NativeTrackingListener)",
+            "sources": [
+                "com.mbridge.msdk.interstitial.view.MBInterstitialActivity"
+            ],
+            "targets": [
+                "com.mbridge.msdk.activity.MBCommonActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.featureguide.feature.FeatureGuideActivity/void finish()",
+            "sources": [
+                "com.smart.cleaner.app.ui.featureguide.feature.FeatureGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.notificationcleaner.notificationclean.NotificationCleanerActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.featureguide.feature.FeatureGuideActivity/void onCleanClick(android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.featureguide.feature.FeatureGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockMasterAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.featureguide.feature.FeatureGuideActivity/void f(java.lang.Long)",
+            "sources": [
+                "com.smart.cleaner.app.ui.featureguide.feature.FeatureGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.featureguide.feature.FeatureGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.featureguide.feature.FeatureGuideActivity/void onCleanClick(android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.featureguide.feature.FeatureGuideActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.applock.gui.LockDeleteSelfPasswordAct"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.permission.PermissionUI/void requestPermissions(android.content.Context,java.util.List,com.smart.cleaner.app.ui.permission.PermissionUI$a)",
+            "sources": [
+                "com.smart.cleaner.app.ui.permission.PermissionUI"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.permission.PermissionUI"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.notificationcleaner.notificationclean.NotificationCleanerActivity/void startNotifAccessPermissionGuide()",
+            "sources": [
+                "com.smart.cleaner.app.ui.notificationcleaner.notificationclean.NotificationCleanerActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.permissionguide.NotificationGuideActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.notificationcleaner.notificationclean.NotificationCleanerActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.smart.cleaner.app.ui.notificationcleaner.notificationclean.NotificationCleanerActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.notificationcleaner.notificationcleansetting.NotificationCleanSettingActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity/void a(android.content.Context,com.bytedance.sdk.openadsdk.core.f.m,java.lang.String)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTRewardVideoActivity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.vip.applicationclear.activity.ApplicationClearActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.smart.cleaner.vip.applicationclear.activity.ApplicationClearActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.vip.billing.activity.VipBillingActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.vip.applicationclear.activity.ApplicationClearActivity/void initView$lambda-7(com.smart.cleaner.vip.applicationclear.activity.ApplicationClearActivity,android.view.View)",
+            "sources": [
+                "com.smart.cleaner.vip.applicationclear.activity.ApplicationClearActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.vip.applicationclear.activity.AppClearDetailLongItemActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.vip.applicationclear.activity.ApplicationClearActivity/void initView$lambda-5(com.smart.cleaner.vip.applicationclear.activity.ApplicationClearActivity,android.view.View)",
+            "sources": [
+                "com.smart.cleaner.vip.applicationclear.activity.ApplicationClearActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.vip.applicationclear.activity.AppClearDetailGridActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.vip.applicationclear.activity.ApplicationClearActivity/java.lang.Object loadFinishRefresh(java.util.HashMap,boolean,kotlin.coroutines.c)",
+            "sources": [
+                "com.smart.cleaner.vip.applicationclear.activity.ApplicationClearActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.cleanresult.CleanResultActivity"
+            ]
+        },
+        {
+            "handler": "com.tradplus.crosspro.ui.CPAdActivity/void start(android.content.Context,com.tradplus.ads.network.response.CPAdResponse,int,long,java.lang.String,int,boolean,int)",
+            "sources": [
+                "com.tradplus.crosspro.ui.CPPortraitActivity"
+            ],
+            "targets": [
+                "com.tradplus.crosspro.ui.CPPortraitActivity"
+            ]
+        },
+        {
+            "handler": "com.tradplus.crosspro.ui.CPAdActivity/void start(android.content.Context,com.tradplus.ads.network.response.CPAdResponse,int,long,java.lang.String,int,boolean,int)",
+            "sources": [
+                "com.tradplus.crosspro.ui.CPPortraitActivity"
+            ],
+            "targets": [
+                "com.tradplus.crosspro.ui.CPLandscapeActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity/void a(android.content.Context,com.bytedance.sdk.openadsdk.core.f.m,java.lang.String)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"
+            ]
+        },
+        {
+            "handler": "com.tradplus.crosspro.ui.ApkConfirmDialogActivity/void start(android.content.Context,java.lang.String,com.tradplus.ads.network.response.CPAdResponse,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.tradplus.crosspro.ui.ApkConfirmDialogActivity"
+            ],
+            "targets": [
+                "com.tradplus.crosspro.ui.ApkConfirmDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.newscene.activity.ChargeRemindActivity/void scanFinish$lambda-3(com.smart.cleaner.app.ui.newscene.activity.ChargeRemindActivity,android.view.View)",
+            "sources": [
+                "com.smart.cleaner.app.ui.newscene.activity.ChargeRemindActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.splash.SmartSplashActivity"
+            ]
+        },
+        {
+            "handler": "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity/void a(android.content.Context,com.bytedance.sdk.openadsdk.core.f.m,java.lang.String)",
+            "sources": [
+                "com.bytedance.sdk.openadsdk.activity.TTRewardExpressVideoActivity"
+            ],
+            "targets": [
+                "com.bytedance.sdk.openadsdk.activity.TTWebsiteActivity"
+            ]
+        },
+        {
+            "handler": "com.smart.cleaner.app.ui.cool.CoolActivity/void showCoolerView()",
+            "sources": [
+                "com.smart.cleaner.app.ui.cool.CoolActivity"
+            ],
+            "targets": [
+                "com.smart.cleaner.app.ui.cleanresult.CleanResultActivity"
+            ]
+        }
+    ]
+}

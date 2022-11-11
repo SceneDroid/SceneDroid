@@ -1,0 +1,67 @@
+{
+    "transitions": [
+        {
+            "handler": "com.addi.AddiEdit/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.addi.AddiEdit"
+            ],
+            "targets": [
+                "com.addi.ShowSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.addi.Addi/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.addi.Addi"
+            ],
+            "targets": [
+                "com.addi.ShowSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.addi.Addi/void processString(java.lang.String)",
+            "sources": [
+                "com.addi.Addi"
+            ],
+            "targets": [
+                "com.addi.AddiEdit"
+            ]
+        },
+        {
+            "handler": "com.addi.Addi/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.addi.AddiIntent"
+            ],
+            "targets": [
+                "com.addi.ShowSettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.addi.Addi/void processString(java.lang.String)",
+            "sources": [
+                "com.addi.AddiIntent"
+            ],
+            "targets": [
+                "com.addi.AddiEdit"
+            ]
+        },
+        {
+            "handler": "com.addi.Addi/void processString(java.lang.String)",
+            "sources": [
+                "com.addi.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.addi.AddiEdit"
+            ]
+        },
+        {
+            "handler": "com.addi.Addi/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.addi.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.addi.ShowSettingsActivity"
+            ]
+        }
+    ]
+}

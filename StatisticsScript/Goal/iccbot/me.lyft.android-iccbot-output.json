@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "io.card.payment.CardIOActivity$2/void run()",
+            "sources": [
+                "io.card.payment.CardIOActivity"
+            ],
+            "targets": [
+                "io.card.payment.DataEntryActivity"
+            ]
+        }
+    ]
+}

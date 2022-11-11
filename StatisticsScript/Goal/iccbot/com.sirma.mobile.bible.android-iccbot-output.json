@@ -1,0 +1,589 @@
+{
+    "transitions": [
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.profile.NotificationsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.reader.search.SearchActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.HelpActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.ui.friends.AddFriendsFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.youversion.ui.friends.AddFriendsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.friends.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.google.android.gms.gcm.a/void b(java.lang.String)",
+            "sources": [
+                "com.youversion.ui.friends.AddFriendsActivity"
+            ],
+            "targets": [
+                "nuclei.task.TaskGcmService"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.plans.SubscribedPlansActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.events.EventActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.settings.languages.LanguageLandingActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.friends.InviteActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.friends.ContactsFriendsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.ui.friends.ContactsFriendsFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.youversion.ui.friends.ContactsFriendsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.friends.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.reader.CopyrightActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.profile.EditProfileActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.youversion.ui.profile.EditProfileActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.plans.details.settings.PlanPrivacyActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.ui.MainActivity/void i()",
+            "sources": [
+                "com.youversion.ui.MainActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.AppThemeLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.ui.MainActivity/void i()",
+            "sources": [
+                "com.youversion.ui.reader.FullscreenReaderActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.AppThemeLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.reader.versions.VersionActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.provider.PlanAppWidgetConfig"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.provider.PlanAppWidgetConfig$c$1/void onClick(android.view.View)",
+            "sources": [
+                "com.youversion.provider.PlanAppWidgetConfig"
+            ],
+            "targets": [
+                "com.youversion.ui.plans.PlansActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.google.android.gms.iid.b/void zza(android.content.Context,com.google.android.gms.iid.f)",
+            "sources": [
+                "com.youversion.ui.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.appsflyer.InstanceIDListener"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.reader.versions.VersionAgreementActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.videos.VideosActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.security.LoginActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.login.LoginManager/boolean tryFacebookActivity(com.facebook.login.StartActivityDelegate,com.facebook.login.LoginClient$Request)",
+            "sources": [
+                "com.youversion.ui.security.LoginActivity"
+            ],
+            "targets": [
+                "com.facebook.FacebookActivity"
+            ]
+        },
+        {
+            "handler": "com.google.android.gms.iid.b/void zza(android.content.Context,com.google.android.gms.iid.f)",
+            "sources": [
+                "com.youversion.ui.moments.MomentActivity"
+            ],
+            "targets": [
+                "com.appsflyer.InstanceIDListener"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.moments.MomentActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.settings.languages.SettingsLanguagesActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.reader.versie.ImagePickerActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.google.android.gms.iid.b/void zza(android.content.Context,com.google.android.gms.iid.f)",
+            "sources": [
+                "com.youversion.ui.moments.MomentsActivity"
+            ],
+            "targets": [
+                "com.appsflyer.InstanceIDListener"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.moments.MomentsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.provider.VotdAppWidgetConfig"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.ui.friends.FriendsFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.youversion.ui.friends.FriendsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.friends.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.reader.versions.compare.VersionsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.videos.VideoPublisherActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.plans.day.PlanDayActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.google.android.gms.gcm.a/void b(java.lang.String)",
+            "sources": [
+                "com.youversion.ui.plans.day.PlanDayActivity"
+            ],
+            "targets": [
+                "nuclei.task.TaskGcmService"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.reader.versie.ImageEditorActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.ui.events.search.b$2/void onClick(android.view.View)",
+            "sources": [
+                "com.youversion.ui.events.search.SearchActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.events.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.security.ChangePasswordActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.settings.notifications.PushSettingsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.ui.friends.FacebookFriendsFragment/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.youversion.ui.friends.FacebookFriendsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.friends.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.settings.ManageOfflineActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.plans.details.PlanActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.reader.versions.VersionsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.settings.SettingsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.stores.PlanStore/void a(android.content.Context,int,long,android.app.AlarmManager)",
+            "sources": [
+                "com.youversion.ui.plans.day.PlanDayEndActivity"
+            ],
+            "targets": [
+                "com.youversion.receiver.PlanReminderReceiver"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.settings.notifications.EmailSettingsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.ui.events.EventsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.youversion.ui.events.EventsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.events.AboutActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.ui.events.EventsActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.youversion.ui.events.EventsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.events.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.reader.versions.compare.CompareActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.profile.EditPasswordActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.plans.PlansCompleteActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.settings.languages.SearchActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.reader.languages.SearchActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.videos.VideoActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.settings.VotdSettingsActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.stores.h/void registerVotd(android.content.Context,long,boolean)",
+            "sources": [
+                "com.youversion.ui.settings.VotdSettingsActivity"
+            ],
+            "targets": [
+                "com.youversion.receiver.DailyVotdReceiver"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.plans.discover.PublisherActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.ui.MainActivity/void i()",
+            "sources": [
+                "com.youversion.ui.reader.ReaderActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.AppThemeLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.plans.settings.PlansActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.plans.SavedPlansActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.youversion.util.a/int showErrorMessage(android.support.v4.app.w,int,java.lang.Exception,int,android.view.View$OnClickListener)",
+            "sources": [
+                "com.youversion.ui.moments.LikesActivity"
+            ],
+            "targets": [
+                "com.youversion.ui.security.LoginActivity"
+            ]
+        },
+        {
+            "handler": "com.google.android.gms.gcm.a/void b(java.lang.String)",
+            "sources": [
+                "com.youversion.ui.plans.day.PlanContentActivity"
+            ],
+            "targets": [
+                "nuclei.task.TaskGcmService"
+            ]
+        }
+    ]
+}

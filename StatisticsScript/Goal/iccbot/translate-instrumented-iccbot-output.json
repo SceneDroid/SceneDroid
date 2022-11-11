@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "com.beust.android.translate.TranslateActivity/void showHistory()",
+            "sources": [
+                "com.beust.android.translate.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "com.beust.android.translate.HistoryActivity"
+            ]
+        },
+        {
+            "handler": "com.beust.android.translate.TranslateActivity/void showHistory()",
+            "sources": [
+                "com.beust.android.translate.TranslateActivity"
+            ],
+            "targets": [
+                "com.beust.android.translate.HistoryActivity"
+            ]
+        }
+    ]
+}

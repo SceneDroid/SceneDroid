@@ -1,0 +1,1057 @@
+{
+    "transitions": [
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.share.ingress.ShareActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.vsearch.galleryshare.StyleSnapGalleryShareActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.vsearch.galleryshare.StyleSnapGalleryShareActivity/void startVSearchAndFinish()",
+            "sources": [
+                "com.amazon.vsearch.galleryshare.StyleSnapGalleryShareActivity"
+            ],
+            "targets": [
+                "com.amazon.vsearch.VSearchEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.vsearch.galleryshare.StyleSnapGalleryShareActivity/void startVSearchAndFinish()",
+            "sources": [
+                "com.amazon.vsearch.galleryshare.StyleSnapGalleryShareActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.voice.assistant.VoiceActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.alexa.audio.ux.ssnap.MediaPlayerSsnapLauncherActivity/void launchMainActivity(android.content.Context)",
+            "sources": [
+                "com.amazon.mShop.alexa.audio.ux.ssnap.MediaPlayerSsnapLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.alexa.audio.ux.ssnap.MediaPlayerSsnapLauncherActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mobile.ssnap.SsnapActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.alexa.client.alexaservice.ui.ShowOverLockScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.details.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.aiv.AIVGatewayStartupActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity$AppLaunchHandler/void accept(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.publicurl.PublicURLActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.wishlist.WebWishListActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.alexa.ssnap.activities.DirectiveActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.pushnotification.WebNotificationsSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.pushnotification.WebNotificationsSettingsActivity/void launchMainActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mShop.pushnotification.WebNotificationsSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.home.web.MShopWebGatewayMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.cart.web.WebCartMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.AmazonNativeShareActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.alexa.activities.AlexaMShopWebMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.android.address.lib.PermissionRequestActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.mobileads.AdsWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.sso.SSOBootstrapScreenActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.a9.fez.ARCoreShimMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.payment.upi.UPIIntentHandler"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.payment.upi.UPIIntentHandler/void launchMainActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mShop.payment.upi.UPIIntentHandler"
+            ],
+            "targets": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.sso.CentralSSOLogoutActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.android.address.lib.LocationUpdateRequestActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.a9.fez.debug.ARDebugActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.location.ChangePCDActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.localeswitch.LocaleSwitchActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.alexa.audio.ux.PlaybackSheetActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.alexa.audio.ux.PlaybackSheetActivity/void changeState(com.amazon.mShop.alexa.AlexaState)",
+            "sources": [
+                "com.amazon.mShop.alexa.audio.ux.PlaybackSheetActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.alexa.AlexaActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.history.web.WebHistoryActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.about.MShopAppInfoActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.sso.SSOSplashScreenMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.sso.SSOSplashScreenMigrationView$2/void onClick(android.view.View)",
+            "sources": [
+                "com.amazon.mShop.sso.SSOSplashScreenMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.sso.DistributedSSOLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.web.MShopWebMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.sso.SigninPromptActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.details.FullScreenVideoActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkHandler/void handleDeepLink(android.net.Uri,android.net.Uri,android.app.Activity)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.alexa.ssnap.activities.DirectiveActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.wishlist.WebWishListActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.alexa.client.alexaservice.ui.ShowOverLockScreenActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.details.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.BrowserLaunchHandler/com.amazon.mShop.deeplink.DeepLinkBounceBackType apply(android.net.Uri)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.SecureDeepLinkingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.aiv.AIVGatewayStartupActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.DeepLinkingProxyActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingProxyActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.splashscreen.StartupActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.httpUrlDeepLink.DeepLinkingProxyActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mShop.httpUrlDeepLink.DeepLinkingProxyActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.publicurl.PublicURLActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mobile.mash.MASHConfigurationActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mobile.mash.MASHConfigurationActivity"
+            ],
+            "targets": [
+                "com.amazon.mobile.mash.MASHConfigurationActivity$MainWebFragment"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.AmazonShareActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.share.SharableAppInfoManager/java.util.List collectAppInfo(android.app.Activity)",
+            "sources": [
+                "com.amazon.mShop.AmazonShareActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.share.copy.ShareToClipboardActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.push.registration.WebNotificationsSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.push.registration.WebNotificationsSettingsActivity/void launchMainActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mShop.push.registration.WebNotificationsSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.storemodes.StoreModesActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.sso.SigninPromptMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.web.MShopModalWebMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.web.MShopModalWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.web.MShopWebViewClient/android.content.Intent getUpgradeWebViewIntent(android.webkit.WebView)",
+            "sources": [
+                "com.amazon.mShop.primeupsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.aiv.AIVGatewayStartupActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.primeupsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.web.MShopWebViewClient/android.content.Intent getUpgradeWebViewIntent(android.webkit.WebView)",
+            "sources": [
+                "com.amazon.mShop.primeupsell.PrimeUpsellActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.details.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.sso.CentralSSOLoginActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.alexa.ssnap.activities.AlexaSettingsActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.vsearch.galleryshare.SearchPhotoGalleryShareActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.vsearch.galleryshare.SearchPhotoGalleryShareActivity/void startVSearchAndFinish()",
+            "sources": [
+                "com.amazon.vsearch.galleryshare.SearchPhotoGalleryShareActivity"
+            ],
+            "targets": [
+                "com.amazon.vsearch.VSearchEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.vsearch.galleryshare.SearchPhotoGalleryShareActivity/void startVSearchAndFinish()",
+            "sources": [
+                "com.amazon.vsearch.galleryshare.SearchPhotoGalleryShareActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.details.ProductDetailsActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.alexa.AlexaActivity/void launchState()",
+            "sources": [
+                "com.amazon.mShop.alexa.AlexaActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.alexa.AlexaOnBoardingActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.alexa.AlexaActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.pushnotification.NotificationContentActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.pushnotification.NotificationContentActivity/void launchMainActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mShop.pushnotification.NotificationContentActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mshop.browse.CategoryBrowseActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.opl.web.WebPurchaseMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.weblab.MShopChromeBetaTogglesActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.alexa.ssnap.activities.WakeWordOnBoardingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.wishlist.WebWishListActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.android.oma.hub.NotificationHubActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mobile.floatingnativeviews.smash.ext.pictureinpicture.PictureInPictureSupportedActivity$Companion/void startInstance(android.content.Context,android.net.Uri)",
+            "sources": [
+                "com.amazon.mobile.floatingnativeviews.smash.ext.pictureinpicture.PictureInPictureSupportedActivity"
+            ],
+            "targets": [
+                "com.amazon.mobile.floatingnativeviews.smash.ext.pictureinpicture.PictureInPictureSupportedActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mobile.floatingnativeviews.smash.ext.pictureinpicture.PictureInPictureSupportedActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.alexa.ssnap.activities.DirectiveActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.alexa.ssnap.activities.DirectiveActivity/void startActivity(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.amazon.mShop.alexa.ssnap.activities.DirectiveActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.alexa.ssnap.activities.DirectiveActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.sso.DistributedSSOLoginActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mshopsearch.search.MShopWebSearchMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.util.ActivityUtils/void startFlowActivity(android.app.Activity,java.lang.String,java.lang.String,java.io.Serializable)",
+            "sources": [
+                "com.amazon.mshopsearch.search.MShopWebSearchEntryMigrationActivity"
+            ],
+            "targets": [
+                "com.a9.fez.ARCoreShimMigrationActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mshopsearch.search.MShopWebSearchEntryMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.util.ActivityUtils/void startFlowActivity(android.app.Activity,java.lang.String,java.lang.String,java.io.Serializable)",
+            "sources": [
+                "com.amazon.mshopsearch.search.MShopWebSearchEntryMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.vsearch.VSearchEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.appgrade.ui.AppgradeSsnapActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.share.copy.ShareToClipboardActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.aiv.AIVGatewayStartupActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.sso.SSOSplashScreenView$2/void onClick(android.view.View)",
+            "sources": [
+                "com.amazon.mShop.sso.SSOSplashScreenActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.sso.DistributedSSOLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.sso.SSOSplashScreenActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.publicurl.PublicURLActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.publicurl.PublicURLActivity/void launchMainActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mShop.publicurl.PublicURLActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.location.ChangeDeliveryCountryActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.traffic.automation.notification.util.PushNotificationContentActivity/void launchMainActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.traffic.automation.notification.util.PushNotificationContentActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.traffic.automation.notification.util.PushNotificationContentActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mshopsearch.browse.CategoryBrowseActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.push.registration.NotificationContentActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.push.registration.NotificationContentActivity/void launchMainActivity(android.app.Activity)",
+            "sources": [
+                "com.amazon.mShop.push.registration.NotificationContentActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.navigation.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.appgrade.ui.AppgradeWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.web.MShopWebViewClient/android.content.Intent getUpgradeWebViewIntent(android.webkit.WebView)",
+            "sources": [
+                "com.amazon.mShop.appgrade.ui.AppgradeWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.aiv.AIVGatewayStartupActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.web.MShopWebViewClient/android.content.Intent getUpgradeWebViewIntent(android.webkit.WebView)",
+            "sources": [
+                "com.amazon.mShop.appgrade.ui.AppgradeWebViewActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.details.ProductDetailsActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.web.MShopWebActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.alexa.ssnap.activities.AlexaSettingsMigrationActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.sso.DistributedSSOLogoutActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.sso.SSOSplashScreenMigrationView$2/void onClick(android.view.View)",
+            "sources": [
+                "com.amazon.vsearch.VSearchEntryActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.sso.DistributedSSOLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.vsearch.VSearchEntryActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.alexa.AlexaOnBoardingActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.amazon.mShop.alexa.AlexaOnBoardingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.alexa.AlexaActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.alexa.AlexaOnBoardingActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        },
+        {
+            "handler": "com.amazon.mShop.AmazonActivity/void startActivity(android.content.Intent)",
+            "sources": [
+                "com.amazon.mShop.startup.StartupLocalizationSelectionActivity"
+            ],
+            "targets": [
+                "com.amazon.mShop.AmazonChooserActivity"
+            ]
+        }
+    ]
+}

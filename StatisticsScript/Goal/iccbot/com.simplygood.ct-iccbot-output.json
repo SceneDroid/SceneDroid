@@ -1,0 +1,40 @@
+{
+    "transitions": [
+        {
+            "handler": "ca.triangle.retail.canadiantire.MainActivity/void l(int)",
+            "sources": [
+                "ca.triangle.retail.canadiantire.MainActivity"
+            ],
+            "targets": [
+                "ca.triangle.retail.authorization.AuthorizationActivity"
+            ]
+        },
+        {
+            "handler": "com.mastercard.mp.checkout.CallbackActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.mastercard.mp.checkout.CallbackActivity"
+            ],
+            "targets": [
+                "com.mastercard.mp.checkout.WebLoaderActivity"
+            ]
+        },
+        {
+            "handler": "com.gigya.android.sdk.ui.WebLoginActivity/void present(android.content.Context,java.lang.String,com.gigya.android.sdk.ui.WebLoginActivity$WebLoginActivityCallback)",
+            "sources": [
+                "com.gigya.android.sdk.ui.WebLoginActivity"
+            ],
+            "targets": [
+                "com.gigya.android.sdk.ui.WebLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.gigya.android.sdk.ui.HostActivity/void present(android.content.Context,com.gigya.android.sdk.ui.HostActivity$HostActivityLifecycleCallbacks)",
+            "sources": [
+                "com.gigya.android.sdk.ui.HostActivity"
+            ],
+            "targets": [
+                "com.gigya.android.sdk.ui.HostActivity"
+            ]
+        }
+    ]
+}

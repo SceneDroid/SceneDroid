@@ -1,0 +1,121 @@
+{
+    "transitions": [
+        {
+            "handler": "com.perimeterx.msdk.internal.enforcers.CaptchaActivity/void a(com.perimeterx.msdk.internal.f)",
+            "sources": [
+                "com.perimeterx.msdk.internal.enforcers.CaptchaActivity"
+            ],
+            "targets": [
+                "com.perimeterx.msdk.internal.enforcers.CaptchaActivity"
+            ]
+        },
+        {
+            "handler": "com.wayfair.wayfair.viewinroom.ViewInRoomActivityBase/void lambda$addAndShowInterstitial$4(com.wayfair.wayfair.viewinroom.ViewInRoomActivityBase,com.wayfair.models.requests.CheckoutBasketAddAndShow,java.lang.String,android.support.design.widget.Snackbar,com.wayfair.models.responses.Response)",
+            "sources": [
+                "com.wayfair.wayfair.viewinroom.ARCoreActivity"
+            ],
+            "targets": [
+                "com.wayfair.wayfair.common.activity.ContainerActivity"
+            ]
+        },
+        {
+            "handler": "com.wayfair.wayfair.common.activity.ModalActivity/void startWithNoHistory(android.app.Activity,java.io.Serializable)",
+            "sources": [
+                "com.wayfair.wayfair.viewinroom.ARCoreActivity"
+            ],
+            "targets": [
+                "com.wayfair.wayfair.common.activity.ModalActivity"
+            ]
+        },
+        {
+            "handler": "com.wayfair.wayfair.checkout.cart.BasketContainerActivity/void startWithTransition(android.app.Activity)",
+            "sources": [
+                "com.wayfair.wayfair.viewinroom.ARCoreActivity"
+            ],
+            "targets": [
+                "com.wayfair.wayfair.checkout.cart.BasketContainerActivity"
+            ]
+        },
+        {
+            "handler": "com.wayfair.wayfair.common.activity.ModalActivity/void start(android.app.Activity,com.wayfair.wayfair.common.fragment.ManagedFragment)",
+            "sources": [
+                "com.wayfair.wayfair.main.TabbedMainActivity"
+            ],
+            "targets": [
+                "com.wayfair.wayfair.common.activity.ModalActivity"
+            ]
+        },
+        {
+            "handler": "com.wayfair.wayfair.checkout.cart.BasketContainerActivity/void startWithTransition(android.app.Activity)",
+            "sources": [
+                "com.wayfair.wayfair.checkout.cart.BasketContainerActivity"
+            ],
+            "targets": [
+                "com.wayfair.wayfair.checkout.cart.BasketContainerActivity"
+            ]
+        },
+        {
+            "handler": "com.wayfair.wayfair.common.activity.ModalActivity/void start(android.app.Activity,com.wayfair.wayfair.common.fragment.ManagedFragment)",
+            "sources": [
+                "com.wayfair.wayfair.common.activity.ModalActivity"
+            ],
+            "targets": [
+                "com.wayfair.wayfair.common.activity.ModalActivity"
+            ]
+        },
+        {
+            "handler": "io.card.payment.CardIOActivity$2/void run()",
+            "sources": [
+                "io.card.payment.CardIOActivity"
+            ],
+            "targets": [
+                "io.card.payment.DataEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.wayfair.wayfair.checkout.cart.BasketContainerActivity/void startWithTransition(android.app.Activity)",
+            "sources": [
+                "com.wayfair.wayfair.viewinroom.ViewInRoomActivity"
+            ],
+            "targets": [
+                "com.wayfair.wayfair.checkout.cart.BasketContainerActivity"
+            ]
+        },
+        {
+            "handler": "com.wayfair.wayfair.common.activity.ModalActivity/void startWithNoHistory(android.app.Activity,java.io.Serializable)",
+            "sources": [
+                "com.wayfair.wayfair.viewinroom.ViewInRoomActivity"
+            ],
+            "targets": [
+                "com.wayfair.wayfair.common.activity.ModalActivity"
+            ]
+        },
+        {
+            "handler": "com.wayfair.wayfair.viewinroom.ViewInRoomActivityBase/void lambda$addAndShowInterstitial$4(com.wayfair.wayfair.viewinroom.ViewInRoomActivityBase,com.wayfair.models.requests.CheckoutBasketAddAndShow,java.lang.String,android.support.design.widget.Snackbar,com.wayfair.models.responses.Response)",
+            "sources": [
+                "com.wayfair.wayfair.viewinroom.ViewInRoomActivity"
+            ],
+            "targets": [
+                "com.wayfair.wayfair.common.activity.ContainerActivity"
+            ]
+        },
+        {
+            "handler": "com.wayfair.wayfair.checkout.confirmation.OrderConfirmationActivity/void lambda$onCreate$0(com.wayfair.wayfair.checkout.confirmation.OrderConfirmationActivity,android.view.View)",
+            "sources": [
+                "com.wayfair.wayfair.checkout.confirmation.OrderConfirmationActivity"
+            ],
+            "targets": [
+                "com.wayfair.wayfair.main.TabbedMainActivity"
+            ]
+        },
+        {
+            "handler": "com.perimeterx.msdk.internal.enforcers.BlockActivity/void a(com.perimeterx.msdk.internal.f)",
+            "sources": [
+                "com.perimeterx.msdk.internal.enforcers.BlockActivity"
+            ],
+            "targets": [
+                "com.perimeterx.msdk.internal.enforcers.BlockActivity"
+            ]
+        }
+    ]
+}

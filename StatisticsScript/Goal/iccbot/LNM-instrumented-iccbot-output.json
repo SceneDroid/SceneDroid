@@ -1,0 +1,85 @@
+{
+    "transitions": [
+        {
+            "handler": "net.fercanet.LNM.Settings$1/void onClick(android.view.View)",
+            "sources": [
+                "net.fercanet.LNM.Settings"
+            ],
+            "targets": [
+                "net.fercanet.LNM.MainMenu"
+            ]
+        },
+        {
+            "handler": "net.fercanet.LNM.MainMenu$1/void onClick(android.view.View)",
+            "sources": [
+                "net.fercanet.LNM.MainMenu"
+            ],
+            "targets": [
+                "net.fercanet.LNM.Game"
+            ]
+        },
+        {
+            "handler": "net.fercanet.LNM.MainMenu/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "net.fercanet.LNM.MainMenu"
+            ],
+            "targets": [
+                "net.fercanet.LNM.Settings"
+            ]
+        },
+        {
+            "handler": "net.fercanet.LNM.MainMenu$1/void onClick(android.view.View)",
+            "sources": [
+                "net.fercanet.LNM.MainMenu"
+            ],
+            "targets": [
+                "net.fercanet.LNM.Hof"
+            ]
+        },
+        {
+            "handler": "net.fercanet.LNM.Game$5/void onClick(android.view.View)",
+            "sources": [
+                "net.fercanet.LNM.Game"
+            ],
+            "targets": [
+                "net.fercanet.LNM.MainMenu"
+            ]
+        },
+        {
+            "handler": "net.fercanet.LNM.Hof$1/void onClick(android.view.View)",
+            "sources": [
+                "net.fercanet.LNM.Hof"
+            ],
+            "targets": [
+                "net.fercanet.LNM.MainMenu"
+            ]
+        },
+        {
+            "handler": "net.fercanet.LNM.MainMenu/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "net.fercanet.LNM.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "net.fercanet.LNM.Settings"
+            ]
+        },
+        {
+            "handler": "net.fercanet.LNM.MainMenu$1/void onClick(android.view.View)",
+            "sources": [
+                "net.fercanet.LNM.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "net.fercanet.LNM.Hof"
+            ]
+        },
+        {
+            "handler": "net.fercanet.LNM.MainMenu$1/void onClick(android.view.View)",
+            "sources": [
+                "net.fercanet.LNM.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "net.fercanet.LNM.Game"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,577 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+com.inconceptlabs.liveboard_2022-10-17: OutputDir not a directory: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.inconceptlabs.liveboard_2022-10-17
+Found 8 entrypoint classes and 14 methods in overall
+Found 1 reachable methods from <com.inconceptlabs.liveboard.pages.activities.BroadcastActivity: void onCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 1 reachable methods from <com.inconceptlabs.liveboard.pages.activities.BroadcastActivity: void onStart()>
+com.inconceptlabs.liveboard.pages.activities.BroadcastActivity: Finished processing of entrypoints after 0 seconds.
+Found 27 reachable methods from <com.inconceptlabs.liveboard.pages.activities.DialogActivity: void onCreate(android.os.Bundle)>
+com.inconceptlabs.liveboard.pages.activities.DialogActivity: Finished processing of entrypoints after 1 seconds.
+Found 40 reachable methods from <com.inconceptlabs.liveboard.pages.activities.LaunchActivity: void onCreate(android.os.Bundle)>
+com.inconceptlabs.liveboard.pages.activities.LaunchActivity: Finished processing of entrypoints after 2 seconds.
+Found 688 reachable methods from <com.inconceptlabs.liveboard.pages.activities.SettingsActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.ShapeOptionsScreen: android.widget.TextView sizeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.TextOptionsScreen: android.widget.TextView sizeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView titleLabel>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Did not find string name from string id: id: 2131886677
+Did not find string name from string id: id: 2131886677
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Found 802 reachable methods from <com.inconceptlabs.liveboard.pages.activities.TopActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView titleLabel>
+Found 850 reachable methods from <com.inconceptlabs.liveboard.pages.activities.BoardActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Did not find string name from string id: id: 2131886677
+Did not find string name from string id: id: 2131886677
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.ShapeOptionsScreen: android.widget.TextView sizeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView titleLabel>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.TextOptionsScreen: android.widget.TextView sizeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Did not find string name from string id: id: 2131886512
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r26 = $r2.<com.inconceptlabs.liveboard.databinding.ScreenCallNotificationBinding: androidx.appcompat.widget.AppCompatTextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = $r2.<com.inconceptlabs.liveboard.databinding.ScreenCallNotificationBinding: com.google.android.material.button.MaterialButton joinButton>
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886677
+Did not find string name from string id: id: 2131886677
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.ShapeOptionsScreen: android.widget.TextView sizeText>
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.TextOptionsScreen: android.widget.TextView sizeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Found 1 reachable methods from <com.inconceptlabs.liveboard.pages.activities.TopActivity: void onStart()>
+com.inconceptlabs.liveboard.pages.activities.TopActivity: Finished processing of entrypoints after 32 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Found 82 reachable methods from <com.inconceptlabs.liveboard.pages.activities.BoardActivity: void onStart()>
+com.inconceptlabs.liveboard.pages.activities.BoardActivity: Finished processing of entrypoints after 35 seconds.
+Found 940 reachable methods from <com.inconceptlabs.liveboard.pages.activities.SignInActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Found 972 reachable methods from <com.inconceptlabs.liveboard.pages.activities.MainActivity: void onStart()>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView titleLabel>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView titleLabel>
+Did not find string name from string id: id: 2131886677
+Did not find string name from string id: id: 2131886677
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.ShapeOptionsScreen: android.widget.TextView sizeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.TextOptionsScreen: android.widget.TextView sizeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Did not find string name from string id: id: 2131886677
+Did not find string name from string id: id: 2131886677
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Did not find string name from string id: id: 2131886512
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r26 = $r2.<com.inconceptlabs.liveboard.databinding.ScreenCallNotificationBinding: androidx.appcompat.widget.AppCompatTextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = $r2.<com.inconceptlabs.liveboard.databinding.ScreenCallNotificationBinding: com.google.android.material.button.MaterialButton joinButton>
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.ShapeOptionsScreen: android.widget.TextView sizeText>
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.TextOptionsScreen: android.widget.TextView sizeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Did not find string name from string id: id: 2131886512
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r26 = $r2.<com.inconceptlabs.liveboard.databinding.ScreenCallNotificationBinding: androidx.appcompat.widget.AppCompatTextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = $r2.<com.inconceptlabs.liveboard.databinding.ScreenCallNotificationBinding: com.google.android.material.button.MaterialButton joinButton>
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Found 5 reachable methods from <com.inconceptlabs.liveboard.pages.activities.SignInActivity: void onStart()>
+com.inconceptlabs.liveboard.pages.activities.SignInActivity: Finished processing of entrypoints after 37 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Found 735 reachable methods from <com.inconceptlabs.liveboard.pages.activities.MainActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.ShapeOptionsScreen: android.widget.TextView sizeText>
+Found 976 reachable methods from <com.inconceptlabs.liveboard.pages.activities.SettingsActivity: void onStart()>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.TextOptionsScreen: android.widget.TextView sizeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView titleLabel>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r6.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordScreenButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView titleLabel>
+Did not find string name from string id: id: 2131886677
+Did not find string name from string id: id: 2131886677
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.ShapeOptionsScreen: android.widget.TextView sizeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = r0.<com.inconceptlabs.liveboard.pages.screens.TextOptionsScreen: android.widget.TextView sizeText>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView recordButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r2 = $r1.<com.inconceptlabs.liveboard.databinding.PopupBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView chatButton>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView shareButton>
+Did not find string name from string id: id: 2131886512
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r26 = $r2.<com.inconceptlabs.liveboard.databinding.ScreenCallNotificationBinding: androidx.appcompat.widget.AppCompatTextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r25 = $r2.<com.inconceptlabs.liveboard.databinding.ScreenCallNotificationBinding: com.google.android.material.button.MaterialButton joinButton>
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886677
+Did not find string name from string id: id: 2131886677
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r1 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentPagePickerBinding: android.widget.TextView title>
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+Did not find string name from string id: id: 2131886512
+Did not find string name from string id: id: 2131886510
+com.inconceptlabs.liveboard.pages.activities.MainActivity: Finished processing of entrypoints after 55 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountEmail>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<com.inconceptlabs.liveboard.databinding.FragmentSettingsBinding: android.widget.TextView accountName>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r3.<com.inconceptlabs.liveboard.databinding.BottomDialogBoardMoreMenuBinding: androidx.appcompat.widget.AppCompatTextView callButton>
+com.inconceptlabs.liveboard.pages.activities.SettingsActivity: Finished processing of entrypoints after 56 seconds.
+AppController:addText: elementID not found for adding text: elementID: 2131362535
+AppController:addText: elementID not found for adding text: elementID: 2131362535
+AppController:addText: elementID not found for adding text: elementID: 2131362535
+AppController:addText: elementID not found for adding text: elementID: 2131362535
+AppController:addText: elementID not found for adding text: elementID: 2131362535
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/com.inconceptlabs.liveboard_2022-10-17/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 56.352864138 seconds
+Entry point creation has run for 0.005790161 seconds
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.029114603 seconds

@@ -1,0 +1,616 @@
+{
+    "transitions": [
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.ImageViewActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.ImageSendActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithDeeplink(android.content.Context,java.lang.String)",
+            "sources": [
+                "freewireless.ui.TmoMigrationActivateActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithDeeplink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.CameraPreviewActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithDeeplink(android.content.Context,java.lang.String)",
+            "sources": [
+                "freewireless.ui.FreeWirelessV2OrderActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.verizon.ads.interstitialwebadapter.WebViewActivity/void launch(android.content.Context,com.verizon.ads.interstitialwebadapter.WebViewActivity$WebViewActivityConfig)",
+            "sources": [
+                "com.verizon.ads.interstitialwebadapter.WebViewActivity"
+            ],
+            "targets": [
+                "com.verizon.ads.interstitialwebadapter.WebViewActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithDeeplink(android.content.Context,java.lang.String)",
+            "sources": [
+                "freewireless.ui.TmoMigrationOrderActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.AuthorizationCommonActivity/boolean checkPhoneExpiryAndProceed()",
+            "sources": [
+                "com.enflick.android.TextNow.activities.AuthorizationCommonActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.DialerActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity$Companion/void startActivity(android.app.Activity,boolean,int)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.AuthorizationCommonActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.AuthorizationCommonActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$a/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.ContactPickerActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.inmobi.media.k/void a(java.lang.String)",
+            "sources": [
+                "com.inmobi.ads.rendering.InMobiAdActivity"
+            ],
+            "targets": [
+                "com.inmobi.ads.rendering.InMobiAdActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "freewireless.ui.FreeWirelessFlowActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivity(android.app.Activity,boolean,boolean)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.permissions.defaultphoneapp.DefaultPhoneAppHelper/void showDefaultPhoneAppPromptForResult(androidx.appcompat.app.f,com.leanplum.ActionContext)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.nativeinterstitial.NativeInterstitialActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity$Companion/void startForResult(android.app.Activity,int,boolean)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity/void getLocation(android.location.Location)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.Canada911TermsActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity/void setupPurchaseSimObservers$lambda-2(com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity,com.enflick.android.api.common.Event)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity"
+            ],
+            "targets": [
+                "freewireless.ui.FreeWirelessFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.permissions.defaultphoneapp.DefaultPhoneAppHelper/void showDefaultPhoneAppPromptForResult(androidx.appcompat.app.f,com.leanplum.ActionContext)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.nativeinterstitial.NativeInterstitialActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.common.utils.DialerUtils/java.util.List getNativeDialers(java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "authorization.ui.AuthorizationActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity$Companion/void startForResult(android.app.Activity,int,boolean)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainControllerBase/void openTmoMigrationOrderFlow()",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "freewireless.ui.TmoMigrationOrderActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.conversations.ConversationsListFragment/void onImageThumbnailClicked(com.enflick.android.TextNow.activities.conversations.ConversationDisplayModel$Image,android.view.View,boolean)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.ImageViewActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainControllerBase/void openTmoMigrationActivateFlow()",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "freewireless.ui.TmoMigrationActivateActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.DeepLinkHelper/void performGenericDeepLink(java.lang.String,java.lang.String,android.content.Context,com.enflick.android.TextNow.model.TNUserInfo,com.enflick.android.TextNow.activities.MainControllerBase)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.DialerActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivity/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.WallpaperPreviewActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivity/void onCreate$lambda-13$lambda-4(com.enflick.android.TextNow.activities.MainActivity,com.enflick.android.api.common.Event)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.SignUpCompleteActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainControllerBase/void openSimPurchaseFlow()",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "freewireless.ui.FreeWirelessFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.messaging.MessageViewFragment/void startPreviewVideoFragment(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.TNVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainControllerBase/void openContactsPickerActivityForSharingNumber()",
+            "sources": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.ContactPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore/boolean startRichMediaIntent(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore"
+            ],
+            "targets": [
+                "com.fyber.inneractive.sdk.activities.InneractiveRichMediaVideoPlayerActivityCore"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity$Companion/void startActivity(android.app.Activity,boolean,int)",
+            "sources": [
+                "authorization.ui.AuthorizationActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.AuthorizationCommonActivity/boolean checkPhoneExpiryAndProceed()",
+            "sources": [
+                "authorization.ui.AuthorizationActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.DialerActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "authorization.ui.AuthorizationActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.phone.AnswerCallActivity/void answerCall(android.content.Context)",
+            "sources": [
+                "com.enflick.android.phone.AnswerCallActivity"
+            ],
+            "targets": [
+                "com.enflick.android.phone.AnswerCallActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversationAndMessage(android.content.Context,com.enflick.android.TextNow.model.TNConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.quickreply.QuickReplyKeyGuardActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.Canada911TermsActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "org.jitsi.meet.sdk.JitsiMeetActivity/void launch(android.content.Context,org.jitsi.meet.sdk.JitsiMeetConferenceOptions,int)",
+            "sources": [
+                "org.jitsi.meet.sdk.JitsiMeetActivity"
+            ],
+            "targets": [
+                "org.jitsi.meet.sdk.JitsiMeetActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.AbuseDeterrentActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithDeeplink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.nativeinterstitial.NativeInterstitialActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.nativeinterstitial.NativeInterstitialActivity/void startForResult(androidx.appcompat.app.f,int,com.enflick.android.TextNow.TNFoundation.activities.nativeinterstitial.NativeInterstitialConfiguration)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.nativeinterstitial.NativeInterstitialActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.nativeinterstitial.NativeInterstitialActivity"
+            ]
+        },
+        {
+            "handler": "u7.o0$a/void run()",
+            "sources": [
+                "com.applovin.adview.AppLovinInterstitialActivity"
+            ],
+            "targets": [
+                "com.applovin.adview.AppLovinFullscreenActivity"
+            ]
+        },
+        {
+            "handler": "u7.o0$a/void run()",
+            "sources": [
+                "com.applovin.adview.AppLovinInterstitialActivity"
+            ],
+            "targets": [
+                "com.applovin.adview.AppLovinInterstitialActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.bubbles.BubbleChatActivity/void onImageClick(com.enflick.android.TextNow.model.TNMessage,android.widget.ImageView,boolean)",
+            "sources": [
+                "com.enflick.android.TextNow.bubbles.BubbleChatActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.ImageViewActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.bubbles.BubbleChatActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.messaging.MessageViewFragment/void startPreviewVideoFragment(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.bubbles.BubbleChatActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.TNVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.diagnostics.DiagnosticsActivity/void startDiagnosticsActivity(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.diagnostics.DiagnosticsActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.diagnostics.DiagnosticsActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithDeeplink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.diagnostics.DiagnosticsActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.rates.CountryRatesTableActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithDeeplink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.ChatHeadVideoPreviewActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "z8.y0/void b(androidx.fragment.app.k,int)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.ecommerce.BraintreeCheckoutActivity"
+            ],
+            "targets": [
+                "com.braintreepayments.api.DropInActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.ecommerce.BraintreeCheckoutActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithDeeplink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.SignUpCompleteActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.WallpaperPreviewActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.common.utils.PhoneUtils/boolean makeEmergencyCall(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.DialerActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.DialerActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.common.utils.DialerUtils/java.util.List getNativeDialers(java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.DialerActivity"
+            ],
+            "targets": [
+                "authorization.ui.AuthorizationActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.DialerActivity/void showNoNetworkConnection(boolean)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.DialerActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity$Companion/void startActivity(android.app.Activity,boolean,int)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.DialerActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.phoneNumberSelection.PhoneNumberSelectionActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversation(android.content.Context,com.enflick.android.TextNow.CallService.interfaces.adapter.IConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,int,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.CaptchaActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithConversationAndMessage(android.content.Context,com.enflick.android.TextNow.model.TNConversation,com.enflick.android.TextNow.activities.messaging.MessageViewState,int,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.quickreply.QuickReplyActivityBase"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithDeeplink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.TNVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "io.card.payment.CardIOActivity$b/void run()",
+            "sources": [
+                "io.card.payment.CardIOActivity"
+            ],
+            "targets": [
+                "io.card.payment.DataEntryActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.activities.MainActivityLauncher/void startActivityWithDeeplink(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.enflick.android.TextNow.activities.AccountRecoveryActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.activities.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.verizon.ads.interstitialvastadapter.VASTActivity/void launch(android.content.Context,com.verizon.ads.interstitialvastadapter.VASTActivity$VASTActivityConfig)",
+            "sources": [
+                "com.verizon.ads.interstitialvastadapter.VASTActivity"
+            ],
+            "targets": [
+                "com.verizon.ads.interstitialvastadapter.VASTActivity"
+            ]
+        },
+        {
+            "handler": "com.enflick.android.TextNow.videocalling.TextNowJitsiMeetActivity$Companion/void launchActivity(android.content.Context,org.jitsi.meet.sdk.JitsiMeetConferenceOptions)",
+            "sources": [
+                "com.enflick.android.TextNow.videocalling.TextNowJitsiMeetActivity"
+            ],
+            "targets": [
+                "com.enflick.android.TextNow.videocalling.TextNowJitsiMeetActivity"
+            ]
+        },
+        {
+            "handler": "org.jitsi.meet.sdk.JitsiMeetActivity/void launch(android.content.Context,org.jitsi.meet.sdk.JitsiMeetConferenceOptions,int)",
+            "sources": [
+                "com.enflick.android.TextNow.videocalling.TextNowJitsiMeetActivity"
+            ],
+            "targets": [
+                "org.jitsi.meet.sdk.JitsiMeetActivity"
+            ]
+        }
+    ]
+}

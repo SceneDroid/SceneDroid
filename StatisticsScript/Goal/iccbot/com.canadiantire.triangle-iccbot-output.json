@@ -1,0 +1,31 @@
+{
+    "transitions": [
+        {
+            "handler": "com.gigya.android.sdk.ui.WebLoginActivity/void present(android.content.Context,java.lang.String,com.gigya.android.sdk.ui.WebLoginActivity$WebLoginActivityCallback)",
+            "sources": [
+                "com.gigya.android.sdk.ui.WebLoginActivity"
+            ],
+            "targets": [
+                "com.gigya.android.sdk.ui.WebLoginActivity"
+            ]
+        },
+        {
+            "handler": "com.gigya.android.sdk.ui.HostActivity/void present(android.content.Context,com.gigya.android.sdk.ui.HostActivity$HostActivityLifecycleCallbacks)",
+            "sources": [
+                "com.gigya.android.sdk.ui.HostActivity"
+            ],
+            "targets": [
+                "com.gigya.android.sdk.ui.HostActivity"
+            ]
+        },
+        {
+            "handler": "ca.triangle.app.TriangleMainActivity/void onNewIntent(android.content.Intent)",
+            "sources": [
+                "ca.triangle.app.TriangleMainActivity"
+            ],
+            "targets": [
+                "ca.triangle.retail.authorization.AuthorizationActivity"
+            ]
+        }
+    ]
+}

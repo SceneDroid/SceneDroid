@@ -1,0 +1,1426 @@
+{
+    "transitions": [
+        {
+            "handler": "com.scribd.app.update.a/void a(java.lang.String,int)",
+            "sources": [
+                "com.scribd.app.update.BroadcastDialogActivity"
+            ],
+            "targets": [
+                "com.scribd.app.support.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.scranalytics.c/void b(java.lang.String,java.util.Map,boolean,long,boolean)",
+            "sources": [
+                "com.scribd.app.update.BroadcastDialogActivity"
+            ],
+            "targets": [
+                "com.scribd.app.scranalytics.ScranalyticsService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.update.BroadcastDialogActivity/void a(android.content.Context,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "com.scribd.app.update.BroadcastDialogActivity"
+            ],
+            "targets": [
+                "com.scribd.app.update.BroadcastDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.UpdatePaymentActivity/void a(android.app.Activity,boolean,boolean,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,boolean,com.scribd.app.constants.Analytics$i$a)",
+            "sources": [
+                "com.scribd.app.payment.UpdatePaymentActivity"
+            ],
+            "targets": [
+                "com.scribd.app.payment.UpdatePaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.scranalytics.c/void b(java.lang.String,java.util.Map,boolean,long,boolean)",
+            "sources": [
+                "com.scribd.app.payment.UpdatePaymentActivity"
+            ],
+            "targets": [
+                "com.scribd.app.scranalytics.ScranalyticsService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.scribd.app.search.SearchActivity"
+            ],
+            "targets": [
+                "com.scribd.app.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/void a(android.app.Activity,com.scribd.app.ui.MainMenuActivity$a,android.os.Bundle)",
+            "sources": [
+                "com.scribd.app.search.SearchActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.modules.h/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.scribd.app.search.SearchActivity"
+            ],
+            "targets": [
+                "com.scribd.app.modules.ModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.EndOfReadingActivity/void a(android.app.Activity,com.scribd.jscribd.resource.ScribdDocument,boolean)",
+            "sources": [
+                "com.scribd.app.search.SearchActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.c/void b(com.scribd.app.ui.c$a)",
+            "sources": [
+                "com.scribd.app.search.SearchActivity"
+            ],
+            "targets": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.support.a$1/void onClick(android.view.View)",
+            "sources": [
+                "com.scribd.app.support.SupportActivity"
+            ],
+            "targets": [
+                "com.xtralogic.android.logcollector.lib.SendLogActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.rating_playstore.RatingDialogFragmentActivity/void a(android.support.v4.app.FragmentActivity,java.lang.String)",
+            "sources": [
+                "com.scribd.app.rating_playstore.RatingDialogFragmentActivity"
+            ],
+            "targets": [
+                "com.scribd.app.rating_playstore.RatingDialogFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.rating_playstore.a$1/void onClick(android.view.View)",
+            "sources": [
+                "com.scribd.app.rating_playstore.RatingDialogFragmentActivity"
+            ],
+            "targets": [
+                "com.xtralogic.android.logcollector.lib.SendLogActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.scranalytics.c/void b(java.lang.String,java.util.Map,boolean,long,boolean)",
+            "sources": [
+                "com.scribd.app.rating_playstore.RatingDialogFragmentActivity"
+            ],
+            "targets": [
+                "com.scribd.app.scranalytics.ScranalyticsService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.NoteActivity/void a(android.support.v4.app.Fragment,com.scribd.api.models.Annotation,boolean)",
+            "sources": [
+                "com.scribd.app.viewer.NoteActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.NoteActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.requests.RequestListFragment$a$1/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "com.scribd.app.account.ZendeskMyTicketsActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.requests.ViewRequestActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.update.BroadcastDialogActivity/void a(android.content.Context,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.update.BroadcastDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.LastPageUpsellActivity/void a(android.app.Activity,java.lang.String,com.scribd.app.payment.LastPageUpsellOptions,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.payment.LastPageUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.ZoomableImageViewer/void a(android.app.Activity,java.lang.String,int,int,int,int)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.ZoomableImageViewer"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.RedeemTitleActivity/void a(android.app.Activity,int,boolean,boolean,boolean,com.scribd.app.constants.Analytics$i$a)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.payment.RedeemTitleActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.share.b/void a(com.scribd.api.models.Document,android.app.Activity)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.share.CopyToClipboardActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.EndOfReadingActivity/void a(android.app.Activity,com.scribd.jscribd.resource.ScribdDocument,boolean)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.c/void b(com.scribd.app.ui.c$a)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.modules.h/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.modules.ModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.g$10/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.rating_playstore.RatingDialogFragmentActivity/void a(android.support.v4.app.FragmentActivity,java.lang.String)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.rating_playstore.RatingDialogFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.NoteActivity/void a(android.support.v4.app.Fragment,com.scribd.api.models.Annotation,boolean)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.NoteActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.scranalytics.c/void b(java.lang.String,java.util.Map,boolean,long,boolean)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.scranalytics.ScranalyticsService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.fragments.GenericInfoAlertDialogFragmentActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.fragments.GenericInfoAlertDialogFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.scranalytics.c/void b(java.lang.String,java.util.Map,boolean,long,boolean)",
+            "sources": [
+                "com.scribd.app.personalization.PersonalizationActivity"
+            ],
+            "targets": [
+                "com.scribd.app.scranalytics.ScranalyticsService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.personalization.PersonalizationActivity/void a(android.app.Activity,com.scribd.api.models.PersonalizationInfo,java.lang.String)",
+            "sources": [
+                "com.scribd.app.personalization.PersonalizationActivity"
+            ],
+            "targets": [
+                "com.scribd.app.personalization.PersonalizationActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.dataviewer.DataViewerActivity/void a(android.app.Activity,java.util.ArrayList,java.util.ArrayList)",
+            "sources": [
+                "com.scribd.dataviewer.DataViewerActivity"
+            ],
+            "targets": [
+                "com.scribd.dataviewer.DataViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.dataviewer.PrefsViewerActivity/void a(android.app.Activity,java.util.ArrayList)",
+            "sources": [
+                "com.scribd.dataviewer.DataViewerActivity"
+            ],
+            "targets": [
+                "com.scribd.dataviewer.PrefsViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.dataviewer.DirectoryViewerActivity/void a(android.app.Activity,java.util.ArrayList)",
+            "sources": [
+                "com.scribd.dataviewer.DataViewerActivity"
+            ],
+            "targets": [
+                "com.scribd.dataviewer.DirectoryViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.ZoomableImageViewer/void a(android.app.Activity,java.lang.String,int,int,int,int)",
+            "sources": [
+                "com.scribd.app.viewer.ZoomableImageViewer"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.ZoomableImageViewer"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.fragments.GenericInfoAlertDialogFragmentActivity/void a(android.content.Context,int,int)",
+            "sources": [
+                "com.scribd.app.account.UnpauseSubscriptionActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.fragments.GenericInfoAlertDialogFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.UnpauseSubscriptionActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.account.UnpauseSubscriptionActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.UnpauseSubscriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.appintro.AppIntroActivity$3/void onClick(android.view.View)",
+            "sources": [
+                "com.scribd.app.appintro.AppIntroActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.dataviewer.DataViewerActivity/void a(android.app.Activity,java.util.ArrayList,java.util.ArrayList)",
+            "sources": [
+                "com.scribd.dataviewer.PrefsViewerActivity"
+            ],
+            "targets": [
+                "com.scribd.dataviewer.DataViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.dataviewer.PrefsViewerActivity/void a(android.app.Activity,java.util.ArrayList)",
+            "sources": [
+                "com.scribd.dataviewer.PrefsViewerActivity"
+            ],
+            "targets": [
+                "com.scribd.dataviewer.PrefsViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ratings_reviews.c/void a(int)",
+            "sources": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.share.b/void a(com.scribd.api.models.Document,android.app.Activity)",
+            "sources": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ],
+            "targets": [
+                "com.scribd.app.share.CopyToClipboardActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.EndOfReadingActivity/void a(android.app.Activity,com.scribd.jscribd.resource.ScribdDocument,boolean)",
+            "sources": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.rating_playstore.RatingDialogFragmentActivity/void a(android.support.v4.app.FragmentActivity,java.lang.String)",
+            "sources": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ],
+            "targets": [
+                "com.scribd.app.rating_playstore.RatingDialogFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.EndOfReadingActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ratings_reviews.c$4/void onClick(android.view.View)",
+            "sources": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ratings_reviews.RatingAndReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ratings_reviews.RatingAndReviewActivity/void a(android.app.Activity,com.scribd.api.models.Review,int,com.scribd.api.models.Document,com.scribd.app.constants.Analytics$ad$a)",
+            "sources": [
+                "com.scribd.app.ratings_reviews.RatingAndReviewActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ratings_reviews.RatingAndReviewActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.features.DevFeaturesCategoryActivity/void a(android.app.Activity,com.scribd.app.features.a$a)",
+            "sources": [
+                "com.scribd.app.features.DevFeaturesCategoryActivity"
+            ],
+            "targets": [
+                "com.scribd.app.features.DevFeaturesCategoryActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.rating_playstore.RatingDialogFragmentActivity/void a(android.support.v4.app.FragmentActivity,java.lang.String)",
+            "sources": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ],
+            "targets": [
+                "com.scribd.app.rating_playstore.RatingDialogFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.c/void b(com.scribd.app.ui.c$a)",
+            "sources": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ],
+            "targets": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.MainMenuActivity/boolean onSearchRequested()",
+            "sources": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ],
+            "targets": [
+                "com.scribd.app.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.modules.h/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ],
+            "targets": [
+                "com.scribd.app.modules.ModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.EndOfReadingActivity/void a(android.app.Activity,com.scribd.jscribd.resource.ScribdDocument,boolean)",
+            "sources": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/void a(android.app.Activity,com.scribd.app.ui.MainMenuActivity$a,android.os.Bundle)",
+            "sources": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.trial.WelcomeSubscriberActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.trial.WelcomeSubscriberActivity"
+            ],
+            "targets": [
+                "com.scribd.app.trial.WelcomeSubscriberActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.configuration.ConfigurationActivity/void b(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.configuration.ConfigurationActivity"
+            ],
+            "targets": [
+                "com.scribd.app.configuration.ConfigurationActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.scranalytics.c/void e(java.lang.String)",
+            "sources": [
+                "com.scribd.app.intro.FeatureIntroActivity"
+            ],
+            "targets": [
+                "com.scribd.app.scranalytics.ScranalyticsService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.intro.FeatureIntroActivity/void a(android.app.Activity,com.scribd.app.intro.FeatureIntroUtils$a,java.util.ArrayList)",
+            "sources": [
+                "com.scribd.app.intro.FeatureIntroActivity"
+            ],
+            "targets": [
+                "com.scribd.app.intro.FeatureIntroActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.fragments.GenericInfoAlertDialogFragmentActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.scribd.app.ui.fragments.GenericInfoAlertDialogFragmentActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.fragments.GenericInfoAlertDialogFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.support.ViewArticleActivity/void startActivity(android.content.Context,com.zendesk.sdk.model.helpcenter.Article)",
+            "sources": [
+                "com.scribd.app.account.ZendeskSupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.support.SupportActivity/void showContactActivity()",
+            "sources": [
+                "com.scribd.app.account.ZendeskSupportActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.c/void b(com.scribd.app.ui.c$a)",
+            "sources": [
+                "com.scribd.app.audiobooks.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.update.BroadcastDialogActivity/void a(android.content.Context,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "com.scribd.app.audiobooks.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.scribd.app.update.BroadcastDialogActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.RedeemTitleActivity/void a(android.app.Activity,int,boolean,boolean,boolean,com.scribd.app.constants.Analytics$i$a)",
+            "sources": [
+                "com.scribd.app.audiobooks.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.scribd.app.payment.RedeemTitleActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.rating_playstore.RatingDialogFragmentActivity/void a(android.support.v4.app.FragmentActivity,java.lang.String)",
+            "sources": [
+                "com.scribd.app.audiobooks.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.scribd.app.rating_playstore.RatingDialogFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.fragments.GenericInfoAlertDialogFragmentActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.scribd.app.audiobooks.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.fragments.GenericInfoAlertDialogFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.modules.h/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.scribd.app.audiobooks.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.scribd.app.modules.ModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.g$10/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.scribd.app.audiobooks.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.LastPageUpsellActivity/void a(android.app.Activity,java.lang.String,com.scribd.app.payment.LastPageUpsellOptions,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.scribd.app.audiobooks.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.scribd.app.payment.LastPageUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.share.b/void a(com.scribd.api.models.Document,android.app.Activity)",
+            "sources": [
+                "com.scribd.app.audiobooks.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.scribd.app.share.CopyToClipboardActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.EndOfReadingActivity/void a(android.app.Activity,com.scribd.jscribd.resource.ScribdDocument,boolean)",
+            "sources": [
+                "com.scribd.app.audiobooks.AudioPlayerActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.LoggedOutAlertActivity/void a(android.content.Context)",
+            "sources": [
+                "com.scribd.app.account.LoggedOutAlertActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.LoggedOutAlertActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/void a(android.app.Activity,com.scribd.app.ui.MainMenuActivity$a,android.os.Bundle)",
+            "sources": [
+                "com.scribd.app.account.LoggedOutAlertActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.LoggedOutAlertActivity$2/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.scribd.app.account.LoggedOutAlertActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.referrals.ReferralsActivity/void a(android.app.Activity,com.scribd.app.constants.Analytics$ac$c)",
+            "sources": [
+                "com.scribd.app.referrals.ReferralsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.referrals.ReferralsActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.referrals.a$e/void a(android.app.Activity,com.scribd.api.models.be)",
+            "sources": [
+                "com.scribd.app.referrals.ReferralsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.share.CopyToClipboardActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.support.ViewArticleActivity/void startActivity(android.content.Context,com.zendesk.sdk.model.helpcenter.Article)",
+            "sources": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.support.ViewArticleActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.EndOfReadingActivity/void a(android.app.Activity,com.scribd.jscribd.resource.ScribdDocument,boolean)",
+            "sources": [
+                "com.scribd.app.util.SingleFragmentActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.modules.h/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.scribd.app.util.SingleFragmentActivity"
+            ],
+            "targets": [
+                "com.scribd.app.modules.ModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.c/void b(com.scribd.app.ui.c$a)",
+            "sources": [
+                "com.scribd.app.util.SingleFragmentActivity"
+            ],
+            "targets": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.util.SingleFragmentActivity$a/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.util.SingleFragmentActivity"
+            ],
+            "targets": [
+                "com.scribd.app.util.SingleFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.scribd.app.util.SingleFragmentActivity"
+            ],
+            "targets": [
+                "com.scribd.app.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/void a(android.app.Activity,com.scribd.app.ui.MainMenuActivity$a,android.os.Bundle)",
+            "sources": [
+                "com.scribd.app.util.SingleFragmentActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.j/void a(com.scribd.app.payment.j$a,boolean)",
+            "sources": [
+                "com.scribd.app.payment.RedeemTitleActivity"
+            ],
+            "targets": [
+                "com.scribd.app.modules.ModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.UpdatePaymentActivity/void a(android.app.Activity,boolean,boolean,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,boolean,com.scribd.app.constants.Analytics$i$a)",
+            "sources": [
+                "com.scribd.app.payment.RedeemTitleActivity"
+            ],
+            "targets": [
+                "com.scribd.app.payment.UpdatePaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.RedeemTitleActivity/void a(android.app.Activity,int,boolean,boolean,boolean,com.scribd.app.constants.Analytics$i$a)",
+            "sources": [
+                "com.scribd.app.payment.RedeemTitleActivity"
+            ],
+            "targets": [
+                "com.scribd.app.payment.RedeemTitleActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.dictionary.DictionaryActivity/void a(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.scribd.app.viewer.dictionary.DictionaryActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.dictionary.DictionaryActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.dataviewer.DirectoryViewerActivity/void a(android.app.Activity,java.util.ArrayList)",
+            "sources": [
+                "com.scribd.dataviewer.DirectoryViewerActivity"
+            ],
+            "targets": [
+                "com.scribd.dataviewer.DirectoryViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.dataviewer.DataViewerActivity/void a(android.app.Activity,java.util.ArrayList,java.util.ArrayList)",
+            "sources": [
+                "com.scribd.dataviewer.DirectoryViewerActivity"
+            ],
+            "targets": [
+                "com.scribd.dataviewer.DataViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.features.DevFeaturesCategoryActivity/void a(android.app.Activity,com.scribd.app.features.a$a)",
+            "sources": [
+                "com.scribd.app.features.DevFeaturesCategoryListActivity"
+            ],
+            "targets": [
+                "com.scribd.app.features.DevFeaturesCategoryActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.features.DevFeaturesCategoryListActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.features.DevFeaturesCategoryListActivity"
+            ],
+            "targets": [
+                "com.scribd.app.features.DevFeaturesCategoryListActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.download.FileMigrationActivity$1$1/void run()",
+            "sources": [
+                "com.scribd.app.download.FileMigrationActivity"
+            ],
+            "targets": [
+                "com.scribd.app.download.FileMigrationActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.SettingsActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.trial.WelcomeSubscriberActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ],
+            "targets": [
+                "com.scribd.app.trial.WelcomeSubscriberActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.UnpauseSubscriptionActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.UnpauseSubscriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.scranalytics.c/void b(java.lang.String,java.util.Map,boolean,long,boolean)",
+            "sources": [
+                "com.scribd.app.payment.LastPageUpsellActivity"
+            ],
+            "targets": [
+                "com.scribd.app.scranalytics.ScranalyticsService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.RedeemTitleActivity/void a(android.support.v4.app.Fragment,int,boolean,boolean,boolean,com.scribd.app.constants.Analytics$i$a)",
+            "sources": [
+                "com.scribd.app.payment.LastPageUpsellActivity"
+            ],
+            "targets": [
+                "com.scribd.app.payment.RedeemTitleActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.d/void a(android.app.Activity,com.scribd.app.payment.LastPageUpsellOptions)",
+            "sources": [
+                "com.scribd.app.payment.LastPageUpsellActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.d$2/void onClick(android.view.View)",
+            "sources": [
+                "com.scribd.app.payment.LastPageUpsellActivity"
+            ],
+            "targets": [
+                "com.scribd.app.modules.ModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.LastPageUpsellActivity/void a(android.app.Activity,java.lang.String,com.scribd.app.payment.LastPageUpsellOptions,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.scribd.app.payment.LastPageUpsellActivity"
+            ],
+            "targets": [
+                "com.scribd.app.payment.LastPageUpsellActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.SplashScreen/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.scribd.app.ui.SplashScreen"
+            ],
+            "targets": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.scranalytics.c/void b(java.lang.String,java.util.Map,boolean,long,boolean)",
+            "sources": [
+                "com.scribd.app.payment.GalaxyGiftsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.scranalytics.ScranalyticsService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.GalaxyGiftsActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.payment.GalaxyGiftsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.payment.GalaxyGiftsActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.c/void d()",
+            "sources": [
+                "com.scribd.app.payment.GalaxyGiftsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.SettingsAccountFragment$5/void onClick(android.view.View)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.cancel.CancelSubscriptionActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.payment.UpdatePaymentActivity/void a(android.app.Activity,boolean,boolean,java.lang.String,java.lang.Integer,java.lang.Integer,java.lang.String,boolean,com.scribd.app.constants.Analytics$i$a)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.payment.UpdatePaymentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.dataviewer.DataViewerActivity/void a(android.app.Activity,java.util.ArrayList,java.util.ArrayList)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.dataviewer.DataViewerActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.SettingsAccountFragment$6/void onClick(android.view.View)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.SettingsActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.util.SingleFragmentActivity$a/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.util.SingleFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.HelpCenterActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.HelpCenterActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.scranalytics.c/void b(java.lang.String,java.util.Map,boolean,long,boolean)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.scranalytics.ScranalyticsService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.SettingsAccountFragment$2$1/void onClick(android.view.View)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.support.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.referrals.ReferralsActivity/void a(android.app.Activity,com.scribd.app.constants.Analytics$ac$c)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.referrals.ReferralsActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.configuration.ConfigurationActivity/void b(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.configuration.ConfigurationActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.dictionary.DictionaryActivity/void a(android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.dictionary.DictionaryActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.features.DevFeaturesCategoryListActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.features.DevFeaturesCategoryListActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.s$14/void onClick(android.view.View)",
+            "sources": [
+                "com.scribd.app.account.SettingsActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.ZendeskSupportActivity"
+            ]
+        },
+        {
+            "handler": "com.zopim.android.sdk.prechat.ZopimChatActivity/void startActivity(android.content.Context,com.zopim.android.sdk.api.ZopimChat$SessionConfig)",
+            "sources": [
+                "com.zopim.android.sdk.prechat.ZopimChatActivity"
+            ],
+            "targets": [
+                "com.zopim.android.sdk.prechat.ZopimChatActivity"
+            ]
+        },
+        {
+            "handler": "com.zopim.android.sdk.api.ZopimChatApi$a/com.zopim.android.sdk.api.ChatApi build(android.support.v4.app.FragmentActivity)",
+            "sources": [
+                "com.zopim.android.sdk.prechat.ZopimChatActivity"
+            ],
+            "targets": [
+                "com.zopim.android.sdk.api.ChatService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.c/void b(com.scribd.app.ui.c$a)",
+            "sources": [
+                "com.scribd.app.ui.GridPaginationActivity"
+            ],
+            "targets": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.modules.h/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.scribd.app.ui.GridPaginationActivity"
+            ],
+            "targets": [
+                "com.scribd.app.modules.ModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.EndOfReadingActivity/void a(android.app.Activity,com.scribd.jscribd.resource.ScribdDocument,boolean)",
+            "sources": [
+                "com.scribd.app.ui.GridPaginationActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.scribd.app.ui.GridPaginationActivity"
+            ],
+            "targets": [
+                "com.scribd.app.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/void a(android.app.Activity,com.scribd.app.ui.MainMenuActivity$a,android.os.Bundle)",
+            "sources": [
+                "com.scribd.app.ui.GridPaginationActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.modules.h/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.modules.ModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.scranalytics.c/void b(java.lang.String,java.util.Map,boolean,long,boolean)",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.scranalytics.ScranalyticsService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.f/void d()",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.DocumentViewActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.rating_playstore.RatingDialogFragmentActivity/void a(android.support.v4.app.FragmentActivity,java.lang.String)",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.rating_playstore.RatingDialogFragmentActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.c/void b(com.scribd.app.ui.c$a)",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.bookpage.f$1/void onClick(android.view.View)",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.support.SupportActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/void a(android.app.Activity,com.scribd.app.ui.MainMenuActivity$a,android.os.Bundle)",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.bookpage.f/boolean b(com.scribd.api.models.Document)",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.share.b/void a(com.scribd.api.models.Document,android.app.Activity)",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.share.CopyToClipboardActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.f/void d()",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.audiobooks.AudioPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.EndOfReadingActivity/void a(android.app.Activity,com.scribd.jscribd.resource.ScribdDocument,boolean)",
+            "sources": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.articles.ArticleReaderActivity/void a(android.app.Activity,com.scribd.jscribd.resource.ScribdDocument)",
+            "sources": [
+                "com.scribd.app.articles.ArticleReaderActivity"
+            ],
+            "targets": [
+                "com.scribd.app.articles.ArticleReaderActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.share.b/void a(com.scribd.jscribd.resource.ScribdDocument,android.app.Activity,java.lang.String)",
+            "sources": [
+                "com.scribd.app.articles.ArticleReaderActivity"
+            ],
+            "targets": [
+                "com.scribd.app.share.CopyToClipboardActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.modules.h/void a(android.app.Activity,boolean,int)",
+            "sources": [
+                "com.scribd.app.articles.ArticleReaderActivity"
+            ],
+            "targets": [
+                "com.scribd.app.modules.ModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.scranalytics.c/void b(java.lang.String,java.util.Map,boolean,long,boolean)",
+            "sources": [
+                "com.scribd.app.articles.ArticleReaderActivity"
+            ],
+            "targets": [
+                "com.scribd.app.scranalytics.ScranalyticsService"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.articles.a$8/void onClick(android.view.View)",
+            "sources": [
+                "com.scribd.app.articles.ArticleReaderActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.AccountFlowActivity"
+            ]
+        },
+        {
+            "handler": "com.xtralogic.android.logcollector.lib.SendLogActivity/void a(android.content.Context)",
+            "sources": [
+                "com.xtralogic.android.logcollector.lib.SendLogActivity"
+            ],
+            "targets": [
+                "com.xtralogic.android.logcollector.lib.SendLogActivity"
+            ]
+        },
+        {
+            "handler": "com.zopim.android.sdk.prechat.ZopimChatActivity/void startActivity(android.content.Context,com.zopim.android.sdk.api.ZopimChat$SessionConfig)",
+            "sources": [
+                "com.scribd.app.account.HelpCenterActivity"
+            ],
+            "targets": [
+                "com.zopim.android.sdk.prechat.ZopimChatActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.j/void d()",
+            "sources": [
+                "com.scribd.app.account.HelpCenterActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.j/void c()",
+            "sources": [
+                "com.scribd.app.account.HelpCenterActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.ZendeskSupportActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.HelpCenterActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.account.HelpCenterActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.HelpCenterActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.j/void e()",
+            "sources": [
+                "com.scribd.app.account.HelpCenterActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.ZendeskMyTicketsActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.account.SettingsActivity/void a(android.app.Activity)",
+            "sources": [
+                "com.scribd.app.modules.ModulesActivity"
+            ],
+            "targets": [
+                "com.scribd.app.account.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/void a(android.app.Activity,com.scribd.app.ui.MainMenuActivity$a,android.os.Bundle)",
+            "sources": [
+                "com.scribd.app.modules.ModulesActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.MainMenuActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.c/void b(com.scribd.app.ui.c$a)",
+            "sources": [
+                "com.scribd.app.modules.ModulesActivity"
+            ],
+            "targets": [
+                "com.scribd.app.bookpage.BookPageActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.viewer.EndOfReadingActivity/void a(android.app.Activity,com.scribd.jscribd.resource.ScribdDocument,boolean)",
+            "sources": [
+                "com.scribd.app.modules.ModulesActivity"
+            ],
+            "targets": [
+                "com.scribd.app.viewer.EndOfReadingActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.modules.h/void a(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "com.scribd.app.modules.ModulesActivity"
+            ],
+            "targets": [
+                "com.scribd.app.modules.ModulesActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.d/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.scribd.app.modules.ModulesActivity"
+            ],
+            "targets": [
+                "com.scribd.app.search.SearchActivity"
+            ]
+        },
+        {
+            "handler": "com.scribd.app.ui.BugReportActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.scribd.app.ui.BugReportActivity"
+            ],
+            "targets": [
+                "com.scribd.app.ui.BugReportActivity"
+            ]
+        },
+        {
+            "handler": "com.zendesk.sdk.feedback.ui.ContactZendeskActivity/void startActivity(android.content.Context,com.zendesk.sdk.feedback.ZendeskFeedbackConfiguration)",
+            "sources": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ],
+            "targets": [
+                "com.zendesk.sdk.feedback.ui.ContactZendeskActivity"
+            ]
+        }
+    ]
+}

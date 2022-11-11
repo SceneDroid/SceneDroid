@@ -1,0 +1,148 @@
+{
+    "transitions": [
+        {
+            "handler": "org.tomdroid.util.Receive/void useSendText(java.lang.String,java.lang.String)",
+            "sources": [
+                "org.tomdroid.util.Receive"
+            ],
+            "targets": [
+                "org.tomdroid.ui.EditNote"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.util.Receive/void useSendFile(java.io.File,java.lang.String)",
+            "sources": [
+                "org.tomdroid.util.Receive"
+            ],
+            "targets": [
+                "org.tomdroid.ui.CompareNotes"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.util.Receive/void useSendFile(java.io.File,java.lang.String)",
+            "sources": [
+                "org.tomdroid.util.Receive"
+            ],
+            "targets": [
+                "org.tomdroid.ui.Tomdroid"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.ViewNote/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.tomdroid.ui.ViewNote"
+            ],
+            "targets": [
+                "org.tomdroid.ui.Tomdroid"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.ViewNote/void startEditNote()",
+            "sources": [
+                "org.tomdroid.ui.ViewNote"
+            ],
+            "targets": [
+                "org.tomdroid.ui.EditNote"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.ViewNote/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.tomdroid.ui.ViewNote"
+            ],
+            "targets": [
+                "org.tomdroid.ui.PreferencesActivity"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.EditNote/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.tomdroid.ui.EditNote"
+            ],
+            "targets": [
+                "org.tomdroid.ui.PreferencesActivity"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.EditNote/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.tomdroid.ui.EditNote"
+            ],
+            "targets": [
+                "org.tomdroid.ui.Tomdroid"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.Tomdroid/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.tomdroid.ui.Tomdroid"
+            ],
+            "targets": [
+                "org.tomdroid.ui.PreferencesActivity"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.Tomdroid/void onActivityResult(int,int,android.content.Intent)",
+            "sources": [
+                "org.tomdroid.ui.Tomdroid"
+            ],
+            "targets": [
+                "org.tomdroid.util.Receive"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.Tomdroid/void ViewNote(long)",
+            "sources": [
+                "org.tomdroid.ui.Tomdroid"
+            ],
+            "targets": [
+                "org.tomdroid.ui.ViewNote"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.Tomdroid/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.tomdroid.ui.Tomdroid"
+            ],
+            "targets": [
+                "org.tomdroid.ui.FilePickerActivity"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.Tomdroid/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.tomdroid.ui.Tomdroid"
+            ],
+            "targets": [
+                "org.tomdroid.ui.Tomdroid"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.Tomdroid/void startEditNote(long)",
+            "sources": [
+                "org.tomdroid.ui.Tomdroid"
+            ],
+            "targets": [
+                "org.tomdroid.ui.EditNote"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.PreferencesActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.tomdroid.ui.PreferencesActivity"
+            ],
+            "targets": [
+                "org.tomdroid.ui.Tomdroid"
+            ]
+        },
+        {
+            "handler": "org.tomdroid.ui.FilePickerActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.tomdroid.ui.FilePickerActivity"
+            ],
+            "targets": [
+                "org.tomdroid.ui.Tomdroid"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1753 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+nodomain.freeyourgadget.gadgetbridge_218: OutputDir not a directory: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/nodomain.freeyourgadget.gadgetbridge_218
+Found 71 entrypoint classes and 94 methods in overall
+Found 2 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummaryDetail: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 3 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AppCompatPreferenceActivity: void onCreate(android.os.Bundle)>
+Found 2 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ConfigureWorldClocks: void onStart()>
+Found 4 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceSettingsActivity$HybridHRWatchfaceSettingsFragment: void onCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 11 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AbstractSettingsActivity: void onPostCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceSettingsActivity$HybridHRWatchfaceSettingsFragment: Finished processing of entrypoints after 0 seconds.
+Found 3 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AppCompatPreferenceActivity: void onPostCreate(android.os.Bundle)>
+Found 34 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AboutActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.AppCompatPreferenceActivity: Finished processing of entrypoints after 1 seconds.
+Found 34 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.binary_sensor.activity.DataActivity: void onCreate(android.os.Bundle)>
+Found 45 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.supercars.ControlActivity: void onCreate(android.os.Bundle)>
+Found 40 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryPairingPreferenceActivity: void onCreate(android.os.Bundle)>
+Found 34 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AndroidPairingActivity: void onCreate(android.os.Bundle)>
+Found 38 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity: void onCreate(android.os.Bundle)>
+Found 30 reachable methods from <nodomain.freeyourgadget.gadgetbridge.externalevents.opentracks.OpenTracksController: void onCreate(android.os.Bundle)>
+Found 34 reachable methods from <nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationConfig: void onCreate(android.os.Bundle)>
+Found 39 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.WidgetAlarmsActivity: void onCreate(android.os.Bundle)>
+Found 67 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.DataManagementActivity: void onCreate(android.os.Bundle)>
+Found 80 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.externalevents.opentracks.OpenTracksController: Finished processing of entrypoints after 3 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.AndroidPairingActivity: Finished processing of entrypoints after 3 seconds.
+Found 2 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.pebble.PebblePairingActivity: void onStart()>
+Found 42 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceSettingsActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.externalevents.WeatherNotificationConfig: Finished processing of entrypoints after 2 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.AboutActivity: Finished processing of entrypoints after 3 seconds.
+Found 13 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPreferencesActivity: void onPostCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.appmanager.AppManagerActivity: Finished processing of entrypoints after 3 seconds.
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Found 12 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryPairingPreferenceActivity: void onPostCreate(android.os.Bundle)>
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+nodomain.freeyourgadget.gadgetbridge.activities.WidgetAlarmsActivity: Finished processing of entrypoints after 3 seconds.
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+nodomain.freeyourgadget.gadgetbridge.devices.binary_sensor.activity.DataActivity: Finished processing of entrypoints after 4 seconds.
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryPairingPreferenceActivity: Finished processing of entrypoints after 4 seconds.
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820636
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820641
+Did not find string name from string id: id: 2131820808
+Did not find string name from string id: id: 2131820640
+Did not find string name from string id: id: 2131820635
+Found 94 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ConfigureWorldClocks: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.supercars.ControlActivity: Finished processing of entrypoints after 4 seconds.
+Found 77 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.zetime.ZeTimePreferenceActivity: void onCreate(android.os.Bundle)>
+Found 37 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceSettingsActivity: Finished processing of entrypoints after 5 seconds.
+Found 45 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.WidgetSettingsActivity: void onCreate(android.os.Bundle)>
+Found 33 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AbstractGBActivity: void onCreate(android.os.Bundle)>
+Found 85 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ConfigActivity: void onCreate(android.os.Bundle)>
+Found 121 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2: void onCreate(android.os.Bundle)>
+Found 34 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AbstractGBFragmentActivity: void onCreate(android.os.Bundle)>
+Found 41 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.CommuteActionsActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.DataManagementActivity: Finished processing of entrypoints after 5 seconds.
+Found 43 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.AbstractGBActivity: Finished processing of entrypoints after 2 seconds.
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.WidgetSettingsActivity: Finished processing of entrypoints after 2 seconds.
+Found 1 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesActivity: Finished processing of entrypoints after 6 seconds.
+Found 51 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.GpxReceiverActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.CommuteActionsActivity: Finished processing of entrypoints after 2 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.AbstractGBFragmentActivity: Finished processing of entrypoints after 2 seconds.
+Found 51 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.CalBlacklistActivity: void onCreate(android.os.Bundle)>
+Found 36 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.OpenFwAppInstallerActivity: void onCreate(android.os.Bundle)>
+Found 55 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPreferencesActivity: void onCreate(android.os.Bundle)>
+Found 1 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 39 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.FileManagementActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.AppBlacklistActivity: Finished processing of entrypoints after 3 seconds.
+Found 64 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity: void onPostCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.ConfigureWorldClocks: Finished processing of entrypoints after 8 seconds.
+Found 190 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.banglejs.AppsManagementActivity: void onCreate(android.os.Bundle)>
+Found 209 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.WorldClockDetails: void onCreate(android.os.Bundle)>
+Found 13 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity: void onPostCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.GpxReceiverActivity: Finished processing of entrypoints after 3 seconds.
+Found 217 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.OpenFwAppInstallerActivity: Finished processing of entrypoints after 2 seconds.
+Found 2 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPairingActivity: void onStart()>
+nodomain.freeyourgadget.gadgetbridge.activities.CalBlacklistActivity: Finished processing of entrypoints after 3 seconds.
+Found 3 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchCalibrationActivity: void onStart()>
+Found 11 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AbstractSettingsActivity: void onPostCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.FileManagementActivity: Finished processing of entrypoints after 2 seconds.
+Found 2 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.WakeActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.WakeActivity: Finished processing of entrypoints after 0 seconds.
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ConfigActivity: Finished processing of entrypoints after 9 seconds.
+Found 52 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ImageEditActivity: void onCreate(android.os.Bundle)>
+Found 236 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceDesignerActivity: void onCreate(android.os.Bundle)>
+Found 215 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.devicesettings.DeviceSettingsActivity: void onCreate(android.os.Bundle)>
+Found 37 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPreferencesActivity: Finished processing of entrypoints after 6 seconds.
+Found 249 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.FwAppInstallerActivity: void onCreate(android.os.Bundle)>
+Found 44 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AboutUserPreferencesActivity: void onCreate(android.os.Bundle)>
+Found 37 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchCalibrationActivity: void onCreate(android.os.Bundle)>
+Found 44 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.NotificationManagementActivity: void onPostCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.SettingsActivity: Finished processing of entrypoints after 7 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.AboutUserPreferencesActivity: Finished processing of entrypoints after 2 seconds.
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.ImageEditActivity: Finished processing of entrypoints after 3 seconds.
+nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchCalibrationActivity: Finished processing of entrypoints after 2 seconds.
+Found 276 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummaryDetail: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsPreferencesActivity: Finished processing of entrypoints after 4 seconds.
+Found 34 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AbstractListActivity: void onCreate(android.os.Bundle)>
+Found 43 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.FindPhoneActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.AbstractListActivity: Finished processing of entrypoints after 1 seconds.
+Found 70 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryActivity: void onCreate(android.os.Bundle)>
+Found 37 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.NotificationManagementActivity: void onCreate(android.os.Bundle)>
+Found 35 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.VibrationActivity: void onCreate(android.os.Bundle)>
+Found 272 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchPairingActivity: void onCreate(android.os.Bundle)>
+Did not find string name from string id: id: 2131821116
+Did not find string name from string id: id: 2131821117
+Found 193 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.SleepAlarmWidgetConfigurationActivity: void onCreate(android.os.Bundle)>
+Found 229 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesFilter: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.FindPhoneActivity: Finished processing of entrypoints after 3 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.WorldClockDetails: Finished processing of entrypoints after 14 seconds.
+Did not find string name from string id: id: 2131821658
+Found 47 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.CalibrationActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.VibrationActivity: Finished processing of entrypoints after 2 seconds.
+Found 77 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.NotificationManagementActivity: Finished processing of entrypoints after 5 seconds.
+nodomain.freeyourgadget.gadgetbridge.devices.banglejs.AppsManagementActivity: Finished processing of entrypoints after 15 seconds.
+Did not find string name from string id: id: 2131821117
+nodomain.freeyourgadget.gadgetbridge.activities.DiscoveryActivity: Finished processing of entrypoints after 5 seconds.
+Found 55 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.vesc.VescControlActivity: void onCreate(android.os.Bundle)>
+Found 267 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ExternalPebbleJSActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.CalibrationActivity: Finished processing of entrypoints after 4 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.devicesettings.DeviceSettingsActivity: Finished processing of entrypoints after 17 seconds.
+nodomain.freeyourgadget.gadgetbridge.devices.vesc.VescControlActivity: Finished processing of entrypoints after 2 seconds.
+Found 56 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.NotificationFilterActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HRConfigActivity: Finished processing of entrypoints after 5 seconds.
+Found 2 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9CalibrationActivity: void onStart()>
+Found 16 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceWidgetActivity$HybridHRWatchfaceWidgetFragment: void onCreate(android.os.Bundle)>
+Found 204 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.BatteryInfoActivity: void onCreate(android.os.Bundle)>
+Found 55 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.AppsManagementActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceWidgetActivity$HybridHRWatchfaceWidgetFragment: Finished processing of entrypoints after 1 seconds.
+Found 41 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.QHybridAppChoserActivity: void onCreate(android.os.Bundle)>
+Found 43 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceWidgetActivity: void onCreate(android.os.Bundle)>
+Found 37 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9CalibrationActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.NotificationFilterActivity: Finished processing of entrypoints after 3 seconds.
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.QHybridAppChoserActivity: Finished processing of entrypoints after 2 seconds.
+Found 36 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AbstractSettingsActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9CalibrationActivity: Finished processing of entrypoints after 2 seconds.
+Found 272 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9PairingActivity: void onCreate(android.os.Bundle)>
+Found 317 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.pebble.PebblePairingActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.SleepAlarmWidgetConfigurationActivity: Finished processing of entrypoints after 13 seconds.
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.AppsManagementActivity: Finished processing of entrypoints after 5 seconds.
+Found 11 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AbstractSettingsActivity: void onPostCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceWidgetActivity: Finished processing of entrypoints after 3 seconds.
+Found 35 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.um25.Activity.DataActivity: void onCreate(android.os.Bundle)>
+Found 11 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AbstractSettingsActivity: void onPostCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.um25.Activity.DataActivity: Finished processing of entrypoints after 1 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummariesFilter: Finished processing of entrypoints after 15 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.AbstractSettingsActivity: Finished processing of entrypoints after 3 seconds.
+Found 71 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.DebugActivity: void onCreate(android.os.Bundle)>
+Did not find string name from string id: id: 2131821658
+Found 252 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ConfigureReminders: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.ExternalPebbleJSActivity: Finished processing of entrypoints after 19 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.BatteryInfoActivity: Finished processing of entrypoints after 12 seconds.
+Found 194 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.WidgetConfigurationActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.DebugActivity: Finished processing of entrypoints after 3 seconds.
+Found 179 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Found 292 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPairingActivity: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.ConfigureReminders: Finished processing of entrypoints after 12 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.WidgetConfigurationActivity: Finished processing of entrypoints after 9 seconds.
+Found 211 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ReminderDetails: void onCreate(android.os.Bundle)>
+Did not find string name from string id: id: 2131821658
+Found 206 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AlarmDetails: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.charts.ChartsActivity: Finished processing of entrypoints after 24 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.ReminderDetails: Finished processing of entrypoints after 9 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.AlarmDetails: Finished processing of entrypoints after 9 seconds.
+Found 308 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.ConfigureAlarms: void onCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.activities.ConfigureAlarms: Finished processing of entrypoints after 8 seconds.
+Found 1 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceDesignerActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+nodomain.freeyourgadget.gadgetbridge.devices.qhybrid.HybridHRWatchfaceDesignerActivity: Finished processing of entrypoints after 33 seconds.
+Found 11 reachable methods from <nodomain.freeyourgadget.gadgetbridge.activities.AbstractSettingsActivity: void onPostCreate(android.os.Bundle)>
+nodomain.freeyourgadget.gadgetbridge.devices.zetime.ZeTimePreferenceActivity: Finished processing of entrypoints after 126 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.FwAppInstallerActivity: Finished processing of entrypoints after 131 seconds.
+Found 2 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchPairingActivity: void onStart()>
+nodomain.freeyourgadget.gadgetbridge.devices.lenovo.LenovoWatchPairingActivity: Finished processing of entrypoints after 132 seconds.
+nodomain.freeyourgadget.gadgetbridge.devices.miband.MiBandPairingActivity: Finished processing of entrypoints after 124 seconds.
+Found 2 reachable methods from <nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9PairingActivity: void onStart()>
+nodomain.freeyourgadget.gadgetbridge.devices.watch9.Watch9PairingActivity: Finished processing of entrypoints after 126 seconds.
+Did not find string name from string id: id: 2131821658
+nodomain.freeyourgadget.gadgetbridge.devices.pebble.PebblePairingActivity: Finished processing of entrypoints after 130 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.ActivitySummaryDetail: Finished processing of entrypoints after 136 seconds.
+nodomain.freeyourgadget.gadgetbridge.activities.ControlCenterv2: Finished processing of entrypoints after 170 seconds.
+AppsUIElement not found with id: 16908290
+AppsUIElement not found with id: 16908290
+AppController:addText: elementID not found for adding text: elementID: 2131296775
+AppController:addText: elementID not found for adding text: elementID: 2131296771
+AppController:addText: elementID not found for adding text: elementID: 2131296718
+AppController:addText: elementID not found for adding text: elementID: 2131296458
+AppController:addText: elementID not found for adding text: elementID: 2131296757
+AppController:addText: elementID not found for adding text: elementID: 2131297326
+Did not find string name from string id: id: 2131821554
+AppController:addText: elementID not found for adding text: elementID: 2131296930
+AppController:addText: elementID not found for adding text: elementID: 2131296275
+AppController:addText: elementID not found for adding text: elementID: 2131296367
+AppController:addText: elementID not found for adding text: elementID: 2131297019
+AppController:addText: elementID not found for adding text: elementID: 2131296718
+AppController:addText: elementID not found for adding text: elementID: 2131297015
+AppController:addText: elementID not found for adding text: elementID: 2131296653
+AppController:addText: elementID not found for adding text: elementID: 2131297244
+AppController:addText: elementID not found for adding text: elementID: 2131297348
+AppController:addText: elementID not found for adding text: elementID: 2131297008
+AppController:addText: elementID not found for adding text: elementID: 2131297314
+AppController:addText: elementID not found for adding text: elementID: 2131296653
+AppController:addText: elementID not found for adding text: elementID: 2131297227
+AppController:addText: elementID not found for adding text: elementID: 2131296356
+AppController:addText: elementID not found for adding text: elementID: 2131296647
+AppController:addText: elementID not found for adding text: elementID: 2131296718
+AppController:addText: elementID not found for adding text: elementID: 2131296457
+AppController:addText: elementID not found for adding text: elementID: 2131296722
+AppController:addText: elementID not found for adding text: elementID: 2131296718
+AppController:addText: elementID not found for adding text: elementID: 2131297102
+AppController:addText: elementID not found for adding text: elementID: 2131296872
+AppController:addText: elementID not found for adding text: elementID: 2131296938
+AppController:addText: elementID not found for adding text: elementID: 2131296368
+AppController:addText: elementID not found for adding text: elementID: 2131297006
+AppController:addText: elementID not found for adding text: elementID: 2131296718
+AppController:addText: elementID not found for adding text: elementID: 2131297230
+AppController:addText: elementID not found for adding text: elementID: 2131296769
+AppController:addText: elementID not found for adding text: elementID: 2131296442
+AppController:addText: elementID not found for adding text: elementID: 2131296962
+AppController:addText: elementID not found for adding text: elementID: 2131296769
+AppController:addText: elementID not found for adding text: elementID: 2131296451
+AppController:addText: elementID not found for adding text: elementID: 2131296355
+AppController:addText: elementID not found for adding text: elementID: 2131297326
+AppController:addText: elementID not found for adding text: elementID: 2131296452
+AppController:addText: elementID not found for adding text: elementID: 2131297063
+AppController:addText: elementID not found for adding text: elementID: 2131297020
+AppController:addText: elementID not found for adding text: elementID: 2131296663
+AppController:addText: elementID not found for adding text: elementID: 2131296439
+AppController:addText: elementID not found for adding text: elementID: 2131296277
+AppController:addText: elementID not found for adding text: elementID: 2131297120
+AppController:addText: elementID not found for adding text: elementID: 2131296447
+AppController:addText: elementID not found for adding text: elementID: 2131296481
+Did not find string name from string id: id: 2131821555
+AppController:addText: elementID not found for adding text: elementID: 2131296930
+AppController:addText: elementID not found for adding text: elementID: 2131297346
+AppController:addText: elementID not found for adding text: elementID: 2131297225
+AppController:addText: elementID not found for adding text: elementID: 2131296771
+AppController:addText: elementID not found for adding text: elementID: 2131297229
+AppController:addText: elementID not found for adding text: elementID: 2131296718
+AppController:addText: elementID not found for adding text: elementID: 2131296451
+AppController:addText: elementID not found for adding text: elementID: 2131297021
+AppController:addText: elementID not found for adding text: elementID: 2131296437
+Did not find string name from string id: id: 0
+AppController:addText: elementID not found for adding text: elementID: 2131297227
+AppController:addText: elementID not found for adding text: elementID: 2131296984
+AppController:addText: elementID not found for adding text: elementID: 2131297128
+AppController:addText: elementID not found for adding text: elementID: 2131296400
+AppController:addText: elementID not found for adding text: elementID: 2131296983
+AppController:addText: elementID not found for adding text: elementID: 2131296930
+AppController:addText: elementID not found for adding text: elementID: 2131296949
+AppController:addText: elementID not found for adding text: elementID: 2131296480
+AppController:addText: elementID not found for adding text: elementID: 2131296386
+AppController:addText: elementID not found for adding text: elementID: 2131297067
+AppController:addText: elementID not found for adding text: elementID: 2131296634
+AppController:addText: elementID not found for adding text: elementID: 2131296376
+AppController:addText: elementID not found for adding text: elementID: 2131297313
+AppController:addText: elementID not found for adding text: elementID: 2131296440
+AppController:addText: elementID not found for adding text: elementID: 2131297328
+AppController:addText: elementID not found for adding text: elementID: 2131296699
+Did not find string name from string id: id: 2131822575
+Did not find string name from string id: id: 2131822575
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/./res/nodomain.freeyourgadget.gadgetbridge_218/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 171.121000407 seconds
+Entry point creation has run for 0.004281458 seconds
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 4 callback methods from UI Analysis
+Found 4 callback methods in overall
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+java.io.FileNotFoundException: /home/syc/Videos/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:482)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.findAllReachableApis(CallbackToApiMapper.java:783)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:100)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.CallbackToApiMapper.call(CallbackToApiMapper.java:21)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Method: <nodomain.freeyourgadget.gadgetbridge.activities.SleepAlarmWidgetConfigurationActivity$3: void onClick(android.content.DialogInterface,int)>, ElementId: -2, GlobalId: 111782 -> 0 APIs
+Method: <nodomain.freeyourgadget.gadgetbridge.activities.WidgetConfigurationActivity$3: void onClick(android.content.DialogInterface,int)>, ElementId: -2, GlobalId: 111780 -> 0 APIs
+Method: <nodomain.freeyourgadget.gadgetbridge.activities.SleepAlarmWidgetConfigurationActivity$2: void onClick(android.content.DialogInterface,int)>, ElementId: -1, GlobalId: 111783 -> 0 APIs
+Method: <nodomain.freeyourgadget.gadgetbridge.activities.WidgetConfigurationActivity$2: void onClick(android.content.DialogInterface,int)>, ElementId: -1, GlobalId: 111781 -> 0 APIs
+Found 1 partitions
+Reachability Analysis has run for 0.282039499 seconds

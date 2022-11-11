@@ -1,0 +1,67 @@
+{
+    "transitions": [
+        {
+            "handler": "org.dnaq.dialer2.DialerActivity/void selectSpeedDialSlot(java.lang.String)",
+            "sources": [
+                "org.dnaq.dialer2.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.dnaq.dialer2.SelectSpeedDialSlotDialog"
+            ]
+        },
+        {
+            "handler": "org.dnaq.dialer2.DialerActivity/void selectSpeedDialNumber(java.util.ArrayList,java.util.ArrayList)",
+            "sources": [
+                "org.dnaq.dialer2.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.dnaq.dialer2.SelectNumberDialog"
+            ]
+        },
+        {
+            "handler": "org.dnaq.dialer2.DialerActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.dnaq.dialer2.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.dnaq.dialer2.DialerPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "org.dnaq.dialer2.DialerActivity/void selectSpeedDialSlot(java.lang.String)",
+            "sources": [
+                "org.dnaq.dialer2.DialerActivity"
+            ],
+            "targets": [
+                "org.dnaq.dialer2.SelectSpeedDialSlotDialog"
+            ]
+        },
+        {
+            "handler": "org.dnaq.dialer2.DialerActivity$QueryHandler/void onQueryComplete(int,java.lang.Object,android.database.Cursor)",
+            "sources": [
+                "org.dnaq.dialer2.DialerActivity"
+            ],
+            "targets": [
+                "org.dnaq.dialer2.ContactViewDialog"
+            ]
+        },
+        {
+            "handler": "org.dnaq.dialer2.DialerActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.dnaq.dialer2.DialerActivity"
+            ],
+            "targets": [
+                "org.dnaq.dialer2.DialerPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "org.dnaq.dialer2.DialerActivity/void selectSpeedDialNumber(java.util.ArrayList,java.util.ArrayList)",
+            "sources": [
+                "org.dnaq.dialer2.DialerActivity"
+            ],
+            "targets": [
+                "org.dnaq.dialer2.SelectNumberDialog"
+            ]
+        }
+    ]
+}

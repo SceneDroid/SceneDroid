@@ -1,0 +1,22 @@
+{
+    "transitions": [
+        {
+            "handler": "info.bpace.munchlife.MunchLifeActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "info.bpace.munchlife.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "info.bpace.munchlife.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "info.bpace.munchlife.MunchLifeActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "info.bpace.munchlife.MunchLifeActivity"
+            ],
+            "targets": [
+                "info.bpace.munchlife.SettingsActivity"
+            ]
+        }
+    ]
+}

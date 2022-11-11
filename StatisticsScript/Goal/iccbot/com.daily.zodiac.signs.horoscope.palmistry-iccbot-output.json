@@ -1,0 +1,1255 @@
+{
+    "transitions": [
+        {
+            "handler": "com.zodiac.horoscope.activity.SubActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.SubActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.StartActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.WebActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.test.PalmTypeListActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.test.PalmTypeListActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.setting.SettingActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.setting.SettingActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.a.a$2/void a(android.support.v7.widget.RecyclerView,android.view.View,int,long)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.statistic.database.DataBaseProvider/java.lang.String getSharedValue(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.cs.statistic.StatisticsService"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.zodiacselected.ZodiacChooseActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.zodiacselected.ZodiacChooseActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.test.PalmTypeListActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.test.PalmTypeListActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.test.PalmTypeListActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.test.PalmTypeListActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.setting.LanguageActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.LanguageActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.setting.LanguageActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.engine.l/void b(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.LanguageActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.url.c/boolean a(android.content.Context,com.cs.bd.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.test.PalmTestActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.test.PalmTestActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.test.PalmTestActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.test.PalmTypeListActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.test.PalmTestActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.test.PalmTestActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.RewardedMraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long,int,boolean)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.RewardedMraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.StartActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ],
+            "targets": [
+                "com.cs.bd.daemon.b.a$c"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ],
+            "targets": [
+                "com.cs.bd.commerce.util.CustomAlarm$TaskReceiver"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ],
+            "targets": [
+                "com.cs.bd.utils.AdTimer$AMReceiver"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ],
+            "targets": [
+                "com.cs.bd.commerce.util.CustomAlarm$TaskReceiver"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.collection.CollectDetailActivity/void a(android.content.Context,com.zodiac.horoscope.entity.model.horoscope.dbconverter.CollectionBean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.scan.ScanPhotoActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanPhotoActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ],
+            "targets": [
+                "com.cs.bd.daemon.b.a$c"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ],
+            "targets": [
+                "com.cs.bd.utils.AdTimer$AMReceiver"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.url.c/boolean a(android.content.Context,com.cs.bd.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.quiz.QuizQuestionActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.url.c/boolean a(android.content.Context,com.cs.bd.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.quiz.QuizQuestionActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.quiz.QuizQuestionActivity/void a(android.content.Context,java.util.ArrayList)",
+            "sources": [
+                "com.zodiac.horoscope.activity.quiz.QuizQuestionActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.quiz.QuizQuestionActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.quiz.QuizQuestionActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.SubActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.SubActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.SubActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.scan_photo.FacePhotoScanActivity/void a(android.app.Activity,com.zodiac.horoscope.entity.model.horoscope.ScanInfo)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.scan_photo.FacePhotoScanActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.scan_photo.FacePhotoScanActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.scan_photo.FacePhotoScanActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabMainActivity$1/void onReceive(android.content.Context,android.content.Intent)",
+            "sources": [
+                "com.facebook.CustomTabMainActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.url.c/boolean a(android.content.Context,com.cs.bd.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.zodiacselected.ZodiacChooseActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.zodiacselected.ZodiacChooseActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.StartActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ]
+        },
+        {
+            "handler": "com.smaato.soma.video.VASTAdActivity$2$2/boolean onTouch(android.view.View,android.view.MotionEvent)",
+            "sources": [
+                "com.smaato.soma.video.VASTAdActivity"
+            ],
+            "targets": [
+                "com.smaato.soma.ExpandedBannerActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.StartActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ],
+            "targets": [
+                "com.cs.bd.commerce.util.CustomAlarm$TaskReceiver"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ],
+            "targets": [
+                "com.cs.bd.daemon.b.a$c"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ],
+            "targets": [
+                "com.cs.bd.utils.AdTimer$AMReceiver"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.scan.ScanPhotoActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanPhotoActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.url.c/boolean a(android.content.Context,com.cs.bd.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.WebActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.WebActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.gdpr.GDPRPolicyActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.gdpr.GDPRPolicyActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.StartActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.WebActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.AboutActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.setting.AboutActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.AboutActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.setting.AboutActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakeSamplePhotoActivity/void a(android.content.Context,int,boolean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakeSamplePhotoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakeSamplePhotoActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.setting.FeedbackActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.FeedbackActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.setting.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.BaseVideoPlayerActivity/void startMraid(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidVideoPlayerActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ],
+            "targets": [
+                "com.cs.bd.commerce.util.CustomAlarm$TaskReceiver"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.StartActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ],
+            "targets": [
+                "com.cs.bd.daemon.b.a$c"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.commerce.util.CustomAlarm/void alarmRepeat(int,long,long,boolean,com.cs.bd.commerce.util.CustomAlarm$OnAlarmListener)",
+            "sources": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ],
+            "targets": [
+                "com.cs.bd.utils.AdTimer$AMReceiver"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.lovecompatibility.LoveCompatibilityActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.compatibility.CompatibilityActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.WebActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.gdpr.GDPRPolicyActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.gdpr.GDPRPolicyActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.gdpr.GDPRPolicyActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.gdpr.GDPRPolicyActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.gdpr.GDPRPolicyActivity/void d()",
+            "sources": [
+                "com.zodiac.horoscope.activity.gdpr.GDPRPolicyActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.zodiacselected.ZodiacChooseActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.home.forecast.ForecastListActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.zodiacselected.ZodiacChooseActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.zodiacselected.ZodiacChooseActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.zodiacselected.ZodiacChooseActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.url.c/boolean a(android.content.Context,com.cs.bd.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.test.PalmQuestionActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.profile.ClipPhotoActivity/void a(android.app.Activity,android.net.Uri,int,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.profile.ClipPhotoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.profile.ClipPhotoActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.adjust_photo.FacePhotoAdjustActivity/void a(android.app.Activity,android.net.Uri,com.zodiac.horoscope.entity.model.horoscope.ScanInfo,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakePhotoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.adjust_photo.FacePhotoAdjustActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.engine.permissions.PermissionsActivity/void a(android.content.Context,int,int,java.lang.String[])",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakePhotoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.engine.permissions.PermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakePhotoActivity/void a(android.content.Context,com.zodiac.horoscope.entity.model.horoscope.ScanInfo)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakePhotoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakePhotoActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakePhotoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakeSamplePhotoActivity/void a(android.content.Context,int,boolean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakePhotoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.take_photo.FaceTakeSamplePhotoActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity/void a(com.zodiac.horoscope.entity.model.horoscope.face.IFaceResult,android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.entrance.baby_predictor.BabyPredictorActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.entrance.baby_predictor.BabyPredictorActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.entrance.baby_predictor.BabyPredictorActivity/void a(com.zodiac.horoscope.entity.model.horoscope.face.IFaceResult,android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.entrance.baby_predictor.BabyPredictorActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.entrance.baby_predictor.BabyPredictorActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity/void a(com.zodiac.horoscope.entity.model.horoscope.face.IFaceResult,android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.entrance.future_teller.FaceDecoderActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.entrance.future_teller.FaceDecoderActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.entrance.future_teller.FaceDecoderActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.entrance.future_teller.FaceDecoderActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.entrance.future_teller.FaceDecoderActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.url.c/boolean a(android.content.Context,com.cs.bd.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.answerbook.AnswerBookActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.answerbook.AnswerBookActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.answerbook.AnswerBookActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.answerbook.AnswerBookActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.answerbook.AnswerBookActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.inmobi.rendering.InMobiAdActivity/void a(java.lang.String[],com.inmobi.rendering.InMobiAdActivity$b)",
+            "sources": [
+                "com.inmobi.rendering.InMobiAdActivity"
+            ],
+            "targets": [
+                "com.inmobi.rendering.InMobiAdActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.adjust_photo.FacePhotoAdjustActivity/void a(android.app.Activity,android.net.Uri,com.zodiac.horoscope.entity.model.horoscope.ScanInfo,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.adjust_photo.FacePhotoAdjustActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.adjust_photo.FacePhotoAdjustActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MoPubActivity/void start(android.content.Context,java.lang.String,com.mopub.common.AdReport,boolean,java.lang.String,java.lang.String,com.mopub.common.CreativeOrientation,long)",
+            "sources": [
+                "com.mopub.mobileads.MoPubActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MoPubActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.collection.CollectDetailActivity/void a(android.content.Context,com.zodiac.horoscope.entity.model.horoscope.dbconverter.CollectionBean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.collection.CollectionActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.collection.CollectDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.facebook.CustomTabActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.facebook.CustomTabActivity"
+            ],
+            "targets": [
+                "com.facebook.CustomTabMainActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.profile.ClipPhotoActivity/void a(android.app.Activity,android.net.Uri,int,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.profile.ProfileActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.profile.ClipPhotoActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.StartActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.tarot.TarotActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.WebActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.tarot.TarotActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.WebActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.PrivacySettingActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.setting.PrivacySettingActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.PrivacySettingActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.setting.PrivacySettingActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanPhotoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanInfoActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.palm.scan.ScanPhotoActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanPhotoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanPhotoActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.engine.permissions.PermissionsActivity/void a(android.content.Context,int,int,java.lang.String[])",
+            "sources": [
+                "com.zodiac.horoscope.activity.palm.scan.ScanPhotoActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.engine.permissions.PermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.MartActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.MartActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.MartActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.setting.LanguageActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.setting.LanguageActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.setting.AboutActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.setting.AboutActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.setting.SettingActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.setting.SettingActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.setting.PrivacySettingActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.setting.PrivacySettingActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.setting.FeedbackActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.setting.SettingActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.setting.FeedbackActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.article.ArticleDetailActivity/void a(android.content.Context,com.zodiac.horoscope.entity.model.horoscope.article.Articles$ArticleBean,boolean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.article.ArticleDetailActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.article.ArticleDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.WebActivity/void a(android.content.Context,java.lang.String,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.article.ArticleDetailActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.WebActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.article.ArticleDetailActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mopub.mobileads.MraidActivity/void start(android.content.Context,com.mopub.common.AdReport,java.lang.String,long)",
+            "sources": [
+                "com.mopub.mobileads.MraidActivity"
+            ],
+            "targets": [
+                "com.mopub.mobileads.MraidActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.url.c/boolean a(android.content.Context,com.cs.bd.ad.http.bean.ParamsBean,java.lang.String,int,int,int,java.lang.String,java.lang.String,int,boolean,boolean,boolean,java.lang.String,boolean)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.url.AdUrlPreParseLoadingActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.entrance.baby_predictor.BabyPredictorActivity/void a(com.zodiac.horoscope.entity.model.horoscope.face.IFaceResult,android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.entrance.baby_predictor.BabyPredictorActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.StartActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.StartActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.engine.permissions.PermissionsActivity/void a(android.content.Context,int,int,java.lang.String[])",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.engine.permissions.PermissionsActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.entrance.future_teller.FaceDecoderActivity/void a(android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.entrance.future_teller.FaceDecoderActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.main.MainActivity/void a(android.content.Context,int)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity/void a(com.zodiac.horoscope.entity.model.horoscope.face.IFaceResult,android.content.Context)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity"
+            ]
+        },
+        {
+            "handler": "com.cs.bd.ad.h5.H5AdActivity/boolean a(android.content.Context,java.lang.String)",
+            "sources": [
+                "com.zodiac.horoscope.activity.face.scan.report.FaceReportActivity"
+            ],
+            "targets": [
+                "com.cs.bd.ad.h5.H5AdActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.engine.permissions.easypermissions.AppSettingsDialog/void a()",
+            "sources": [
+                "com.zodiac.horoscope.engine.permissions.PermissionsActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.engine.permissions.easypermissions.AppSettingsDialogHolderActivity"
+            ]
+        },
+        {
+            "handler": "com.zodiac.horoscope.engine.permissions.PermissionsActivity/void a(android.content.Context,int,int,java.lang.String[])",
+            "sources": [
+                "com.zodiac.horoscope.engine.permissions.PermissionsActivity"
+            ],
+            "targets": [
+                "com.zodiac.horoscope.engine.permissions.PermissionsActivity"
+            ]
+        }
+    ]
+}

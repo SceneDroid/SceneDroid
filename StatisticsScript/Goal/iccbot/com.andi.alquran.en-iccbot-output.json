@@ -1,0 +1,256 @@
+{
+    "transitions": [
+        {
+            "handler": "com.andi.alquran.ActivityConfirm/void a(android.view.View)",
+            "sources": [
+                "com.andi.alquran.ActivityConfirm"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityHome"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityConfirm/void b(android.view.View)",
+            "sources": [
+                "com.andi.alquran.ActivityConfirm"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityInfoPrivacyPolicy"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.d.b/void b(android.content.Context)",
+            "sources": [
+                "com.andi.alquran.ActivityPTimeSetting"
+            ],
+            "targets": [
+                "com.andi.alquran.broadcasts.AlarmReceiver"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.FragmentSettingPTime/boolean onPreferenceClick(android.preference.Preference)",
+            "sources": [
+                "com.andi.alquran.ActivityPTimeSetting"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityInfoSholat"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void d()",
+            "sources": [
+                "com.andi.alquran.ActivityQuran"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivitySearch"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void c()",
+            "sources": [
+                "com.andi.alquran.ActivityQuran"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivitySetting"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void b()",
+            "sources": [
+                "com.andi.alquran.ActivityQuran"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityInfoApp"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityPTimeQibla/void a(android.view.View)",
+            "sources": [
+                "com.andi.alquran.ActivityPTimeQibla"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityPTimeMapDistance"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityList/void a(android.support.v7.widget.AppCompatSpinner,android.support.v7.widget.AppCompatEditText,android.content.DialogInterface,int)",
+            "sources": [
+                "com.andi.alquran.ActivityList"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityQuran"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void b()",
+            "sources": [
+                "com.andi.alquran.ActivityList"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityInfoApp"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void d()",
+            "sources": [
+                "com.andi.alquran.ActivityList"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivitySearch"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void c()",
+            "sources": [
+                "com.andi.alquran.ActivityList"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivitySetting"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityPTime/void j()",
+            "sources": [
+                "com.andi.alquran.ActivityPTime"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityPTimeQibla"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityPTime/void onClick(android.view.View)",
+            "sources": [
+                "com.andi.alquran.ActivityPTime"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityPTimeMapChooseCity"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityPTime/void onClick(android.view.View)",
+            "sources": [
+                "com.andi.alquran.ActivityPTime"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityPTimeThirty"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityPTime/void a(android.view.View)",
+            "sources": [
+                "com.andi.alquran.ActivityPTime"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityPTimeSetting"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityHome/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.andi.alquran.ActivityHome"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityConfirm"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void c()",
+            "sources": [
+                "com.andi.alquran.ActivityHome"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivitySetting"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void b()",
+            "sources": [
+                "com.andi.alquran.ActivityHome"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityInfoApp"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityHome/void e(android.view.View)",
+            "sources": [
+                "com.andi.alquran.ActivityHome"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityList"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityHome/void b(android.view.View)",
+            "sources": [
+                "com.andi.alquran.ActivityHome"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityPTime"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void d()",
+            "sources": [
+                "com.andi.alquran.ActivityHome"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivitySearch"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.FragmentSetting/boolean onPreferenceClick(android.preference.Preference)",
+            "sources": [
+                "com.andi.alquran.ActivitySetting"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityAudioManager"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.FragmentSetting/boolean onPreferenceClick(android.preference.Preference)",
+            "sources": [
+                "com.andi.alquran.ActivitySetting"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityInfoPrivacyPolicy"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.FragmentSetting/boolean onPreferenceClick(android.preference.Preference)",
+            "sources": [
+                "com.andi.alquran.ActivitySetting"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityInfoApp"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void b()",
+            "sources": [
+                "com.andi.alquran.ActivitySearch"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivityInfoApp"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void c()",
+            "sources": [
+                "com.andi.alquran.ActivitySearch"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivitySetting"
+            ]
+        },
+        {
+            "handler": "com.andi.alquran.ActivityBase/void d()",
+            "sources": [
+                "com.andi.alquran.ActivitySearch"
+            ],
+            "targets": [
+                "com.andi.alquran.ActivitySearch"
+            ]
+        }
+    ]
+}

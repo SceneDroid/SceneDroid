@@ -1,0 +1,301 @@
+{
+    "transitions": [
+        {
+            "handler": "com.costco.app.android.ui.customerservice.CustomerServiceActivity/void startBrowserWithUrl(java.lang.String)",
+            "sources": [
+                "com.costco.app.android.ui.customerservice.CustomerServiceActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.mscripts.mscriptslibrary.utils.CustomWebChromeClient/void showExternalLink(java.lang.String)",
+            "sources": [
+                "com.mscripts.mscriptslibrary.ui.MscriptsActivity"
+            ],
+            "targets": [
+                "com.mscripts.mscriptslibrary.ui.SimpleWebviewActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.saving.offers.WarehouseAllOffersActivity$1/void handleMessage(android.os.Message)",
+            "sources": [
+                "com.costco.app.android.ui.saving.offers.WarehouseAllOffersActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.setting.PrettyPleaseActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.warehouse.WarehouseManager$2/void onErrorResponse(com.android.volley.VolleyError)",
+            "sources": [
+                "com.costco.app.android.ui.saving.offers.WarehouseAllOffersActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.findastore.relocation.RelocationActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.CartActivity$1/void onClick(android.view.View)",
+            "sources": [
+                "com.nowvel.app.ui.CartActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.BookActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.setting.PrettyPleaseActivity/void checkAndShowThis(android.app.Activity)",
+            "sources": [
+                "com.costco.app.android.ui.setting.PrettyPleaseActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.setting.PrettyPleaseActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.util.LaunchUtil/void launchPharmacy(android.app.Activity)",
+            "sources": [
+                "com.costco.app.android.ui.search.SearchActivity"
+            ],
+            "targets": [
+                "com.mscripts.mscriptslibrary.ui.MscriptsActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.util.LaunchUtil/void launchPharmacy(android.app.Activity)",
+            "sources": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.mscripts.mscriptslibrary.ui.MscriptsActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.saving.SavingsFragment$CardAdapter/void lambda$getView$3(com.costco.app.android.ui.saving.shoppinglist.model.OfferBook,android.view.View)",
+            "sources": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.saving.offers.WarehouseAllOffersActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.main.MainActivity/void handleIntent(android.content.Intent)",
+            "sources": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.warehouse.specialevents.detail.SpecialEventDetailActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.main.MainActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.onboarding.OnBoardingActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.main.MainActivity/void initializeCanadaSessionIfNecessary()",
+            "sources": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.setting.CanadaOnboardingActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.main.MainActivity/void addSelectedFragmentIfNecessary(int)",
+            "sources": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.findastore.FindAStoreActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.util.ActivityUtils/void clearToHome(android.app.Activity)",
+            "sources": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.util.locale.LocaleManager$1/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.setting.RegionSelectActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.warehouse.warehousedetail.WarehouseDetailsActivity/void showMap()",
+            "sources": [
+                "com.costco.app.android.ui.warehouse.warehousedetail.WarehouseDetailsActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.findastore.FindAStoreActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.BookActivity/boolean onKeyDown(int,android.view.KeyEvent)",
+            "sources": [
+                "com.nowvel.app.ui.BookActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.BookSelfActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.BookActivity/void editPageButtonClick()",
+            "sources": [
+                "com.nowvel.app.ui.BookActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.EditPagesRearrangeActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.BookActivity/void changeCoverButtonClick()",
+            "sources": [
+                "com.nowvel.app.ui.BookActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.BookCoverPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.BookActivity/void addPhotoButtonClick()",
+            "sources": [
+                "com.nowvel.app.ui.BookActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.PhotoPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.findastore.FindAStoreActivity/void launchMapFilter()",
+            "sources": [
+                "com.costco.app.android.ui.findastore.FindAStoreActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.findastore.map.filter.MapFilterActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.findastore.FindAStoreActivity/void launchWarehouseMapList(com.google.android.gms.maps.model.LatLng,com.google.android.gms.maps.model.LatLng,java.lang.String)",
+            "sources": [
+                "com.costco.app.android.ui.findastore.FindAStoreActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.findastore.list.WarehouseTabListActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.InsideTextEditPageActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.nowvel.app.ui.InsideTextEditPageActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.BookTitleEditTextActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.AlbumPickerActivity$1/boolean onGroupClick(android.widget.ExpandableListView,android.view.View,int,long)",
+            "sources": [
+                "com.nowvel.app.ui.AlbumPickerActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.PhotoPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.AlbumPickerActivity/void onPositiveButtonClick(android.view.View)",
+            "sources": [
+                "com.nowvel.app.ui.AlbumPickerActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.AlbumPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.AlbumPickerActivity/void onBackManage()",
+            "sources": [
+                "com.nowvel.app.ui.AlbumPickerActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.BookSelfActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.PhotoPickerActivity/void onPositiveButtonClick(android.view.View)",
+            "sources": [
+                "com.nowvel.app.ui.PhotoPickerActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.AlbumPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.PhotoPickerActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.nowvel.app.ui.PhotoPickerActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.BookActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.saving.offers.WarehouseOffersActivity/void launchMainIfNecessary()",
+            "sources": [
+                "com.costco.app.android.ui.saving.offers.WarehouseOffersActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.saving.offers.WarehouseOffersActivity$1/void handleMessage(android.os.Message)",
+            "sources": [
+                "com.costco.app.android.ui.saving.offers.WarehouseOffersActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.setting.PrettyPleaseActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.BookTitleEditTextActivity$2/void onClick(android.view.View)",
+            "sources": [
+                "com.nowvel.app.ui.BookTitleEditTextActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.InsideTextEditPageActivity"
+            ]
+        },
+        {
+            "handler": "com.nowvel.app.ui.BookSelfActivity/void onClick(android.view.View)",
+            "sources": [
+                "com.nowvel.app.ui.BookSelfActivity"
+            ],
+            "targets": [
+                "com.nowvel.app.ui.AlbumPickerActivity"
+            ]
+        },
+        {
+            "handler": "com.costco.app.android.ui.onboarding.OnBoardingActivity/void skipBoarding()",
+            "sources": [
+                "com.costco.app.android.ui.onboarding.OnBoardingActivity"
+            ],
+            "targets": [
+                "com.costco.app.android.ui.main.MainActivity"
+            ]
+        }
+    ]
+}

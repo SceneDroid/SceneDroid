@@ -1,0 +1,400 @@
+{
+    "transitions": [
+        {
+            "handler": "org.wordpress.android.SelectCategories$1/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.SelectCategories"
+            ],
+            "targets": [
+                "org.wordpress.android.AddCategory"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.AddAccount$1/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.AddAccount"
+            ],
+            "targets": [
+                "org.wordpress.android.AddAcountSettings"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.AddAccount$4/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.AddAccount"
+            ],
+            "targets": [
+                "org.wordpress.android.Signup"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.EditPost$3/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.EditPost"
+            ],
+            "targets": [
+                "org.wordpress.android.SelectCategories"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.EditPost/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.wordpress.android.EditPost"
+            ],
+            "targets": [
+                "org.wordpress.android.EditContent"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.EditPost/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.wordpress.android.EditPost"
+            ],
+            "targets": [
+                "org.wordpress.android.Dashboard"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.AddQuickPressShortcut/void displayAccounts()",
+            "sources": [
+                "org.wordpress.android.AddQuickPressShortcut"
+            ],
+            "targets": [
+                "org.wordpress.android.NewAccount"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$8/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Comments"
+            ],
+            "targets": [
+                "org.wordpress.android.ViewStats"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$9/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Comments"
+            ],
+            "targets": [
+                "org.wordpress.android.Settings"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$12/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Comments"
+            ],
+            "targets": [
+                "org.wordpress.android.EditPost"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.Comments/void onCommentStatusChanged(java.lang.String)",
+            "sources": [
+                "org.wordpress.android.Comments"
+            ],
+            "targets": [
+                "org.wordpress.android.ReplyToComment"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$5/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Comments"
+            ],
+            "targets": [
+                "org.wordpress.android.Posts"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$7/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Comments"
+            ],
+            "targets": [
+                "org.wordpress.android.Comments"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$10/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Comments"
+            ],
+            "targets": [
+                "org.wordpress.android.Read"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.NewAccount$1/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.NewAccount"
+            ],
+            "targets": [
+                "org.wordpress.android.Signup"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.NewAccount$2/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.NewAccount"
+            ],
+            "targets": [
+                "org.wordpress.android.AddAccount"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$8/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.wordpress.android.ViewStats"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.Dashboard/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.wordpress.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.wordpress.android.Preferences"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$7/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.wordpress.android.Comments"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$5/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.wordpress.android.Posts"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.Dashboard/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.wordpress.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.wordpress.android.About"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$4/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.wordpress.android.EditPost"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$10/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.wordpress.android.Read"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.Dashboard/void displayAccounts()",
+            "sources": [
+                "org.wordpress.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.wordpress.android.NewAccount"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$9/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.EmmaInstrument.InstrumentedActivity"
+            ],
+            "targets": [
+                "org.wordpress.android.Settings"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$7/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Posts"
+            ],
+            "targets": [
+                "org.wordpress.android.Comments"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$9/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Posts"
+            ],
+            "targets": [
+                "org.wordpress.android.Settings"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$10/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Posts"
+            ],
+            "targets": [
+                "org.wordpress.android.Read"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.Posts/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.wordpress.android.Posts"
+            ],
+            "targets": [
+                "org.wordpress.android.EditPost"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.Posts/void onCreate(android.os.Bundle)",
+            "sources": [
+                "org.wordpress.android.Posts"
+            ],
+            "targets": [
+                "org.wordpress.android.ViewPosts"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$5/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Posts"
+            ],
+            "targets": [
+                "org.wordpress.android.Posts"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$8/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Posts"
+            ],
+            "targets": [
+                "org.wordpress.android.ViewStats"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$4/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Dashboard"
+            ],
+            "targets": [
+                "org.wordpress.android.EditPost"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$7/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Dashboard"
+            ],
+            "targets": [
+                "org.wordpress.android.Comments"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.Dashboard/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.wordpress.android.Dashboard"
+            ],
+            "targets": [
+                "org.wordpress.android.Preferences"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.Dashboard/void displayAccounts()",
+            "sources": [
+                "org.wordpress.android.Dashboard"
+            ],
+            "targets": [
+                "org.wordpress.android.NewAccount"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$8/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Dashboard"
+            ],
+            "targets": [
+                "org.wordpress.android.ViewStats"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.Dashboard/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.wordpress.android.Dashboard"
+            ],
+            "targets": [
+                "org.wordpress.android.About"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$10/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Dashboard"
+            ],
+            "targets": [
+                "org.wordpress.android.Read"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$9/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Dashboard"
+            ],
+            "targets": [
+                "org.wordpress.android.Settings"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.util.WPTitleBar$5/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.Dashboard"
+            ],
+            "targets": [
+                "org.wordpress.android.Posts"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.EditContent$7/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.EditContent"
+            ],
+            "targets": [
+                "org.wordpress.android.Link"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.ViewPostFragment$1/void onClick(android.view.View)",
+            "sources": [
+                "org.wordpress.android.ViewPostActivity"
+            ],
+            "targets": [
+                "org.wordpress.android.EditPost"
+            ]
+        },
+        {
+            "handler": "org.wordpress.android.ViewPosts/boolean onContextItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.wordpress.android.ViewPosts"
+            ],
+            "targets": [
+                "org.wordpress.android.EditPost"
+            ]
+        }
+    ]
+}

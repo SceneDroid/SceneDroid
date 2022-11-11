@@ -1,0 +1,272 @@
+Running UI analysis with timeout for entrypoint class: 120 SECONDS
+net.teuida.teuida_2022-10-16: OutputDir not a directory: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/net.teuida.teuida_2022-10-16
+Found 41 entrypoint classes and 41 methods in overall
+Found 4 reachable methods from <net.teuida.teuida.view.activities.LoginMainActivitySub: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <net.teuida.teuida.view.activities.settings.FeedbackActivity: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <net.teuida.teuida.view.activities.ResetPasswordActivitySub: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <net.teuida.teuida.view.activities.SelectServerActivity: void onCreate(android.os.Bundle)>
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/listenerListWithOnMethods.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.loadSetListenerMethodsWithOnMethods(StmtSwitchToFindListener.java:598)
+	at st.cs.uni.saarland.de.searchListener.StmtSwitchToFindListener.<init>(StmtSwitchToFindListener.java:24)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at st.cs.uni.saarland.de.uiAnalysis.BaseForwardWalker.run(BaseForwardWalker.java:84)
+	at st.cs.uni.saarland.de.uiAnalysis.ListenersFinder.run(ListenersFinder.java:24)
+	at st.cs.uni.saarland.de.uiAnalysis.LifecycleUIAnalyzer.lambda$getTask$25(LifecycleUIAnalyzer.java:420)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+
+Found 4 reachable methods from <net.teuida.teuida.view.activities.LoginEmailActivitySub: void onCreate(android.os.Bundle)>
+Found 6 reachable methods from <net.teuida.teuida.view.activities.NotificationActivity: void onCreate(android.os.Bundle)>
+Found 6 reachable methods from <net.teuida.teuida.view.activities.settings.AccountActivitySub: void onCreate(android.os.Bundle)>
+Found 7 reachable methods from <net.teuida.teuida.view.activities.AdActivity: void onCreate(android.os.Bundle)>
+Found 7 reachable methods from <net.teuida.teuida.view.activities.settings.NoticeActivity: void onCreate(android.os.Bundle)>
+Found 8 reachable methods from <net.teuida.teuida.view.activities.PremiumActivity: void onCreate(android.os.Bundle)>
+Found 8 reachable methods from <net.teuida.teuida.view.activities.UserInfoActivitySub: void onCreate(android.os.Bundle)>
+net.teuida.teuida.view.activities.ResetPasswordActivitySub: Finished processing of entrypoints after 1 seconds.
+Found 9 reachable methods from <net.teuida.teuida.view.activities.PostCommunityActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.y0: androidx.appcompat.widget.AppCompatTextView D>
+Found 7 reachable methods from <net.teuida.teuida.view.activities.settings.FAQActivity: void onCreate(android.os.Bundle)>
+Found 9 reachable methods from <net.teuida.teuida.view.activities.settings.NoticeDetailActivity: void onCreate(android.os.Bundle)>
+net.teuida.teuida.view.activities.SelectServerActivity: Finished processing of entrypoints after 1 seconds.
+net.teuida.teuida.view.activities.LoginEmailActivitySub: Finished processing of entrypoints after 1 seconds.
+net.teuida.teuida.view.activities.LoginMainActivitySub: Finished processing of entrypoints after 1 seconds.
+net.teuida.teuida.view.activities.NotificationActivity: Finished processing of entrypoints after 1 seconds.
+net.teuida.teuida.view.activities.settings.FeedbackActivity: Finished processing of entrypoints after 1 seconds.
+net.teuida.teuida.view.activities.settings.AccountActivitySub: Finished processing of entrypoints after 1 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r17 = $r3.<d6.w0: androidx.appcompat.widget.AppCompatEditText e>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<d6.w0: androidx.appcompat.widget.AppCompatTextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<d6.w0: androidx.appcompat.widget.AppCompatTextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r17 = $r3.<d6.w0: androidx.appcompat.widget.AppCompatEditText e>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<d6.w0: androidx.appcompat.widget.AppCompatTextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r3.<d6.w0: androidx.appcompat.widget.AppCompatTextView m>
+net.teuida.teuida.view.activities.settings.NoticeActivity: Finished processing of entrypoints after 1 seconds.
+net.teuida.teuida.view.activities.PremiumActivity: Finished processing of entrypoints after 1 seconds.
+Found 8 reachable methods from <net.teuida.teuida.view.activities.settings.NotificationActivity: void onCreate(android.os.Bundle)>
+net.teuida.teuida.view.activities.settings.NoticeDetailActivity: Finished processing of entrypoints after 2 seconds.
+Found 9 reachable methods from <net.teuida.teuida.view.activities.UnitActivity: void onCreate(android.os.Bundle)>
+net.teuida.teuida.view.activities.UserInfoActivitySub: Finished processing of entrypoints after 2 seconds.
+net.teuida.teuida.view.activities.settings.FAQActivity: Finished processing of entrypoints after 2 seconds.
+Found 4 reachable methods from <net.teuida.teuida.view.activities.RegisterActivitySub: void onCreate(android.os.Bundle)>
+Found 9 reachable methods from <net.teuida.teuida.view.activities.IntroActivity: void onCreate(android.os.Bundle)>
+net.teuida.teuida.view.activities.PostCommunityActivity: Finished processing of entrypoints after 2 seconds.
+net.teuida.teuida.view.activities.RegisterActivitySub: Finished processing of entrypoints after 0 seconds.
+Did not find string name from string id: id: 2131951763
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<d6.y: androidx.appcompat.widget.AppCompatTextView a>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<d6.i8: androidx.appcompat.widget.AppCompatTextView a>
+Did not find string name from string id: id: 2131952186
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<d6.i8: androidx.appcompat.widget.AppCompatTextView d>
+Did not find string name from string id: id: 2131952043
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<d6.i8: androidx.appcompat.widget.AppCompatTextView a>
+Did not find string name from string id: id: 2131952187
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<d6.i8: androidx.appcompat.widget.AppCompatTextView d>
+Did not find string name from string id: id: 2131952268
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<d6.i8: androidx.appcompat.widget.AppCompatTextView a>
+Did not find string name from string id: id: 2131952267
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r3 = $r2.<d6.i8: androidx.appcompat.widget.AppCompatTextView d>
+Found 7 reachable methods from <net.teuida.teuida.view.activities.settings.PurchaseHistoryActivity: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <net.teuida.teuida.view.activities.AdWebViewActivity: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <net.teuida.teuida.view.activities.SelectLangActivitySub: void onCreate(android.os.Bundle)>
+Found 18 reachable methods from <net.teuida.teuida.view.activities.CommunityDetailActivity: void onCreate(android.os.Bundle)>
+Found 7 reachable methods from <net.teuida.teuida.view.activities.ExpressionsActivity: void onCreate(android.os.Bundle)>
+Found 16 reachable methods from <net.teuida.teuida.view.activities.TutorialActivity: void onCreate(android.os.Bundle)>
+net.teuida.teuida.view.activities.SelectLangActivitySub: Finished processing of entrypoints after 0 seconds.
+net.teuida.teuida.view.activities.settings.NotificationActivity: Finished processing of entrypoints after 2 seconds.
+Found 15 reachable methods from <net.teuida.teuida.view.activities.LessonActivitySub: void onCreate(android.os.Bundle)>
+Found 4 reachable methods from <net.teuida.teuida.view.activities.settings.LanguageActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r10 = $r7.<d6.e: androidx.appcompat.widget.AppCompatTextView c>
+net.teuida.teuida.view.activities.settings.PurchaseHistoryActivity: Finished processing of entrypoints after 1 seconds.
+Found 7 reachable methods from <net.teuida.teuida.view.activities.settings.TermsPolicyActivity: void onCreate(android.os.Bundle)>
+net.teuida.teuida.view.activities.ExpressionsActivity: Finished processing of entrypoints after 1 seconds.
+Found 11 reachable methods from <net.teuida.teuida.view.activities.StreakActivity: void onCreate(android.os.Bundle)>
+Found 5 reachable methods from <net.teuida.teuida.view.activities.WebViewActivity: void onCreate(android.os.Bundle)>
+net.teuida.teuida.view.activities.AdWebViewActivity: Finished processing of entrypoints after 1 seconds.
+Found 9 reachable methods from <net.teuida.teuida.view.activities.RemindAlarmActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r7 = $r2.<d6.a2: androidx.appcompat.widget.AppCompatTextView a>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r12 = $r1.<d6.w1: androidx.appcompat.widget.AppCompatTextView n>
+net.teuida.teuida.view.activities.settings.TermsPolicyActivity: Finished processing of entrypoints after 1 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r12 = $r1.<d6.w1: androidx.appcompat.widget.AppCompatTextView l>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r12 = $r1.<d6.w1: androidx.appcompat.widget.AppCompatTextView c>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r12 = $r1.<d6.w1: androidx.appcompat.widget.AppCompatTextView o>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r12 = $r1.<d6.w1: androidx.appcompat.widget.AppCompatTextView o>
+net.teuida.teuida.view.activities.CommunityDetailActivity: Finished processing of entrypoints after 3 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r10 = $r9.<d6.e0: androidx.appcompat.widget.AppCompatTextView g>
+net.teuida.teuida.view.activities.WebViewActivity: Finished processing of entrypoints after 1 seconds.
+net.teuida.teuida.view.activities.settings.LanguageActivity: Finished processing of entrypoints after 1 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r6 = $r3.<d6.o1: androidx.appcompat.widget.AppCompatTextView D>
+Found 5 reachable methods from <net.teuida.teuida.view.activities.settings.SettingActivity: void onCreate(android.os.Bundle)>
+Found 7 reachable methods from <net.teuida.teuida.view.activities.NewPurchaseHistoryActivity: void onCreate(android.os.Bundle)>
+Found 12 reachable methods from <net.teuida.teuida.view.activities.ChapterDetailActivity: void onCreate(android.os.Bundle)>
+Found 12 reachable methods from <net.teuida.teuida.view.activities.settings.KoreanLevelActivity: void onCreate(android.os.Bundle)>
+net.teuida.teuida.view.activities.StreakActivity: Finished processing of entrypoints after 2 seconds.
+net.teuida.teuida.view.activities.LessonActivitySub: Finished processing of entrypoints after 3 seconds.
+net.teuida.teuida.view.activities.settings.SettingActivity: Finished processing of entrypoints after 1 seconds.
+Did not find string name from string id: id: 2131952307
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.s1: androidx.appcompat.widget.AppCompatTextView w>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.s1: androidx.appcompat.widget.AppCompatTextView x>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.s1: androidx.appcompat.widget.AppCompatTextView v>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r5 = $r4.<d6.sa: androidx.appcompat.widget.AppCompatTextView c>
+Did not find string name from string id: id: 2131952048
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r5 = $r4.<d6.sa: androidx.appcompat.widget.AppCompatTextView c>
+Did not find string name from string id: id: 2131952032
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r5 = $r4.<d6.sa: androidx.appcompat.widget.AppCompatTextView c>
+Found 13 reachable methods from <net.teuida.teuida.view.activities.ChapterActivitySub: void onCreate(android.os.Bundle)>
+Found 22 reachable methods from <net.teuida.teuida.view.activities.WordActivity: void onCreate(android.os.Bundle)>
+Found 21 reachable methods from <net.teuida.teuida.view.activities.ConversationActivity: void onCreate(android.os.Bundle)>
+Error LayoutSwitch: Doesn't find searchedREg or searchedIDReg in initializationOfField: $r6 = $r5.<d6.e0: androidx.appcompat.widget.LinearLayoutCompat a>
+net.teuida.teuida.view.activities.ChapterDetailActivity: Finished processing of entrypoints after 2 seconds.
+net.teuida.teuida.view.activities.NewPurchaseHistoryActivity: Finished processing of entrypoints after 1 seconds.
+net.teuida.teuida.view.activities.settings.KoreanLevelActivity: Finished processing of entrypoints after 4 seconds.
+Found 22 reachable methods from <net.teuida.teuida.view.activities.MainActivity: void onCreate(android.os.Bundle)>
+net.teuida.teuida.view.activities.ChapterActivitySub: Finished processing of entrypoints after 2 seconds.
+net.teuida.teuida.view.activities.TutorialActivity: Finished processing of entrypoints after 4 seconds.
+net.teuida.teuida.view.activities.ConversationActivity: Finished processing of entrypoints after 4 seconds.
+net.teuida.teuida.view.activities.MainActivity: Finished processing of entrypoints after 4 seconds.
+Found 21 reachable methods from <net.teuida.teuida.view.activities.ConversationActivitySub: void onCreate(android.os.Bundle)>
+net.teuida.teuida.view.activities.ConversationActivitySub: Finished processing of entrypoints after 3 seconds.
+Found 11 reachable methods from <net.teuida.teuida.view.activities.BrandedActivity: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r5.<d6.g: androidx.appcompat.widget.AppCompatTextView o>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r5.<d6.g: androidx.appcompat.widget.AppCompatTextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r5.<d6.g: androidx.appcompat.widget.AppCompatTextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r5.<d6.g: androidx.appcompat.widget.AppCompatTextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r16 = $r5.<d6.g: androidx.appcompat.widget.AppCompatTextView e>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r15 = $r5.<d6.g: net.teuida.teuida.view.views.BehaviorMoveTextView A>
+net.teuida.teuida.view.activities.BrandedActivity: Finished processing of entrypoints after 3 seconds.
+Found 17 reachable methods from <net.teuida.teuida.view.activities.TutorialActivitySub: void onCreate(android.os.Bundle)>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.u1: androidx.appcompat.widget.AppCompatTextView w>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.u1: androidx.appcompat.widget.AppCompatTextView w>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.u1: androidx.appcompat.widget.AppCompatTextView x>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.u1: androidx.appcompat.widget.AppCompatTextView x>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.u1: androidx.appcompat.widget.AppCompatTextView x>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.u1: androidx.appcompat.widget.AppCompatTextView x>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.u1: androidx.appcompat.widget.AppCompatTextView v>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.u1: androidx.appcompat.widget.AppCompatTextView v>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.u1: androidx.appcompat.widget.AppCompatTextView v>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.u1: androidx.appcompat.widget.AppCompatTextView v>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r4 = $r2.<d6.u1: androidx.appcompat.widget.AppCompatTextView v>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r17 = $r6.<d6.c: androidx.appcompat.widget.AppCompatTextView a>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r17 = $r6.<d6.c: androidx.appcompat.widget.AppCompatTextView a>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r17 = $r6.<d6.c: androidx.appcompat.widget.AppCompatTextView e>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r17 = $r6.<d6.c: androidx.appcompat.widget.AppCompatTextView e>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r17 = $r6.<d6.c: androidx.appcompat.widget.AppCompatTextView e>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r17 = $r6.<d6.c: androidx.appcompat.widget.AppCompatTextView e>
+net.teuida.teuida.view.activities.UnitActivity: Finished processing of entrypoints after 7 seconds.
+net.teuida.teuida.view.activities.TutorialActivitySub: Finished processing of entrypoints after 5 seconds.
+net.teuida.teuida.view.activities.IntroActivity: Finished processing of entrypoints after 9 seconds.
+net.teuida.teuida.view.activities.WordActivity: Finished processing of entrypoints after 12 seconds.
+net.teuida.teuida.view.activities.AdActivity: Finished processing of entrypoints after 28 seconds.
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r5.<d6.e0: androidx.appcompat.widget.AppCompatTextView j>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r5.<d6.e0: androidx.appcompat.widget.AppCompatTextView j>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView a>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView a>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView a>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView a>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView l>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView l>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView l>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView l>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView l>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView g>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView g>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView g>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView g>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView g>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView g>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView c>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView c>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView c>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView c>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView c>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView c>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView k>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView k>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView k>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView k>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView k>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView k>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView n>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView n>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView n>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView n>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView n>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView n>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView m>
+Error StringSwitch: Doesn't find searchedReg in initializationOfField: $r8 = $r7.<d6.e5: androidx.appcompat.widget.AppCompatTextView m>
+net.teuida.teuida.view.activities.RemindAlarmActivity: Finished processing of entrypoints after 122 seconds.
+Dynamical declared elements, found: 0
+Found 0 callback classes and 0 methods overall
+java.io.IOException: No such file or directory
+	at java.io.UnixFileSystem.createFileExclusively(Native Method)
+	at java.io.File.createNewFile(File.java:1023)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.createFile(Main_UI_Analysis.java:425)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:402)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/./res/net.teuida.teuida_2022-10-16/classesToClasseOrLayoutMapping.txt (No such file or directory)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(FileOutputStream.java:270)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:213)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.saveClassToClassOrLayoutFile(Main_UI_Analysis.java:404)
+	at st.cs.uni.saarland.de.testApps.Main_UI_Analysis.runAnalysisForOneApp(Main_UI_Analysis.java:345)
+	at st.cs.uni.saarland.de.testApps.TestApp.performUiAnalysis(TestApp.java:132)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:311)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+UI Analysis has run for 123.861828562 seconds
+Entry point creation has run for 0.016951116 seconds
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/susi_apis.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileReader.<init>(FileReader.java:72)
+	at st.cs.uni.saarland.de.helpClasses.Helper.loadSourcesAndSinks(Helper.java:271)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:487)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+java.io.FileNotFoundException: /media/syc/0366bf72-bfa6-421f-b97e-e0b4905a754d/GoalExplorer-1.2.0/GoalExplorer/target/backstage/res/startActivitySignatures.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.loadStartActivitySignatures(START_ACTIVITY_CONSTANTS.java:63)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.START_ACTIVITY_CONSTANTS.getStartActivityMethods(START_ACTIVITY_CONSTANTS.java:54)
+	at st.cs.uni.saarland.de.reachabilityAnalysis.ReachabilityAnalysis.<init>(ReachabilityAnalysis.java:50)
+	at st.cs.uni.saarland.de.testApps.TestApp.runReachabilityAnalysis(TestApp.java:491)
+	at android.goal.explorer.STGExtractor.runBackstage(STGExtractor.java:323)
+	at android.goal.explorer.STGExtractor.<init>(STGExtractor.java:120)
+	at PreAnalysisRunner.run(PreAnalysisRunner.kt:12)
+	at Main$Companion.main(Main.kt:21)
+	at Main.main(Main.kt)
+
+Running reachability analysis with timeout for each callback: 120 SECONDS
+Found 0 callback methods from UI Analysis
+Found 0 callback methods in overall
+Used timeout 120 SECONDS
+Timeouted callbacks: 0
+Reachability Analysis has run for 0.033805662 seconds

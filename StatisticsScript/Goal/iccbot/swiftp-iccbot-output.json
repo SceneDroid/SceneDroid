@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "org.swiftp.ServerControlActivity/void launchConfigureActivity()",
+            "sources": [
+                "org.swiftp.ServerControlActivity"
+            ],
+            "targets": [
+                "org.swiftp.ConfigureActivity"
+            ]
+        }
+    ]
+}

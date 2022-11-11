@@ -1,0 +1,868 @@
+{
+    "transitions": [
+        {
+            "handler": "ch.protonmail.android.activities.AccountTypeActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.AccountTypeActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.AccountTypeActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.AccountTypeActivity/void onUpgrade()",
+            "sources": [
+                "ch.protonmail.android.activities.AccountTypeActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.UpsellingActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.LoginActivity/void onLoginEvent(ch.protonmail.android.events.LoginEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.MailboxLoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.LoginActivity/void onBackPressed()",
+            "sources": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.FirstActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.LoginActivity/void showAccountCreation(ch.protonmail.android.api.models.Alias,java.lang.String,java.lang.String)",
+            "sources": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.CreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseLoginActivity/void onLoginEvent(ch.protonmail.android.events.MailboxLoginEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.NotificationSettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.NotificationSettingsActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.NotificationSettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.ReportBugsActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.ReportBugsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.ReportBugsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.EngagementActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.DefaultAddressActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.DefaultAddressActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.DefaultAddressActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.ContactDetailsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.EditContactDetailsActivity/void startEditContactActivity(android.app.Activity,java.lang.String,int)",
+            "sources": [
+                "ch.protonmail.android.activities.ContactDetailsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.EditContactDetailsActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.CreatePinActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.BillingActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.EditContactDetailsActivity/void startNewContactActivity(android.content.Context)",
+            "sources": [
+                "ch.protonmail.android.activities.EditContactDetailsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.EditContactDetailsActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.EditContactDetailsActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.EditContactDetailsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.EditContactDetailsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.MailboxLoginActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxLoginActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseLoginActivity/void onLoginEvent(ch.protonmail.android.events.MailboxLoginEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxLoginActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxLoginActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.EditContactActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.EditContactActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.EditContactActivity/void startEditContactActivity(android.content.Context,java.lang.String,java.lang.String,java.lang.String)",
+            "sources": [
+                "ch.protonmail.android.activities.EditContactActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.EditContactActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.EditContactActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.CreateAccountFeedbackActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.CreateAccountFeedbackActivity/void showInbox(java.lang.String,java.lang.String,java.lang.String,boolean)",
+            "sources": [
+                "ch.protonmail.android.activities.CreateAccountFeedbackActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.SwipeChooserActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SwipeChooserActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.SwipeChooserActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.UpsellingActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.UpsellingActivity/void onDonateClicked()",
+            "sources": [
+                "ch.protonmail.android.activities.UpsellingActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.BillingActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.ContactsActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.ContactsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.EditContactActivity/void startNewContactActivity(android.content.Context)",
+            "sources": [
+                "ch.protonmail.android.activities.ContactsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.EditContactActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.ContactsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.ContactsActivity/void onContactListItemClick(int)",
+            "sources": [
+                "ch.protonmail.android.activities.ContactsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ComposeMessageActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SplashActivity/void onLoginInfoEvent(ch.protonmail.android.events.LoginInfoEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.SplashActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.MailboxLoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.SplashActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SplashActivity/void navigate()",
+            "sources": [
+                "ch.protonmail.android.activities.SplashActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SplashActivity/void navigate()",
+            "sources": [
+                "ch.protonmail.android.activities.SplashActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.FirstActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SplashActivity/void navigate()",
+            "sources": [
+                "ch.protonmail.android.activities.SplashActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.AddAttachmentsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.AddAttachmentsActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.AddAttachmentsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SearchActivity$2/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "ch.protonmail.android.activities.SearchActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ComposeMessageActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SearchActivity$2/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "ch.protonmail.android.activities.SearchActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.MessageDetailsActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.SearchActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SearchActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.SearchActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.FirstActivity/void onCreateAccountClicked()",
+            "sources": [
+                "ch.protonmail.android.activities.FirstActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.CreateAccountActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.FirstActivity/void onSignInClicked()",
+            "sources": [
+                "ch.protonmail.android.activities.FirstActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.FirstActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.ChangePinActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.CreateAccountActivity/void createUserCompleted(int,boolean)",
+            "sources": [
+                "ch.protonmail.android.activities.CreateAccountActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.CreateAccountFeedbackActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.CreateAccountActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.MailboxActivity/void showFoldersManager()",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LabelsManagerActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.MailboxActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.MailboxActivity/void onMailboxLoginEvent(ch.protonmail.android.events.MailboxLoginEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.MailboxLoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.NavigationActivity/void selectItem(int)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.SettingsActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.NavigationActivity/void selectItem(int)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.UpsellingActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.NavigationActivity/void selectItem(int)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ContactsActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.MailboxActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.EngagementActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.MailboxActivity$2/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ComposeMessageActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.NavigationActivity/void selectItem(int)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ReportBugsActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.MailboxActivity$2/void onItemClick(android.widget.AdapterView,android.view.View,int,long)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.MessageDetailsActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.MailboxActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.SearchActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.ComposeMessageActivity/void onAddAttachments()",
+            "sources": [
+                "ch.protonmail.android.activities.ComposeMessageActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.AddAttachmentsActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.ComposeMessageActivity/void finishActivity()",
+            "sources": [
+                "ch.protonmail.android.activities.ComposeMessageActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.MailboxActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.ComposeMessageActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.ComposeMessageActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.ComposeMessageActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.ComposeMessageActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "ch.protonmail.android.activities.ComposeMessageActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.FirstActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.LabelsManagerActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.LabelsManagerActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.LabelsManagerActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.PinSettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.PinSettingsActivity/void onChangePinClicked()",
+            "sources": [
+                "ch.protonmail.android.activities.PinSettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ChangePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.PinSettingsActivity$1/void onCheckedChanged(android.widget.CompoundButton,boolean)",
+            "sources": [
+                "ch.protonmail.android.activities.PinSettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.CreatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.PinSettingsActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.PinSettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.MessageDetailsActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.MessageDetailsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.MessageDetailsActivity/void showFoldersManager()",
+            "sources": [
+                "ch.protonmail.android.activities.MessageDetailsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LabelsManagerActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.MessageDetailsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.ChangePasswordActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.ChangePasswordActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.ChangePasswordActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SettingsActivity/void onClick(android.view.View)",
+            "sources": [
+                "ch.protonmail.android.activities.SettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.PinSettingsActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SettingsActivity/void onClick(android.view.View)",
+            "sources": [
+                "ch.protonmail.android.activities.SettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.NotificationSettingsActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SettingsActivity/void showSortAliasDialog()",
+            "sources": [
+                "ch.protonmail.android.activities.SettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.DefaultAddressActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SettingsActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.SettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SettingsActivity/void showSettingsItemEditDialog(int,java.lang.String,boolean)",
+            "sources": [
+                "ch.protonmail.android.activities.SettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.EditSettingsItemActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SettingsActivity/void onClick(android.view.View)",
+            "sources": [
+                "ch.protonmail.android.activities.SettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LabelsManagerActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.SettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SettingsActivity/void onClick(android.view.View)",
+            "sources": [
+                "ch.protonmail.android.activities.SettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.AccountTypeActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SettingsActivity/void showPasswordChangeDialog(int)",
+            "sources": [
+                "ch.protonmail.android.activities.SettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ChangePasswordActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.SettingsActivity/void onClick(android.view.View)",
+            "sources": [
+                "ch.protonmail.android.activities.SettingsActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.SwipeChooserActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.BaseActivity/boolean checkPinLock()",
+            "sources": [
+                "ch.protonmail.android.activities.EditSettingsItemActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.ValidatePinActivity"
+            ]
+        },
+        {
+            "handler": "ch.protonmail.android.activities.EditSettingsItemActivity/void onLogoutEvent(ch.protonmail.android.events.LogoutEvent)",
+            "sources": [
+                "ch.protonmail.android.activities.EditSettingsItemActivity"
+            ],
+            "targets": [
+                "ch.protonmail.android.activities.LoginActivity"
+            ]
+        }
+    ]
+}

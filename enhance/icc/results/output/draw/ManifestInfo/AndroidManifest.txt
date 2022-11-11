@@ -1,0 +1,368 @@
+manifest
+- compileSdkVersionCodename: 13
+- installLocation: 0
+- package: com.simplemobiletools.draw.pro
+- platformBuildVersionName: 13
+- compileSdkVersion: 33
+- versionName: 6.8.0
+- platformBuildVersionCode: 33
+- versionCode: 73
+	uses-sdk
+	- minSdkVersion: 21
+	- targetSdkVersion: 33
+	uses-permission
+	- name: android.permission.WRITE_EXTERNAL_STORAGE
+	- maxSdkVersion: 28
+	uses-feature
+	- name: android.hardware.faketouch
+	- required: false
+	queries
+		package
+		- name: com.simplemobiletools.thankyou.debug
+		package
+		- name: com.simplemobiletools.thankyou
+	uses-feature
+	- name: android.hardware.screen.portrait
+	- required: false
+	application
+	- supportsRtl: true
+	- appComponentFactory: androidx.core.app.CoreComponentFactory
+	- allowBackup: true
+	- icon: 2131623948
+	- name: com.simplemobiletools.draw.pro.App
+	- appCategory: 3
+	- theme: 2131820553
+	- roundIcon: 2131623948
+	- label: 2131755067
+		activity
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- theme: 2131821316
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623958
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Grey_black
+		- roundIcon: 2131623958
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623951
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Blue_grey
+		- roundIcon: 2131623951
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623952
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Brown
+		- roundIcon: 2131623952
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623954
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Deep_orange
+		- roundIcon: 2131623954
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623948
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Orange
+		- roundIcon: 2131623948
+		- enabled: true
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623949
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Amber
+		- roundIcon: 2131623949
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623967
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Yellow
+		- roundIcon: 2131623967
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623962
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Lime
+		- roundIcon: 2131623962
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623961
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Light_green
+		- roundIcon: 2131623961
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623957
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Green
+		- roundIcon: 2131623957
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623966
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Teal
+		- roundIcon: 2131623966
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623953
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Cyan
+		- roundIcon: 2131623953
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623960
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Light_blue
+		- roundIcon: 2131623960
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623950
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Blue
+		- roundIcon: 2131623950
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623959
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Indigo
+		- roundIcon: 2131623959
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623955
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Deep_purple
+		- roundIcon: 2131623955
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623964
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Purple
+		- roundIcon: 2131623964
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623963
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Pink
+		- roundIcon: 2131623963
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity-alias
+		- exported: true
+		- targetActivity: com.simplemobiletools.draw.pro.activities.SplashActivity
+		- icon: 2131623965
+		- name: com.simplemobiletools.draw.pro.activities.SplashActivity.Red
+		- roundIcon: 2131623965
+		- enabled: false
+			intent-filter
+				action
+				- name: android.intent.action.MAIN
+				category
+				- name: android.intent.category.LAUNCHER
+		activity
+		- exported: true
+		- name: com.simplemobiletools.draw.pro.activities.MainActivity
+		- configChanges: 128
+			intent-filter
+				action
+				- name: android.intent.action.VIEW
+				category
+				- name: android.intent.category.BROWSABLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: image/*
+			intent-filter
+				action
+				- name: android.intent.action.SEND
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: image/*
+			intent-filter
+				action
+				- name: android.intent.action.SEND_MULTIPLE
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: image/*
+			intent-filter
+				action
+				- name: android.media.action.IMAGE_CAPTURE
+				category
+				- name: android.intent.category.DEFAULT
+			intent-filter
+				action
+				- name: android.intent.action.EDIT
+				category
+				- name: android.intent.category.DEFAULT
+				data
+				- mimeType: image/*
+		activity
+		- exported: true
+		- name: com.simplemobiletools.draw.pro.activities.SettingsActivity
+		- label: 2131755762
+		- parentActivityName: com.simplemobiletools.draw.pro.activities.MainActivity
+			intent-filter
+				action
+				- name: android.intent.action.APPLICATION_PREFERENCES
+				category
+				- name: android.intent.category.DEFAULT
+		activity
+		- exported: false
+		- name: com.simplemobiletools.commons.activities.AboutActivity
+		- label: 2131755036
+		- parentActivityName: com.simplemobiletools.draw.pro.activities.MainActivity
+		activity
+		- exported: false
+		- name: com.simplemobiletools.commons.activities.CustomizationActivity
+		- label: 2131755182
+		- parentActivityName: com.simplemobiletools.draw.pro.activities.SettingsActivity
+		provider
+		- exported: false
+		- name: androidx.core.content.FileProvider
+		- grantUriPermissions: true
+		- authorities: com.simplemobiletools.draw.pro.provider
+			meta-data
+			- name: android.support.FILE_PROVIDER_PATHS
+			- resource: 2131951616
+		activity
+		- exported: false
+		- name: com.simplemobiletools.commons.activities.ContributorsActivity
+		- label: 2131755155
+		- parentActivityName: com.simplemobiletools.commons.activities.AboutActivity
+		activity
+		- exported: false
+		- name: com.simplemobiletools.commons.activities.FAQActivity
+		- label: 2131755346
+		- parentActivityName: com.simplemobiletools.commons.activities.AboutActivity
+		activity
+		- exported: false
+		- name: com.simplemobiletools.commons.activities.LicenseActivity
+		- label: 2131755849
+		- parentActivityName: com.simplemobiletools.commons.activities.AboutActivity
+		receiver
+		- exported: true
+		- name: com.simplemobiletools.commons.receivers.SharedThemeReceiver
+		- enabled: true
+			intent-filter
+				action
+				- name: com.simplemobiletools.commons.SHARED_THEME_ACTIVATED
+				action
+				- name: com.simplemobiletools.commons.SHARED_THEME_UPDATED
+		provider
+		- exported: false
+		- name: androidx.startup.InitializationProvider
+		- authorities: com.simplemobiletools.draw.pro.androidx-startup
+			meta-data
+			- name: androidx.emoji2.text.EmojiCompatInitializer
+			- value: androidx.startup
+			meta-data
+			- name: androidx.lifecycle.ProcessLifecycleInitializer
+			- value: androidx.startup

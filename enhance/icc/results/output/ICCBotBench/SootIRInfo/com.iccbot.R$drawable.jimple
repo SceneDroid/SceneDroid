@@ -1,0 +1,175 @@
+public final class com.iccbot.R$drawable extends java.lang.Object
+{
+    public static final int abc_ab_share_pack_holo_dark;
+    public static final int abc_ab_share_pack_holo_light;
+    public static final int abc_btn_check_material;
+    public static final int abc_btn_check_to_on_mtrl_000;
+    public static final int abc_btn_check_to_on_mtrl_015;
+    public static final int abc_btn_radio_material;
+    public static final int abc_btn_radio_to_on_mtrl_000;
+    public static final int abc_btn_radio_to_on_mtrl_015;
+    public static final int abc_btn_switch_to_on_mtrl_00001;
+    public static final int abc_btn_switch_to_on_mtrl_00012;
+    public static final int abc_cab_background_internal_bg;
+    public static final int abc_cab_background_top_material;
+    public static final int abc_cab_background_top_mtrl_alpha;
+    public static final int abc_edit_text_material;
+    public static final int abc_ic_ab_back_mtrl_am_alpha;
+    public static final int abc_ic_clear_mtrl_alpha;
+    public static final int abc_ic_commit_search_api_mtrl_alpha;
+    public static final int abc_ic_go_search_api_mtrl_alpha;
+    public static final int abc_ic_menu_copy_mtrl_am_alpha;
+    public static final int abc_ic_menu_cut_mtrl_alpha;
+    public static final int abc_ic_menu_moreoverflow_mtrl_alpha;
+    public static final int abc_ic_menu_paste_mtrl_am_alpha;
+    public static final int abc_ic_menu_selectall_mtrl_alpha;
+    public static final int abc_ic_menu_share_mtrl_alpha;
+    public static final int abc_ic_search_api_mtrl_alpha;
+    public static final int abc_ic_voice_search_api_mtrl_alpha;
+    public static final int abc_item_background_holo_dark;
+    public static final int abc_item_background_holo_light;
+    public static final int abc_list_divider_mtrl_alpha;
+    public static final int abc_list_focused_holo;
+    public static final int abc_list_longpressed_holo;
+    public static final int abc_list_pressed_holo_dark;
+    public static final int abc_list_pressed_holo_light;
+    public static final int abc_list_selector_background_transition_holo_dark;
+    public static final int abc_list_selector_background_transition_holo_light;
+    public static final int abc_list_selector_disabled_holo_dark;
+    public static final int abc_list_selector_disabled_holo_light;
+    public static final int abc_list_selector_holo_dark;
+    public static final int abc_list_selector_holo_light;
+    public static final int abc_menu_hardkey_panel_mtrl_mult;
+    public static final int abc_popup_background_mtrl_mult;
+    public static final int abc_spinner_mtrl_am_alpha;
+    public static final int abc_switch_thumb_material;
+    public static final int abc_switch_track_mtrl_alpha;
+    public static final int abc_tab_indicator_material;
+    public static final int abc_tab_indicator_mtrl_alpha;
+    public static final int abc_textfield_activated_mtrl_alpha;
+    public static final int abc_textfield_default_mtrl_alpha;
+    public static final int abc_textfield_search_activated_mtrl_alpha;
+    public static final int abc_textfield_search_default_mtrl_alpha;
+    public static final int abc_textfield_search_material;
+    public static final int ic_launcher;
+
+    public void <init>()
+    {
+        com.iccbot.R$drawable r0;
+
+        r0 := @this: com.iccbot.R$drawable;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void <clinit>()
+    {
+        <com.iccbot.R$drawable: int ic_launcher> = 2130837555;
+
+        <com.iccbot.R$drawable: int abc_textfield_search_material> = 2130837554;
+
+        <com.iccbot.R$drawable: int abc_textfield_search_default_mtrl_alpha> = 2130837553;
+
+        <com.iccbot.R$drawable: int abc_textfield_search_activated_mtrl_alpha> = 2130837552;
+
+        <com.iccbot.R$drawable: int abc_textfield_default_mtrl_alpha> = 2130837551;
+
+        <com.iccbot.R$drawable: int abc_textfield_activated_mtrl_alpha> = 2130837550;
+
+        <com.iccbot.R$drawable: int abc_tab_indicator_mtrl_alpha> = 2130837549;
+
+        <com.iccbot.R$drawable: int abc_tab_indicator_material> = 2130837548;
+
+        <com.iccbot.R$drawable: int abc_switch_track_mtrl_alpha> = 2130837547;
+
+        <com.iccbot.R$drawable: int abc_switch_thumb_material> = 2130837546;
+
+        <com.iccbot.R$drawable: int abc_spinner_mtrl_am_alpha> = 2130837545;
+
+        <com.iccbot.R$drawable: int abc_popup_background_mtrl_mult> = 2130837544;
+
+        <com.iccbot.R$drawable: int abc_menu_hardkey_panel_mtrl_mult> = 2130837543;
+
+        <com.iccbot.R$drawable: int abc_list_selector_holo_light> = 2130837542;
+
+        <com.iccbot.R$drawable: int abc_list_selector_holo_dark> = 2130837541;
+
+        <com.iccbot.R$drawable: int abc_list_selector_disabled_holo_light> = 2130837540;
+
+        <com.iccbot.R$drawable: int abc_list_selector_disabled_holo_dark> = 2130837539;
+
+        <com.iccbot.R$drawable: int abc_list_selector_background_transition_holo_light> = 2130837538;
+
+        <com.iccbot.R$drawable: int abc_list_selector_background_transition_holo_dark> = 2130837537;
+
+        <com.iccbot.R$drawable: int abc_list_pressed_holo_light> = 2130837536;
+
+        <com.iccbot.R$drawable: int abc_list_pressed_holo_dark> = 2130837535;
+
+        <com.iccbot.R$drawable: int abc_list_longpressed_holo> = 2130837534;
+
+        <com.iccbot.R$drawable: int abc_list_focused_holo> = 2130837533;
+
+        <com.iccbot.R$drawable: int abc_list_divider_mtrl_alpha> = 2130837532;
+
+        <com.iccbot.R$drawable: int abc_item_background_holo_light> = 2130837531;
+
+        <com.iccbot.R$drawable: int abc_item_background_holo_dark> = 2130837530;
+
+        <com.iccbot.R$drawable: int abc_ic_voice_search_api_mtrl_alpha> = 2130837529;
+
+        <com.iccbot.R$drawable: int abc_ic_search_api_mtrl_alpha> = 2130837528;
+
+        <com.iccbot.R$drawable: int abc_ic_menu_share_mtrl_alpha> = 2130837527;
+
+        <com.iccbot.R$drawable: int abc_ic_menu_selectall_mtrl_alpha> = 2130837526;
+
+        <com.iccbot.R$drawable: int abc_ic_menu_paste_mtrl_am_alpha> = 2130837525;
+
+        <com.iccbot.R$drawable: int abc_ic_menu_moreoverflow_mtrl_alpha> = 2130837524;
+
+        <com.iccbot.R$drawable: int abc_ic_menu_cut_mtrl_alpha> = 2130837523;
+
+        <com.iccbot.R$drawable: int abc_ic_menu_copy_mtrl_am_alpha> = 2130837522;
+
+        <com.iccbot.R$drawable: int abc_ic_go_search_api_mtrl_alpha> = 2130837521;
+
+        <com.iccbot.R$drawable: int abc_ic_commit_search_api_mtrl_alpha> = 2130837520;
+
+        <com.iccbot.R$drawable: int abc_ic_clear_mtrl_alpha> = 2130837519;
+
+        <com.iccbot.R$drawable: int abc_ic_ab_back_mtrl_am_alpha> = 2130837518;
+
+        <com.iccbot.R$drawable: int abc_edit_text_material> = 2130837517;
+
+        <com.iccbot.R$drawable: int abc_cab_background_top_mtrl_alpha> = 2130837516;
+
+        <com.iccbot.R$drawable: int abc_cab_background_top_material> = 2130837515;
+
+        <com.iccbot.R$drawable: int abc_cab_background_internal_bg> = 2130837514;
+
+        <com.iccbot.R$drawable: int abc_btn_switch_to_on_mtrl_00012> = 2130837513;
+
+        <com.iccbot.R$drawable: int abc_btn_switch_to_on_mtrl_00001> = 2130837512;
+
+        <com.iccbot.R$drawable: int abc_btn_radio_to_on_mtrl_015> = 2130837511;
+
+        <com.iccbot.R$drawable: int abc_btn_radio_to_on_mtrl_000> = 2130837510;
+
+        <com.iccbot.R$drawable: int abc_btn_radio_material> = 2130837509;
+
+        <com.iccbot.R$drawable: int abc_btn_check_to_on_mtrl_015> = 2130837508;
+
+        <com.iccbot.R$drawable: int abc_btn_check_to_on_mtrl_000> = 2130837507;
+
+        <com.iccbot.R$drawable: int abc_btn_check_material> = 2130837506;
+
+        <com.iccbot.R$drawable: int abc_ab_share_pack_holo_light> = 2130837505;
+
+        <com.iccbot.R$drawable: int abc_ab_share_pack_holo_dark> = 2130837504;
+
+        return;
+    }
+}

@@ -1,0 +1,211 @@
+{
+    "transitions": [
+        {
+            "handler": "org.jessies.dalvikexplorer.TextViewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.FileViewerActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.TimeZonesActivity/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "org.jessies.dalvikexplorer.TimeZonesActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.TimeZoneActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.BetterListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.TimeZonesActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.TextViewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.SystemPropertiesActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.BetterListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.LocalesActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.LocalesActivity/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "org.jessies.dalvikexplorer.LocalesActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.LocaleActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.LocalesActivity/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "org.jessies.dalvikexplorer.LocalesActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.LocaleCountriesActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.TextViewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.BuildActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.BetterListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.SensorsActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.FileSystemActivity/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "org.jessies.dalvikexplorer.FileSystemActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.FileViewerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.FileSystemActivity/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "org.jessies.dalvikexplorer.FileSystemActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.FileSystemActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.BetterListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.FileSystemActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.TextViewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.CharsetActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.TextViewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.EnvironmentVariablesActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.TextViewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.TimeZoneActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.FileSystemsActivity/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "org.jessies.dalvikexplorer.FileSystemsActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.FileSystemActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.BetterListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.FileSystemsActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.CharsetsActivity/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "org.jessies.dalvikexplorer.CharsetsActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.CharsetActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.BetterListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.CharsetsActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.TextViewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.DeviceActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.TextViewActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.LocaleActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.BetterListActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "org.jessies.dalvikexplorer.LocaleCountriesActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.DalvikExplorerActivity"
+            ]
+        },
+        {
+            "handler": "org.jessies.dalvikexplorer.LocaleCountriesActivity/void onListItemClick(android.widget.ListView,android.view.View,int,long)",
+            "sources": [
+                "org.jessies.dalvikexplorer.LocaleCountriesActivity"
+            ],
+            "targets": [
+                "org.jessies.dalvikexplorer.LocaleActivity"
+            ]
+        }
+    ]
+}

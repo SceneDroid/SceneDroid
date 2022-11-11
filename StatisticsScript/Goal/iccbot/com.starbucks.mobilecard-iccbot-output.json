@@ -1,0 +1,31 @@
+{
+    "transitions": [
+        {
+            "handler": "o.awi/void asBinder()",
+            "sources": [
+                "o.awi"
+            ],
+            "targets": [
+                "o.awi$Activity"
+            ]
+        },
+        {
+            "handler": "o.ki/void onClick(android.content.DialogInterface,int)",
+            "sources": [
+                "o.ki"
+            ],
+            "targets": [
+                "com.starbucks.mobilecard.main.activity.LandingPageActivity"
+            ]
+        },
+        {
+            "handler": "o.ayA/int[] onTransact(android.content.Context,java.lang.String[])",
+            "sources": [
+                "o.ayA"
+            ],
+            "targets": [
+                "o.ayA"
+            ]
+        }
+    ]
+}

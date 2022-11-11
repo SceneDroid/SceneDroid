@@ -1,0 +1,31 @@
+{
+    "transitions": [
+        {
+            "handler": "de.freewarepoint.whohasmystuff.ListLentObjects/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.freewarepoint.whohasmystuff.ListLentObjects"
+            ],
+            "targets": [
+                "de.freewarepoint.whohasmystuff.ShowHistory"
+            ]
+        },
+        {
+            "handler": "de.freewarepoint.whohasmystuff.ListLentObjects/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "de.freewarepoint.whohasmystuff.ListLentObjects"
+            ],
+            "targets": [
+                "de.freewarepoint.whohasmystuff.AddObject"
+            ]
+        },
+        {
+            "handler": "de.freewarepoint.whohasmystuff.AbstractListIntent/void launchEditActivity(int,long)",
+            "sources": [
+                "de.freewarepoint.whohasmystuff.ShowHistory"
+            ],
+            "targets": [
+                "de.freewarepoint.whohasmystuff.AddObject"
+            ]
+        }
+    ]
+}

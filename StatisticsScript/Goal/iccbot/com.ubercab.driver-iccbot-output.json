@@ -1,0 +1,13 @@
+{
+    "transitions": [
+        {
+            "handler": "com.jakewharton.processphoenix.ProcessPhoenix/void a(android.content.Context,android.content.Intent[])",
+            "sources": [
+                "com.jakewharton.processphoenix.ProcessPhoenix"
+            ],
+            "targets": [
+                "com.jakewharton.processphoenix.ProcessPhoenix"
+            ]
+        }
+    ]
+}

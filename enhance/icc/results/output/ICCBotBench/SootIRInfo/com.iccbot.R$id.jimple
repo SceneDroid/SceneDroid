@@ -1,0 +1,226 @@
+public final class com.iccbot.R$id extends java.lang.Object
+{
+    public static final int action_bar;
+    public static final int action_bar_activity_content;
+    public static final int action_bar_container;
+    public static final int action_bar_root;
+    public static final int action_bar_spinner;
+    public static final int action_bar_subtitle;
+    public static final int action_bar_title;
+    public static final int action_context_bar;
+    public static final int action_menu_divider;
+    public static final int action_menu_presenter;
+    public static final int action_mode_bar;
+    public static final int action_mode_bar_stub;
+    public static final int action_mode_close_button;
+    public static final int action_settings;
+    public static final int activity_chooser_view_content;
+    public static final int always;
+    public static final int beginning;
+    public static final int button;
+    public static final int checkbox;
+    public static final int collapseActionView;
+    public static final int decor_content_parent;
+    public static final int default_activity_button;
+    public static final int dialog;
+    public static final int disableHome;
+    public static final int dropdown;
+    public static final int edit_query;
+    public static final int end;
+    public static final int expand_activities_button;
+    public static final int expanded_menu;
+    public static final int fragment1;
+    public static final int fragment_one;
+    public static final int home;
+    public static final int homeAsUp;
+    public static final int icon;
+    public static final int ifRoom;
+    public static final int image;
+    public static final int listMode;
+    public static final int list_item;
+    public static final int middle;
+    public static final int never;
+    public static final int none;
+    public static final int normal;
+    public static final int progress_circular;
+    public static final int progress_horizontal;
+    public static final int radio;
+    public static final int search_badge;
+    public static final int search_bar;
+    public static final int search_button;
+    public static final int search_close_btn;
+    public static final int search_edit_frame;
+    public static final int search_go_btn;
+    public static final int search_mag_icon;
+    public static final int search_plate;
+    public static final int search_src_text;
+    public static final int search_voice_btn;
+    public static final int shortcut;
+    public static final int showCustom;
+    public static final int showHome;
+    public static final int showTitle;
+    public static final int split_action_bar;
+    public static final int submit_area;
+    public static final int tabMode;
+    public static final int textView1;
+    public static final int text_dashboard;
+    public static final int title;
+    public static final int up;
+    public static final int useLogo;
+    public static final int withText;
+    public static final int wrap_content;
+
+    public void <init>()
+    {
+        com.iccbot.R$id r0;
+
+        r0 := @this: com.iccbot.R$id;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void <clinit>()
+    {
+        <com.iccbot.R$id: int wrap_content> = 2131296265;
+
+        <com.iccbot.R$id: int withText> = 2131296280;
+
+        <com.iccbot.R$id: int useLogo> = 2131296275;
+
+        <com.iccbot.R$id: int up> = 2131296257;
+
+        <com.iccbot.R$id: int title> = 2131296295;
+
+        <com.iccbot.R$id: int text_dashboard> = 2131296322;
+
+        <com.iccbot.R$id: int textView1> = 2131296319;
+
+        <com.iccbot.R$id: int tabMode> = 2131296268;
+
+        <com.iccbot.R$id: int submit_area> = 2131296316;
+
+        <com.iccbot.R$id: int split_action_bar> = 2131296260;
+
+        <com.iccbot.R$id: int showTitle> = 2131296274;
+
+        <com.iccbot.R$id: int showHome> = 2131296273;
+
+        <com.iccbot.R$id: int showCustom> = 2131296272;
+
+        <com.iccbot.R$id: int shortcut> = 2131296298;
+
+        <com.iccbot.R$id: int search_voice_btn> = 2131296318;
+
+        <com.iccbot.R$id: int search_src_text> = 2131296314;
+
+        <com.iccbot.R$id: int search_plate> = 2131296313;
+
+        <com.iccbot.R$id: int search_mag_icon> = 2131296312;
+
+        <com.iccbot.R$id: int search_go_btn> = 2131296317;
+
+        <com.iccbot.R$id: int search_edit_frame> = 2131296311;
+
+        <com.iccbot.R$id: int search_close_btn> = 2131296315;
+
+        <com.iccbot.R$id: int search_button> = 2131296310;
+
+        <com.iccbot.R$id: int search_bar> = 2131296308;
+
+        <com.iccbot.R$id: int search_badge> = 2131296309;
+
+        <com.iccbot.R$id: int radio> = 2131296299;
+
+        <com.iccbot.R$id: int progress_horizontal> = 2131296264;
+
+        <com.iccbot.R$id: int progress_circular> = 2131296263;
+
+        <com.iccbot.R$id: int normal> = 2131296267;
+
+        <com.iccbot.R$id: int none> = 2131296271;
+
+        <com.iccbot.R$id: int never> = 2131296279;
+
+        <com.iccbot.R$id: int middle> = 2131296285;
+
+        <com.iccbot.R$id: int list_item> = 2131296293;
+
+        <com.iccbot.R$id: int listMode> = 2131296266;
+
+        <com.iccbot.R$id: int image> = 2131296291;
+
+        <com.iccbot.R$id: int ifRoom> = 2131296278;
+
+        <com.iccbot.R$id: int icon> = 2131296294;
+
+        <com.iccbot.R$id: int homeAsUp> = 2131296270;
+
+        <com.iccbot.R$id: int home> = 2131296256;
+
+        <com.iccbot.R$id: int fragment_one> = 2131296321;
+
+        <com.iccbot.R$id: int fragment1> = 2131296323;
+
+        <com.iccbot.R$id: int expanded_menu> = 2131296296;
+
+        <com.iccbot.R$id: int expand_activities_button> = 2131296290;
+
+        <com.iccbot.R$id: int end> = 2131296284;
+
+        <com.iccbot.R$id: int edit_query> = 2131296307;
+
+        <com.iccbot.R$id: int dropdown> = 2131296282;
+
+        <com.iccbot.R$id: int disableHome> = 2131296269;
+
+        <com.iccbot.R$id: int dialog> = 2131296281;
+
+        <com.iccbot.R$id: int default_activity_button> = 2131296292;
+
+        <com.iccbot.R$id: int decor_content_parent> = 2131296303;
+
+        <com.iccbot.R$id: int collapseActionView> = 2131296277;
+
+        <com.iccbot.R$id: int checkbox> = 2131296297;
+
+        <com.iccbot.R$id: int button> = 2131296320;
+
+        <com.iccbot.R$id: int beginning> = 2131296283;
+
+        <com.iccbot.R$id: int always> = 2131296276;
+
+        <com.iccbot.R$id: int activity_chooser_view_content> = 2131296289;
+
+        <com.iccbot.R$id: int action_settings> = 2131296324;
+
+        <com.iccbot.R$id: int action_mode_close_button> = 2131296288;
+
+        <com.iccbot.R$id: int action_mode_bar_stub> = 2131296301;
+
+        <com.iccbot.R$id: int action_mode_bar> = 2131296302;
+
+        <com.iccbot.R$id: int action_menu_presenter> = 2131296262;
+
+        <com.iccbot.R$id: int action_menu_divider> = 2131296261;
+
+        <com.iccbot.R$id: int action_context_bar> = 2131296306;
+
+        <com.iccbot.R$id: int action_bar_title> = 2131296286;
+
+        <com.iccbot.R$id: int action_bar_subtitle> = 2131296287;
+
+        <com.iccbot.R$id: int action_bar_spinner> = 2131296258;
+
+        <com.iccbot.R$id: int action_bar_root> = 2131296300;
+
+        <com.iccbot.R$id: int action_bar_container> = 2131296304;
+
+        <com.iccbot.R$id: int action_bar_activity_content> = 2131296259;
+
+        <com.iccbot.R$id: int action_bar> = 2131296305;
+
+        return;
+    }
+}

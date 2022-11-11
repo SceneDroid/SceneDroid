@@ -1,0 +1,112 @@
+{
+    "transitions": [
+        {
+            "handler": "com.quran.labs.androidquran.ui.QuranActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.quran.labs.androidquran.ui.QuranActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.QuranForwarderActivity"
+            ]
+        },
+        {
+            "handler": "com.quran.labs.androidquran.ui.QuranActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.quran.labs.androidquran.ui.QuranActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.HelpActivity"
+            ]
+        },
+        {
+            "handler": "com.quran.labs.androidquran.ui.QuranActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.quran.labs.androidquran.ui.QuranActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.AboutUsActivity"
+            ]
+        },
+        {
+            "handler": "com.quran.labs.androidquran.ui.QuranActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.quran.labs.androidquran.ui.QuranActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.QuranPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "com.quran.labs.androidquran.ui.QuranActivity/void b(int)",
+            "sources": [
+                "com.quran.labs.androidquran.ui.QuranActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.ui.PagerActivity"
+            ]
+        },
+        {
+            "handler": "com.quran.labs.androidquran.ShortcutsActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.quran.labs.androidquran.ShortcutsActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.ui.QuranActivity"
+            ]
+        },
+        {
+            "handler": "com.quran.labs.androidquran.SearchActivity/void a(int,int)",
+            "sources": [
+                "com.quran.labs.androidquran.SearchActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.ui.PagerActivity"
+            ]
+        },
+        {
+            "handler": "com.quran.labs.androidquran.QuranForwarderActivity/void onCreate(android.os.Bundle)",
+            "sources": [
+                "com.quran.labs.androidquran.QuranForwarderActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.ui.PagerActivity"
+            ]
+        },
+        {
+            "handler": "com.quran.labs.androidquran.QuranDataActivity/void b()",
+            "sources": [
+                "com.quran.labs.androidquran.QuranDataActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.ui.QuranActivity"
+            ]
+        },
+        {
+            "handler": "com.quran.labs.androidquran.ui.PagerActivity/void i()",
+            "sources": [
+                "com.quran.labs.androidquran.ui.PagerActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.ui.TranslationManagerActivity"
+            ]
+        },
+        {
+            "handler": "com.quran.labs.androidquran.ui.PagerActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.quran.labs.androidquran.ui.PagerActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.QuranPreferenceActivity"
+            ]
+        },
+        {
+            "handler": "com.quran.labs.androidquran.ui.PagerActivity/boolean onOptionsItemSelected(android.view.MenuItem)",
+            "sources": [
+                "com.quran.labs.androidquran.ui.PagerActivity"
+            ],
+            "targets": [
+                "com.quran.labs.androidquran.HelpActivity"
+            ]
+        }
+    ]
+}
