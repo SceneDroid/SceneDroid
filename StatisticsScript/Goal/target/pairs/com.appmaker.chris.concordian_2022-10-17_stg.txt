@@ -1,3 +1,0 @@
-com.appmaker.chris.concordian.SettingActivity->com.appmaker.chris.concordian.SettingActivity
-com.appmaker.chris.concordian.MainActivity->com.appmaker.chris.concordian.MainActivity
-com.appmaker.chris.concordian.MainActivity->com.appmaker.chris.concordian.MainActivity

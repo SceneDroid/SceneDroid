@@ -1,9 +1,0 @@
-onCreate
-onStart
-onRestart
-onResume
-onPause
-onStop
-onDestroy
-<init>
-<clinit>
