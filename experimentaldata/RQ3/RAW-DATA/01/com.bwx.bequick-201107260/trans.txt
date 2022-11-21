@@ -1,0 +1,14 @@
+com.bwx.bequick.MainSettingsActivity->a22e0965e787246c36ae8741f2b35356
+com.bwx.bequick.LayoutSettingsActivity->com.bwx.bequick.preferences.GpsPrefs
+com.bwx.bequick.MainSettingsActivity->com.bwx.bequick.LayoutSettingsActivity
+com.bwx.bequick.MainSettingsActivity->com.bwx.bequick.flashlight.ScreenLightActivity
+com.bwx.bequick.ShowSettingsActivity->com.bwx.bequick.MainSettingsActivity
+com.bwx.bequick.LayoutSettingsActivity->com.bwx.bequick.preferences.BrightnessPrefs
+com.bwx.bequick.MainSettingsActivity->com.bwx.bequick.preferences.CommonPrefs
+com.bwx.bequick.MainSettingsActivity->52fb6111bdd645f8d8ef2726e30cd75d
+com.bwx.bequick.ShowSettingsActivity->com.bwx.bequick.DialogSettingsActivity
+com.bwx.bequick.LayoutSettingsActivity->com.bwx.bequick.preferences.MobileDataPrefs
+com.bwx.bequick.DialogSettingsActivity->com.bwx.bequick.preferences.CommonPrefs
+com.bwx.bequick.MainSettingsActivity->6cd9bff2bffa7480a5ca0232fbdc522f
+com.bwx.bequick.DialogSettingsActivity->com.bwx.bequick.flashlight.ScreenLightActivity
+com.bwx.bequick.DialogSettingsActivity->com.bwx.bequick.LayoutSettingsActivity

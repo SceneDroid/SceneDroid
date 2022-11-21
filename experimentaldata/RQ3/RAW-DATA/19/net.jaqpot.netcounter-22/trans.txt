@@ -1,0 +1,6 @@
+net.jaqpot.netcounter.activity.BarGraphActivity->17d707e486785eb12d5c046248b9c56b
+net.jaqpot.netcounter.activity.NetCounterActivity->6c62f9114b3360970e2b681dc18f7f94
+8d3e6bab1a883efba2b5a0cbec445571->cce7039872b9bf456465029fb73f3713
+net.jaqpot.netcounter.activity.NetCounterPreferences->8d3e6bab1a883efba2b5a0cbec445571
+net.jaqpot.netcounter.activity.NetCounterActivity->net.jaqpot.netcounter.activity.NetCounterPreferences
+net.jaqpot.netcounter.activity.NetCounterActivity->net.jaqpot.netcounter.activity.BarGraphActivity

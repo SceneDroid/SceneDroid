@@ -1,0 +1,24 @@
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_android.intent.action.SEARCH, android.intent.action.SEND, 
+org.ebookdroid.ui.viewer.VerticalViewActivity->com.foobnix.zipmanager.SendReceiveActivity
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_android.intent.action.SEND, 
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_colordict.intent.action.SEARCH, android.intent.action.SEARCH, android.intent.action.SEND, android.intent.category.LAUNCHER
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_colordict.intent.action.SEARCH, android.intent.action.SEARCH, android.intent.action.SEND, 
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_colordict.intent.action.SEARCH, android.intent.action.PROCESS_TEXT, android.intent.action.SEARCH, android.intent.action.SEND, android.intent.category.LAUNCHER
+com.foobnix.ui2.MainTabs2->com.foobnix.ui2.MainTabs2
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_android.intent.action.PROCESS_TEXT, android.intent.category.LAUNCHER
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_colordict.intent.action.SEARCH, android.intent.action.PROCESS_TEXT, android.intent.action.SEND, android.intent.category.LAUNCHER
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_android.intent.action.PROCESS_TEXT, android.intent.action.SEND, android.intent.category.LAUNCHER
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_android.intent.action.PROCESS_TEXT, android.intent.action.SEARCH, android.intent.category.LAUNCHER
+com.foobnix.ui2.MainTabs2->com.foobnix.pdf.search.activity.HorizontalViewActivity
+com.foobnix.ui2.MainTabs2->org.ebookdroid.ui.viewer.VerticalViewActivity
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_android.intent.action.SEND, android.intent.category.LAUNCHER
+com.foobnix.ui2.MainTabs2->com.foobnix.ui2.fragment.PrefFragment2
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_colordict.intent.action.SEARCH, android.intent.action.SEND, 
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_colordict.intent.action.SEARCH, android.intent.action.PROCESS_TEXT, android.intent.category.LAUNCHER
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_android.intent.action.SEARCH, android.intent.action.SEND, android.intent.category.LAUNCHER
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_colordict.intent.action.SEARCH, android.intent.action.SEND, android.intent.category.LAUNCHER
+org.ebookdroid.ui.viewer.VerticalViewActivity->interICC_android.intent.action.SEND, 
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_colordict.intent.action.SEARCH, android.intent.action.PROCESS_TEXT, android.intent.action.SEARCH, android.intent.category.LAUNCHER
+com.foobnix.pdf.search.activity.HorizontalViewActivity->java.lang.String
+com.foobnix.pdf.search.activity.HorizontalViewActivity->interICC_android.intent.action.PROCESS_TEXT, android.intent.action.SEARCH, android.intent.action.SEND, android.intent.category.LAUNCHER
+com.foobnix.pdf.search.activity.HorizontalViewActivity->com.foobnix.zipmanager.SendReceiveActivity

@@ -1,0 +1,5 @@
+org.paulmach.textedit.pmTextEdit->org.paulmach.textedit.EditPreferences
+org.paulmach.textedit.pmTextEdit->interICC_android.intent.action.SEND, 
+org.paulmach.textedit.pmTextEdit->org.paulmach.textedit.FileBrowser
+org.paulmach.textedit.FileBrowser->34624be15d3f79ef77945e99df98973f
+org.paulmach.textedit.EditPreferences->org.paulmach.textedit.FileBrowser

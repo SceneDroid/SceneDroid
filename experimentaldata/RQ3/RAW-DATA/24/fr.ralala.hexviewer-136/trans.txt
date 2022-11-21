@@ -1,0 +1,1 @@
+fr.ralala.hexviewer.ui.activities.MainActivity->fr.ralala.hexviewer.ui.activities.settings.SettingsActivity

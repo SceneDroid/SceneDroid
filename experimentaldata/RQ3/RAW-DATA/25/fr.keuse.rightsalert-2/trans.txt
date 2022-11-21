@@ -1,0 +1,4 @@
+fr.keuse.rightsalert.activity.ApplistActivity->fr.keuse.rightsalert.preference.RightsalertPreference
+0984c233c6ace09966a43830dd8e5133->fr.keuse.rightsalert.preference.RightsalertPreference
+fr.keuse.rightsalert.activity.ApplistActivity->0984c233c6ace09966a43830dd8e5133
+fr.keuse.rightsalert.preference.RightsalertPreference->01826124b43e4f35c1387dd48ea9a1e2

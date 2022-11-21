@@ -1,0 +1,17 @@
+com.github.axet.bookreader.activities.MainActivity->com.github.axet.bookreader.activities.SettingsActivity
+41a5397b5a4528083e23027c96f5f886->e16622371f64c880ae172afcd80ec93f
+102487c469ea478a2b26f73c86c863c4->294e989b81ea1891e0234381d9bae736
+com.github.axet.bookreader.GeneralPreferenceFragment->41e2cf86380a427cd15d595855cd04cf
+com.github.axet.bookreader.activities.SettingsActivity->com.github.axet.bookreader.GeneralPreferenceFragment
+com.github.axet.bookreader.activities.MainActivity->com.github.axet.bookreader.LibraryFragment
+102487c469ea478a2b26f73c86c863c4->99f373d14bc34f405cff440825000ec7
+com.github.axet.bookreader.GeneralPreferenceFragment->com.github.axet.bookreader.activities.MainActivity
+41e2cf86380a427cd15d595855cd04cf->41a5397b5a4528083e23027c96f5f886
+41a5397b5a4528083e23027c96f5f886->com.github.axet.bookreader.activities.MainActivity
+com.github.axet.bookreader.activities.SettingsActivity->interICC_android.intent.action.OPEN_DOCUMENT, android.intent.category.OPENABLE
+com.github.axet.bookreader.activities.SettingsActivity->com.github.axet.bookreader.activities.MainActivity
+com.github.axet.bookreader.activities.MainActivity->interICC_android.intent.action.OPEN_DOCUMENT, android.intent.category.OPENABLE
+294e989b81ea1891e0234381d9bae736->bb59e2b831d4f93de3254d051b806003
+com.github.axet.bookreader.activities.SettingsActivity->com.github.axet.bookreader.activities.SettingsActivity
+com.github.axet.bookreader.LibraryFragment->102487c469ea478a2b26f73c86c863c4
+102487c469ea478a2b26f73c86c863c4->com.github.axet.bookreader.activities.SettingsActivity
