@@ -1,0 +1,13 @@
+com.nononsenseapps.feeder.ui.ManageSettingsActivity->fcd1f75a4c51a06b68f68fbf48023cd6
+com.nononsenseapps.feeder.ui.ManageSettingsActivity->914174ee4a9110afee0ffbf1887a625b
+com.nononsenseapps.feeder.ui.ManageSettingsActivity->306f71f671e3b7b1c66c79f2cca284c3
+com.nononsenseapps.feeder.ui.ManageSettingsActivity->com.nononsenseapps.feeder.ui.MainActivity
+com.nononsenseapps.feeder.ui.AddFeedFromShareActivity->fe38e7a635d137a3463dcd3565b75cfc
+e9d4f55811d773580874411edd84ef22->com.nononsenseapps.feeder.ui.MainActivity
+com.nononsenseapps.feeder.ui.ManageSettingsActivity->264c3dc7a05d243d62bfffabfd5a37ea
+fe38e7a635d137a3463dcd3565b75cfc->e9d4f55811d773580874411edd84ef22
+com.nononsenseapps.feeder.ui.OpenLinkInDefaultActivity->com.nononsenseapps.feeder.ui.MainActivity
+com.nononsenseapps.feeder.ui.MainActivity->000a7ddd0aa8780bff0a28813d3b86db
+com.nononsenseapps.feeder.ui.AddFeedFromShareActivity->com.nononsenseapps.feeder.ui.MainActivity
+fe38e7a635d137a3463dcd3565b75cfc->com.nononsenseapps.feeder.ui.MainActivity
+com.nononsenseapps.feeder.ui.MainActivity->d59cb7c985e14d259f82e39d0368e536

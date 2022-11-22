@@ -1,0 +1,7 @@
+us.achromaticmetaphor.imcktg.GaAT->us.achromaticmetaphor.imcktg.DefaultToneInput
+us.achromaticmetaphor.imcktg.DefaultToneInput->us.achromaticmetaphor.imcktg.ConfirmContacts
+us.achromaticmetaphor.imcktg.SelectContacts->us.achromaticmetaphor.imcktg.ConfirmContacts
+us.achromaticmetaphor.imcktg.GaAT->us.achromaticmetaphor.imcktg.ChooseFilename
+us.achromaticmetaphor.imcktg.ChooseFilename->us.achromaticmetaphor.imcktg.ConfirmContacts
+us.achromaticmetaphor.imcktg.GaAT->us.achromaticmetaphor.imcktg.SelectContacts
+us.achromaticmetaphor.imcktg.GaAT->us.achromaticmetaphor.imcktg.About

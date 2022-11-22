@@ -1,0 +1,3 @@
+org.moire.ultrasonic.MainFragment->org.moire.ultrasonic.TrackCollectionFragment
+org.moire.ultrasonic.activity.NavigationActivity->org.moire.ultrasonic.MainFragment
+org.moire.ultrasonic.MainFragment->org.moire.ultrasonic.AlbumListFragment

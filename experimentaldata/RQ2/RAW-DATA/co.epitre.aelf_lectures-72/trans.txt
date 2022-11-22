@@ -1,0 +1,13 @@
+309f789bfd253cf0801ea94da1a7b8ce->0b4b3fac7f388e28811031c8335fd7a2
+co.epitre.aelf_lectures.LecturesActivity->co.epitre.aelf_lectures.components.AboutDialogFragment
+co.epitre.aelf_lectures.LecturesActivity->co.epitre.aelf_lectures.LectureFragment
+05e5209935fc5812383b8e3503fbb8f1->33f0124cfb0b4ad387f08e8bea4ae806
+co.epitre.aelf_lectures.BibleChapterFragment->05e5209935fc5812383b8e3503fbb8f1
+co.epitre.aelf_lectures.LecturesActivity->co.epitre.aelf_lectures.LecturesActivity
+co.epitre.aelf_lectures.settings.SettingsActivity->co.epitre.aelf_lectures.settings.MainPrefFragment
+co.epitre.aelf_lectures.LectureFragment->309f789bfd253cf0801ea94da1a7b8ce
+0b4b3fac7f388e28811031c8335fd7a2->co.epitre.aelf_lectures.BibleChapterFragment
+co.epitre.aelf_lectures.LectureFragment->co.epitre.aelf_lectures.BibleChapterFragment
+33f0124cfb0b4ad387f08e8bea4ae806->co.epitre.aelf_lectures.LectureFragment
+co.epitre.aelf_lectures.LecturesActivity->co.epitre.aelf_lectures.settings.SettingsActivity
+co.epitre.aelf_lectures.BibleChapterFragment->co.epitre.aelf_lectures.LectureFragment

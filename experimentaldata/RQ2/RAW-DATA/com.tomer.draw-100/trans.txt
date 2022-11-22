@@ -1,0 +1,2 @@
+com.tomer.draw.windows.HolderService->interICC_android.intent.action.VIEW, 
+com.tomer.draw.gallery.MainActivity->com.tomer.draw.b

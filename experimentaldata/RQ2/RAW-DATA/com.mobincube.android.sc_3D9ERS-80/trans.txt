@@ -1,0 +1,1 @@
+com.mobincube.android.sc_3D9ERS.MainActivity->com.mobincube.android.sc_3D9ERS.Activity2

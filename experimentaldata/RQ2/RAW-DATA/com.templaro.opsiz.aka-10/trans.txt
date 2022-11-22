@@ -1,0 +1,5 @@
+com.templaro.opsiz.aka.AndroidomaticKeyerActivity->com.templaro.opsiz.aka.StraightKeyActivity
+com.templaro.opsiz.aka.Settings->421d9d7a9ad1350b1ba6ebe4eec552f6
+com.templaro.opsiz.aka.AndroidomaticKeyerActivity->com.templaro.opsiz.aka.Settings
+com.templaro.opsiz.aka.Settings->488ab16949309b4bf7f82a2badb948de
+com.templaro.opsiz.aka.AndroidomaticKeyerActivity->com.templaro.opsiz.aka.Help

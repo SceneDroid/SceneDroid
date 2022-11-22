@@ -1,0 +1,9 @@
+net.fercanet.LNM.Settings->net.fercanet.LNM.MainMenu
+net.fercanet.LNM.MainMenu->net.fercanet.LNM.Hof
+net.fercanet.LNM.MainMenu->net.fercanet.LNM.Game
+net.fercanet.LNM.MainMenu->net.fercanet.LNM.Settings
+net.fercanet.LNM.Game->net.fercanet.LNM.MainMenu
+net.fercanet.LNM.Hof->net.fercanet.LNM.MainMenu
+net.fercanet.LNM.Settings->8701bbe53e11c4474ac0ef933a151dbf
+8701bbe53e11c4474ac0ef933a151dbf->238edf57b450df196c14dcc929212aa9
+net.fercanet.LNM.MainMenu->a52be67a7bc0cf3c89236fc261d686e5

@@ -1,0 +1,2 @@
+com.foobnix.ui2.MainTabs2->com.foobnix.ui2.fragment.PrefFragment2
+com.foobnix.ui2.MainTabs2->com.foobnix.ui2.MainTabs2

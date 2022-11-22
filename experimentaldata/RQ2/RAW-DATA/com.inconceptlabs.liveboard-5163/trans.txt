@@ -1,0 +1,2 @@
+com.inconceptlabs.liveboard.pages.activities.MainActivity->com.inconceptlabs.liveboard.BoardsFragment
+com.inconceptlabs.liveboard.pages.activities.LaunchActivity->com.inconceptlabs.liveboard.pages.activities.SignInActivity

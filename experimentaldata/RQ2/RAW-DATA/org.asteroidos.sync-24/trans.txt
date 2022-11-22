@@ -1,0 +1,8 @@
+org.asteroidos.sync.PermissionsActivity->org.asteroidos.sync.MainActivity
+org.asteroidos.sync.MainActivity->org.asteroidos.sync.fragments.DeviceListFragment
+org.asteroidos.sync.PermissionsActivity->org.asteroidos.sync.BLENotSupportedSlide
+org.asteroidos.sync.MainActivity->org.asteroidos.sync.fragments.AppListFragment
+org.asteroidos.sync.BLENotSupportedSlide->819bfe9650f231c29253123d04a95d92
+org.asteroidos.sync.MainActivity->org.asteroidos.sync.fragments.DeviceDetailFragment
+org.asteroidos.sync.services.SynchronizationService->interICC_android.intent.action.VIEW, 
+org.asteroidos.sync.MainActivity->org.asteroidos.sync.fragments.WeatherSettingsFragment

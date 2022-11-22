@@ -1,0 +1,11 @@
+is.xyz.mpv.MPVActivity->is.xyz.mpv.FilePickerActivity
+is.xyz.mpv.config.SettingsActivity->is.xyz.mpv.config.SettingsActivity$UIPreferenceFragment
+is.xyz.mpv.FilePickerActivity->is.xyz.mpv.MPVDocumentPickerFragment
+is.xyz.mpv.MainActivity->is.xyz.mpv.MainScreenFragment
+is.xyz.mpv.MainActivity->is.xyz.mpv.config.SettingsActivity
+is.xyz.mpv.config.SettingsActivity->c34bf5aa86b3a7f2dfe9562f9c19aad0
+is.xyz.mpv.FilePickerActivity->is.xyz.mpv.ChoiceFragment
+is.xyz.mpv.FilePickerActivity->is.xyz.mpv.MPVFilePickerFragment
+is.xyz.mpv.ChoiceFragment->a92767cc0aec940e1307ed29fbe1e24a
+c34bf5aa86b3a7f2dfe9562f9c19aad0->bd714746f062bdc32a185c576dfe2040
+is.xyz.mpv.config.SettingsActivity->ce38134b2e0c74bb4b68e7d7233301c1

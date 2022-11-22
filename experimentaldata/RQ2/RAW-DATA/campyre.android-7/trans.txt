@@ -1,0 +1,10 @@
+1835659ff2726d1b11603ca163566230->70782357babbf5d0b6eb549dfa71cceb
+campyre.android.ShareImage->campyre.android.RoomList
+campyre.android.Settings->1835659ff2726d1b11603ca163566230
+campyre.android.ShareImage->campyre.android.Login
+campyre.android.RoomView->campyre.android.Login
+campyre.android.RoomList->campyre.android.Login
+campyre.android.RoomList->campyre.android.Settings
+campyre.android.RoomView->campyre.android.Settings
+campyre.android.RoomView->campyre.android.RoomTabs
+campyre.android.RoomList->campyre.android.RoomTabs

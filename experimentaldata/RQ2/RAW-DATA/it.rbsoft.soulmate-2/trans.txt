@@ -1,0 +1,13 @@
+it.rbsoft.soulmate.sms->d7cd1c0e9c23c70df2579a29ee0cdccc
+it.rbsoft.soulmate.Main->it.rbsoft.soulmate.sms
+it.rbsoft.soulmate.girlfriend->43a37f862be3164a587ffb09798a91a3
+2117f70ee738588e70d5aa005a21ee67->7272b9ad6a6dcb7dc30ffce6dfde0b2b
+it.rbsoft.soulmate.Main->it.rbsoft.soulmate.girlfriend
+it.rbsoft.soulmate.Main->it.rbsoft.soulmate.help
+it.rbsoft.soulmate.Main->45d1b3911d29e64163e460fcace53de0
+it.rbsoft.soulmate.Main->it.rbsoft.soulmate.about
+it.rbsoft.soulmate.Main->it.rbsoft.soulmate.report_log
+d7cd1c0e9c23c70df2579a29ee0cdccc->2117f70ee738588e70d5aa005a21ee67
+it.rbsoft.soulmate.Main->it.rbsoft.soulmate.buy
+it.rbsoft.soulmate.Main->it.rbsoft.soulmate.call
+it.rbsoft.soulmate.Main->it.rbsoft.soulmate.warning

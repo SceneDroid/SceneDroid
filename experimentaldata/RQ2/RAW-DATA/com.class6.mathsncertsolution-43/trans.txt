@@ -1,0 +1,8 @@
+com.class6.mathsncertsolution.ExerciseActivity->com.class6.mathsncertsolution.PdfActivity
+com.class6.mathsncertsolution.MainActivity->interICC_android.intent.action.SEND, 
+com.class6.mathsncertsolution.MainActivity->com.class6.mathsncertsolution.FragmentProxy
+com.class6.mathsncertsolution.ExerciseActivity->com.class6.mathsncertsolution.FragmentProxy
+com.class6.mathsncertsolution.MainActivity->com.class6.mathsncertsolution.p
+com.class6.mathsncertsolution.youtube.YoutubeVideoActivity->com.class6.mathsncertsolution.FragmentProxy
+com.class6.mathsncertsolution.PdfActivity->com.class6.mathsncertsolution.youtube.YoutubeVideoActivity
+com.class6.mathsncertsolution.PdfActivity->interICC_android.intent.action.SEND, 

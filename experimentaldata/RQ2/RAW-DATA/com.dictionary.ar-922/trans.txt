@@ -1,0 +1,6 @@
+com.dictionary.ar.OCRDepActivity->com.dictionary.ar.DictionaryActivity
+d9d8b16c005cb12d2124d2a27c5c1ea0->b8fed71f36ce5b866aca87a88f142d2c
+com.dictionary.ar.PopupActivity->com.dictionary.ar.DictionaryActivity
+com.dictionary.ar.DictionaryActivity->com.dictionary.ar.OCRDepActivity
+com.dictionary.ar.DictionaryActivity->interICC_android.intent.action.SEND, 
+com.dictionary.ar.DictionaryActivity->d9d8b16c005cb12d2124d2a27c5c1ea0

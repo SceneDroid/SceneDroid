@@ -1,0 +1,6 @@
+org.dnaq.dialer2.DialerActivity->org.dnaq.dialer2.SelectNumberDialog
+org.dnaq.dialer2.DialerActivity->org.dnaq.dialer2.SelectSpeedDialSlotDialog
+org.dnaq.dialer2.DialerActivity->org.dnaq.dialer2.ContactViewDialog
+org.dnaq.dialer2.DialerActivity->org.dnaq.dialer2.DialerPreferenceActivity
+org.dnaq.dialer2.SelectSpeedDialSlotDialog->69b99a8030f5324284fc1dd6bad895ac
+org.dnaq.dialer2.DialerPreferenceActivity->bc055c39425ed666efe3b00cb5c9c71f
