@@ -1,0 +1,16 @@
+com.example.responsiveact.ResponsiveActivity->com.example.responsiveact.Activity1
+com.example.responsiveact.PlaceholderFragment->116676ceba93422e354aa3ee215c55fd
+com.example.responsiveact.ReflowFragment->07bb3d6d53f2f92a72d9642b1baa6fcc
+com.example.responsiveact.TransformFragment->com.example.responsiveact.SlideshowFragment
+68cbe3cc74df5f2cc106588ee923fdff->com.example.responsiveact.TransformFragment
+com.example.responsiveact.TabbedActivity->com.example.responsiveact.PlaceholderFragment
+com.example.responsiveact.Activity1->com.example.responsiveact.TabbedActivity
+68cbe3cc74df5f2cc106588ee923fdff->com.example.responsiveact.SlideshowFragment
+com.example.responsiveact.ResponsiveActivity->com.example.responsiveact.TransformFragment
+com.example.responsiveact.SlideshowFragment->com.example.responsiveact.Activity1
+com.example.responsiveact.SettingsFragment->68cbe3cc74df5f2cc106588ee923fdff
+com.example.responsiveact.ReflowFragment->com.example.responsiveact.Activity1
+07bb3d6d53f2f92a72d9642b1baa6fcc->com.example.responsiveact.Activity1
+07bb3d6d53f2f92a72d9642b1baa6fcc->com.example.responsiveact.SettingsFragment
+com.example.responsiveact.SlideshowFragment->com.example.responsiveact.ReflowFragment
+68cbe3cc74df5f2cc106588ee923fdff->com.example.responsiveact.ReflowFragment
