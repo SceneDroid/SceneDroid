@@ -4,6 +4,8 @@ Automated Generation of GUI Scenes for Android Apps.
 
 Demo Video: https://www.youtube.com/watch?v=3A-tGi0Z4fM
 
+[![SceneDroid](https://res.cloudinary.com/marcomontalbano/image/upload/v1698682333/video_to_markdown/images/youtube--3A-tGi0Z4fM-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/3A-tGi0Z4fM "SceneDroid")
+
 ## 0x1 Abstract
 
 Due to the competitive environment, mobile apps are usually produced under pressure with lots of complicated functionality and
