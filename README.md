@@ -2,6 +2,8 @@
 
 Automated Generation of GUI Scenes for Android Apps.
 
+Demo Video: https://www.youtube.com/watch?v=3A-tGi0Z4fM
+
 ## 0x1 Abstract
 
 Due to the competitive environment, mobile apps are usually produced under pressure with lots of complicated functionality and
