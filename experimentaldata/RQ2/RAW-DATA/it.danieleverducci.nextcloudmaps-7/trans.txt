@@ -1,0 +1,12 @@
+d4150e888b757df93d432a1d80a1b560->3a19d8e23a9fb1012df57d2c07882563
+it.danieleverducci.nextcloudmaps.activity.main.MainActivity->interICC_android.intent.action.SEND, 
+it.danieleverducci.nextcloudmaps.activity.login.LoginActivity->it.danieleverducci.nextcloudmaps.activity.main.MainActivity
+it.danieleverducci.nextcloudmaps.activity.main.MainActivity->it.danieleverducci.nextcloudmaps.activity.detail.GeofavoriteDetailActivity
+it.danieleverducci.nextcloudmaps.activity.login.LoginActivity->d4150e888b757df93d432a1d80a1b560
+it.danieleverducci.nextcloudmaps.activity.main.MainActivity->it.danieleverducci.nextcloudmaps.activity.about.AboutActivity
+it.danieleverducci.nextcloudmaps.activity.mappicker.MapPickerActivity->it.danieleverducci.nextcloudmaps.activity.detail.GeofavoriteDetailActivity
+it.danieleverducci.nextcloudmaps.activity.mappicker.MapPickerActivity->293f50a2485edc2de606c94146fb63de
+it.danieleverducci.nextcloudmaps.activity.main.MainActivity->it.danieleverducci.nextcloudmaps.activity.mappicker.MapPickerActivity
+it.danieleverducci.nextcloudmaps.activity.detail.GeofavoriteDetailActivity->interICC_android.intent.action.SEND, 
+it.danieleverducci.nextcloudmaps.activity.main.MainActivity->it.danieleverducci.nextcloudmaps.activity.login.LoginActivity
+it.danieleverducci.nextcloudmaps.activity.main.MainActivity->it.danieleverducci.nextcloudmaps.activity.main.SortingOrderDialogFragment

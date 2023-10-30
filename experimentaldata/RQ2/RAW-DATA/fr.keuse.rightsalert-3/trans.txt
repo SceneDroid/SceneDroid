@@ -1,0 +1,9 @@
+2f29f57206570239a3f78cb626ba6c4d->edd76aa59b73f32fc20a56ef2537edb7
+fr.keuse.rightsalert.preference.RightsalertPreference->01826124b43e4f35c1387dd48ea9a1e2
+3b4ff81e44f29b90b40225eee3ba99b8->fr.keuse.rightsalert.preference.RightsalertPreference
+fr.keuse.rightsalert.activity.ApplistActivity->fr.keuse.rightsalert.preference.RightsalertPreference
+2f29f57206570239a3f78cb626ba6c4d->fr.keuse.rightsalert.preference.RightsalertPreference
+3b4ff81e44f29b90b40225eee3ba99b8->2f29f57206570239a3f78cb626ba6c4d
+fr.keuse.rightsalert.activity.ApplistActivity->3b4ff81e44f29b90b40225eee3ba99b8
+fr.keuse.rightsalert.preference.RightsalertPreference->dda63bab73d65d84e522ce435e3c7080
+fr.keuse.rightsalert.preference.RightsalertPreference->93e25a660ee99cfc441fc0aa870e909d

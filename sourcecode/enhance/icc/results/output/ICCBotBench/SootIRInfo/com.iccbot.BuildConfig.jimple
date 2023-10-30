@@ -1,0 +1,15 @@
+public final class com.iccbot.BuildConfig extends java.lang.Object
+{
+    public static final boolean DEBUG;
+
+    public void <init>()
+    {
+        com.iccbot.BuildConfig r0;
+
+        r0 := @this: com.iccbot.BuildConfig;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}

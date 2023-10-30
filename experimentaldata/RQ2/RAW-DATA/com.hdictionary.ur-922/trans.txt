@@ -1,0 +1,5 @@
+com.hdictionary.ur.PopupActivity->com.hdictionary.ur.DictionaryActivity
+com.hdictionary.ur.OCRDepActivity->com.hdictionary.ur.DictionaryActivity
+com.hdictionary.ur.DictionaryActivity->com.hdictionary.ur.WebViewActivity
+com.hdictionary.ur.DictionaryActivity->interICC_android.intent.action.SEND, 
+com.hdictionary.ur.DictionaryActivity->com.hdictionary.ur.OCRDepActivity

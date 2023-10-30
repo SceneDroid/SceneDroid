@@ -1,0 +1,35 @@
+digraph G {
+subgraph cluster_legend{ 
+bgcolor=mintcream;
+_Activity[color = red];
+_Service[color = royalblue];
+_Provider[color = violet];
+_Reciever[color = peru];
+_Fragment[color = teal];
+_Main[style=filled, fillcolor=orange, color = mintcream];
+_Exported[style=filled, fillcolor=lightpink, color = mintcream];
+_Main -> _Exported -> _Activity -> _Service -> _Reciever -> _Provider -> _Fragment; 
+}
+MainActivity[style=filled, fillcolor=pink, color = red];
+CustomizationActivity[color = red];
+FAQActivity[color = red];
+SplashActivity[style=filled, fillcolor=orange, color = red];
+SettingsActivity[style=filled, fillcolor=pink, color = red];
+AboutActivity[color = red];
+LicenseActivity[color = red];
+ContributorsActivity[color = red];
+f[color = peru];
+s[color = peru];
+SharedThemeReceiver[style=filled, fillcolor=pink, color = peru];
+d[color = teal];
+w[color = teal];
+i[color = teal];
+h[color = teal];
+l[color = teal];
+Fragment[color = teal];
+o[color = teal];
+p[color = teal];
+k[color = teal];
+t[color = teal];
+s[color = teal];
+}

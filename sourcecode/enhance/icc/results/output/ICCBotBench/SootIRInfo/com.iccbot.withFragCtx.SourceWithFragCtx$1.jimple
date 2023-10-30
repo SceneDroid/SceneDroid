@@ -1,0 +1,50 @@
+class com.iccbot.withFragCtx.SourceWithFragCtx$1 extends java.lang.Object implements android.view.View$OnClickListener
+{
+    final com.iccbot.withFragCtx.SourceWithFragCtx this$0;
+
+    void <init>(com.iccbot.withFragCtx.SourceWithFragCtx)
+    {
+        com.iccbot.withFragCtx.SourceWithFragCtx$1 r0;
+        com.iccbot.withFragCtx.SourceWithFragCtx $r1;
+
+        r0 := @this: com.iccbot.withFragCtx.SourceWithFragCtx$1;
+
+        $r1 := @parameter0: com.iccbot.withFragCtx.SourceWithFragCtx;
+
+        r0.<com.iccbot.withFragCtx.SourceWithFragCtx$1: com.iccbot.withFragCtx.SourceWithFragCtx this$0> = $r1;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public void onClick(android.view.View)
+    {
+        com.iccbot.withFragCtx.SourceWithFragCtx$1 r0;
+        android.view.View $r1;
+        com.iccbot.withFragCtx.FragWithFragCtx $r2;
+        com.iccbot.withFragCtx.SourceWithFragCtx $r3;
+        android.support.v4.app.FragmentManager $r4;
+        android.support.v4.app.FragmentTransaction $r5;
+
+        r0 := @this: com.iccbot.withFragCtx.SourceWithFragCtx$1;
+
+        $r1 := @parameter0: android.view.View;
+
+        $r3 = r0.<com.iccbot.withFragCtx.SourceWithFragCtx$1: com.iccbot.withFragCtx.SourceWithFragCtx this$0>;
+
+        $r4 = virtualinvoke $r3.<com.iccbot.withFragCtx.SourceWithFragCtx: android.support.v4.app.FragmentManager getSupportFragmentManager()>();
+
+        $r5 = virtualinvoke $r4.<android.support.v4.app.FragmentManager: android.support.v4.app.FragmentTransaction beginTransaction()>();
+
+        $r2 = new com.iccbot.withFragCtx.FragWithFragCtx;
+
+        specialinvoke $r2.<com.iccbot.withFragCtx.FragWithFragCtx: void <init>()>();
+
+        $r5 = virtualinvoke $r5.<android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)>(2131296321, $r2);
+
+        virtualinvoke $r5.<android.support.v4.app.FragmentTransaction: int commit()>();
+
+        return;
+    }
+}

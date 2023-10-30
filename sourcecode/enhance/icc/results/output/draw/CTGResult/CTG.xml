@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="com.simplemobiletools.draw.pro.activities.MainActivity">
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.draw.pro.activities.SettingsActivity" type="Act2Act" method="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void y1()&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.activities.CustomizationActivity">
+    <destination name="com.simplemobiletools.commons.receivers.SharedThemeReceiver" type="Act2NonAct" method="&lt;com.simplemobiletools.commons.activities.CustomizationActivity: void c2(boolean)&gt;" action="com.simplemobiletools.commons.SHARED_THEME_UPDATED" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.activities.FAQActivity">
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.draw.pro.activities.SplashActivity">
+    <destination name="com.simplemobiletools.draw.pro.activities.MainActivity" type="Act2Act" method="&lt;com.simplemobiletools.draw.pro.activities.SplashActivity: void T()&gt;" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.draw.pro.activities.SettingsActivity">
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.activities.AboutActivity">
+    <destination name="com.simplemobiletools.commons.activities.ContributorsActivity" type="Act2Act" method="&lt;com.simplemobiletools.commons.activities.AboutActivity: void b1(com.simplemobiletools.commons.activities.AboutActivity,android.view.View)&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.LicenseActivity" type="Act2Act" method="&lt;com.simplemobiletools.commons.activities.AboutActivity: void n1(com.simplemobiletools.commons.activities.AboutActivity,android.view.View)&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.FAQActivity" type="Act2Act" method="&lt;com.simplemobiletools.commons.activities.AboutActivity: void h1(com.simplemobiletools.commons.activities.AboutActivity,java.util.ArrayList,android.view.View)&gt;" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.activities.LicenseActivity">
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.activities.ContributorsActivity">
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.receivers.SharedThemeReceiver"/>
+</root>

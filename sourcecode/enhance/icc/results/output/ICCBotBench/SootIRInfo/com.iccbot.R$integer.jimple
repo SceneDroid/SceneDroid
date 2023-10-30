@@ -1,0 +1,22 @@
+public final class com.iccbot.R$integer extends java.lang.Object
+{
+    public static final int abc_max_action_buttons;
+
+    public void <init>()
+    {
+        com.iccbot.R$integer r0;
+
+        r0 := @this: com.iccbot.R$integer;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void <clinit>()
+    {
+        <com.iccbot.R$integer: int abc_max_action_buttons> = 2131230720;
+
+        return;
+    }
+}

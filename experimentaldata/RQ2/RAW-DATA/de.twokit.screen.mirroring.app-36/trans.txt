@@ -1,0 +1,6 @@
+de.twokit.screen.mirroring.app.AboutActivity->de.twokit.screen.mirroring.app.MainActivity
+de.twokit.screen.mirroring.app.MainActivity->de.twokit.screen.mirroring.app.AboutActivity
+de.twokit.screen.mirroring.app.MainActivity->interICC_android.intent.action.SEND, 
+de.twokit.screen.mirroring.app.MainActivity->de.twokit.screen.mirroring.app.barcodereader.BarcodeCaptureActivity
+de.twokit.screen.mirroring.app.IntroActivity->de.twokit.screen.mirroring.app.b
+de.twokit.screen.mirroring.app.MainActivity->de.twokit.screen.mirroring.app.IntroActivity

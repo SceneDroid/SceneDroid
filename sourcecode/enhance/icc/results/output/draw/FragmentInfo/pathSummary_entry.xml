@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="h1.o j(android.app.FragmentManager,android.app.Fragment)"/>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context=""/>
+        <baseNodePointTo value="985164370" context=""/>
+        <nodeSetPointToMe value="985164370,1906076054,1016925784,1158547811,1358731962," context=""/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context=""/>
+        <baseNodePointTo value="985164370" context=""/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context=""/>
+        <baseNodePointTo value="985164370" context=""/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context=""/>
+        <baseNodePointTo value="985164370" context=""/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context=""/>
+        <baseNodePointTo value="985164370" context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: h1.o i(android.app.Activity)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="h1.o i(android.app.Activity), &lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;, &lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;"/>
+      <node type="ReceiveFromRetValue" method="p i" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1254611697" predsStr="1282629609" succsStr="1568576066" context=""/>
+        <baseNodePointTo value="1254611697" context=""/>
+        <nodeSetPointToMe value="1254611697,1056554531," context=""/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1254611697"/>
+        <baseNodePointTo value="1056554531" context="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1254611697"/>
+      </node>
+      <node method="p i" unit="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)">
+        <nodeInfo nodeId="1568576066" predsStr="1254611697" succsStr="" context=""/>
+        <baseNodePointTo value="1568576066" context=""/>
+        <nodeSetPointToMe value="1568576066,985164370,1906076054,1016925784,1158547811,1358731962," context=""/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+        <baseNodePointTo value="985164370" context="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+        <baseNodePointTo value="985164370" context="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+        <baseNodePointTo value="985164370" context="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+        <baseNodePointTo value="985164370" context="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+        <baseNodePointTo value="985164370" context="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;h1.o: void h(android.app.Activity)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void h(android.app.Activity), &lt;h1.p: h1.o i(android.app.Activity)&gt;"/>
+      <node method="o h" unit="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)">
+        <nodeInfo nodeId="698637129" predsStr="183555120" succsStr="530278227" context=""/>
+        <baseNodePointTo value="698637129" context=""/>
+        <nodeSetPointToMe value="698637129,1254611697,1568576066,1056554531,985164370,1906076054,1016925784,1158547811,1358731962," context=""/>
+      </node>
+      <node type="ReceiveFromRetValue" method="p i" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1254611697" predsStr="1282629609" succsStr="1568576066" context="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129"/>
+        <baseNodePointTo value="1254611697" context="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1254611697"/>
+      </node>
+      <node method="p i" unit="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)">
+        <nodeInfo nodeId="1568576066" predsStr="1254611697" succsStr="" context="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129"/>
+        <baseNodePointTo value="1568576066" context="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;h1.o: void j(android.app.Fragment)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void j(android.app.Fragment), &lt;h1.o: void h(android.app.Activity)&gt;"/>
+      <node method="o j" unit="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)">
+        <nodeInfo nodeId="1432149530" predsStr="1548481360" succsStr="478741187" context=""/>
+        <baseNodePointTo value="1432149530" context=""/>
+        <nodeSetPointToMe value="1432149530,698637129," context=""/>
+      </node>
+      <node method="o h" unit="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)">
+        <nodeInfo nodeId="698637129" predsStr="183555120" succsStr="530278227" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)1432149530"/>
+        <baseNodePointTo value="698637129" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)1432149530"/>
+      </node>
+      <node type="ReceiveFromRetValue" method="p i" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1254611697" predsStr="1282629609" succsStr="1568576066" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)1432149530, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)1432149530, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1254611697"/>
+      </node>
+      <node method="p i" unit="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)">
+        <nodeInfo nodeId="1568576066" predsStr="1254611697" succsStr="" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)1432149530, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)1432149530, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)1432149530, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)1432149530, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)1432149530, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)1432149530, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="boolean o(android.app.FragmentManager,boolean)"/>
+      <node type="ReceiveFromParatMethod" method="p o" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="178093939" predsStr="735047785" succsStr="1942490616, 668006224, 1724288350, 2124717339" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+        <nodeSetPointToMe value="178093939,668006224,1188524606,666747767,2060193525,2102302534,2124717339,517867986," context=""/>
+      </node>
+      <node type="beginTransaction" method="p o" unit="$r11 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="668006224" predsStr="178093939" succsStr="1188524606" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+      </node>
+      <node type="addFunction" method="p o" unit="$r11 = virtualinvoke $r11.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r4, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1188524606" predsStr="668006224" succsStr="2102302534, 666747767" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+      </node>
+      <node type="commit" method="p o" unit="virtualinvoke $r11.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="2102302534" predsStr="1188524606" succsStr="1787640968, 1236756141" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+      </node>
+    </pathSummary>
+    <pathSummary>
+      <method/>
+      <methodtrace value="boolean o(android.app.FragmentManager,boolean)"/>
+      <node type="ReceiveFromParatMethod" method="p o" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="178093939" predsStr="735047785" succsStr="1942490616, 668006224, 1724288350, 2124717339" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+        <nodeSetPointToMe value="178093939,668006224,1188524606,666747767,2060193525,2102302534,2124717339,517867986," context=""/>
+      </node>
+      <node type="PassOut" method="p o" unit="virtualinvoke $r9.&lt;java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)&gt;($r6)">
+        <nodeInfo nodeId="2124717339" predsStr="178093939" succsStr="517867986" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+      </node>
+      <node type="PassOut" method="p o" unit="virtualinvoke $r9.&lt;java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)&gt;($r4)">
+        <nodeInfo nodeId="517867986" predsStr="2124717339" succsStr="" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+      </node>
+    </pathSummary>
+    <pathSummary>
+      <method/>
+      <methodtrace value="boolean o(android.app.FragmentManager,boolean)"/>
+      <node type="ReceiveFromParatMethod" method="p o" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="178093939" predsStr="735047785" succsStr="1942490616, 668006224, 1724288350, 2124717339" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+        <nodeSetPointToMe value="178093939,668006224,1188524606,666747767,2060193525,2102302534,2124717339,517867986," context=""/>
+      </node>
+      <node type="beginTransaction" method="p o" unit="$r11 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="668006224" predsStr="178093939" succsStr="1188524606" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+      </node>
+      <node type="addFunction" method="p o" unit="$r11 = virtualinvoke $r11.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r4, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1188524606" predsStr="668006224" succsStr="2102302534, 666747767" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+      </node>
+      <node type="PassOut" method="p o" unit="virtualinvoke $r11.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction remove(android.app.Fragment)&gt;($r6)">
+        <nodeInfo nodeId="666747767" predsStr="1188524606" succsStr="2060193525" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+      </node>
+      <node type="commit" method="p o" unit="virtualinvoke $r11.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="2060193525" predsStr="666747767" succsStr="1787640968, 1236756141" context=""/>
+        <baseNodePointTo value="178093939" context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: boolean handleMessage(android.os.Message)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="boolean handleMessage(android.os.Message), &lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;"/>
+      <node method="p handleMessage" unit="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)">
+        <nodeInfo nodeId="1833624953" predsStr="1532617358" succsStr="1665422517" context=""/>
+        <baseNodePointTo value="1833624953" context=""/>
+        <nodeSetPointToMe value="1833624953,178093939,668006224,1188524606,2102302534,2124717339,517867986,666747767,2060193525," context=""/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p o" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="178093939" predsStr="735047785" succsStr="1942490616, 668006224, 1724288350, 2124717339" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+      <node type="beginTransaction" method="p o" unit="$r11 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="668006224" predsStr="178093939" succsStr="1188524606" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+      <node type="addFunction" method="p o" unit="$r11 = virtualinvoke $r11.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r4, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1188524606" predsStr="668006224" succsStr="2102302534, 666747767" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+      <node type="PassOut" method="p o" unit="virtualinvoke $r11.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction remove(android.app.Fragment)&gt;($r6)">
+        <nodeInfo nodeId="666747767" predsStr="1188524606" succsStr="2060193525" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+      <node type="commit" method="p o" unit="virtualinvoke $r11.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="2060193525" predsStr="666747767" succsStr="1787640968, 1236756141" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+    </pathSummary>
+    <pathSummary>
+      <method/>
+      <methodtrace value="boolean handleMessage(android.os.Message), &lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;"/>
+      <node method="p handleMessage" unit="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)">
+        <nodeInfo nodeId="1833624953" predsStr="1532617358" succsStr="1665422517" context=""/>
+        <baseNodePointTo value="1833624953" context=""/>
+        <nodeSetPointToMe value="1833624953,178093939,668006224,1188524606,2102302534,2124717339,517867986,666747767,2060193525," context=""/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p o" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="178093939" predsStr="735047785" succsStr="1942490616, 668006224, 1724288350, 2124717339" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+      <node type="beginTransaction" method="p o" unit="$r11 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="668006224" predsStr="178093939" succsStr="1188524606" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+      <node type="addFunction" method="p o" unit="$r11 = virtualinvoke $r11.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r4, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1188524606" predsStr="668006224" succsStr="2102302534, 666747767" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+      <node type="commit" method="p o" unit="virtualinvoke $r11.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="2102302534" predsStr="1188524606" succsStr="1787640968, 1236756141" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+    </pathSummary>
+    <pathSummary>
+      <method/>
+      <methodtrace value="boolean handleMessage(android.os.Message), &lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;"/>
+      <node method="p handleMessage" unit="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)">
+        <nodeInfo nodeId="1833624953" predsStr="1532617358" succsStr="1665422517" context=""/>
+        <baseNodePointTo value="1833624953" context=""/>
+        <nodeSetPointToMe value="1833624953,178093939,668006224,1188524606,2102302534,2124717339,517867986,666747767,2060193525," context=""/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p o" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="178093939" predsStr="735047785" succsStr="1942490616, 668006224, 1724288350, 2124717339" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+      <node type="PassOut" method="p o" unit="virtualinvoke $r9.&lt;java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)&gt;($r6)">
+        <nodeInfo nodeId="2124717339" predsStr="178093939" succsStr="517867986" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+      <node type="PassOut" method="p o" unit="virtualinvoke $r9.&lt;java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)&gt;($r4)">
+        <nodeInfo nodeId="517867986" predsStr="2124717339" succsStr="" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+        <baseNodePointTo value="178093939" context="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)1833624953"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean), &lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;"/>
+      <node type="ReceiveFromParatMethod" method="p d" unit="$r3 := @parameter1: android.app.FragmentManager">
+        <nodeInfo nodeId="284358832" predsStr="473944590" succsStr="656494148" context=""/>
+        <baseNodePointTo value="284358832" context=""/>
+        <nodeSetPointToMe value="284358832,656494148,985164370,1906076054,1016925784,1158547811,1358731962," context=""/>
+      </node>
+      <node type="PassOut" method="p d" unit="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)">
+        <nodeInfo nodeId="656494148" predsStr="284358832" succsStr="82333828" context=""/>
+        <baseNodePointTo value="284358832" context=""/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+        <baseNodePointTo value="985164370" context="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+        <baseNodePointTo value="985164370" context="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+        <baseNodePointTo value="985164370" context="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+        <baseNodePointTo value="985164370" context="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+        <baseNodePointTo value="985164370" context="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="com.bumptech.glide.j e(android.app.Activity), &lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;, &lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;"/>
+      <node type="ReceiveFromRetValue" method="p e" unit="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1525017943" predsStr="489108881" succsStr="2118832167" context=""/>
+        <baseNodePointTo value="1525017943" context=""/>
+        <nodeSetPointToMe value="1525017943,1056554531," context=""/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1525017943"/>
+        <baseNodePointTo value="1056554531" context="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1525017943"/>
+      </node>
+      <node method="p e" unit="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)">
+        <nodeInfo nodeId="2118832167" predsStr="1525017943" succsStr="" context=""/>
+        <baseNodePointTo value="2118832167" context=""/>
+        <nodeSetPointToMe value="2118832167,284358832,656494148," context=""/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p d" unit="$r3 := @parameter1: android.app.FragmentManager">
+        <nodeInfo nodeId="284358832" predsStr="473944590" succsStr="656494148" context="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+        <baseNodePointTo value="284358832" context="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="PassOut" method="p d" unit="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)">
+        <nodeInfo nodeId="656494148" predsStr="284358832" succsStr="82333828" context="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+        <baseNodePointTo value="284358832" context="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="com.bumptech.glide.j t(android.app.Activity), &lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;"/>
+      <node method="b t" unit="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)">
+        <nodeInfo nodeId="1843269333" predsStr="1941014352" succsStr="" context=""/>
+        <baseNodePointTo value="1843269333" context=""/>
+        <nodeSetPointToMe value="1843269333,1525017943,2118832167," context=""/>
+      </node>
+      <node type="ReceiveFromRetValue" method="p e" unit="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1525017943" predsStr="489108881" succsStr="2118832167" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+        <baseNodePointTo value="1525017943" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1525017943"/>
+      </node>
+      <node method="p e" unit="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)">
+        <nodeInfo nodeId="2118832167" predsStr="1525017943" succsStr="" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+        <baseNodePointTo value="2118832167" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p d" unit="$r3 := @parameter1: android.app.FragmentManager">
+        <nodeInfo nodeId="284358832" predsStr="473944590" succsStr="656494148" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="PassOut" method="p d" unit="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)">
+        <nodeInfo nodeId="656494148" predsStr="284358832" succsStr="82333828" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a), &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;"/>
+      <node method="n1 &lt;init&gt;" unit="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)">
+        <nodeInfo nodeId="1702442780" predsStr="585791105" succsStr="884079881" context=""/>
+        <baseNodePointTo value="1702442780" context=""/>
+        <nodeSetPointToMe value="1702442780,1843269333," context=""/>
+      </node>
+      <node method="b t" unit="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)">
+        <nodeInfo nodeId="1843269333" predsStr="1941014352" succsStr="" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780"/>
+        <baseNodePointTo value="1843269333" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780"/>
+      </node>
+      <node type="ReceiveFromRetValue" method="p e" unit="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1525017943" predsStr="489108881" succsStr="2118832167" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1525017943"/>
+      </node>
+      <node method="p e" unit="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)">
+        <nodeInfo nodeId="2118832167" predsStr="1525017943" succsStr="" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p d" unit="$r3 := @parameter1: android.app.FragmentManager">
+        <nodeInfo nodeId="284358832" predsStr="473944590" succsStr="656494148" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="PassOut" method="p d" unit="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)">
+        <nodeInfo nodeId="656494148" predsStr="284358832" succsStr="82333828" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void C(r2.q,java.lang.String)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void C(r2.q,java.lang.String), &lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;"/>
+      <node method="g C" unit="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)">
+        <nodeInfo nodeId="1866885041" predsStr="1871449905" succsStr="620020519" context=""/>
+        <baseNodePointTo value="1866885041" context=""/>
+        <nodeSetPointToMe value="1866885041,1702442780,1843269333,1525017943,2118832167,1056554531,284358832,656494148,985164370,1906076054,1016925784,1158547811,1358731962," context=""/>
+      </node>
+      <node method="n1 &lt;init&gt;" unit="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)">
+        <nodeInfo nodeId="1702442780" predsStr="585791105" succsStr="884079881" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041"/>
+        <baseNodePointTo value="1702442780" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041"/>
+      </node>
+      <node method="b t" unit="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)">
+        <nodeInfo nodeId="1843269333" predsStr="1941014352" succsStr="" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780"/>
+      </node>
+      <node type="ReceiveFromRetValue" method="p e" unit="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1525017943" predsStr="489108881" succsStr="2118832167" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1525017943"/>
+      </node>
+      <node method="p e" unit="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)">
+        <nodeInfo nodeId="2118832167" predsStr="1525017943" succsStr="" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p d" unit="$r3 := @parameter1: android.app.FragmentManager">
+        <nodeInfo nodeId="284358832" predsStr="473944590" succsStr="656494148" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="PassOut" method="p d" unit="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)">
+        <nodeInfo nodeId="656494148" predsStr="284358832" succsStr="82333828" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)1866885041, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void A(r2.q,java.lang.String)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void A(r2.q,java.lang.String), &lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;"/>
+      <node method="g A" unit="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)">
+        <nodeInfo nodeId="1775860867" predsStr="575634296" succsStr="1161070675" context=""/>
+        <baseNodePointTo value="1775860867" context=""/>
+        <nodeSetPointToMe value="1775860867,1702442780,1843269333,1525017943,2118832167,1056554531,284358832,656494148,985164370,1906076054,1016925784,1158547811,1358731962," context=""/>
+      </node>
+      <node method="n1 &lt;init&gt;" unit="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)">
+        <nodeInfo nodeId="1702442780" predsStr="585791105" succsStr="884079881" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867"/>
+        <baseNodePointTo value="1702442780" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867"/>
+      </node>
+      <node method="b t" unit="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)">
+        <nodeInfo nodeId="1843269333" predsStr="1941014352" succsStr="" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780"/>
+      </node>
+      <node type="ReceiveFromRetValue" method="p e" unit="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1525017943" predsStr="489108881" succsStr="2118832167" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1525017943"/>
+      </node>
+      <node method="p e" unit="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)">
+        <nodeInfo nodeId="2118832167" predsStr="1525017943" succsStr="" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p d" unit="$r3 := @parameter1: android.app.FragmentManager">
+        <nodeInfo nodeId="284358832" predsStr="473944590" succsStr="656494148" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="PassOut" method="p d" unit="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)">
+        <nodeInfo nodeId="656494148" predsStr="284358832" succsStr="82333828" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1775860867, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void g(android.app.Activity), &lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;"/>
+      <node type="ReceiveFromRetValue" method="w g" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1653189490" predsStr="1780199759" succsStr="489785560, 1679474164" context=""/>
+        <baseNodePointTo value="1653189490" context=""/>
+        <nodeSetPointToMe value="1653189490,1056554531,1679474164,1404889585,2093025999," context=""/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1653189490"/>
+        <baseNodePointTo value="1056554531" context="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1653189490"/>
+      </node>
+    </pathSummary>
+    <pathSummary>
+      <method/>
+      <methodtrace value="void g(android.app.Activity), &lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;"/>
+      <node type="ReceiveFromRetValue" method="w g" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1653189490" predsStr="1780199759" succsStr="489785560, 1679474164" context=""/>
+        <baseNodePointTo value="1653189490" context=""/>
+        <nodeSetPointToMe value="1653189490,1056554531,1679474164,1404889585,2093025999," context=""/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1653189490"/>
+        <baseNodePointTo value="1056554531" context="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1653189490"/>
+      </node>
+      <node type="beginTransaction" method="w g" unit="$r4 = virtualinvoke $r2.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1679474164" predsStr="1653189490" succsStr="1404889585" context=""/>
+        <baseNodePointTo value="1653189490" context=""/>
+      </node>
+      <node type="addFunction" method="w g" unit="$r4 = virtualinvoke $r4.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r0, &quot;androidx.lifecycle.LifecycleDispatcher.report_fragment_tag&quot;)">
+        <nodeInfo nodeId="1404889585" predsStr="1679474164" succsStr="2093025999" context=""/>
+        <baseNodePointTo value="1653189490" context=""/>
+      </node>
+      <node type="commit" method="w g" unit="virtualinvoke $r4.&lt;android.app.FragmentTransaction: int commit()&gt;()">
+        <nodeInfo nodeId="2093025999" predsStr="1404889585" succsStr="695607142" context=""/>
+        <baseNodePointTo value="1653189490" context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;androidx.core.app.f: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle), &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;"/>
+      <node method="f onCreate" unit="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)">
+        <nodeInfo nodeId="613564245" predsStr="203402163" succsStr="" context=""/>
+        <baseNodePointTo value="613564245" context=""/>
+        <nodeSetPointToMe value="613564245,1653189490,1679474164,1404889585,2093025999," context=""/>
+      </node>
+      <node type="ReceiveFromRetValue" method="w g" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1653189490" predsStr="1780199759" succsStr="489785560, 1679474164" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245, $r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1653189490"/>
+      </node>
+    </pathSummary>
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle), &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;"/>
+      <node method="f onCreate" unit="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)">
+        <nodeInfo nodeId="613564245" predsStr="203402163" succsStr="" context=""/>
+        <baseNodePointTo value="613564245" context=""/>
+        <nodeSetPointToMe value="613564245,1653189490,1679474164,1404889585,2093025999," context=""/>
+      </node>
+      <node type="ReceiveFromRetValue" method="w g" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1653189490" predsStr="1780199759" succsStr="489785560, 1679474164" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245, $r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1653189490"/>
+      </node>
+      <node type="beginTransaction" method="w g" unit="$r4 = virtualinvoke $r2.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1679474164" predsStr="1653189490" succsStr="1404889585" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245"/>
+      </node>
+      <node type="addFunction" method="w g" unit="$r4 = virtualinvoke $r4.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r0, &quot;androidx.lifecycle.LifecycleDispatcher.report_fragment_tag&quot;)">
+        <nodeInfo nodeId="1404889585" predsStr="1679474164" succsStr="2093025999" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245"/>
+      </node>
+      <node type="commit" method="w g" unit="virtualinvoke $r4.&lt;android.app.FragmentTransaction: int commit()&gt;()">
+        <nodeInfo nodeId="2093025999" predsStr="1404889585" succsStr="695607142" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)613564245"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;androidx.activity.ComponentActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle), &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;"/>
+      <node method="ComponentActivity onCreate" unit="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)">
+        <nodeInfo nodeId="819261608" predsStr="1660773137" succsStr="167462234, 1076556193" context=""/>
+        <baseNodePointTo value="819261608" context=""/>
+        <nodeSetPointToMe value="819261608,1653189490,1679474164,1404889585,2093025999," context=""/>
+      </node>
+      <node type="ReceiveFromRetValue" method="w g" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1653189490" predsStr="1780199759" succsStr="489785560, 1679474164" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608, $r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1653189490"/>
+      </node>
+      <node type="beginTransaction" method="w g" unit="$r4 = virtualinvoke $r2.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1679474164" predsStr="1653189490" succsStr="1404889585" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+      </node>
+      <node type="addFunction" method="w g" unit="$r4 = virtualinvoke $r4.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r0, &quot;androidx.lifecycle.LifecycleDispatcher.report_fragment_tag&quot;)">
+        <nodeInfo nodeId="1404889585" predsStr="1679474164" succsStr="2093025999" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+      </node>
+      <node type="commit" method="w g" unit="virtualinvoke $r4.&lt;android.app.FragmentTransaction: int commit()&gt;()">
+        <nodeInfo nodeId="2093025999" predsStr="1404889585" succsStr="695607142" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+      </node>
+      <node type="setContentView" method="ComponentActivity onCreate" unit="virtualinvoke r0.&lt;androidx.activity.ComponentActivity: void setContentView(int)&gt;($i0)">
+        <nodeInfo nodeId="167462234" predsStr="819261608" succsStr="391232405" context=""/>
+        <baseNodePointTo value="167462234" context=""/>
+        <nodeSetPointToMe value="167462234," context=""/>
+      </node>
+    </pathSummary>
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle), &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;"/>
+      <node method="ComponentActivity onCreate" unit="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)">
+        <nodeInfo nodeId="819261608" predsStr="1660773137" succsStr="167462234, 1076556193" context=""/>
+        <baseNodePointTo value="819261608" context=""/>
+        <nodeSetPointToMe value="819261608,1653189490,1679474164,1404889585,2093025999," context=""/>
+      </node>
+      <node type="ReceiveFromRetValue" method="w g" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1653189490" predsStr="1780199759" succsStr="489785560, 1679474164" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608, $r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1653189490"/>
+      </node>
+      <node type="setContentView" method="ComponentActivity onCreate" unit="virtualinvoke r0.&lt;androidx.activity.ComponentActivity: void setContentView(int)&gt;($i0)">
+        <nodeInfo nodeId="167462234" predsStr="819261608" succsStr="391232405" context=""/>
+      </node>
+    </pathSummary>
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle), &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;"/>
+      <node method="ComponentActivity onCreate" unit="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)">
+        <nodeInfo nodeId="819261608" predsStr="1660773137" succsStr="167462234, 1076556193" context=""/>
+        <baseNodePointTo value="819261608" context=""/>
+        <nodeSetPointToMe value="819261608,1653189490,1679474164,1404889585,2093025999," context=""/>
+      </node>
+      <node type="ReceiveFromRetValue" method="w g" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1653189490" predsStr="1780199759" succsStr="489785560, 1679474164" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608, $r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1653189490"/>
+      </node>
+      <node type="beginTransaction" method="w g" unit="$r4 = virtualinvoke $r2.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1679474164" predsStr="1653189490" succsStr="1404889585" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+      </node>
+      <node type="addFunction" method="w g" unit="$r4 = virtualinvoke $r4.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r0, &quot;androidx.lifecycle.LifecycleDispatcher.report_fragment_tag&quot;)">
+        <nodeInfo nodeId="1404889585" predsStr="1679474164" succsStr="2093025999" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+      </node>
+      <node type="commit" method="w g" unit="virtualinvoke $r4.&lt;android.app.FragmentTransaction: int commit()&gt;()">
+        <nodeInfo nodeId="2093025999" predsStr="1404889585" succsStr="695607142" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+      </node>
+    </pathSummary>
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle), &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;"/>
+      <node method="ComponentActivity onCreate" unit="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)">
+        <nodeInfo nodeId="819261608" predsStr="1660773137" succsStr="167462234, 1076556193" context=""/>
+        <baseNodePointTo value="819261608" context=""/>
+        <nodeSetPointToMe value="819261608,1653189490,1679474164,1404889585,2093025999," context=""/>
+      </node>
+      <node type="ReceiveFromRetValue" method="w g" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1653189490" predsStr="1780199759" succsStr="489785560, 1679474164" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+        <baseNodePointTo value="1653189490" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)819261608, $r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1653189490"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void R(r2.q,java.lang.String)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void R(r2.q,java.lang.String), &lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;"/>
+      <node method="g R" unit="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)">
+        <nodeInfo nodeId="977333095" predsStr="1928727142" succsStr="1846371961" context=""/>
+        <baseNodePointTo value="977333095" context=""/>
+        <nodeSetPointToMe value="977333095,1702442780,1843269333,1525017943,2118832167,1056554531,284358832,656494148,985164370,1906076054,1016925784,1158547811,1358731962," context=""/>
+      </node>
+      <node method="n1 &lt;init&gt;" unit="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)">
+        <nodeInfo nodeId="1702442780" predsStr="585791105" succsStr="884079881" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095"/>
+        <baseNodePointTo value="1702442780" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095"/>
+      </node>
+      <node method="b t" unit="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)">
+        <nodeInfo nodeId="1843269333" predsStr="1941014352" succsStr="" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780"/>
+      </node>
+      <node type="ReceiveFromRetValue" method="p e" unit="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1525017943" predsStr="489108881" succsStr="2118832167" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1525017943"/>
+      </node>
+      <node method="p e" unit="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)">
+        <nodeInfo nodeId="2118832167" predsStr="1525017943" succsStr="" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p d" unit="$r3 := @parameter1: android.app.FragmentManager">
+        <nodeInfo nodeId="284358832" predsStr="473944590" succsStr="656494148" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="PassOut" method="p d" unit="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)">
+        <nodeInfo nodeId="656494148" predsStr="284358832" succsStr="82333828" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)977333095, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;h1.o: void onAttach(android.app.Activity)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onAttach(android.app.Activity), &lt;h1.o: void h(android.app.Activity)&gt;"/>
+      <node method="o onAttach" unit="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)">
+        <nodeInfo nodeId="1062040641" predsStr="2006103131" succsStr="134066425, 337442546" context=""/>
+        <baseNodePointTo value="1062040641" context=""/>
+        <nodeSetPointToMe value="1062040641,698637129," context=""/>
+      </node>
+      <node method="o h" unit="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)">
+        <nodeInfo nodeId="698637129" predsStr="183555120" succsStr="530278227" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)1062040641"/>
+        <baseNodePointTo value="698637129" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)1062040641"/>
+      </node>
+      <node type="ReceiveFromRetValue" method="p i" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1254611697" predsStr="1282629609" succsStr="1568576066" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)1062040641, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)1062040641, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1254611697"/>
+      </node>
+      <node method="p i" unit="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)">
+        <nodeInfo nodeId="1568576066" predsStr="1254611697" succsStr="" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)1062040641, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)1062040641, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)1062040641, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)1062040641, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)1062040641, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)1062040641, $r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)698637129, $r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)1568576066"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;r2.q: void b0(s3.l)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void b0(s3.l), &lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;"/>
+      <node method="q b0" unit="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)">
+        <nodeInfo nodeId="1972069177" predsStr="510234807" succsStr="" context=""/>
+        <baseNodePointTo value="1972069177" context=""/>
+        <nodeSetPointToMe value="1972069177,1702442780,1843269333,1525017943,2118832167,1056554531,284358832,656494148,985164370,1906076054,1016925784,1158547811,1358731962," context=""/>
+      </node>
+      <node method="n1 &lt;init&gt;" unit="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)">
+        <nodeInfo nodeId="1702442780" predsStr="585791105" succsStr="884079881" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177"/>
+        <baseNodePointTo value="1702442780" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177"/>
+      </node>
+      <node method="b t" unit="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)">
+        <nodeInfo nodeId="1843269333" predsStr="1941014352" succsStr="" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780"/>
+      </node>
+      <node type="ReceiveFromRetValue" method="p e" unit="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1525017943" predsStr="489108881" succsStr="2118832167" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1525017943"/>
+      </node>
+      <node method="p e" unit="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)">
+        <nodeInfo nodeId="2118832167" predsStr="1525017943" succsStr="" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p d" unit="$r3 := @parameter1: android.app.FragmentManager">
+        <nodeInfo nodeId="284358832" predsStr="473944590" succsStr="656494148" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="PassOut" method="p d" unit="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)">
+        <nodeInfo nodeId="656494148" predsStr="284358832" succsStr="82333828" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)1972069177, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.SettingsActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="SettingsActivity onCreate" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;(2131492900)">
+        <nodeInfo nodeId="445778725" predsStr="896917207" succsStr="" context=""/>
+        <baseNodePointTo value="445778725" context=""/>
+        <nodeSetPointToMe value="445778725," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void y(r2.q,java.lang.String)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void y(r2.q,java.lang.String), &lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;"/>
+      <node method="g y" unit="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)">
+        <nodeInfo nodeId="1489922739" predsStr="414029609" succsStr="1444846009" context=""/>
+        <baseNodePointTo value="1489922739" context=""/>
+        <nodeSetPointToMe value="1489922739,1702442780,1843269333,1525017943,2118832167,1056554531,284358832,656494148,985164370,1906076054,1016925784,1158547811,1358731962," context=""/>
+      </node>
+      <node method="n1 &lt;init&gt;" unit="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)">
+        <nodeInfo nodeId="1702442780" predsStr="585791105" succsStr="884079881" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739"/>
+        <baseNodePointTo value="1702442780" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739"/>
+      </node>
+      <node method="b t" unit="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)">
+        <nodeInfo nodeId="1843269333" predsStr="1941014352" succsStr="" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780"/>
+      </node>
+      <node type="ReceiveFromRetValue" method="p e" unit="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1525017943" predsStr="489108881" succsStr="2118832167" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1525017943"/>
+      </node>
+      <node method="p e" unit="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)">
+        <nodeInfo nodeId="2118832167" predsStr="1525017943" succsStr="" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p d" unit="$r3 := @parameter1: android.app.FragmentManager">
+        <nodeInfo nodeId="284358832" predsStr="473944590" succsStr="656494148" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="PassOut" method="p d" unit="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)">
+        <nodeInfo nodeId="656494148" predsStr="284358832" succsStr="82333828" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)1489922739, $r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)1702442780, $r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)1843269333, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: com.bumptech.glide.j f(android.content.Context)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="com.bumptech.glide.j f(android.content.Context), &lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;"/>
+      <node method="p f" unit="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)">
+        <nodeInfo nodeId="1123944123" predsStr="15795087" succsStr="" context=""/>
+        <baseNodePointTo value="1123944123" context=""/>
+        <nodeSetPointToMe value="1123944123,1525017943,2118832167," context=""/>
+      </node>
+      <node type="ReceiveFromRetValue" method="p e" unit="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()">
+        <nodeInfo nodeId="1525017943" predsStr="489108881" succsStr="2118832167" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123"/>
+        <baseNodePointTo value="1525017943" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123"/>
+      </node>
+      <node type="CreateMethod" method="Activity getFragmentManager" unit="retFragMan = new android.app.FragmentManager">
+        <nodeInfo nodeId="1056554531" predsStr="894528572" succsStr="" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123, $r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()1525017943"/>
+      </node>
+      <node method="p e" unit="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)">
+        <nodeInfo nodeId="2118832167" predsStr="1525017943" succsStr="" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123"/>
+        <baseNodePointTo value="2118832167" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p d" unit="$r3 := @parameter1: android.app.FragmentManager">
+        <nodeInfo nodeId="284358832" predsStr="473944590" succsStr="656494148" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="PassOut" method="p d" unit="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)">
+        <nodeInfo nodeId="656494148" predsStr="284358832" succsStr="82333828" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167"/>
+      </node>
+      <node type="ReceiveFromParatMethod" method="p j" unit="$r1 := @parameter0: android.app.FragmentManager">
+        <nodeInfo nodeId="985164370" predsStr="2129028440" succsStr="730319892, 1906076054" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="PassOut" method="p j" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)">
+        <nodeInfo nodeId="1906076054" predsStr="985164370" succsStr="1016925784" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="beginTransaction" method="p j" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()">
+        <nodeInfo nodeId="1016925784" predsStr="1906076054" succsStr="1158547811" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="addFunction" method="p j" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)">
+        <nodeInfo nodeId="1158547811" predsStr="1016925784" succsStr="1358731962" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+      <node type="commit" method="p j" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()">
+        <nodeInfo nodeId="1358731962" predsStr="1158547811" succsStr="1119783402" context="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)1123944123, $r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)2118832167, $r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)656494148"/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.commons.activities.ContributorsActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="ContributorsActivity onCreate" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;($i0)">
+        <nodeInfo nodeId="891709974" predsStr="217436913" succsStr="667350842" context=""/>
+        <baseNodePointTo value="891709974" context=""/>
+        <nodeSetPointToMe value="891709974," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="MainActivity onCreate" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;(2131492898)">
+        <nodeInfo nodeId="1672863138" predsStr="1654544957" succsStr="1072371995" context=""/>
+        <baseNodePointTo value="1672863138" context=""/>
+        <nodeSetPointToMe value="1672863138," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.commons.activities.FAQActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="FAQActivity onCreate" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;($i0)">
+        <nodeInfo nodeId="1290950396" predsStr="1613083979" succsStr="728433091" context=""/>
+        <baseNodePointTo value="1290950396" context=""/>
+        <nodeSetPointToMe value="1290950396," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.commons.activities.AboutActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="AboutActivity onCreate" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;($i0)">
+        <nodeInfo nodeId="272944986" predsStr="1095430012" succsStr="166879252" context=""/>
+        <baseNodePointTo value="272944986" context=""/>
+        <nodeSetPointToMe value="272944986," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.commons.activities.LicenseActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="LicenseActivity onCreate" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;($i2)">
+        <nodeInfo nodeId="752247326" predsStr="778419201" succsStr="1126242234" context=""/>
+        <baseNodePointTo value="752247326" context=""/>
+        <nodeSetPointToMe value="752247326," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.commons.activities.CustomizationActivity: void onCreate(android.os.Bundle)&gt;">
+    <pathSummary>
+      <method/>
+      <methodtrace value="void onCreate(android.os.Bundle)"/>
+      <node type="setContentView" method="CustomizationActivity onCreate" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;($i0)">
+        <nodeInfo nodeId="1876179153" predsStr="737864675" succsStr="2069956222" context=""/>
+        <baseNodePointTo value="1876179153" context=""/>
+        <nodeSetPointToMe value="1876179153," context=""/>
+      </node>
+    </pathSummary>
+  </methodSummary>
+</root>

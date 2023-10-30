@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <source name="com.simplemobiletools.draw.pro.activities.MainActivity">
+    <destination name="interICC_android.settings.APPLICATION_DETAILS_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APPLICATION_DETAILS_SETTINGS" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+    <destination name="interICC_android.intent.action.GET_CONTENT, android.intent.category.OPENABLE" type="image/*" method="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void U1()&gt;" action="android.intent.action.GET_CONTENT" category="android.intent.category.OPENABLE" extras="" flags=""/>
+    <destination name="interICC_android.settings.APP_LOCALE_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APP_LOCALE_SETTINGS" extras="" flags=""/>
+    <destination name="interICC_android.intent.action.MEDIA_SCANNER_SCAN_FILE, " type="Act2Class" method="&lt;u2.o: void a0(android.content.Context,java.util.List,s3.a)&gt;" action="android.intent.action.MEDIA_SCANNER_SCAN_FILE" extras="" flags=""/>
+    <destination name="interICC_android.intent.action.OPEN_DOCUMENT_TREE, " type="Act2Class" method="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void onActivityResult(int,int,android.content.Intent)&gt;" action="android.intent.action.OPEN_DOCUMENT_TREE" extras="" flags=""/>
+    <destination name="com.simplemobiletools.draw.pro.activities.SettingsActivity" type="Act2Act" method="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void y1()&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+    <destination name="interICC_android.intent.action.CREATE_DOCUMENT, android.intent.category.OPENABLE" type="image/svg+xml" method="&lt;com.simplemobiletools.draw.pro.activities.MainActivity$m: void a(java.lang.String,java.lang.String,java.lang.String)&gt;" action="android.intent.action.CREATE_DOCUMENT" category="android.intent.category.OPENABLE" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.activities.CustomizationActivity">
+    <destination name="interICC_android.settings.APPLICATION_DETAILS_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APPLICATION_DETAILS_SETTINGS" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.receivers.SharedThemeReceiver" type="Act2NonAct" method="&lt;com.simplemobiletools.commons.activities.CustomizationActivity: void c2(boolean)&gt;" action="com.simplemobiletools.commons.SHARED_THEME_UPDATED" extras="" flags=""/>
+    <destination name="interICC_android.settings.APP_LOCALE_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APP_LOCALE_SETTINGS" extras="" flags=""/>
+    <destination name="interICC_android.intent.action.OPEN_DOCUMENT_TREE, " type="Act2Class" method="&lt;r2.q: void onActivityResult(int,int,android.content.Intent)&gt;" action="android.intent.action.OPEN_DOCUMENT_TREE" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.activities.FAQActivity">
+    <destination name="interICC_android.settings.APP_LOCALE_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APP_LOCALE_SETTINGS" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+    <destination name="interICC_android.settings.APPLICATION_DETAILS_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APPLICATION_DETAILS_SETTINGS" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+    <destination name="interICC_android.intent.action.OPEN_DOCUMENT_TREE, " type="Act2Class" method="&lt;r2.q: void onActivityResult(int,int,android.content.Intent)&gt;" action="android.intent.action.OPEN_DOCUMENT_TREE" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.draw.pro.activities.SplashActivity">
+    <destination name="com.simplemobiletools.draw.pro.activities.MainActivity" type="Act2Act" method="&lt;com.simplemobiletools.draw.pro.activities.SplashActivity: void T()&gt;" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.draw.pro.activities.SettingsActivity">
+    <destination name="interICC_android.settings.APP_LOCALE_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APP_LOCALE_SETTINGS" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+    <destination name="interICC_android.intent.action.OPEN_DOCUMENT_TREE, " type="Act2Class" method="&lt;r2.q: void onActivityResult(int,int,android.content.Intent)&gt;" action="android.intent.action.OPEN_DOCUMENT_TREE" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+    <destination name="interICC_android.settings.APPLICATION_DETAILS_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APPLICATION_DETAILS_SETTINGS" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.activities.AboutActivity">
+    <destination name="interICC_android.settings.APP_LOCALE_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APP_LOCALE_SETTINGS" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.ContributorsActivity" type="Act2Act" method="&lt;com.simplemobiletools.commons.activities.AboutActivity: void b1(com.simplemobiletools.commons.activities.AboutActivity,android.view.View)&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.LicenseActivity" type="Act2Act" method="&lt;com.simplemobiletools.commons.activities.AboutActivity: void n1(com.simplemobiletools.commons.activities.AboutActivity,android.view.View)&gt;" extras="" flags=""/>
+    <destination name="interICC_android.intent.action.OPEN_DOCUMENT_TREE, " type="Act2Class" method="&lt;r2.q: void onActivityResult(int,int,android.content.Intent)&gt;" action="android.intent.action.OPEN_DOCUMENT_TREE" extras="" flags=""/>
+    <destination name="interICC_android.intent.action.SEND, " type="text/plain" method="&lt;com.simplemobiletools.commons.activities.AboutActivity: void l1(com.simplemobiletools.commons.activities.AboutActivity,android.view.View)&gt;" action="android.intent.action.SEND" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.FAQActivity" type="Act2Act" method="&lt;com.simplemobiletools.commons.activities.AboutActivity: void h1(com.simplemobiletools.commons.activities.AboutActivity,java.util.ArrayList,android.view.View)&gt;" extras="" flags=""/>
+    <destination name="interICC_android.settings.APPLICATION_DETAILS_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APPLICATION_DETAILS_SETTINGS" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.activities.LicenseActivity">
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+    <destination name="interICC_android.intent.action.OPEN_DOCUMENT_TREE, " type="Act2Class" method="&lt;r2.q: void onActivityResult(int,int,android.content.Intent)&gt;" action="android.intent.action.OPEN_DOCUMENT_TREE" extras="" flags=""/>
+    <destination name="interICC_android.settings.APP_LOCALE_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APP_LOCALE_SETTINGS" extras="" flags=""/>
+    <destination name="interICC_android.settings.APPLICATION_DETAILS_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APPLICATION_DETAILS_SETTINGS" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.activities.ContributorsActivity">
+    <destination name="interICC_android.intent.action.OPEN_DOCUMENT_TREE, " type="Act2Class" method="&lt;r2.q: void onActivityResult(int,int,android.content.Intent)&gt;" action="android.intent.action.OPEN_DOCUMENT_TREE" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.AboutActivity" type="Act2Act" method="&lt;r2.q: void y0(int,long,java.lang.String,java.util.ArrayList,boolean)&gt;" extras="" flags=""/>
+    <destination name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Act2Act" method="&lt;r2.q: void z0()&gt;" extras="" flags=""/>
+    <destination name="interICC_android.settings.APP_LOCALE_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APP_LOCALE_SETTINGS" extras="" flags=""/>
+    <destination name="interICC_android.settings.APPLICATION_DETAILS_SETTINGS, " type="Act2Class" method="&lt;r2.q: void s0()&gt;" action="android.settings.APPLICATION_DETAILS_SETTINGS" extras="" flags=""/>
+  </source>
+  <source name="com.simplemobiletools.commons.receivers.SharedThemeReceiver"/>
+</root>

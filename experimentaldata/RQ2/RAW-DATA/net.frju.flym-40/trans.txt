@@ -1,0 +1,26 @@
+net.frju.flym.ui.main.MainActivity->net.frju.flym.ui.discover.DiscoverActivity
+net.frju.flym.ui.feeds.FeedListEditActivity->net.frju.flym.FeedListEditFragment
+net.frju.flym.ui.discover.DiscoverActivity->net.frju.flym.ui.discover.DiscoverActivity
+net.frju.flym.FeedListEditFragment->4ed13feb9ad6fa7be719fe7720970830
+net.frju.flym.ui.discover.DiscoverActivity->net.frju.flym.ui.discover.FeedSearchFragment
+net.frju.flym.ui.main.MainActivity->net.frju.flym.EntriesFragment
+net.frju.flym.ui.main.MainActivity->net.frju.flym.ui.settings.SettingsActivity
+net.frju.flym.ui.main.MainActivity->net.frju.flym.ui.entrydetails.EntryDetailsFragment
+net.frju.flym.ui.entrydetails.EntryDetailsActivity->net.frju.flym.ui.entrydetails.EntryDetailsFragment
+net.frju.flym.ui.main.MainActivity->interICC_android.intent.action.CREATE_DOCUMENT, android.intent.category.OPENABLE
+net.frju.flym.EntriesFragment->d954bb40d0197cda5ed78a66f2df7cea
+net.frju.flym.ui.main.MainActivity->interICC_android.intent.action.OPEN_DOCUMENT, android.intent.category.OPENABLE
+net.frju.flym.ui.discover.DiscoverActivity->net.frju.flym.DiscoverFragment
+net.frju.flym.ui.main.MainActivity->net.frju.flym.ui.about.AboutActivity
+net.frju.flym.ui.main.MainActivity->net.frju.flym.ui.entrydetails.EntryDetailsActivity
+48f5ff435a8bb1bc082f3164c0a1c8f8->net.frju.flym.ui.settings.SettingsActivity
+net.frju.flym.ui.discover.DiscoverActivity->net.frju.flym.ui.discover.DiscoverFragment
+net.frju.flym.ui.settings.SettingsActivity->net.frju.flym.SettingsFragment
+9062a10bbd6c6a6ccc3ea186c832d7f5->48f5ff435a8bb1bc082f3164c0a1c8f8
+net.frju.flym.ui.main.MainActivity->net.frju.flym.ui.feeds.FeedListEditActivity
+net.frju.flym.ui.feeds.FeedListEditActivity->net.frju.flym.ui.feeds.FeedListEditFragment
+48f5ff435a8bb1bc082f3164c0a1c8f8->net.frju.flym.ui.about.AboutActivity
+net.frju.flym.EntriesFragment->9062a10bbd6c6a6ccc3ea186c832d7f5
+net.frju.flym.ui.settings.SettingsActivity->net.frju.flym.ui.settings.SettingsFragment
+net.frju.flym.ui.main.MainActivity->net.frju.flym.ui.entries.EntriesFragment
+net.frju.flym.SettingsFragment->a9fbc2b0bcf3914c00d040b3b934ae4f

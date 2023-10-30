@@ -1,0 +1,193 @@
+public final class com.iccbot.R$color extends java.lang.Object
+{
+    public static final int abc_background_cache_hint_selector_material_dark;
+    public static final int abc_background_cache_hint_selector_material_light;
+    public static final int abc_input_method_navigation_guard;
+    public static final int abc_primary_text_disable_only_material_dark;
+    public static final int abc_primary_text_disable_only_material_light;
+    public static final int abc_primary_text_material_dark;
+    public static final int abc_primary_text_material_light;
+    public static final int abc_search_url_text;
+    public static final int abc_search_url_text_normal;
+    public static final int abc_search_url_text_pressed;
+    public static final int abc_search_url_text_selected;
+    public static final int abc_secondary_text_material_dark;
+    public static final int abc_secondary_text_material_light;
+    public static final int accent_material_dark;
+    public static final int accent_material_light;
+    public static final int background_floating_material_dark;
+    public static final int background_floating_material_light;
+    public static final int background_material_dark;
+    public static final int background_material_light;
+    public static final int bright_foreground_disabled_material_dark;
+    public static final int bright_foreground_disabled_material_light;
+    public static final int bright_foreground_inverse_material_dark;
+    public static final int bright_foreground_inverse_material_light;
+    public static final int bright_foreground_material_dark;
+    public static final int bright_foreground_material_light;
+    public static final int button_material_dark;
+    public static final int button_material_light;
+    public static final int dim_foreground_disabled_material_dark;
+    public static final int dim_foreground_disabled_material_light;
+    public static final int dim_foreground_material_dark;
+    public static final int dim_foreground_material_light;
+    public static final int highlighted_text_material_dark;
+    public static final int highlighted_text_material_light;
+    public static final int hint_foreground_material_dark;
+    public static final int hint_foreground_material_light;
+    public static final int link_text_material_dark;
+    public static final int link_text_material_light;
+    public static final int material_blue_grey_800;
+    public static final int material_blue_grey_900;
+    public static final int material_blue_grey_950;
+    public static final int material_deep_teal_200;
+    public static final int material_deep_teal_500;
+    public static final int primary_dark_material_dark;
+    public static final int primary_dark_material_light;
+    public static final int primary_material_dark;
+    public static final int primary_material_light;
+    public static final int primary_text_default_material_dark;
+    public static final int primary_text_default_material_light;
+    public static final int primary_text_disabled_material_dark;
+    public static final int primary_text_disabled_material_light;
+    public static final int ripple_material_dark;
+    public static final int ripple_material_light;
+    public static final int secondary_text_default_material_dark;
+    public static final int secondary_text_default_material_light;
+    public static final int secondary_text_disabled_material_dark;
+    public static final int secondary_text_disabled_material_light;
+    public static final int switch_thumb_normal_material_dark;
+    public static final int switch_thumb_normal_material_light;
+
+    public void <init>()
+    {
+        com.iccbot.R$color r0;
+
+        r0 := @this: com.iccbot.R$color;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void <clinit>()
+    {
+        <com.iccbot.R$color: int switch_thumb_normal_material_light> = 2131099667;
+
+        <com.iccbot.R$color: int switch_thumb_normal_material_dark> = 2131099666;
+
+        <com.iccbot.R$color: int secondary_text_disabled_material_light> = 2131099689;
+
+        <com.iccbot.R$color: int secondary_text_disabled_material_dark> = 2131099691;
+
+        <com.iccbot.R$color: int secondary_text_default_material_light> = 2131099685;
+
+        <com.iccbot.R$color: int secondary_text_default_material_dark> = 2131099687;
+
+        <com.iccbot.R$color: int ripple_material_light> = 2131099661;
+
+        <com.iccbot.R$color: int ripple_material_dark> = 2131099660;
+
+        <com.iccbot.R$color: int primary_text_disabled_material_light> = 2131099688;
+
+        <com.iccbot.R$color: int primary_text_disabled_material_dark> = 2131099690;
+
+        <com.iccbot.R$color: int primary_text_default_material_light> = 2131099684;
+
+        <com.iccbot.R$color: int primary_text_default_material_dark> = 2131099686;
+
+        <com.iccbot.R$color: int primary_material_light> = 2131099657;
+
+        <com.iccbot.R$color: int primary_material_dark> = 2131099656;
+
+        <com.iccbot.R$color: int primary_dark_material_light> = 2131099659;
+
+        <com.iccbot.R$color: int primary_dark_material_dark> = 2131099658;
+
+        <com.iccbot.R$color: int material_deep_teal_500> = 2131099693;
+
+        <com.iccbot.R$color: int material_deep_teal_200> = 2131099692;
+
+        <com.iccbot.R$color: int material_blue_grey_950> = 2131099696;
+
+        <com.iccbot.R$color: int material_blue_grey_900> = 2131099695;
+
+        <com.iccbot.R$color: int material_blue_grey_800> = 2131099694;
+
+        <com.iccbot.R$color: int link_text_material_light> = 2131099683;
+
+        <com.iccbot.R$color: int link_text_material_dark> = 2131099682;
+
+        <com.iccbot.R$color: int hint_foreground_material_light> = 2131099679;
+
+        <com.iccbot.R$color: int hint_foreground_material_dark> = 2131099678;
+
+        <com.iccbot.R$color: int highlighted_text_material_light> = 2131099681;
+
+        <com.iccbot.R$color: int highlighted_text_material_dark> = 2131099680;
+
+        <com.iccbot.R$color: int dim_foreground_material_light> = 2131099675;
+
+        <com.iccbot.R$color: int dim_foreground_material_dark> = 2131099674;
+
+        <com.iccbot.R$color: int dim_foreground_disabled_material_light> = 2131099677;
+
+        <com.iccbot.R$color: int dim_foreground_disabled_material_dark> = 2131099676;
+
+        <com.iccbot.R$color: int button_material_light> = 2131099665;
+
+        <com.iccbot.R$color: int button_material_dark> = 2131099664;
+
+        <com.iccbot.R$color: int bright_foreground_material_light> = 2131099669;
+
+        <com.iccbot.R$color: int bright_foreground_material_dark> = 2131099668;
+
+        <com.iccbot.R$color: int bright_foreground_inverse_material_light> = 2131099673;
+
+        <com.iccbot.R$color: int bright_foreground_inverse_material_dark> = 2131099672;
+
+        <com.iccbot.R$color: int bright_foreground_disabled_material_light> = 2131099671;
+
+        <com.iccbot.R$color: int bright_foreground_disabled_material_dark> = 2131099670;
+
+        <com.iccbot.R$color: int background_material_light> = 2131099653;
+
+        <com.iccbot.R$color: int background_material_dark> = 2131099652;
+
+        <com.iccbot.R$color: int background_floating_material_light> = 2131099655;
+
+        <com.iccbot.R$color: int background_floating_material_dark> = 2131099654;
+
+        <com.iccbot.R$color: int accent_material_light> = 2131099662;
+
+        <com.iccbot.R$color: int accent_material_dark> = 2131099663;
+
+        <com.iccbot.R$color: int abc_secondary_text_material_light> = 2131099705;
+
+        <com.iccbot.R$color: int abc_secondary_text_material_dark> = 2131099704;
+
+        <com.iccbot.R$color: int abc_search_url_text_selected> = 2131099649;
+
+        <com.iccbot.R$color: int abc_search_url_text_pressed> = 2131099650;
+
+        <com.iccbot.R$color: int abc_search_url_text_normal> = 2131099648;
+
+        <com.iccbot.R$color: int abc_search_url_text> = 2131099703;
+
+        <com.iccbot.R$color: int abc_primary_text_material_light> = 2131099702;
+
+        <com.iccbot.R$color: int abc_primary_text_material_dark> = 2131099701;
+
+        <com.iccbot.R$color: int abc_primary_text_disable_only_material_light> = 2131099700;
+
+        <com.iccbot.R$color: int abc_primary_text_disable_only_material_dark> = 2131099699;
+
+        <com.iccbot.R$color: int abc_input_method_navigation_guard> = 2131099651;
+
+        <com.iccbot.R$color: int abc_background_cache_hint_selector_material_light> = 2131099698;
+
+        <com.iccbot.R$color: int abc_background_cache_hint_selector_material_dark> = 2131099697;
+
+        return;
+    }
+}

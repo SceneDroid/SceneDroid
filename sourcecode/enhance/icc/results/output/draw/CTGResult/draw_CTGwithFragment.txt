@@ -1,0 +1,82 @@
+
+com.simplemobiletools.draw.pro.activities.MainActivity -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, 
+com.simplemobiletools.draw.pro.activities.MainActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.draw.pro.activities.MainActivity -> interICC_android.intent.action.GET_CONTENT, android.intent.category.OPENABLE
+com.simplemobiletools.draw.pro.activities.MainActivity -> interICC_android.settings.APP_LOCALE_SETTINGS, 
+com.simplemobiletools.draw.pro.activities.MainActivity -> interICC_android.intent.action.MEDIA_SCANNER_SCAN_FILE, 
+com.simplemobiletools.draw.pro.activities.MainActivity -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+com.simplemobiletools.draw.pro.activities.MainActivity -> com.simplemobiletools.draw.pro.activities.SettingsActivity
+com.simplemobiletools.draw.pro.activities.MainActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.draw.pro.activities.MainActivity -> interICC_android.intent.action.CREATE_DOCUMENT, android.intent.category.OPENABLE
+
+r2.a0 -> com.simplemobiletools.commons.receivers.SharedThemeReceiver
+
+u2.g -> interICC_android.intent.action.CREATE_DOCUMENT, android.intent.category.OPENABLE
+u2.g -> interICC_android.intent.action.MEDIA_SCANNER_SCAN_FILE, 
+u2.g -> interICC_android.intent.action.VIEW, 
+u2.g -> interICC_android.intent.action.SEND, 
+u2.g -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+
+b3.h -> com.simplemobiletools.commons.activities.AboutActivity
+b3.h -> com.simplemobiletools.draw.pro.activities.SettingsActivity
+b3.h -> interICC_android.intent.action.GET_CONTENT, android.intent.category.OPENABLE
+
+com.simplemobiletools.commons.activities.AboutActivity -> interICC_android.settings.APP_LOCALE_SETTINGS, 
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.ContributorsActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.LicenseActivity
+com.simplemobiletools.commons.activities.AboutActivity -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+com.simplemobiletools.commons.activities.AboutActivity -> interICC_android.intent.action.SEND, 
+com.simplemobiletools.commons.activities.AboutActivity -> com.simplemobiletools.commons.activities.FAQActivity
+com.simplemobiletools.commons.activities.AboutActivity -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, 
+
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.LicenseActivity -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+com.simplemobiletools.commons.activities.LicenseActivity -> interICC_android.settings.APP_LOCALE_SETTINGS, 
+com.simplemobiletools.commons.activities.LicenseActivity -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, 
+com.simplemobiletools.commons.activities.LicenseActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+
+u2.o -> interICC_android.intent.action.MEDIA_SCANNER_SCAN_FILE, 
+
+com.simplemobiletools.commons.views.FingerprintTab -> interICC_android.settings.SETTINGS, 
+
+com.simplemobiletools.commons.activities.CustomizationActivity -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, 
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.commons.receivers.SharedThemeReceiver
+com.simplemobiletools.commons.activities.CustomizationActivity -> interICC_android.settings.APP_LOCALE_SETTINGS, 
+com.simplemobiletools.commons.activities.CustomizationActivity -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.CustomizationActivity -> com.simplemobiletools.commons.activities.AboutActivity
+
+com.simplemobiletools.commons.activities.FAQActivity -> interICC_android.settings.APP_LOCALE_SETTINGS, 
+com.simplemobiletools.commons.activities.FAQActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.FAQActivity -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, 
+com.simplemobiletools.commons.activities.FAQActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.FAQActivity -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+
+com.simplemobiletools.draw.pro.activities.SplashActivity -> com.simplemobiletools.draw.pro.activities.MainActivity
+
+r2.q -> com.simplemobiletools.commons.activities.AboutActivity
+r2.q -> interICC_android.settings.APP_LOCALE_SETTINGS, 
+r2.q -> com.simplemobiletools.commons.activities.CustomizationActivity
+r2.q -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+r2.q -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, 
+
+com.simplemobiletools.draw.pro.activities.SettingsActivity -> interICC_android.settings.APP_LOCALE_SETTINGS, 
+com.simplemobiletools.draw.pro.activities.SettingsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.draw.pro.activities.SettingsActivity -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+com.simplemobiletools.draw.pro.activities.SettingsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.draw.pro.activities.SettingsActivity -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, 
+
+com.simplemobiletools.commons.activities.ContributorsActivity -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.AboutActivity
+com.simplemobiletools.commons.activities.ContributorsActivity -> com.simplemobiletools.commons.activities.CustomizationActivity
+com.simplemobiletools.commons.activities.ContributorsActivity -> interICC_android.settings.APP_LOCALE_SETTINGS, 
+com.simplemobiletools.commons.activities.ContributorsActivity -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, 
+
+b3.p -> com.simplemobiletools.commons.activities.AboutActivity
+b3.p -> interICC_android.intent.action.OPEN_DOCUMENT_TREE, 
+b3.p -> interICC_android.settings.APPLICATION_DETAILS_SETTINGS, 
+b3.p -> com.simplemobiletools.commons.activities.CustomizationActivity
+b3.p -> interICC_android.settings.APP_LOCALE_SETTINGS, 
+

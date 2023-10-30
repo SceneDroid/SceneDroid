@@ -1,0 +1,12 @@
+945a72205b753b5bc7ecbac3a06e5682->com.github.jameshnsears.quoteunquote.SyncFragment
+com.github.jameshnsears.quoteunquote.SyncFragment->com.github.jameshnsears.quoteunquote.NotificationsFragment
+com.github.jameshnsears.quoteunquote.QuoteUnquoteWidget->interICC_android.intent.action.SEND, 
+53d222b9c2c446cd74cfa0260aa25ddb->d48c60f894f197d4646e2997fc494a05
+9c0a71420e8e62e7789d899403c2d565->5ce641056ed3e37d4d9c8e9d908a33c2
+com.github.jameshnsears.quoteunquote.AppearanceFragment->53d222b9c2c446cd74cfa0260aa25ddb
+com.github.jameshnsears.quoteunquote.QuotationsFragment->com.github.jameshnsears.quoteunquote.SyncFragment
+d48c60f894f197d4646e2997fc494a05->9c0a71420e8e62e7789d899403c2d565
+5ce641056ed3e37d4d9c8e9d908a33c2->945a72205b753b5bc7ecbac3a06e5682
+com.github.jameshnsears.quoteunquote.QuotationsFragment->9db18826b0f749705942eb480498d44e
+com.github.jameshnsears.quoteunquote.configure.ConfigureActivityDouble->com.github.jameshnsears.quoteunquote.QuotationsFragment
+com.github.jameshnsears.quoteunquote.NotificationsFragment->com.github.jameshnsears.quoteunquote.AppearanceFragment

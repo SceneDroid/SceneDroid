@@ -1,0 +1,526 @@
+public final class com.iccbot.R$attr extends java.lang.Object
+{
+    public static final int actionBarDivider;
+    public static final int actionBarItemBackground;
+    public static final int actionBarPopupTheme;
+    public static final int actionBarSize;
+    public static final int actionBarSplitStyle;
+    public static final int actionBarStyle;
+    public static final int actionBarTabBarStyle;
+    public static final int actionBarTabStyle;
+    public static final int actionBarTabTextStyle;
+    public static final int actionBarTheme;
+    public static final int actionBarWidgetTheme;
+    public static final int actionButtonStyle;
+    public static final int actionDropDownStyle;
+    public static final int actionLayout;
+    public static final int actionMenuTextAppearance;
+    public static final int actionMenuTextColor;
+    public static final int actionModeBackground;
+    public static final int actionModeCloseButtonStyle;
+    public static final int actionModeCloseDrawable;
+    public static final int actionModeCopyDrawable;
+    public static final int actionModeCutDrawable;
+    public static final int actionModeFindDrawable;
+    public static final int actionModePasteDrawable;
+    public static final int actionModePopupWindowStyle;
+    public static final int actionModeSelectAllDrawable;
+    public static final int actionModeShareDrawable;
+    public static final int actionModeSplitBackground;
+    public static final int actionModeStyle;
+    public static final int actionModeWebSearchDrawable;
+    public static final int actionOverflowButtonStyle;
+    public static final int actionOverflowMenuStyle;
+    public static final int actionProviderClass;
+    public static final int actionViewClass;
+    public static final int activityChooserViewStyle;
+    public static final int background;
+    public static final int backgroundSplit;
+    public static final int backgroundStacked;
+    public static final int barSize;
+    public static final int buttonBarButtonStyle;
+    public static final int buttonBarStyle;
+    public static final int closeIcon;
+    public static final int closeItemLayout;
+    public static final int collapseContentDescription;
+    public static final int collapseIcon;
+    public static final int color;
+    public static final int colorAccent;
+    public static final int colorButtonNormal;
+    public static final int colorControlActivated;
+    public static final int colorControlHighlight;
+    public static final int colorControlNormal;
+    public static final int colorPrimary;
+    public static final int colorPrimaryDark;
+    public static final int colorSwitchThumbNormal;
+    public static final int commitIcon;
+    public static final int contentInsetEnd;
+    public static final int contentInsetLeft;
+    public static final int contentInsetRight;
+    public static final int contentInsetStart;
+    public static final int customNavigationLayout;
+    public static final int disableChildrenWhenDisabled;
+    public static final int displayOptions;
+    public static final int divider;
+    public static final int dividerHorizontal;
+    public static final int dividerPadding;
+    public static final int dividerVertical;
+    public static final int drawableSize;
+    public static final int drawerArrowStyle;
+    public static final int dropDownListViewStyle;
+    public static final int dropdownListPreferredItemHeight;
+    public static final int editTextBackground;
+    public static final int editTextColor;
+    public static final int elevation;
+    public static final int expandActivityOverflowButtonDrawable;
+    public static final int gapBetweenBars;
+    public static final int goIcon;
+    public static final int height;
+    public static final int hideOnContentScroll;
+    public static final int homeAsUpIndicator;
+    public static final int homeLayout;
+    public static final int icon;
+    public static final int iconifiedByDefault;
+    public static final int indeterminateProgressStyle;
+    public static final int initialActivityCount;
+    public static final int isLightTheme;
+    public static final int itemPadding;
+    public static final int layout;
+    public static final int listChoiceBackgroundIndicator;
+    public static final int listPopupWindowStyle;
+    public static final int listPreferredItemHeight;
+    public static final int listPreferredItemHeightLarge;
+    public static final int listPreferredItemHeightSmall;
+    public static final int listPreferredItemPaddingLeft;
+    public static final int listPreferredItemPaddingRight;
+    public static final int logo;
+    public static final int maxButtonHeight;
+    public static final int measureWithLargestChild;
+    public static final int middleBarArrowSize;
+    public static final int navigationContentDescription;
+    public static final int navigationIcon;
+    public static final int navigationMode;
+    public static final int overlapAnchor;
+    public static final int paddingEnd;
+    public static final int paddingStart;
+    public static final int panelBackground;
+    public static final int panelMenuListTheme;
+    public static final int panelMenuListWidth;
+    public static final int popupMenuStyle;
+    public static final int popupPromptView;
+    public static final int popupTheme;
+    public static final int popupWindowStyle;
+    public static final int preserveIconSpacing;
+    public static final int progressBarPadding;
+    public static final int progressBarStyle;
+    public static final int prompt;
+    public static final int queryBackground;
+    public static final int queryHint;
+    public static final int searchIcon;
+    public static final int searchViewStyle;
+    public static final int selectableItemBackground;
+    public static final int selectableItemBackgroundBorderless;
+    public static final int showAsAction;
+    public static final int showDividers;
+    public static final int showText;
+    public static final int spinBars;
+    public static final int spinnerDropDownItemStyle;
+    public static final int spinnerMode;
+    public static final int spinnerStyle;
+    public static final int splitTrack;
+    public static final int state_above_anchor;
+    public static final int submitBackground;
+    public static final int subtitle;
+    public static final int subtitleTextAppearance;
+    public static final int subtitleTextStyle;
+    public static final int suggestionRowLayout;
+    public static final int switchMinWidth;
+    public static final int switchPadding;
+    public static final int switchStyle;
+    public static final int switchTextAppearance;
+    public static final int textAllCaps;
+    public static final int textAppearanceLargePopupMenu;
+    public static final int textAppearanceListItem;
+    public static final int textAppearanceListItemSmall;
+    public static final int textAppearanceSearchResultSubtitle;
+    public static final int textAppearanceSearchResultTitle;
+    public static final int textAppearanceSmallPopupMenu;
+    public static final int textColorSearchUrl;
+    public static final int theme;
+    public static final int thickness;
+    public static final int thumbTextPadding;
+    public static final int title;
+    public static final int titleMarginBottom;
+    public static final int titleMarginEnd;
+    public static final int titleMarginStart;
+    public static final int titleMarginTop;
+    public static final int titleMargins;
+    public static final int titleTextAppearance;
+    public static final int titleTextStyle;
+    public static final int toolbarNavigationButtonStyle;
+    public static final int toolbarStyle;
+    public static final int topBottomBarArrowSize;
+    public static final int track;
+    public static final int voiceIcon;
+    public static final int windowActionBar;
+    public static final int windowActionBarOverlay;
+    public static final int windowActionModeOverlay;
+    public static final int windowFixedHeightMajor;
+    public static final int windowFixedHeightMinor;
+    public static final int windowFixedWidthMajor;
+    public static final int windowFixedWidthMinor;
+
+    public void <init>()
+    {
+        com.iccbot.R$attr r0;
+
+        r0 := @this: com.iccbot.R$attr;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void <clinit>()
+    {
+        <com.iccbot.R$attr: int windowFixedWidthMinor> = 2130771976;
+
+        <com.iccbot.R$attr: int windowFixedWidthMajor> = 2130771974;
+
+        <com.iccbot.R$attr: int windowFixedHeightMinor> = 2130771975;
+
+        <com.iccbot.R$attr: int windowFixedHeightMajor> = 2130771977;
+
+        <com.iccbot.R$attr: int windowActionModeOverlay> = 2130771973;
+
+        <com.iccbot.R$attr: int windowActionBarOverlay> = 2130771972;
+
+        <com.iccbot.R$attr: int windowActionBar> = 2130771971;
+
+        <com.iccbot.R$attr: int voiceIcon> = 2130772095;
+
+        <com.iccbot.R$attr: int track> = 2130772130;
+
+        <com.iccbot.R$attr: int topBottomBarArrowSize> = 2130772125;
+
+        <com.iccbot.R$attr: int toolbarStyle> = 2130772021;
+
+        <com.iccbot.R$attr: int toolbarNavigationButtonStyle> = 2130772022;
+
+        <com.iccbot.R$attr: int titleTextStyle> = 2130772056;
+
+        <com.iccbot.R$attr: int titleTextAppearance> = 2130772106;
+
+        <com.iccbot.R$attr: int titleMargins> = 2130772108;
+
+        <com.iccbot.R$attr: int titleMarginTop> = 2130772111;
+
+        <com.iccbot.R$attr: int titleMarginStart> = 2130772109;
+
+        <com.iccbot.R$attr: int titleMarginEnd> = 2130772110;
+
+        <com.iccbot.R$attr: int titleMarginBottom> = 2130772112;
+
+        <com.iccbot.R$attr: int title> = 2130771968;
+
+        <com.iccbot.R$attr: int thumbTextPadding> = 2130772131;
+
+        <com.iccbot.R$attr: int thickness> = 2130772128;
+
+        <com.iccbot.R$attr: int theme> = 2130772114;
+
+        <com.iccbot.R$attr: int textColorSearchUrl> = 2130772030;
+
+        <com.iccbot.R$attr: int textAppearanceSmallPopupMenu> = 2130772007;
+
+        <com.iccbot.R$attr: int textAppearanceSearchResultTitle> = 2130772028;
+
+        <com.iccbot.R$attr: int textAppearanceSearchResultSubtitle> = 2130772029;
+
+        <com.iccbot.R$attr: int textAppearanceListItemSmall> = 2130772040;
+
+        <com.iccbot.R$attr: int textAppearanceListItem> = 2130772039;
+
+        <com.iccbot.R$attr: int textAppearanceLargePopupMenu> = 2130772006;
+
+        <com.iccbot.R$attr: int textAllCaps> = 2130772102;
+
+        <com.iccbot.R$attr: int switchTextAppearance> = 2130772132;
+
+        <com.iccbot.R$attr: int switchStyle> = 2130772027;
+
+        <com.iccbot.R$attr: int switchPadding> = 2130772134;
+
+        <com.iccbot.R$attr: int switchMinWidth> = 2130772133;
+
+        <com.iccbot.R$attr: int suggestionRowLayout> = 2130772097;
+
+        <com.iccbot.R$attr: int subtitleTextStyle> = 2130772057;
+
+        <com.iccbot.R$attr: int subtitleTextAppearance> = 2130772107;
+
+        <com.iccbot.R$attr: int subtitle> = 2130772055;
+
+        <com.iccbot.R$attr: int submitBackground> = 2130772099;
+
+        <com.iccbot.R$attr: int state_above_anchor> = 2130772119;
+
+        <com.iccbot.R$attr: int splitTrack> = 2130772135;
+
+        <com.iccbot.R$attr: int spinnerStyle> = 2130772010;
+
+        <com.iccbot.R$attr: int spinnerMode> = 2130772086;
+
+        <com.iccbot.R$attr: int spinnerDropDownItemStyle> = 2130772011;
+
+        <com.iccbot.R$attr: int spinBars> = 2130772122;
+
+        <com.iccbot.R$attr: int showText> = 2130772136;
+
+        <com.iccbot.R$attr: int showDividers> = 2130772104;
+
+        <com.iccbot.R$attr: int showAsAction> = 2130772081;
+
+        <com.iccbot.R$attr: int selectableItemBackgroundBorderless> = 2130772017;
+
+        <com.iccbot.R$attr: int selectableItemBackground> = 2130772016;
+
+        <com.iccbot.R$attr: int searchViewStyle> = 2130772031;
+
+        <com.iccbot.R$attr: int searchIcon> = 2130772094;
+
+        <com.iccbot.R$attr: int queryHint> = 2130772091;
+
+        <com.iccbot.R$attr: int queryBackground> = 2130772098;
+
+        <com.iccbot.R$attr: int prompt> = 2130772085;
+
+        <com.iccbot.R$attr: int progressBarStyle> = 2130772066;
+
+        <com.iccbot.R$attr: int progressBarPadding> = 2130772068;
+
+        <com.iccbot.R$attr: int preserveIconSpacing> = 2130772080;
+
+        <com.iccbot.R$attr: int popupWindowStyle> = 2130772024;
+
+        <com.iccbot.R$attr: int popupTheme> = 2130772076;
+
+        <com.iccbot.R$attr: int popupPromptView> = 2130772087;
+
+        <com.iccbot.R$attr: int popupMenuStyle> = 2130772023;
+
+        <com.iccbot.R$attr: int panelMenuListWidth> = 2130772042;
+
+        <com.iccbot.R$attr: int panelMenuListTheme> = 2130772043;
+
+        <com.iccbot.R$attr: int panelBackground> = 2130772041;
+
+        <com.iccbot.R$attr: int paddingStart> = 2130772078;
+
+        <com.iccbot.R$attr: int paddingEnd> = 2130772079;
+
+        <com.iccbot.R$attr: int overlapAnchor> = 2130772120;
+
+        <com.iccbot.R$attr: int navigationMode> = 2130772053;
+
+        <com.iccbot.R$attr: int navigationIcon> = 2130772117;
+
+        <com.iccbot.R$attr: int navigationContentDescription> = 2130772118;
+
+        <com.iccbot.R$attr: int middleBarArrowSize> = 2130772126;
+
+        <com.iccbot.R$attr: int measureWithLargestChild> = 2130772103;
+
+        <com.iccbot.R$attr: int maxButtonHeight> = 2130772113;
+
+        <com.iccbot.R$attr: int logo> = 2130772059;
+
+        <com.iccbot.R$attr: int listPreferredItemPaddingRight> = 2130772036;
+
+        <com.iccbot.R$attr: int listPreferredItemPaddingLeft> = 2130772035;
+
+        <com.iccbot.R$attr: int listPreferredItemHeightSmall> = 2130772033;
+
+        <com.iccbot.R$attr: int listPreferredItemHeightLarge> = 2130772034;
+
+        <com.iccbot.R$attr: int listPreferredItemHeight> = 2130772032;
+
+        <com.iccbot.R$attr: int listPopupWindowStyle> = 2130772038;
+
+        <com.iccbot.R$attr: int listChoiceBackgroundIndicator> = 2130772044;
+
+        <com.iccbot.R$attr: int layout> = 2130772089;
+
+        <com.iccbot.R$attr: int itemPadding> = 2130772069;
+
+        <com.iccbot.R$attr: int isLightTheme> = 2130771970;
+
+        <com.iccbot.R$attr: int initialActivityCount> = 2130772100;
+
+        <com.iccbot.R$attr: int indeterminateProgressStyle> = 2130772067;
+
+        <com.iccbot.R$attr: int iconifiedByDefault> = 2130772090;
+
+        <com.iccbot.R$attr: int icon> = 2130772058;
+
+        <com.iccbot.R$attr: int homeLayout> = 2130772065;
+
+        <com.iccbot.R$attr: int homeAsUpIndicator> = 2130772012;
+
+        <com.iccbot.R$attr: int hideOnContentScroll> = 2130772070;
+
+        <com.iccbot.R$attr: int height> = 2130771969;
+
+        <com.iccbot.R$attr: int goIcon> = 2130772093;
+
+        <com.iccbot.R$attr: int gapBetweenBars> = 2130772124;
+
+        <com.iccbot.R$attr: int expandActivityOverflowButtonDrawable> = 2130772101;
+
+        <com.iccbot.R$attr: int elevation> = 2130772075;
+
+        <com.iccbot.R$attr: int editTextColor> = 2130772025;
+
+        <com.iccbot.R$attr: int editTextBackground> = 2130772026;
+
+        <com.iccbot.R$attr: int dropdownListPreferredItemHeight> = 2130772009;
+
+        <com.iccbot.R$attr: int dropDownListViewStyle> = 2130772037;
+
+        <com.iccbot.R$attr: int drawerArrowStyle> = 2130772129;
+
+        <com.iccbot.R$attr: int drawableSize> = 2130772123;
+
+        <com.iccbot.R$attr: int dividerVertical> = 2130772018;
+
+        <com.iccbot.R$attr: int dividerPadding> = 2130772105;
+
+        <com.iccbot.R$attr: int dividerHorizontal> = 2130772019;
+
+        <com.iccbot.R$attr: int divider> = 2130772060;
+
+        <com.iccbot.R$attr: int displayOptions> = 2130772054;
+
+        <com.iccbot.R$attr: int disableChildrenWhenDisabled> = 2130772088;
+
+        <com.iccbot.R$attr: int customNavigationLayout> = 2130772064;
+
+        <com.iccbot.R$attr: int contentInsetStart> = 2130772071;
+
+        <com.iccbot.R$attr: int contentInsetRight> = 2130772074;
+
+        <com.iccbot.R$attr: int contentInsetLeft> = 2130772073;
+
+        <com.iccbot.R$attr: int contentInsetEnd> = 2130772072;
+
+        <com.iccbot.R$attr: int commitIcon> = 2130772096;
+
+        <com.iccbot.R$attr: int colorSwitchThumbNormal> = 2130772052;
+
+        <com.iccbot.R$attr: int colorPrimaryDark> = 2130772046;
+
+        <com.iccbot.R$attr: int colorPrimary> = 2130772045;
+
+        <com.iccbot.R$attr: int colorControlNormal> = 2130772048;
+
+        <com.iccbot.R$attr: int colorControlHighlight> = 2130772050;
+
+        <com.iccbot.R$attr: int colorControlActivated> = 2130772049;
+
+        <com.iccbot.R$attr: int colorButtonNormal> = 2130772051;
+
+        <com.iccbot.R$attr: int colorAccent> = 2130772047;
+
+        <com.iccbot.R$attr: int color> = 2130772121;
+
+        <com.iccbot.R$attr: int collapseIcon> = 2130772115;
+
+        <com.iccbot.R$attr: int collapseContentDescription> = 2130772116;
+
+        <com.iccbot.R$attr: int closeItemLayout> = 2130772077;
+
+        <com.iccbot.R$attr: int closeIcon> = 2130772092;
+
+        <com.iccbot.R$attr: int buttonBarStyle> = 2130772014;
+
+        <com.iccbot.R$attr: int buttonBarButtonStyle> = 2130772015;
+
+        <com.iccbot.R$attr: int barSize> = 2130772127;
+
+        <com.iccbot.R$attr: int backgroundStacked> = 2130772062;
+
+        <com.iccbot.R$attr: int backgroundSplit> = 2130772063;
+
+        <com.iccbot.R$attr: int background> = 2130772061;
+
+        <com.iccbot.R$attr: int activityChooserViewStyle> = 2130772020;
+
+        <com.iccbot.R$attr: int actionViewClass> = 2130772083;
+
+        <com.iccbot.R$attr: int actionProviderClass> = 2130772084;
+
+        <com.iccbot.R$attr: int actionOverflowMenuStyle> = 2130771982;
+
+        <com.iccbot.R$attr: int actionOverflowButtonStyle> = 2130771981;
+
+        <com.iccbot.R$attr: int actionModeWebSearchDrawable> = 2130772004;
+
+        <com.iccbot.R$attr: int actionModeStyle> = 2130771993;
+
+        <com.iccbot.R$attr: int actionModeSplitBackground> = 2130771996;
+
+        <com.iccbot.R$attr: int actionModeShareDrawable> = 2130772002;
+
+        <com.iccbot.R$attr: int actionModeSelectAllDrawable> = 2130772001;
+
+        <com.iccbot.R$attr: int actionModePopupWindowStyle> = 2130772005;
+
+        <com.iccbot.R$attr: int actionModePasteDrawable> = 2130772000;
+
+        <com.iccbot.R$attr: int actionModeFindDrawable> = 2130772003;
+
+        <com.iccbot.R$attr: int actionModeCutDrawable> = 2130771998;
+
+        <com.iccbot.R$attr: int actionModeCopyDrawable> = 2130771999;
+
+        <com.iccbot.R$attr: int actionModeCloseDrawable> = 2130771997;
+
+        <com.iccbot.R$attr: int actionModeCloseButtonStyle> = 2130771994;
+
+        <com.iccbot.R$attr: int actionModeBackground> = 2130771995;
+
+        <com.iccbot.R$attr: int actionMenuTextColor> = 2130771992;
+
+        <com.iccbot.R$attr: int actionMenuTextAppearance> = 2130771991;
+
+        <com.iccbot.R$attr: int actionLayout> = 2130772082;
+
+        <com.iccbot.R$attr: int actionDropDownStyle> = 2130772008;
+
+        <com.iccbot.R$attr: int actionButtonStyle> = 2130772013;
+
+        <com.iccbot.R$attr: int actionBarWidgetTheme> = 2130771987;
+
+        <com.iccbot.R$attr: int actionBarTheme> = 2130771986;
+
+        <com.iccbot.R$attr: int actionBarTabTextStyle> = 2130771980;
+
+        <com.iccbot.R$attr: int actionBarTabStyle> = 2130771978;
+
+        <com.iccbot.R$attr: int actionBarTabBarStyle> = 2130771979;
+
+        <com.iccbot.R$attr: int actionBarStyle> = 2130771984;
+
+        <com.iccbot.R$attr: int actionBarSplitStyle> = 2130771985;
+
+        <com.iccbot.R$attr: int actionBarSize> = 2130771988;
+
+        <com.iccbot.R$attr: int actionBarPopupTheme> = 2130771983;
+
+        <com.iccbot.R$attr: int actionBarItemBackground> = 2130771990;
+
+        <com.iccbot.R$attr: int actionBarDivider> = 2130771989;
+
+        return;
+    }
+}

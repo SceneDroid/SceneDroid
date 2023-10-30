@@ -1,0 +1,30 @@
+public class com.iccbot.withFrag.Source2WithFrag extends android.support.v7.app.ActionBarActivity
+{
+
+    public void <init>()
+    {
+        com.iccbot.withFrag.Source2WithFrag r0;
+
+        r0 := @this: com.iccbot.withFrag.Source2WithFrag;
+
+        specialinvoke r0.<android.support.v7.app.ActionBarActivity: void <init>()>();
+
+        return;
+    }
+
+    protected void onCreate(android.os.Bundle)
+    {
+        com.iccbot.withFrag.Source2WithFrag r0;
+        android.os.Bundle $r1;
+
+        r0 := @this: com.iccbot.withFrag.Source2WithFrag;
+
+        $r1 := @parameter0: android.os.Bundle;
+
+        specialinvoke r0.<android.support.v7.app.ActionBarActivity: void onCreate(android.os.Bundle)>($r1);
+
+        virtualinvoke r0.<com.iccbot.withFrag.Source2WithFrag: void setContentView(int)>(2130903065);
+
+        return;
+    }
+}

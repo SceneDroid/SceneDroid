@@ -1,0 +1,1 @@
+com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity->interICC_android.intent.action.SEND, 

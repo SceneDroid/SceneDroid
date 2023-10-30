@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <component name="com.simplemobiletools.draw.pro.activities.MainActivity" type="Activity" exported="true">
+    <manifest>
+      <intent_filter action="android.intent.action.VIEW" category="android.intent.category.BROWSABLE, android.intent.category.DEFAULT"/>
+      <intent_filter action="android.intent.action.SEND" category="android.intent.category.DEFAULT"/>
+      <intent_filter action="android.intent.action.SEND_MULTIPLE" category="android.intent.category.DEFAULT"/>
+      <intent_filter action="android.media.action.IMAGE_CAPTURE" category="android.intent.category.DEFAULT"/>
+      <intent_filter action="android.intent.action.EDIT" category="android.intent.category.DEFAULT"/>
+    </manifest>
+    <sender destination="interICC_android.intent.action.MEDIA_SCANNER_SCAN_FILE, , com.simplemobiletools.commons.activities.CustomizationActivity, interICC_android.settings.APPLICATION_DETAILS_SETTINGS, , com.simplemobiletools.draw.pro.activities.SettingsActivity, interICC_android.intent.action.OPEN_DOCUMENT_TREE, , interICC_android.settings.APP_LOCALE_SETTINGS, , com.simplemobiletools.commons.activities.AboutActivity, interICC_android.intent.action.GET_CONTENT, android.intent.category.OPENABLE, interICC_android.intent.action.CREATE_DOCUMENT, android.intent.category.OPENABLE" action="android.intent.action.CREATE_DOCUMENT, android.intent.action.GET_CONTENT, android.intent.action.MEDIA_SCANNER_SCAN_FILE, android.intent.action.OPEN_DOCUMENT_TREE" category="android.intent.category.OPENABLE" type="image/*, image/svg+xml"/>
+  </component>
+  <component name="com.simplemobiletools.commons.activities.CustomizationActivity" type="Activity">
+    <sender destination="com.simplemobiletools.commons.activities.CustomizationActivity, interICC_android.settings.APPLICATION_DETAILS_SETTINGS, , interICC_android.intent.action.OPEN_DOCUMENT_TREE, , interICC_android.settings.APP_LOCALE_SETTINGS, , com.simplemobiletools.commons.activities.AboutActivity, com.simplemobiletools.commons.receivers.SharedThemeReceiver" action="com.simplemobiletools.commons.SHARED_THEME_UPDATED, com.simplemobiletools.commons.SHARED_THEME_ACTIVATED"/>
+  </component>
+  <component name="com.simplemobiletools.commons.activities.FAQActivity" type="Activity">
+    <sender destination="com.simplemobiletools.commons.activities.CustomizationActivity, interICC_android.settings.APPLICATION_DETAILS_SETTINGS, , interICC_android.intent.action.OPEN_DOCUMENT_TREE, , interICC_android.settings.APP_LOCALE_SETTINGS, , com.simplemobiletools.commons.activities.AboutActivity"/>
+  </component>
+  <component name="com.simplemobiletools.draw.pro.activities.SplashActivity" type="Activity">
+    <manifest>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+      <intent_filter action="android.intent.action.MAIN" category="android.intent.category.LAUNCHER"/>
+    </manifest>
+    <sender destination="com.simplemobiletools.draw.pro.activities.MainActivity"/>
+  </component>
+  <component name="com.simplemobiletools.draw.pro.activities.SettingsActivity" type="Activity" exported="true">
+    <manifest>
+      <intent_filter action="android.intent.action.APPLICATION_PREFERENCES" category="android.intent.category.DEFAULT"/>
+    </manifest>
+    <sender destination="com.simplemobiletools.commons.activities.CustomizationActivity, interICC_android.settings.APPLICATION_DETAILS_SETTINGS, , interICC_android.intent.action.OPEN_DOCUMENT_TREE, , interICC_android.settings.APP_LOCALE_SETTINGS, , com.simplemobiletools.commons.activities.AboutActivity" action="android.settings.APPLICATION_DETAILS_SETTINGS, android.settings.APP_LOCALE_SETTINGS"/>
+  </component>
+  <component name="com.simplemobiletools.commons.activities.AboutActivity" type="Activity">
+    <sender destination="com.simplemobiletools.commons.activities.CustomizationActivity, interICC_android.settings.APPLICATION_DETAILS_SETTINGS, , com.simplemobiletools.commons.activities.FAQActivity, interICC_android.intent.action.SEND, , interICC_android.intent.action.OPEN_DOCUMENT_TREE, , interICC_android.settings.APP_LOCALE_SETTINGS, , com.simplemobiletools.commons.activities.AboutActivity, com.simplemobiletools.commons.activities.LicenseActivity, com.simplemobiletools.commons.activities.ContributorsActivity" action="android.intent.action.SENDTO, android.intent.action.SEND" data="mailto:" type="text/plain"/>
+  </component>
+  <component name="com.simplemobiletools.commons.activities.LicenseActivity" type="Activity">
+    <sender destination="com.simplemobiletools.commons.activities.CustomizationActivity, interICC_android.settings.APPLICATION_DETAILS_SETTINGS, , interICC_android.intent.action.OPEN_DOCUMENT_TREE, , interICC_android.settings.APP_LOCALE_SETTINGS, , com.simplemobiletools.commons.activities.AboutActivity"/>
+  </component>
+  <component name="com.simplemobiletools.commons.activities.ContributorsActivity" type="Activity">
+    <sender destination="com.simplemobiletools.commons.activities.CustomizationActivity, interICC_android.settings.APPLICATION_DETAILS_SETTINGS, , interICC_android.intent.action.OPEN_DOCUMENT_TREE, , interICC_android.settings.APP_LOCALE_SETTINGS, , com.simplemobiletools.commons.activities.AboutActivity"/>
+  </component>
+  <component name="com.simplemobiletools.commons.receivers.SharedThemeReceiver" type="Receiver" exported="true">
+    <manifest>
+      <intent_filter action="com.simplemobiletools.commons.SHARED_THEME_UPDATED, com.simplemobiletools.commons.SHARED_THEME_ACTIVATED"/>
+    </manifest>
+  </component>
+</root>

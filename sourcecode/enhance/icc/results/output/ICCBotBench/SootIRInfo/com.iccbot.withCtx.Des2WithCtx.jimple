@@ -1,0 +1,26 @@
+public class com.iccbot.withCtx.Des2WithCtx extends android.app.Service
+{
+
+    public void <init>()
+    {
+        com.iccbot.withCtx.Des2WithCtx r0;
+
+        r0 := @this: com.iccbot.withCtx.Des2WithCtx;
+
+        specialinvoke r0.<android.app.Service: void <init>()>();
+
+        return;
+    }
+
+    public android.os.IBinder onBind(android.content.Intent)
+    {
+        com.iccbot.withCtx.Des2WithCtx r0;
+        android.content.Intent $r1;
+
+        r0 := @this: com.iccbot.withCtx.Des2WithCtx;
+
+        $r1 := @parameter0: android.content.Intent;
+
+        return null;
+    }
+}

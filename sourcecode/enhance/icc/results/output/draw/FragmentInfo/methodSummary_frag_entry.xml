@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+  <methodSummary source="&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;">
+    <node type="ReceiveFromParatMethod" unit="$r1 := @parameter0: android.app.FragmentManager"/>
+    <node type="PassOut" unit="interfaceinvoke $r3.&lt;java.util.Map: java.lang.Object put(java.lang.Object,java.lang.Object)&gt;($r1, $r5)"/>
+    <node type="beginTransaction" unit="$r7 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()"/>
+    <node type="addFunction" unit="$r7 = virtualinvoke $r7.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r5, &quot;com.bumptech.glide.manager&quot;)"/>
+    <node type="commit" unit="virtualinvoke $r7.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: h1.o i(android.app.Activity)&gt;">
+    <node type="ReceiveFromRetValue" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()"/>
+    <node unit="$r3 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r2, null)"/>
+  </methodSummary>
+  <methodSummary source="&lt;h1.o: void h(android.app.Activity)&gt;">
+    <node unit="$r4 = virtualinvoke $r3.&lt;h1.p: h1.o i(android.app.Activity)&gt;($r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;h1.o: void j(android.app.Fragment)&gt;">
+    <node unit="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;">
+    <node type="ReceiveFromParatMethod" unit="$r1 := @parameter0: android.app.FragmentManager"/>
+    <node type="beginTransaction" unit="$r11 = virtualinvoke $r1.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()"/>
+    <node type="addFunction" unit="$r11 = virtualinvoke $r11.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r4, &quot;com.bumptech.glide.manager&quot;)"/>
+    <node type="commit" unit="virtualinvoke $r11.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()"/>
+    <node type="PassOut" unit="virtualinvoke $r9.&lt;java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)&gt;($r6)"/>
+    <node type="PassOut" unit="virtualinvoke $r9.&lt;java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.Object)&gt;($r4)"/>
+    <node type="PassOut" unit="virtualinvoke $r11.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction remove(android.app.Fragment)&gt;($r6)"/>
+    <node type="commit" unit="virtualinvoke $r11.&lt;android.app.FragmentTransaction: int commitAllowingStateLoss()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: boolean handleMessage(android.os.Message)&gt;">
+    <node unit="$z2 = specialinvoke r0.&lt;h1.p: boolean o(android.app.FragmentManager,boolean)&gt;($r9, $z2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;">
+    <node type="ReceiveFromParatMethod" unit="$r3 := @parameter1: android.app.FragmentManager"/>
+    <node type="PassOut" unit="$r5 = specialinvoke r0.&lt;h1.p: h1.o j(android.app.FragmentManager,android.app.Fragment)&gt;($r3, $r4)"/>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;">
+    <node type="ReceiveFromRetValue" unit="$r6 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()"/>
+    <node unit="$r3 = specialinvoke r0.&lt;h1.p: com.bumptech.glide.j d(android.content.Context,android.app.FragmentManager,android.app.Fragment,boolean)&gt;($r1, $r6, null, $z0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;">
+    <node unit="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;">
+    <node unit="$r8 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j t(android.app.Activity)&gt;($r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void C(r2.q,java.lang.String)&gt;">
+    <node unit="specialinvoke $r2.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r3, $r5)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void f(r2.q,java.lang.String)&gt;">
+    <node unit="staticinvoke &lt;u2.g: void C(r2.q,java.lang.String)&gt;($r0, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.f: void run()&gt;">
+    <node unit="staticinvoke &lt;u2.g: void f(r2.q,java.lang.String)&gt;($r1, $r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: boolean B(r2.q,java.lang.String)&gt;">
+    <node unit="virtualinvoke $r1.&lt;android.app.Activity: void runOnUiThread(java.lang.Runnable)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void A(r2.q,java.lang.String)&gt;">
+    <node unit="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void b(r2.q,java.lang.String)&gt;">
+    <node unit="staticinvoke &lt;u2.g: void A(r2.q,java.lang.String)&gt;($r0, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.c: void run()&gt;">
+    <node unit="staticinvoke &lt;u2.g: void b(r2.q,java.lang.String)&gt;($r1, $r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: boolean z(r2.q,java.lang.String)&gt;">
+    <node unit="virtualinvoke $r0.&lt;android.app.Activity: void runOnUiThread(java.lang.Runnable)&gt;($r4)"/>
+  </methodSummary>
+  <methodSummary source="&lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;">
+    <node type="ReceiveFromRetValue" unit="$r2 = virtualinvoke $r1.&lt;android.app.Activity: android.app.FragmentManager getFragmentManager()&gt;()"/>
+    <node type="beginTransaction" unit="$r4 = virtualinvoke $r2.&lt;android.app.FragmentManager: android.app.FragmentTransaction beginTransaction()&gt;()"/>
+    <node type="addFunction" unit="$r4 = virtualinvoke $r4.&lt;android.app.FragmentTransaction: android.app.FragmentTransaction add(android.app.Fragment,java.lang.String)&gt;($r0, &quot;androidx.lifecycle.LifecycleDispatcher.report_fragment_tag&quot;)"/>
+    <node type="commit" unit="virtualinvoke $r4.&lt;android.app.FragmentTransaction: int commit()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;androidx.core.app.f: void onCreate(android.os.Bundle)&gt;">
+    <node unit="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;androidx.activity.ComponentActivity: void onCreate(android.os.Bundle)&gt;">
+    <node unit="specialinvoke r0.&lt;androidx.core.app.f: void onCreate(android.os.Bundle)&gt;($r1)"/>
+    <node unit="staticinvoke &lt;androidx.lifecycle.w: void g(android.app.Activity)&gt;(r0)"/>
+    <node type="setContentView" unit="virtualinvoke r0.&lt;androidx.activity.ComponentActivity: void setContentView(int)&gt;($i0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void R(r2.q,java.lang.String)&gt;">
+    <node unit="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)"/>
+  </methodSummary>
+  <methodSummary source="&lt;h1.o: void onAttach(android.app.Activity)&gt;">
+    <node unit="specialinvoke r0.&lt;h1.o: void h(android.app.Activity)&gt;($r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;r2.q: boolean f0(java.lang.String,s3.l)&gt;">
+    <node unit="$z0 = staticinvoke &lt;u2.g: boolean B(r2.q,java.lang.String)&gt;(r0, $r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0: void N()&gt;">
+    <node unit="virtualinvoke $r1.&lt;r2.q: boolean f0(java.lang.String,s3.l)&gt;($r2, $r4)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0: void h(t2.c0,android.view.View)&gt;">
+    <node unit="specialinvoke $r0.&lt;t2.c0: void N()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0: void b(t2.c0,android.view.View)&gt;">
+    <node unit="staticinvoke &lt;t2.c0: void h(t2.c0,android.view.View)&gt;($r0, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.y: void onClick(android.view.View)&gt;">
+    <node unit="staticinvoke &lt;t2.c0: void b(t2.c0,android.view.View)&gt;($r2, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0: void &lt;init&gt;(r2.q,java.lang.String,boolean,boolean,boolean,boolean,boolean,boolean,boolean,s3.l)&gt;">
+    <node unit="virtualinvoke $r28.&lt;android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)&gt;($r29)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0: void &lt;init&gt;(r2.q,java.lang.String,boolean,boolean,boolean,boolean,boolean,boolean,boolean,s3.l,int,t3.g)&gt;">
+    <node unit="specialinvoke r0.&lt;t2.c0: void &lt;init&gt;(r2.q,java.lang.String,boolean,boolean,boolean,boolean,boolean,boolean,boolean,s3.l)&gt;($r1, $r2, $z0, $z1, $z2, $z3, $z4, $z5, $z6, $r3)"/>
+  </methodSummary>
+  <methodSummary source="&lt;c3.c: void e(c3.c,t3.r,android.view.View,android.view.View)&gt;">
+    <node unit="specialinvoke $r4.&lt;t2.c0: void &lt;init&gt;(r2.q,java.lang.String,boolean,boolean,boolean,boolean,boolean,boolean,boolean,s3.l,int,t3.g)&gt;($r5, $r8, 0, 0, 1, 0, 0, 0, 0, $r6, 488, null)"/>
+  </methodSummary>
+  <methodSummary source="&lt;c3.c: void a(c3.c,t3.r,android.view.View,android.view.View)&gt;">
+    <node unit="staticinvoke &lt;c3.c: void e(c3.c,t3.r,android.view.View,android.view.View)&gt;($r0, $r1, $r2, $r3)"/>
+  </methodSummary>
+  <methodSummary source="&lt;c3.a: void onClick(android.view.View)&gt;">
+    <node unit="staticinvoke &lt;c3.c: void a(c3.c,t3.r,android.view.View,android.view.View)&gt;($r2, $r3, $r4, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;c3.c: void &lt;init&gt;(b3.p,java.lang.String,java.lang.String,java.lang.String,boolean,s3.q)&gt;">
+    <node unit="virtualinvoke $r14.&lt;android.widget.TextView: void setOnClickListener(android.view.View$OnClickListener)&gt;($r16)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void M1()&gt;">
+    <node unit="specialinvoke $r1.&lt;c3.c: void &lt;init&gt;(b3.p,java.lang.String,java.lang.String,java.lang.String,boolean,s3.q)&gt;(r0, $r2, $r3, $r4, 0, $r5)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void a1(com.simplemobiletools.draw.pro.activities.MainActivity)&gt;">
+    <node unit="specialinvoke $r0.&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void M1()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void e(r2.q,java.lang.String)&gt;">
+    <node unit="staticinvoke &lt;u2.g: void R(r2.q,java.lang.String)&gt;($r0, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.e: void run()&gt;">
+    <node unit="staticinvoke &lt;u2.g: void e(r2.q,java.lang.String)&gt;($r1, $r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0: void p(t2.c0)&gt;">
+    <node unit="specialinvoke $r0.&lt;t2.c0: void N()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void W1()&gt;">
+    <node unit="specialinvoke $r1.&lt;c3.c: void &lt;init&gt;(b3.p,java.lang.String,java.lang.String,java.lang.String,boolean,s3.q)&gt;(r0, $r2, $r3, $r4, 1, $r5)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void Q(r2.q,java.lang.String)&gt;">
+    <node unit="virtualinvoke $r0.&lt;android.app.Activity: void runOnUiThread(java.lang.Runnable)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: boolean w(r2.q,java.lang.String)&gt;">
+    <node unit="staticinvoke &lt;u2.g: void Q(r2.q,java.lang.String)&gt;($r0, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;r2.q: boolean e0(java.lang.String,s3.l)&gt;">
+    <node unit="$z0 = staticinvoke &lt;u2.g: boolean z(r2.q,java.lang.String)&gt;(r0, $r2)"/>
+    <node unit="$z0 = staticinvoke &lt;u2.g: boolean w(r2.q,java.lang.String)&gt;(r0, $r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void m(r2.q,x2.b,boolean,s3.l)&gt;">
+    <node unit="virtualinvoke $r2.&lt;r2.q: boolean f0(java.lang.String,s3.l)&gt;($r5, $r8)"/>
+    <node unit="virtualinvoke $r2.&lt;r2.q: boolean e0(java.lang.String,s3.l)&gt;($r5, $r7)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void v1(android.graphics.Bitmap,s3.l)&gt;">
+    <node unit="staticinvoke &lt;u2.g: void m(r2.q,x2.b,boolean,s3.l)&gt;(r0, $r10, 1, $r11)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void T1()&gt;">
+    <node unit="specialinvoke r0.&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void v1(android.graphics.Bitmap,s3.l)&gt;($r4, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: boolean S1(com.simplemobiletools.draw.pro.activities.MainActivity,android.view.MenuItem)&gt;">
+    <node unit="specialinvoke $r0.&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void W1()&gt;()"/>
+    <node unit="specialinvoke $r0.&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void T1()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: boolean R0(com.simplemobiletools.draw.pro.activities.MainActivity,android.view.MenuItem)&gt;">
+    <node unit="$z0 = staticinvoke &lt;com.simplemobiletools.draw.pro.activities.MainActivity: boolean S1(com.simplemobiletools.draw.pro.activities.MainActivity,android.view.MenuItem)&gt;($r1, $r0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;r2.q: void b0(s3.l)&gt;">
+    <node unit="specialinvoke $r6.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;(r0, $r7, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0: void M(java.util.ArrayList)&gt;">
+    <node unit="specialinvoke r0.&lt;t2.c0: void N()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0: void o(t2.c0,java.util.ArrayList)&gt;">
+    <node unit="specialinvoke $r0.&lt;t2.c0: void M(java.util.ArrayList)&gt;($r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0$g$a: void d(t2.c0,java.util.List)&gt;">
+    <node unit="staticinvoke &lt;t2.c0: void o(t2.c0,java.util.ArrayList)&gt;($r0, $r4)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.e1: void q()&gt;">
+    <node unit="virtualinvoke $r1.&lt;r2.q: void b0(s3.l)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.e1: void n(t2.e1,android.view.View)&gt;">
+    <node unit="specialinvoke $r0.&lt;t2.e1: void q()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.e1: void c(t2.e1,android.view.View)&gt;">
+    <node unit="staticinvoke &lt;t2.e1: void n(t2.e1,android.view.View)&gt;($r0, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0$g$a: void a(t2.c0,java.util.List)&gt;">
+    <node unit="staticinvoke &lt;t2.c0$g$a: void d(t2.c0,java.util.List)&gt;($r0, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.d0: void run()&gt;">
+    <node unit="staticinvoke &lt;t2.c0$g$a: void a(t2.c0,java.util.List)&gt;($r1, $r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity$b: void a(boolean)&gt;">
+    <node unit="staticinvoke &lt;u2.g: void m(r2.q,x2.b,boolean,s3.l)&gt;($r2, $r1, 1, $r5)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity$b: java.lang.Object j(java.lang.Object)&gt;">
+    <node unit="virtualinvoke r0.&lt;com.simplemobiletools.draw.pro.activities.MainActivity$b: void a(boolean)&gt;($z0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0$f: void a(java.lang.Object)&gt;">
+    <node unit="staticinvoke &lt;t2.c0: void p(t2.c0)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0$f: java.lang.Object j(java.lang.Object)&gt;">
+    <node unit="virtualinvoke r0.&lt;t2.c0$f: void a(java.lang.Object)&gt;($r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;androidx.fragment.app.e: void onCreate(android.os.Bundle)&gt;">
+    <node unit="specialinvoke r0.&lt;androidx.activity.ComponentActivity: void onCreate(android.os.Bundle)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;r2.q: void onCreate(android.os.Bundle)&gt;">
+    <node unit="specialinvoke r0.&lt;androidx.fragment.app.e: void onCreate(android.os.Bundle)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.SettingsActivity: void onCreate(android.os.Bundle)&gt;">
+    <node unit="specialinvoke r0.&lt;r2.q: void onCreate(android.os.Bundle)&gt;($r1)"/>
+    <node type="setContentView" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;(2131492900)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0$h: void a(java.lang.Object)&gt;">
+    <node unit="staticinvoke &lt;t2.c0: void p(t2.c0)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0$h: java.lang.Object j(java.lang.Object)&gt;">
+    <node unit="virtualinvoke r0.&lt;t2.c0$h: void a(java.lang.Object)&gt;($r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void y(r2.q,java.lang.String)&gt;">
+    <node unit="specialinvoke $r4.&lt;t2.n1: void &lt;init&gt;(android.app.Activity,t2.n1$b,s3.a)&gt;($r0, $r2, $r3)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: void a(r2.q,java.lang.String)&gt;">
+    <node unit="staticinvoke &lt;u2.g: void y(r2.q,java.lang.String)&gt;($r0, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.b: void run()&gt;">
+    <node unit="staticinvoke &lt;u2.g: void a(r2.q,java.lang.String)&gt;($r1, $r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;u2.g: boolean x(r2.q,java.lang.String)&gt;">
+    <node unit="virtualinvoke $r1.&lt;android.app.Activity: void runOnUiThread(java.lang.Runnable)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;r2.q: boolean d0(java.lang.String,s3.l)&gt;">
+    <node unit="$z0 = staticinvoke &lt;u2.g: boolean x(r2.q,java.lang.String)&gt;(r0, $r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.u: void c(java.lang.String,androidx.appcompat.app.b)&gt;">
+    <node unit="virtualinvoke $r3.&lt;r2.q: boolean e0(java.lang.String,s3.l)&gt;($r1, $r5)"/>
+    <node unit="virtualinvoke $r3.&lt;r2.q: boolean d0(java.lang.String,s3.l)&gt;($r1, $r8)"/>
+    <node unit="virtualinvoke $r3.&lt;r2.q: boolean f0(java.lang.String,s3.l)&gt;($r1, $r4)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.u: void a(t2.u,java.lang.String,androidx.appcompat.app.b)&gt;">
+    <node unit="specialinvoke $r0.&lt;t2.u: void c(java.lang.String,androidx.appcompat.app.b)&gt;($r1, $r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.u$a: void d(android.view.View,t2.u,androidx.appcompat.app.b,android.view.View)&gt;">
+    <node unit="staticinvoke &lt;t2.u: void a(t2.u,java.lang.String,androidx.appcompat.app.b)&gt;($r2, $r5, $r0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.u$a: void a(android.view.View,t2.u,androidx.appcompat.app.b,android.view.View)&gt;">
+    <node unit="staticinvoke &lt;t2.u$a: void d(android.view.View,t2.u,androidx.appcompat.app.b,android.view.View)&gt;($r0, $r1, $r2, $r3)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.t: void onClick(android.view.View)&gt;">
+    <node unit="staticinvoke &lt;t2.u$a: void a(android.view.View,t2.u,androidx.appcompat.app.b,android.view.View)&gt;($r2, $r3, $r4, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void j1(com.simplemobiletools.draw.pro.activities.MainActivity)&gt;">
+    <node unit="specialinvoke $r0.&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void W1()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;g3.g: void i(b3.p,java.lang.String,com.simplemobiletools.draw.pro.views.MyCanvas)&gt;">
+    <node unit="staticinvoke &lt;u2.g: void m(r2.q,x2.b,boolean,s3.l)&gt;($r1, $r5, 1, $r6)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void N1(java.lang.String)&gt;">
+    <node unit="staticinvoke &lt;u2.g: void m(r2.q,x2.b,boolean,s3.l)&gt;(r0, $r1, 1, $r4)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void L1(java.lang.String)&gt;">
+    <node unit="specialinvoke r0.&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void N1(java.lang.String)&gt;($r1)"/>
+    <node unit="virtualinvoke $r3.&lt;g3.g: void i(b3.p,java.lang.String,com.simplemobiletools.draw.pro.views.MyCanvas)&gt;(r0, $r1, $r5)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void Z0(com.simplemobiletools.draw.pro.activities.MainActivity,java.lang.String)&gt;">
+    <node unit="specialinvoke $r0.&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void L1(java.lang.String)&gt;($r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity$j: void a(java.lang.String,java.lang.String,java.lang.String)&gt;">
+    <node unit="staticinvoke &lt;com.simplemobiletools.draw.pro.activities.MainActivity: void Z0(com.simplemobiletools.draw.pro.activities.MainActivity,java.lang.String)&gt;($r4, $r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity$j: java.lang.Object g(java.lang.Object,java.lang.Object,java.lang.Object)&gt;">
+    <node unit="virtualinvoke r0.&lt;com.simplemobiletools.draw.pro.activities.MainActivity$j: void a(java.lang.String,java.lang.String,java.lang.String)&gt;($r4, $r5, $r6)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.u$a: void c(androidx.appcompat.app.b)&gt;">
+    <node unit="virtualinvoke $r6.&lt;android.widget.Button: void setOnClickListener(android.view.View$OnClickListener)&gt;($r3)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.u$a: java.lang.Object j(java.lang.Object)&gt;">
+    <node unit="virtualinvoke r0.&lt;t2.u$a: void c(androidx.appcompat.app.b)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: com.bumptech.glide.j f(android.content.Context)&gt;">
+    <node unit="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j e(android.app.Activity)&gt;($r4)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity$e: void a(boolean)&gt;">
+    <node unit="staticinvoke &lt;com.simplemobiletools.draw.pro.activities.MainActivity: void j1(com.simplemobiletools.draw.pro.activities.MainActivity)&gt;($r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity$e: java.lang.Object j(java.lang.Object)&gt;">
+    <node unit="virtualinvoke r0.&lt;com.simplemobiletools.draw.pro.activities.MainActivity$e: void a(boolean)&gt;($z0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity$n: void a()&gt;">
+    <node unit="staticinvoke &lt;com.simplemobiletools.draw.pro.activities.MainActivity: void a1(com.simplemobiletools.draw.pro.activities.MainActivity)&gt;($r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity$n: java.lang.Object b()&gt;">
+    <node unit="virtualinvoke r0.&lt;com.simplemobiletools.draw.pro.activities.MainActivity$n: void a()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0$g$a: void c(java.util.List)&gt;">
+    <node unit="virtualinvoke $r4.&lt;android.app.Activity: void runOnUiThread(java.lang.Runnable)&gt;($r3)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0$g$a: java.lang.Object j(java.lang.Object)&gt;">
+    <node unit="virtualinvoke r0.&lt;t2.c0$g$a: void c(java.util.List)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;h1.p: com.bumptech.glide.j g(androidx.fragment.app.e)&gt;">
+    <node unit="$r3 = virtualinvoke r0.&lt;h1.p: com.bumptech.glide.j f(android.content.Context)&gt;($r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c1: void onClick(android.view.View)&gt;">
+    <node unit="staticinvoke &lt;t2.e1: void c(t2.e1,android.view.View)&gt;($r2, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.e1: void k()&gt;">
+    <node unit="virtualinvoke $r10.&lt;android.widget.RadioButton: void setOnClickListener(android.view.View$OnClickListener)&gt;($r15)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.e1: void &lt;init&gt;(r2.q,java.lang.String,boolean,boolean,s3.l)&gt;">
+    <node unit="specialinvoke r0.&lt;t2.e1: void k()&gt;()"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.commons.activities.ContributorsActivity: void onCreate(android.os.Bundle)&gt;">
+    <node unit="specialinvoke r0.&lt;r2.q: void onCreate(android.os.Bundle)&gt;($r1)"/>
+    <node type="setContentView" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;($i0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.activities.MainActivity: void onCreate(android.os.Bundle)&gt;">
+    <node unit="specialinvoke r0.&lt;r2.q: void onCreate(android.os.Bundle)&gt;($r1)"/>
+    <node type="setContentView" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;(2131492898)"/>
+  </methodSummary>
+  <methodSummary source="&lt;b3.h: boolean onMenuItemClick(android.view.MenuItem)&gt;">
+    <node unit="$z0 = staticinvoke &lt;com.simplemobiletools.draw.pro.activities.MainActivity: boolean R0(com.simplemobiletools.draw.pro.activities.MainActivity,android.view.MenuItem)&gt;($r1, $r2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.bumptech.glide.b: com.bumptech.glide.j u(android.content.Context)&gt;">
+    <node unit="$r2 = virtualinvoke $r1.&lt;h1.p: com.bumptech.glide.j f(android.content.Context)&gt;($r0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.commons.activities.FAQActivity: void onCreate(android.os.Bundle)&gt;">
+    <node unit="specialinvoke r0.&lt;r2.q: void onCreate(android.os.Bundle)&gt;($r1)"/>
+    <node type="setContentView" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;($i0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.draw.pro.views.MyCanvas$b: void c()&gt;">
+    <node unit="$r11 = staticinvoke &lt;com.bumptech.glide.b: com.bumptech.glide.j u(android.content.Context)&gt;($r10)"/>
+  </methodSummary>
+  <methodSummary source="&lt;t2.c0: void a(int)&gt;">
+    <node unit="specialinvoke $r2.&lt;t2.e1: void &lt;init&gt;(r2.q,java.lang.String,boolean,boolean,s3.l)&gt;($r3, $r4, $z0, 1, $r1)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.commons.activities.AboutActivity: void onCreate(android.os.Bundle)&gt;">
+    <node unit="specialinvoke r0.&lt;r2.q: void onCreate(android.os.Bundle)&gt;($r1)"/>
+    <node type="setContentView" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;($i0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.commons.activities.LicenseActivity: void onCreate(android.os.Bundle)&gt;">
+    <node unit="specialinvoke r0.&lt;r2.q: void onCreate(android.os.Bundle)&gt;($r1)"/>
+    <node type="setContentView" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;($i2)"/>
+  </methodSummary>
+  <methodSummary source="&lt;com.simplemobiletools.commons.activities.CustomizationActivity: void onCreate(android.os.Bundle)&gt;">
+    <node unit="specialinvoke r0.&lt;r2.q: void onCreate(android.os.Bundle)&gt;($r2)"/>
+    <node type="setContentView" unit="virtualinvoke r0.&lt;androidx.appcompat.app.c: void setContentView(int)&gt;($i0)"/>
+  </methodSummary>
+  <methodSummary source="&lt;r2.r: void onCreate(android.os.Bundle)&gt;">
+    <node unit="specialinvoke r0.&lt;androidx.fragment.app.e: void onCreate(android.os.Bundle)&gt;($r1)"/>
+  </methodSummary>
+</root>

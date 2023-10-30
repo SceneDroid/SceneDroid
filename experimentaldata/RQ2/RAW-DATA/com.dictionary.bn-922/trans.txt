@@ -1,0 +1,5 @@
+com.dictionary.bn.PopupActivity->com.dictionary.bn.DictionaryActivity
+com.dictionary.bn.DictionaryActivity->com.dictionary.bn.OCRDepActivity
+com.dictionary.bn.OCRDepActivity->com.dictionary.bn.DictionaryActivity
+com.dictionary.bn.DictionaryActivity->interICC_android.intent.action.SEND, 
+com.dictionary.bn.DictionaryActivity->4ebb1c3fad55acafc0992ef5c7e0b3af

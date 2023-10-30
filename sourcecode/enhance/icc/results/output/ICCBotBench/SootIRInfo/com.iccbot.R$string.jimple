@@ -1,0 +1,76 @@
+public final class com.iccbot.R$string extends java.lang.Object
+{
+    public static final int abc_action_bar_home_description;
+    public static final int abc_action_bar_home_description_format;
+    public static final int abc_action_bar_home_subtitle_description_format;
+    public static final int abc_action_bar_up_description;
+    public static final int abc_action_menu_overflow_description;
+    public static final int abc_action_mode_done;
+    public static final int abc_activity_chooser_view_see_all;
+    public static final int abc_activitychooserview_choose_application;
+    public static final int abc_searchview_description_clear;
+    public static final int abc_searchview_description_query;
+    public static final int abc_searchview_description_search;
+    public static final int abc_searchview_description_submit;
+    public static final int abc_searchview_description_voice;
+    public static final int abc_shareactionprovider_share_with;
+    public static final int abc_shareactionprovider_share_with_application;
+    public static final int abc_toolbar_collapse_description;
+    public static final int action_settings;
+    public static final int app_name;
+    public static final int hello_world;
+
+    public void <init>()
+    {
+        com.iccbot.R$string r0;
+
+        r0 := @this: com.iccbot.R$string;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void <clinit>()
+    {
+        <com.iccbot.R$string: int hello_world> = 2131361809;
+
+        <com.iccbot.R$string: int app_name> = 2131361808;
+
+        <com.iccbot.R$string: int action_settings> = 2131361810;
+
+        <com.iccbot.R$string: int abc_toolbar_collapse_description> = 2131361796;
+
+        <com.iccbot.R$string: int abc_shareactionprovider_share_with_application> = 2131361806;
+
+        <com.iccbot.R$string: int abc_shareactionprovider_share_with> = 2131361807;
+
+        <com.iccbot.R$string: int abc_searchview_description_voice> = 2131361803;
+
+        <com.iccbot.R$string: int abc_searchview_description_submit> = 2131361802;
+
+        <com.iccbot.R$string: int abc_searchview_description_search> = 2131361799;
+
+        <com.iccbot.R$string: int abc_searchview_description_query> = 2131361800;
+
+        <com.iccbot.R$string: int abc_searchview_description_clear> = 2131361801;
+
+        <com.iccbot.R$string: int abc_activitychooserview_choose_application> = 2131361804;
+
+        <com.iccbot.R$string: int abc_activity_chooser_view_see_all> = 2131361805;
+
+        <com.iccbot.R$string: int abc_action_mode_done> = 2131361792;
+
+        <com.iccbot.R$string: int abc_action_menu_overflow_description> = 2131361795;
+
+        <com.iccbot.R$string: int abc_action_bar_up_description> = 2131361794;
+
+        <com.iccbot.R$string: int abc_action_bar_home_subtitle_description_format> = 2131361798;
+
+        <com.iccbot.R$string: int abc_action_bar_home_description_format> = 2131361797;
+
+        <com.iccbot.R$string: int abc_action_bar_home_description> = 2131361793;
+
+        return;
+    }
+}

@@ -1,0 +1,6 @@
+is.xyz.mpv.MainActivity->is.xyz.mpv.MPVActivity
+is.xyz.mpv.MPVActivity->is.xyz.mpv.FilePickerActivity
+is.xyz.mpv.MainActivity->is.xyz.mpv.MPVFilePickerFragment
+is.xyz.mpv.config.SettingsActivity->is.xyz.mpv.config.SettingsActivity$VideoPreferenceFragment
+is.xyz.mpv.FilePickerActivity->is.xyz.mpv.MPVFilePickerFragment
+is.xyz.mpv.MainActivity->is.xyz.mpv.config.SettingsActivity

@@ -1,0 +1,40 @@
+digraph G {
+subgraph cluster_legend{ 
+bgcolor=mintcream;
+_Activity[color = red];
+_Service[color = royalblue];
+_Provider[color = violet];
+_Reciever[color = peru];
+_Fragment[color = teal];
+_Main[style=filled, fillcolor=orange, color = mintcream];
+_Exported[style=filled, fillcolor=lightpink, color = mintcream];
+_Main -> _Exported -> _Activity -> _Service -> _Reciever -> _Provider -> _Fragment; 
+}
+subgraph cluster_component{ 
+Des2WithFragCtx[style=filled, fillcolor=pink, color = red];
+Source3WithCtx[color = red];
+Source1WithCtx[color = red];
+Source2WithCtx[color = red];
+Source4WithCtx[color = red];
+Des1WithFrag[style=filled, fillcolor=pink, color = red];
+Des2WithCtx[style=filled, fillcolor=pink, color = red];
+Source5WithCtx[color = red];
+Des1WithCtx[style=filled, fillcolor=pink, color = red];
+Source1WithFrag[color = red];
+Des1WithFragCtx[style=filled, fillcolor=pink, color = red];
+Source2WithFrag[color = red];
+Des2WithFrag[style=filled, fillcolor=pink, color = red];
+SourceWithFragCtx[style=filled, fillcolor=orange, color = red];
+Source1WithFrag->Des1WithFrag;
+Source3WithCtx->Des1WithCtx;
+Source2WithCtx->Des1WithCtx;
+Source2WithCtx->Des2WithCtx;
+Source1WithCtx->Des1WithCtx;
+Source1WithCtx->Des2WithCtx;
+Source2WithFrag->Des2WithFrag;
+Source4WithCtx->Des2WithCtx;
+Source5WithCtx->Des1WithCtx;
+SourceWithFragCtx->Des2WithFragCtx;
+SourceWithFragCtx->Des1WithFragCtx;
+}
+}

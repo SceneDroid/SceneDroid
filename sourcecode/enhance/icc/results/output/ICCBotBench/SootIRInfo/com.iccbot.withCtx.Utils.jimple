@@ -1,0 +1,28 @@
+public class com.iccbot.withCtx.Utils extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        com.iccbot.withCtx.Utils r0;
+
+        r0 := @this: com.iccbot.withCtx.Utils;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+
+    public static void startIntent(android.content.Context, android.content.Intent)
+    {
+        android.content.Context $r0;
+        android.content.Intent $r1;
+
+        $r0 := @parameter0: android.content.Context;
+
+        $r1 := @parameter1: android.content.Intent;
+
+        virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r1);
+
+        return;
+    }
+}

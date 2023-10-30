@@ -1,0 +1,33 @@
+com.bflysoft.eyesurfer.favsetting.FavSettingMain->com.bflysoft.eyesurfer.favsetting.FavMediaSetting
+com.bflysoft.eyesurfer.util.CustomChooser->interICC_android.intent.action.VIEW, 
+com.bflysoft.eyesurfer.util.CustomChooser->interICC_android.intent.action.SEND, 
+com.bflysoft.eyesurfer.viewer.ImageViewer->com.bflysoft.eyesurfer.viewer.MediaList
+com.bflysoft.eyesurfer.NotiStarter->com.bflysoft.eyesurfer.Intro
+com.bflysoft.eyesurfer.util.CustomChooser->com.bflysoft.eyesurfer.util.SaveToLocal
+com.bflysoft.eyesurfer.MainActivity->com.bflysoft.eyesurfer.fragments.b
+com.bflysoft.eyesurfer.MainActivity->com.bflysoft.eyesurfer.viewer.ArticleViewer
+com.bflysoft.eyesurfer.MainActivity->com.bflysoft.eyesurfer.PopupContractAgree
+com.bflysoft.eyesurfer.util.CustomChooser->interICC_new java.lang.String, android.intent.action.SEND, 
+com.bflysoft.eyesurfer.MainActivity->com.bflysoft.eyesurfer.PopupEventNotice
+com.bflysoft.eyesurfer.viewer.ArticleViewer->com.bflysoft.eyesurfer.viewer.ImageViewer
+com.bflysoft.eyesurfer.Login->com.bflysoft.eyesurfer.PopupNotice
+com.bflysoft.eyesurfer.Intro->com.bflysoft.eyesurfer.Login
+com.bflysoft.eyesurfer.MainActivity->com.bflysoft.eyesurfer.Intro
+com.bflysoft.eyesurfer.Login->com.bflysoft.eyesurfer.PopupEventNotice
+com.bflysoft.eyesurfer.Intro->com.bflysoft.eyesurfer.MainActivity
+com.bflysoft.eyesurfer.MainActivity->com.bflysoft.eyesurfer.PopupNotice
+com.bflysoft.eyesurfer.NotiStarter->com.bflysoft.eyesurfer.MainActivity
+com.bflysoft.eyesurfer.MainActivity->com.bflysoft.eyesurfer.viewer.ImageViewer
+com.bflysoft.eyesurfer.viewer.CaptionViewer->com.bflysoft.eyesurfer.viewer.CaptionViewer
+com.bflysoft.eyesurfer.viewer.ArticleViewer->com.bflysoft.eyesurfer.util.CustomChooser
+com.bflysoft.eyesurfer.util.CustomChooser->interICC_android.intent.action.SEND_MULTIPLE, 
+com.bflysoft.eyesurfer.Login->com.bflysoft.eyesurfer.DeviceReg
+com.bflysoft.eyesurfer.viewer.ImageViewer->com.bflysoft.eyesurfer.util.CustomChooser
+com.bflysoft.eyesurfer.viewer.ImageViewer->com.bflysoft.eyesurfer.viewer.ArticleViewer
+com.bflysoft.eyesurfer.MainActivity->com.bflysoft.eyesurfer.fragments.HomeMenu
+com.bflysoft.eyesurfer.Login->com.bflysoft.eyesurfer.MainActivity
+com.bflysoft.eyesurfer.pushSetting.EtiquetteTimeSetting->9e13c9ec7a8f7e3810f76d9bf57144ea
+com.bflysoft.eyesurfer.MainActivity->com.bflysoft.eyesurfer.viewer.CaptionViewer
+com.bflysoft.eyesurfer.util.CustomChooser->interICC_new java.lang.String, android.intent.action.SEND_MULTIPLE, 
+com.bflysoft.eyesurfer.MainActivity->com.bflysoft.eyesurfer.Login
+com.bflysoft.eyesurfer.util.CustomChooser->8be82e00a3ddb8030618852c11a9d53d

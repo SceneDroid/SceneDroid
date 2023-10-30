@@ -1,0 +1,14 @@
+public final class com.iccbot.R extends java.lang.Object
+{
+
+    public void <init>()
+    {
+        com.iccbot.R r0;
+
+        r0 := @this: com.iccbot.R;
+
+        specialinvoke r0.<java.lang.Object: void <init>()>();
+
+        return;
+    }
+}
