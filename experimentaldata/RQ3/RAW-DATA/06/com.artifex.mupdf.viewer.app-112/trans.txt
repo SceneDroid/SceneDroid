@@ -1,3 +1,0 @@
-com.artifex.mupdf.viewer.DocumentActivity->com.artifex.mupdf.viewer.OutlineActivity
-com.artifex.mupdf.viewer.app.LibraryActivity->com.artifex.mupdf.viewer.DocumentActivity
-com.artifex.mupdf.viewer.app.LibraryActivity->interICC_android.intent.action.OPEN_DOCUMENT, android.intent.category.OPENABLE

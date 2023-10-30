@@ -1,1 +1,0 @@
-fr.keuse.rightsalert.activity.ApplistActivity->b7e857ef55f3e12885c7c5928826acee

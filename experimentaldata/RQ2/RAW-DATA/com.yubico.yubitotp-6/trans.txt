@@ -1,7 +1,0 @@
-0a6a8aa2e600cbf8adb59ed7e1e362cd->22c873de85c295713415c5eacb3a2ccb
-com.yubico.yubitotp.TotpWidgetActivity->com.yubico.yubitotp.TotpWidgetActivity
-com.yubico.yubitotp.TotpWidgetConfigure->com.yubico.yubitotp.TotpWidgetActivity
-com.yubico.yubitotp.TotpWidgetActivity->com.yubico.yubitotp.TotpGenerator
-com.yubico.yubitotp.TotpActivity->com.yubico.yubitotp.TotpGenerator
-com.yubico.yubitotp.TotpActivity->0a6a8aa2e600cbf8adb59ed7e1e362cd
-com.yubico.yubitotp.TotpActivity->6f94f0d2d73f81b2b9653d7fbee05b76

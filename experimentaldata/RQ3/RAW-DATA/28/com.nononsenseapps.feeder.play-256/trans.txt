@@ -1,3 +1,0 @@
-com.nononsenseapps.feeder.ui.OpenLinkInDefaultActivity->com.nononsenseapps.feeder.ui.MainActivity
-com.nononsenseapps.feeder.ui.ManageSettingsActivity->com.nononsenseapps.feeder.ui.MainActivity
-com.nononsenseapps.feeder.ui.AddFeedFromShareActivity->com.nononsenseapps.feeder.ui.MainActivity

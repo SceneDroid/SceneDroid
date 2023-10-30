@@ -1,5 +1,0 @@
-ac73aeb118fc04e3affe277b8d9d8079->hu.vsza.adsdroid.PartList
-hu.vsza.adsdroid.SearchPanel->78a4d79817af2eff90c4adfc81d627bc
-hu.vsza.adsdroid.PartList->interICC_android.intent.action.VIEW, 
-hu.vsza.adsdroid.SearchPanel->hu.vsza.adsdroid.PartList
-hu.vsza.adsdroid.SearchPanel->ac73aeb118fc04e3affe277b8d9d8079

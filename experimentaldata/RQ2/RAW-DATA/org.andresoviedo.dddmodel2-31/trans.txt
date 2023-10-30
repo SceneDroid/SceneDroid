@@ -1,4 +1,0 @@
-org.andresoviedo.app.model3D.MainActivity->org.andresoviedo.app.model3D.view.MenuActivity
-org.andresoviedo.app.model3D.MainActivity->org.andresoviedo.app.model3D.view.ModelActivity
-org.andresoviedo.app.model3D.view.MenuActivity->org.andresoviedo.util.view.TextActivity
-org.andresoviedo.app.model3D.view.MenuActivity->org.andresoviedo.app.model3D.view.ModelActivity

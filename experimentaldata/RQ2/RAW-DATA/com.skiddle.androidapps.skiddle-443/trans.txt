@@ -1,3 +1,0 @@
-com.skiddle.androidapps.skiddle.activity.BuyTicketActivity->com.skiddle.androidapps.skiddle.WebviewFragment
-com.skiddle.androidapps.skiddle.activity.SpotifyAuthActivity->5690137463cc3242b344b8b3cf51a725
-com.skiddle.androidapps.skiddle.refactoring.activities.WalkthroughActivity->com.skiddle.androidapps.skiddle.WalkthroughOne

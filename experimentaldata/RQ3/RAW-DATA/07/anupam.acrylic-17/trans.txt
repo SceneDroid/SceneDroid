@@ -1,8 +1,0 @@
-anupam.acrylic.EasyPaint->c8daf0570f08b46d0fd6f4635b00abb0
-anupam.acrylic.Splash->anupam.acrylic.EasyPaint
-anupam.acrylic.EasyPaint->interICC_android.intent.action.SEND, 
-anupam.acrylic.EasyPaint->interICC_android.intent.action.GET_CONTENT, 
-c8daf0570f08b46d0fd6f4635b00abb0->91e9bd80afb20721ecd300bd90ed32d7
-anupam.acrylic.EasyPaint->anupam.acrylic.AboutActivity
-c8daf0570f08b46d0fd6f4635b00abb0->anupam.acrylic.AboutActivity
-anupam.acrylic.EasyPaint->7eaef8adb797e580e80a4c75f26d2b23

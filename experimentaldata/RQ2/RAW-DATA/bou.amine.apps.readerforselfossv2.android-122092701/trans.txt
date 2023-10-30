@@ -1,5 +1,0 @@
-bou.amine.apps.readerforselfossv2.android.AddSourceActivity->bou.amine.apps.readerforselfossv2.android.LoginActivity
-bou.amine.apps.readerforselfossv2.android.SourcesActivity->bou.amine.apps.readerforselfossv2.android.AddSourceActivity
-bou.amine.apps.readerforselfossv2.android.LoginActivity->bou.amine.apps.readerforselfossv2.android.HomeActivity
-bou.amine.apps.readerforselfossv2.android.HomeActivity->bou.amine.apps.readerforselfossv2.android.SourcesActivity
-bou.amine.apps.readerforselfossv2.android.MainActivity->bou.amine.apps.readerforselfossv2.android.LoginActivity

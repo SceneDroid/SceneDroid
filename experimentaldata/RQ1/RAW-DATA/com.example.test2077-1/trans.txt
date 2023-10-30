@@ -1,8 +1,0 @@
-com.example.test2077.HomeFragment->390a9857b5efd203cf64777f62d9bf37
-com.example.test2077.MainActivity->com.example.test2077.HomeFragment
-390a9857b5efd203cf64777f62d9bf37->f35cd4e20956b5f5efcb9a08007fb294
-f35cd4e20956b5f5efcb9a08007fb294->com.example.test2077.GalleryFragment
-com.example.test2077.GalleryFragment->629fbe7ad70b45f8072e30c314b74d18
-com.example.test2077.SlideshowFragment->a58b8545776cb3d3f41cce423a8b8a47
-390a9857b5efd203cf64777f62d9bf37->1d534ae20ba60bd94d2d5bdd3b2a30c3
-f35cd4e20956b5f5efcb9a08007fb294->com.example.test2077.SlideshowFragment

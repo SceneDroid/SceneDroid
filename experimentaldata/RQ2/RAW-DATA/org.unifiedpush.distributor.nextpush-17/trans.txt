@@ -1,2 +1,0 @@
-org.unifiedpush.distributor.nextpush.activities.MainActivity->600e68e7118cb1ba8a79e19d976d9efa
-org.unifiedpush.distributor.nextpush.activities.MainActivity->00e81843a5ab00308e33f29b000593ed

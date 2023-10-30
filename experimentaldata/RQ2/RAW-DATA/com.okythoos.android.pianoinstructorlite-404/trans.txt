@@ -1,7 +1,0 @@
-com.okythoos.android.pianoinstructorlite.PILPianoInstructorActivity->027cee0d4cc08c3bb5db3ef2b2ac3fe6
-027cee0d4cc08c3bb5db3ef2b2ac3fe6->1a4e2665ebf3b3a85a7b818efa9e90e6
-com.okythoos.android.pianoinstructorlite.PILFavFilesActivity->interICC_android.intent.action.SEND, 
-com.okythoos.android.pianoinstructorlite.PILFileManagerActivity->interICC_android.intent.action.SEND, 
-com.okythoos.android.pianoinstructorlite.PILLinksActivity->interICC_android.intent.action.SEND, 
-com.okythoos.android.pianoinstructorlite.PILPianoInstructorActivity->interICC_android.intent.action.SEND, 
-com.okythoos.android.pianoinstructorlite.PILLessonsActivity->interICC_android.intent.action.SEND, 

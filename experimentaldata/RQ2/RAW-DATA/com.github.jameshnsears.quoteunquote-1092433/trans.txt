@@ -1,1 +1,0 @@
-com.github.jameshnsears.quoteunquote.QuoteUnquoteWidget->interICC_android.intent.action.SEND, 

@@ -1,4 +1,0 @@
-org.jtb.alogcat.ShareService->interICC_android.intent.action.SEND, 
-org.jtb.alogcat.LogActivity->org.jtb.alogcat.PrefsActivity
-org.jtb.alogcat.LogActivity->interICC_android.intent.action.SEND, 
-org.jtb.alogcat.PrefsActivity->77ee966e7cd59f2b3e8ea4ba37ca252d

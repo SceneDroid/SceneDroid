@@ -1,7 +1,0 @@
-net.gsantner.memetastic.activity.MemeCreateActivity->interICC_android.intent.action.SEND, 
-net.gsantner.memetastic.activity.ImageViewActivity->interICC_android.intent.action.SEND, 
-net.gsantner.memetastic.activity.SettingsActivity->net.gsantner.memetastic.activity.SettingsActivity$SettingsFragmentMaster
-net.gsantner.memetastic.activity.MoreInfoActivity->net.gsantner.memetastic.activity.MoreInfoFragment
-net.gsantner.memetastic.activity.MainActivity->net.gsantner.memetastic.activity.MoreInfoFragment
-net.gsantner.memetastic.activity.MainActivity->net.gsantner.memetastic.activity.MemeCreateActivity
-net.gsantner.memetastic.activity.MainActivity->net.gsantner.memetastic.activity.ImageViewActivity

@@ -1,5 +1,0 @@
-com.hdictionary.gu.OCRDepActivity->com.hdictionary.gu.DictionaryActivity
-com.hdictionary.gu.DictionaryActivity->com.hdictionary.gu.OCRDepActivity
-com.hdictionary.gu.DictionaryActivity->0d803405dc40e9e7d58e3bb27584ebf0
-com.hdictionary.gu.DictionaryActivity->interICC_android.intent.action.SEND, 
-com.hdictionary.gu.PopupActivity->com.hdictionary.gu.DictionaryActivity
